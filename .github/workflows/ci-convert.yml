@@ -1,5 +1,5 @@
-# This workflow is used to convert changed HTAN.model.csv to HTAN.model.jsonld
-# and push the updated HTAN.model.jsonld to feature branch
+# This workflow is used to convert changed veoibd.data.model.csv to veoibd.data.model.jsonld
+# and push the updated veoibd.model.jsonld to feature branch
 
 name: CI
 
@@ -34,7 +34,7 @@ jobs:
       - name: Convert .csv to .jsonld
         shell: bash
         run: |
-          schematic schema convert HTAN.model.csv
+          schematic schema convert veoibd.data.model.csv
 
       - uses: r-lib/actions/pr-fetch@v2
         with:
@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add HTAN.model.jsonld
+          git add veoibd.data.model.jsonld
           git commit -m "GitHub Action: convert *.model.csv to *.model.jsonld" || echo "No changes to commit"
 
       - uses: r-lib/actions/pr-push@v2

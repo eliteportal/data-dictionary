@@ -5,9 +5,9 @@ name: CI
 
 
 on:
-  pull_request:
-    branches: main
-    paths: 'veoibd.data.model.csv'
+  push:
+    branches:
+      - main
 
 jobs:
   CI:

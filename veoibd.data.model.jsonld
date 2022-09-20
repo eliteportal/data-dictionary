@@ -2068,6 +2068,9 @@
                 },
                 {
                     "@id": "bts:SecondHandSmokeExposure"
+                },
+                {
+                    "@id": "bts:Component"
                 }
             ],
             "sms:validationRules": []
@@ -2844,6 +2847,23 @@
                 }
             ],
             "sms:displayName": "secondHandSmokeExposure",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Component",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Component",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IndividualClinicalMetadataTemplate"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Component",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

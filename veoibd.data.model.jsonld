@@ -2851,10 +2851,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:MockComponent",
+            "@id": "bts:BiospecimenMetadataTemplate",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Mock Component to work with schematic",
-            "rdfs:label": "MockComponent",
+            "rdfs:comment": "SysBio VEOIBD Biospecimen template schema",
+            "rdfs:label": "BiospecimenMetadataTemplate",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataType"
@@ -2863,13 +2863,491 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "mockComponent",
+            "sms:displayName": "biospecimenMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresComponent": [
                 {
                     "@id": "bts:IndividualClinicalMetadataTemplate"
                 }
             ],
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:LocalID"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:BiopsySampleKey"
+                },
+                {
+                    "@id": "bts:SampleType"
+                },
+                {
+                    "@id": "bts:BiopsyLocation"
+                },
+                {
+                    "@id": "bts:BiopsyInflammationStatus"
+                },
+                {
+                    "@id": "bts:NumberOfBiopsies"
+                },
+                {
+                    "@id": "bts:PreservationMethod"
+                },
+                {
+                    "@id": "bts:Volume"
+                },
+                {
+                    "@id": "bts:VolumeUnit"
+                },
+                {
+                    "@id": "bts:NumberOfCells"
+                },
+                {
+                    "@id": "bts:CellViability"
+                },
+                {
+                    "@id": "bts:DateCollected"
+                },
+                {
+                    "@id": "bts:DiagnosisCategory"
+                },
+                {
+                    "@id": "bts:Notes"
+                },
+                {
+                    "@id": "bts:ShippingTrackingNumber"
+                },
+                {
+                    "@id": "bts:ShippingVendor"
+                },
+                {
+                    "@id": "bts:SpecimenIDSource"
+                },
+                {
+                    "@id": "bts:UniqueID"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Meaningful ID used for identifying sample. formatted as [RC2 Subject ID] + [Sample Type Abbreviation] + [Sample key (for biopsy only)]",
+            "rdfs:label": "SpecimenID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "specimenID",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BiopsySampleKey",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Key indicating additional information about sample. Should match key found in RC2 Sample ID\nFor biopsy: location, inflamation status, and preservation method. \nFor Serum:\nFor PBMC:",
+            "rdfs:label": "BiopsySampleKey",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:A"
+                },
+                {
+                    "@id": "bts:B"
+                },
+                {
+                    "@id": "bts:C"
+                },
+                {
+                    "@id": "bts:D"
+                },
+                {
+                    "@id": "bts:E"
+                },
+                {
+                    "@id": "bts:F"
+                },
+                {
+                    "@id": "bts:G"
+                },
+                {
+                    "@id": "bts:H"
+                },
+                {
+                    "@id": "bts:I"
+                },
+                {
+                    "@id": "bts:J"
+                }
+            ],
+            "sms:displayName": "biopsySampleKey",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SampleType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Indicates type of sample being described",
+            "rdfs:label": "SampleType",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Biopsy"
+                },
+                {
+                    "@id": "bts:Serum"
+                },
+                {
+                    "@id": "bts:PBMC"
+                },
+                {
+                    "@id": "bts:PAX"
+                }
+            ],
+            "sms:displayName": "sampleType",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BiopsyLocation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Biopsy location",
+            "rdfs:label": "BiopsyLocation",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Sigmoid"
+                },
+                {
+                    "@id": "bts:DescendingColon/Transverse"
+                },
+                {
+                    "@id": "bts:Sigmoid/DecendingColon"
+                },
+                {
+                    "@id": "bts:Unspecified"
+                },
+                {
+                    "@id": "bts:MostSevereArea"
+                }
+            ],
+            "sms:displayName": "biopsyLocation",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BiopsyInflammationStatus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Biopsy inflamation status",
+            "rdfs:label": "BiopsyInflammationStatus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Inflamed"
+                },
+                {
+                    "@id": "bts:Uninflamed"
+                }
+            ],
+            "sms:displayName": "biopsyInflammationStatus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NumberOfBiopsies",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "number of biopsies",
+            "rdfs:label": "NumberOfBiopsies",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "numberOfBiopsies",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PreservationMethod",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "method of preservation for biopsy samples",
+            "rdfs:label": "PreservationMethod",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Cryopreserved"
+                },
+                {
+                    "@id": "bts:Snapfrozen"
+                },
+                {
+                    "@id": "bts:Formalin"
+                },
+                {
+                    "@id": "bts:PAXgenetube"
+                }
+            ],
+            "sms:displayName": "preservationMethod",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Volume",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "volume of serum, PBMC, PAX collected",
+            "rdfs:label": "Volume",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "volume",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VolumeUnit",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "units the volume is reported in",
+            "rdfs:label": "VolumeUnit",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "volumeUnit",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NumberOfCells",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "number of cells for PBMC samples",
+            "rdfs:label": "NumberOfCells",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "numberOfCells",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CellViability",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "cell viability for PBMC samples",
+            "rdfs:label": "CellViability",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cellViability",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DateCollected",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "date sample was collected in format YYYY-MM-DD",
+            "rdfs:label": "DateCollected",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "dateCollected",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DiagnosisCategory",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "general diagnosis category",
+            "rdfs:label": "DiagnosisCategory",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:CD"
+                },
+                {
+                    "@id": "bts:UC"
+                },
+                {
+                    "@id": "bts:IBD-U"
+                },
+                {
+                    "@id": "bts:CTL"
+                }
+            ],
+            "sms:displayName": "diagnosisCategory",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Notes",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "any additional notes about the biospecimen",
+            "rdfs:label": "Notes",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "notes",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ShippingTrackingNumber",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "tracking number issued by vendor. this can be used to identify shipping \"batches\" i.e. samples that were shipped at the same time under the same conditions",
+            "rdfs:label": "ShippingTrackingNumber",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "shippingTrackingNumber",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ShippingVendor",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "vendor used to ship biosamples",
+            "rdfs:label": "ShippingVendor",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "shippingVendor",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenIDSource",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "sample originator. Should match prefix on RC2 Sample ID",
+            "rdfs:label": "SpecimenIDSource",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:BCH"
+                },
+                {
+                    "@id": "bts:TOR"
+                },
+                {
+                    "@id": "bts:MUN"
+                }
+            ],
+            "sms:displayName": "specimenIDSource",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniqueID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "unique ID, if there is one that is separate from the specimen ID. Some sites may collect this but not all",
+            "rdfs:label": "UniqueID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "uniqueID",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -3889,6 +4367,448 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Not Hispanic/Latino origin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:A",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "A",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "A",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:B",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "B",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "B",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:C",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "C",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "C",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:D",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "D",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "D",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:E",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "E",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "E",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:F",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "F",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "F",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:G",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "G",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "G",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:H",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "H",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "H",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:I",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "I",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "I",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:J",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "J",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsySampleKey"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "J",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Biopsy",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Biopsy",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SampleType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Biopsy",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Serum",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Serum",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SampleType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Serum",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PBMC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PBMC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SampleType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PBMC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PAX",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PAX",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SampleType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PAX",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sigmoid",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Sigmoid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Sigmoid",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DescendingColon/Transverse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DescendingColon/Transverse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Descending Colon/Transverse",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sigmoid/DecendingColon",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Sigmoid/DecendingColon",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Sigmoid/Decending Colon",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Unspecified",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Unspecified",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Unspecified",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MostSevereArea",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MostSevereArea",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Most Severe Area",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Inflamed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Inflamed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyInflammationStatus"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Inflamed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Uninflamed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Uninflamed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiopsyInflammationStatus"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Uninflamed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cryopreserved",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cryopreserved",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PreservationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cryopreserved",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Snapfrozen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Snapfrozen",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PreservationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "snap frozen",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Formalin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Formalin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PreservationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "formalin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PAXgenetube",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PAXgenetube",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:PreservationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PAXgene tube",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CTL",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CTL",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiagnosisCategory"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "CTL",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }

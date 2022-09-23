@@ -3394,6 +3394,9 @@
             ],
             "sms:requiresDependency": [
                 {
+                    "@id": "bts:Filename"
+                },
+                {
                     "@id": "bts:IndividualID"
                 },
                 {
@@ -5994,6 +5997,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "CTL",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Filename",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Filename",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BulkRNAseqTemplate"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Filename",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

@@ -3400,6 +3400,9 @@
                     "@id": "bts:SpecimenID"
                 },
                 {
+                    "@id": "bts:LibraryID"
+                },
+                {
                     "@id": "bts:Assay"
                 },
                 {
@@ -3410,9 +3413,6 @@
                 },
                 {
                     "@id": "bts:RIN"
-                },
-                {
-                    "@id": "bts:LibraryID"
                 },
                 {
                     "@id": "bts:ReferenceSet"
@@ -3463,49 +3463,45 @@
                     "@id": "bts:MedianGenes"
                 },
                 {
-                    "@id": "bts:MedianUMIs"
+                    "@id": "bts:FileFormat"
                 },
                 {
-                    "@id": "bts:FileType"
+                    "@id": "bts:DataSubtype"
                 },
                 {
-                    "@id": "bts:ProcessingLevel"
-                }
-            ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IndividualID",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Identifying string linked to the individual or animal being studied",
-            "rdfs:label": "IndividualID",
-            "rdfs:subClassOf": [
+                    "@id": "bts:CellViability"
+                },
                 {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "IndividualID",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SpecimenID",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Identifying string linked to a particular sample or specimen",
-            "rdfs:label": "SpecimenID",
-            "rdfs:subClassOf": [
+                    "@id": "bts:Ratio260over230"
+                },
                 {
-                    "@id": "bts:DataProperty"
+                    "@id": "bts:Ratio260over280"
+                },
+                {
+                    "@id": "bts:UniqueGenes"
+                },
+                {
+                    "@id": "bts:MappedReads"
+                },
+                {
+                    "@id": "bts:RRNARate"
+                },
+                {
+                    "@id": "bts:TotalUnmappedReads"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:KitNumber"
+                },
+                {
+                    "@id": "bts:DV200"
+                },
+                {
+                    "@id": "bts:DuplicationRate"
                 }
             ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "SpecimenID",
-            "sms:required": "sms:true",
             "sms:validationRules": []
         },
         {
@@ -3560,6 +3556,233 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:HiSeqX"
+                },
+                {
+                    "@id": "bts:HiSeq4000"
+                },
+                {
+                    "@id": "bts:Illumina1M"
+                },
+                {
+                    "@id": "bts:HiSeq3000"
+                },
+                {
+                    "@id": "bts:HiSeq2500"
+                },
+                {
+                    "@id": "bts:DNBSEQ"
+                },
+                {
+                    "@id": "bts:HiSeq1000"
+                },
+                {
+                    "@id": "bts:GAIIx"
+                },
+                {
+                    "@id": "bts:IlluminaH650"
+                },
+                {
+                    "@id": "bts:DdSEQSingle-CellIsolator"
+                },
+                {
+                    "@id": "bts:ConfocalImaging"
+                },
+                {
+                    "@id": "bts:BrukerAvanceIII"
+                },
+                {
+                    "@id": "bts:BionanoIrys"
+                },
+                {
+                    "@id": "bts:BiographmCT"
+                },
+                {
+                    "@id": "bts:HiSeq2000"
+                },
+                {
+                    "@id": "bts:IlluminaHumanOmni1-Quadv1.0"
+                },
+                {
+                    "@id": "bts:IlluminaOmni5M"
+                },
+                {
+                    "@id": "bts:IlluminaMouseWG-6v2.0expressionbeadchip"
+                },
+                {
+                    "@id": "bts:IlluminaNovaseq6000"
+                },
+                {
+                    "@id": "bts:IlluminaWholeGenomeDASL"
+                },
+                {
+                    "@id": "bts:InfiniumGlobalDiversityArray-8"
+                },
+                {
+                    "@id": "bts:IlluminaInfinium-HumanMethylation450-BeadChip"
+                },
+                {
+                    "@id": "bts:IlluminaInfiniumGSAMD-24v2-0"
+                },
+                {
+                    "@id": "bts:IlluminaMethylationEPIC"
+                },
+                {
+                    "@id": "bts:PacBioRSII"
+                },
+                {
+                    "@id": "bts:IlluminaHumanMethylation450"
+                },
+                {
+                    "@id": "bts:IlluminaHumanHT-12V30R1"
+                },
+                {
+                    "@id": "bts:IlluminaHumanHap650Yv3A"
+                },
+                {
+                    "@id": "bts:IlluminaHumanHap300"
+                },
+                {
+                    "@id": "bts:IlluminaOmni5-Quad"
+                },
+                {
+                    "@id": "bts:Biocratesp180"
+                },
+                {
+                    "@id": "bts:IlluminaOmni2pt5M"
+                },
+                {
+                    "@id": "bts:IlluminaOmni2.5-8V1.3"
+                },
+                {
+                    "@id": "bts:IlluminaOmni2.5-8V1.1"
+                },
+                {
+                    "@id": "bts:IlluminaOmni2.5-8"
+                },
+                {
+                    "@id": "bts:LluminaInfiniumGeneralScreeningArray24-Kitv3.0"
+                },
+                {
+                    "@id": "bts:BGISEQ-500"
+                },
+                {
+                    "@id": "bts:Perlegen300Karray"
+                },
+                {
+                    "@id": "bts:AffymetrixU133Plus2"
+                },
+                {
+                    "@id": "bts:Orbitrap"
+                },
+                {
+                    "@id": "bts:XevoTQ-S"
+                },
+                {
+                    "@id": "bts:Agilent44Karray"
+                },
+                {
+                    "@id": "bts:NextSeq2000"
+                },
+                {
+                    "@id": "bts:NextSeq500"
+                },
+                {
+                    "@id": "bts:NanostringnCounterMouseADPanel"
+                },
+                {
+                    "@id": "bts:NanostringnCounter"
+                },
+                {
+                    "@id": "bts:MiSeq"
+                },
+                {
+                    "@id": "bts:LTQOrbitrapXL"
+                },
+                {
+                    "@id": "bts:InfiniumPsychArrayBeadChip"
+                },
+                {
+                    "@id": "bts:InfiniumOmni2.5Exome-8v1.5"
+                },
+                {
+                    "@id": "bts:InfiniumOmni2.5Exome-8v1.4"
+                },
+                {
+                    "@id": "bts:InfiniumOmni2.5Exome-8v1.3"
+                },
+                {
+                    "@id": "bts:InfiniumOmni2.5Exome-8v1.1"
+                },
+                {
+                    "@id": "bts:InfiniumHumanOmniExpressExome"
+                },
+                {
+                    "@id": "bts:OrbiTrapFusion"
+                },
+                {
+                    "@id": "bts:OrbitrapFusionLumos"
+                },
+                {
+                    "@id": "bts:OlinkTarget96"
+                },
+                {
+                    "@id": "bts:Triplequadrupole"
+                },
+                {
+                    "@id": "bts:AffymetrixU133AB"
+                },
+                {
+                    "@id": "bts:AffymetrixHumanGene1.0STArray"
+                },
+                {
+                    "@id": "bts:PacBioSequelII"
+                },
+                {
+                    "@id": "bts:XevoG2QTOF"
+                },
+                {
+                    "@id": "bts:PsychChip"
+                },
+                {
+                    "@id": "bts:Affy6.0"
+                },
+                {
+                    "@id": "bts:Affy5.0"
+                },
+                {
+                    "@id": "bts:IlluminaNovaSeq6000"
+                },
+                {
+                    "@id": "bts:QExactiveHF"
+                },
+                {
+                    "@id": "bts:QExactive"
+                },
+                {
+                    "@id": "bts:Time-of-flight"
+                },
+                {
+                    "@id": "bts:SimoaHD-1Analyzer"
+                },
+                {
+                    "@id": "bts:SignaPremierAIR3T"
+                },
+                {
+                    "@id": "bts:IlluminaMiSeq"
+                },
+                {
+                    "@id": "bts:SequenomMultiplex"
+                },
+                {
+                    "@id": "bts:Quadrupoletime-of-flight"
+                },
+                {
+                    "@id": "bts:QExactivePlus"
+                }
+            ],
             "sms:displayName": "platform",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3611,6 +3834,29 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:GRCh37"
+                },
+                {
+                    "@id": "bts:GRCm38"
+                },
+                {
+                    "@id": "bts:MMUL1.0"
+                },
+                {
+                    "@id": "bts:HRC"
+                },
+                {
+                    "@id": "bts:1000Genomesphase3"
+                },
+                {
+                    "@id": "bts:GRCh38"
+                },
+                {
+                    "@id": "bts:DmelR6.06"
+                }
+            ],
             "sms:displayName": "referenceSet",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3679,6 +3925,65 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:LncRNAenrichment"
+                },
+                {
+                    "@id": "bts:SureCell"
+                },
+                {
+                    "@id": "bts:TotalRNA"
+                },
+                {
+                    "@id": "bts:MULTIseq"
+                },
+                {
+                    "@id": "bts:Multiome"
+                },
+                {
+                    "@id": "bts:MiRNAenrichment"
+                },
+                {
+                    "@id": "bts:MethylSeq"
+                },
+                {
+                    "@id": "bts:Proximityligation"
+                },
+                {
+                    "@id": "bts:EndItDNAEndRepairKit"
+                },
+                {
+                    "@id": "bts:STARRSeq"
+                },
+                {
+                    "@id": "bts:DNALibraryConstruction"
+                },
+                {
+                    "@id": "bts:ChromiumSingleCell3'"
+                },
+                {
+                    "@id": "bts:CellHashing"
+                },
+                {
+                    "@id": "bts:Amplicon"
+                },
+                {
+                    "@id": "bts:PolyAselection"
+                },
+                {
+                    "@id": "bts:SPLITseq"
+                },
+                {
+                    "@id": "bts:RRNAdepletion"
+                },
+                {
+                    "@id": "bts:KapaHyperPrep"
+                },
+                {
+                    "@id": "bts:PCRfree"
+                }
+            ],
             "sms:displayName": "libraryPrep",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3696,6 +4001,53 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Drop-Seq"
+                },
+                {
+                    "@id": "bts:Sac-seq"
+                },
+                {
+                    "@id": "bts:NexteraXT"
+                },
+                {
+                    "@id": "bts:Smart-seq1"
+                },
+                {
+                    "@id": "bts:10x"
+                },
+                {
+                    "@id": "bts:Omni-ATAC"
+                },
+                {
+                    "@id": "bts:Accel-NGSMethyl-Seq"
+                },
+                {
+                    "@id": "bts:CEL-seq"
+                },
+                {
+                    "@id": "bts:NEBNext"
+                },
+                {
+                    "@id": "bts:Smart-seq2"
+                },
+                {
+                    "@id": "bts:Smart-seq4"
+                },
+                {
+                    "@id": "bts:SMRTbell"
+                },
+                {
+                    "@id": "bts:TruSeq"
+                },
+                {
+                    "@id": "bts:UltralowMethyl-Seq"
+                },
+                {
+                    "@id": "bts:Accel-NGS2SPlus"
+                }
+            ],
             "sms:displayName": "libraryPreparationMethod",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3730,6 +4082,26 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:ADT"
+                },
+                {
+                    "@id": "bts:PlasmidDNA"
+                },
+                {
+                    "@id": "bts:HTO"
+                },
+                {
+                    "@id": "bts:CMO"
+                },
+                {
+                    "@id": "bts:LMO"
+                },
+                {
+                    "@id": "bts:CDNA"
+                }
+            ],
             "sms:displayName": "libraryType",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3747,6 +4119,26 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:FALSE"
+                },
+                {
+                    "@id": "bts:TRUE"
+                },
+                {
+                    "@id": "bts:False"
+                },
+                {
+                    "@id": "bts:False"
+                },
+                {
+                    "@id": "bts:True"
+                },
+                {
+                    "@id": "bts:True"
+                }
+            ],
             "sms:displayName": "isStranded",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3764,6 +4156,14 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Forward"
+                },
+                {
+                    "@id": "bts:Reverse"
+                }
+            ],
             "sms:displayName": "readStrandOrigin",
             "sms:required": "sms:false",
             "sms:validationRules": []
@@ -3788,7 +4188,7 @@
         {
             "@id": "bts:RunType",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "The sequencing read types",
             "rdfs:label": "RunType",
             "rdfs:subClassOf": [
                 {
@@ -3798,9 +4198,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "runType",
-            "sms:required": "sms:false",
-            "sms:requiresDependency": [
+            "schema:rangeIncludes": [
                 {
                     "@id": "bts:SingleEnd"
                 },
@@ -3808,6 +4206,8 @@
                     "@id": "bts:PairedEnd"
                 }
             ],
+            "sms:displayName": "runType",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -3879,27 +4279,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:MedianUMIs",
+            "@id": "bts:FileFormat",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The median number of total Unique Molecular Identifier (UMI) counts across all cell-associated barcodes",
-            "rdfs:label": "MedianUMIs",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "medianUMIs",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:FileType",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "FileType",
+            "rdfs:comment": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
+            "rdfs:label": "FileFormat",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataProperty"
@@ -3914,20 +4297,23 @@
                 },
                 {
                     "@id": "bts:Countmatrix"
+                },
+                {
+                    "@id": "bts:Bam"
                 }
             ],
-            "sms:displayName": "FileType",
+            "sms:displayName": "fileFormat",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:ProcessingLevel",
+            "@id": "bts:DataSubtype",
             "@type": "rdfs:Class",
             "rdfs:comment": "The processing level of the data",
-            "rdfs:label": "ProcessingLevel",
+            "rdfs:label": "DataSubtype",
             "rdfs:subClassOf": [
                 {
-                    "@id": "schema:Thing"
+                    "@id": "bts:DataProperty"
                 }
             ],
             "schema:isPartOf": {
@@ -3950,7 +4336,202 @@
                     "@id": "bts:Aggregated"
                 }
             ],
-            "sms:displayName": "processingLevel",
+            "sms:displayName": "dataSubtype",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CellViability",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A cell phenotype that consists of the cell's disposition to survive and develop normally.",
+            "rdfs:label": "CellViability",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cellViability",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ratio260over230",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Ratio of absorbance at 230 nm and 260 nm. Measures protein or other contaminants. Range up to approximately 2.2.",
+            "rdfs:label": "Ratio260over230",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ratio260over230",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ratio260over280",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Measure of DNA vs. RNA purity. Range up to approximately 2.0.",
+            "rdfs:label": "Ratio260over280",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ratio260over280",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UniqueGenes",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The number of unique genes",
+            "rdfs:label": "UniqueGenes",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "uniqueGenes",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MappedReads",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Mapped reads refer to those reads from the sequenced sample that align directly to a single region (set of loci) on the reference genome.",
+            "rdfs:label": "MappedReads",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mappedReads",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RRNARate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The percentage of rRNA in a cell",
+            "rdfs:label": "RRNARate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rRNARate",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TotalUnmappedReads",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The total number of unmapped reads from the sequenced sample to a single region (set of loci) on the reference genome.",
+            "rdfs:label": "TotalUnmappedReads",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "totalUnmappedReads",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DataType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Types of input/output data in bioinformatics pipelines",
+            "rdfs:label": "DataType",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:GenomicVariants"
+                },
+                {
+                    "@id": "bts:GeneExpression"
+                }
+            ],
+            "sms:displayName": "dataType",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:KitNumber",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "kit serial number",
+            "rdfs:label": "KitNumber",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "kitNumber",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DV200",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The DV200 is the percentage of RNA fragments > 200 nucleotides.",
+            "rdfs:label": "DV200",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "DV200",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DuplicationRate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The duplication rate is the fraction of mapped reads where any 2 reads share the same 5_ and 3_ coordinates.",
+            "rdfs:label": "DuplicationRate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "duplicationRate",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -5434,6 +6015,2182 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:HiSeqX",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeqX",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeqX",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HiSeq4000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeq4000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeq4000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Illumina1M",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Illumina1M",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_1M",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HiSeq3000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeq3000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeq3000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HiSeq2500",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeq2500",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeq2500",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DNBSEQ",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DNBSEQ",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "DNBSEQ",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HiSeq1000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeq1000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeq1000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GAIIx",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GAIIx",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "GAIIx",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaH650",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaH650",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_h650",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DdSEQSingle-CellIsolator",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DdSEQSingle-CellIsolator",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ddSEQ Single-Cell Isolator",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ConfocalImaging",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ConfocalImaging",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "confocalImaging",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BrukerAvanceIII",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BrukerAvanceIII",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Bruker Avance III",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BionanoIrys",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BionanoIrys",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Bionano Irys",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BiographmCT",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BiographmCT",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Biograph mCT",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HiSeq2000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HiSeq2000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HiSeq2000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaHumanOmni1-Quadv1.0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaHumanOmni1-Quadv1.0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_HumanOmni1-Quadv1.0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni5M",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni5M",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni5M",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaMouseWG-6v2.0expressionbeadchip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaMouseWG-6v2.0expressionbeadchip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina MouseWG-6 v2.0 expression beadchip",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaNovaseq6000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaNovaseq6000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaNovaseq6000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaWholeGenomeDASL",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaWholeGenomeDASL",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaWholeGenomeDASL",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumGlobalDiversityArray-8",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumGlobalDiversityArray-8",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium Global Diversity Array-8",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaInfinium-HumanMethylation450-BeadChip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaInfinium-HumanMethylation450-BeadChip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Infinium-HumanMethylation450-BeadChip",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaInfiniumGSAMD-24v2-0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaInfiniumGSAMD-24v2-0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaInfiniumGSAMD-24v2-0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaMethylationEPIC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaMethylationEPIC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaMethylationEPIC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PacBioRSII",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PacBioRSII",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBioRSII",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaHumanMethylation450",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaHumanMethylation450",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaHumanMethylation450",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaHumanHT-12V30R1",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaHumanHT-12V30R1",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaHumanHT-12_V3_0_R1",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaHumanHap650Yv3A",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaHumanHap650Yv3A",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaHumanHap650Yv3_A",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaHumanHap300",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaHumanHap300",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaHumanHap300",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni5-Quad",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni5-Quad",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni5-Quad",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Biocratesp180",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Biocratesp180",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Biocrates p180",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni2pt5M",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni2pt5M",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni2pt5M",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni2.5-8V1.3",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni2.5-8V1.3",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni2.5-8_v1.3",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni2.5-8V1.1",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni2.5-8V1.1",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni2.5-8_v1.1",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaOmni2.5-8",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaOmni2.5-8",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina_Omni2.5-8",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LluminaInfiniumGeneralScreeningArray24-Kitv3.0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LluminaInfiniumGeneralScreeningArray24-Kitv3.0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "llumina Infinium General Screening Array 24-Kit v3.0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BGISEQ-500",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BGISEQ-500",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "BGISEQ-500",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Perlegen300Karray",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Perlegen300Karray",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Perlegen300Karray",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AffymetrixU133Plus2",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AffymetrixU133Plus2",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "AffymetrixU133Plus2",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Orbitrap",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Orbitrap",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "orbitrap",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:XevoTQ-S",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "XevoTQ-S",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Xevo TQ-S",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Agilent44Karray",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Agilent44Karray",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Agilent44Karray",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NextSeq2000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NextSeq2000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NextSeq2000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NextSeq500",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NextSeq500",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NextSeq500",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NanostringnCounterMouseADPanel",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NanostringnCounterMouseADPanel",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NanostringnCounter_MouseADPanel",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NanostringnCounter",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NanostringnCounter",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NanostringnCounter",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MiSeq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MiSeq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "MiSeq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LTQOrbitrapXL",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LTQOrbitrapXL",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "LTQOrbitrapXL",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumPsychArrayBeadChip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumPsychArrayBeadChip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "InfiniumPsychArrayBeadChip",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumOmni2.5Exome-8v1.5",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumOmni2.5Exome-8v1.5",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium Omni2.5Exome-8 v1.5",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumOmni2.5Exome-8v1.4",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumOmni2.5Exome-8v1.4",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium Omni2.5Exome-8 v1.4",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumOmni2.5Exome-8v1.3",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumOmni2.5Exome-8v1.3",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium Omni2.5Exome-8 v1.3",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumOmni2.5Exome-8v1.1",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumOmni2.5Exome-8v1.1",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium Omni2.5Exome-8 v1.1",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfiniumHumanOmniExpressExome",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfiniumHumanOmniExpressExome",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Infinium HumanOmniExpressExome",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OrbiTrapFusion",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OrbiTrapFusion",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "OrbiTrap Fusion",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OrbitrapFusionLumos",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OrbitrapFusionLumos",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Orbitrap Fusion Lumos",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OlinkTarget96",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OlinkTarget96",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Olink Target 96",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Triplequadrupole",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Triplequadrupole",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "triple quadrupole",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AffymetrixU133AB",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AffymetrixU133AB",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "AffymetrixU133AB",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AffymetrixHumanGene1.0STArray",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AffymetrixHumanGene1.0STArray",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Affymetrix Human Gene 1.0 ST Array",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PacBioSequelII",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PacBioSequelII",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBio Sequel II",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:XevoG2QTOF",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "XevoG2QTOF",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Xevo G2 QTOF",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PsychChip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PsychChip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PsychChip",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Affy6.0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Affy6.0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Affy6.0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Affy5.0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Affy5.0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Affy5.0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaNovaSeq6000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaNovaSeq6000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina NovaSeq 6000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:QExactiveHF",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "QExactiveHF",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Q Exactive HF",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:QExactive",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "QExactive",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Q Exactive",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Time-of-flight",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Time-of-flight",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "time-of-flight",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SimoaHD-1Analyzer",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SimoaHD-1Analyzer",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Simoa HD-1 Analyzer",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SignaPremierAIR3T",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SignaPremierAIR3T",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Signa Premier AIR 3T",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaMiSeq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IlluminaMiSeq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IlluminaMiSeq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SequenomMultiplex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SequenomMultiplex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "SequenomMultiplex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Quadrupoletime-of-flight",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Quadrupoletime-of-flight",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "quadrupole time-of-flight",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:QExactivePlus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "QExactivePlus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Q Exactive Plus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GRCh37",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GRCh37",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "GRCh37",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GRCm38",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GRCm38",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "GRCm38",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MMUL1.0",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MMUL1.0",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "MMUL1.0",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HRC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HRC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HRC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:1000Genomesphase3",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "1000Genomesphase3",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "1000 Genomes phase 3",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GRCh38",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GRCh38",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "GRCh38",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DmelR6.06",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DmelR6.06",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReferenceSet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "dmel_r6.06",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LncRNAenrichment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LncRNAenrichment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "lncRNAenrichment",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SureCell",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SureCell",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "SureCell",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TotalRNA",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TotalRNA",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "totalRNA",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MULTIseq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MULTIseq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "MULTIseq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Multiome",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Multiome",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "multiome",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MiRNAenrichment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MiRNAenrichment",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "miRNAenrichment",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MethylSeq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MethylSeq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "methylSeq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Proximityligation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Proximityligation",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "proximity ligation",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:EndItDNAEndRepairKit",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "EndItDNAEndRepairKit",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "EndItDNAEndRepairKit",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:STARRSeq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "STARRSeq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "STARRSeq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DNALibraryConstruction",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DNALibraryConstruction",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "DNALibraryConstruction",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ChromiumSingleCell3'",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ChromiumSingleCell3'",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Chromium Single Cell 3'",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CellHashing",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CellHashing",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cellHashing",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Amplicon",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Amplicon",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amplicon",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PolyAselection",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PolyAselection",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "polyAselection",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SPLITseq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SPLITseq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "SPLITseq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RRNAdepletion",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RRNAdepletion",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rRNAdepletion",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:KapaHyperPrep",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "KapaHyperPrep",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "KapaHyperPrep",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PCRfree",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PCRfree",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPrep"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PCRfree",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Drop-Seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Drop-Seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Drop-Seq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sac-seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Sac-seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sac-seq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NexteraXT",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NexteraXT",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NexteraXT",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Smart-seq1",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Smart-seq1",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Smart-seq1",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:10x",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "10x",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "10x",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Omni-ATAC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Omni-ATAC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Omni-ATAC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Accel-NGSMethyl-Seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Accel-NGSMethyl-Seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Accel-NGS Methyl-Seq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CEL-seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CEL-seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "CEL-seq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NEBNext",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NEBNext",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NEBNext",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Smart-seq2",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Smart-seq2",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Smart-seq2",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Smart-seq4",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Smart-seq4",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Smart-seq4",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SMRTbell",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SMRTbell",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "SMRTbell",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TruSeq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TruSeq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "TruSeq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UltralowMethyl-Seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UltralowMethyl-Seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Ultralow Methyl-Seq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Accel-NGS2SPlus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Accel-NGS2SPlus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Accel-NGS 2S Plus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ADT",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ADT",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ADT",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PlasmidDNA",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "PlasmidDNA",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "plasmid DNA",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:HTO",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "HTO",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "HTO",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CMO",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CMO",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "CMO",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LMO",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LMO",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "LMO",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CDNA",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CDNA",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cDNA",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:FALSE",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "FALSE",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsStranded"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "FALSE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TRUE",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TRUE",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsStranded"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "TRUE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:False",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "False",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsStranded"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "False",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:True",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "True",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsStranded"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "true",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Forward",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Forward",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReadStrandOrigin"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "forward",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Reverse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Reverse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReadStrandOrigin"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "reverse",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:SingleEnd",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -5474,7 +8231,7 @@
             "rdfs:label": "Fastq",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:FileType"
+                    "@id": "bts:FileFormat"
                 }
             ],
             "schema:isPartOf": {
@@ -5491,7 +8248,7 @@
             "rdfs:label": "Countmatrix",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:FileType"
+                    "@id": "bts:FileFormat"
                 }
             ],
             "schema:isPartOf": {
@@ -5502,13 +8259,30 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Bam",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Bam",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FileFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "bam",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Raw",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
             "rdfs:label": "Raw",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProcessingLevel"
+                    "@id": "bts:DataSubtype"
                 }
             ],
             "schema:isPartOf": {
@@ -5525,7 +8299,7 @@
             "rdfs:label": "Aligned",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProcessingLevel"
+                    "@id": "bts:DataSubtype"
                 }
             ],
             "schema:isPartOf": {
@@ -5542,7 +8316,7 @@
             "rdfs:label": "Processed",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProcessingLevel"
+                    "@id": "bts:DataSubtype"
                 }
             ],
             "schema:isPartOf": {
@@ -5559,7 +8333,7 @@
             "rdfs:label": "Normalized",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProcessingLevel"
+                    "@id": "bts:DataSubtype"
                 }
             ],
             "schema:isPartOf": {
@@ -5576,13 +8350,47 @@
             "rdfs:label": "Aggregated",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProcessingLevel"
+                    "@id": "bts:DataSubtype"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "aggregated",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GenomicVariants",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GenomicVariants",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "genomicVariants",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GeneExpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GeneExpression",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "geneExpression",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }

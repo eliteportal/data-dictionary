@@ -1,0 +1,15 @@
+title: VEOIBD Metadata Dictionary
+description: Explore VEOIBD metadata terms by key, value, or descriptions. 
+theme: just-the-docs
+logo: "VEOIBD Logo.png"
+url: https://VEOIBD.github.io/data_models
+
+aux_links:
+  source_repo: https://github.com/VEOIBD/data_models
+
+callouts:
+  highlight:
+    color: yellow
+  warning:
+    title: WARNING
+    color: red

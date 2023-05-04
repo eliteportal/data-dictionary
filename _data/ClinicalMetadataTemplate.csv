@@ -1,0 +1,31 @@
+﻿Key,Key Description,Type,Valid Values,DependsOn,Required,Source,Module
+IndividualID,ID used for sharing amongst consortium. formatted as [site prefix] + [localID],STRING,,,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.09d&code=C69256&ns=ncit,clinical
+localID,local ID used for subject by study site,STRING,,,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.09d&code=C69256&ns=ncit,clinical
+Site,site at which the participant was recruited,STRING,"BCH, TOR, MUN",,TRUE,Sage Bionetworks,clinical
+ParticipantRole,role of the study participant within the family group,STRING,"Proband ,Control ,Mother ,Father ,Sibling",,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C71384,clinical
+siblingType,"if participantRole=sibling, specify sibling type",STRING,"Full sibling ,Half sibling",,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C100809&ns=ncit,clinical
+Sex,biological sex of the study participant,STRING,"Female ,Male ,Unknown",,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C28421&ns=ncit,clinical
+ageAtDiagnosis,study participant age at diagnosis,DOUBLE,,,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C156420&ns=ncit,clinical
+ageAtDiagnosisUnit,age at diagnosis unit,STRING,"years ,months ,weeks ,days",,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C50400&ns=ncit,clinical
+GIPhenotype,VEOIBD phenotype code indicating the GI diagnosis,STRING,"CD ,UC ,IBD-U ,Other GI ,Healthy",,TRUE,Sage Bionetworks,clinical
+ImmunodeficiencyDiagnosis,does the study participant have an immunodeficiency diagnosis,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C39725&ns=ncit,clinical
+Autoimmune,does the study participant have a known autoimmune condition,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C2889,clinical
+AutoimmuneDetails,"please specify which autoimmune disease the participant has, if any",STRING,,,FALSE,Sage Bionetworks,clinical
+LocationOfDiseaseActivity,location of GI disease or activity pertinent to VEOIBD study,STRING,"L1, L1. Ileal ,L2, L2. Colonic ,L3, L3. Ileocolonic ,L4, L4*. Isolated upper disease ,E1, E1. Ulcerative proctitis ,E2, E2. Left-sided uc ,E3, E3. Extensive ,E4, E4. Pancolitis",,FALSE,"https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C117884
+",clinical
+upperDiseaseType,"if LocationOfDiseaseActivity=upper disease, please specify",STRING,"L4a, L4a. Upper disease proximal to ligament of treitz ,L4b, L4b. Upper disease distal to ligament of treitz & proximal to distal 3rd ileum",,FALSE,Sage Bionetworks,clinical
+BehaviorOfDiseaseActivity,Behavior of GI disease,STRING,"Non-stricturing and non-penetrating ,Stricturing ,Penetrating ,Both penetrating and stricturing ,Never severe ,Ever severe (≥65 PUCAI)",,FALSE,Sage Bionetworks,clinical
+GrowthDelay,has the study participant experienced growth delay,STRING,"Yes ,No ,Unknown",,FALSE,https://hpo.jax.org/app/browse/term/HP:0001510,clinical
+PerianalInvolvement,is there perianal involvement,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C99148,clinical
+HistoryOfExtraintestinalManifestations,is there a history of extraintestinal manifestations,STRING,"Yes ,No ,Unknown",,FALSE,Sage Bionetworks,clinical
+GISurgeries,has the study participant undergone any GI surgeries,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C15330,clinical
+GISurgeriesDetails,"please specify which GI surgeries the participant has undergone, if any",STRING,,,FALSE,Sage Bionetworks,clinical
+HistoryOfIBD,does the study participant have a family history of IBD,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3138,clinical
+BirthCountry,study participant country of birth,STRING,see data dictionary for full list of values,,FALSE,https://browser.ihtsdotools.org/?perspective=full&conceptId1=315354004&edition=MAIN/SNOMEDCT-US/2022-09-01&release=&languages=en,clinical
+Consanguinity,is the study participant the offspring of a relationship between biologically-related individuals,STRING,"Yes ,No ,Unknown",,FALSE,URL:https://thesaurus.cancer.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C189764,clinical
+Race,study participant race,STRING,"White , Black or African American , Asian , American Indian or Alaskan Native , Native Hawaiian or other Pacific Islander , Unknown or Not Reported",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17049,clinical
+Ethnicity,study participant ethnicity,STRING,"Hispanic/Latino origin ,Not Hispanic/Latino origin",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16564,clinical
+JewishOrigin,is study participant of Jewish origin,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C86561,clinical
+Breastfed,was study participant breastfed,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C25596,clinical
+BreastfeedingDuration,"if study participant was breastfed, what was the duration of breastfeeding in months",STRING,,,FALSE,Sage Bionetworks,clinical
+secondHandSmokeExposure,was the study participant exposed to second hand smoke in the period 6 months prior to diagnosis,STRING,"Yes ,No ,Unknown",,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C2434,clinical

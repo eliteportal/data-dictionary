@@ -1,0 +1,6 @@
+﻿Key,Key Description,Type,Source,Module
+Proband,The affected family member who seeks medical attention for a genetic disorder thereby bringing the family under study. [NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C64435,Clinical
+Control,The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another. [NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C61299,Clinical
+Mother,A female parent. [NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C25189,Clinical
+Father,A male parent. [NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C25174,Clinical
+Sibling,A person's brother or sister. [NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C25204,Clinical

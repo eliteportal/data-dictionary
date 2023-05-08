@@ -13,3 +13,5 @@ callouts:
   warning:
     title: WARNING
     color: red
+  note: 
+    color: purple

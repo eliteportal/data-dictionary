@@ -5,7 +5,7 @@ datatable: true
 parent: Clinical
 ---
 
-{% assign mydata=site.data.Sex %}
+{% assign mydata=site.data.sex %}
 {: .highlight }
 Sex indicates the biological sex of the study participant.
 

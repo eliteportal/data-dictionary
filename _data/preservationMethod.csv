@@ -1,0 +1,5 @@
+﻿Key,Key Description,Type,Source,Module
+Cryopreserved,"Preservation of cells, tissues, organs, or embryos by storage at low temperatures.",STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16475,Experimental Data
+Snap Frozen,To freeze rapidly so as to preserve structure and prevent ice crystal formation.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C63521,Experimental Data
+Formalin,A process where a sample is preserved with formalin and then embedded into a paraffin block for sectioning.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C143028,Experimental Data
+PAXGene Tube,A blood collection tube that uses proprietary reagents for whole blood collection and stabilization prior to isolation of cellular RNA.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C126394,Experimental Data

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: participantRole
+title: sampleType
 datatable: true
-parent: Clinical
+parent: Experimental Data
 ---
 
-{% assign mydata=site.data.participantRole %}
+{% assign mydata=site.data.sampleType %}
 {: .highlight }
-ParticipantRole is the role of the study participant within the family group.
+Preservation Method indicates 
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

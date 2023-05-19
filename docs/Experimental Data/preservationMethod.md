@@ -7,7 +7,7 @@ parent: Experimental Data
 
 {% assign mydata=site.data.preservationMethod %}
 {: .highlight }
-Preservation Method indicates 
+PreservationMethod indicates the method of preservation for biopsy samples.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>
@@ -32,7 +32,7 @@ Preservation Method indicates
             display: $.fn.dataTable.Responsive.display.modal( {
                 header: function ( row ) {
                     var data = row.data();
-                    return 'Details for '+data[0]+' '+data[1];
+                    return 'Details for '+data[0];
                 }
             } ),
             renderer: $.fn.dataTable.Responsive.renderer.tableAll({

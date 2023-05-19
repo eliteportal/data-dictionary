@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: race
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.race %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+Race indicates a geographic ancestral origin category that is assigned to a population group based mainly on physical characteristics that are thought to be distinct and inherent.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

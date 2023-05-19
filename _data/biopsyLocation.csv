@@ -1,0 +1,11 @@
+﻿Key,Key Description,Type,Source,Module
+Sigmoid,The portion of the colon that connects to the descending colon above and the rectum below.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12384&key=1791202231&b=1&n=null,Experimental Data
+Descending Colon/Transverse,Descending Colon/Transverse Colon,STRING,Sage Bionetworks,Experimental Data
+Sigmoid/Descending Colon,Sigmoid Colon/Descending Colon,STRING,Sage Bionetworks,Experimental Data
+Unspecified,,STRING,Sage Bionetworks,Experimental Data
+Ascending,The first part of the colon (large intestine) that starts in the right lower quadrant of the abdomen and ends at the transverse colon in the right upper quadrant of the abdomen.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12265&key=37336065&b=1&n=null,Experimental Data
+Ileum,The final section of the small intestine.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12387&key=n1890964765&b=1&n=null,Experimental Data
+Rectum,"The terminal portion of the gastrointestinal tract, extending from the rectosigmoid junction to the anal canal.",STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12390&key=482230501&b=1&n=null,Experimental Data
+Cecum,A blind pouch-like commencement of the colon in the right lower quadrant of the abdomen at the end of the small intestine and the start of the large intestine.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12381&key=1893699873&b=1&n=null,Experimental Data
+Transverse Colon,The third division of the colon (large intestine). It communicates with the ascending colon in the upper right-hand quadrant of the abdomen and the descending colon in the upper left-hand quadrant.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C12385&key=n450773419&b=1&n=null,Experimental Data
+Most Severe Area,,STRING,,Experimental Data

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: birthCountry
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.birthCountry %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+BirthCountry indicates the country of birth of the study participant.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

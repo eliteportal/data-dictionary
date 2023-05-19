@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: ethnicity
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.ethnicity %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+Ethnicity indicates the population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

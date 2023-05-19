@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: fundingSource
 datatable: true
-parent: Experimental Data
+parent: Other
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.fundingSource %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+Funding source used to support sampling. May be necessary information to determine scope of sharing permissions.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

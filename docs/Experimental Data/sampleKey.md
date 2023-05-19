@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: sampleKey
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.sampleKey %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+SampleKey indicates additional information about samples. Should match key found in RC2 Sample ID. For biopsy: suggested location,inflammation status,and preservation method. For blood: blood component,preservation method.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

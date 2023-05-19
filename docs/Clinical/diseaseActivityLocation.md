@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: diseaseActivityLocation
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.diseaseActivityLocation %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+DiseaseActivityLocation indicates the location of GI disease or activity pertinent to VEOIBD study.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

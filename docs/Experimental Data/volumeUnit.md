@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: volumeUnit
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.volumeUnit %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+VolumeUnit indicates the units the volume is reported in.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

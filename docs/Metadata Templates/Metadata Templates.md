@@ -2,7 +2,8 @@
 layout: page
 title: Metadata Templates
 has_children: true
-permalink: docs/MetadataTemplates.html
+nav_order: 5
+permalink: docs/Metadata Templates.html
 ---
 
 ## VEOIBD Metadata Templates

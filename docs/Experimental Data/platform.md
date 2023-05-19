@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: platform
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.platform %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+Platform indicates the specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

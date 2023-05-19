@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: diagnosisCategory
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.diagnosisCategory %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+DiagnosisCategory indicates the general diagnosis category.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

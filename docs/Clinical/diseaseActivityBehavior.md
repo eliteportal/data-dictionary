@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: diseaseActivityBehavior
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.diseaseActivityBehavior %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+DiseaseActivityBehavior indicates the behavior of GI disease.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

@@ -32,7 +32,7 @@ ParticipantRole is the role of the study participant within the family group.
             display: $.fn.dataTable.Responsive.display.modal( {
                 header: function ( row ) {
                     var data = row.data();
-                    return 'Details for '+data[0]+' '+data[1];
+                    return 'Details for '+data[0];
                 }
             } ),
             renderer: $.fn.dataTable.Responsive.renderer.tableAll({

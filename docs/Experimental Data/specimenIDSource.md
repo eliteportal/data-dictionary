@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: specimenIDSource
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.specimenIDSource %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+SpecimenIDSource indicates sample originator. Should match prefix on RC2 Sample ID.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

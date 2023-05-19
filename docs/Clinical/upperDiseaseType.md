@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: upperDiseaseType
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.upperDiseaseType %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+UpperDiseaseType indicates the type of upper GI disease. If diseaseActivityLocation=upper disease, please specify.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: dataType
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.dataType %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+DataType indicates the types of input/output data in bioinformatics pipelines.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

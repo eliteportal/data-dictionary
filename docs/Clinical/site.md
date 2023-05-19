@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: site
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.site %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+Site indicates the name of the site at which the participant was recruited.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

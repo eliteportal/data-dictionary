@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: siblingType
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.siblingType %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+SiblingType indicates the type of sibling. If participantRole=sibling, specify sibling type.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

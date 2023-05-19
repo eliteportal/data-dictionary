@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: biopsyLocation
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.biopsyLocation %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+BiopsyLocation indicates the actual location of biopsy.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

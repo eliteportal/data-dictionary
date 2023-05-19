@@ -8,7 +8,7 @@ libraryPrep,The general strategy by which the library was prepared,STRING,"lncRN
 libraryPreparationMethod,Method by which library was prepared,STRING,"Drop-Seq,sac-seq,NexteraXT,Smart-seq1,10x,Omni-ATAC,Accel-NGS Methyl-Seq,CEL-seq,NEBNext,Smart-seq2,Smart-seq4,SMRTbell,TruSeq,Ultralow Methyl-Seq,Accel-NGS 2S Plus",,FALSE,Sage Bionetworks,NGS
 libraryVersion,"The version of the library. For example, rnaSeq 10x library version",DOUBLE,,,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C182087&key=n1429130277&b=1&n=null,NGS
 libraryType,"The type of library, in assays where samples are barcoded or hashed for multiplexing or each sample has multiple libraries amplified separately before pooled sequencing.",STRING,"ADT,plasmid DNA,HTO,CMO,LMO,cDNA,polyA enriched,ribozero depletion,globin depletion",,FALSE,Sage Bionetworks,NGS
-isStranded,Whether or not the library is stranded.,BOOLEAN,"False,True",,FALSE,Sage Bionetworks,NGS
+isStranded,Whether or not the library is stranded,BOOLEAN,"False,True",,FALSE,Sage Bionetworks,NGS
 readStrandOrigin,The strand from which the read originates in a strand-specific protocol,STRING,"forward,reverse",,FALSE,Sage Bionetworks,NGS
 readLength,The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.,DOUBLE,,,FALSE,http://purl.obolibrary.org/obo/NCIT_C153362,NGS
 runType,The sequencing read types,STRING,"singleEnd,pairedEnd",,FALSE,Sage Bionetworks,NGS
@@ -31,14 +31,15 @@ numberCells,Number of cells or nuclei sequenced,INTEGER,,,FALSE,Sage Bionetworks
 medianGenes,The median number of genes detected (with nonzero UMI counts) across all cell-associated barcodes,DOUBLE,,,FALSE,Sage Bionetworks,Quality Control
 fileFormat,"Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",STRING,"fastq,count matrix,bam,csv,xlsx,txt,pdf,tsv",,FALSE,Sage Bionetworks,Other
 dataSubtype,"Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",STRING,"raw,aligned,processed,normalized,aggregated",,FALSE,Sage Bionetworks,Experimental Data
-cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally. Provided as number of live cells per unit volume.,DOUBLE,,,FALSE,Sage Bionetworks,NGS
-ratio260over230,Ratio of absorbance at 230 nm and 260 nm. Measures protein or other contaminants. Range up to approximately 2.2.,DOUBLE,,,FALSE,Sage Bionetworks,Quality Control
-ratio260over280,Measure of DNA vs. RNA purity. Range up to approximately 2.0.,DOUBLE,,,FALSE,Sage Bionetworks,Quality Control
+cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally. Provided as number of live cells per unit volume.,DOUBLE,"Inviable cell,Viable cell",,FALSE,Sage Bionetworks,NGS
 uniqueGenes,The number of unique genes,INTEGER,,,FALSE,Sage Bionetworks,NGS
 mappedReads,Mapped reads refer to those reads from the sequenced sample that align directly to a single region (set of loci) on the reference genome.,INTEGER,,,FALSE,https://thesequencingcenter.com/knowledge-base/what-are-unmapped-reads/,NGS
 rRNARate,The percentage of rRNA in a cell,DOUBLE,,,FALSE,Sage Bionetworks,NGS
-totalUnmappedReads,The total number of unmapped reads from the sequenced sample to a single region (set of loci) on the reference genome.,DOUBLE,,,FALSE,https://thesequencingcenter.com/knowledge-base/what-are-unmapped-reads/,NGS
 dataType,Types of input/output data in bioinformatics pipelines,STRING,"genomicVariants,geneExpression",,TRUE,Sage Bionetworks,Experimental Data
-kitNumber,Kit serial number,STRING,,,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C87822&key=n1335613124&b=1&n=null,Other
+kitNumber,Kit serial number,STRING,,,TRUE,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C87822&key=n1335613124&b=1&n=null,Experimental Data
 DV200,A method to determine the quality of RNA obtained from a sample. DV200 evaluates the percentage of fragments of greater than 200 nucleotides.,DOUBLE,,,FALSE,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf,Quality Control
 duplicationRate,The duplication rate is the fraction of mapped reads where any 2 reads share the same 5_ and 3_ coordinates.,DOUBLE,,,FALSE,https://www.idtdna.com/pages/education/decoded/article/minimizing-duplicates-and-obtaining-uniform-coverage-in-multiplexed-target-enrichment-sequencing,NGS
+sampleTissueType,Tissue type used in sample,STRING,"LP,EPI,both LP and EPI,blood,organoid",,TRUE,Sage Bionetworks,Experimental Data
+medianUMIs,The median number of total Unique Molecular Identifier (UMI) counts across all cell-associated barcodes,DOUBLE,,,FALSE,Sage Bionetworks,Quality Control
+ratioMitochondria,Percent mitochondria per cell,DOUBLE,,,FALSE,Sage Bionetworks,NGS
+genomicSex,The predicition of sex based on expression of genes,STRING,"Male,Female",,FALSE,Sage Bionetworks,Clinical

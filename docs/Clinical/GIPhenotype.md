@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: GIPhenotype
 datatable: true
-parent: Experimental Data
+parent: Clinical
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.GIPhenotype %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+VEOIBD phenotype code indicating the GI diagnosis.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

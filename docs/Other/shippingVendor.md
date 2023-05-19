@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: shippingVendor
 datatable: true
-parent: Experimental Data
+parent: Other
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.shippingVendor %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+ShippingVendor indicates the vendor used to ship biosamples.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

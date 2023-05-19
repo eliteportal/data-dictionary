@@ -1,13 +1,13 @@
 ---
 layout: page
-title: sampleType
+title: biopsyInflammationStatus
 datatable: true
 parent: Experimental Data
 ---
 
-{% assign mydata=site.data.sampleType %}
+{% assign mydata=site.data.biopsyInflammationStatus %}
 {: .highlight }
-SampleType Method indicates the type of sample being described.
+BiopsyInflammationStatus indicates the biopsy inflammation status.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>

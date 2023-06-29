@@ -2096,7 +2096,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "localID",
-            "sms:required": "sms:false",
+            "sms:required": "sms:true",
             "sms:validationRules": [
                 "str"
             ]
@@ -2460,25 +2460,49 @@
                     "@id": "bts:L1"
                 },
                 {
+                    "@id": "bts:L1.Ileal"
+                },
+                {
                     "@id": "bts:L2"
+                },
+                {
+                    "@id": "bts:L2.Colonic"
                 },
                 {
                     "@id": "bts:L3"
                 },
                 {
+                    "@id": "bts:L3.Ileocolonic"
+                },
+                {
                     "@id": "bts:L4"
+                },
+                {
+                    "@id": "bts:L4*.Isolatedupperdisease"
                 },
                 {
                     "@id": "bts:E1"
                 },
                 {
+                    "@id": "bts:E1.Ulcerativeproctitis"
+                },
+                {
                     "@id": "bts:E2"
+                },
+                {
+                    "@id": "bts:E2.Left-sideduc"
                 },
                 {
                     "@id": "bts:E3"
                 },
                 {
+                    "@id": "bts:E3.Extensive"
+                },
+                {
                     "@id": "bts:E4"
+                },
+                {
+                    "@id": "bts:E4.Pancolitis"
                 }
             ],
             "sms:displayName": "diseaseActivityLocation",
@@ -2503,7 +2527,13 @@
                     "@id": "bts:L4a"
                 },
                 {
+                    "@id": "bts:L4a.Upperdiseaseproximaltoligamentoftreitz"
+                },
+                {
                     "@id": "bts:L4b"
+                },
+                {
+                    "@id": "bts:L4b.Upperdiseasedistaltoligamentoftreitz&proximaltodistal3rdileum"
                 }
             ],
             "sms:displayName": "upperDiseaseType",
@@ -3492,6 +3522,11 @@
             ],
             "sms:displayName": "breastfed",
             "sms:required": "sms:false",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:BreastfeedingDuration"
+                }
+            ],
             "sms:validationRules": []
         },
         {
@@ -3508,7 +3543,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "breastfeedingDuration",
-            "sms:required": "sms:false",
+            "sms:required": "sms:true",
             "sms:validationRules": [
                 "num"
             ]
@@ -5778,10 +5813,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Assay"
+                    "@id": "bts:Assaymetadata"
                 },
                 {
-                    "@id": "bts:Biospecimen"
+                    "@id": "bts:Biospecimenmetadata"
                 },
                 {
                     "@id": "bts:Datadictionary"
@@ -6484,6 +6519,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:L1.Ileal",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L1.Ileal",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L1. Ileal",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:L2",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6497,6 +6549,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "L2",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:L2.Colonic",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L2.Colonic",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L2. Colonic",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -6518,6 +6587,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:L3.Ileocolonic",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L3.Ileocolonic",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L3. Ileocolonic",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:L4",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6531,6 +6617,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "L4",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:L4*.Isolatedupperdisease",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L4*.Isolatedupperdisease",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L4*. Isolated upper disease",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -6552,6 +6655,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:E1.Ulcerativeproctitis",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "E1.Ulcerativeproctitis",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "E1. Ulcerative proctitis",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:E2",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6565,6 +6685,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "E2",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:E2.Left-sideduc",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "E2.Left-sideduc",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "E2. Left-sided uc",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -6586,6 +6723,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:E3.Extensive",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "E3.Extensive",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "E3. Extensive",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:E4",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6599,6 +6753,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "E4",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:E4.Pancolitis",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "E4.Pancolitis",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiseaseActivityLocation"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "E4. Pancolitis",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -6620,6 +6791,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:L4a.Upperdiseaseproximaltoligamentoftreitz",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L4a.Upperdiseaseproximaltoligamentoftreitz",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:UpperDiseaseType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L4a. Upper disease proximal to ligament of treitz",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:L4b",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6633,6 +6821,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "L4b",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:L4b.Upperdiseasedistaltoligamentoftreitz&proximaltodistal3rdileum",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "L4b.Upperdiseasedistaltoligamentoftreitz&proximaltodistal3rdileum",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:UpperDiseaseType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "L4b. Upper disease distal to ligament of treitz & proximal to distal 3rd ileum",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -13726,10 +13931,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Biospecimen",
+            "@id": "bts:Assaymetadata",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "Biospecimen",
+            "rdfs:label": "Assaymetadata",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:MetadataType"
@@ -13738,7 +13943,24 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "biospecimen",
+            "sms:displayName": "assay metadata",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Biospecimenmetadata",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Biospecimenmetadata",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:MetadataType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "biospecimen metadata",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

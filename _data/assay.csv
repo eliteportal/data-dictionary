@@ -1,0 +1,3 @@
+﻿Key,Key Description,Type,Source,Module
+rnaSeq,An RNA sequencing assay that determines an RNA sequence by analyzing the transcibed regions of the genome and or to quantitate transcript abundance.,STRING,https://ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0001271,Experimental Data
+scrnaSeq,"Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.",STRING,http://www.ebi.ac.uk/efo/EFO_0007832,Experimental Data

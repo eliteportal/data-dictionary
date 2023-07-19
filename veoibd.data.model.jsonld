@@ -3583,7 +3583,7 @@
             "rdfs:label": "RC2",
             "rdfs:subClassOf": [
                 {
-                    "@id": "schema:Thing"
+                    "@id": "bts:DataProperty"
                 }
             ],
             "schema:isPartOf": {
@@ -3598,7 +3598,7 @@
                 }
             ],
             "sms:displayName": "RC2",
-            "sms:required": "sms:false",
+            "sms:required": "sms:true",
             "sms:validationRules": []
         },
         {

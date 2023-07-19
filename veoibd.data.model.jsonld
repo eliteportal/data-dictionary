@@ -2055,10 +2055,10 @@
                     "@id": "bts:Breastfed"
                 },
                 {
-                    "@id": "bts:BreastfeedingDuration"
+                    "@id": "bts:SecondHandSmokeExposure"
                 },
                 {
-                    "@id": "bts:SecondHandSmokeExposure"
+                    "@id": "bts:RC2"
                 }
             ],
             "sms:validationRules": []
@@ -3573,6 +3573,31 @@
                 }
             ],
             "sms:displayName": "secondHandSmokeExposure",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RC2",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Is the individual part of the RC2 cohort?",
+            "rdfs:label": "RC2",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Yes"
+                },
+                {
+                    "@id": "bts:No"
+                }
+            ],
+            "sms:displayName": "RC2",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -10663,23 +10688,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "J",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:RC2",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "RC2",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "RC2",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

@@ -1992,7 +1992,7 @@
                     "@id": "bts:IndividualID"
                 },
                 {
-                    "@id": "bts:LocalID"
+                    "@id": "bts:FamilyID"
                 },
                 {
                     "@id": "bts:Site"
@@ -2059,6 +2059,303 @@
                 },
                 {
                     "@id": "bts:IsRC2"
+                },
+                {
+                    "@id": "bts:Mesalamine"
+                },
+                {
+                    "@id": "bts:MesalamineUse"
+                },
+                {
+                    "@id": "bts:MesalamineChange"
+                },
+                {
+                    "@id": "bts:Sulfasa"
+                },
+                {
+                    "@id": "bts:SulfasaUse"
+                },
+                {
+                    "@id": "bts:SulfasaChange"
+                },
+                {
+                    "@id": "bts:Balsalazide"
+                },
+                {
+                    "@id": "bts:BalsalazideUse"
+                },
+                {
+                    "@id": "bts:BalsalazideChange"
+                },
+                {
+                    "@id": "bts:Olsalazine"
+                },
+                {
+                    "@id": "bts:OlsalazineUse"
+                },
+                {
+                    "@id": "bts:OlsalazineChange"
+                },
+                {
+                    "@id": "bts:Mercap6"
+                },
+                {
+                    "@id": "bts:Mercap6Use"
+                },
+                {
+                    "@id": "bts:Mercap6Change"
+                },
+                {
+                    "@id": "bts:Azathioprine"
+                },
+                {
+                    "@id": "bts:AzathioprineUse"
+                },
+                {
+                    "@id": "bts:AzathioprineChange"
+                },
+                {
+                    "@id": "bts:Methotrex"
+                },
+                {
+                    "@id": "bts:MethotrexUse"
+                },
+                {
+                    "@id": "bts:MethotrexChange"
+                },
+                {
+                    "@id": "bts:Fk506"
+                },
+                {
+                    "@id": "bts:Fk506Use"
+                },
+                {
+                    "@id": "bts:Fk506Change"
+                },
+                {
+                    "@id": "bts:Cyclospa"
+                },
+                {
+                    "@id": "bts:CyclospaUse"
+                },
+                {
+                    "@id": "bts:CyclospaChange"
+                },
+                {
+                    "@id": "bts:Thalidomide"
+                },
+                {
+                    "@id": "bts:ThalidomideUse"
+                },
+                {
+                    "@id": "bts:ThalidomideChange"
+                },
+                {
+                    "@id": "bts:Lenalidomide"
+                },
+                {
+                    "@id": "bts:LenalidomideUse"
+                },
+                {
+                    "@id": "bts:LenalidomideChange"
+                },
+                {
+                    "@id": "bts:Infliximab"
+                },
+                {
+                    "@id": "bts:InfliximabUse"
+                },
+                {
+                    "@id": "bts:InfliximabChange"
+                },
+                {
+                    "@id": "bts:Adalimumab"
+                },
+                {
+                    "@id": "bts:AdalimumabUse"
+                },
+                {
+                    "@id": "bts:AdalimumabChange"
+                },
+                {
+                    "@id": "bts:Certolizumab"
+                },
+                {
+                    "@id": "bts:CertolizumabUse"
+                },
+                {
+                    "@id": "bts:CertolizumabChange"
+                },
+                {
+                    "@id": "bts:Golimumab"
+                },
+                {
+                    "@id": "bts:GolimumabUse"
+                },
+                {
+                    "@id": "bts:GolimumabChange"
+                },
+                {
+                    "@id": "bts:Natalizumab"
+                },
+                {
+                    "@id": "bts:NatalizumabUse"
+                },
+                {
+                    "@id": "bts:NatalizumabChange"
+                },
+                {
+                    "@id": "bts:Tocilizumab"
+                },
+                {
+                    "@id": "bts:TocilizumabUse"
+                },
+                {
+                    "@id": "bts:TocilizumabChange"
+                },
+                {
+                    "@id": "bts:Vedolizumab"
+                },
+                {
+                    "@id": "bts:VedolizumabUse"
+                },
+                {
+                    "@id": "bts:VedolizumabChange"
+                },
+                {
+                    "@id": "bts:Ustekinumab"
+                },
+                {
+                    "@id": "bts:UstekinumabUse"
+                },
+                {
+                    "@id": "bts:UstekinumabChange"
+                },
+                {
+                    "@id": "bts:Oralenteric"
+                },
+                {
+                    "@id": "bts:OralentericUse"
+                },
+                {
+                    "@id": "bts:OralentericChange"
+                },
+                {
+                    "@id": "bts:Rectalstrd"
+                },
+                {
+                    "@id": "bts:RectalstrdUse"
+                },
+                {
+                    "@id": "bts:RectalstrdChange"
+                },
+                {
+                    "@id": "bts:Oralsterd"
+                },
+                {
+                    "@id": "bts:OralsterdUse"
+                },
+                {
+                    "@id": "bts:OralsterdChange"
+                },
+                {
+                    "@id": "bts:Intrasterd"
+                },
+                {
+                    "@id": "bts:IntrasterdUse"
+                },
+                {
+                    "@id": "bts:IntrasterdChange"
+                },
+                {
+                    "@id": "bts:Metronida"
+                },
+                {
+                    "@id": "bts:MetronidaUse"
+                },
+                {
+                    "@id": "bts:MetronidaChange"
+                },
+                {
+                    "@id": "bts:Ciproflox"
+                },
+                {
+                    "@id": "bts:CiprofloxUse"
+                },
+                {
+                    "@id": "bts:CiprofloxChange"
+                },
+                {
+                    "@id": "bts:Trimethop"
+                },
+                {
+                    "@id": "bts:TrimethopUse"
+                },
+                {
+                    "@id": "bts:TrimethopChange"
+                },
+                {
+                    "@id": "bts:Amoxicillin"
+                },
+                {
+                    "@id": "bts:AmoxicillinUse"
+                },
+                {
+                    "@id": "bts:AmoxicillinChange"
+                },
+                {
+                    "@id": "bts:Vancomycin"
+                },
+                {
+                    "@id": "bts:VancomycinUse"
+                },
+                {
+                    "@id": "bts:VancomycinChange"
+                },
+                {
+                    "@id": "bts:Ursodiol"
+                },
+                {
+                    "@id": "bts:UrsodiolUse"
+                },
+                {
+                    "@id": "bts:UrsodiolChange"
+                },
+                {
+                    "@id": "bts:Cholestyr"
+                },
+                {
+                    "@id": "bts:CholestyrUse"
+                },
+                {
+                    "@id": "bts:CholestyrChange"
+                },
+                {
+                    "@id": "bts:Rifampin"
+                },
+                {
+                    "@id": "bts:RifampinUse"
+                },
+                {
+                    "@id": "bts:RifampinChange"
+                },
+                {
+                    "@id": "bts:Omega3"
+                },
+                {
+                    "@id": "bts:Omega3Use"
+                },
+                {
+                    "@id": "bts:Omega3Change"
+                },
+                {
+                    "@id": "bts:Probiotic"
+                },
+                {
+                    "@id": "bts:ProbioticUse"
+                },
+                {
+                    "@id": "bts:ProbioticChange"
                 }
             ],
             "sms:validationRules": []
@@ -2083,10 +2380,10 @@
             ]
         },
         {
-            "@id": "bts:LocalID",
+            "@id": "bts:FamilyID",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The local ID used for subject by study site",
-            "rdfs:label": "LocalID",
+            "rdfs:comment": "Identifying string linked to the family being studied",
+            "rdfs:label": "FamilyID",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataProperty"
@@ -2095,11 +2392,9 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "localID",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "str"
-            ]
+            "sms:displayName": "familyID",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
         },
         {
             "@id": "bts:Site",
@@ -2298,15 +2593,6 @@
             "schema:rangeIncludes": [
                 {
                     "@id": "bts:Years"
-                },
-                {
-                    "@id": "bts:Months"
-                },
-                {
-                    "@id": "bts:Weeks"
-                },
-                {
-                    "@id": "bts:Days"
                 }
             ],
             "sms:displayName": "ageAtDiagnosisUnit",
@@ -2334,7 +2620,7 @@
                     "@id": "bts:UC"
                 },
                 {
-                    "@id": "bts:IBD-U"
+                    "@id": "bts:IBDU"
                 },
                 {
                     "@id": "bts:OtherGI"
@@ -3424,19 +3710,19 @@
                     "@id": "bts:White"
                 },
                 {
-                    "@id": "bts:BlackorAfricanAmerican"
+                    "@id": "bts:Black"
                 },
                 {
                     "@id": "bts:Asian"
                 },
                 {
-                    "@id": "bts:AmericanIndianorAlaskanNative"
+                    "@id": "bts:NativeAmerican"
                 },
                 {
-                    "@id": "bts:NativeHawaiianorotherPacificIslander"
+                    "@id": "bts:PacificIslander"
                 },
                 {
-                    "@id": "bts:UnknownorNotReported"
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "race",
@@ -3458,10 +3744,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Hispanic/Latinoorigin"
+                    "@id": "bts:Hispanic"
                 },
                 {
-                    "@id": "bts:NotHispanic/Latinoorigin"
+                    "@id": "bts:NotHispanic"
                 }
             ],
             "sms:displayName": "ethnicity",
@@ -3471,7 +3757,7 @@
         {
             "@id": "bts:JewishOrigin",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Is study participant of Jewish origin?",
+            "rdfs:comment": "Is the study participant of Jewish origin?",
             "rdfs:label": "JewishOrigin",
             "rdfs:subClassOf": [
                 {
@@ -3499,7 +3785,7 @@
         {
             "@id": "bts:Breastfed",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Was study participant breastfed?",
+            "rdfs:comment": "Was the study participant breastfed?",
             "rdfs:label": "Breastfed",
             "rdfs:subClassOf": [
                 {
@@ -3511,13 +3797,13 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:Yes-breastfed"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:No-breastfed"
                 },
                 {
-                    "@id": "bts:Unknown"
+                    "@id": "bts:Unknown-breastfed"
                 }
             ],
             "sms:displayName": "breastfed",
@@ -3532,7 +3818,7 @@
         {
             "@id": "bts:BreastfeedingDuration",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The duration of breastfeeding in months, if study participant was breastfed",
+            "rdfs:comment": "The duration of breastfeeding in months, if the study participant was breastfed.",
             "rdfs:label": "BreastfeedingDuration",
             "rdfs:subClassOf": [
                 {
@@ -3599,6 +3885,1689 @@
             ],
             "sms:displayName": "isRC2",
             "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mesalamine",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mesalamine",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mesalamine",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MesalamineUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MesalamineUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mesalamine_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MesalamineChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MesalamineChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mesalamine_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sulfasa",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Sulfasa",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sulfasa",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SulfasaUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SulfasaUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sulfasa_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SulfasaChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SulfasaChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sulfasa_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Balsalazide",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Balsalazide",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "balsalazide",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BalsalazideUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BalsalazideUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "balsalazide_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BalsalazideChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "BalsalazideChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "balsalazide_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Olsalazine",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Olsalazine",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "olsalazine",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OlsalazineUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OlsalazineUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "olsalazine_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OlsalazineChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OlsalazineChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "olsalazine_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mercap6",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mercap6",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mercap6",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mercap6Use",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mercap6Use",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mercap6_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mercap6Change",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Mercap6Change",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mercap6_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Azathioprine",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Azathioprine",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "azathioprine",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AzathioprineUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AzathioprineUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "azathioprine_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AzathioprineChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AzathioprineChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "azathioprine_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Methotrex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Methotrex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "methotrex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MethotrexUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MethotrexUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "methotrex_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MethotrexChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MethotrexChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "methotrex_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Fk506",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Fk506",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "fk506",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Fk506Use",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Fk506Use",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "fk506_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Fk506Change",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Fk506Change",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "fk506_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cyclospa",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cyclospa",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cyclospa",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CyclospaUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CyclospaUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cyclospa_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CyclospaChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CyclospaChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cyclospa_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Thalidomide",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Thalidomide",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "thalidomide",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ThalidomideUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ThalidomideUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "thalidomide_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ThalidomideChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ThalidomideChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "thalidomide_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Lenalidomide",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Lenalidomide",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "lenalidomide",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LenalidomideUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LenalidomideUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "lenalidomide_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LenalidomideChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LenalidomideChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "lenalidomide_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Infliximab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Infliximab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "infliximab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfliximabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfliximabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "infliximab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:InfliximabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "InfliximabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "infliximab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Adalimumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Adalimumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "adalimumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AdalimumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AdalimumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "adalimumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AdalimumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AdalimumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "adalimumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Certolizumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Certolizumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "certolizumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CertolizumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CertolizumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "certolizumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CertolizumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CertolizumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "certolizumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Golimumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Golimumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "golimumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GolimumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GolimumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "golimumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GolimumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "GolimumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "golimumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Natalizumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Natalizumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "natalizumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NatalizumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NatalizumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "natalizumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NatalizumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NatalizumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "natalizumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Tocilizumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Tocilizumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "tocilizumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TocilizumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TocilizumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "tocilizumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TocilizumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TocilizumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "tocilizumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Vedolizumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Vedolizumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vedolizumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VedolizumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "VedolizumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vedolizumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VedolizumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "VedolizumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vedolizumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ustekinumab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ustekinumab",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ustekinumab",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UstekinumabUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UstekinumabUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ustekinumab_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UstekinumabChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UstekinumabChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ustekinumab_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Oralenteric",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Oralenteric",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralenteric",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OralentericUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OralentericUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralenteric_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OralentericChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OralentericChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralenteric_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Rectalstrd",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Rectalstrd",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rectalstrd",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RectalstrdUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RectalstrdUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rectalstrd_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RectalstrdChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RectalstrdChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rectalstrd_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Oralsterd",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Oralsterd",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralsterd",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OralsterdUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OralsterdUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralsterd_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OralsterdChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OralsterdChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "oralsterd_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Intrasterd",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Intrasterd",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "intrasterd",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IntrasterdUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IntrasterdUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "intrasterd_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IntrasterdChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IntrasterdChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "intrasterd_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Metronida",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Metronida",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "metronida",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MetronidaUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MetronidaUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "metronida_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MetronidaChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "MetronidaChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "metronida_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ciproflox",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ciproflox",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ciproflox",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CiprofloxUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CiprofloxUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ciproflox_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CiprofloxChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CiprofloxChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ciproflox_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Trimethop",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Trimethop",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "trimethop",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TrimethopUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TrimethopUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "trimethop_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TrimethopChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TrimethopChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "trimethop_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Amoxicillin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Amoxicillin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amoxicillin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AmoxicillinUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AmoxicillinUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amoxicillin_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AmoxicillinChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AmoxicillinChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amoxicillin_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Vancomycin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Vancomycin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vancomycin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VancomycinUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "VancomycinUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vancomycin_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VancomycinChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "VancomycinChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "vancomycin_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ursodiol",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ursodiol",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ursodiol",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UrsodiolUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UrsodiolUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ursodiol_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:UrsodiolChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "UrsodiolChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ursodiol_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cholestyr",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cholestyr",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cholestyr",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CholestyrUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CholestyrUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cholestyr_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CholestyrChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "CholestyrChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cholestyr_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Rifampin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Rifampin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rifampin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RifampinUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RifampinUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rifampin_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RifampinChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RifampinChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rifampin_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Omega3",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Omega3",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "omega3",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Omega3Use",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Omega3Use",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "omega3_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Omega3Change",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Omega3Change",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "omega3_change",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Probiotic",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Probiotic",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "probiotic",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProbioticUse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ProbioticUse",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "probiotic_use",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProbioticChange",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ProbioticChange",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "probiotic_change",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6323,57 +8292,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Months",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Months",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:AgeAtDiagnosisUnit"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "months",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Weeks",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Weeks",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:AgeAtDiagnosisUnit"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "weeks",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Days",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Days",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:AgeAtDiagnosisUnit"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "days",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:CD",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -6408,10 +8326,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:IBD-U",
+            "@id": "bts:IBDU",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "IBD-U",
+            "rdfs:label": "IBDU",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:GIPhenotype"
@@ -6420,7 +8338,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "IBD-U",
+            "sms:displayName": "IBDU",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -10403,10 +12321,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:BlackorAfricanAmerican",
+            "@id": "bts:Black",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "BlackorAfricanAmerican",
+            "rdfs:label": "Black",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Race"
@@ -10415,7 +12333,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Black or African American",
+            "sms:displayName": "Black",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -10437,10 +12355,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:AmericanIndianorAlaskanNative",
+            "@id": "bts:NativeAmerican",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "AmericanIndianorAlaskanNative",
+            "rdfs:label": "NativeAmerican",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Race"
@@ -10449,15 +12367,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "American Indian or Alaskan Native",
+            "sms:displayName": "Native American",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NativeHawaiianorotherPacificIslander",
+            "@id": "bts:PacificIslander",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "NativeHawaiianorotherPacificIslander",
+            "rdfs:label": "PacificIslander",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Race"
@@ -10466,32 +12384,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Native Hawaiian or other Pacific Islander",
+            "sms:displayName": "Pacific Islander",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:UnknownorNotReported",
+            "@id": "bts:Hispanic",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "UnknownorNotReported",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Race"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Unknown or Not Reported",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Hispanic/Latinoorigin",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Hispanic/Latinoorigin",
+            "rdfs:label": "Hispanic",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Ethnicity"
@@ -10500,15 +12401,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Hispanic/Latino origin",
+            "sms:displayName": "Hispanic",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NotHispanic/Latinoorigin",
+            "@id": "bts:NotHispanic",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "NotHispanic/Latinoorigin",
+            "rdfs:label": "NotHispanic",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Ethnicity"
@@ -10517,7 +12418,75 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Not Hispanic/Latino origin",
+            "sms:displayName": "Not Hispanic",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Yes-breastfed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Yes-breastfed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Breastfed"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Yes-breastfed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:No-breastfed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "No-breastfed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Breastfed"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "No-breastfed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Unknown-breastfed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Unknown-breastfed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Breastfed"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Unknown-breastfed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LocalID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "LocalID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:BiospecimenMetadataTemplate"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "localID",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11062,6 +13031,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "ul",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IBD-U",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IBD-U",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DiagnosisCategory"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "IBD-U",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

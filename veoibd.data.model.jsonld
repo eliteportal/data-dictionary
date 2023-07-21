@@ -2676,39 +2676,17 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes-autoimmune"
+                    "@id": "bts:Yes"
                 },
                 {
-                    "@id": "bts:No-autoimmune"
+                    "@id": "bts:No"
                 },
                 {
-                    "@id": "bts:Unknown-autoimmune"
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "autoimmune",
             "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Yes-autoimmune",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Yes-autoimmune",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Yes-autoimmune",
-            "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AutoimmuneDetails"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2793,7 +2771,9 @@
             ],
             "sms:displayName": "diseaseActivityLocation",
             "sms:required": "sms:false",
-            "sms:validationRules": []
+            "sms:validationRules": [
+                "list like"
+            ]
         },
         {
             "@id": "bts:UpperDiseaseType",
@@ -2824,7 +2804,9 @@
             ],
             "sms:displayName": "upperDiseaseType",
             "sms:required": "sms:false",
-            "sms:validationRules": []
+            "sms:validationRules": [
+                "list like"
+            ]
         },
         {
             "@id": "bts:DiseaseActivityBehavior",
@@ -2962,39 +2944,17 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes-GISurgeries"
+                    "@id": "bts:Yes"
                 },
                 {
-                    "@id": "bts:No-GISurgeries"
+                    "@id": "bts:No"
                 },
                 {
-                    "@id": "bts:Unknown-GISurgeries"
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "GISurgeries",
             "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Yes-GISurgeries",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Yes-GISurgeries",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Yes-GISurgeries",
-            "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:GISurgeriesDetails"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3727,7 +3687,9 @@
             ],
             "sms:displayName": "race",
             "sms:required": "sms:false",
-            "sms:validationRules": []
+            "sms:validationRules": [
+                "list like"
+            ]
         },
         {
             "@id": "bts:Ethnicity",
@@ -3797,22 +3759,17 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes-breastfed"
+                    "@id": "bts:Yes"
                 },
                 {
-                    "@id": "bts:No-breastfed"
+                    "@id": "bts:No"
                 },
                 {
-                    "@id": "bts:Unknown-breastfed"
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "breastfed",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:BreastfeedingDuration"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -8411,40 +8368,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:No-autoimmune",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "No-autoimmune",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Autoimmune"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "No-autoimmune",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Unknown-autoimmune",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Unknown-autoimmune",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Autoimmune"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Unknown-autoimmune",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:L1",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -8883,40 +8806,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Ever severe",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:No-GISurgeries",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "No-GISurgeries",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:GISurgeries"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "No-GISurgeries",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Unknown-GISurgeries",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Unknown-GISurgeries",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:GISurgeries"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Unknown-GISurgeries",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -12419,57 +12308,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Not Hispanic",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Yes-breastfed",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Yes-breastfed",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Breastfed"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Yes-breastfed",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:No-breastfed",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "No-breastfed",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Breastfed"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "No-breastfed",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Unknown-breastfed",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Unknown-breastfed",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Breastfed"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Unknown-breastfed",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

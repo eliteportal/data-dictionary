@@ -5,18 +5,17 @@ familyID,Identifying string linked to the family being studied,,,,FALSE,DataProp
 site,Site at which the participant was recruited,"BCH,TOR,MUN",,,TRUE,DataProperty,,Sage Bionetworks,,Clinical,STRING
 participantRole,The role of the study participant within the family group,"Proband,Control,Mother,Father,Sibling",,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C71384,,Clinical,STRING
 Sibling,,,siblingType,,FALSE,DataProperty,,,,,
-Proband,,,"ageAtDiagnosis,ageAtDiagnosisUnit",,FALSE,DataProperty,,,,,
+Proband,,,ageAtDiagnosis,,FALSE,DataProperty,,,,,
 siblingType,"The type of sibling. If participantRole=sibling, specify sibling type.","Full Sibling,Half Sibling",,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C100809&ns=ncit,,Clinical,STRING
 sex,The biological sex of the study participant,"Female,Male,Unknown",,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C28421&ns=ncit,,Clinical,STRING
-ageAtDiagnosis,The age of the participant at diagnosis,,,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C156420&ns=ncit,num,,
-ageAtDiagnosisUnit,Age at diagnosis unit,years,,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C50400&ns=ncit,,Clinical,STRING
+ageAtDiagnosis,The age of the participant at diagnosis in years,,,,TRUE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C156420&ns=ncit,num,,
 GIPhenotype,VEOIBD phenotype code indicating the GI diagnosis,"CD,UC,IBDU,OtherGI,Healthy",,,TRUE,DataProperty,,Sage Bionetworks,,Clinical,STRING
 immunodeficiencyDiagnosis,Does the study participant have an immunodeficiency diagnosis?,"Yes,No,Unknown",,,FALSE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C39725&ns=ncit,,,
 autoimmune,Does the study participant have a known autoimmune condition?,"Yes,No,Unknown",,,FALSE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C2889,,,
 autoimmuneDetails,"Please specify which autoimmune disease the participant has, if any.",,,,TRUE,DataProperty,,,,,
 diseaseActivityLocation,The location of GI disease or activity pertinent to VEOIBD study,"L1,L1. Ileal,L2,L2. Colonic,L3,L3. Ileocolonic,L4,L4*. Isolated upper disease,E1,E1. Ulcerative proctitis,E2,E2. Left-sided uc,E3,E3. Extensive,E4,E4. Pancolitis",,,FALSE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C117884,list like,Clinical,STRING
 upperDiseaseType,"The type of upper GI disease. If diseaseActivityLocation=upper disease, please specify.","L4a,L4a. Upper disease proximal to ligament of treitz,L4b,L4b. Upper disease distal to ligament of treitz & proximal to distal 3rd ileum",,,FALSE,DataProperty,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8743432/,list like,Clinical,STRING
-diseaseActivityBehavior,The behavior of GI disease,"Non-stricturing and non-penetrating,Stricturing,Penetrating,Both penetrating and stricturing,Never severe,Ever severe",,,FALSE,DataProperty,,Sage Bionetworks,,Clinical,STRING
+diseaseActivityBehavior,The behavior of GI disease,"Non-stricturing and non-penetrating,Stricturing,Penetrating,Both penetrating and stricturing,Never severe,Ever severe,Unknown",,,FALSE,DataProperty,,Sage Bionetworks,,Clinical,STRING
 growthDelay,Has the study participant experienced growth delay?,"Yes,No,Unknown",,,FALSE,DataProperty,,https://hpo.jax.org/app/browse/term/HP:0001510,,,
 perianalInvolvement,Is there perianal involvement?,"Yes,No,Unknown",,,FALSE,DataProperty,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C99148,,,
 extraintestinalManifestationsHistory,Is there a history of extraintestinal manifestations?,"Yes,No,Unknown",,,FALSE,DataProperty,,,,,

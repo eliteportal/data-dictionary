@@ -2498,9 +2498,6 @@
             "sms:requiresDependency": [
                 {
                     "@id": "bts:AgeAtDiagnosis"
-                },
-                {
-                    "@id": "bts:AgeAtDiagnosisUnit"
                 }
             ],
             "sms:validationRules": []
@@ -2561,7 +2558,7 @@
         {
             "@id": "bts:AgeAtDiagnosis",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The age of the participant at diagnosis",
+            "rdfs:comment": "The age of the participant at diagnosis in years",
             "rdfs:label": "AgeAtDiagnosis",
             "rdfs:subClassOf": [
                 {
@@ -2576,28 +2573,6 @@
             "sms:validationRules": [
                 "num"
             ]
-        },
-        {
-            "@id": "bts:AgeAtDiagnosisUnit",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Age at diagnosis unit",
-            "rdfs:label": "AgeAtDiagnosisUnit",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Years"
-                }
-            ],
-            "sms:displayName": "ageAtDiagnosisUnit",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
         },
         {
             "@id": "bts:GIPhenotype",
@@ -2839,6 +2814,9 @@
                 },
                 {
                     "@id": "bts:Eversevere"
+                },
+                {
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "diseaseActivityBehavior",
@@ -8228,23 +8206,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Unknown",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Years",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Years",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:AgeAtDiagnosisUnit"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "years",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

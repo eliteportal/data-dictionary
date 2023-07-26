@@ -3688,6 +3688,9 @@
                 },
                 {
                     "@id": "bts:NotHispanic"
+                },
+                {
+                    "@id": "bts:Unknown"
                 }
             ],
             "sms:displayName": "ethnicity",

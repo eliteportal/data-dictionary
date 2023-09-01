@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: update term files and pages
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 0  
           ref: ${{ github.event.pull_request.head.ref }}
@@ -27,7 +27,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v38
+        uses: tj-actions/changed-files@v37
 
       - name: update term file if data model csv is changed
         if: contains(steps.changed-files.outputs.modified_files, 'veoibd.data.model.csv')
@@ -36,13 +36,13 @@ jobs:
 
       - name: Get changed term files
         id: changed-files-yaml
-        uses: tj-actions/changed-files@v38
+        uses: tj-actions/changed-files@v37
         with:
           files_yaml: |
             data:
               - _data/**.csv
             page:
-              - docs/**.md
+              - docs/**/**.md
 
       - name: update term page if the availablity of term file changed
         if: steps.changed-files-yaml.outputs.data_added_files_count != 0 && steps.changed-files-yaml.outputs.data_deleted_files_count != 0

@@ -1,14 +1,15 @@
 ---
-layout: page
-title: site
 datatable: true
+layout: page
 parent: Clinical
+title: site
 ---
 
-{% assign mydata=site.data.site %}
-{: .highlight }
-Site indicates the name of the site at which the participant was recruited.
-
+{% assign mydata=site.data.site %} 
+{: .note-title } 
+>site
+>
+>Site at which the participant was recruited [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Site indicates the name of the site at which the participant was recruited.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

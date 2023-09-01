@@ -1,14 +1,15 @@
 ---
-layout: page
-title: biopsyLocation
 datatable: true
+layout: page
 parent: Experimental Data
+title: biopsyLocation
 ---
 
-{% assign mydata=site.data.biopsyLocation %}
-{: .highlight }
-BiopsyLocation indicates the actual location of biopsy.
-
+{% assign mydata=site.data.biopsyLocation %} 
+{: .note-title } 
+>biopsyLocation
+>
+>Biopsy actual location [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ BiopsyLocation indicates the actual location of biopsy.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

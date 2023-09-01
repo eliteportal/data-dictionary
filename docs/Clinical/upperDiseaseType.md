@@ -1,14 +1,15 @@
 ---
-layout: page
-title: upperDiseaseType
 datatable: true
+layout: page
 parent: Clinical
+title: upperDiseaseType
 ---
 
-{% assign mydata=site.data.upperDiseaseType %}
-{: .highlight }
-UpperDiseaseType indicates the type of upper GI disease. If diseaseActivityLocation=upper disease, please specify.
-
+{% assign mydata=site.data.upperDiseaseType %} 
+{: .note-title } 
+>upperDiseaseType
+>
+>The type of upper GI disease. If diseaseActivityLocation=upper disease, please specify. [[Source]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8743432/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ UpperDiseaseType indicates the type of upper GI disease. If diseaseActivityLocat
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

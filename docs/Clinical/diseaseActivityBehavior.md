@@ -1,14 +1,15 @@
 ---
-layout: page
-title: diseaseActivityBehavior
 datatable: true
+layout: page
 parent: Clinical
+title: diseaseActivityBehavior
 ---
 
-{% assign mydata=site.data.diseaseActivityBehavior %}
-{: .highlight }
-DiseaseActivityBehavior indicates the behavior of GI disease.
-
+{% assign mydata=site.data.diseaseActivityBehavior %} 
+{: .note-title } 
+>diseaseActivityBehavior
+>
+>The behavior of GI disease [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ DiseaseActivityBehavior indicates the behavior of GI disease.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

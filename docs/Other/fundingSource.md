@@ -1,14 +1,15 @@
 ---
-layout: page
-title: fundingSource
 datatable: true
+layout: page
 parent: Other
+title: fundingSource
 ---
 
-{% assign mydata=site.data.fundingSource %}
-{: .highlight }
-Funding source used to support sampling. May be necessary information to determine scope of sharing permissions.
-
+{% assign mydata=site.data.fundingSource %} 
+{: .note-title } 
+>fundingSource
+>
+>Funding source used to support sampling. May be necessary information to determine scope of sharing permissions. [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Funding source used to support sampling. May be necessary information to determi
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

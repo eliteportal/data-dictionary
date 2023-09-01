@@ -1,14 +1,15 @@
 ---
-layout: page
-title: shippingVendor
 datatable: true
+layout: page
 parent: Other
+title: shippingVendor
 ---
 
-{% assign mydata=site.data.shippingVendor %}
-{: .highlight }
-ShippingVendor indicates the vendor used to ship biosamples.
-
+{% assign mydata=site.data.shippingVendor %} 
+{: .note-title } 
+>shippingVendor
+>
+>The vendor used to ship biosamples [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ ShippingVendor indicates the vendor used to ship biosamples.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

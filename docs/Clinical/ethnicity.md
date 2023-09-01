@@ -1,14 +1,15 @@
 ---
-layout: page
-title: ethnicity
 datatable: true
+layout: page
 parent: Clinical
+title: ethnicity
 ---
 
-{% assign mydata=site.data.ethnicity %}
-{: .highlight }
-Ethnicity indicates the population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.
-
+{% assign mydata=site.data.ethnicity %} 
+{: .note-title } 
+>ethnicity
+>
+>Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C16564)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Ethnicity indicates the population category defined using ancestry informative m
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

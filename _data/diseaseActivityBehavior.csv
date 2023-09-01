@@ -1,7 +1,8 @@
-﻿Key,Key Description,Type,Source,Module
+Key,Key Description,Type,Source,Module
 Non-stricturing and non-penetrating,The absence of stricturing or penetrating lesions,STRING,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773596/,Clinical
 Stricturing,Fibrosis of the wall of a segment of the intestine that leads to intestinal lumen narrowing.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C98962,Clinical
 Penetrating,"Penetrating disease is defined as the occurrence of intra-abdominal or perianal fistulas, inflammatory masses, and/or abscesses at any time in the course of disease. Perianal ulcers are also included. Excluded are postoperative intra-abdominal complications and perianal skin tags.",STRING,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1774386/,Clinical
 Both penetrating and stricturing,The existence of stricturing or penetrating lesions,STRING,Sage Bionetworks,Clinical
 Never severe,The Pediatric ulcerative colitis activity index (PUCAI) score is below 10.,STRING,https://primarycarenotebook.com/simplepage.cfm?ID=x20131105194054216972,Clinical
 Ever severe,The Pediatric ulcerative colitis activity index (PUCAI) score is 65 or above.,STRING,https://primarycarenotebook.com/simplepage.cfm?ID=x20131105194054216972,Clinical
+Unknown,,STRING,,Clinical

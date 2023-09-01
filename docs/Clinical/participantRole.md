@@ -1,14 +1,15 @@
 ---
-layout: page
-title: participantRole
 datatable: true
+layout: page
 parent: Clinical
+title: participantRole
 ---
 
-{% assign mydata=site.data.participantRole %}
-{: .highlight }
-ParticipantRole is the role of the study participant within the family group.
-
+{% assign mydata=site.data.participantRole %} 
+{: .note-title } 
+>participantRole
+>
+>The role of the study participant within the family group [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI_Thesaurus&version=22.07d&code=C71384)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ ParticipantRole is the role of the study participant within the family group.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

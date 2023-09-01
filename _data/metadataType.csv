@@ -1,0 +1,7 @@
+Key,Key Description,Type,Source,Module
+assay metadata,,STRING,,Other
+biospecimen metadata,,STRING,,Other
+data dictionary,,STRING,,Other
+individual,,STRING,,Other
+protocol,,STRING,,Other
+quality assessment,,STRING,,Other

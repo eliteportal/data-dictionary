@@ -1,14 +1,15 @@
 ---
-layout: page
-title: assay
 datatable: true
+layout: page
 parent: Experimental Data
+title: assay
 ---
 
-{% assign mydata=site.data.assay %}
-{: .highlight }
-Assay indicates the technology used to generate the data.
-
+{% assign mydata=site.data.assay %} 
+{: .note-title } 
+>assay
+>
+>The technology used to generate the data in this file [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Assay indicates the technology used to generate the data.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

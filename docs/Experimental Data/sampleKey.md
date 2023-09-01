@@ -1,14 +1,15 @@
 ---
-layout: page
-title: sampleKey
 datatable: true
+layout: page
 parent: Experimental Data
+title: sampleKey
 ---
 
-{% assign mydata=site.data.sampleKey %}
-{: .highlight }
-SampleKey indicates additional information about samples. Should match key found in RC2 Sample ID. For biopsy: suggested location,inflammation status,and preservation method. For blood: blood component,preservation method.
-
+{% assign mydata=site.data.sampleKey %} 
+{: .note-title } 
+>sampleKey
+>
+>Key indicating additional information about samples. Should match key found in RC2 Sample ID. For biopsy: suggested location, inflammation status, and preservation method. For blood: blood component, preservation method. [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ SampleKey indicates additional information about samples. Should match key found
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

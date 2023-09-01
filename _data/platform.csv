@@ -1,78 +1,76 @@
 Key,Key Description,Type,Source,Module
-Affy5.0,Affymetrix Genome-Wide Human SNP 5.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804,Experimental Data
-Affy6.0,Affymetrix Genome-Wide Human SNP 6.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801,Experimental Data
-Affymetrix Human Gene 1.0 ST Array,Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244,Experimental Data
-AffymetrixU133AB,Affymetrix U133 AB,STRING,Sage Bionetworks,Experimental Data
-AffymetrixU133Plus2,Affymetrix Human Genome U133 Plus 2.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570,Experimental Data
-Agilent44Karray,Agilent 44k Microarray,STRING,Sage Bionetworks,Experimental Data
-BGISEQ-500,BGISEQ-500 human whole genome sequencing,STRING,https://www.bgi.com/global/wp-content/uploads/sites/3/2017/04/10.-BGISEQ-500-WGS-Technical-Note-Flyer_20180225-3Mb.pdf,Experimental Data
-Biocrates p180,Biocrates AbsoluteIDQ P180 metabolomics kit,STRING,https://biocrates.com/absoluteidq-p180-kit/,Experimental Data
-Biograph mCT,Wide-bore PET/CT scanner from Siemens,STRING,https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000005821165/f2ace6ce4141/siemens-healthineers_mi_pet-ct_biograph-mct_product_brochure_1800000005821165.pdf,Experimental Data
-Bionano Irys,Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level,STRING,https://bionanogenomics.com/products/irys/,Experimental Data
-Bruker Avance III,Nuclear magnetic resonance (NMR) spectrometer manufactured by Bruker,STRING,http://www2.chem.uic.edu/nmr/downloads/bruker/en-US/pdf/z31839.pdf,Experimental Data
-confocalImaging,Confocal Imaging,STRING,Sage Bionetworks,Experimental Data
-ddSEQ Single-Cell Isolator,"The ddSEQ Single-Cell Isolator works with the Illumina Bio-Rad SureCell WTA 3' Library Prep Kit for the ddSEQ System. This technology utilizes disposable microfluidic cartridges to coencapsulate single cells and barcodes into subnanoliter droplets, where cell lysis and barcoding occur. RNA-Seq libraries are subsequently prepared and sequenced. Analysis is conducted via BaseSpace.",STRING,https://www.bio-rad.com/en-us/product/ddseq-single-cell-isolator?ID=OKNWBSE8Z,Experimental Data
-DNBSEQ,BGI DNBseq,STRING,https://www.bgi.com/us/dnbseq-ngs-technology/,Experimental Data
-GAIIx,Illumina GAIIx,STRING,https://support.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_genome_analyzeriix.pdf,Experimental Data
-HiSeq1000,Illumina HiSeq 1000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433,Experimental Data
-HiSeq2000,Illumina HiSeq 2000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154,Experimental Data
-HiSeq2500,Illumina HiSeq 2500,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791,Experimental Data
-HiSeq3000,Illumina HiSeq 3000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290,Experimental Data
-HiSeq4000,Illumina HiSeq 4000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301,Experimental Data
 HiSeqX,Illumina HiSeq X Platform for whole-genome sequencing,STRING,https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html,Experimental Data
+HiSeq4000,Illumina HiSeq 4000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301,Experimental Data
 Illumina_1M,Illumina 1M,STRING,Sage Bionetworks,Experimental Data
+HiSeq3000,Illumina HiSeq 3000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290,Experimental Data
+HiSeq2500,Illumina HiSeq 2500,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791,Experimental Data
+DNBSEQ,BGI DNBseq,STRING,https://www.bgi.com/us/dnbseq-ngs-technology/,Experimental Data
+HiSeq1000,Illumina HiSeq 1000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433,Experimental Data
+GAIIx,Illumina GAIIx,STRING,https://support.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_genome_analyzeriix.pdf,Experimental Data
 Illumina_h650,Illumina H650,STRING,Sage Bionetworks,Experimental Data
+ddSEQ Single-Cell Isolator,"The ddSEQ Single-Cell Isolator works with the Illumina Bio-Rad SureCell WTA 3' Library Prep Kit for the ddSEQ System. This technology utilizes disposable microfluidic cartridges to coencapsulate single cells and barcodes into subnanoliter droplets, where cell lysis and barcoding occur. RNA-Seq libraries are subsequently prepared and sequenced. Analysis is conducted via BaseSpace.",STRING,https://www.bio-rad.com/en-us/product/ddseq-single-cell-isolator?ID=OKNWBSE8Z,Experimental Data
+confocalImaging,Confocal Imaging,STRING,Sage Bionetworks,Experimental Data
+Bruker Avance III,Nuclear magnetic resonance (NMR) spectrometer manufactured by Bruker,STRING,http://www2.chem.uic.edu/nmr/downloads/bruker/en-US/pdf/z31839.pdf,Experimental Data
+Bionano Irys,Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level,STRING,https://bionanogenomics.com/products/irys/,Experimental Data
+Biograph mCT,Wide-bore PET/CT scanner from Siemens,STRING,https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000005821165/f2ace6ce4141/siemens-healthineers_mi_pet-ct_biograph-mct_product_brochure_1800000005821165.pdf,Experimental Data
+HiSeq2000,Illumina HiSeq 2000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154,Experimental Data
 Illumina_HumanOmni1-Quadv1.0,Illumina HumanOmni1 Quad v1.0,STRING,Sage Bionetworks,Experimental Data
-llumina Infinium General Screening Array 24-Kit v3.0,Illumina Infinium General Screening Array 24-Kit v3.0,STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html,Experimental Data
-Illumina MouseWG-6 v2.0 expression beadchip,Whole-genome expression profiling in the mouse,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887,Experimental Data
-Illumina_Omni2.5-8,"A kit featuring 8-sample arrays with high throughput and optimized tag SNP content, including full support of copy number variation applications, designed to be highly customizable and maximally informative for studying diverse world populations.",STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-omni25-8.html,Experimental Data
-Illumina_Omni2.5-8_v1.1,Illumina Omni2.5-8_v1.1,STRING,Sage Bionetworks,Experimental Data
-Illumina_Omni2.5-8_v1.3,Illumina Omni2.5-8_v1.3,STRING,Sage Bionetworks,Experimental Data
-Illumina_Omni2pt5M,Illumina Omni2.5,STRING,Sage Bionetworks,Experimental Data
 Illumina_Omni5M,Illumina Omni5,STRING,Sage Bionetworks,Experimental Data
-Illumina_Omni5-Quad,Illumina Omni5-Quad,STRING,Sage Bionetworks,Experimental Data
-IlluminaHumanHap300,Illumina Hap300,STRING,Sage Bionetworks,Experimental Data
-IlluminaHumanHap650Yv3_A,Illumina Hap650Yv3_A,STRING,Sage Bionetworks,Experimental Data
-IlluminaHumanHT-12_V3_0_R1,Illumina HT-12 V3,STRING,Sage Bionetworks,Experimental Data
-IlluminaHumanMethylation450,Illumina HumanMethylation450 BeadChip ,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534,Experimental Data
-IlluminaMethylationEPIC,"An Illumina methylation BeadChip array that interrogates 850,000 methylation sites per sample at single-nucleotide resolution.",STRING,http://purl.obolibrary.org/obo/OBI_0002131,Experimental Data
-IlluminaInfiniumGSAMD-24v2-0,Illumina Infinium General Screening Array 24-Kit v2.0,STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html,Experimental Data
-Illumina_Infinium-HumanMethylation450-BeadChip,Illumina Infinium HumanMethylation450 Bead Chip,STRING,https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_humanmethylation450.pdf,Experimental Data
-IlluminaMiSeq,"A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",STRING,http://purl.obolibrary.org/obo/OBI_0002003,Experimental Data
-Illumina NovaSeq 6000,High-throughput sequencing,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676,Experimental Data
+Illumina MouseWG-6 v2.0 expression beadchip,Whole-genome expression profiling in the mouse,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887,Experimental Data
 IlluminaNovaseq6000,"Illumina Novaseq 6000, high-throughput sequencing",STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644.,Experimental Data
 IlluminaWholeGenomeDASL,Illumina Human Whole-Genome DASL HT,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369,Experimental Data
 Infinium Global Diversity Array-8,Illumina 8-sample BeadChip microarray kit. built on a high-density single nucleotide polymorphism (SNP) global backbone optimized for cross-population imputation coverage of the genome.,STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-global-diversity.html,Experimental Data
-Infinium HumanOmniExpressExome,Infinium HumanOmniExpressExome BeadChip,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224,Experimental Data
-Infinium Omni2.5Exome-8 v1.1,Infinium Omni2.5Exome-8 v1.1,STRING,Sage Bionetworks,Experimental Data
-Infinium Omni2.5Exome-8 v1.3,Infinium Omni2.5Exome-8 v1.3,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html,Experimental Data
-Infinium Omni2.5Exome-8 v1.4,Infinium Omni2.5Exome-8 v1.4,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-4-product-files.html,Experimental Data
-Infinium Omni2.5Exome-8 v1.5,Infinium Omni2.5Exome-8 v1.5,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-5-support-files.html,Experimental Data
-InfiniumPsychArrayBeadChip,Illumina array developed for large-scale genetic studies focused on psychiatricpredisposition and risk ,STRING,https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet-infinium-psych-array.pdf,Experimental Data
-LTQOrbitrapXL,LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer,STRING,https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK,Experimental Data
-MiSeq,Illumina MiSeq,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520,Experimental Data
-NanostringnCounter,Nanostring nCounter,STRING,Sage Bionetworks,Experimental Data
-NanostringnCounter_MouseADPanel,770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.,STRING,https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels,Experimental Data
-NextSeq500,Illumina NextSeq 500,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573,Experimental Data
-NextSeq2000,Illumina NextSeq 2000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL30173,Experimental Data
-Olink Target 96,Platform used for proximity extension assays,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27151,Experimental Data
+Illumina_Infinium-HumanMethylation450-BeadChip,Illumina Infinium HumanMethylation450 Bead Chip,STRING,https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_humanmethylation450.pdf,Experimental Data
+IlluminaInfiniumGSAMD-24v2-0,Illumina Infinium General Screening Array 24-Kit v2.0,STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html,Experimental Data
+IlluminaMethylationEPIC,"An Illumina methylation BeadChip array that interrogates 850,000 methylation sites per sample at single-nucleotide resolution.",STRING,http://purl.obolibrary.org/obo/OBI_0002131,Experimental Data
+PacBioRSII,PacBio RS II,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311,Experimental Data
+IlluminaHumanMethylation450,Illumina HumanMethylation450 BeadChip ,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534,Experimental Data
+IlluminaHumanHT-12_V3_0_R1,Illumina HT-12 V3,STRING,Sage Bionetworks,Experimental Data
+IlluminaHumanHap650Yv3_A,Illumina Hap650Yv3_A,STRING,Sage Bionetworks,Experimental Data
+IlluminaHumanHap300,Illumina Hap300,STRING,Sage Bionetworks,Experimental Data
+Illumina_Omni5-Quad,Illumina Omni5-Quad,STRING,Sage Bionetworks,Experimental Data
+Biocrates p180,Biocrates AbsoluteIDQ P180 metabolomics kit,STRING,https://biocrates.com/absoluteidq-p180-kit/,Experimental Data
+Illumina_Omni2pt5M,Illumina Omni2.5,STRING,Sage Bionetworks,Experimental Data
+Illumina_Omni2.5-8_v1.3,Illumina Omni2.5-8_v1.3,STRING,Sage Bionetworks,Experimental Data
+Illumina_Omni2.5-8_v1.1,Illumina Omni2.5-8_v1.1,STRING,Sage Bionetworks,Experimental Data
+Illumina_Omni2.5-8,"A kit featuring 8-sample arrays with high throughput and optimized tag SNP content, including full support of copy number variation applications, designed to be highly customizable and maximally informative for studying diverse world populations.",STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-omni25-8.html,Experimental Data
+llumina Infinium General Screening Array 24-Kit v3.0,Illumina Infinium General Screening Array 24-Kit v3.0,STRING,https://www.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html,Experimental Data
+BGISEQ-500,BGISEQ-500 human whole genome sequencing,STRING,https://www.bgi.com/global/wp-content/uploads/sites/3/2017/04/10.-BGISEQ-500-WGS-Technical-Note-Flyer_20180225-3Mb.pdf,Experimental Data
+Perlegen300Karray,Perlegen 300K array,STRING,Sage Bionetworks,Experimental Data
+AffymetrixU133Plus2,Affymetrix Human Genome U133 Plus 2.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570,Experimental Data
 orbitrap,An ion trapping device that consists of an outer barrel-like electrode and a coaxial inner spindle-like electrode that form an electrostatic field with quadro-logarithmic potential distribution. The frequency of harmonic oscillations of the orbitally trapped ions along the axis of the electrostatic field is independent of the ion velocity and is inversely proportional to the square root of m/z so that the trap can be used as a mass analyzer.,STRING,http://purl.obolibrary.org/obo/CHMO_0000968,Experimental Data
+Xevo TQ-S,Waters quadrupole based Xevo TQ-S. [database_cross_reference: PSI:MS],STRING,http://purl.obolibrary.org/obo/MS_1001792,Experimental Data
+Agilent44Karray,Agilent 44k Microarray,STRING,Sage Bionetworks,Experimental Data
+NextSeq2000,Illumina NextSeq 2000,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL30173,Experimental Data
+NextSeq500,Illumina NextSeq 500,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573,Experimental Data
+NanostringnCounter_MouseADPanel,770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.,STRING,https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels,Experimental Data
+NanostringnCounter,Nanostring nCounter,STRING,Sage Bionetworks,Experimental Data
+MiSeq,Illumina MiSeq,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520,Experimental Data
+LTQOrbitrapXL,LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer,STRING,https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK,Experimental Data
+InfiniumPsychArrayBeadChip,Illumina array developed for large-scale genetic studies focused on psychiatricpredisposition and risk ,STRING,https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet-infinium-psych-array.pdf,Experimental Data
+Infinium Omni2.5Exome-8 v1.5,Infinium Omni2.5Exome-8 v1.5,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-5-support-files.html,Experimental Data
+Infinium Omni2.5Exome-8 v1.4,Infinium Omni2.5Exome-8 v1.4,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-4-product-files.html,Experimental Data
+Infinium Omni2.5Exome-8 v1.3,Infinium Omni2.5Exome-8 v1.3,STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html,Experimental Data
+Infinium Omni2.5Exome-8 v1.1,Infinium Omni2.5Exome-8 v1.1,STRING,Sage Bionetworks,Experimental Data
+Infinium HumanOmniExpressExome,Infinium HumanOmniExpressExome BeadChip,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224,Experimental Data
 OrbiTrap Fusion,Thermo Scientific Orbitrap Fusion,STRING,http://purl.obolibrary.org/obo/MS_1002416,Experimental Data
 Orbitrap Fusion Lumos,A tribrid mass spectrometer manufactured by ThermoFisher Scientific,STRING,http://purl.obolibrary.org/obo/MS_1002732,Experimental Data
-PacBioRSII,PacBio RS II,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311,Experimental Data
-PacBio Sequel II,"A DNA sequencer built upon single molecule real-time sequencing technology, optimized for generation of highly accurate long reads, and which is manufactured by the Pacific Biosciences corporation.",STRING,http://purl.obolibrary.org/obo/OBI_0002633,Experimental Data
-PacBio Sequel IIe,Sequel IIe is the latest platform from Pacific Biosciences (PacBio) that generates high throughput and highly accurate long-read sequencing.,STRING,https://www.pacb.com/technology/hifi-sequencing/sequel-system/latest-system-release/,Experimental Data
-Perlegen300Karray,Perlegen 300K array,STRING,Sage Bionetworks,Experimental Data
-PsychChip,PsychChip,STRING,Sage Bionetworks,Experimental Data
-Q Exactive,Thermo Scientific Q Exactive.,STRING,http://purl.obolibrary.org/obo/MS_1001911,Experimental Data
-Q Exactive HF,Thermo Scientific Q Exactive,STRING,http://purl.obolibrary.org/obo/MS_1002523,Experimental Data
-Q Exactive HF-X,Thermo Scientific Q Exactive HF-X,STRING,http://purl.obolibrary.org/obo/MS_1002877,Experimental Data
-Q Exactive Plus,Thermo Scientific Q Exactive Plus,STRING,http://purl.obolibrary.org/obo/MS_1002634,Experimental Data
-quadrupole time-of-flight,Mass spectrometry that uses a system with a quadrupole mass-to-charge analyser connected to a time-of-flight mass-to-charge analyser.,STRING,http://purl.obolibrary.org/obo/CHMO_0002719,Experimental Data
-SequenomMultiplex,Sequenom Multiplex,STRING,Sage Bionetworks,Experimental Data
-Signa Premier AIR 3T,Wide-bore 3T MRI scanner from GE Healthcare,STRING,https://www.gehealthcare.com/products/magnetic-resonance-imaging/3-0t/signa-premier,Experimental Data
-Simoa HD-1 Analyzer,A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.,STRING,https://doi.org/10.1177/2211068215589580,Experimental Data
-time-of-flight,Instrument that separates ions by m/z in a field-free region after acceleration to a fixed acceleration energy.,STRING,http://purl.obolibrary.org/obo/MS_1000084,Experimental Data
+Olink Target 96,Platform used for proximity extension assays,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27151,Experimental Data
 triple quadrupole,"A piece of apparatus that consists of an ion source, a mass-to-charge analyser, a detector and a vacuum system and is used to measure mass spectra. The detector is a linear sequence of three quadrupole mass-to-charge analysers, which hold the ions in a stable orbit by an electric field generated by four parallel electrodes.",STRING,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html,Experimental Data
+AffymetrixU133AB,Affymetrix U133 AB,STRING,Sage Bionetworks,Experimental Data
+Affymetrix Human Gene 1.0 ST Array,Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244,Experimental Data
+PacBio Sequel II,"A DNA sequencer built upon single molecule real-time sequencing technology, optimized for generation of highly accurate long reads, and which is manufactured by the Pacific Biosciences corporation.",STRING,http://purl.obolibrary.org/obo/OBI_0002633,Experimental Data
 Xevo G2 QTOF,Waters oa-ToF based Xevo G2 Q-Tof,STRING,https://www.waters.com/waters/en_US/Xevo-G2-XS-QTof-Quadrupole-Time-of-Flight-Mass-Spectrometer/nav.htm?locale=en_US&cid=134798222,Experimental Data
-Xevo TQ-S,Waters quadrupole based Xevo TQ-S. [database_cross_reference: PSI:MS],STRING,http://purl.obolibrary.org/obo/MS_1001792,Experimental Data
+PsychChip,PsychChip,STRING,Sage Bionetworks,Experimental Data
+Affy6.0,Affymetrix Genome-Wide Human SNP 6.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801,Experimental Data
+Affy5.0,Affymetrix Genome-Wide Human SNP 5.0 Array,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804,Experimental Data
+Illumina NovaSeq 6000,High-throughput sequencing,STRING,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676,Experimental Data
+Q Exactive HF,Thermo Scientific Q Exactive,STRING,http://purl.obolibrary.org/obo/MS_1002523,Experimental Data
+Q Exactive,Thermo Scientific Q Exactive.,STRING,http://purl.obolibrary.org/obo/MS_1001911,Experimental Data
+time-of-flight,Instrument that separates ions by m/z in a field-free region after acceleration to a fixed acceleration energy.,STRING,http://purl.obolibrary.org/obo/MS_1000084,Experimental Data
+Simoa HD-1 Analyzer,A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.,STRING,https://doi.org/10.1177/2211068215589580,Experimental Data
+Signa Premier AIR 3T,Wide-bore 3T MRI scanner from GE Healthcare,STRING,https://www.gehealthcare.com/products/magnetic-resonance-imaging/3-0t/signa-premier,Experimental Data
+IlluminaMiSeq,"A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",STRING,http://purl.obolibrary.org/obo/OBI_0002003,Experimental Data
+SequenomMultiplex,Sequenom Multiplex,STRING,Sage Bionetworks,Experimental Data
+quadrupole time-of-flight,Mass spectrometry that uses a system with a quadrupole mass-to-charge analyser connected to a time-of-flight mass-to-charge analyser.,STRING,http://purl.obolibrary.org/obo/CHMO_0002719,Experimental Data
+Q Exactive Plus,Thermo Scientific Q Exactive Plus,STRING,http://purl.obolibrary.org/obo/MS_1002634,Experimental Data

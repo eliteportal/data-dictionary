@@ -1,3 +1,5 @@
-﻿Key,Key Description,Type,Source,Module
+Key,Key Description,Type,Source,Module
 L4a,Upper disease proximal to ligament of treitz,STRING,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8743432/,Clinical
+L4a. Upper disease proximal to ligament of treitz,,STRING,,Clinical
 L4b,Upper disease distal to ligament of treitz and proximal to distal 3rd ileum,STRING,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8743432/,Clinical
+L4b. Upper disease distal to ligament of treitz & proximal to distal 3rd ileum,,STRING,,Clinical

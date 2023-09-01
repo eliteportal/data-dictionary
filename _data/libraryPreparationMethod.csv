@@ -1,0 +1,16 @@
+Key,Key Description,Type,Source,Module
+Drop-Seq,,STRING,,NGS
+sac-seq,,STRING,,NGS
+NexteraXT,,STRING,,NGS
+Smart-seq1,,STRING,,NGS
+10x,,STRING,,NGS
+Omni-ATAC,,STRING,,NGS
+Accel-NGS Methyl-Seq,,STRING,,NGS
+CEL-seq,,STRING,,NGS
+NEBNext,,STRING,,NGS
+Smart-seq2,,STRING,,NGS
+Smart-seq4,,STRING,,NGS
+SMRTbell,,STRING,,NGS
+TruSeq,,STRING,,NGS
+Ultralow Methyl-Seq,,STRING,,NGS
+Accel-NGS 2S Plus,,STRING,,NGS

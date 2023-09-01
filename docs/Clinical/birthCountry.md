@@ -1,14 +1,15 @@
 ---
-layout: page
-title: birthCountry
 datatable: true
+layout: page
 parent: Clinical
+title: birthCountry
 ---
 
-{% assign mydata=site.data.birthCountry %}
-{: .highlight }
-BirthCountry indicates the country of birth of the study participant.
-
+{% assign mydata=site.data.birthCountry %} 
+{: .note-title } 
+>birthCountry
+>
+>The country of birth of the study participant [[Source]](https://browser.ihtsdotools.org/?perspective=full&conceptId1=315354004&edition=MAIN/SNOMEDCT-US/2022-09-01&release=&languages=en)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ BirthCountry indicates the country of birth of the study participant.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

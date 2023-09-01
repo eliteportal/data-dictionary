@@ -1,5 +1,0 @@
-Key,Key Description,Type,Source,Module
-days,"Age measured in days, a period of 24 hours.",STRING,http://purl.obolibrary.org/obo/NCIT_C25301,Clinical
-months,Age measured in calendar months (approximately 30 days or 4 weeks).,STRING,http://purl.obolibrary.org/obo/NCIT_C29846,Clinical
-weeks,Age measured in weeks (any period of seven consecutive days.).,STRING,http://purl.obolibrary.org/obo/NCIT_C29844,Clinical
-years,Age measured in years (approximately 365 days).,STRING,http://purl.obolibrary.org/obo/NCIT_C29848,Clinical

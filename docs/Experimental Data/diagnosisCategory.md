@@ -1,14 +1,15 @@
 ---
-layout: page
-title: diagnosisCategory
 datatable: true
+layout: page
 parent: Experimental Data
+title: diagnosisCategory
 ---
 
-{% assign mydata=site.data.diagnosisCategory %}
-{: .highlight }
-DiagnosisCategory indicates the general diagnosis category.
-
+{% assign mydata=site.data.diagnosisCategory %} 
+{: .note-title } 
+>diagnosisCategory
+>
+>The general diagnosis category [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ DiagnosisCategory indicates the general diagnosis category.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

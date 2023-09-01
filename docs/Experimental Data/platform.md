@@ -1,14 +1,15 @@
 ---
-layout: page
-title: platform
 datatable: true
+layout: page
 parent: Experimental Data
+title: platform
 ---
 
-{% assign mydata=site.data.platform %}
-{: .highlight }
-Platform indicates the specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.
-
+{% assign mydata=site.data.platform %} 
+{: .note-title } 
+>platform
+>
+>The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment. [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Platform indicates the specific version (manufacturer, model, etc.) of a technol
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

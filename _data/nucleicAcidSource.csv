@@ -1,0 +1,5 @@
+Key,Key Description,Type,Source,Module
+bulk cell,,STRING,,NGS
+bulk nuclei,,STRING,,NGS
+single cell,,STRING,,NGS
+single nucleus,,STRING,,NGS

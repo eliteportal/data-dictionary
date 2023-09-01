@@ -1,14 +1,15 @@
 ---
-layout: page
-title: biopsyInflammationStatus
 datatable: true
+layout: page
 parent: Experimental Data
+title: biopsyInflammationStatus
 ---
 
-{% assign mydata=site.data.biopsyInflammationStatus %}
-{: .highlight }
-BiopsyInflammationStatus indicates the biopsy inflammation status.
-
+{% assign mydata=site.data.biopsyInflammationStatus %} 
+{: .note-title } 
+>biopsyInflammationStatus
+>
+>Biopsy inflammation status [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3137)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ BiopsyInflammationStatus indicates the biopsy inflammation status.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

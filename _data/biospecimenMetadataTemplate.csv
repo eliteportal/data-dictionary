@@ -1,0 +1,23 @@
+Key,Key Description,Type,Valid Values,DependsOn,Required,Source,Module
+individualID,"Identifying string linked to the individual or animal being studied, formatted as [site prefix] + [localID]",,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.09d&code=C69256&ns=ncit,
+specimenID,Identifying string linked to a particular sample or specimen. For RC2 Samples: formatted as [IndividualID] + [Sample Type Abbreviation] + [Sample letter key] + [Subcategory of analysis type],,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C166393,
+sampleKey,"Key indicating additional information about samples. Should match key found in RC2 Sample ID. For biopsy: suggested location, inflammation status, and preservation method. For blood: blood component, preservation method.",STRING,"A,B,C,D,E,F,G,H,I,J",,True,Sage Bionetworks,Experimental Data
+fundingSource,Funding source used to support sampling. May be necessary information to determine scope of sharing permissions.,STRING,"RC2,Helmsley,Internal",,True,,Other
+sampleType,The type of sample being described,STRING,"Biopsy,Blood,Serum,PBMC,PAX",,True,Sage Bionetworks,Experimental Data
+biopsyLocation,Biopsy actual location,STRING,"Sigmoid,Descending Colon/Transverse,Sigmoid/Descending Colon,Unspecified,Ascending,Ileum,Rectum,Cecum,Transverse Colon,Most Severe Area",,True,Sage Bionetworks,Experimental Data
+biopsyInflammationStatus,Biopsy inflammation status,STRING,"Inflamed,Uninflamed",,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3137,Experimental Data
+biopsiesNumber,The number of biopsies,,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C182265,
+preservationMethod,The method of preservation for biopsy samples,STRING,"Cryopreserved,Snap Frozen,Formalin,PAXGene Tube",,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19232,Experimental Data
+volume,"The volume of serum, PBMC, PAX collected",,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C25335,
+volumeUnit,The units the volume is reported in,STRING,"ml,ul",,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C25335,Experimental Data
+numberCells,The number of cells for PBMC samples as # x 10^6,,,,True,Sage Bionetworks,
+dateCollected,The date sample was collected in format YYYY-MM-DD,,,,True,Sage Bionetworks,
+diagnosisCategory,The general diagnosis category,STRING,"CD,UC,IBDU,CTL",,True,Sage Bionetworks,Experimental Data
+notes,Any additional notes about the biospecimen,,,,False,Sage Bionetworks,
+shippingTrackingNumber,"Tracking number issued by vendor. this can be used to identify shipping ""batches"" i.e. samples that were shipped at the same time under the same conditions",,,,False,Sage Bionetworks,
+shippingVendor,The vendor used to ship biosamples,STRING,"Federal Express,DHL,World Courier",,False,Sage Bionetworks,Other
+specimenIDSource,Sample originator. Should match prefix on RC2 Sample ID,STRING,"BCH,TOR,MUN,NET",,False,Sage Bionetworks,Experimental Data
+uniqueID,"The unique ID, if there is one that is separate from the specimen ID (for example, if sites use their own internal unique ID). Some sites may collect this but not all",,,,False,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C70663,
+numberCells,Number of cells or nuclei sequenced,,,,False,,
+cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally. Provided as number of live cells per unit volume,,,,False,,
+cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally.,STRING,"Inviable cell,Viable cell",,False,,NGS

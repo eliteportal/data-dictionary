@@ -1,14 +1,15 @@
 ---
-layout: page
-title: dataType
 datatable: true
+layout: page
 parent: Experimental Data
+title: dataType
 ---
 
-{% assign mydata=site.data.dataType %}
-{: .highlight }
-DataType indicates the types of input/output data in bioinformatics pipelines.
-
+{% assign mydata=site.data.dataType %} 
+{: .note-title } 
+>dataType
+>
+>Types of input/output data in bioinformatics pipelines [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ DataType indicates the types of input/output data in bioinformatics pipelines.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

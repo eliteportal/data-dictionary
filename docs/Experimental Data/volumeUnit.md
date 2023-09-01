@@ -1,14 +1,15 @@
 ---
-layout: page
-title: volumeUnit
 datatable: true
+layout: page
 parent: Experimental Data
+title: volumeUnit
 ---
 
-{% assign mydata=site.data.volumeUnit %}
-{: .highlight }
-VolumeUnit indicates the units the volume is reported in.
-
+{% assign mydata=site.data.volumeUnit %} 
+{: .note-title } 
+>volumeUnit
+>
+>The units the volume is reported in [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C25335)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ VolumeUnit indicates the units the volume is reported in.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

@@ -1,14 +1,15 @@
 ---
-layout: page
-title: GIPhenotype
 datatable: true
+layout: page
 parent: Clinical
+title: GIPhenotype
 ---
 
-{% assign mydata=site.data.GIPhenotype %}
-{: .highlight }
-VEOIBD phenotype code indicating the GI diagnosis.
-
+{% assign mydata=site.data.GIPhenotype %} 
+{: .note-title } 
+>GIPhenotype
+>
+>VEOIBD phenotype code indicating the GI diagnosis [[Source]](https://sagebionetworks.org/)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ VEOIBD phenotype code indicating the GI diagnosis.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

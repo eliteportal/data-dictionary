@@ -1,14 +1,15 @@
 ---
-layout: page
-title: sex
 datatable: true
-parent: Clinical
+layout: page
+parent: Experimental Data
+title: sampleTissueType
 ---
 
-{% assign mydata=site.data.sex %}
-{: .highlight }
-Sex indicates the biological sex of the study participant.
-
+{% assign mydata=site.data.sampleTissueType %} 
+{: .note-title } 
+>sampleTissueType
+>
+>Tissue type used in sample [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ Sex indicates the biological sex of the study participant.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

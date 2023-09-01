@@ -1,14 +1,15 @@
 ---
-layout: page
-title: siblingType
 datatable: true
+layout: page
 parent: Clinical
+title: siblingType
 ---
 
-{% assign mydata=site.data.siblingType %}
-{: .highlight }
-SiblingType indicates the type of sibling. If participantRole=sibling, specify sibling type.
-
+{% assign mydata=site.data.siblingType %} 
+{: .note-title } 
+>siblingType
+>
+>The type of sibling. If participantRole=sibling, specify sibling type. [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C100809&ns=ncit)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ SiblingType indicates the type of sibling. If participantRole=sibling, specify s
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

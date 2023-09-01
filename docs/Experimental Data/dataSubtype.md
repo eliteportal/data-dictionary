@@ -1,14 +1,15 @@
 ---
-layout: page
-title: ageAtDiagnosisUnit
 datatable: true
-parent: Clinical
+layout: page
+parent: Experimental Data
+title: dataSubtype
 ---
 
-{% assign mydata=site.data.ageAtDiagnosisUnit %}
-{: .highlight }
-AgeAtDiagnosisUnit is the unit of age at diagnosis.
-
+{% assign mydata=site.data.dataSubtype %} 
+{: .note-title } 
+>dataSubtype
+>
+>Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata. [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ AgeAtDiagnosisUnit is the unit of age at diagnosis.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

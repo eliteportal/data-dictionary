@@ -1,0 +1,6 @@
+Key,Key Description,Type,Source,Module
+LP,,STRING,,Experimental Data
+EPI,,STRING,,Experimental Data
+both LP and EPI,,STRING,,Experimental Data
+blood,,STRING,,Experimental Data
+organoid,,STRING,,Experimental Data

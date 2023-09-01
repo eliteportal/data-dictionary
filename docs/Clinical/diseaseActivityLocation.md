@@ -1,14 +1,15 @@
 ---
-layout: page
-title: diseaseActivityLocation
 datatable: true
+layout: page
 parent: Clinical
+title: diseaseActivityLocation
 ---
 
-{% assign mydata=site.data.diseaseActivityLocation %}
-{: .highlight }
-DiseaseActivityLocation indicates the location of GI disease or activity pertinent to VEOIBD study.
-
+{% assign mydata=site.data.diseaseActivityLocation %} 
+{: .note-title } 
+>diseaseActivityLocation
+>
+>The location of GI disease or activity pertinent to VEOIBD study [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C117884)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ DiseaseActivityLocation indicates the location of GI disease or activity pertine
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

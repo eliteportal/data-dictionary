@@ -1,14 +1,15 @@
 ---
-layout: page
-title: preservationMethod
 datatable: true
+layout: page
 parent: Experimental Data
+title: preservationMethod
 ---
 
-{% assign mydata=site.data.preservationMethod %}
-{: .highlight }
-PreservationMethod indicates the method of preservation for biopsy samples.
-
+{% assign mydata=site.data.preservationMethod %} 
+{: .note-title } 
+>preservationMethod
+>
+>The method of preservation for biopsy samples [[Source]](https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19232)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}
@@ -43,14 +44,13 @@ PreservationMethod indicates the method of preservation for biopsy samples.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

@@ -5511,7 +5511,7 @@
         {
             "@id": "bts:BiospecimenMetadataTemplate",
             "@type": "rdfs:Class",
-            "rdfs:comment": "SysBio VEOIBD Biospecimen template schema",
+            "rdfs:comment": "SysBio VEOIBD Biospecimen Metadata Template",
             "rdfs:label": "BiospecimenMetadataTemplate",
             "rdfs:subClassOf": [
                 {
@@ -6033,7 +6033,7 @@
                     "@id": "bts:UC"
                 },
                 {
-                    "@id": "bts:IBD-U"
+                    "@id": "bts:IBDU"
                 },
                 {
                     "@id": "bts:CTL"
@@ -6156,7 +6156,7 @@
         {
             "@id": "bts:BulkRNAseqAssayTemplate",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "SysBio VEOIBD Bulk RNASeq Assay Metadata Template",
             "rdfs:label": "BulkRNAseqAssayTemplate",
             "rdfs:subClassOf": [
                 {
@@ -7770,7 +7770,7 @@
         {
             "@id": "bts:ScRNAseqAssayTemplate",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "SysBio VEOIBD Single Cell RNASeq Assay Metadata Template",
             "rdfs:label": "ScRNAseqAssayTemplate",
             "rdfs:subClassOf": [
                 {
@@ -12833,23 +12833,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "ul",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IBD-U",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IBD-U",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DiagnosisCategory"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "IBD-U",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },

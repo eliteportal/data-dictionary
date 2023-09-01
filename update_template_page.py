@@ -29,8 +29,8 @@ def get_terms():
 
 def update_markdown(file_name, terms):
     # Load the file into file_content
-    file_content = [line for line in open(f"docs/Metadata Templates/{file_name}")]
-    with open(f"docs/Metadata Templates/{file_name}", "w") as writer:
+    file_content = [line for line in open(f"docs/Metadata Template/{file_name}")]
+    with open(f"docs/Metadata Template/{file_name}", "w") as writer:
         for line in file_content:
             # We search for the correct section
             if line.startswith("  var pages"):
@@ -44,8 +44,8 @@ def main():
     # get the template pages
     templates = [
         file
-        for file in os.listdir("docs/Metadata Templates/")
-        if (file.endswith(".md")) & (file != "Metadata Templates.md")
+        for file in os.listdir("docs/Metadata Template/")
+        if (file.endswith(".md")) & (file != "Metadata Template.md")
     ]
     # get the terms with markdown page
     terms = get_terms()

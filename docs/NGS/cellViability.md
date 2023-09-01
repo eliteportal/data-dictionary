@@ -1,7 +1,7 @@
 ---
 datatable: true
 layout: page
-parent: .nan
+parent: NGS
 title: cellViability
 ---
 
@@ -51,6 +51,7 @@ title: cellViability
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
+                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

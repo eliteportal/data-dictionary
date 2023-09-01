@@ -51,6 +51,7 @@ title: fundingSource
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
+                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

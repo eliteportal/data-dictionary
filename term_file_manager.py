@@ -56,7 +56,7 @@ def update_csv(data_model, term):
     else: 
         # convert dataframe to long format
         new = data_model.loc[data_model['Attribute'] == term, ][["Attribute", "Valid Values", "DependsOn","Type", "Module"]]
-        new = new.drop(columns = ['Attribute']).set_index(["Type", "Module"]).apply(lambda x: x.str.split(",").explode()).reset_index()
+        new = new.drop(columns = ['Attribute','DependsOn']).set_index(["Type", "Module"]).apply(lambda x: x.str.split(",").explode()).reset_index()
         # add columns
         new.rename(columns={"Valid Values": "Key"}, inplace=True)
         #load existing csv

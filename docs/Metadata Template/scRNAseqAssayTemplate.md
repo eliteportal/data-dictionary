@@ -29,7 +29,7 @@ title: Sc Rnaseq Assay Template
 </table>
 
 <script type="text/javascript">
-  var pages = [];
+  var pages = ['diseaseActivityLocation', 'genomicSex', 'siblingType', 'sex', 'ethnicity', 'diseaseActivityBehavior', 'participantRole', 'GIPhenotype', 'birthCountry', 'upperDiseaseType', 'race', 'site', 'analysisType', 'biopsyInflammationStatus', 'biopsyLocation', 'sampleTissueType', 'sampleType', 'preservationMethod', 'sampleKey', 'diagnosisCategory', 'dataSubtype', 'dataType', 'specimenIDSource', 'volumeUnit', 'assay', 'sampleStatus', 'platform', 'runType', 'libraryPreparationMethod', 'libraryPrep', 'referenceSet', 'isStranded', 'cellViability', 'nucleicAcidSource', 'readStrandOrigin', 'libraryType', 'resourceType', 'fundingSource', 'fileFormat', 'shippingVendor', 'metadataType']
   $('#myTable').DataTable({
     responsive: {
         details: {

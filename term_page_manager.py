@@ -107,7 +107,7 @@ def main():
     term_pages = [file.split('/')[-1].split('.')[0] for file in glob.glob("docs/*/*.md")]
     to_add = map(str,np.setdiff1d(term_files,term_pages))
     to_delete = np.setdiff1d(term_pages,term_files).tolist()
-    pdb.set_trace()
+    #pdb.set_trace()
     # generate pages for terms with the term files
     generate_page_temp = partial(generate_page, data_model)
     list(map(generate_page_temp, to_add))

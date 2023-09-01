@@ -3,7 +3,7 @@
 This is the repository hosting [VEOIBD data model](https://github.com/VEOIBD/data_models/blob/main/veoibd.data.model.csv) and a set of [standardized metadata terms](https://github.com/VEOIBD/data_models/tree/main/_data) that can be used to describe attributes in the data model. The data model defines attributes that are associated with a dataset type (e.g. clinical metadata) and their interdependencies. [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/) pulls the data model when generating metadata template and validates manifests against it. This repository also houses the pipelines and workflows to streamline data model update and metadata dictonary management.  
 
 # Updata Data Model and Metadata Dictionary
-![data model update workflow](https://github.com/VEOIBD/data_models/assets/90745557/9fa4ac53-289e-44d3-b7df-b9b350436de5)
+![data model update workflow](https://github.com/VEOIBD/data_models/assets/90745557/6f3211f1-1fe1-410f-97b2-5c7eff358e60)
 
 **Step 1.** Pull most recent changes from the Main branch and create a new branch
 

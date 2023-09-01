@@ -42,7 +42,7 @@ def generate_csv(data_model,term):
         df = df.assign(**dict([(_, None) for _ in ["Key Description", "Source"]]))
         df = df[["Key", "Key Description", "Type", "Source", "Module"]]
     df.to_csv(f"./_data/{term}.csv", index=False)
-    print("\033[92m {} \033[00m" .format(f'Added {term} csv'))
+    print("\033[92m {} \033[00m" .format(f'Added {term}.csv'))
 
 def update_csv(data_model, term):
     if 'Template' in term:
@@ -52,7 +52,7 @@ def update_csv(data_model, term):
         new.rename(columns = {'Attribute': 'Key', 'Description':'Key Description'}, inplace = True)
         # update template file
         new.to_csv(f"./_data/{term}.csv", index=False)
-        print("\033[92m {} \033[00m" .format(f'Updated {term} csv'))
+        print("\033[92m {} \033[00m" .format(f'Updated {term}.csv'))
     else: 
         # convert dataframe to long format
         new = data_model.loc[data_model['Attribute'] == term, ][["Attribute", "Valid Values", "DependsOn","Type", "Module"]]
@@ -68,7 +68,7 @@ def update_csv(data_model, term):
             updated["Module"] = new["Module"]
             updated = updated[["Key", "Key Description", "Type", "Source", "Module"]]
             updated.to_csv(f"./_data/{term}.csv", index=False)
-            print("\033[92m {} \033[00m" .format(f'Updated {term} csv'))     
+            print("\033[92m {} \033[00m" .format(f'Updated {term}.csv'))     
     
 def manage_term_files(term=None):
     # load data model

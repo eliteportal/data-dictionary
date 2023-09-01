@@ -25,7 +25,7 @@ This is the repository hosting [VEOIBD data model](https://github.com/VEOIBD/dat
 2. Build and publish the metadata dictionary site on GitHub pages via [pages.yml](https://github.com/VEOIBD/data_models/blob/main/.github/workflows/pages.yml)
 
 # VEOIBD Metadata Dictionary Site
-VEOIBD Metadata Dictionary is a [Jekyll] site utilizing [Just the Docs] theme and is published on [GitHub Pages]. 
+VEOIBD Metadata Dictionary is a [Jekyll](https://jekyllrb.com/) site utilizing [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme and is published on [GitHub Pages](https://pages.github.com/). 
 
 - `index.md` is the home page 
 - `_config.yml` can be used to tweak Jekyll settings, such as theme, title

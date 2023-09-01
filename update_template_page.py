@@ -34,7 +34,7 @@ def update_markdown(file_name, terms):
         for line in file_content:
             # We search for the correct section
             if line.startswith("  var pages"):
-                line = f"  var pages = {terms}\n"
+                line = f"  var pages = {terms};\n"
 
             # Re-write the file at each iteration
             writer.write(line)

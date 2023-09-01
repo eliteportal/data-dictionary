@@ -29,7 +29,7 @@ title: Bulk Rnaseq Assay Template
 </table>
 
 <script type="text/javascript">
-  var pages = ['diseaseActivityLocation', 'genomicSex', 'siblingType', 'sex', 'ethnicity', 'diseaseActivityBehavior', 'participantRole', 'GIPhenotype', 'birthCountry', 'upperDiseaseType', 'race', 'site', 'analysisType', 'biopsyInflammationStatus', 'biopsyLocation', 'sampleTissueType', 'sampleType', 'preservationMethod', 'sampleKey', 'diagnosisCategory', 'dataSubtype', 'dataType', 'specimenIDSource', 'volumeUnit', 'assay', 'sampleStatus', 'platform', 'runType', 'libraryPreparationMethod', 'libraryPrep', 'referenceSet', 'isStranded', 'cellViability', 'nucleicAcidSource', 'readStrandOrigin', 'libraryType', 'resourceType', 'fundingSource', 'fileFormat', 'shippingVendor', 'metadataType']
+  var pages = ['analysisType', 'shippingVendor', 'resourceType', 'fundingSource', 'fileFormat', 'metadataType', 'sampleStatus', 'assay', 'sampleType', 'platform', 'dataType', 'sampleTissueType', 'diagnosisCategory', 'volumeUnit', 'dataSubtype', 'biopsyInflammationStatus', 'preservationMethod', 'biopsyLocation', 'sampleKey', 'specimenIDSource', 'diseaseActivityBehavior', 'genomicSex', 'siblingType', 'site', 'upperDiseaseType', 'GIPhenotype', 'ethnicity', 'participantRole', 'birthCountry', 'diseaseActivityLocation', 'race', 'sex', 'referenceSet', 'libraryPrep', 'readStrandOrigin', 'cellViability', 'libraryPreparationMethod', 'isStranded', 'runType', 'nucleicAcidSource', 'libraryType'];
   $('#myTable').DataTable({
     responsive: {
         details: {

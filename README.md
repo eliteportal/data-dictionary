@@ -6,7 +6,9 @@ This is the repository hosting [VEOIBD data model](https://github.com/VEOIBD/dat
 <img src="https://github.com/VEOIBD/data_models/assets/90745557/e061e265-77ff-4bca-a6bb-a525e79d3352" width="300" />
 
 ***Prerequisites:***
+
  a. Grant workflows "have read and write permissions" in the repository for all scopes.
+ 
  b. Allow deploying the GitHub pages using the workflow (see Publish site on GitHub pages below).
     
 **Step 1.** Pull most recent changes from the Main branch and create a new branch

@@ -1,13 +1,9 @@
 ---
-layout: page
-title: sampleType
 datatable: true
-parent: Experimental Data
+layout: page
+parent: module
+title: term
 ---
-
-{% assign mydata=site.data.sampleType %}
-{: .highlight }
-SampleType Method indicates the type of sample being described.
 
 <table id="myTable" class="display" style="width:100%">
     <thead>
@@ -43,14 +39,13 @@ SampleType Method indicates the type of sample being described.
    "deferRender": true,
    "columnDefs": [
       { 
-         targets: [3,4],
+         targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')
                   .attr('href', data)
                   .text(data)
                   .wrap('<div></div>')
-                  .parent()
                   .html();} 
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')

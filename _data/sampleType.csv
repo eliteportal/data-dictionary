@@ -1,6 +1,6 @@
 ﻿Key,Key Description,Type,Source,Module
-Biopsy,"The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.[NCI]",STRING,http://purl.obolibrary.org/obo/NCIT_C15189,Experiment Data
-Blood,A small volume of blood removed for testing or storage.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C17610,Experiment Data
-Serum,A sample of serum collected for analysis.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C178987,Experiment Data
-PBMC,A sample of peripheral blood mononuclear cells.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C178965,Experiment Data
-PAX,,STRING,,Experiment Data
+Biopsy,"The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.[NCI]",STRING,http://purl.obolibrary.org/obo/NCIT_C15189,Experimental Data
+Blood,A small volume of blood removed for testing or storage.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C17610,Experimental Data
+Serum,A sample of serum collected for analysis.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C178987,Experimental Data
+PBMC,A sample of peripheral blood mononuclear cells.[NCI],STRING,http://purl.obolibrary.org/obo/NCIT_C178965,Experimental Data
+PAX,,STRING,,Experimental Data

@@ -31,7 +31,10 @@ VEOIBD Metadata Dictionary is a [Jekyll] site utilizing [Just the Docs] theme an
 - `_config.yml` can be used to tweak Jekyll settings, such as theme, title
 - `_data/` folder stores data for Jekyll to use when generating the site
 - files in `docs/` will be accessed by GitHub Actions workflow to build the site
- 
+
+## Customization
+You can add additional descriptions to home page or specific page by directly editing `index.md` or markdown files in `docs/`. 
+
 ## Building and previewing the site locally
 
 1. Install Jekyll `gem install bundler jekyll`

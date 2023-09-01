@@ -1,4 +1,4 @@
-﻿Key,Key Description,Type,Source,Module
+Key,Key Description,Type,Source,Module
 Afghanistan,,STRING,,Clinical
 Albania,,STRING,,Clinical
 Algeria,,STRING,,Clinical
@@ -37,8 +37,10 @@ Chile,,STRING,,Clinical
 China,,STRING,,Clinical
 Colombia,,STRING,,Clinical
 Comoros,,STRING,,Clinical
-"Congo, Republic of the",,STRING,,Clinical
-"Congo, Democratic Republic of the",,STRING,,Clinical
+Congo,,STRING,,Clinical
+ Republic of the,,STRING,,Clinical
+Congo,,STRING,,Clinical
+ Democratic Republic of the,,STRING,,Clinical
 Costa Rica,,STRING,,Clinical
 Cote d'Ivoire,,STRING,,Clinical
 Croatia,,STRING,,Clinical
@@ -88,8 +90,10 @@ Jordan,,STRING,,Clinical
 Kazakhstan,,STRING,,Clinical
 Kenya,,STRING,,Clinical
 Kiribati,,STRING,,Clinical
-"Korea, North",,STRING,,Clinical
-"Korea, South",,STRING,,Clinical
+Korea,,STRING,,Clinical
+ North,,STRING,,Clinical
+Korea,,STRING,,Clinical
+ South,,STRING,,Clinical
 Kosovo,,STRING,,Clinical
 Kuwait,,STRING,,Clinical
 Kyrgyzstan,,STRING,,Clinical
@@ -113,7 +117,8 @@ Marshall Islands,,STRING,,Clinical
 Mauritania,,STRING,,Clinical
 Mauritius,,STRING,,Clinical
 Mexico,,STRING,,Clinical
-"Micronesia, Federated States of",,STRING,,Clinical
+Micronesia,,STRING,,Clinical
+ Federated States of,,STRING,,Clinical
 Moldova,,STRING,,Clinical
 Monaco,,STRING,,Clinical
 Mongolia,,STRING,,Clinical

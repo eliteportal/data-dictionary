@@ -2,6 +2,3 @@ Key,Key Description,Type,Source,Module
 BCH,Boston Children's Hospital,STRING,Sage Bionetworks,Clinical
 TOR,The Hospital for Sick Children (SickKids),STRING,Sage Bionetworks,Clinical
 MUN,Ludwig Maximillian University (LMU),STRING,Sage Bionetworks,Clinical
-MSSM,Mt. Sinai,STRING,Sage Bionetworks,Clinical
-Hubrecht,Hubrecht Institute,STRING,Sage Bionetworks,Clinical
-Oxford,Oxford University,STRING,Sage Bionetworks,Clinical

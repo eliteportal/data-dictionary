@@ -1,3 +1,4 @@
-﻿Key,Key Description,Type,Source,Module
+Key,Key Description,Type,Source,Module
 Hispanic,"A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. The term, ""Spanish origin"" can be used in addition to ""Hispanic or Latino"".",STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C17459,Clinical
 Not Hispanic,"A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.",STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C41222,Clinical
+Unknown,,STRING,,Clinical

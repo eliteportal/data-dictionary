@@ -1,0 +1,6 @@
+Key,Key Description,Type,Source,Module
+raw,,STRING,,Experimental Data
+aligned,,STRING,,Experimental Data
+processed,,STRING,,Experimental Data
+normalized,,STRING,,Experimental Data
+aggregated,,STRING,,Experimental Data

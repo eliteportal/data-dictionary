@@ -1,0 +1,46 @@
+Key,Key Description,Type,Valid Values,DependsOn,Required,Source,Module
+individualID,"Identifying string linked to the individual or animal being studied, formatted as [site prefix] + [localID]",,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.09d&code=C69256&ns=ncit,
+specimenID,Identifying string linked to a particular sample or specimen. For RC2 Samples: formatted as [IndividualID] + [Sample Type Abbreviation] + [Sample letter key] + [Subcategory of analysis type],,,,True,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C166393,
+numberCells,The number of cells for PBMC samples as # x 10^6,,,,True,Sage Bionetworks,
+libraryID,Library ID as provided by the lab,,,,False,,
+assay,The technology used to generate the data in this file,STRING,"rnaSeq,scrnaSeq",,True,,Experimental Data
+platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",STRING,"HiSeqX,HiSeq4000,Illumina_1M,HiSeq3000,HiSeq2500,DNBSEQ,HiSeq1000,GAIIx,Illumina_h650,ddSEQ Single-Cell Isolator,confocalImaging,Bruker Avance III,Bionano Irys,Biograph mCT,HiSeq2000,Illumina_HumanOmni1-Quadv1.0,Illumina_Omni5M,Illumina MouseWG-6 v2.0 expression beadchip,IlluminaNovaseq6000,IlluminaWholeGenomeDASL,Infinium Global Diversity Array-8,Illumina_Infinium-HumanMethylation450-BeadChip,IlluminaInfiniumGSAMD-24v2-0,IlluminaMethylationEPIC,PacBioRSII,IlluminaHumanMethylation450,IlluminaHumanHT-12_V3_0_R1,IlluminaHumanHap650Yv3_A,IlluminaHumanHap300,Illumina_Omni5-Quad,Biocrates p180,Illumina_Omni2pt5M,Illumina_Omni2.5-8_v1.3,Illumina_Omni2.5-8_v1.1,Illumina_Omni2.5-8,llumina Infinium General Screening Array 24-Kit v3.0,BGISEQ-500,Perlegen300Karray,AffymetrixU133Plus2,orbitrap,Xevo TQ-S,Agilent44Karray,NextSeq2000,NextSeq500,NanostringnCounter_MouseADPanel,NanostringnCounter,MiSeq,LTQOrbitrapXL,InfiniumPsychArrayBeadChip,Infinium Omni2.5Exome-8 v1.5,Infinium Omni2.5Exome-8 v1.4,Infinium Omni2.5Exome-8 v1.3,Infinium Omni2.5Exome-8 v1.1,Infinium HumanOmniExpressExome,OrbiTrap Fusion,Orbitrap Fusion Lumos,Olink Target 96,triple quadrupole,AffymetrixU133AB,Affymetrix Human Gene 1.0 ST Array,PacBio Sequel II,Xevo G2 QTOF,PsychChip,Affy6.0,Affy5.0,Illumina NovaSeq 6000,Q Exactive HF,Q Exactive,time-of-flight,Simoa HD-1 Analyzer,Signa Premier AIR 3T,IlluminaMiSeq,SequenomMultiplex,quadrupole time-of-flight,Q Exactive Plus",,False,Sage Bionetworks,Experimental Data
+libraryPrep,The general strategy by which the library was prepared,STRING,"lncRNAenrichment,SureCell,totalRNA,MULTIseq,multiome,miRNAenrichment,methylSeq,proximity ligation,EndItDNAEndRepairKit,STARRSeq,DNALibraryConstruction,Chromium Single Cell 3',cellHashing,amplicon,polyAselection,SPLITseq,rRNAdepletion,KapaHyperPrep,PCRfree",,False,,NGS
+libraryPreparationMethod,Method by which library was prepared,STRING,"Drop-Seq,sac-seq,NexteraXT,Smart-seq1,10x,Omni-ATAC,Accel-NGS Methyl-Seq,CEL-seq,NEBNext,Smart-seq2,Smart-seq4,SMRTbell,TruSeq,Ultralow Methyl-Seq,Accel-NGS 2S Plus",,False,,NGS
+libraryVersion,"The version of the library. For example, rnaSeq 10x library version",,,,False,,
+libraryType,"The type of library, in assays where samples are barcoded or hashed for multiplexing or each sample has multiple libraries amplified separately before pooled sequencing.",STRING,"ADT,plasmid DNA,HTO,CMO,LMO,cDNA,polyA enriched,ribozero depletion,globin depletion",,False,,NGS
+isStranded,Whether or not the library is stranded,Boolean,"False,True",,False,,NGS
+readStrandOrigin,The strand from which the read originates in a strand-specific protocol,STRING,"forward,reverse",,False,,NGS
+readLength,The length of the read,,,,False,,
+runType,The sequencing read types,STRING,"singleEnd,pairedEnd",,False,,NGS
+referenceSet,"A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",STRING,"GRCh37,GRCm38,MMUL1.0,HRC,1000 Genomes phase 3,GRCh38,dmel_r6.06",,False,,NGS
+sampleStatus,Conditions under which sample is kept,STRING,"Frozen,Paxgene,Formalin-fixed,Fresh",,False,,Experimental Data
+analysisThresholds,The minimum counts-per-million (CPM) threshold,,,,False,,
+analysisType,Type of analysis,STRING,"differential expression,eQTL",,False,,Analysis
+nucleicAcidSource,,STRING,"bulk cell,bulk nuclei,single cell,single nucleus",,True,,NGS
+alignmentInformation,Alignment information,,,,False,,
+vendor,Information about vendor (novagene) processes,,,,False,,
+sampleBarcode,The nucleotide sequence of the sample barcode used to identify cells from a single sample in cell hashing or multiplexing assays.,,,,False,,
+RIN,RNA Integrity Number,,,,False,,
+rnaBatch,Batch in which RNA sample was isolated,,,,False,,
+rnaIsolationKit,The technology used to isolate the RNA,,,,False,,
+libraryBatch,Batch library was prepared in,,,,False,,
+totalReads,Total number of raw sequencing reads from a library,,,,False,,
+validBarcodeReads,Fraction of reads with cell barcodes that match the whitelist,,,,False,,
+numberCells,Number of cells or nuclei sequenced,,,,False,,
+medianGenes,The median number of genes detected (with nonzero UMI counts) across all cell-associated barcodes,,,,False,,
+fileFormat,"Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",STRING,"fastq,count matrix,bam,csv,xlsx,txt,pdf,tsv",,False,,Other
+dataSubtype,"Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",STRING,"raw,aligned,processed,normalized,aggregated",,False,,Experimental Data
+cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally. Provided as number of live cells per unit volume,,,,False,,
+uniqueGenes,The number of unique genes,,,,False,,
+mappedReads,Mapped reads refer to those reads from the sequenced sample that align directly to a single region (set of loci) on the reference genome.,,,,False,,
+rRNARate,The percentage of rRNA in a cell,,,,False,,
+dataType,Types of input/output data in bioinformatics pipelines,STRING,"genomicVariants,geneExpression",,True,Sage Bionetworks,Experimental Data
+kitNumber,Kit serial number,,,,True,,
+DV200,A method to determine the quality of RNA obtained from a sample. DV200 evaluates the percentage of fragments of greater than 200 nucleotides.,,,,False,,
+duplicationRate,The duplication rate is the fraction of mapped reads where any 2 reads share the same 5_ and 3_ coordinates.,,,,False,,
+sampleTissueType,Tissue type used in sample,STRING,"LP,EPI,both LP and EPI,blood,organoid",,True,,Experimental Data
+medianUMIs,The median number of total Unique Molecular Identifier (UMI) counts across all cell-associated barcodes,,,,False,,
+cellViability,A cell phenotype that consists of the cell's disposition to survive and develop normally.,STRING,"Inviable cell,Viable cell",,False,,NGS
+ratioMitochondria,Percent mitochondria per cell,,,,False,,
+genomicSex,The predicition of sex based on expression of genes,STRING,"Male,Female",,False,,Clinical

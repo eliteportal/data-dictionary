@@ -1,0 +1,20 @@
+Key,Key Description,Type,Source,Module
+lncRNAenrichment,,STRING,,NGS
+SureCell,,STRING,,NGS
+totalRNA,,STRING,,NGS
+MULTIseq,,STRING,,NGS
+multiome,,STRING,,NGS
+miRNAenrichment,,STRING,,NGS
+methylSeq,,STRING,,NGS
+proximity ligation,,STRING,,NGS
+EndItDNAEndRepairKit,,STRING,,NGS
+STARRSeq,,STRING,,NGS
+DNALibraryConstruction,,STRING,,NGS
+Chromium Single Cell 3',,STRING,,NGS
+cellHashing,,STRING,,NGS
+amplicon,,STRING,,NGS
+polyAselection,,STRING,,NGS
+SPLITseq,,STRING,,NGS
+rRNAdepletion,,STRING,,NGS
+KapaHyperPrep,,STRING,,NGS
+PCRfree,,STRING,,NGS

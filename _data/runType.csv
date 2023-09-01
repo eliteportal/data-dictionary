@@ -1,0 +1,3 @@
+Key,Key Description,Type,Source,Module
+singleEnd,,STRING,,NGS
+pairedEnd,,STRING,,NGS

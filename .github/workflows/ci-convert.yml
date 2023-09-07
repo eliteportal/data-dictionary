@@ -1,4 +1,4 @@
-# This workflow is used to convert changed veoibd.data.model.csv to veoibd.data.model.jsonld
+# This workflow is used to convert changed EL.data.model.csv to EL.data.model.jsonld
 # and push the updated veoibd.model.jsonld to feature branch
 
 name: CI
@@ -6,7 +6,7 @@ name: CI
 on:
   pull_request:
     branches: main
-    paths: 'veoibd.data.model.csv'
+    paths: 'EL.data.model.csv'
 
 jobs:
   CI:
@@ -33,7 +33,7 @@ jobs:
       - name: Convert .csv to .jsonld
         shell: bash
         run: |
-          schematic schema convert veoibd.data.model.csv
+          schematic schema convert EL.data.model.csv
 
       - uses: r-lib/actions/pr-fetch@v2
         with:
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add veoibd.data.model.jsonld
+          git add EL.data.model.jsonld
           git commit -m "GitHub Action: convert *.model.csv to *.model.jsonld" || echo "No changes to commit"
 
       - uses: r-lib/actions/pr-push@v2

@@ -30,7 +30,7 @@ jobs:
         uses: tj-actions/changed-files@v37
 
       - name: update term file if data model csv is changed
-        if: contains(steps.changed-files.outputs.modified_files, 'veoibd.data.model.csv')
+        if: contains(steps.changed-files.outputs.modified_files, 'EL.data.model.csv')
         run: |
           python term_file_manager.py
 

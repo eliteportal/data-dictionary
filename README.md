@@ -4,7 +4,7 @@ This is the repository hosting [ELITE data model](https://github.com/Sage-Bionet
 
 # Updata Data Model and Metadata Dictionary
 
-<img src="https://github.com/nlee-sage/data_models_elite/assets/90745557/e061e265-77ff-4bca-a6bb-a525e79d3352" width="300" />
+<img src="https://github.com/nlee-sage/data_models_elite/blob/7e3e7a8066fe196f4f4b0f8477f0246736945b50/ELITE%20Logo.png" width="300" />
 
 ***Prerequisites:***
 

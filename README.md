@@ -2,6 +2,16 @@
 
 This is the repository hosting [ELITE data model](https://github.com/Sage-Bionetworks/ELITE-data-models/blob/main/models/EL_data_model_v3.csv) and a set of [standardized metadata terms](https://github.com/nlee-sage/data_models_elite/tree/main/_data) that can be used to describe attributes in the data model. The data model defines attributes that are associated with a dataset type (e.g. clinical metadata) and their interdependencies. [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/) pulls the data model when generating metadata template and validates manifests against it. This repository also houses the pipelines and workflows to streamline data model update and metadata dictonary management.
 
+# Setup
+
+ a. Change the configuration yaml file to point to correct data model
+
+ b. Have poetry installed. Created poetry environment with `poetry install`.
+
+# Create CSVs to Organize Website
+
+Run `create_CSVs.py`. It will create a CSV for each unique module found in the data model.
+
 # Updata Data Model and Metadata Dictionary
 
 <img src="https://github.com/nlee-sage/data_models_elite/blob/7e3e7a8066fe196f4f4b0f8477f0246736945b50/ELITE%20Logo.png" width="300" />

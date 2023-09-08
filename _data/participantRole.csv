@@ -1,6 +1,0 @@
-﻿Key,Key Description,Type,Source,Module
-Proband,The affected family member who seeks medical attention for a genetic disorder thereby bringing the family under study.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C64435&ns=ncit,Clinical
-Control,The participant is a true control for the phenotype under consideration.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C99270&ns=ncit,Clinical
-Mother,A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C96580&ns=ncit,Clinical
-Father,A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C96572&ns=ncit,Clinical
-Sibling,A person's brother or sister with whom they share a genetic makeup inherited from one or both of their shared biological parents.,STRING,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C100809&ns=ncit,Clinical

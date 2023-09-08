@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-models-elite"
+version = "0.1.0"
+description = ""
+authors = ["Dan Lu, Nicholas Lee"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mdutils = "==1.6.0"
+numpy = "==1.24.3"
+pandas = "==2.0.1"
+python-frontmatter = "==1.0.0"
+ipykernel = "^6.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

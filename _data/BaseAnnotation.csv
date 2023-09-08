@@ -1,0 +1,25 @@
+,Attribute,Description,Type,Source,Module
+627,ID mapping,A file or table that maps data identifiers to one another for example to establish a link between two biological databases for the purposes of data integration.,,http://edamontology.org/operation_3282,BaseAnnotation
+628,analysisType,Type of analysis,,sage.annotations-analysis.analysisType-0.0.14,BaseAnnotation
+629,analytical covariates,A file that contains a combination or subset of individual- or specimen-level covariates used for a particular analysis.,,Sage Bionetworks,BaseAnnotation
+630,assay,The technology used to generate the data in this file,,sage.annotations-experimentalData.assay-0.0.26,BaseAnnotation
+631,biospecimen,Metadata describing properties of specimens collected and/or analyzed in the study.,,Sage Bionetworks,BaseAnnotation
+632,consortium,The name of the consortium,,sage.annotations-sageCommunity.consortium-0.0.5,BaseAnnotation
+633,data dictionary,Metadata describing terms or variables that appear in another file.,,Sage Bionetworks,BaseAnnotation
+634,dataSubtype,"Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",,sage.annotations-experimentalData.dataSubtype-0.0.3,BaseAnnotation
+635,dataType,Types of input/output data in bioinformatics pipelines,,sage.annotations-experimentalData.dataType-0.0.3,BaseAnnotation
+636,fileFormat,"Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",,sage.annotations-sageCommunity.fileFormat-0.0.12,BaseAnnotation
+637,grant,"Grant number including activity code, institute code, and serial number (e.g. U01MH103392)",,sage.annotations-neuro.grant-0.0.2,BaseAnnotation
+638,individual,Metadata describing properties of individuals (human or animal) represented in the study.,,Sage Bionetworks,BaseAnnotation
+639,isModelSystem,,,sage.annotations-neuro.isModelSystem-0.0.2,BaseAnnotation
+640,isMultiSpecimen,Boolean flag indicating whether or not a file has data for multiple specimens,,sage.annotations-experimentalData.isMultiSpecimen-0.0.2,BaseAnnotation
+641,libraryPrep,The general strategy by which the library was prepared,,sage.annotations-ngs.libraryPrep-0.0.13,BaseAnnotation
+642,libraryType,"The type of library, in assays where samples are barcoded or hashed for multiplexing or each sample has multiple libraries amplified separately before pooled sequencing.",,sage.annotations-ngs.libraryType-0.0.3,BaseAnnotation
+643,manifest,Metadata describing a list of files and the annotations terms associated with them.,,Sage Bionetworks,BaseAnnotation
+644,metadata,"A file of clinical, technical, or other parameters that describe a dataset.",,,BaseAnnotation
+645,metadataType,"For files of dataSubtype: metadata, a description of the type of metadata in the file.",,sage.annotations-experimentalData.metadataType-0.0.4,BaseAnnotation
+646,modelSystemName,,,sage.annotations-neuro.modelSystemName-0.0.8,BaseAnnotation
+647,modelSystemType,Type of model system.,,sage.annotations-experimentalData.modelSystemType-0.0.2,BaseAnnotation
+648,platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",,sage.annotations-experimentalData.platform-0.0.26,BaseAnnotation
+649,protocol,"A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",,http://purl.obolibrary.org/obo/OBI_0000272,BaseAnnotation
+650,resourceType,The type of resource being stored and annotated,,sage.annotations-sageCommunity.resourceType-0.0.5,BaseAnnotation

@@ -6,8 +6,12 @@ Contributors: Dan Lu
 # load modules
 import os
 import pdb
-
 import pandas as pd
+
+import yaml
+
+with open("./_config.yml", "r") as f:
+    config = yaml.safe_load(f)
 
 
 def get_terms():

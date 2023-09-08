@@ -18,6 +18,7 @@ def get_terms():
     """
     Function to extract terms with markdown page, excluding module and template pages
     """
+    
     terms = [
         filename.split(".md")[0]
         for dirpath, _, filenames in os.walk("docs/")

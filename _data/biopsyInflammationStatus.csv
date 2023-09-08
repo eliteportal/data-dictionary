@@ -1,3 +1,0 @@
-﻿Key,Key Description,Type,Source,Module
-Inflamed,Detected inflammation on biopsy,STRING,Sage Bionetworks,Experimental Data
-Uninflamed,Didn't detect inflammation on biopsy,STRING,Sage Bionetworks,Experimental Data

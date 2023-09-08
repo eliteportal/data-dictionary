@@ -5,6 +5,8 @@ theme: just-the-docs
 logo: "ELITE Logo.png"
 url: https://ELITE.github.io/data_models
 
+data_model: EL.data.model.csv
+
 aux_links:
   Data Curator App: https://dca.app.sagebionetworks.org/
 

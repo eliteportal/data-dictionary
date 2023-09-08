@@ -1,0 +1,47 @@
+,Attribute,Description,Type,Source,Module
+241,AU/ml,,,,Measurement Unit
+289,DK units/ml,,,,Measurement Unit
+292,Days,,,,Measurement Unit
+321,Hours,,,,Measurement Unit
+327,IU,,,,Measurement Unit
+328,IU/ml,,,,Measurement Unit
+382,M,Molar,,,Measurement Unit
+399,Months,,,,Measurement Unit
+537,bpg/dl,,,,Measurement Unit
+546,g/dl,,,,Measurement Unit
+547,g/l,,,,Measurement Unit
+548,gm,,,,Measurement Unit
+552,iu/l,,,,Measurement Unit
+553,kg,,,,Measurement Unit
+554,l,,,,Measurement Unit
+557,mM,,,,Measurement Unit
+561,mg,,,,Measurement Unit
+562,mg/dl,,,,Measurement Unit
+563,mg/l,,,,Measurement Unit
+564,mg/ml,,,,Measurement Unit
+567,miu/ml,,,,Measurement Unit
+568,ml,,,,Measurement Unit
+570,nM,,,,Measurement Unit
+571,ng,,,,Measurement Unit
+572,ng/dl,,,,Measurement Unit
+573,ng/ml,,,,Measurement Unit
+574,ng/nl,,,,Measurement Unit
+575,ng/ul,,,,Measurement Unit
+576,nl,,,,Measurement Unit
+579,pM,,,,Measurement Unit
+580,pg,,,,Measurement Unit
+581,pg/mg creatinine,,,,Measurement Unit
+582,pg/ml,,,,Measurement Unit
+583,pg/nl,,,,Measurement Unit
+584,pg/ul,,,,Measurement Unit
+585,pl,,,,Measurement Unit
+604,uM,,,,Measurement Unit
+605,ug,,,,Measurement Unit
+606,ug/dl,,,,Measurement Unit
+607,ug/l,,,,Measurement Unit
+608,ug/ml,,,,Measurement Unit
+609,ug/ul,,,,Measurement Unit
+610,uiu/ml,,,,Measurement Unit
+611,ul,,,,Measurement Unit
+612,umol/l,,,,Measurement Unit
+613,units/ml,,,,Measurement Unit

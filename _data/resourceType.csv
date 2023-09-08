@@ -1,7 +1,0 @@
-Key,Key Description,Type,Source,Module
-analysis,,STRING,,Other
-curatedData,,STRING,,Other
-experimentalData,,STRING,,Other
-metadata,,STRING,,Other
-report,,STRING,,Other
-tool,,STRING,,Other

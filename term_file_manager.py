@@ -53,8 +53,10 @@ def generate_csv(data_model, term):
     if "Template" in term:
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
+
         # filter out attributes from data model table
         df = data_model.loc[data_model["Attribute"].isin(depends_on),]
+
         df = df[
             [
                 "Attribute",
@@ -67,6 +69,7 @@ def generate_csv(data_model, term):
                 "Module",
             ]
         ].reset_index(drop=True)
+
         df.rename(
             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
         )
@@ -74,6 +77,7 @@ def generate_csv(data_model, term):
         df = data_model.loc[data_model["Attribute"] == term,][
             ["Attribute", "Valid Values", "DependsOn", "Type", "Module"]
         ]
+
         # generate csv for term
         df = (
             df.drop(columns=["Attribute", "DependsOn"])
@@ -81,11 +85,14 @@ def generate_csv(data_model, term):
             .apply(lambda x: x.str.split(",").explode())
             .reset_index()
         )
+
         # add columns
         df.rename(columns={"Valid Values": "Key"}, inplace=True)
         df = df.assign(**dict([(_, None) for _ in ["Key Description", "Source"]]))
         df = df[["Key", "Key Description", "Type", "Source", "Module"]]
-    df.to_csv(f"./_data/{term}.csv", index=False)
+
+    # write out data frame
+    df.to_csv(rf"./_data/{term}.csv", index=False)
     print("\033[92m {} \033[00m".format(f"Added {term}.csv"))
 
 
@@ -143,6 +150,7 @@ def update_csv(data_model, term):
 def manage_term_files(term=None):
     # load data model
     data_model = pd.read_csv(config["data_model"])
+
     # get the list of existing term csvs
     files = [
         file.split(".csv")[0] for file in os.listdir("_data/") if file.endswith(".csv")
@@ -153,25 +161,29 @@ def manage_term_files(term=None):
         ]
     else:
         df = data_model.loc[data_model["Module"].notnull(),]
+
     # generate files when term files don't exist
     new_terms = df.loc[~df["Attribute"].isin(files), "Attribute"].tolist()
+
     # generate csv by calling reformatter for each row of the df
     generate_csv_temp = partial(generate_csv, data_model)
+
     list(map(generate_csv_temp, new_terms))
+
     # update files if the term files exist
     exist_terms = df.loc[df["Attribute"].isin(files), "Attribute"].tolist()
     update_csv_temp = partial(update_csv, data_model)
     list(map(update_csv_temp, exist_terms))
+
     # delete term csv if the attribute is removed from data model
-    [
-        os.remove(f"_data/{file}.csv")
-        for file in files
-        if file not in data_model.Attribute.values
-    ]
+    for file in files:
+        if file not in data_model.Attribute.values:
+            os.remove(f"_data/{file}.csv")
 
 
 def main():
     parser = argparse.ArgumentParser()
+
     parser.add_argument(
         "term",
         type=str,
@@ -179,6 +191,7 @@ def main():
         nargs="*",
     )
     args = parser.parse_args()
+
     if args.term:
         manage_term_files(args.term)
     else:

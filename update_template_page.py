@@ -3,6 +3,7 @@ Name: update_template_page.py
 definition: a script to update template page when new term page is created
 Contributors: Dan Lu
 """
+
 # load modules
 import os
 import pdb
@@ -14,10 +15,12 @@ with open("./_config.yml", "r") as f:
     config = yaml.safe_load(f)
 
 
+
 def get_terms():
     """
     Function to extract terms with markdown page, excluding module and template pages
     """
+    
     terms = [
         filename.split(".md")[0]
         for dirpath, _, filenames in os.walk("docs/")
@@ -42,7 +45,6 @@ def update_markdown(file_name, terms):
 
             # Re-write the file at each iteration
             writer.write(line)
-
 
 def main():
     # get the template pages

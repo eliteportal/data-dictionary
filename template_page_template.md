@@ -1,8 +1,8 @@
 ---
 layout: page
-title: template
+title: {{doc_name}}
 datatable: true
-parent: module
+parent: {{module.name}}
 permalink: permalink
 ---
 
@@ -41,7 +41,7 @@ permalink: permalink
     },
    "deferRender": true,
    "columnDefs": [
-      { 
+      {
          targets: 0,
          render : function(data, type, row, meta){
             if(type === 'display' & $.inArray( data, pages) != -1){
@@ -50,7 +50,7 @@ permalink: permalink
                   .text(data)
                   .wrap('<div></div>')
                   .parent()
-                  .html();} 
+                  .html();}
              else {
                return data;
             }
@@ -65,7 +65,7 @@ permalink: permalink
                .text(data)
                .wrap('<div></div>')
                .parent()
-               .html();} 
+               .html();}
          if(type === 'display' & data == 'Sage Bionetworks'){
              return $('<a>')
                 .attr('href', 'https://sagebionetworks.org/')
@@ -73,7 +73,7 @@ permalink: permalink
                 .wrap('<div></div>')
                 .parent()
                 .html();
-         
+
          } else {
             return data;
          }

@@ -153,21 +153,23 @@ def manage_term_files(term=None):
         ]
     else:
         df = data_model.loc[data_model["Module"].notnull(),]
+
     # generate files when term files don't exist
     new_terms = df.loc[~df["Attribute"].isin(files), "Attribute"].tolist()
+
     # generate csv by calling reformatter for each row of the df
     generate_csv_temp = partial(generate_csv, data_model)
     list(map(generate_csv_temp, new_terms))
+
     # update files if the term files exist
     exist_terms = df.loc[df["Attribute"].isin(files), "Attribute"].tolist()
     update_csv_temp = partial(update_csv, data_model)
     list(map(update_csv_temp, exist_terms))
+
     # delete term csv if the attribute is removed from data model
-    [
-        os.remove(f"_data/{file}.csv")
-        for file in files
-        if file not in data_model.Attribute.values
-    ]
+    for file in files:
+        if file not in data_model.Attribute.values:
+            os.remove(f"_data/{file}.csv")
 
 
 def main():

@@ -38,6 +38,7 @@ def get_term_info(data_model, term):
     results = data_model.loc[
         data_model["Attribute"] == term, ["Description", "Source", "Module"]
     ].to_dict("records")
+
     return results
 
 
@@ -51,9 +52,14 @@ def generate_page(data_model, term):
     """
     # get term information
     results = get_term_info(data_model, term)
+
     # add paragraph for term definition and source
-    if results[0]["Source"] == "Sage Bionetworks":
-        results[0]["Source"] = "https://sagebionetworks.org/"
+    try:
+        if results[0]["Source"] == "Sage Bionetworks":
+            results[0]["Source"] = "https://sagebionetworks.org/"
+    except IndexError:
+        results[0]["Source"] = ""
+
     if "Template" in term:
         # load template
         post = frontmatter.load("template_page_template.md")

@@ -1,3 +1,8 @@
-,Attribute,Description,Type,Source,Module
-166,ethnicity,Ethnicity of individual,,"Sage Bionetworks,https://www.synapse.org/#!Synapse:syn25878249",Ethnicity
-167,ethnicGroupCode,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsfdictionary=NCI_Thesaurus&version=23.04d&code=C93563&ns=ncit&type=properties&key=1040179992&b=1&n=0&vse=null,Ethnicity
+Key,Key Description,Type,Source,Module
+Not Hispanic or latino,nan,,nan,Ethnicity
+Hispanic or latino,nan,,nan,Ethnicity
+Prefer not to answer,nan,,nan,Ethnicity
+Other,nan,,nan,Ethnicity
+Unknown,nan,,nan,Ethnicity
+Not collected,nan,,nan,Ethnicity
+Not applicable,nan,,nan,Ethnicity

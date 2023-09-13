@@ -1,0 +1,21 @@
+Key,Key Description,Type,Source,Module
+10x,nan,,nan,Omics
+Accel-NGS 2S Plus,nan,,nan,Omics
+Accel-NGS Methyl-Seq,nan,,nan,Omics
+CEL-seq,nan,,nan,Omics
+Drop-Seq,nan,,nan,Omics
+NEBNext,nan,,nan,Omics
+NexteraXT,nan,,nan,Omics
+Omni-ATAC,nan,,nan,Omics
+sac-seq,nan,,nan,Omics
+Smart-seq1,nan,,nan,Omics
+Smart-seq2,nan,,nan,Omics
+Smart-seq4,nan,,nan,Omics
+SMRTbell,nan,,nan,Omics
+TruSeq,nan,,nan,Omics
+Ultralow Methyl-Seq,nan,,nan,Omics
+OtherLibraryPreparationMethod,nan,,nan,Omics
+Unknown,nan,,nan,Omics
+Not collected,nan,,nan,Omics
+Not applicable,nan,,nan,Omics
+Not Specified,nan,,nan,Omics

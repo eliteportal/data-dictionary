@@ -25,37 +25,46 @@ def get_template_keys(data_model, template):
         .str.split(",")
         .values[0]
     )
+
     # extract dependencies for valid values of required attributes
     valid_values = (
         data_model.loc[data_model["Attribute"].isin(depends_on), "Valid Values"]
         .dropna()
         .tolist()
     )
+
     valid_values = list(
         set([value for values_list in valid_values for value in values_list.split(",")])
     )
+
     # get the dependsOn values for valid values and concatenate it with original dependsOn list of the template
     depend_on_ext = (
         data_model.loc[data_model["Attribute"].isin(valid_values), "DependsOn"]
         .dropna()
         .tolist()
     )
+
     depend_on_ext = list(
         set(
             [value for values_list in depend_on_ext for value in values_list.split(",")]
         )
     )
+
     depends_on.extend(depend_on_ext)
+
     return depends_on
 
 
 def generate_csv(data_model, term):
-    if "Template" in term:
+    if "Template" in data_model.query("Attribute == @term")["Parent"]:
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
 
         # filter out attributes from data model table
         df = data_model.loc[data_model["Attribute"].isin(depends_on),]
+
+        # filter out valid values from data model table. DM uses Parent to distinguish types of attributes
+        df = df.loc[df["Parent"] != "validValue",]
 
         df = df[
             [
@@ -92,7 +101,7 @@ def generate_csv(data_model, term):
         df = df[["Key", "Key Description", "Type", "Source", "Module"]]
 
     # write out data frame
-    df.to_csv(rf"./_data/{term}.csv", index=False)
+    df.to_csv(os.path.join("./_data", term.replace("/", "_") + ".csv"), index=False)
     print("\033[92m {} \033[00m".format(f"Added {term}.csv"))
 
 
@@ -131,6 +140,7 @@ def update_csv(data_model, term):
         )
         # add columns
         new.rename(columns={"Valid Values": "Key"}, inplace=True)
+
         # load existing csv
         old = pd.read_csv(f"./_data/{term}.csv")
         # upload existing csv if Key, Type or Module column is changed
@@ -139,7 +149,9 @@ def update_csv(data_model, term):
             and new["Type"].equals(old["Type"])
             and new["Module"].equals(old["Module"])
         ):
-            updated = new.merge(old, how="left", on=["Key", "Type", "Module"])
+            updated = new.astype(str).merge(
+                old.astype(str), how="left", on=["Key", "Type", "Module"]
+            )
             updated["Type"] = new["Type"]
             updated["Module"] = new["Module"]
             updated = updated[["Key", "Key Description", "Type", "Source", "Module"]]
@@ -148,6 +160,12 @@ def update_csv(data_model, term):
 
 
 def manage_term_files(term=None):
+    """_summary_
+
+    Args:
+        term (_type_, optional): _description_. Defaults to None.
+    """
+
     # load data model
     data_model = pd.read_csv(config["data_model"])
 
@@ -155,15 +173,26 @@ def manage_term_files(term=None):
     files = [
         file.split(".csv")[0] for file in os.listdir("_data/") if file.endswith(".csv")
     ]
+
     if term:
         df = data_model.loc[
-            (data_model["Module"].notnull()) & (data_model["Attribute"].isin(term))
+            (data_model["Module"].notnull())
+            & (
+                data_model["Attribute"].isin(term)
+                & (data_model["Parent"] != "validValue")
+            )
         ]
+
     else:
         df = data_model.loc[data_model["Module"].notnull(),]
 
-    # generate files when term files don't exist
-    new_terms = df.loc[~df["Attribute"].isin(files), "Attribute"].tolist()
+    # generate files when term files don't exist. Do not add files for valid values or specify because these have no useful sub values or depends on
+    new_terms = df.loc[
+        (~df["Attribute"].isin(files))
+        & (df["Parent"] != "validValue")
+        & (~df["Attribute"].str.contains("specify")),
+        "Attribute",
+    ].tolist()
 
     # generate csv by calling reformatter for each row of the df
     generate_csv_temp = partial(generate_csv, data_model)
@@ -172,7 +201,9 @@ def manage_term_files(term=None):
 
     # update files if the term files exist
     exist_terms = df.loc[df["Attribute"].isin(files), "Attribute"].tolist()
+
     update_csv_temp = partial(update_csv, data_model)
+
     list(map(update_csv_temp, exist_terms))
 
     # delete term csv if the attribute is removed from data model

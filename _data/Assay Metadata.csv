@@ -1,8 +1,0 @@
-,Attribute,Description,Type,Source,Module
-52,reagentID(s),"One or more identifiers, separated by a semicolon (;). The reagent identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"Sage Bionetworks,ImmPort",Assay Metadata
-53,reagentName,The reagent name is an alternative to the Reagent ID,,"Sage Bionetworks,ImmPort",Assay Metadata
-54,reagentManufacturer,"The manufacturer is the source of a reagent and may include commercial vendors as well as non-commercial sources (e.g., collaborating labs)",,"Sage Bionetworks,ImmPort",Assay Metadata
-55,reagentCatalogNumber,"If the assay reagent is a commercial product, enter the vendor's catalog identifier. If the reagent is a custom preparation enter 'NA'. ",,"Sage Bionetworks,ImmPort",Assay Metadata
-56,reagentLotNumber,The lot number is often provided by a reagent source when the reagent is replenished over time. ,,"Sage Bionetworks,ImmPort",Assay Metadata
-57,reagentWeblink,An internet address that may provide details of an assay reagent.,,"Sage Bionetworks,ImmPort",Assay Metadata
-58,reagentContact,The contact information is particularly helpful when the reagent is not from a commercial vendor.,,"Sage Bionetworks,ImmPort",Assay Metadata

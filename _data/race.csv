@@ -1,7 +1,12 @@
-,Attribute,Description,Type,Source,Module
-165,race,Race of individual,,"Sage Bionetworks,https://www.synapse.org/#!Synapse:syn25878249,https://jamanetwork.com/pages/inclusive-language,https://thesaurus.cancer.gov/ncitbrowser/pages/home.jsfversion=23.04d",Race
-254,Asian,,,,Race
-261,Black or African American,,,,Race
-401,Multiracial,,,,Race
-417,Native Hawaiian or Other Pacific Islander,,,,Race
-423,Not Hispanic or latino,,,,Race
+Key,Key Description,Type,Source,Module
+White,nan,,nan,Race
+Black or African American,nan,,nan,Race
+Asian,nan,,nan,Race
+American Indian or Alaska Native,nan,,nan,Race
+Native Hawaiian or Other Pacific Islander,nan,,nan,Race
+Multiracial,nan,,nan,Race
+Other race,nan,,nan,Race
+Prefer not to answer,nan,,nan,Race
+Unknown,nan,,nan,Race
+Not collected,nan,,nan,Race
+Not applicable,nan,,nan,Race

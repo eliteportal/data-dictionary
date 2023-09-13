@@ -13,3 +13,4 @@ docs/.DS_Store
 **/*.code-workspace
 **/.vscode
 **/.mypy_cache
+.DS_Store

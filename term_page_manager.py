@@ -125,19 +125,27 @@ def delete_page(term):
 def main():
     # load data model csv file
     data_model = pd.read_csv(config["data_model"])
+
     # pull terms
     term_files = [
         file.split("/")[-1].split(".")[0] for file in glob.glob("_data/*.csv")
     ]
+
     term_pages = [
         file.split("/")[-1].split(".")[0] for file in glob.glob("docs/*/*.md")
     ]
+
     to_add = map(str, np.setdiff1d(term_files, term_pages))
+
     to_delete = np.setdiff1d(term_pages, term_files).tolist()
+
     # pdb.set_trace()
     # generate pages for terms with the term files
+
     generate_page_temp = partial(generate_page, data_model)
+
     list(map(generate_page_temp, to_add))
+    
     # delete pages for terms without the term files and exclude module and template pages (since template page might be named differently from the template files)
     to_delete = [
         x
@@ -145,6 +153,7 @@ def main():
         if x not in data_model["Module"].dropna().unique().tolist()
         and "Template" not in x
     ]
+    
     list(map(delete_page, to_delete))
 
 

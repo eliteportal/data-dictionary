@@ -1,12 +1,427 @@
-,Attribute,Description,Type,Source,Module
-329,Ileum,,,,Organ
-485,Salivary Glands,,,,Organ
-488,Skin of body,,,,Organ
-489,Small intestine,,,,Organ
-494,Spleen,,,,Organ
-496,Stomach,,,,Organ
-506,Thymus,,,,Organ
-508,Trachea,,,,Organ
-521,Urinary bladder,,,,Organ
-523,Vagina,,,,Organ
-538,brain,,,,Organ
+Key,Key Description,Type,Source,Module
+Abdominal Skin,nan,,nan,Metadata
+Accessory Lacrimal Gland,nan,,nan,Metadata
+Adrenal Gland,nan,,nan,Metadata
+Alveolar Duct,nan,,nan,Metadata
+Anal Gland,nan,,nan,Metadata
+Anal Sac,nan,,nan,Metadata
+Ankle Skin,nan,,nan,Metadata
+Anterior Compartment Lymph Node Group (Level VI),nan,,nan,Metadata
+Anterior Mediastinal Lymph Node,nan,,nan,Metadata
+Aortocaval Lymph Node,nan,,nan,Metadata
+Aortopulmonary Window Lymph Node,nan,,nan,Metadata
+Apocrine Sweat Gland,nan,,nan,Metadata
+Arm Skin,nan,,nan,Metadata
+Axillary Lymph Node,nan,,nan,Metadata
+Axillary Lymph Node Level I,nan,,nan,Metadata
+Axillary Lymph Node Level II,nan,,nan,Metadata
+Axillary Lymph Node Level III,nan,,nan,Metadata
+Bartholin Gland,nan,,nan,Metadata
+Bile Duct,nan,,nan,Metadata
+Biliary Tract,nan,,nan,Metadata
+Bladder,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Femur,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Humerus,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Rib,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Scapula,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Sternum,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Tibia,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+Bone Marrow,nan,,nan,Metadata
+ Vertebral,nan,,nan,Metadata
+Both Eyes,nan,,nan,Metadata
+Brachial Lymph Node,nan,,nan,Metadata
+Brain,nan,,nan,Metadata
+Branch Duct,nan,,nan,Metadata
+Breast,nan,,nan,Metadata
+Bronchial Lymph Node,nan,,nan,Metadata
+Bronchial Tree,nan,,nan,Metadata
+Brunner's Gland,nan,,nan,Metadata
+Buccal Lymph Node,nan,,nan,Metadata
+Buccal Salivary Gland,nan,,nan,Metadata
+Cardia Gland,nan,,nan,Metadata
+Cardiophrenic Lymph Node,nan,,nan,Metadata
+Celiac Lymph Node,nan,,nan,Metadata
+Ceruminous Gland,nan,,nan,Metadata
+Cervical Gland,nan,,nan,Metadata
+Cervical Lymph Node,nan,,nan,Metadata
+Circumanal Gland,nan,,nan,Metadata
+Cochlear Duct,nan,,nan,Metadata
+Colon Lymph Node,nan,,nan,Metadata
+Common Bile Duct,nan,,nan,Metadata
+Common Hepatic Duct,nan,,nan,Metadata
+Common Iliac Lymph Node,nan,,nan,Metadata
+Cowper Gland,nan,,nan,Metadata
+Cystic Duct,nan,,nan,Metadata
+Deep Cervical Lymph Node,nan,,nan,Metadata
+Diaphragmatic Lymph Node,nan,,nan,Metadata
+Distal 1/3 of the Common Bile Duct,nan,,nan,Metadata
+Distal Common Bile Duct,nan,,nan,Metadata
+Distant Lymph Node,nan,,nan,Metadata
+Draining Lymph Node,nan,,nan,Metadata
+Duct,nan,,nan,Metadata
+Duct of Gartner,nan,,nan,Metadata
+Duct of the Epididymis,nan,,nan,Metadata
+Ductus Santorini,nan,,nan,Metadata
+Ear,nan,,nan,Metadata
+Ear Skin,nan,,nan,Metadata
+Eccrine Sweat Gland,nan,,nan,Metadata
+Efferent Duct,nan,,nan,Metadata
+Ejaculatory Duct,nan,,nan,Metadata
+Elbow Skin,nan,,nan,Metadata
+Endocrine Gland,nan,,nan,Metadata
+Endocrine Ovary,nan,,nan,Metadata
+Endocrine Sex Organ,nan,,nan,Metadata
+Endocrine Testis,nan,,nan,Metadata
+Epididymis,nan,,nan,Metadata
+Epigastric Lymph Node,nan,,nan,Metadata
+Epitrochlear Lymph Node,nan,,nan,Metadata
+Esophageal Gland,nan,,nan,Metadata
+Esophageal Lymph Node,nan,,nan,Metadata
+Esophagus,nan,,nan,Metadata
+Exocrine Gland,nan,,nan,Metadata
+Exocrine Pancreas,nan,,nan,Metadata
+External Iliac Lymph Node,nan,,nan,Metadata
+Extra-Abdominal Lymph Node,nan,,nan,Metadata
+Extrahepatic Bile Duct,nan,,nan,Metadata
+Eye,nan,,nan,Metadata
+Eyelid Skin,nan,,nan,Metadata
+Fallopian Tube,nan,,nan,Metadata
+Female Breast,nan,,nan,Metadata
+Female Prepuce,nan,,nan,Metadata
+Female Urethra,nan,,nan,Metadata
+Femoral Lymph Node,nan,,nan,Metadata
+Fixed Lymph Node,nan,,nan,Metadata
+Flexural Skin,nan,,nan,Metadata
+Foot Digit Skin,nan,,nan,Metadata
+Foot Skin,nan,,nan,Metadata
+Fundic Gland,nan,,nan,Metadata
+Gallbladder,nan,,nan,Metadata
+Gastric Curvature Lymph Node,nan,,nan,Metadata
+Gastric Lymph Node,nan,,nan,Metadata
+Gastrohepatic Lymph Node,nan,,nan,Metadata
+Glabrous Skin,nan,,nan,Metadata
+Gland,nan,,nan,Metadata
+Gland of Krause,nan,,nan,Metadata
+Gland of Littre,nan,,nan,Metadata
+Gland of Moll,nan,,nan,Metadata
+Gland of Wolfring,nan,,nan,Metadata
+Gonad,nan,,nan,Metadata
+Hand Digit Skin,nan,,nan,Metadata
+Hand Skin,nan,,nan,Metadata
+Head Skin,nan,,nan,Metadata
+Head and Neck Lymph Node,nan,,nan,Metadata
+Heart,nan,,nan,Metadata
+Hepatic Duct,nan,,nan,Metadata
+Hepatic Lymph Node,nan,,nan,Metadata
+Hilar Portion of the Hepatic Duct,nan,,nan,Metadata
+Hilar Portion of the Left Hepatic Duct,nan,,nan,Metadata
+Hilar Portion of the Right Hepatic Duct,nan,,nan,Metadata
+Ileum Lymph Node,nan,,nan,Metadata
+Iliac Lymph Node,nan,,nan,Metadata
+Inferior Mediastinal Lymph Node,nan,,nan,Metadata
+Inferior Parathyroid Gland,nan,,nan,Metadata
+Infraclavicular Lymph Node,nan,,nan,Metadata
+Inguinal Lymph Node,nan,,nan,Metadata
+Intercalated Duct,nan,,nan,Metadata
+Intercalated Duct of the Pancreas,nan,,nan,Metadata
+Intercalated Duct of the Salivary Gland System,nan,,nan,Metadata
+Intercostal Lymph Node,nan,,nan,Metadata
+Interlobular Bile Duct,nan,,nan,Metadata
+Interlobular Duct,nan,,nan,Metadata
+Internal Iliac Lymph Node,nan,,nan,Metadata
+Internal Mammary Lymph Node,nan,,nan,Metadata
+Interval Lymph Node,nan,,nan,Metadata
+Intestine,nan,,nan,Metadata
+Intra-Abdominal Lymph Node,nan,,nan,Metadata
+Intrahepatic Bile Duct,nan,,nan,Metadata
+Intrahepatic Large Bile Duct,nan,,nan,Metadata
+Intrahepatic Portion of the Left Hepatic Duct,nan,,nan,Metadata
+Intrahepatic Portion of the Right Hepatic Duct,nan,,nan,Metadata
+Intramammary Lymph Node,nan,,nan,Metadata
+Intrathoracic Lymph Node,nan,,nan,Metadata
+Intrathyroidal Parathyroid,nan,,nan,Metadata
+Kidney,nan,,nan,Metadata
+Knee Skin,nan,,nan,Metadata
+Labial Salivary Gland,nan,,nan,Metadata
+Lacrimal Gland,nan,,nan,Metadata
+Lactiferous Duct,nan,,nan,Metadata
+Laryngeal Mucous Salivary Gland,nan,,nan,Metadata
+Left Adrenal Gland,nan,,nan,Metadata
+Left Breast,nan,,nan,Metadata
+Left Ear,nan,,nan,Metadata
+Left Eye,nan,,nan,Metadata
+Left Fallopian Tube,nan,,nan,Metadata
+Left Hepatic Duct,nan,,nan,Metadata
+Left Kidney,nan,,nan,Metadata
+Left Lung,nan,,nan,Metadata
+Left Lung Alveolar Duct,nan,,nan,Metadata
+Left Ovary,nan,,nan,Metadata
+Left Seminal Vesicle,nan,,nan,Metadata
+Left Testis,nan,,nan,Metadata
+Left Ureter,nan,,nan,Metadata
+Leg Skin,nan,,nan,Metadata
+Lingual Salivary Gland,nan,,nan,Metadata
+Lingual Tonsil,nan,,nan,Metadata
+Liver,nan,,nan,Metadata
+Lower Gastrointestinal Tract Lymph Node,nan,,nan,Metadata
+Lower Jugular Lymph Node Group (Level IV),nan,,nan,Metadata
+Lung,nan,,nan,Metadata
+Lymph Node,nan,,nan,Metadata
+Lymph Node by Anatomic Site,nan,,nan,Metadata
+Lymph Node of Inguinal Region or Leg,nan,,nan,Metadata
+Main Pancreatic and Accessory Ducts,nan,,nan,Metadata
+Major Salivary Gland,nan,,nan,Metadata
+Male Breast,nan,,nan,Metadata
+Male Prepuce,nan,,nan,Metadata
+Male Urethra,nan,,nan,Metadata
+Mammary Gland,nan,,nan,Metadata
+Medial Supraclavicular Lymph Node,nan,,nan,Metadata
+Median Or Lower Cervical Lymph Node,nan,,nan,Metadata
+Mediastinal Lymph Node,nan,,nan,Metadata
+Meibomian Gland,nan,,nan,Metadata
+Mesenteric Lymph Node,nan,,nan,Metadata
+Middle Jugular Lymph Node Group (Level III),nan,,nan,Metadata
+Minor Salivary Gland,nan,,nan,Metadata
+Montgomery Tubercle,nan,,nan,Metadata
+Mucous Salivary Gland,nan,,nan,Metadata
+Mullerian Duct,nan,,nan,Metadata
+Nasolacrimal Duct,nan,,nan,Metadata
+Neck Lymph Node Boundary Level III,nan,,nan,Metadata
+Neck Lymph Node Boundary Level IV,nan,,nan,Metadata
+Neck Lymph Node Boundary Level VI,nan,,nan,Metadata
+Neck Lymph Node Boundary Level VII,nan,,nan,Metadata
+Neck Lymph Node Boundary Levels I-IV,nan,,nan,Metadata
+Neck Lymph Node Boundary Levels II-IV,nan,,nan,Metadata
+Neck Lymph Node Boundary Levels and Sublevels,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel IA,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel IB,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel IIA,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel IIB,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel VA,nan,,nan,Metadata
+Neck Lymph Node Boundary Sublevel VB,nan,,nan,Metadata
+Neck Lymph Node Groups,nan,,nan,Metadata
+Neck Skin,nan,,nan,Metadata
+Non-Glabrous Skin,nan,,nan,Metadata
+Nose,nan,,nan,Metadata
+Not applicable,nan,,nan,Metadata
+Not collected,nan,,nan,Metadata
+Nuchal Lymph Node,nan,,nan,Metadata
+Obturator Lymph Node,nan,,nan,Metadata
+Occipital Lymph Node,nan,,nan,Metadata
+Occipital Scalp,nan,,nan,Metadata
+Organ of Special Sense,nan,,nan,Metadata
+Other,nan,,nan,Metadata
+Ovary,nan,,nan,Metadata
+Palatine Salivary Gland,nan,,nan,Metadata
+Palatine Tonsil,nan,,nan,Metadata
+Pancreas,nan,,nan,Metadata
+Pancreatic Duct,nan,,nan,Metadata
+Pancreatic Lymph Node,nan,,nan,Metadata
+Paraaortic Lymph Node,nan,,nan,Metadata
+Paracaval Lymph Node,nan,,nan,Metadata
+Paralaryngeal Lymph Node,nan,,nan,Metadata
+Parapharyngeal Lymph Node,nan,,nan,Metadata
+Parathyroid Gland,nan,,nan,Metadata
+Paratracheal Lymph Node,nan,,nan,Metadata
+Parotid Duct,nan,,nan,Metadata
+Parotid Gland,nan,,nan,Metadata
+Parotid Gland Lymph Node,nan,,nan,Metadata
+Pectoral Lymph Node,nan,,nan,Metadata
+Pelvic Lymph Node,nan,,nan,Metadata
+Penis,nan,,nan,Metadata
+Pericardial Lymph Node,nan,,nan,Metadata
+Perifacial Lymph Node,nan,,nan,Metadata
+Perihilar Lymph Node,nan,,nan,Metadata
+Perirectal Lymph Node,nan,,nan,Metadata
+Peristomal Skin,nan,,nan,Metadata
+Peritoneal Lymph Node,nan,,nan,Metadata
+Pharyngeal Tonsil,nan,,nan,Metadata
+Pineal Gland,nan,,nan,Metadata
+Pituitary Gland,nan,,nan,Metadata
+Popliteal Lymph Node,nan,,nan,Metadata
+Porta Hepatis Lymph Node,nan,,nan,Metadata
+Portacaval Lymph Node,nan,,nan,Metadata
+Portal Lymph Node,nan,,nan,Metadata
+Posterior Cervical Lymph Node,nan,,nan,Metadata
+Posterior Triangle Lymph Node Group (Sublevels VA and VB),nan,,nan,Metadata
+Preauricular Lymph Node,nan,,nan,Metadata
+Pregnant Uterus,nan,,nan,Metadata
+Prelaryngeal Lymph Node,nan,,nan,Metadata
+Prepuce,nan,,nan,Metadata
+Presacral Lymph Node,nan,,nan,Metadata
+Pretracheal Lymph Node,nan,,nan,Metadata
+Prostate Gland,nan,,nan,Metadata
+Prostatic Duct,nan,,nan,Metadata
+Pulmonary Hilar Lymph Node,nan,,nan,Metadata
+Pyloric Gland,nan,,nan,Metadata
+Regional Lymph Node,nan,,nan,Metadata
+Renal Lymph Node,nan,,nan,Metadata
+Retroauricular Lymph Node,nan,,nan,Metadata
+Retrocrural Lymph Node,nan,,nan,Metadata
+Retroperitoneal Lymph Node,nan,,nan,Metadata
+Retropharyngeal Lymph Node,nan,,nan,Metadata
+Retrosacral Lymph Node,nan,,nan,Metadata
+Right Adrenal Gland,nan,,nan,Metadata
+Right Breast,nan,,nan,Metadata
+Right Ear,nan,,nan,Metadata
+Right Eye,nan,,nan,Metadata
+Right Fallopian Tube,nan,,nan,Metadata
+Right Hepatic Duct,nan,,nan,Metadata
+Right Kidney,nan,,nan,Metadata
+Right Lung,nan,,nan,Metadata
+Right Lung Alveolar Duct,nan,,nan,Metadata
+Right Lymphatic Duct,nan,,nan,Metadata
+Right Ovary,nan,,nan,Metadata
+Right Seminal Vesicle,nan,,nan,Metadata
+Right Testis,nan,,nan,Metadata
+Right Ureter,nan,,nan,Metadata
+Sacral Lymph Node,nan,,nan,Metadata
+Salivary Gland,nan,,nan,Metadata
+Scalene Lymph Node,nan,,nan,Metadata
+Scalp,nan,,nan,Metadata
+Scrotum,nan,,nan,Metadata
+Sebaceous Gland,nan,,nan,Metadata
+Sebaceous Gland Duct,nan,,nan,Metadata
+Sebaceous Gland of the Eyelash,nan,,nan,Metadata
+Semicircular Duct,nan,,nan,Metadata
+Seminal Vesicle,nan,,nan,Metadata
+Sentinel Lymph Node,nan,,nan,Metadata
+Seromucous Salivary Gland,nan,,nan,Metadata
+Serous Salivary Gland,nan,,nan,Metadata
+Skene Gland,nan,,nan,Metadata
+Skin,nan,,nan,Metadata
+Skin Around the Eye,nan,,nan,Metadata
+Skin Around the Mouth,nan,,nan,Metadata
+Skin Between the Eyebrows,nan,,nan,Metadata
+Skin Of The Axilla,nan,,nan,Metadata
+Skin Of The Back,nan,,nan,Metadata
+Skin Of The Chin,nan,,nan,Metadata
+Skin of the Bending Joint,nan,,nan,Metadata
+Skin of the Buttock,nan,,nan,Metadata
+Skin of the Chest,nan,,nan,Metadata
+Skin of the Extremity,nan,,nan,Metadata
+Skin of the Face,nan,,nan,Metadata
+Skin of the Forearm,nan,,nan,Metadata
+Skin of the Infrascapular Region,nan,,nan,Metadata
+Skin of the Inguinal Region,nan,,nan,Metadata
+Skin of the Lip,nan,,nan,Metadata
+Skin of the Lower Extremity,nan,,nan,Metadata
+Skin of the Lower Limb and Hip,nan,,nan,
+Skin of the Palm,nan,,nan,
+Skin of the Scalp and Neck,nan,,nan,
+Skin of the Sole,nan,,nan,
+Skin of the Trunk,nan,,nan,
+Skin of the Upper Extremity,nan,,nan,
+Skin of the Upper Limb and Shoulder,nan,,nan,
+Skinfold,nan,,nan,
+Spermatic Cord,nan,,nan,
+Spinal Cord,nan,,nan,
+Spleen,nan,,nan,
+Splenic Hilar Lymph Node,nan,,nan,
+Splenic Lymph Node,nan,,nan,
+Stomach,nan,,nan,
+Striated Duct,nan,,nan,
+Subcarinal Lymph Node,nan,,nan,
+Sublingual Lymph Node,nan,,nan,
+Sublingual Salivary Gland,nan,,nan,
+Submandibular Duct,nan,,nan,
+Submandibular Gland,nan,,nan,
+Submandibular Lymph Node,nan,,nan,
+Submandibular Lymph Node Group (Sublevel IB),nan,,nan,
+Submental Lymph Node,nan,,nan,
+Submental Lymph Node Group (Sublevel IA),nan,,nan,
+Subsegmental Lymph Node,nan,,nan,
+Superficial Cervical Lymph Node,nan,,nan,
+Superficial Lymph Node,nan,,nan,
+Superior Mediastinal Lymph Node Group (Level VII),nan,,nan,
+Superior Parathyroid Gland,nan,,nan,
+Supraclavicular Lymph Node,nan,,nan,
+Suprapubic Skin,nan,,nan,
+Sweat Gland,nan,,nan,
+Sweat Gland Duct,nan,,nan,
+Testis,nan,,nan,
+Thoracic Duct,nan,,nan,
+Thoracic Lymph Node,nan,,nan,
+Thymus Gland,nan,,nan,
+Thyroid Gland,nan,,nan,
+Tongue,nan,,nan,
+Tonsil,nan,,nan,
+Trachea,nan,,nan,
+Tracheobronchial Lymph Node,nan,,nan,
+Tracheobronchial Tree,nan,,nan,
+Unknown,nan,,nan,
+Upper Cervical Lymph Node,nan,,nan,
+Upper Jugular Lymph Node Group (Sublevels IIA and IIB),nan,,nan,
+Upper Paratracheal Lymph Node,nan,,nan,
+Ureter,nan,,nan,
+Urethra,nan,,nan,
+Urethral Gland,nan,,nan,
+Uterus,nan,,nan,
+Utriculosaccular Duct,nan,,nan,
+Vagina,nan,,nan,
+Vas Deferens,nan,,nan,
+Vulva,nan,,nan,
+Wrist Skin,nan,,nan,

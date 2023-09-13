@@ -1,80 +1,80 @@
 Key,Key Description,Type,Source,Module
 Affy5.0,nan,,nan,BaseAnnotation
- Affy6.0,nan,,nan,BaseAnnotation
- Affymetrix Human Gene 1.0 ST Array,nan,,nan,BaseAnnotation
- AffymetrixU133AB,nan,,nan,BaseAnnotation
- AffymetrixU133Plus2,nan,,nan,BaseAnnotation
- Agilent44Karray,nan,,nan,BaseAnnotation
- BGISEQ-500,nan,,nan,BaseAnnotation
- Biocrates p180,nan,,nan,BaseAnnotation
- Biograph mCT,nan,,nan,BaseAnnotation
- Bionano Irys,nan,,nan,BaseAnnotation
- Bruker Avance III,nan,,nan,BaseAnnotation
- confocalImaging,nan,,nan,BaseAnnotation
- ddSEQ Single-Cell Isolator,nan,,nan,BaseAnnotation
- DNBSEQ,nan,,nan,BaseAnnotation
- GAIIx,nan,,nan,BaseAnnotation
- HiSeq1000,nan,,nan,BaseAnnotation
- HiSeq2000,nan,,nan,BaseAnnotation
- HiSeq2500,nan,,nan,BaseAnnotation
- HiSeq3000,nan,,nan,BaseAnnotation
- HiSeq4000,nan,,nan,BaseAnnotation
- HiSeqX,nan,,nan,BaseAnnotation
- Illumina_1M,nan,,nan,BaseAnnotation
- Illumina_h650,nan,,nan,BaseAnnotation
- Illumina_HumanOmni1-Quadv1.0,nan,,nan,BaseAnnotation
- llumina Infinium General Screening Array 24-Kit v3.0,nan,,nan,BaseAnnotation
- Illumina MouseWG-6 v2.0 expression beadchip,nan,,nan,BaseAnnotation
- Illumina_Omni2.5-8,nan,,nan,BaseAnnotation
- Illumina_Omni2.5-8_v1.1,nan,,nan,BaseAnnotation
- Illumina_Omni2.5-8_v1.3,nan,,nan,BaseAnnotation
- Illumina_Omni2pt5M,nan,,nan,BaseAnnotation
- Illumina_Omni5M,nan,,nan,BaseAnnotation
- Illumina_Omni5-Quad,nan,,nan,BaseAnnotation
- IlluminaHumanHap300,nan,,nan,BaseAnnotation
- IlluminaHumanHap650Yv3_A,nan,,nan,BaseAnnotation
- IlluminaHumanHT-12_V3_0_R1,nan,,nan,BaseAnnotation
- IlluminaHumanMethylation450,nan,,nan,BaseAnnotation
- IlluminaMethylationEPIC,nan,,nan,BaseAnnotation
- IlluminaInfiniumGSAMD-24v2-0,nan,,nan,BaseAnnotation
- Illumina_Infinium-HumanMethylation450-BeadChip,nan,,nan,BaseAnnotation
- IlluminaMiSeq,nan,,nan,BaseAnnotation
- Illumina NovaSeq 6000,nan,,nan,BaseAnnotation
- IlluminaNovaseq6000,nan,,nan,BaseAnnotation
- IlluminaWholeGenomeDASL,nan,,nan,BaseAnnotation
- Infinium Global Diversity Array-8,nan,,nan,BaseAnnotation
- Infinium HumanOmniExpressExome,nan,,nan,BaseAnnotation
- Infinium Omni2.5Exome-8 v1.1,nan,,nan,BaseAnnotation
- Infinium Omni2.5Exome-8 v1.3,nan,,nan,BaseAnnotation
- Infinium Omni2.5Exome-8 v1.4,nan,,nan,BaseAnnotation
- Infinium Omni2.5Exome-8 v1.5,nan,,nan,BaseAnnotation
- InfiniumPsychArrayBeadChip,nan,,nan,BaseAnnotation
- Leco Pegasus IV,nan,,nan,BaseAnnotation
- LTQOrbitrapXL,nan,,nan,BaseAnnotation
- MiSeq,nan,,nan,BaseAnnotation
- NanostringnCounter,nan,,nan,BaseAnnotation
- NanostringnCounter_MouseADPanel,nan,,nan,BaseAnnotation
- NextSeq500,nan,,nan,BaseAnnotation
- NextSeq2000,nan,,nan,BaseAnnotation
- Olink Target 96,nan,,nan,BaseAnnotation
- orbitrap,nan,,nan,BaseAnnotation
- OrbiTrap Fusion,nan,,nan,BaseAnnotation
- Orbitrap Fusion Lumos,nan,,nan,BaseAnnotation
- PacBioRSII,nan,,nan,BaseAnnotation
- PacBio Sequel II,nan,,nan,BaseAnnotation
- PacBio Sequel IIe,nan,,nan,BaseAnnotation
- Perlegen300Karray,nan,,nan,BaseAnnotation
- PsychChip,nan,,nan,BaseAnnotation
- Q Exactive,nan,,nan,BaseAnnotation
- Q Exactive HF,nan,,nan,BaseAnnotation
- Q Exactive HF-X,nan,,nan,BaseAnnotation
- Q Exactive Plus,nan,,nan,BaseAnnotation
- quadrupole time-of-flight,nan,,nan,BaseAnnotation
- Roche Cobas,nan,,nan,BaseAnnotation
- SequenomMultiplex,nan,,nan,BaseAnnotation
- Signa Premier AIR 3T,nan,,nan,BaseAnnotation
- Simoa HD-1 Analyzer,nan,,nan,BaseAnnotation
- time-of-flight,nan,,nan,BaseAnnotation
- triple quadrupole,nan,,nan,BaseAnnotation
- Xevo G2 QTOF,nan,,nan,BaseAnnotation
- Xevo TQ-S,nan,,nan,BaseAnnotation
+Affy6.0,nan,,nan,BaseAnnotation
+Affymetrix Human Gene 1.0 ST Array,nan,,nan,BaseAnnotation
+AffymetrixU133AB,nan,,nan,BaseAnnotation
+AffymetrixU133Plus2,nan,,nan,BaseAnnotation
+Agilent44Karray,nan,,nan,BaseAnnotation
+BGISEQ-500,nan,,nan,BaseAnnotation
+Biocrates p180,nan,,nan,BaseAnnotation
+Biograph mCT,nan,,nan,BaseAnnotation
+Bionano Irys,nan,,nan,BaseAnnotation
+Bruker Avance III,nan,,nan,BaseAnnotation
+confocalImaging,nan,,nan,BaseAnnotation
+ddSEQ Single-Cell Isolator,nan,,nan,BaseAnnotation
+DNBSEQ,nan,,nan,BaseAnnotation
+GAIIx,nan,,nan,BaseAnnotation
+HiSeq1000,nan,,nan,BaseAnnotation
+HiSeq2000,nan,,nan,BaseAnnotation
+HiSeq2500,nan,,nan,BaseAnnotation
+HiSeq3000,nan,,nan,BaseAnnotation
+HiSeq4000,nan,,nan,BaseAnnotation
+HiSeqX,nan,,nan,BaseAnnotation
+Illumina_1M,nan,,nan,BaseAnnotation
+Illumina_h650,nan,,nan,BaseAnnotation
+Illumina_HumanOmni1-Quadv1.0,nan,,nan,BaseAnnotation
+llumina Infinium General Screening Array 24-Kit v3.0,nan,,nan,BaseAnnotation
+Illumina MouseWG-6 v2.0 expression beadchip,nan,,nan,BaseAnnotation
+Illumina_Omni2.5-8,nan,,nan,BaseAnnotation
+Illumina_Omni2.5-8_v1.1,nan,,nan,BaseAnnotation
+Illumina_Omni2.5-8_v1.3,nan,,nan,BaseAnnotation
+Illumina_Omni2pt5M,nan,,nan,BaseAnnotation
+Illumina_Omni5M,nan,,nan,BaseAnnotation
+Illumina_Omni5-Quad,nan,,nan,BaseAnnotation
+IlluminaHumanHap300,nan,,nan,BaseAnnotation
+IlluminaHumanHap650Yv3_A,nan,,nan,BaseAnnotation
+IlluminaHumanHT-12_V3_0_R1,nan,,nan,BaseAnnotation
+IlluminaHumanMethylation450,nan,,nan,BaseAnnotation
+IlluminaMethylationEPIC,nan,,nan,BaseAnnotation
+IlluminaInfiniumGSAMD-24v2-0,nan,,nan,BaseAnnotation
+Illumina_Infinium-HumanMethylation450-BeadChip,nan,,nan,BaseAnnotation
+IlluminaMiSeq,nan,,nan,BaseAnnotation
+Illumina NovaSeq 6000,nan,,nan,BaseAnnotation
+IlluminaNovaseq6000,nan,,nan,BaseAnnotation
+IlluminaWholeGenomeDASL,nan,,nan,BaseAnnotation
+Infinium Global Diversity Array-8,nan,,nan,BaseAnnotation
+Infinium HumanOmniExpressExome,nan,,nan,BaseAnnotation
+Infinium Omni2.5Exome-8 v1.1,nan,,nan,BaseAnnotation
+Infinium Omni2.5Exome-8 v1.3,nan,,nan,BaseAnnotation
+Infinium Omni2.5Exome-8 v1.4,nan,,nan,BaseAnnotation
+Infinium Omni2.5Exome-8 v1.5,nan,,nan,BaseAnnotation
+InfiniumPsychArrayBeadChip,nan,,nan,BaseAnnotation
+Leco Pegasus IV,nan,,nan,BaseAnnotation
+LTQOrbitrapXL,nan,,nan,BaseAnnotation
+MiSeq,nan,,nan,BaseAnnotation
+NanostringnCounter,nan,,nan,BaseAnnotation
+NanostringnCounter_MouseADPanel,nan,,nan,BaseAnnotation
+NextSeq500,nan,,nan,BaseAnnotation
+NextSeq2000,nan,,nan,BaseAnnotation
+Olink Target 96,nan,,nan,BaseAnnotation
+orbitrap,nan,,nan,BaseAnnotation
+OrbiTrap Fusion,nan,,nan,BaseAnnotation
+Orbitrap Fusion Lumos,nan,,nan,BaseAnnotation
+PacBioRSII,nan,,nan,BaseAnnotation
+PacBio Sequel II,nan,,nan,BaseAnnotation
+PacBio Sequel IIe,nan,,nan,BaseAnnotation
+Perlegen300Karray,nan,,nan,BaseAnnotation
+PsychChip,nan,,nan,BaseAnnotation
+Q Exactive,nan,,nan,BaseAnnotation
+Q Exactive HF,nan,,nan,BaseAnnotation
+Q Exactive HF-X,nan,,nan,BaseAnnotation
+Q Exactive Plus,nan,,nan,BaseAnnotation
+quadrupole time-of-flight,nan,,nan,BaseAnnotation
+Roche Cobas,nan,,nan,BaseAnnotation
+SequenomMultiplex,nan,,nan,BaseAnnotation
+Signa Premier AIR 3T,nan,,nan,BaseAnnotation
+Simoa HD-1 Analyzer,nan,,nan,BaseAnnotation
+time-of-flight,nan,,nan,BaseAnnotation
+triple quadrupole,nan,,nan,BaseAnnotation
+Xevo G2 QTOF,nan,,nan,BaseAnnotation
+Xevo TQ-S,nan,,nan,BaseAnnotation

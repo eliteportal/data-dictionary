@@ -2,12 +2,13 @@
 datatable: true
 layout: page
 parent: Template
-title: genotyping
+permalink: docs/Genotyping.html
+title: Genotyping
 ---
 
 {% assign mydata=site.data.genotyping %} 
 {: .note-title } 
->genotyping
+>Genotyping
 >
 >nan [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
@@ -26,14 +27,16 @@ title: genotyping
     {% endfor %}
     </tbody>
 </table>
+
 <script type="text/javascript">
+  var pages = [];
   $('#myTable').DataTable({
     responsive: {
         details: {
             display: $.fn.dataTable.Responsive.display.modal( {
                 header: function ( row ) {
                     var data = row.data();
-                    return 'Details for '+data[0];
+                    return 'Details for '+data[0]+' ';
                 }
             } ),
             renderer: $.fn.dataTable.Responsive.renderer.tableAll({
@@ -43,29 +46,44 @@ title: genotyping
     },
    "deferRender": true,
    "columnDefs": [
-      { 
-         targets: [3],
+      {
+         targets: 0,
          render : function(data, type, row, meta){
-            if(type === 'display' & data != 'Sage Bionetworks'){
+            if(type === 'display' & $.inArray( data, pages) != -1){
                return $('<a>')
-                  .attr('href', data)
+                  .attr('href',row[7]+'/'+data)
                   .text(data)
                   .wrap('<div></div>')
                   .parent()
-                  .html();} 
-            if(type === 'display' & data == 'Sage Bionetworks'){
-                return $('<a>')
-                   .attr('href', 'https://sagebionetworks.org/')
-                   .text(data)
-                   .wrap('<div></div>')
-                   .parent()
-                   .html();
-            
-            } else {
+                  .html();}
+             else {
                return data;
             }
          }
-      } 
+      },
+      {
+        targets: [6,7],
+          render : function(data, type, row, meta){
+         if(type === 'display' & data != 'Sage Bionetworks'){
+            return $('<a>')
+               .attr('href', data)
+               .text(data)
+               .wrap('<div></div>')
+               .parent()
+               .html();}
+         if(type === 'display' & data == 'Sage Bionetworks'){
+             return $('<a>')
+                .attr('href', 'https://sagebionetworks.org/')
+                .text(data)
+                .wrap('<div></div>')
+                .parent()
+                .html();
+
+         } else {
+            return data;
+         }
+      }
+   }
    ]
 });
 </script>

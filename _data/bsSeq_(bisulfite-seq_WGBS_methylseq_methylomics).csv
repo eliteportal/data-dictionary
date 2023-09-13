@@ -8,10 +8,21 @@ specifyPlatformVersion,Value is determined by the data contributor,String,,,Fals
 platformLocation,"The name of the laboratory, facility, vendor, company, or location where the data generation platform was located, provided by the data contributor",,"OtherPlatformLocation,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyPlatformLocation,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 referenceTranscriptID,The ID for the transcript/gene. Either the NCBI ID or the Ensembl ID must be provided,,"Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
+dnaBatchID,DNA isolation batch,,"Other,Unknown,Not collected,Not applicable",,True,Sage Bionetworks,Omics
+dnaBatchSize,The number of samples,,,,True,Sage Bionetworks,Omics
+dnaBatchSizeUnit,The unit of measurement for number of samples in a batch,,"AFU,AI,AU/ml,DK units/ml,bpg/dl,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not Specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml,OtherDnaBatchSizeUnit",,True,Sage Bionetworks,Omics
+specifyDNABatchSizeUnit,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
+libraryBatchID,"Library batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,,,True,Sage Bionetworks,Omics
+libraryPrep,The general strategy by which the library was prepared,,"amplicon,cellHashing,Chromium Single Cell 3',DNALibraryConstruction,EndItDNAEndRepairKit,KapaHyperPrep,lncRNAenrichment,methylSeq,miRNAenrichment,multiome,MULTIseq,PCRfree,polyAselection,proximity ligation,rRNAdepletion,SPLITseq,STARRSeq,SureCell,totalRNA,OtherLibraryPrep,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
+specifyLibraryPrep,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 libraryPreparationMethod,Method by which library was prepared,,"10x,Accel-NGS 2S Plus,Accel-NGS Methyl-Seq,CEL-seq,Drop-Seq,NEBNext,NexteraXT,Omni-ATAC,sac-seq,Smart-seq1,Smart-seq2,Smart-seq4,SMRTbell,TruSeq,Ultralow Methyl-Seq,OtherLibraryPreparationMethod,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyLibraryPreparationMethod,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 libraryVersion,"Library Version: for example, rnaSeq 10x library version",,"OtherLibraryVersion,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyLibraryVersion,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
+sequencingBatchID,"Sequencing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
+sequencingBatchSize,The number of samples,,,,True,Sage Bionetworks,Omics
+sequencingBatchSizeUnit,The unit of measurement for number of samples in a batch,,"AFU,AI,AU/ml,DK units/ml,bpg/dl,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not Specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml,OtherSequencingBatchSizeUnit",,True,Sage Bionetworks,Omics
+specifySequencingBatchSizeUnit,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 isStranded,Whether or not the library is stranded.,str,"TRUE,FALSE",,True,Sage Bionetworks,Omics
 readStrandOrigin,The strand from which the read originates in a strand-specific protocol,,"forward,reverse",,True,Sage Bionetworks,Omics
 readLength,The length of the read,,,,True,Sage Bionetworks,Omics
@@ -19,10 +30,15 @@ readLengthUnits,The units of measurement.,,"AFU,AI,AU/ml,DK units/ml,bpg/dl,g/l,
 specifyReadLengthUnits,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 runType,The type of run,,"singleEnd,pairedEnd",,True,Sage Bionetworks,Omics
 totalReads,Total number of sequencing reads from a library.,,,,True,Sage Bionetworks,Omics
-repositoryName,"The public repository name for the transcript (for example, Ensembl or NCBI Gene)",,"ArrayExpress,Broad Single Cell Portal,dbGAP,ENA,Ensembl,FlowRepository,GenBank,GEO,GISAID,IEDB,ImmPort,MassIVE,MetaboLights,Metabolomics Workbench,MGnify,NCBI Gene,PRIDE,SRA,UniProt,OtherRepositoryName,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,
-specifyRepositoryName,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
-transcriptType,The type of transcript reported,,"lincRNA,mRNA,snRNA,OtherTranscriptType,Unknown,Not collected,Not applicable,Not Specified",,True,ImmPort,
-specifyTranscriptType,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
-resultUnit,The unit for the result value,,"FPKM,RPKM,TPM,Not Specified",,True,Sage Bionetworks,
-valueReported,The count or gene count for the transcript,,,,True,Sage Bionetworks,
+directionalBSseqLibrary,Indicates whether or not the bisulfiteSeq library is directional,,"TRUE,FALSE,Unknown,Not collected,Not applicable",,True,Sage Bionetworks,Omics
+gDNAconc,gDNA Concentration in ng,,,,True,Sage Bionetworks,
+lambdaDNAconc,Lambda DNA spike-in concentration in ng,,,,True,Sage Bionetworks,
+pcrCycles,Number of PCR cycles to amplify transposased DNA fragments,,,,True,Sage Bionetworks,
+meanCoverage,Total number of bases covered by ATAC-seq reads/size of genome,,,,True,Sage Bionetworks,
+conversionRatio,The ratio or % detailing how well the bisulfite conversion worked,,,,True,Sage Bionetworks,
+conversionRatioUnits,The units of measurement.,,"AFU,AI,AU/ml,DK units/ml,bpg/dl,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not Specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml,OtherConversionRatioUnits",,True,Sage Bionetworks,
+specifyConversionRatioUnit,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
+enrichmentMethod,The method used for performing an enrichment of specific regions by a restriction enzyme digest,,"Other,Unknown,Not collected,Not applicable",,True,Sage Bionetworks,
+specifyEnrichmentMethod,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 diagnosis,Indicate the disease or condition.,,,,False,"LLFS data dictionary,LLFS data dictionary,LLFS data dictionary",Metadata
+libraryPrep,The general strategy by which the library was prepared,,"amplicon, cellHashing, Chromium Single Cell 3', DNALibraryConstruction, EndItDNAEndRepairKit, KapaHyperPrep, lncRNAenrichment, methylSeq, miRNAenrichment, multiome, MULTIseq, PCRfree, polyAselection, proximity ligation, rRNAdepletion, snIsoSeq, SPLITseq, STARRSeq, SureCell, totalRNA",,True,sage.annotations-ngs.libraryPrep-0.0.13,BaseAnnotation

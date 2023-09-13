@@ -1,8 +1,8 @@
 ---
 layout: page
-title: {{doc_name}}
+title: template
 datatable: true
-parent: {{module.name}}
+parent: module
 permalink: permalink
 ---
 

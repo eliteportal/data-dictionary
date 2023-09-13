@@ -65,3 +65,7 @@ You can add additional descriptions to home page or specific page by directly ed
 ## Publish site on GitHub pages
 
 In addition to setting up the GitHub Actions workflow (i.e pages.yml), you need to allow deploying the GitHub pages using the workflow. Go to `Settings`-> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
+
+# To Do
+
+- [ ] Update data model attributes with descriptions, types and source

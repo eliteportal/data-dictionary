@@ -1,97 +1,97 @@
 Key,Key Description,Type,Source,Module
 7z,nan,,nan,BaseAnnotation
- ab1,nan,,nan,BaseAnnotation
- abf,nan,,nan,BaseAnnotation
- avi,nan,,nan,BaseAnnotation
- bai,nan,,nan,BaseAnnotation
- bam,nan,,nan,BaseAnnotation
- bash script,nan,,nan,BaseAnnotation
- bcf,nan,,nan,BaseAnnotation
- bed,nan,,nan,BaseAnnotation
- bed broadPeak,nan,,nan,BaseAnnotation
- bed gappedPeak,nan,,nan,BaseAnnotation
- bed narrowPeak,nan,,nan,BaseAnnotation
- bedgraph,nan,,nan,BaseAnnotation
- bgzip,nan,,nan,BaseAnnotation
- bigwig,nan,,nan,BaseAnnotation
- bim,nan,,nan,BaseAnnotation
- bpm,nan,,nan,BaseAnnotation
- bsc,nan,,nan,BaseAnnotation
- cel,nan,,nan,BaseAnnotation
- chp,nan,,nan,BaseAnnotation
- cram,nan,,nan,BaseAnnotation
- csv,nan,,nan,BaseAnnotation
- czi,nan,,nan,BaseAnnotation
- dat,nan,,nan,BaseAnnotation
- DICOM,nan,,nan,BaseAnnotation
- doc,nan,,nan,BaseAnnotation
- dup,nan,,nan,BaseAnnotation
- excel,nan,,nan,BaseAnnotation
- fam,nan,,nan,BaseAnnotation
- fasta,nan,,nan,BaseAnnotation
- fastq,nan,,nan,BaseAnnotation
- fig,nan,,nan,BaseAnnotation
- flagstat,nan,,nan,BaseAnnotation
- gct,nan,,nan,BaseAnnotation
- gff3,nan,,nan,BaseAnnotation
- gtf,nan,,nan,BaseAnnotation
- gzip,nan,,nan,BaseAnnotation
- hdf,nan,,nan,BaseAnnotation
- hic,nan,,nan,BaseAnnotation
- html,nan,,nan,BaseAnnotation
- hyperlink,nan,,nan,BaseAnnotation
- idat,nan,,nan,BaseAnnotation
- idx,nan,,nan,BaseAnnotation
- jpg,nan,,nan,BaseAnnotation
- json,nan,,nan,BaseAnnotation
- locs,nan,,nan,BaseAnnotation
- maf,nan,,nan,BaseAnnotation
- mat,nan,,nan,BaseAnnotation
- md,nan,,nan,BaseAnnotation
- mov,nan,,nan,BaseAnnotation
- mp4,nan,,nan,BaseAnnotation
- msf,nan,,nan,BaseAnnotation
- mtx,nan,,nan,BaseAnnotation
- nirs,nan,,nan,BaseAnnotation
- pdf,nan,,nan,BaseAnnotation
- pdresult,nan,,nan,BaseAnnotation
- pdstudy,nan,,nan,BaseAnnotation
- pdview,nan,,nan,BaseAnnotation
- plink,nan,,nan,BaseAnnotation
- png,nan,,nan,BaseAnnotation
- powerpoint,nan,,nan,BaseAnnotation
- Python script,nan,,nan,BaseAnnotation
- pzfx,nan,,nan,BaseAnnotation
- R script,nan,,nan,BaseAnnotation
- raw,nan,,nan,BaseAnnotation
- RCC,nan,,nan,BaseAnnotation
- RLF,nan,,nan,BaseAnnotation
- RData,nan,,nan,BaseAnnotation
- recal,nan,,nan,BaseAnnotation
- rmd,nan,,nan,BaseAnnotation
- saf,nan,,nan,BaseAnnotation
- sam,nan,,nan,BaseAnnotation
- sav,nan,,nan,BaseAnnotation
- sdf,nan,,nan,BaseAnnotation
- seg,nan,,nan,BaseAnnotation
- Sentrix descriptor file,nan,,nan,BaseAnnotation
- sf3,nan,,nan,BaseAnnotation
- sif,nan,,nan,BaseAnnotation
- sqlite,nan,,nan,BaseAnnotation
- sra,nan,,nan,BaseAnnotation
- svg,nan,,nan,BaseAnnotation
- svs,nan,,nan,BaseAnnotation
- Synapse Table,nan,,nan,BaseAnnotation
- tab,nan,,nan,BaseAnnotation
- tagAlign,nan,,nan,BaseAnnotation
- tar,nan,,nan,BaseAnnotation
- tbi,nan,,nan,BaseAnnotation
- tif,nan,,nan,BaseAnnotation
- tranches,nan,,nan,BaseAnnotation
- tsv,nan,,nan,BaseAnnotation
- txt,nan,,nan,BaseAnnotation
- vcf,nan,,nan,BaseAnnotation
- wiggle,nan,,nan,BaseAnnotation
- xml,nan,,nan,BaseAnnotation
- yaml,nan,,nan,BaseAnnotation
- zip,nan,,nan,BaseAnnotation
+ab1,nan,,nan,BaseAnnotation
+abf,nan,,nan,BaseAnnotation
+avi,nan,,nan,BaseAnnotation
+bai,nan,,nan,BaseAnnotation
+bam,nan,,nan,BaseAnnotation
+bash script,nan,,nan,BaseAnnotation
+bcf,nan,,nan,BaseAnnotation
+bed,nan,,nan,BaseAnnotation
+bed broadPeak,nan,,nan,BaseAnnotation
+bed gappedPeak,nan,,nan,BaseAnnotation
+bed narrowPeak,nan,,nan,BaseAnnotation
+bedgraph,nan,,nan,BaseAnnotation
+bgzip,nan,,nan,BaseAnnotation
+bigwig,nan,,nan,BaseAnnotation
+bim,nan,,nan,BaseAnnotation
+bpm,nan,,nan,BaseAnnotation
+bsc,nan,,nan,BaseAnnotation
+cel,nan,,nan,BaseAnnotation
+chp,nan,,nan,BaseAnnotation
+cram,nan,,nan,BaseAnnotation
+csv,nan,,nan,BaseAnnotation
+czi,nan,,nan,BaseAnnotation
+dat,nan,,nan,BaseAnnotation
+DICOM,nan,,nan,BaseAnnotation
+doc,nan,,nan,BaseAnnotation
+dup,nan,,nan,BaseAnnotation
+excel,nan,,nan,BaseAnnotation
+fam,nan,,nan,BaseAnnotation
+fasta,nan,,nan,BaseAnnotation
+fastq,nan,,nan,BaseAnnotation
+fig,nan,,nan,BaseAnnotation
+flagstat,nan,,nan,BaseAnnotation
+gct,nan,,nan,BaseAnnotation
+gff3,nan,,nan,BaseAnnotation
+gtf,nan,,nan,BaseAnnotation
+gzip,nan,,nan,BaseAnnotation
+hdf,nan,,nan,BaseAnnotation
+hic,nan,,nan,BaseAnnotation
+html,nan,,nan,BaseAnnotation
+hyperlink,nan,,nan,BaseAnnotation
+idat,nan,,nan,BaseAnnotation
+idx,nan,,nan,BaseAnnotation
+jpg,nan,,nan,BaseAnnotation
+json,nan,,nan,BaseAnnotation
+locs,nan,,nan,BaseAnnotation
+maf,nan,,nan,BaseAnnotation
+mat,nan,,nan,BaseAnnotation
+md,nan,,nan,BaseAnnotation
+mov,nan,,nan,BaseAnnotation
+mp4,nan,,nan,BaseAnnotation
+msf,nan,,nan,BaseAnnotation
+mtx,nan,,nan,BaseAnnotation
+nirs,nan,,nan,BaseAnnotation
+pdf,nan,,nan,BaseAnnotation
+pdresult,nan,,nan,BaseAnnotation
+pdstudy,nan,,nan,BaseAnnotation
+pdview,nan,,nan,BaseAnnotation
+plink,nan,,nan,BaseAnnotation
+png,nan,,nan,BaseAnnotation
+powerpoint,nan,,nan,BaseAnnotation
+Python script,nan,,nan,BaseAnnotation
+pzfx,nan,,nan,BaseAnnotation
+R script,nan,,nan,BaseAnnotation
+raw,nan,,nan,BaseAnnotation
+RCC,nan,,nan,BaseAnnotation
+RLF,nan,,nan,BaseAnnotation
+RData,nan,,nan,BaseAnnotation
+recal,nan,,nan,BaseAnnotation
+rmd,nan,,nan,BaseAnnotation
+saf,nan,,nan,BaseAnnotation
+sam,nan,,nan,BaseAnnotation
+sav,nan,,nan,BaseAnnotation
+sdf,nan,,nan,BaseAnnotation
+seg,nan,,nan,BaseAnnotation
+Sentrix descriptor file,nan,,nan,BaseAnnotation
+sf3,nan,,nan,BaseAnnotation
+sif,nan,,nan,BaseAnnotation
+sqlite,nan,,nan,BaseAnnotation
+sra,nan,,nan,BaseAnnotation
+svg,nan,,nan,BaseAnnotation
+svs,nan,,nan,BaseAnnotation
+Synapse Table,nan,,nan,BaseAnnotation
+tab,nan,,nan,BaseAnnotation
+tagAlign,nan,,nan,BaseAnnotation
+tar,nan,,nan,BaseAnnotation
+tbi,nan,,nan,BaseAnnotation
+tif,nan,,nan,BaseAnnotation
+tranches,nan,,nan,BaseAnnotation
+tsv,nan,,nan,BaseAnnotation
+txt,nan,,nan,BaseAnnotation
+vcf,nan,,nan,BaseAnnotation
+wiggle,nan,,nan,BaseAnnotation
+xml,nan,,nan,BaseAnnotation
+yaml,nan,,nan,BaseAnnotation
+zip,nan,,nan,BaseAnnotation

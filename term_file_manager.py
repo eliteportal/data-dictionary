@@ -2,13 +2,18 @@
 Name: term_file_manager.py
 definition: a script to generate/update term csv 
 parameters: term (str): the term name (optional)
-Contributors: Dan Lu
+Contributors: Dan Lu, Nicholas Lee
+
+Notes: 
+- CSV names cannot have spaces
 """
 # load modules
 import argparse
 import os
-import pdb
+
+# import pdb
 from functools import partial
+import re
 
 import pandas as pd
 
@@ -55,16 +60,16 @@ def get_template_keys(data_model, template):
     return depends_on
 
 
-def generate_csv(data_model, term):
-    if "Template" in data_model.query("Attribute == @term")["Parent"]:
+def create_term_df(data_model, term):
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
 
         # filter out attributes from data model table
         df = data_model.loc[data_model["Attribute"].isin(depends_on),]
 
-        # filter out valid values from data model table. DM uses Parent to distinguish types of attributes
-        df = df.loc[df["Parent"] != "validValue",]
+        # # filter out valid values from data model table. DM uses Parent to distinguish types of attributes
+        # df = df.loc[df["Parent"] != "validValue",]
 
         df = df[
             [
@@ -83,9 +88,13 @@ def generate_csv(data_model, term):
             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
         )
     else:
-        df = data_model.loc[data_model["Attribute"] == term,][
-            ["Attribute", "Valid Values", "DependsOn", "Type", "Module"]
-        ]
+        prohibit = ["validValue", "BaseAnnotation", "Other"]
+
+        df = data_model.loc[~data_model["Parent"].isin(prohibit),]
+
+        df = df.loc[
+            (df["Attribute"] == term) & (data_model["Parent"] != "validValue"),
+        ][["Attribute", "Valid Values", "DependsOn", "Type", "Module"]]
 
         # generate csv for term
         df = (
@@ -100,13 +109,37 @@ def generate_csv(data_model, term):
         df = df.assign(**dict([(_, None) for _ in ["Key Description", "Source"]]))
         df = df[["Key", "Key Description", "Type", "Source", "Module"]]
 
+    return df
+
+
+def generate_csv(data_model, term):
+    """_summary_
+
+    Args:
+        data_model (_type_): _description_
+        term (_type_): _description_
+    """
+
+    df = create_term_df(data_model, term)
+
+    term_csv_name = re.sub("\s|/", "_", term)
+
+    print(term_csv_name)
     # write out data frame
-    df.to_csv(os.path.join("./_data", term.replace("/", "_") + ".csv"), index=False)
-    print("\033[92m {} \033[00m".format(f"Added {term}.csv"))
+    df.to_csv(os.path.join("./_data", re.sub("\s|/", "_", term) + ".csv"), index=False)
+    print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))
 
 
 def update_csv(data_model, term):
-    if "Template" in term:
+    """_summary_
+
+    Args:
+        data_model (_type_): _description_
+        term (_type_): _description_
+    """
+    term_csv_name = re.sub("\s|/", "_", term)
+
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         depends_on = get_template_keys(data_model, term)
         new = data_model.loc[data_model["Attribute"].isin(depends_on),]
         new = new[
@@ -124,8 +157,11 @@ def update_csv(data_model, term):
         new.rename(
             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
         )
+
+        new["Key"] = new["Key"].str.strip()
+
         # update template file
-        new.to_csv(f"./_data/{term}.csv", index=False)
+        new.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
         print("\033[92m {} \033[00m".format(f"Updated {term}.csv"))
     else:
         # convert dataframe to long format
@@ -141,8 +177,10 @@ def update_csv(data_model, term):
         # add columns
         new.rename(columns={"Valid Values": "Key"}, inplace=True)
 
+        new["Key"] = new["Key"].str.strip()
+
         # load existing csv
-        old = pd.read_csv(f"./_data/{term}.csv")
+        old = pd.read_csv(f"./_data/{term_csv_name}.csv")
         # upload existing csv if Key, Type or Module column is changed
         if not (
             new["Key"].equals(old["Key"])
@@ -155,8 +193,11 @@ def update_csv(data_model, term):
             updated["Type"] = new["Type"]
             updated["Module"] = new["Module"]
             updated = updated[["Key", "Key Description", "Type", "Source", "Module"]]
-            updated.to_csv(f"./_data/{term}.csv", index=False)
-            print("\033[92m {} \033[00m".format(f"Updated {term}.csv"))
+            updated.to_csv(
+                os.path.join("./_data", term_csv_name + ".csv"),
+                index=False,
+            )
+            print("\033[92m {} \033[00m".format(f"Updated {term_csv_name}.csv"))
 
 
 def manage_term_files(term=None):
@@ -168,6 +209,10 @@ def manage_term_files(term=None):
 
     # load data model
     data_model = pd.read_csv(config["data_model"])
+
+    data_model["Attribute"] = data_model["Attribute"].str.replace(
+        "\\s|/", "_", regex=True
+    )
 
     # get the list of existing term csvs
     files = [

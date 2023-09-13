@@ -1,61 +1,61 @@
 Key,Key Description,Type,Source,Module
 3xTg-AD,nan,,nan,BaseAnnotation
- 5XFAD,nan,,nan,BaseAnnotation
- AB42,nan,,nan,BaseAnnotation
- Abca7A1527GAPOE4Trem2R47H,nan,,nan,BaseAnnotation
- Abca7KO,nan,,nan,BaseAnnotation
- Abca7V1599M_rs117187003,nan,,nan,BaseAnnotation
- Abi3S209F_Aduci,nan,,nan,BaseAnnotation
- APOE2KI,nan,,nan,BaseAnnotation
- APOE3KI,nan,,nan,BaseAnnotation
- APOE4KI,nan,,nan,BaseAnnotation
- APOE4Trem2R47H,nan,,nan,BaseAnnotation
- ApoEKO,nan,,nan,BaseAnnotation
- APPE693Q,nan,,nan,BaseAnnotation
- AppKOAPOE4Trem2R47H,nan,,nan,BaseAnnotation
- APPKM650,nan,,nan,BaseAnnotation
- APPKM670,nan,,nan,BaseAnnotation
- APPKM670-671NL-PSEN1deltaexon9,nan,,nan,BaseAnnotation
- APPPS1,nan,,nan,BaseAnnotation
- APPS1_Plexin-B1-KO,nan,,nan,BaseAnnotation
- B6.Clu,nan,,nan,BaseAnnotation
- B6.Gfap-APOE4,nan,,nan,BaseAnnotation
- Bin1.B6,nan,,nan,BaseAnnotation
- Bin1K358R_Aduci,nan,,nan,BaseAnnotation
- BRI2-AB42,nan,,nan,BaseAnnotation
- Cd2ap.B6,nan,,nan,BaseAnnotation
- Ceacam1KO,nan,,nan,BaseAnnotation
- Clasp2L163PSNP,nan,,nan,BaseAnnotation
- CRND8,nan,,nan,BaseAnnotation
- C57BL6J,nan,,nan,BaseAnnotation
- hAbetaKI,nan,,nan,BaseAnnotation
- hAPPAPOE4Trem2R47H,nan,,nan,BaseAnnotation
- hCR1KIAPOE4Trem2,nan,,nan,BaseAnnotation
- hTau,nan,,nan,BaseAnnotation
- hTauTrem2,nan,,nan,BaseAnnotation
- Il1rapKO,nan,,nan,BaseAnnotation
- Kif21bT82TSNP,nan,,nan,BaseAnnotation
- MAPT-P301K,nan,,nan,BaseAnnotation
- Meox2KOHET,nan,,nan,BaseAnnotation
- MthfrC677TSNP,nan,,nan,BaseAnnotation
- Mtmr4V297GSNP,nan,,nan,BaseAnnotation
- PicalmH458R,nan,,nan,BaseAnnotation
- Plcg2KO,nan,,nan,BaseAnnotation
- Plcg2M28LSNP,nan,,nan,BaseAnnotation
- Plexin-B1-KO,nan,,nan,BaseAnnotation
- rTg4510,nan,,nan,BaseAnnotation
- Snx1D465NSNP,nan,,nan,BaseAnnotation
- Sorl1A528TSNP,nan,,nan,BaseAnnotation
- Spi1rs1377416,nan,,nan,BaseAnnotation
- TAUPS19,nan,,nan,BaseAnnotation
- TAUPS19_Plexin-B1-KO,nan,,nan,BaseAnnotation
- TREM2,nan,,nan,BaseAnnotation
- Trem2flox,nan,,nan,BaseAnnotation
- Trem2KO,nan,,nan,BaseAnnotation
- Trem2R47H,nan,,nan,BaseAnnotation
- Trem2R47H_NSS,nan,,nan,BaseAnnotation
- Trem2Y38C,nan,,nan,BaseAnnotation
- TYROBP,nan,,nan,BaseAnnotation
- TYROBP_KO.KO,nan,,nan,BaseAnnotation
- TYROBP_WT,nan,,nan,BaseAnnotation
- TYROBP_WT.KO,nan,,nan,BaseAnnotation
+5XFAD,nan,,nan,BaseAnnotation
+AB42,nan,,nan,BaseAnnotation
+Abca7A1527GAPOE4Trem2R47H,nan,,nan,BaseAnnotation
+Abca7KO,nan,,nan,BaseAnnotation
+Abca7V1599M_rs117187003,nan,,nan,BaseAnnotation
+Abi3S209F_Aduci,nan,,nan,BaseAnnotation
+APOE2KI,nan,,nan,BaseAnnotation
+APOE3KI,nan,,nan,BaseAnnotation
+APOE4KI,nan,,nan,BaseAnnotation
+APOE4Trem2R47H,nan,,nan,BaseAnnotation
+ApoEKO,nan,,nan,BaseAnnotation
+APPE693Q,nan,,nan,BaseAnnotation
+AppKOAPOE4Trem2R47H,nan,,nan,BaseAnnotation
+APPKM650,nan,,nan,BaseAnnotation
+APPKM670,nan,,nan,BaseAnnotation
+APPKM670-671NL-PSEN1deltaexon9,nan,,nan,BaseAnnotation
+APPPS1,nan,,nan,BaseAnnotation
+APPS1_Plexin-B1-KO,nan,,nan,BaseAnnotation
+B6.Clu,nan,,nan,BaseAnnotation
+B6.Gfap-APOE4,nan,,nan,BaseAnnotation
+Bin1.B6,nan,,nan,BaseAnnotation
+Bin1K358R_Aduci,nan,,nan,BaseAnnotation
+BRI2-AB42,nan,,nan,BaseAnnotation
+Cd2ap.B6,nan,,nan,BaseAnnotation
+Ceacam1KO,nan,,nan,BaseAnnotation
+Clasp2L163PSNP,nan,,nan,BaseAnnotation
+CRND8,nan,,nan,BaseAnnotation
+C57BL6J,nan,,nan,BaseAnnotation
+hAbetaKI,nan,,nan,BaseAnnotation
+hAPPAPOE4Trem2R47H,nan,,nan,BaseAnnotation
+hCR1KIAPOE4Trem2,nan,,nan,BaseAnnotation
+hTau,nan,,nan,BaseAnnotation
+hTauTrem2,nan,,nan,BaseAnnotation
+Il1rapKO,nan,,nan,BaseAnnotation
+Kif21bT82TSNP,nan,,nan,BaseAnnotation
+MAPT-P301K,nan,,nan,BaseAnnotation
+Meox2KOHET,nan,,nan,BaseAnnotation
+MthfrC677TSNP,nan,,nan,BaseAnnotation
+Mtmr4V297GSNP,nan,,nan,BaseAnnotation
+PicalmH458R,nan,,nan,BaseAnnotation
+Plcg2KO,nan,,nan,BaseAnnotation
+Plcg2M28LSNP,nan,,nan,BaseAnnotation
+Plexin-B1-KO,nan,,nan,BaseAnnotation
+rTg4510,nan,,nan,BaseAnnotation
+Snx1D465NSNP,nan,,nan,BaseAnnotation
+Sorl1A528TSNP,nan,,nan,BaseAnnotation
+Spi1rs1377416,nan,,nan,BaseAnnotation
+TAUPS19,nan,,nan,BaseAnnotation
+TAUPS19_Plexin-B1-KO,nan,,nan,BaseAnnotation
+TREM2,nan,,nan,BaseAnnotation
+Trem2flox,nan,,nan,BaseAnnotation
+Trem2KO,nan,,nan,BaseAnnotation
+Trem2R47H,nan,,nan,BaseAnnotation
+Trem2R47H_NSS,nan,,nan,BaseAnnotation
+Trem2Y38C,nan,,nan,BaseAnnotation
+TYROBP,nan,,nan,BaseAnnotation
+TYROBP_KO.KO,nan,,nan,BaseAnnotation
+TYROBP_WT,nan,,nan,BaseAnnotation
+TYROBP_WT.KO,nan,,nan,BaseAnnotation

@@ -1,7 +1,7 @@
 """
 Name: term_page_manager.py
 definition: a script to generate and delete annotation term page
-Contributors: Dan Lu
+Contributors: Dan Lu, Nicholas Lee
 """
 # load modules
 import argparse
@@ -50,8 +50,10 @@ def generate_page(data_model, term):
 
     :returns: a term Markdown page generated under the docs/<module_name> folder
     """
+    term_attr = re.sub("_", " ", term)
+
     # get term information
-    results = get_term_info(data_model, term)
+    results = get_term_info(data_model, term_attr)
 
     # add paragraph for term definition and source
     try:
@@ -60,22 +62,23 @@ def generate_page(data_model, term):
     except IndexError:
         results[0]["Source"] = ""
 
-    if "Template" in term:
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         # load template
         post = frontmatter.load("template_page_template.md")
-        post.metadata["title"] = re.sub("([A-Z]+)", r" \1", term).title()
+        post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).title()
         post.metadata["permalink"] = f'docs/{post.metadata["title"]}.html'
     else:
         # load template
         post = frontmatter.load("term_page_template.md")
         post.metadata["title"] = term
+
     post.metadata["parent"] = results[0]["Module"]
 
     # load input data and term/template description
-    if "Template" in term:
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         post.content = (
             "{% assign mydata=site.data."
-            + f"{term}"
+            + term
             + " %} \n{: .note-title } \n"
             + f">{post.metadata['title']}\n"
             + ">\n"
@@ -85,9 +88,9 @@ def generate_page(data_model, term):
     else:
         post.content = (
             "{% assign mydata=site.data."
-            + f"{term}"
+            + term
             + " %} \n{: .note-title } \n"
-            + f">{term}\n"
+            + f">{term_attr}\n"
             + ">\n"
             + f">{results[0]['Description']} [[Source]]({results[0]['Source']})\n"
             + post.content
@@ -96,11 +99,13 @@ def generate_page(data_model, term):
     # create directory for the moduel if not exist
     if not os.path.exists(f"docs/{results[0]['Module']}/"):
         os.mkdir(f"docs/{results[0]['Module']}/")
+
         # create a module page
         module = fileutils.MarkDownFile(
             f"docs/{results[0]['Module']}/{results[0]['Module']}"
         )
-        if "Template" in term:
+
+        if "Template" in data_model.query("Attribute == @term")["Module"].values:
             # add permalink for template page
             module.append_end(
                 f"--- \nlayout: page \ntitle: {results[0]['Module']} \nhas_children: true \nnav_order: 5 \npermalink: docs/{results[0]['Module']}.html \n---"
@@ -145,7 +150,7 @@ def main():
     generate_page_temp = partial(generate_page, data_model)
 
     list(map(generate_page_temp, to_add))
-    
+
     # delete pages for terms without the term files and exclude module and template pages (since template page might be named differently from the template files)
     to_delete = [
         x
@@ -153,7 +158,7 @@ def main():
         if x not in data_model["Module"].dropna().unique().tolist()
         and "Template" not in x
     ]
-    
+
     list(map(delete_page, to_delete))
 
 

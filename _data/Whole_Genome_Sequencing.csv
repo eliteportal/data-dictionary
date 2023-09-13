@@ -8,10 +8,14 @@ specifyPlatformVersion,Value is determined by the data contributor,String,,,Fals
 platformLocation,"The name of the laboratory, facility, vendor, company, or location where the data generation platform was located, provided by the data contributor",,"OtherPlatformLocation,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyPlatformLocation,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 referenceTranscriptID,The ID for the transcript/gene. Either the NCBI ID or the Ensembl ID must be provided,,"Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
+libraryBatchID,"Library batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,,,True,Sage Bionetworks,Omics
+libraryPrep,The general strategy by which the library was prepared,,"amplicon,cellHashing,Chromium Single Cell 3',DNALibraryConstruction,EndItDNAEndRepairKit,KapaHyperPrep,lncRNAenrichment,methylSeq,miRNAenrichment,multiome,MULTIseq,PCRfree,polyAselection,proximity ligation,rRNAdepletion,SPLITseq,STARRSeq,SureCell,totalRNA,OtherLibraryPrep,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
+specifyLibraryPrep,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 libraryPreparationMethod,Method by which library was prepared,,"10x,Accel-NGS 2S Plus,Accel-NGS Methyl-Seq,CEL-seq,Drop-Seq,NEBNext,NexteraXT,Omni-ATAC,sac-seq,Smart-seq1,Smart-seq2,Smart-seq4,SMRTbell,TruSeq,Ultralow Methyl-Seq,OtherLibraryPreparationMethod,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyLibraryPreparationMethod,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 libraryVersion,"Library Version: for example, rnaSeq 10x library version",,"OtherLibraryVersion,Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 specifyLibraryVersion,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
+sequencingBatchID,"Sequencing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 isStranded,Whether or not the library is stranded.,str,"TRUE,FALSE",,True,Sage Bionetworks,Omics
 readStrandOrigin,The strand from which the read originates in a strand-specific protocol,,"forward,reverse",,True,Sage Bionetworks,Omics
 readLength,The length of the read,,,,True,Sage Bionetworks,Omics
@@ -25,4 +29,6 @@ transcriptType,The type of transcript reported,,"lincRNA,mRNA,snRNA,OtherTranscr
 specifyTranscriptType,Value is determined by the data contributor,String,,,False,Sage Bionetworks,Other
 resultUnit,The unit for the result value,,"FPKM,RPKM,TPM,Not Specified",,True,Sage Bionetworks,
 valueReported,The count or gene count for the transcript,,,,True,Sage Bionetworks,
+rnaBatchID,"RNA isolation batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"Unknown,Not collected,Not applicable,Not Specified",,True,Sage Bionetworks,Omics
 diagnosis,Indicate the disease or condition.,,,,False,"LLFS data dictionary,LLFS data dictionary,LLFS data dictionary",Metadata
+libraryPrep,The general strategy by which the library was prepared,,"amplicon, cellHashing, Chromium Single Cell 3', DNALibraryConstruction, EndItDNAEndRepairKit, KapaHyperPrep, lncRNAenrichment, methylSeq, miRNAenrichment, multiome, MULTIseq, PCRfree, polyAselection, proximity ligation, rRNAdepletion, snIsoSeq, SPLITseq, STARRSeq, SureCell, totalRNA",,True,sage.annotations-ngs.libraryPrep-0.0.13,BaseAnnotation

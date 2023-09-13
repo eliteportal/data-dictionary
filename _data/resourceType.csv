@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Module
 analysis,nan,,nan,BaseAnnotation
- curatedData,nan,,nan,BaseAnnotation
- experimentalData,nan,,nan,BaseAnnotation
- metadata,nan,,nan,BaseAnnotation
- report,nan,,nan,BaseAnnotation
- tool,nan,,nan,BaseAnnotation
+curatedData,nan,,nan,BaseAnnotation
+experimentalData,nan,,nan,BaseAnnotation
+metadata,nan,,nan,BaseAnnotation
+report,nan,,nan,BaseAnnotation
+tool,nan,,nan,BaseAnnotation

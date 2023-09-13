@@ -1,49 +1,49 @@
 Key,Key Description,Type,Source,Module
 ANOVA,nan,,nan,BaseAnnotation
- assessment,nan,,nan,BaseAnnotation
- batch effect correction,nan,,nan,BaseAnnotation
- chromatin accessible quantitative trait loci detection,nan,,nan,BaseAnnotation
- Clustering,nan,,nan,BaseAnnotation
- comparison,nan,,nan,BaseAnnotation
- Copy number estimation,nan,,nan,BaseAnnotation
- correlation,nan,,nan,BaseAnnotation
- covariate specification,nan,,nan,BaseAnnotation
- data mining,nan,,nan,BaseAnnotation
- data normalization,nan,,nan,BaseAnnotation
- de-novo assembly,nan,,nan,BaseAnnotation
- differential expression,nan,,nan,BaseAnnotation
- differential methylation,nan,,nan,BaseAnnotation
- differential network analysis,nan,,nan,BaseAnnotation
- DNA methylation imputation,nan,,nan,BaseAnnotation
- dose response study,nan,,nan,BaseAnnotation
- Enrichment analysis,nan,,nan,BaseAnnotation
- EWAS,nan,,nan,BaseAnnotation
- expression quantitative trait loci detection,nan,,nan,BaseAnnotation
- Gene expression comparison,nan,,nan,BaseAnnotation
- Genome-Wide Association,nan,,nan,BaseAnnotation
- genome-wide pleiotropy,nan,,nan,BaseAnnotation
- genotypeAncestry,nan,,nan,BaseAnnotation
- genotype imputation,nan,,nan,BaseAnnotation
- hidden confounder detection,nan,,nan,BaseAnnotation
- manifold learning,nan,,nan,BaseAnnotation
- Mendelian randomization analysis,nan,,nan,BaseAnnotation
- methylation quantitative trait loci detection,nan,,nan,BaseAnnotation
- network analysis,nan,,nan,BaseAnnotation
- network driver detection,nan,,nan,BaseAnnotation
- outlier detection,nan,,nan,BaseAnnotation
- peak calling,nan,,nan,BaseAnnotation
- Polygenic Risk Scores,nan,,nan,BaseAnnotation
- principal component analysis,nan,,nan,BaseAnnotation
- protein quantitative trait loci detection,nan,,nan,BaseAnnotation
- purity,nan,,nan,BaseAnnotation
- quality control,nan,,nan,BaseAnnotation
- search engine output files,nan,,nan,BaseAnnotation
- Sequence alignment,nan,,nan,BaseAnnotation
- somatic mutation calling,nan,,nan,BaseAnnotation
- statistical network reconstruction,nan,,nan,BaseAnnotation
- structural variation detection,nan,,nan,BaseAnnotation
- Supervised Machine Learning,nan,,nan,BaseAnnotation
- transcript quantification,nan,,nan,BaseAnnotation
- variancePartition,nan,,nan,BaseAnnotation
- Variant calling,nan,,nan,BaseAnnotation
- visualization,nan,,nan,BaseAnnotation
+assessment,nan,,nan,BaseAnnotation
+batch effect correction,nan,,nan,BaseAnnotation
+chromatin accessible quantitative trait loci detection,nan,,nan,BaseAnnotation
+Clustering,nan,,nan,BaseAnnotation
+comparison,nan,,nan,BaseAnnotation
+Copy number estimation,nan,,nan,BaseAnnotation
+correlation,nan,,nan,BaseAnnotation
+covariate specification,nan,,nan,BaseAnnotation
+data mining,nan,,nan,BaseAnnotation
+data normalization,nan,,nan,BaseAnnotation
+de-novo assembly,nan,,nan,BaseAnnotation
+differential expression,nan,,nan,BaseAnnotation
+differential methylation,nan,,nan,BaseAnnotation
+differential network analysis,nan,,nan,BaseAnnotation
+DNA methylation imputation,nan,,nan,BaseAnnotation
+dose response study,nan,,nan,BaseAnnotation
+Enrichment analysis,nan,,nan,BaseAnnotation
+EWAS,nan,,nan,BaseAnnotation
+expression quantitative trait loci detection,nan,,nan,BaseAnnotation
+Gene expression comparison,nan,,nan,BaseAnnotation
+Genome-Wide Association,nan,,nan,BaseAnnotation
+genome-wide pleiotropy,nan,,nan,BaseAnnotation
+genotypeAncestry,nan,,nan,BaseAnnotation
+genotype imputation,nan,,nan,BaseAnnotation
+hidden confounder detection,nan,,nan,BaseAnnotation
+manifold learning,nan,,nan,BaseAnnotation
+Mendelian randomization analysis,nan,,nan,BaseAnnotation
+methylation quantitative trait loci detection,nan,,nan,BaseAnnotation
+network analysis,nan,,nan,BaseAnnotation
+network driver detection,nan,,nan,BaseAnnotation
+outlier detection,nan,,nan,BaseAnnotation
+peak calling,nan,,nan,BaseAnnotation
+Polygenic Risk Scores,nan,,nan,BaseAnnotation
+principal component analysis,nan,,nan,BaseAnnotation
+protein quantitative trait loci detection,nan,,nan,BaseAnnotation
+purity,nan,,nan,BaseAnnotation
+quality control,nan,,nan,BaseAnnotation
+search engine output files,nan,,nan,BaseAnnotation
+Sequence alignment,nan,,nan,BaseAnnotation
+somatic mutation calling,nan,,nan,BaseAnnotation
+statistical network reconstruction,nan,,nan,BaseAnnotation
+structural variation detection,nan,,nan,BaseAnnotation
+Supervised Machine Learning,nan,,nan,BaseAnnotation
+transcript quantification,nan,,nan,BaseAnnotation
+variancePartition,nan,,nan,BaseAnnotation
+Variant calling,nan,,nan,BaseAnnotation
+visualization,nan,,nan,BaseAnnotation

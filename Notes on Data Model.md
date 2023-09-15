@@ -1,4 +1,4 @@
-# Terms
+# Data Module Columns
 
 ## Modules
 
@@ -11,7 +11,8 @@
 - Metadata
 - BaseAnnotation
 - Ontology
--
+- Analysis
+- Experimental Data
 
 ## Properties
 
@@ -28,3 +29,17 @@ Values:
 - dataType
 - dataProperty
 - validValue
+
+# Website Tabs
+
+- Home
+  - Description
+  - Recent Changes
+- Metadata Templates
+- Analysis
+- Experimental Data
+- Metadata
+- BaseAnnotation
+- Ontology
+- All
+  - Table with all values

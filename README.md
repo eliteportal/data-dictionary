@@ -10,7 +10,7 @@ This is the repository hosting [ELITE data model](https://github.com/Sage-Bionet
 
 # Create CSVs to Organize Website
 
-Run `create_CSVs.py`. It will create a CSV for each unique module found in the data model.
+Run `create_CSVs.py`. It will create a CSV for each unique Module found in the data model.
 
 # Updata Data Model and Metadata Dictionary
 
@@ -69,3 +69,6 @@ In addition to setting up the GitHub Actions workflow (i.e pages.yml), you need 
 # To Do
 
 - [ ] Update data model attributes with descriptions, types and source
+- [ ] Handling when there is no module
+- [ ] Only pages to generate are ones with key values, empty tables should not be shown
+- [ ] Add full table page

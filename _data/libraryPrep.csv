@@ -23,23 +23,3 @@ Unknown,nan,,nan,Omics
 Not collected,nan,,nan,Omics
 Not applicable,nan,,nan,Omics
 Not Specified,nan,,nan,Omics
-amplicon,nan,,nan,BaseAnnotation
-cellHashing,nan,,nan,BaseAnnotation
-Chromium Single Cell 3',nan,,nan,BaseAnnotation
-DNALibraryConstruction,nan,,nan,BaseAnnotation
-EndItDNAEndRepairKit,nan,,nan,BaseAnnotation
-KapaHyperPrep,nan,,nan,BaseAnnotation
-lncRNAenrichment,nan,,nan,BaseAnnotation
-methylSeq,nan,,nan,BaseAnnotation
-miRNAenrichment,nan,,nan,BaseAnnotation
-multiome,nan,,nan,BaseAnnotation
-MULTIseq,nan,,nan,BaseAnnotation
-PCRfree,nan,,nan,BaseAnnotation
-polyAselection,nan,,nan,BaseAnnotation
-proximity ligation,nan,,nan,BaseAnnotation
-rRNAdepletion,nan,,nan,BaseAnnotation
-snIsoSeq,nan,,nan,BaseAnnotation
-SPLITseq,nan,,nan,BaseAnnotation
-STARRSeq,nan,,nan,BaseAnnotation
-SureCell,nan,,nan,BaseAnnotation
-totalRNA,nan,,nan,BaseAnnotation

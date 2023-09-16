@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Module
-White,nan,,nan,Race
-Black or African American,nan,,nan,Race
-Asian,nan,,nan,Race
-American Indian or Alaska Native,nan,,nan,Race
-Native Hawaiian or Other Pacific Islander,nan,,nan,Race
-Multiracial,nan,,nan,Race
-Other race,nan,,nan,Race
-Prefer not to answer,nan,,nan,Race
-Unknown,nan,,nan,Race
-Not collected,nan,,nan,Race
-Not applicable,nan,,nan,Race
+White,,,,Metadata
+Black or African American,,,,Metadata
+Asian,,,,Metadata
+American Indian or Alaska Native,,,,Metadata
+Native Hawaiian or Other Pacific Islander,,,,Metadata
+Multiracial,,,,Metadata
+Other race,,,,Metadata
+Prefer not to answer,,,,Metadata
+Unknown,,,,Metadata
+Not collected,,,,Metadata
+Not applicable,,,,Metadata

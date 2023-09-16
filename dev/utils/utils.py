@@ -47,7 +47,7 @@ def load_and_backup_dm(file_path: str, output_path: str):
         object: Data frame object
     """
 
-    dm = pd.read_csv(file_path, index=False)
+    dm = pd.read_csv(file_path, index_col=False)
 
     # write out old data model before changes
     time_stamp = get_time()

@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Module
-Not Hispanic or latino,nan,,nan,Ethnicity
-Hispanic or latino,nan,,nan,Ethnicity
-Prefer not to answer,nan,,nan,Ethnicity
-Other,nan,,nan,Ethnicity
-Unknown,nan,,nan,Ethnicity
-Not collected,nan,,nan,Ethnicity
-Not applicable,nan,,nan,Ethnicity
+Not Hispanic or latino,,,,Metadata
+Hispanic or latino,,,,Metadata
+Prefer not to answer,,,,Metadata
+Other,,,,Metadata
+Unknown,,,,Metadata
+Not collected,,,,Metadata
+Not applicable,,,,Metadata

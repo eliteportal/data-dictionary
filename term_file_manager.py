@@ -124,7 +124,8 @@ def generate_csv(data_model, term):
 
     term_csv_name = re.sub("\s|/", "_", term)
 
-    print(term_csv_name)
+    # print(term_csv_name)
+
     # write out data frame
     df.to_csv(os.path.join("./_data", re.sub("\s|/", "_", term) + ".csv"), index=False)
     print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))

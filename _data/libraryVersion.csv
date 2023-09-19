@@ -1,6 +1,6 @@
 Key,Key Description,Type,Source,Module
-OtherLibraryVersion,nan,,nan,Omics
-Unknown,nan,,nan,Omics
-Not collected,nan,,nan,Omics
-Not applicable,nan,,nan,Omics
-Not Specified,nan,,nan,Omics
+OtherLibraryVersion,,,,Omics
+Unknown,,,,Omics
+Not collected,,,,Omics
+Not applicable,,,,Omics
+Not Specified,,,,Omics

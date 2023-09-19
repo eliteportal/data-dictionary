@@ -1,2 +1,0 @@
-curl -o EL.data.model.csv "https://raw.githubusercontent.com/Sage-Bionetworks/ELITE-data-models/main/models/EL_data_model_v3.csv"
-curl -o EL.data.model.json "https://raw.githubusercontent.com/Sage-Bionetworks/ELITE-data-models/main/models/EL_data_model_v3.jsonld"

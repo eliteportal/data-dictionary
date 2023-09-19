@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Module
-dataMatrix,nan,,nan,BaseAnnotation
-metadata,nan,,nan,BaseAnnotation
-normalized,nan,,nan,BaseAnnotation
-processed,nan,,nan,BaseAnnotation
-raw,nan,,nan,BaseAnnotation
-residualized,nan,,nan,BaseAnnotation
+dataMatrix,,,,BaseAnnotation
+ metadata,,,,BaseAnnotation
+ normalized,,,,BaseAnnotation
+ processed,,,,BaseAnnotation
+ raw,,,,BaseAnnotation
+ residualized,,,,BaseAnnotation

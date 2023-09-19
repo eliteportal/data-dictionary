@@ -1,9 +1,9 @@
 Key,Key Description,Type,Source,Module
-BU,nan,,nan,Metadata
-PT,nan,,nan,Metadata
-NY,nan,,nan,Metadata
-DK,nan,,nan,Metadata
-Other,nan,,nan,Metadata
-Unknown,nan,,nan,Metadata
-Not collected,nan,,nan,Metadata
-Not applicable,nan,,nan,Metadata
+BU,,,,Metadata
+PT,,,,Metadata
+NY,,,,Metadata
+DK,,,,Metadata
+Other,,,,Metadata
+Unknown,,,,Metadata
+Not collected,,,,Metadata
+Not applicable,,,,Metadata

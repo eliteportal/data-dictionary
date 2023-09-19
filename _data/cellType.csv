@@ -1,0 +1,1330 @@
+Key,Key Description,Type,Source,Module
+A2 amacrine cell,,,,Unspecified
+Astro L1 FGFR3 SERPINI2 primary motor cortex astrocyte (Hsap),,,,Unspecified
+Astro L1-6 FGFR3 AQP1 primary motor cortex astrocyte (Hsap),,,,Unspecified
+Astro L1-6 FGFR3 PLCG1 primary motor cortex astrocyte (Hsap),,,,Unspecified
+B cell,,,,Unspecified
+B cell zone reticular cell,,,,Unspecified
+B cell,,,,Unspecified
+ CD19-positive,,,,Unspecified
+Bergmann glial cell,,,,Unspecified
+CD14-low,,,,Unspecified
+ CD16-positive monocyte,,,,Unspecified
+CD14-positive monocyte,,,,Unspecified
+CD14-positive,,,,Unspecified
+ CD16-low monocyte,,,,Unspecified
+CD141-positive myeloid dendritic cell,,,,Unspecified
+CD16-negative,,,,Unspecified
+ CD56-bright natural killer cell,,,,Unspecified
+ human,,,,Unspecified
+CD1c-positive myeloid dendritic cell,,,,Unspecified
+CD4-negative,,,,Unspecified
+ CD8-negative,,,,Unspecified
+ alpha-beta intraepithelial T cell,,,,Unspecified
+CD4-positive helper T cell,,,,Unspecified
+CD4-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+CD4-positive,,,,Unspecified
+ alpha-beta cytotoxic T cell,,,,Unspecified
+CD4-positive,,,,Unspecified
+ alpha-beta intraepithelial T cell,,,,Unspecified
+CD4-positive,,,,Unspecified
+ alpha-beta memory T cell,,,,Unspecified
+CD8-alpha alpha positive,,,,Unspecified
+ gamma-delta intraepithelial T cell,,,,Unspecified
+CD8-alpha-alpha-positive,,,,Unspecified
+ alpha-beta intraepithelial T cell,,,,Unspecified
+CD8-alpha-beta-positive,,,,Unspecified
+ alpha-beta intraepithelial T cell,,,,Unspecified
+CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+CD8-positive,,,,Unspecified
+ alpha-beta cytotoxic T cell,,,,Unspecified
+CD8-positive,,,,Unspecified
+ alpha-beta memory T cell,,,,Unspecified
+CD8-positive,,,,Unspecified
+ alpha-beta memory T cell,,,,Unspecified
+ CD45RO-positive,,,,Unspecified
+CD8aa(I) thymocyte,,,,Unspecified
+CD8aa(II) thymocyte,,,,Unspecified
+CD8alpha-negative thymic conventional dendritic cell,,,,Unspecified
+CD8alpha-positive thymic conventional dendritic cell,,,,Unspecified
+CNS interneuron,,,,Unspecified
+Endo L2-5 NOSTRIN SRGN primary motor cortex endothelial cell (Hsap),,,,Unspecified
+Exc L2 LAMP5 KCNG3 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2 LINC00507 ATP7B primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2 LINC00507 GLRA3 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2-3 LINC00507 DSG3 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2-3 RORB CCDC68 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2-3 RORB PTPN3 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L2-3 RORB RTKN2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3 LAMP5 CARM1P1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3 RORB OTOGL primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3 THEMIS ENPEP primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 FEZF2 ASGR2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 FEZF2 LINC01107 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 RORB LAMA4 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 RORB LINC01202 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 RORB LNX2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 RORB RPRM primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L3-5 RORB TNNT2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 FEZF2 CSN1S1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 FEZF2 NREP-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 FEZF2 PKD2L1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 FEZF2 RNF144A-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 RORB MED8 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 THEMIS FGF10 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 THEMIS LINC01116 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 THEMIS RGPD6 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 THEMIS SLC22A18 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5 THEMIS VILL primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 C9orf135-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 CFTR primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 FILIP1L primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 IFNG-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 LPO primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 OR1L8 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 FEZF2 SH2D1B primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 THEMIS SMYD1 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L5-6 THEMIS TNFAIP6 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 FEZF2 FFAR4 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 FEZF2 KLK7 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 FEZF2 PDYN primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 FEZF2 POGK primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 FEZF2 PROKR2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 THEMIS LINC00343 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 THEMIS SLN primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+Exc L6 THEMIS SNTG2 primary motor cortex glutamatergic neuron (Hsap),,,,Unspecified
+GABAergic interneuron,,,,Unspecified
+Hofbauer cell,,,,Unspecified
+Inh L1 LAMP5 BMP2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 LAMP5 NMBR primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 LAMP5 PVRL2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 LAMP5 RAB11FIP1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 PAX6 CHRFAM7A primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 PAX6 MIR101-1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 PVALB-like SST ASIC4 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 SST DEFB108B primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 SST P4HA3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1 VIP KLHDC8B primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 PVALB CDK20 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 SST CCNJL primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 SST CLIC6 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 SST PRRT4 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 VIP EXPH5 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 VIP HTR3A primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 VIP PTGER3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 VIP SCML4 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-2 VIP WNT4 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-3 SST FAM20A primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-3 VIP CBLN1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-3 VIP CHRNA2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-3 VIP FNDC1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-3 VIP HSPB6 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-5 VIP CD27-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-5 VIP LINC01013 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-5 VIP PHLDB3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-5 VIP SMOC1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 LAMP5 AARD primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 LAMP5 CA1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 LAMP5 NES primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 PVALB COL15A1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 SST NPY primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L1-6 VIP SLC7A6OS primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2 PAX6 FREM2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2 PVALB FRZB primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2 VIP SLC6A16 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2-3 SST NMU primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2-5 PVALB HHIPL1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2-5 PVALB RPH3AL primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2-5 VIP BSPRY primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L2-5 VIP SOX11 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3 PVALB SAMD13 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 PVALB ISG20 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 SST CDH3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 SST GGTLC3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 SST OR5AH1P primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 VIP HS3ST3A1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 VIP IGDCC3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-5 VIP TAC3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-6 PAX6 LINC01497 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-6 VIP UG0898H09 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L3-6 VIP ZIM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5 PVALB LRIG3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5 SST RPL35AP11 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 LAMP5 CRABP1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB FAM150B primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB GAPDHP60 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB KCNIP2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB MEPE primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB SST CRHR2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 PVALB ZFPM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST BEAN1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST C4orf26 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST DNAJC14 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST FBN2 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST ISX primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST KLHL1 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST PAWR primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 SST PIK3CD primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L5-6 VIP COL4A3 primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Inh L6 SST TH primary motor cortex GABAergic interneuron (Hsap),,,,Unspecified
+Kupffer cell,,,,Unspecified
+Langerhans cell,,,,Unspecified
+M cell of gut,,,,Unspecified
+Merkel cell,,,,Unspecified
+Micro L1-6 TYROBP CD74 primary motor cortex microglial cell (Hsap),,,,Unspecified
+Mueller cell,,,,Unspecified
+Not applicable,,,,Unspecified
+Not collected,,,,Unspecified
+OFF-bipolar cell,,,,Unspecified
+ON-bipolar cell,,,,Unspecified
+ON-blue cone bipolar cell,,,,Unspecified
+OPC L1-6 PDGFRA COL20A1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,Unspecified
+Oligo L2-6 OPALIN FTH1P3 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,Unspecified
+Oligo L2-6 OPALIN MAP6D1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,Unspecified
+Oligo L3-6 OPALIN-like ENPP6 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,Unspecified
+Oligo L5-6 OPALIN LDLRAP1 primary motor cortex oligodendrocyte (Hsap),,,,Unspecified
+Other,,,,Unspecified
+Purkinje myocyte,,,,Unspecified
+Schwann cell,,,,Unspecified
+T cell,,,,Unspecified
+T cell zone reticular cell,,,,Unspecified
+T follicular helper cell,,,,Unspecified
+T follicular regulatory cell,,,,Unspecified
+T-helper 1 cell,,,,Unspecified
+T-helper 17 cell,,,,Unspecified
+T-helper 2 cell,,,,Unspecified
+Unknown,,,,Unspecified
+VLMC L1-5 PDGFRA COLEC12 primary motor cortex vascular leptomeningeal cell (Hsap),,,,Unspecified
+a8 bistratified small-field cell,,,,Unspecified
+absorptive cell,,,,Unspecified
+activated stellate cell,,,,Unspecified
+adult endothelial progenitor cell,,,,Unspecified
+adventitial stromal cell,,,,Unspecified
+afferent neuron,,,,Unspecified
+airway deuterosomal cell,,,,Unspecified
+airway submucosal gland ciliated duct cell,,,,Unspecified
+airway submucosal gland ciliated duct cells,,,,Unspecified
+airway submucosal gland collecting duct epithelial cell,,,,Unspecified
+airway submucosal gland duct basal cell,,,,Unspecified
+alpha-beta T cell,,,,Unspecified
+alpha-beta intraepithelial T cell,,,,Unspecified
+alveolar capillary type 1 endothelial cell,,,,Unspecified
+alveolar capillary type 2 endothelial cell,,,,Unspecified
+alveolar macrophage,,,,Unspecified
+alveolar macrophage ccl3+,,,,Unspecified
+alveolar macrophage mt-positive,,,,Unspecified
+alveolar macrophage proliferating,,,,Unspecified
+alveolar type 1 fibroblast cell,,,,Unspecified
+alveolar type 2 fibroblast cell,,,,Unspecified
+amacrine cell,,,,Unspecified
+amex_153,,,,Unspecified
+amex_154,,,,Unspecified
+amex_155,,,,Unspecified
+amex_156,,,,Unspecified
+amex_157,,,,Unspecified
+amex_158,,,,Unspecified
+amex_159,,,,Unspecified
+amex_160,,,,Unspecified
+amex_161,,,,Unspecified
+amex_162,,,,Unspecified
+amex_171,,,,Unspecified
+amex_172,,,,Unspecified
+amex_173,,,,Unspecified
+amex_174,,,,Unspecified
+amex_175,,,,Unspecified
+amex_405,,,,Unspecified
+amex_406,,,,Unspecified
+amex_407,,,,Unspecified
+amex_408,,,,Unspecified
+amex_419,,,,Unspecified
+amnion mesenchymal stromal cell (amsc),,,,Unspecified
+amygdala excitatory neuron,,,,Unspecified
+androgen secreting cell,,,,Unspecified
+animal cell,,,,Unspecified
+apocrine cell,,,,Unspecified
+articular chondrocyte,,,,Unspecified
+astro_52,,,,Unspecified
+astro_53,,,,Unspecified
+astro_54,,,,Unspecified
+astro_55,,,,Unspecified
+astro_56,,,,Unspecified
+astro_57,,,,Unspecified
+astro_58,,,,Unspecified
+astro_59,,,,Unspecified
+astro_60,,,,Unspecified
+astro_61,,,,Unspecified
+astro_62,,,,Unspecified
+astro_63,,,,Unspecified
+astro_64,,,,Unspecified
+astrocyte,,,,Unspecified
+astrocyte of the cerebral cortex,,,,Unspecified
+astrocyte of the forebrain,,,,Unspecified
+autonomic neuronal cells,,,,Unspecified
+b cell,,,,Unspecified
+basal cell,,,,Unspecified
+basal cell of bladder urothelium,,,,Unspecified
+basal cell of epithelium of lobular bronchiole,,,,Unspecified
+basal cell of epithelium of respiratory bronchiole,,,,Unspecified
+basal cell of epithelium of terminal bronchiole,,,,Unspecified
+basal cell of epithelium of trachea,,,,Unspecified
+basal cell of prostate epithelium,,,,Unspecified
+basal cell of prostatic urethra,,,,Unspecified
+basal cell of ureter urothelium,,,,Unspecified
+basal epithelial cell of tracheobronchial tree,,,,Unspecified
+basophil,,,,Unspecified
+bcell_0,,,,Unspecified
+bche (butyrylcholinesterase) cell,,,,Unspecified
+beige adipocyte,,,,Unspecified
+bgl_51,,,,Unspecified
+bladder cell,,,,Unspecified
+bladder microvascular endothelial cell,,,,Unspecified
+bladder urothelial cell,,,,Unspecified
+blood vessel endothelial cell,,,,Unspecified
+blood vessel smooth muscle cell,,,,Unspecified
+bone cell,,,,Unspecified
+bone lining cells,,,,Unspecified
+brain vascular cell,,,,Unspecified
+branched duct epithelial cell,,,,Unspecified
+bronchial smooth muscle cell,,,,Unspecified
+bronchiolar smooth muscle cell,,,,Unspecified
+brush cell,,,,Unspecified
+brush cell of bronchus,,,,Unspecified
+brush cell of epithelium of lobar bronchus,,,,Unspecified
+brush cell of trachea,,,,Unspecified
+ca13_119,,,,Unspecified
+ca13_163,,,,Unspecified
+ca13_169,,,,Unspecified
+ca13_179,,,,Unspecified
+ca13_180,,,,Unspecified
+ca13_181,,,,Unspecified
+ca13_182,,,,Unspecified
+ca13_183,,,,Unspecified
+ca13_184,,,,Unspecified
+ca13_185,,,,Unspecified
+ca13_186,,,,Unspecified
+ca13_187,,,,Unspecified
+ca13_188,,,,Unspecified
+ca13_189,,,,Unspecified
+ca4_190,,,,Unspecified
+ca4_191,,,,Unspecified
+ca4_192,,,,Unspecified
+ca4_193,,,,Unspecified
+ca4_194,,,,Unspecified
+ca4_195,,,,Unspecified
+ca4_196,,,,Unspecified
+ca4_197,,,,Unspecified
+ca4_198,,,,Unspecified
+camera-type eye photoreceptor cell,,,,Unspecified
+capillary endothelial cell,,,,Unspecified
+capsule mesenchymal stromal cell,,,,Unspecified
+cardiac atrium fibroblast,,,,Unspecified
+cardiac endothelial cell,,,,Unspecified
+cardiac muscle cell,,,,Unspecified
+cardiac pacemaker cell of sinoatrial node,,,,Unspecified
+cardiac ventricle fibroblast,,,,Unspecified
+catecholaminergic neuron,,,,Unspecified
+caudal ganglionic eminence derived interneuron,,,,Unspecified
+cbi_298,,,,Unspecified
+cbi_299,,,,Unspecified
+cbi_300,,,,Unspecified
+cbi_301,,,,Unspecified
+cbi_302,,,,Unspecified
+cbi_303,,,,Unspecified
+cbi_304,,,,Unspecified
+cbi_305,,,,Unspecified
+cbi_306,,,,Unspecified
+cbi_307,,,,Unspecified
+cd4+ t,,,,Unspecified
+cd4+ t cell resident memory,,,,Unspecified
+cd4+ t-cell,,,,Unspecified
+cd8 t cell effector memory,,,,Unspecified
+cd8 trm (residence memory),,,,Unspecified
+cd8+ t,,,,Unspecified
+cd8+ t cell resident memory,,,,Unspecified
+cd8+ t-cells,,,,Unspecified
+cell of skeletal muscle,,,,Unspecified
+cell type (from CL),,,,Unspecified
+cell type (from LMHA),,,,Unspecified
+centrilobular region hepatocyte,,,,Unspecified
+centroblast,,,,Unspecified
+centrocyte,,,,Unspecified
+cerebellar inhibitory GABAergic interneuron,,,,Unspecified
+cerebral cortex neuron,,,,Unspecified
+cge_276,,,,Unspecified
+cge_277,,,,Unspecified
+cge_278,,,,Unspecified
+cge_279,,,,Unspecified
+cge_280,,,,Unspecified
+cge_281,,,,Unspecified
+cge_282,,,,Unspecified
+cge_283,,,,Unspecified
+cge_284,,,,Unspecified
+cge_285,,,,Unspecified
+cge_286,,,,Unspecified
+cge_287,,,,Unspecified
+cge_288,,,,Unspecified
+cge_289,,,,Unspecified
+cge_290,,,,Unspecified
+cge_291,,,,Unspecified
+cge_292,,,,Unspecified
+cge_293,,,,Unspecified
+cge_294,,,,Unspecified
+cge_295,,,,Unspecified
+cge_296,,,,Unspecified
+chondrocyte,,,,Unspecified
+chorionic mesenchymal stromal cell (cmsc),,,,Unspecified
+choroid plexus cell,,,,Unspecified
+chrp_76,,,,Unspecified
+chrp_77,,,,Unspecified
+chrp_78,,,,Unspecified
+chrp_79,,,,Unspecified
+chrp_80,,,,Unspecified
+chrp_81,,,,Unspecified
+chrp_82,,,,Unspecified
+ciliated cell,,,,Unspecified
+ciliated cell of the bronchus,,,,Unspecified
+ciliated columnar cell of tracheobronchial tree,,,,Unspecified
+ciliated epithelial cell,,,,Unspecified
+class switched memory B cell,,,,Unspecified
+classical monocyte,,,,Unspecified
+club cell,,,,Unspecified
+club cell of prostatic urethra,,,,Unspecified
+columnar chondrocyte,,,,Unspecified
+columnar ovarian surface epithelial cell,,,,Unspecified
+columnar/cuboidal epithelial cell,,,,Unspecified
+committed double negative thymocyte (Homo sapiens),,,,Unspecified
+common lymphoid progenitor,,,,Unspecified
+common myeloid progenitor,,,,Unspecified
+connective tissue cell,,,,Unspecified
+connective tissue type mast cell,,,,Unspecified
+contractile cell,,,,Unspecified
+conventional dendritic cell,,,,Unspecified
+cop_37,,,,Unspecified
+cop_38,,,,Unspecified
+cop_39,,,,Unspecified
+cop_41,,,,Unspecified
+cop_42,,,,Unspecified
+cop_43,,,,Unspecified
+cop_75,,,,Unspecified
+corneal endothelial cell,,,,Unspecified
+corneal epithelial cell,,,,Unspecified
+corneocyte,,,,Unspecified
+corpus luteum endothelial cell,,,,Unspecified
+corpus luteum macrophage,,,,Unspecified
+cortical thymic epithelial cell,,,,Unspecified
+corticomedullary thymic epithelial cell,,,,Unspecified
+cumulus cell,,,,Unspecified
+cytotoxic T cell,,,,Unspecified
+cytotoxic memory t cell,,,,Unspecified
+dec205+ dc,,,,Unspecified
+deep superficial,,,,Unspecified
+dendritic cell,,,,Unspecified
+dendritic cell,,,,Unspecified
+ human,,,,Unspecified
+dentate gyrus neuron,,,,Unspecified
+dermal dendritic cell,,,,Unspecified
+detrusor smooth muscle cell of bladder,,,,Unspecified
+detrusor smooth muscle cell of ureter,,,,Unspecified
+dg_199,,,,Unspecified
+dg_200,,,,Unspecified
+dg_201,,,,Unspecified
+dg_202,,,,Unspecified
+dg_203,,,,Unspecified
+dg_204,,,,Unspecified
+dg_205,,,,Unspecified
+differentiation-committed oligodendrocyte precursor,,,,Unspecified
+diffuse bipolar 1 cell,,,,Unspecified
+diffuse bipolar 2 cell,,,,Unspecified
+diffuse bipolar 3a cell,,,,Unspecified
+diffuse bipolar 3b cell,,,,Unspecified
+diffuse bipolar 4 cell,,,,Unspecified
+diffuse bipolar 6 cell,,,,Unspecified
+dlct6b_100,,,,Unspecified
+dlct6b_101,,,,Unspecified
+dlct6b_102,,,,Unspecified
+dlct6b_103,,,,Unspecified
+dlct6b_104,,,,Unspecified
+dlct6b_105,,,,Unspecified
+dlct6b_106,,,,Unspecified
+dlct6b_107,,,,Unspecified
+dlct6b_108,,,,Unspecified
+dlct6b_109,,,,Unspecified
+dlct6b_110,,,,Unspecified
+dlct6b_111,,,,Unspecified
+dlct6b_112,,,,Unspecified
+dlct6b_84,,,,Unspecified
+dlct6b_97,,,,Unspecified
+dlct6b_98,,,,Unspecified
+dlct6b_99,,,,Unspecified
+dlit_136,,,,Unspecified
+dlit_137,,,,Unspecified
+dlit_139,,,,Unspecified
+dlit_140,,,,Unspecified
+dlit_141,,,,Unspecified
+dlit_142,,,,Unspecified
+dlit_143,,,,Unspecified
+dlit_144,,,,Unspecified
+dlit_145,,,,Unspecified
+dlit_146,,,,Unspecified
+dlit_147,,,,Unspecified
+dlit_148,,,,Unspecified
+dlit_149,,,,Unspecified
+dlit_150,,,,Unspecified
+dlit_151,,,,Unspecified
+dlit_152,,,,Unspecified
+dlnp_83,,,,Unspecified
+dlnp_85,,,,Unspecified
+dlnp_86,,,,Unspecified
+dlnp_87,,,,Unspecified
+dlnp_88,,,,Unspecified
+dlnp_89,,,,Unspecified
+dlnp_90,,,,Unspecified
+dlnp_91,,,,Unspecified
+dlnp_92,,,,Unspecified
+dlnp_93,,,,Unspecified
+dlnp_94,,,,Unspecified
+dlnp_95,,,,Unspecified
+dlnp_96,,,,Unspecified
+double negative thymocyte,,,,Unspecified
+double-positive,,,,Unspecified
+ alpha-beta thymocyte,,,,Unspecified
+dpt+ fibroblast cell of bladder,,,,Unspecified
+dpt+ fibroblast cell of ureter,,,,Unspecified
+duodenal goblet cell,,,,Unspecified
+early T lineage precursor,,,,Unspecified
+eccrine cell,,,,Unspecified
+ecto-epithelial cell,,,,Unspecified
+effector CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+effector memory CD4-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+effector memory CD4-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+ terminally differentiated,,,,Unspecified
+effector memory CD45RA-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+ terminally differentiated,,,,Unspecified
+effector memory CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+effector memory CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+ terminally differentiated,,,,Unspecified
+electrically active cell,,,,Unspecified
+electrically responsive cell,,,,Unspecified
+emsn_222,,,,Unspecified
+emsn_223,,,,Unspecified
+emsn_224,,,,Unspecified
+emsn_225,,,,Unspecified
+emsn_226,,,,Unspecified
+emsn_227,,,,Unspecified
+emsn_228,,,,Unspecified
+emsn_229,,,,Unspecified
+emsn_230,,,,Unspecified
+emsn_231,,,,Unspecified
+emsn_232,,,,Unspecified
+emsn_233,,,,Unspecified
+emsn_234,,,,Unspecified
+emsn_426,,,,Unspecified
+endo-epithelial cell,,,,Unspecified
+endocardial cell,,,,Unspecified
+endocervical epithelial cell,,,,Unspecified
+endocrine cell,,,,Unspecified
+endocrine-paracrine cell of prostate gland,,,,Unspecified
+endometrial epithelial cell,,,,Unspecified
+endometrial microvascular endothelial cell,,,,Unspecified
+endothelial cell,,,,Unspecified
+endothelial cell of arteriole,,,,Unspecified
+endothelial cell of artery,,,,Unspecified
+endothelial cell of bladder,,,,Unspecified
+endothelial cell of hepatic sinusoid,,,,Unspecified
+endothelial cell of high endothelial venule,,,,Unspecified
+endothelial cell of lymphatic vessel,,,,Unspecified
+endothelial cell of respiratory system lymphatic vessel,,,,Unspecified
+endothelial cell of sinusoid,,,,Unspecified
+endothelial cell of ureter,,,,Unspecified
+endothelial cell of vascular tree,,,,Unspecified
+endothelial cell of venule,,,,Unspecified
+enterocyte,,,,Unspecified
+enterocyte of epithelium of large intestine,,,,Unspecified
+enteroendocrine cell,,,,Unspecified
+eomes low liver nk cell,,,,Unspecified
+eosinophil,,,,Unspecified
+epen_65,,,,Unspecified
+epen_66,,,,Unspecified
+epen_67,,,,Unspecified
+epen_68,,,,Unspecified
+epen_69,,,,Unspecified
+epen_70,,,,Unspecified
+epen_71,,,,Unspecified
+epen_72,,,,Unspecified
+epen_73,,,,Unspecified
+epen_74,,,,Unspecified
+ependymal cell,,,,Unspecified
+epicardial adipocyte,,,,Unspecified
+epidermal Langerhans cell,,,,Unspecified
+epithelial cell,,,,Unspecified
+epithelial cell of amnion,,,,Unspecified
+epithelial cell of distal tubule,,,,Unspecified
+epithelial cell of early distal convoluted tubule,,,,Unspecified
+epithelial cell of exocrine pancreas,,,,Unspecified
+epithelial cell of large intestine,,,,Unspecified
+epithelial cell of late distal convoluted tubule,,,,Unspecified
+epithelial cell of pancreas,,,,Unspecified
+epithelial cell of prostate,,,,Unspecified
+epithelial cell of proximal tubule,,,,Unspecified
+epithelial cell of proximal tubule segment 1,,,,Unspecified
+epithelial cell of proximal tubule segment 2,,,,Unspecified
+epithelial cell of proximal tubule segment 3,,,,Unspecified
+epithelial cell of thymus,,,,Unspecified
+epithelial cell of tracheobronchial tree,,,,Unspecified
+epithelial fate stem cell,,,,Unspecified
+epithelial stem cells,,,,Unspecified
+erythrocyte,,,,Unspecified
+erythroid lineage cell,,,,Unspecified
+extracellular matrix secreting cell,,,,Unspecified
+extratelencephalic-projecting glutamatergic cortical neuron,,,,Unspecified
+extravillous trophoblast,,,,Unspecified
+eye photoreceptor cell,,,,Unspecified
+fat cell,,,,Unspecified
+fbl_24,,,,Unspecified
+fbl_25,,,,Unspecified
+fbl_26,,,,Unspecified
+fbl_27,,,,Unspecified
+fbl_28,,,,Unspecified
+fbl_29,,,,Unspecified
+fbl_30,,,,Unspecified
+fbl_31,,,,Unspecified
+fibroblast,,,,Unspecified
+fibroblast of pulmonary artery,,,,Unspecified
+fibroblast-mesenchymal cell,,,,Unspecified
+fibrocyte of adventitia of ureter,,,,Unspecified
+flat epithelial cells,,,,Unspecified
+flat midget bipolar cell,,,,Unspecified
+flattened cuboidal ovarian surface epithelial cell,,,,Unspecified
+follicular dendritic cell,,,,Unspecified
+gamma-delta T cell,,,,Unspecified
+ganglion,,,,Unspecified
+gastrin secreting cell,,,,Unspecified
+germinal center B cell,,,,Unspecified
+glandular epithelial cell,,,,Unspecified
+glial cell,,,,Unspecified
+glomerular capillary endothelial cell,,,,Unspecified
+glomerular mesangial cell,,,,Unspecified
+glutamatergic neuron,,,,Unspecified
+glutamic acid decarboxylase 65 cell,,,,Unspecified
+glycinergic amacrine cell,,,,Unspecified
+goblet cell,,,,Unspecified
+goblet cell of epithelium of lobar bronchus,,,,Unspecified
+granulocyte,,,,Unspecified
+granulocyte monocyte progenitor cell,,,,Unspecified
+granulocytopoietic cell,,,,Unspecified
+group 1 innate lymphoid cell,,,,Unspecified
+group 2 innate lymphoid cell,,,,Unspecified
+group 3 innate lymphoid cell,,,,Unspecified
+group 3 innate lymphoid cell,,,,Unspecified
+ human,,,,Unspecified
+hematopoietic cell,,,,Unspecified
+hematopoietic lineage restricted progenitor cell,,,,Unspecified
+hematopoietic multipotent progenitor cell,,,,Unspecified
+hematopoietic oligopotent progenitor cell,,,,Unspecified
+hematopoietic precursor cell,,,,Unspecified
+hematopoietic stem cell,,,,Unspecified
+hepatic oval stem cell,,,,Unspecified
+hepatic pit cell,,,,Unspecified
+hepatic progenitor cell,,,,Unspecified
+hepatic stellate cell,,,,Unspecified
+hepatocyte,,,,Unspecified
+hillock cell of prostatic urethra,,,,Unspecified
+hilus cell of ovary,,,,Unspecified
+hippocampal CA1-3 neuron,,,,Unspecified
+hippocampal CA4 neuron,,,,Unspecified
+hippocampal astrocyte,,,,Unspecified
+hypertrophic chondrocyte,,,,Unspecified
+ileal goblet cell,,,,Unspecified
+immature B cell,,,,Unspecified
+immature NK T cell,,,,Unspecified
+immature NK T cell stage IV,,,,Unspecified
+immature alpha-beta T cell,,,,Unspecified
+immature conventional dendritic cell,,,,Unspecified
+immature eosinophil,,,,Unspecified
+immature natural killer cell,,,,Unspecified
+immature neutrophil,,,,Unspecified
+immune cell,,,,Unspecified
+innate lymphoid cell,,,,Unspecified
+intercalary cell,,,,Unspecified
+interdigitating dendritic cells,,,,Unspecified
+intermediate cell of bladder urothelium,,,,Unspecified
+intermediate cell of ureter urothelium,,,,Unspecified
+interneuron,,,,Unspecified
+interstitial cell of Cajal,,,,Unspecified
+interstitial fibroblast,,,,Unspecified
+interstitial macrophage,,,,Unspecified
+intestinal crypt stem cell of large intestine,,,,Unspecified
+intestinal epithelial cell,,,,Unspecified
+intestinal tuft cell,,,,Unspecified
+intratelencephalic-projecting glutamatergic cortical neuron,,,,Unspecified
+invaginating midget bipolar cell,,,,Unspecified
+iris pigment epithelial cell,,,,Unspecified
+jejunal goblet cell,,,,Unspecified
+keratin accumulating cell,,,,Unspecified
+keratinocyte,,,,Unspecified
+keratinocyte (onychocyte),,,,Unspecified
+keratinocyte stem cell,,,,Unspecified
+keratocyte,,,,Unspecified
+kidney afferent arteriole endothelial cell,,,,Unspecified
+kidney arterial blood vessel cell,,,,Unspecified
+kidney blood vessel cell,,,,Unspecified
+kidney capillary endothelial cell,,,,Unspecified
+kidney cell,,,,Unspecified
+kidney collecting duct alpha-intercalated cell,,,,Unspecified
+kidney collecting duct epithelial cell,,,,Unspecified
+kidney collecting duct intercalated cell,,,,Unspecified
+kidney collecting duct principal cell,,,,Unspecified
+kidney connecting tubule alpha-intercalated cell,,,,Unspecified
+kidney connecting tubule beta-intercalated cell,,,,Unspecified
+kidney connecting tubule epithelial cell,,,,Unspecified
+kidney connecting tubule intercalated cell,,,,Unspecified
+kidney connecting tubule principal cell,,,,Unspecified
+kidney corpuscule cell,,,,Unspecified
+kidney cortex collecting duct epithelial cell,,,,Unspecified
+kidney cortex collecting duct intercalated cell,,,,Unspecified
+kidney cortex collecting duct principal cell,,,,Unspecified
+kidney cortex tubule cell,,,,Unspecified
+kidney cortical cell,,,,Unspecified
+kidney distal convoluted tubule epithelial cell,,,,Unspecified
+kidney efferent arteriole endothelial cell,,,,Unspecified
+kidney epithelial cell,,,,Unspecified
+kidney granular cell,,,,Unspecified
+kidney inner medulla collecting duct principal cell,,,,Unspecified
+kidney interstitial alternatively activated macrophage,,,,Unspecified
+kidney interstitial cell,,,,Unspecified
+kidney interstitial fibroblast,,,,Unspecified
+kidney interstitial myofibroblast,,,,Unspecified
+kidney loop of Henle ascending limb epithelial cell,,,,Unspecified
+kidney loop of Henle cortical thick ascending limb epithelial cell,,,,Unspecified
+kidney loop of Henle epithelial cell,,,,Unspecified
+kidney loop of Henle long descending thin limb inner medulla epithelial cell,,,,Unspecified
+kidney loop of Henle long descending thin limb outer medulla epithelial cell,,,,Unspecified
+kidney loop of Henle medullary thick ascending limb epithelial cell,,,,Unspecified
+kidney loop of Henle short descending thin limb epithelial cell,,,,Unspecified
+kidney loop of Henle thick ascending limb epithelial cell,,,,Unspecified
+kidney loop of Henle thin ascending limb epithelial cell,,,,Unspecified
+kidney loop of Henle thin descending limb epithelial cell,,,,Unspecified
+kidney medulla cell,,,,Unspecified
+kidney outer medulla cell,,,,Unspecified
+kidney outer medulla collecting duct epithelial cell,,,,Unspecified
+kidney outer medulla collecting duct intercalated cell,,,,Unspecified
+kidney outer medulla collecting duct principal cell,,,,Unspecified
+l5et_113,,,,Unspecified
+l5et_114,,,,Unspecified
+l5et_115,,,,Unspecified
+l5et_117,,,,Unspecified
+l5et_118,,,,Unspecified
+langerhans cell,,,,Unspecified
+large intestine crypt goblet cell,,,,Unspecified
+lens epithelial cell,,,,Unspecified
+lens fiber cell,,,,Unspecified
+leukocyte,,,,Unspecified
+limbal stem cells,,,,Unspecified
+lining cell,,,,Unspecified
+lipofibroblast cell of bladder,,,,Unspecified
+lipofibroblast cell of ureter,,,,Unspecified
+llc_264,,,,Unspecified
+llc_265,,,,Unspecified
+llc_266,,,,Unspecified
+llc_267,,,,Unspecified
+llc_268,,,,Unspecified
+llc_269,,,,Unspecified
+llc_270,,,,Unspecified
+llc_271,,,,Unspecified
+llc_272,,,,Unspecified
+llc_273,,,,Unspecified
+llc_274,,,,Unspecified
+llc_275,,,,Unspecified
+low columnar epithelial cell,,,,Unspecified
+lower rhombic lip neuron,,,,Unspecified
+lrl_315,,,,Unspecified
+lrl_316,,,,Unspecified
+lrl_317,,,,Unspecified
+lrl_318,,,,Unspecified
+lrl_319,,,,Unspecified
+lrl_320,,,,Unspecified
+lrl_321,,,,Unspecified
+lrl_322,,,,Unspecified
+luminal cell of prostate epithelium,,,,Unspecified
+luminal epithelial cell,,,,Unspecified
+lung ciliated cell,,,,Unspecified
+lung megakaryocyte,,,,Unspecified
+lung neuroendocrine cell,,,,Unspecified
+lung parenchyma resident eosinophil,,,,Unspecified
+lung perichondrial fibroblast,,,,Unspecified
+lung pericyte,,,,Unspecified
+lung resident memory CD4-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+lung resident memory CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+luteal cell,,,,Unspecified
+lymph node fibroblastic reticular cell,,,,Unspecified
+lymph node macrophage,,,,Unspecified
+lymph node marginal reticular cell,,,,Unspecified
+lymph node subcapsular sinus macrophage,,,,Unspecified
+lymph node tingible body macrophage,,,,Unspecified
+lymphatic,,,,Unspecified
+lymphatic endothelial cell of medulla ceiling,,,,Unspecified
+lymphatic endothelial cell of subcapsular sinus ceiling,,,,Unspecified
+lymphatic endothelial cell of subcapsular sinus floor,,,,Unspecified
+lymphatic endothelial cell of trabecula,,,,Unspecified
+lymphatic vessel smooth muscle cell,,,,Unspecified
+lymphatics,,,,Unspecified
+lympho-myeloid progenitor cell (lmpp),,,,Unspecified
+lymphocyte,,,,Unspecified
+lymphocyte of B lineage,,,,Unspecified
+lymphocyte of large intestine lamina propria,,,,Unspecified
+m1-like macrophage,,,,Unspecified
+m2-like macrophage,,,,Unspecified
+macroglial cell,,,,Unspecified
+macrophage,,,,Unspecified
+macula densa epithelial cell,,,,Unspecified
+mammillary body neuron,,,,Unspecified
+mantle zone b cell,,,,Unspecified
+marginal zone B cell of spleen,,,,Unspecified
+marrow adipocytes,,,,Unspecified
+mast cell,,,,Unspecified
+mature B cell,,,,Unspecified
+mature CD4 single-positive thymocyte,,,,Unspecified
+mature CD8 single-positive thymocyte,,,,Unspecified
+mature NK T cell,,,,Unspecified
+mature T cell,,,,Unspecified
+mature alpha-beta T cell,,,,Unspecified
+mature cd8 t cell,,,,Unspecified
+mature conventional dendritic cell,,,,Unspecified
+mature eosinophil,,,,Unspecified
+mature natural killer cell,,,,Unspecified
+mature neutrophil,,,,Unspecified
+medial ganglionic eminence derived interneuron,,,,Unspecified
+medium field retinal amacrine cell,,,,Unspecified
+medium spiny neuron,,,,Unspecified
+medullary reticular cell,,,,Unspecified
+medullary thymic epithelial cell,,,,Unspecified
+medullary thymic epithelial cell type 1,,,,Unspecified
+medullary thymic epithelial cell type 2,,,,Unspecified
+medullary thymic epithelial cell type 3,,,,Unspecified
+medullary thymic epithelial cell type 4,,,,Unspecified
+megakaryocyte,,,,Unspecified
+megakaryocyte progenitor cell,,,,Unspecified
+megakaryocyte-erythroid progenitor cell,,,,Unspecified
+melanocyte,,,,Unspecified
+melanocyte of skin,,,,Unspecified
+memory B cell,,,,Unspecified
+mesenchymal stem cell of Wharton's jelly,,,,Unspecified
+meso-epithelial cell,,,,Unspecified
+mesothelial cell,,,,Unspecified
+mesothelial cell of visceral peritoneum,,,,Unspecified
+mesothelial cell of visceral pleura,,,,Unspecified
+mge_236,,,,Unspecified
+mge_239,,,,Unspecified
+mge_240,,,,Unspecified
+mge_241,,,,Unspecified
+mge_242,,,,Unspecified
+mge_243,,,,Unspecified
+mge_244,,,,Unspecified
+mge_245,,,,Unspecified
+mge_246,,,,Unspecified
+mge_247,,,,Unspecified
+mge_248,,,,Unspecified
+mge_249,,,,Unspecified
+mge_250,,,,Unspecified
+mge_251,,,,Unspecified
+mge_252,,,,Unspecified
+mge_253,,,,Unspecified
+mge_254,,,,Unspecified
+mge_255,,,,Unspecified
+mge_256,,,,Unspecified
+mge_257,,,,Unspecified
+mge_258,,,,Unspecified
+mge_259,,,,Unspecified
+mge_260,,,,Unspecified
+mge_261,,,,Unspecified
+mge_262,,,,Unspecified
+mge_263,,,,Unspecified
+mgl_10,,,,Unspecified
+mgl_11,,,,Unspecified
+mgl_12,,,,Unspecified
+mgl_4,,,,Unspecified
+mgl_5,,,,Unspecified
+mgl_6,,,,Unspecified
+mgl_7,,,,Unspecified
+mgl_8,,,,Unspecified
+mgl_9,,,,Unspecified
+microglial cell,,,,Unspecified
+microvascular endothelial cell,,,,Unspecified
+midbrain-derived inhibitory neuron,,,,Unspecified
+midget ganglion cell of retina,,,,Unspecified
+midi_433,,,,Unspecified
+midi_434,,,,Unspecified
+midi_435,,,,Unspecified
+midi_436,,,,Unspecified
+midi_437,,,,Unspecified
+midi_438,,,,Unspecified
+midi_439,,,,Unspecified
+midi_440,,,,Unspecified
+midi_441,,,,Unspecified
+midi_442,,,,Unspecified
+midi_443,,,,Unspecified
+midi_444,,,,Unspecified
+midzonal region hepatocyte,,,,Unspecified
+migratory dendritic cell,,,,Unspecified
+misc_116,,,,Unspecified
+misc_132,,,,Unspecified
+misc_164,,,,Unspecified
+misc_165,,,,Unspecified
+misc_166,,,,Unspecified
+misc_167,,,,Unspecified
+misc_168,,,,Unspecified
+misc_170,,,,Unspecified
+misc_176,,,,Unspecified
+misc_177,,,,Unspecified
+misc_178,,,,Unspecified
+misc_314,,,,Unspecified
+misc_401,,,,Unspecified
+misc_404,,,,Unspecified
+mmb_323,,,,Unspecified
+mmb_324,,,,Unspecified
+mmb_325,,,,Unspecified
+mmb_326,,,,Unspecified
+mmb_327,,,,Unspecified
+mmb_328,,,,Unspecified
+mmb_329,,,,Unspecified
+mmb_330,,,,Unspecified
+mmb_331,,,,Unspecified
+mmb_332,,,,Unspecified
+mmb_333,,,,Unspecified
+mono_3,,,,Unspecified
+monocyte,,,,Unspecified
+monocyte derived cell,,,,Unspecified
+monocyte-derived dendritic cell,,,,Unspecified
+monocytoid B cell,,,,Unspecified
+mononuclear cytotrophoblast cell,,,,Unspecified
+mononuclear osteoclast,,,,Unspecified
+motor neuron,,,,Unspecified
+msn_206,,,,Unspecified
+msn_207,,,,Unspecified
+msn_208,,,,Unspecified
+msn_209,,,,Unspecified
+msn_210,,,,Unspecified
+msn_211,,,,Unspecified
+msn_212,,,,Unspecified
+msn_213,,,,Unspecified
+msn_214,,,,Unspecified
+msn_215,,,,Unspecified
+msn_216,,,,Unspecified
+msn_217,,,,Unspecified
+msn_218,,,,Unspecified
+msn_219,,,,Unspecified
+msn_220,,,,Unspecified
+msn_221,,,,Unspecified
+msn_427,,,,Unspecified
+msn_430,,,,Unspecified
+mucosal invariant T cell,,,,Unspecified
+mucosal type mast cell,,,,Unspecified
+mucus secreting cell of bronchus submucosal gland,,,,Unspecified
+mucus secreting cell of trachea gland,,,,Unspecified
+multinuclear osteoclast,,,,Unspecified
+mural cell,,,,Unspecified
+muscle,,,,Unspecified
+muscle cell,,,,Unspecified
+myelocyte,,,,Unspecified
+myeloid cell,,,,Unspecified
+myeloid dendritic cell,,,,Unspecified
+myeloid leukocyte,,,,Unspecified
+myeloid lineage restricted progenitor cell,,,,Unspecified
+myeloid progenitor (mop),,,,Unspecified
+myo-medullary thymic epithelial cell,,,,Unspecified
+myoepithelial cell of bronchus submucosal gland,,,,Unspecified
+myoepithelial cell of sweat gland,,,,Unspecified
+myoepithelial cell of trachea gland,,,,Unspecified
+myofibroblast cell,,,,Unspecified
+myofibroblast cell of bladder,,,,Unspecified
+myofibroblast cell of ureter,,,,Unspecified
+naive B cell,,,,Unspecified
+naive regulatory T cell,,,,Unspecified
+naive thymus-derived CD4-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+naive thymus-derived CD8-positive,,,,Unspecified
+ alpha-beta T cell,,,,Unspecified
+native cell,,,,Unspecified
+natural killer cell,,,,Unspecified
+near-projecting glutamatergic cortical neuron,,,,Unspecified
+nephron tubule epithelial cell,,,,Unspecified
+nerve,,,,Unspecified
+nerves,,,,Unspecified
+neural cell,,,,Unspecified
+neurecto-epithelial cell,,,,Unspecified
+neuro-medullary thymic epithelial cell,,,,Unspecified
+neuroendocrine cell,,,,Unspecified
+neuroendocrine cell of epithelium of lobar bronchus,,,,Unspecified
+neuron,,,,Unspecified
+neuron associated cell,,,,Unspecified
+neuron associated cell (sensu Vertebrata),,,,Unspecified
+neuron of the forebrain,,,,Unspecified
+neutrophil,,,,Unspecified
+nkcell_2,,,,Unspecified
+non-classical monocyte,,,,Unspecified
+non-pigmented ciliary epithelial cell,,,,Unspecified
+non-terminally differentiated cell,,,,Unspecified
+nonmucinous cuboidal epithelial cell,,,,Unspecified
+oligo_40,,,,Unspecified
+oligo_44,,,,Unspecified
+oligo_45,,,,Unspecified
+oligo_46,,,,Unspecified
+oligo_47,,,,Unspecified
+oligo_48,,,,Unspecified
+oligo_49,,,,Unspecified
+oligo_50,,,,Unspecified
+oligodendrocyte,,,,Unspecified
+oligodendrocyte precursor cell,,,,Unspecified
+opc_32,,,,Unspecified
+opc_33,,,,Unspecified
+opc_34,,,,Unspecified
+opc_35,,,,Unspecified
+opc_36,,,,Unspecified
+osteoblast,,,,Unspecified
+osteoclast,,,,Unspecified
+osteocyte,,,,Unspecified
+pancreas exocrine glandular cell,,,,Unspecified
+pancreatic A cell,,,,Unspecified
+pancreatic D cell,,,,Unspecified
+pancreatic PP cell,,,,Unspecified
+pancreatic acinar cell,,,,Unspecified
+pancreatic centro-acinar cell,,,,Unspecified
+pancreatic ductal cell,,,,Unspecified
+pancreatic endocrine cell,,,,Unspecified
+pancreatic epsilon cell,,,,Unspecified
+pancreatic goblet cell,,,,Unspecified
+pancreatic stellate cell,,,,Unspecified
+paneth cell of colon,,,,Unspecified
+paneth cell of epithelium proper of small intestine,,,,Unspecified
+papillary tips cell,,,,Unspecified
+parasol ganglion cell of retina,,,,Unspecified
+parietal epithelial cell,,,,Unspecified
+peptide hormone secreting cell,,,,Unspecified
+per_21,,,,Unspecified
+per_22,,,,Unspecified
+per_23,,,,Unspecified
+perichondrial fibroblast,,,,Unspecified
+pericryptal fibroblastic sheath,,,,Unspecified
+pericyte,,,,Unspecified
+pericyte cell of bladder,,,,Unspecified
+pericyte cell of ureter,,,,Unspecified
+periepithelial fibroblast,,,,Unspecified
+perineural cell,,,,Unspecified
+perineurial cell,,,,Unspecified
+perineurial cells,,,,Unspecified
+periportal region hepatocyte,,,,Unspecified
+peritubular capillary endothelial cell,,,,Unspecified
+perivascular cells,,,,Unspecified
+perivascular support cell,,,,Unspecified
+photoreceptor cell,,,,Unspecified
+pi16+ fibroblast cell of bladder,,,,Unspecified
+pi16+ fibroblast cell of ureter,,,,Unspecified
+pigment cell,,,,Unspecified
+pigmented ciliary epithelial cell,,,,Unspecified
+placental stromal cell (psc),,,,Unspecified
+placental villus capillary endothelial cell,,,,Unspecified
+plasma cell,,,,Unspecified
+plasmablast,,,,Unspecified
+plasmacytoid dendritic cell,,,,Unspecified
+plasmacytoid dendritic cell,,,,Unspecified
+ human,,,,Unspecified
+platelet,,,,Unspecified
+pneumocyte,,,,Unspecified
+podocyte,,,,Unspecified
+polyaxonal amacrine cell,,,,Unspecified
+portal fibroblast,,,,Unspecified
+pre-antral follicle granulosa cell,,,,Unspecified
+precursor B cell,,,,Unspecified
+prehypertrophic chondrocytes,,,,Unspecified
+preosteoblast,,,,Unspecified
+preosteoclasts,,,,Unspecified
+prickle cell,,,,Unspecified
+primary lens fiber,,,,Unspecified
+primary oocyte,,,,Unspecified
+pro-B cell,,,,Unspecified
+promonocyte,,,,Unspecified
+promyelocyte,,,,Unspecified
+prostate gland microvascular endothelial cell,,,,Unspecified
+prostate perictye,,,,Unspecified
+pulmonary artery endothelial cell,,,,Unspecified
+pulmonary capillary endothelial cell,,,,Unspecified
+pulmonary interstitial fibroblast,,,,Unspecified
+pulmonary ionocyte,,,,Unspecified
+quiescent stellate cell,,,,Unspecified
+rearranging double negative thymocyte (Homo sapiens),,,,Unspecified
+regulatory T cell,,,,Unspecified
+regulatory cd4+ t,,,,Unspecified
+renal alpha-intercalated cell,,,,Unspecified
+renal beta-intercalated cell,,,,Unspecified
+renal cortical epithelial cell,,,,Unspecified
+renal intercalated cell,,,,Unspecified
+renal interstitial pericyte,,,,Unspecified
+renal medullary fibroblast,,,,Unspecified
+renal principal cell,,,,Unspecified
+residual hypertrophic chondrocytes,,,,Unspecified
+respiratory basal cell,,,,Unspecified
+respiratory ciliated cell,,,,Unspecified
+respiratory epithelial cell,,,,Unspecified
+respiratory suprabasal cell,,,,Unspecified
+reticular cell,,,,Unspecified
+reticular cell of splenic cord,,,,Unspecified
+reticular cell of splenic sinusoid,,,,Unspecified
+retina horizontal cell,,,,Unspecified
+retinal bipolar neuron,,,,Unspecified
+retinal blood vessel endothelial cell,,,,Unspecified
+retinal cell,,,,Unspecified
+retinal cone cell,,,,Unspecified
+retinal ganglion cell,,,,Unspecified
+retinal pigment epithelial cell,,,,Unspecified
+retinal rod cell,,,,Unspecified
+rod bipolar cell,,,,Unspecified
+rounded chondrocytes,,,,Unspecified
+sebum secreting cell,,,,Unspecified
+secondary crest myofibroblast,,,,Unspecified
+secondary lens fiber,,,,Unspecified
+secretory cell,,,,Unspecified
+secretory epithelial cell,,,,Unspecified
+semilunar cell,,,,Unspecified
+semilunar type 1 cell,,,,Unspecified
+semilunar type 3 cell,,,,Unspecified
+seromucus secreting cell,,,,Unspecified
+serous cell of epithelium of bronchus,,,,Unspecified
+serous cell of epithelium of trachea,,,,Unspecified
+serous secreting cell of bronchus submucosal gland,,,,Unspecified
+simple columnar epithelial cell,,,,Unspecified
+sinusoidal cells,,,,Unspecified
+skin fibroblast,,,,Unspecified
+smooth muscle cell,,,,Unspecified
+smooth muscle cell of bladder,,,,Unspecified
+smooth muscle cell of large intestine,,,,Unspecified
+smooth muscle cell of prostate,,,,Unspecified
+smooth muscle cell of the coronary artery,,,,Unspecified
+smooth muscle cell of the pulmonary artery,,,,Unspecified
+somatic cell,,,,Unspecified
+sox9+ epithelial cell,,,,Unspecified
+specialized cardiac myocyte,,,,Unspecified
+specified double negative thymocyte (Homo sapiens),,,,Unspecified
+splat_235,,,,Unspecified
+splat_237,,,,Unspecified
+splat_238,,,,Unspecified
+splat_313,,,,Unspecified
+splat_334,,,,Unspecified
+splat_335,,,,Unspecified
+splat_336,,,,Unspecified
+splat_337,,,,Unspecified
+splat_338,,,,Unspecified
+splat_339,,,,Unspecified
+splat_340,,,,Unspecified
+splat_341,,,,Unspecified
+splat_342,,,,Unspecified
+splat_343,,,,Unspecified
+splat_344,,,,Unspecified
+splat_345,,,,Unspecified
+splat_346,,,,Unspecified
+splat_347,,,,Unspecified
+splat_348,,,,Unspecified
+splat_349,,,,Unspecified
+splat_350,,,,Unspecified
+splat_351,,,,Unspecified
+splat_352,,,,Unspecified
+splat_353,,,,Unspecified
+splat_354,,,,Unspecified
+splat_355,,,,Unspecified
+splat_356,,,,Unspecified
+splat_357,,,,Unspecified
+splat_358,,,,Unspecified
+splat_359,,,,Unspecified
+splat_360,,,,Unspecified
+splat_361,,,,Unspecified
+splat_362,,,,Unspecified
+splat_363,,,,Unspecified
+splat_364,,,,Unspecified
+splat_365,,,,Unspecified
+splat_366,,,,Unspecified
+splat_367,,,,Unspecified
+splat_368,,,,Unspecified
+splat_369,,,,Unspecified
+splat_370,,,,Unspecified
+splat_371,,,,Unspecified
+splat_373,,,,Unspecified
+splat_374,,,,Unspecified
+splat_375,,,,Unspecified
+splat_376,,,,Unspecified
+splat_377,,,,Unspecified
+splat_378,,,,Unspecified
+splat_379,,,,Unspecified
+splat_380,,,,Unspecified
+splat_381,,,,Unspecified
+splat_382,,,,Unspecified
+splat_383,,,,Unspecified
+splat_384,,,,Unspecified
+splat_385,,,,Unspecified
+splat_386,,,,Unspecified
+splat_387,,,,Unspecified
+splat_388,,,,Unspecified
+splat_389,,,,Unspecified
+splat_390,,,,Unspecified
+splat_391,,,,Unspecified
+splat_392,,,,Unspecified
+splat_393,,,,Unspecified
+splat_394,,,,Unspecified
+splat_395,,,,Unspecified
+splat_396,,,,Unspecified
+splat_397,,,,Unspecified
+splat_398,,,,Unspecified
+splat_399,,,,Unspecified
+splat_400,,,,Unspecified
+splat_402,,,,Unspecified
+splat_403,,,,Unspecified
+splat_409,,,,Unspecified
+splat_410,,,,Unspecified
+splat_411,,,,Unspecified
+splat_412,,,,Unspecified
+splat_413,,,,Unspecified
+splat_414,,,,Unspecified
+splat_415,,,,Unspecified
+splat_416,,,,Unspecified
+splat_417,,,,Unspecified
+splat_418,,,,Unspecified
+splat_420,,,,Unspecified
+splat_421,,,,Unspecified
+splat_422,,,,Unspecified
+splat_423,,,,Unspecified
+splat_424,,,,Unspecified
+splat_425,,,,Unspecified
+splat_428,,,,Unspecified
+splat_429,,,,Unspecified
+splat_431,,,,Unspecified
+splat_432,,,,Unspecified
+splenic endothelial cell,,,,Unspecified
+splenic littoral cell,,,,Unspecified
+splenic macrophage,,,,Unspecified
+splenic marginal zone macrophage,,,,Unspecified
+splenic pericyte,,,,Unspecified
+splenic perifollicular zone macrophage,,,,Unspecified
+splenic red pulp macrophage,,,,Unspecified
+splenic red pulp stromal cell,,,,Unspecified
+splenic smooth muscle cell,,,,Unspecified
+splenic stromal sheath cell,,,,Unspecified
+splenic tingible body macrophage,,,,Unspecified
+splenic white pulp macrophage,,,,Unspecified
+squamous epithelial cell,,,,Unspecified
+starburst amacrine cell,,,,Unspecified
+stem cell,,,,Unspecified
+stratified cuboidal epithelial cell,,,,Unspecified
+stratified squamous epithelial cell,,,,Unspecified
+stroma type i cell,,,,Unspecified
+stroma type ii cell,,,,Unspecified
+stroma type iii cell,,,,Unspecified
+stroma type iv cell,,,,Unspecified
+stroma type v cell,,,,Unspecified
+stromal cell,,,,Unspecified
+stromal cell of endometrium,,,,Unspecified
+stromal cell of ovary,,,,Unspecified
+stromal cell of pancreas,,,,Unspecified
+stuff accumulating cell,,,,Unspecified
+subcapsular dendritic cell,,,,Unspecified
+subcapsular thymic epithelial cell,,,,Unspecified
+subcutaneous fat cell,,,,Unspecified
+subepithelial membrane,,,,Unspecified
+superficial cell of bladder urothelium,,,,Unspecified
+superficial cell of ureter urothelium,,,,Unspecified
+sympathetic neuron,,,,Unspecified
+sympathetic noradrenergic neuron,,,,Unspecified
+syncytiotrophoblast cell,,,,Unspecified
+t cell,,,,Unspecified
+tall columnar epithelial cell,,,,Unspecified
+tbet low liver nk cell,,,,Unspecified
+tcell_1,,,,Unspecified
+telocyte,,,,Unspecified
+thalamic excitatory neuron,,,,Unspecified
+theca cell,,,,Unspecified
+thex_372,,,,Unspecified
+thex_445,,,,Unspecified
+thex_446,,,,Unspecified
+thex_447,,,,Unspecified
+thex_448,,,,Unspecified
+thex_449,,,,Unspecified
+thex_450,,,,Unspecified
+thex_451,,,,Unspecified
+thex_452,,,,Unspecified
+thex_453,,,,Unspecified
+thex_454,,,,Unspecified
+thex_455,,,,Unspecified
+thex_456,,,,Unspecified
+thex_457,,,,Unspecified
+thex_458,,,,Unspecified
+thex_459,,,,Unspecified
+thex_460,,,,Unspecified
+thymic conventional dendritic cell,,,,Unspecified
+thymic cortical macrophage,,,,Unspecified
+thymic fibroblast type 1,,,,Unspecified
+thymic fibroblast type 2,,,,Unspecified
+thymic macrophage,,,,Unspecified
+thymic medullary macrophage,,,,Unspecified
+thymic plasmacytoid dendritic cell,,,,Unspecified
+thymocyte,,,,Unspecified
+tonsil squamous cell,,,,Unspecified
+tracheal goblet cell,,,,Unspecified
+tracheobronchial chondrocyte,,,,Unspecified
+tracheobronchial goblet cell,,,,Unspecified
+tracheobronchial smooth muscle cell,,,,Unspecified
+transit amplifying cell of colon,,,,Unspecified
+transitional epithelial cell,,,,Unspecified
+transitional principal-intercalated cell,,,,Unspecified
+transitional stage B cell,,,,Unspecified
+trophoblast cell,,,,Unspecified
+tuft cell of small intestine,,,,Unspecified
+type B pancreatic cell,,,,Unspecified
+type EC enteroendocrine cell,,,,Unspecified
+type I NK T cell,,,,Unspecified
+type I cell of carotid body,,,,Unspecified
+type I pneumocyte,,,,Unspecified
+type II pneumocyte,,,,Unspecified
+ulit_120,,,,Unspecified
+ulit_121,,,,Unspecified
+ulit_122,,,,Unspecified
+ulit_123,,,,Unspecified
+ulit_124,,,,Unspecified
+ulit_125,,,,Unspecified
+ulit_126,,,,Unspecified
+ulit_127,,,,Unspecified
+ulit_128,,,,Unspecified
+ulit_129,,,,Unspecified
+ulit_130,,,,Unspecified
+ulit_131,,,,Unspecified
+ulit_133,,,,Unspecified
+ulit_134,,,,Unspecified
+ulit_135,,,,Unspecified
+ulit_138,,,,Unspecified
+unswitched memory B cell,,,,Unspecified
+upper rhombic lip neuron,,,,Unspecified
+ureter adventitial cell,,,,Unspecified
+url_297,,,,Unspecified
+url_308,,,,Unspecified
+url_309,,,,Unspecified
+url_310,,,,Unspecified
+url_311,,,,Unspecified
+url_312,,,,Unspecified
+uterine dendritic cells,,,,Unspecified
+uterine macrophage,,,,Unspecified
+uterine natural killer cell,,,,Unspecified
+uterine nk cell,,,,Unspecified
+uterine smooth muscle type i cell,,,,Unspecified
+uterine smooth muscle type ii cell,,,,Unspecified
+valve interstitial cell,,,,Unspecified
+vasa recta ascending limb cell,,,,Unspecified
+vasa recta cell,,,,Unspecified
+vasa recta descending limb cell,,,,Unspecified
+vascular associated smooth muscle cell,,,,Unspecified
+vascular endothelial cell,,,,Unspecified

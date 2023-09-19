@@ -9,7 +9,7 @@ title: Individual_nonHuman
 {: .note-title } 
 >Individual nonHuman
 >
->nan [[Source]](nan)
+> [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

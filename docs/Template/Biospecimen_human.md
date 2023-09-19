@@ -9,7 +9,7 @@ title: Biospecimen_human
 {: .note-title } 
 >Biospecimen human
 >
->nan [[Source]](nan)
+> [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

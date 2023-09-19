@@ -9,7 +9,7 @@ title: bsSeq_(bisulfite-seq_WGBS_methylseq_methylomics)
 {: .note-title } 
 >bsSeq (bisulfite-seq WGBS methylseq methylomics)
 >
->nan [[Source]](nan)
+> [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

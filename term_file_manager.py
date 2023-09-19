@@ -68,7 +68,7 @@ def create_term_df(data_model, term):
         # filter out attributes from data model table
         df = data_model.loc[data_model["Attribute"].isin(depends_on),]
 
-        # # filter out valid values from data model table. DM uses Parent to distinguish types of attributes
+        # # filter out valid values from data model table. data_model uses Parent to distinguish types of attributes
         # df = df.loc[df["Parent"] != "validValue",]
 
         df = df[
@@ -87,10 +87,28 @@ def create_term_df(data_model, term):
         df.rename(
             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
         )
-    else:
-        prohibit = ["validValue", "BaseAnnotation", "Other"]
+    elif term == "countryCode":
+        df = pd.read_excel(
+            io="http://wits.worldbank.org/data/public/WITSCountryProfile-Country_Indicator_ProductMetada-en.xlsx",
+            sheet_name="Country-Metadata",
+        )
 
-        df = data_model.loc[~data_model["Parent"].isin(prohibit),]
+        df = df[
+            ["Country Code", "Country Name", "Country ISO3", "Long Name", "Region"]
+        ].rename({"Country Code": "Key", "Country Name": "Key Description"}, axis=1)
+
+        df[
+            "Source"
+        ] = "https://wits.worldbank.org/countryprofile/metadata/en/country/all"
+        df["Module"] = "Metadata"
+        df["Type"] = "Numeric"
+
+    else:
+        # prohibit = ["validValue", "BaseAnnotation", "Other"]
+
+        df = data_model.loc[
+            (~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()),
+        ]
 
         df = df.loc[
             (df["Attribute"] == term) & (data_model["Parent"] != "validValue"),
@@ -124,9 +142,11 @@ def generate_csv(data_model, term):
 
     term_csv_name = re.sub("\s|/", "_", term)
 
-    print(term_csv_name)
+    # print(term_csv_name)
+
     # write out data frame
     df.to_csv(os.path.join("./_data", re.sub("\s|/", "_", term) + ".csv"), index=False)
+
     print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))
 
 
@@ -221,20 +241,24 @@ def manage_term_files(term=None):
 
     if term:
         df = data_model.loc[
-            (data_model["Module"].notnull())
+            (~data_model["Attribute"].isin(files))
+            & ((~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()))
             & (
-                data_model["Attribute"].isin(term)
-                & (data_model["Parent"] != "validValue")
-            )
-        ]
+                (~data_model["Attribute"].str.contains("specify"))
+                | (~data_model["DependsOn"].str.contains("specify", na=False))
+            ),
+            "Attribute",
+        ].tolist()
 
     else:
-        df = data_model.loc[data_model["Module"].notnull(),]
+        df = data_model.loc[
+            (~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()),
+        ]
 
     # generate files when term files don't exist. Do not add files for valid values or specify because these have no useful sub values or depends on
     new_terms = df.loc[
         (~df["Attribute"].isin(files))
-        & (df["Parent"] != "validValue")
+        & ((~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()))
         & (~df["Attribute"].str.contains("specify")),
         "Attribute",
     ].tolist()

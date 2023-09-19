@@ -66,6 +66,10 @@ You can add additional descriptions to home page or specific page by directly ed
 
 In addition to setting up the GitHub Actions workflow (i.e pages.yml), you need to allow deploying the GitHub pages using the workflow. Go to `Settings`-> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
 
+## Making Changes to the Data Model
+
+Any changes should be done in this [repo](https://github.com/eliteportal/data-models). Then run _scripts/get_data_model.py to get the updated model.  
+
 # To Do
 
 - [ ] Update data model attributes with descriptions, types and source

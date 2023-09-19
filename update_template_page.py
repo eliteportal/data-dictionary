@@ -15,12 +15,11 @@ with open("./_config.yml", "r") as f:
     config = yaml.safe_load(f)
 
 
-
 def get_terms():
     """
     Function to extract terms with markdown page, excluding module and template pages
     """
-    
+
     terms = [
         filename.split(".md")[0]
         for dirpath, _, filenames in os.walk("docs/")
@@ -46,11 +45,12 @@ def update_markdown(file_name, terms):
             # Re-write the file at each iteration
             writer.write(line)
 
+
 def main():
     # get the template pages
     templates = [
         file
-        for file in os.listdir("docs/Metadata Template/")
+        for file in os.listdir("docs/Metadata/")
         if (file.endswith(".md")) & (file != "Metadata Template.md")
     ]
     # get the terms with markdown page

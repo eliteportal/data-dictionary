@@ -1,45 +1,25 @@
 Key,Key Description,Type,Source,Module
-amplicon,nan,,nan,Omics
-cellHashing,nan,,nan,Omics
-Chromium Single Cell 3',nan,,nan,Omics
-DNALibraryConstruction,nan,,nan,Omics
-EndItDNAEndRepairKit,nan,,nan,Omics
-KapaHyperPrep,nan,,nan,Omics
-lncRNAenrichment,nan,,nan,Omics
-methylSeq,nan,,nan,Omics
-miRNAenrichment,nan,,nan,Omics
-multiome,nan,,nan,Omics
-MULTIseq,nan,,nan,Omics
-PCRfree,nan,,nan,Omics
-polyAselection,nan,,nan,Omics
-proximity ligation,nan,,nan,Omics
-rRNAdepletion,nan,,nan,Omics
-SPLITseq,nan,,nan,Omics
-STARRSeq,nan,,nan,Omics
-SureCell,nan,,nan,Omics
-totalRNA,nan,,nan,Omics
-OtherLibraryPrep,nan,,nan,Omics
-Unknown,nan,,nan,Omics
-Not collected,nan,,nan,Omics
-Not applicable,nan,,nan,Omics
-Not Specified,nan,,nan,Omics
-amplicon,nan,,nan,BaseAnnotation
-cellHashing,nan,,nan,BaseAnnotation
-Chromium Single Cell 3',nan,,nan,BaseAnnotation
-DNALibraryConstruction,nan,,nan,BaseAnnotation
-EndItDNAEndRepairKit,nan,,nan,BaseAnnotation
-KapaHyperPrep,nan,,nan,BaseAnnotation
-lncRNAenrichment,nan,,nan,BaseAnnotation
-methylSeq,nan,,nan,BaseAnnotation
-miRNAenrichment,nan,,nan,BaseAnnotation
-multiome,nan,,nan,BaseAnnotation
-MULTIseq,nan,,nan,BaseAnnotation
-PCRfree,nan,,nan,BaseAnnotation
-polyAselection,nan,,nan,BaseAnnotation
-proximity ligation,nan,,nan,BaseAnnotation
-rRNAdepletion,nan,,nan,BaseAnnotation
-snIsoSeq,nan,,nan,BaseAnnotation
-SPLITseq,nan,,nan,BaseAnnotation
-STARRSeq,nan,,nan,BaseAnnotation
-SureCell,nan,,nan,BaseAnnotation
-totalRNA,nan,,nan,BaseAnnotation
+amplicon,,,,Omics
+cellHashing,,,,Omics
+Chromium Single Cell 3',,,,Omics
+DNALibraryConstruction,,,,Omics
+EndItDNAEndRepairKit,,,,Omics
+KapaHyperPrep,,,,Omics
+lncRNAenrichment,,,,Omics
+methylSeq,,,,Omics
+miRNAenrichment,,,,Omics
+multiome,,,,Omics
+MULTIseq,,,,Omics
+PCRfree,,,,Omics
+polyAselection,,,,Omics
+proximity ligation,,,,Omics
+rRNAdepletion,,,,Omics
+SPLITseq,,,,Omics
+STARRSeq,,,,Omics
+SureCell,,,,Omics
+totalRNA,,,,Omics
+OtherLibraryPrep,,,,Omics
+Unknown,,,,Omics
+Not collected,,,,Omics
+Not applicable,,,,Omics
+Not Specified,,,,Omics

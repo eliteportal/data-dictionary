@@ -4,14 +4,11 @@ definition: a script to generate and delete annotation term page
 Contributors: Dan Lu, Nicholas Lee
 """
 # load modules
-import argparse
 import glob
 import os
 
-import pdb
 import re
 
-import string
 from functools import partial
 
 import frontmatter
@@ -67,15 +64,6 @@ def generate_page(data_model, term):
         post = frontmatter.load("template_page_template.md")
         post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).title()
         post.metadata["permalink"] = f'docs/{post.metadata["title"]}.html'
-    else:
-        # load template
-        post = frontmatter.load("term_page_template.md")
-        post.metadata["title"] = term
-
-    post.metadata["parent"] = results[0]["Module"]
-
-    # load input data and term/template description
-    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         post.content = (
             "{% assign mydata=site.data."
             + term
@@ -86,6 +74,9 @@ def generate_page(data_model, term):
             + post.content
         )
     else:
+        # load template
+        post = frontmatter.load("term_page_template.md")
+        post.metadata["title"] = term
         post.content = (
             "{% assign mydata=site.data."
             + term
@@ -95,6 +86,7 @@ def generate_page(data_model, term):
             + f">{results[0]['Description']} [[Source]]({results[0]['Source']})\n"
             + post.content
         )
+    post.metadata["parent"] = results[0]["Module"]
 
     # create directory for the moduel if not exist
     if not os.path.exists(f"docs/{results[0]['Module']}/"):
@@ -117,6 +109,51 @@ def generate_page(data_model, term):
 
     # create file
     file = fileutils.MarkDownFile(f"docs/{results[0]['Module']}/{term}")
+
+    # add content to the file
+    file.append_end(frontmatter.dumps(post))
+
+
+def generate_full_table(data_model):
+    # name of the data model to use
+    site_data = "dataModel"
+    module_name = "FullTable"
+
+    # Creating markdown file for module
+    # create directory for the moduel if not exist
+    if not os.path.exists(f"docs/{module_name}/"):
+        os.mkdir(f"docs/{module_name}/")
+
+    # create a module page
+    module = fileutils.MarkDownFile(f"docs/{module_name}/{module_name}")
+
+    module.append_end(
+        f"--- \nlayout: page \ntitle: {module_name} \nhas_children: true \nnav_order: 2 \npermalink: docs/{module_name}.html \n---"
+    )
+
+    # Create CSV for table
+    data_model = data_model.rename(
+        {"Attribute": "Key", "Description": "Key Description"}, axis=1
+    )
+    data_model = data_model[["Key", "Key Description", "Type", "Source", "Module"]]
+    data_model.to_csv(f"_data/{site_data}.csv", index=False)
+
+    # creating markdown text
+    post = frontmatter.load("term_page_template.md")
+    post.metadata["title"] = site_data
+    post.content = (
+        "{% assign mydata=site.data."
+        + site_data
+        + " %} \n{: .note-title } \n"
+        + f">{site_data}\n"
+        + ">\n"
+        + f">Full Table of Keys for ELITE\n"
+        + post.content
+    )
+    post.metadata["parent"] = module_name
+
+    # create file
+    file = fileutils.MarkDownFile(f"docs/{module_name}/{site_data}")
     # add content to the file
     file.append_end(frontmatter.dumps(post))
 
@@ -130,6 +167,8 @@ def delete_page(term):
 def main():
     # load data model csv file
     data_model = pd.read_csv(config["data_model"])
+
+    data_model.fillna("", inplace=True)
 
     # pull terms
     term_files = [
@@ -160,6 +199,8 @@ def main():
     ]
 
     list(map(delete_page, to_delete))
+
+    generate_full_table(data_model)
 
 
 if __name__ == "__main__":

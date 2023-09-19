@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Module
-Juvenile,nan,,nan,Metadata
-Post-Juvenile,nan,,nan,Metadata
-Adult,nan,,nan,Metadata
-Other,nan,,nan,Metadata
-Unknown,nan,,nan,Metadata
-Not collected,nan,,nan,Metadata
-Not applicable,nan,,nan,Metadata
+Juvenile,,,,Metadata
+Post-Juvenile,,,,Metadata
+Adult,,,,Metadata
+Other,,,,Metadata
+Unknown,,,,Metadata
+Not collected,,,,Metadata
+Not applicable,,,,Metadata

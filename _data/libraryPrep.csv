@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Module
-amplicon,nan,,nan,Omics
-cellHashing,nan,,nan,Omics
-Chromium Single Cell 3',nan,,nan,Omics
-DNALibraryConstruction,nan,,nan,Omics
-EndItDNAEndRepairKit,nan,,nan,Omics
-KapaHyperPrep,nan,,nan,Omics
-lncRNAenrichment,nan,,nan,Omics
-methylSeq,nan,,nan,Omics
-miRNAenrichment,nan,,nan,Omics
-multiome,nan,,nan,Omics
-MULTIseq,nan,,nan,Omics
-PCRfree,nan,,nan,Omics
-polyAselection,nan,,nan,Omics
-proximity ligation,nan,,nan,Omics
-rRNAdepletion,nan,,nan,Omics
-SPLITseq,nan,,nan,Omics
-STARRSeq,nan,,nan,Omics
-SureCell,nan,,nan,Omics
-totalRNA,nan,,nan,Omics
-OtherLibraryPrep,nan,,nan,Omics
-Unknown,nan,,nan,Omics
-Not collected,nan,,nan,Omics
-Not applicable,nan,,nan,Omics
-Not Specified,nan,,nan,Omics
+amplicon,,,,Omics
+cellHashing,,,,Omics
+Chromium Single Cell 3',,,,Omics
+DNALibraryConstruction,,,,Omics
+EndItDNAEndRepairKit,,,,Omics
+KapaHyperPrep,,,,Omics
+lncRNAenrichment,,,,Omics
+methylSeq,,,,Omics
+miRNAenrichment,,,,Omics
+multiome,,,,Omics
+MULTIseq,,,,Omics
+PCRfree,,,,Omics
+polyAselection,,,,Omics
+proximity ligation,,,,Omics
+rRNAdepletion,,,,Omics
+SPLITseq,,,,Omics
+STARRSeq,,,,Omics
+SureCell,,,,Omics
+totalRNA,,,,Omics
+OtherLibraryPrep,,,,Omics
+Unknown,,,,Omics
+Not collected,,,,Omics
+Not applicable,,,,Omics
+Not Specified,,,,Omics

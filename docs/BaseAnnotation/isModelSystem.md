@@ -9,7 +9,7 @@ title: isModelSystem
 {: .note-title } 
 >isModelSystem
 >
->nan [[Source]](sage.annotations-neuro.isModelSystem-0.0.2)
+> [[Source]](sage.annotations-neuro.isModelSystem-0.0.2)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

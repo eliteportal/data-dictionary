@@ -1,117 +1,117 @@
 Key,Key Description,Type,Source,Module
-10x multiome,nan,,nan,Metadata
-16SrRNAseq,nan,,nan,Metadata
-active avoidance learning behavior,nan,,nan,Metadata
-anxiety-related behavior,nan,,nan,Metadata
-ATACSeq,nan,,nan,Metadata
-atomicForceMicroscopy,nan,,nan,Metadata
-autoradiography,nan,,nan,Metadata
-Baker Lipidomics,nan,,nan,Metadata
-Biocrates Bile Acids,nan,,nan,Metadata
-Biocrates p180,nan,,nan,Metadata
-Biocrates Q500,nan,,nan,Metadata
-bisulfiteSeq,nan,,nan,Metadata
-Blood Chemistry Measurement,nan,,nan,Metadata
-brightfieldMicroscopy,nan,,nan,Metadata
-cellViabilityAssay,nan,,nan,Metadata
-ChIPSeq,nan,,nan,Metadata
-CITESeq,nan,,nan,Metadata
-contextual conditioning behavior,nan,,nan,Metadata
-CUT&Tag,nan,,nan,Metadata
-DIA,nan,,nan,Metadata
-DNA optical mapping,nan,,nan,Metadata
-electrochemiluminescence,nan,,nan,Metadata
-elevated plus maze test,nan,,nan,Metadata
-elevated T maze apparatus method,nan,,nan,Metadata
-ELISA,nan,,nan,Metadata
-errBisulfiteSeq,nan,,nan,Metadata
-exomeSeq,nan,,nan,Metadata
-FIA-MSMS,nan,,nan,Metadata
-FitBark,nan,,nan,Metadata
-frailty assessment,nan,,nan,Metadata
-Genotyping,nan,,nan,Metadata
-HI-C,nan,,nan,Metadata
-HiChIPseq,nan,,nan,Metadata
-high content screen,nan,,nan,Metadata
-HPLC,nan,,nan,Metadata
-HPLC-MSMS,nan,,nan,Metadata
-Immunocytochemistry,nan,,nan,Metadata
-immunofluorescence,nan,,nan,Metadata
-immunohistochemistry,nan,,nan,Metadata
-in vivo bioluminescence,nan,,nan,Metadata
-ISOSeq,nan,,nan,Metadata
-jumpingLibrary,nan,,nan,Metadata
-kinesthetic behavior,nan,,nan,Metadata
-label free mass spectrometry,nan,,nan,Metadata
-Laser Speckle Imaging,nan,,nan,Metadata
-LC-MS,nan,,nan,Metadata
-LC-MSMS,nan,,nan,Metadata
-LC-SRM,nan,,nan,Metadata
-lentiMPRA,nan,,nan,Metadata
-LFP,nan,,nan,Metadata
-liquid chromatography-electrochemical detection,nan,,nan,Metadata
-lncrnaSeq,nan,,nan,Metadata
-locomotor activation behavior,nan,,nan,Metadata
-long-read rnaSeq,nan,,nan,Metadata
-LTP,nan,,nan,Metadata
-MDMS-SL,nan,,nan,Metadata
-memory behavior,nan,,nan,Metadata
-Metabolon,nan,,nan,Metadata
-methylationArray,nan,,nan,Metadata
-MIB/MS,nan,,nan,Metadata
-microRNAcounts,nan,,nan,Metadata
-mirnaArray,nan,,nan,Metadata
-mirnaSeq,nan,,nan,Metadata
-MRI,nan,,nan,Metadata
-mRNAcounts,nan,,nan,Metadata
-MudPIT,nan,,nan,Metadata
-m6A-rnaSeq,nan,,nan,Metadata
-nextGenerationTargetedSequencing,nan,,nan,Metadata
-Nightingale NMR,nan,,nan,Metadata
-NOMe-Seq,nan,,nan,Metadata
-novelty response behavior,nan,,nan,Metadata
-open field test,nan,,nan,Metadata
-oxBS-Seq,nan,,nan,Metadata
-pharmacodynamics,nan,,nan,Metadata
-pharmacokinetics,nan,,nan,Metadata
-photograph,nan,,nan,Metadata
-polymeraseChainReaction,nan,,nan,Metadata
-Positron Emission Tomography,nan,,nan,Metadata
-proximity extension assay,nan,,nan,Metadata
-questionnaire,nan,,nan,Metadata
-Rader Lipidomics,nan,,nan,Metadata
-Real Time PCR,nan,,nan,Metadata
-Ribo-Seq,nan,,nan,Metadata
-rotarod performance test,nan,,nan,Metadata
-rnaArray,nan,,nan,Metadata
-rnaSeq,nan,,nan,Metadata
-RPPA,nan,,nan,Metadata
-sandwich ELISA,nan,,nan,Metadata
-Sanger sequencing,nan,,nan,Metadata
-scale,nan,,nan,Metadata
-scATACSeq,nan,,nan,Metadata
-scCGIseq,nan,,nan,Metadata
-scirnaSeq,nan,,nan,Metadata
-scrnaSeq,nan,,nan,Metadata
-scwholeGenomeSeq,nan,,nan,Metadata
-SiMoA,nan,,nan,Metadata
-snpArray,nan,,nan,Metadata
-snATACSeq,nan,,nan,Metadata
-snrnaSeq,nan,,nan,Metadata
-spontaneous alternation,nan,,nan,Metadata
-STARRSeq,nan,,nan,Metadata
-TMT quantitation,nan,,nan,Metadata
-tractionForceMicroscopy,nan,,nan,Metadata
-UPLC-MSMS,nan,,nan,Metadata
-UPLC-ESI-QTOF-MS,nan,,nan,Metadata
-UC Davis GCTOF,nan,,nan,Metadata
-UCSD Untargeted Metabolomics,nan,,nan,Metadata
-Vernier Caliper,nan,,nan,Metadata
-von Frey test,nan,,nan,Metadata
-westernBlot,nan,,nan,Metadata
-wheel running,nan,,nan,Metadata
-whole-cell patch clamp,nan,,nan,Metadata
-wholeGenomeSeq,nan,,nan,Metadata
-Wishart Catecholamines,nan,,nan,Metadata
-Wishart High Value Metabolites,nan,,nan,Metadata
-Zeno Electronic Walkway,nan,,nan,Metadata
+10x multiome,,,,Metadata
+ 16SrRNAseq,,,,Metadata
+ active avoidance learning behavior,,,,Metadata
+ anxiety-related behavior,,,,Metadata
+ ATACSeq,,,,Metadata
+ atomicForceMicroscopy,,,,Metadata
+ autoradiography,,,,Metadata
+ Baker Lipidomics,,,,Metadata
+ Biocrates Bile Acids,,,,Metadata
+ Biocrates p180,,,,Metadata
+ Biocrates Q500,,,,Metadata
+ bisulfiteSeq,,,,Metadata
+ Blood Chemistry Measurement,,,,Metadata
+ brightfieldMicroscopy,,,,Metadata
+ cellViabilityAssay,,,,Metadata
+ ChIPSeq,,,,Metadata
+ CITESeq,,,,Metadata
+ contextual conditioning behavior,,,,Metadata
+ CUT&Tag,,,,Metadata
+ DIA,,,,Metadata
+ DNA optical mapping,,,,Metadata
+ electrochemiluminescence,,,,Metadata
+ elevated plus maze test,,,,Metadata
+ elevated T maze apparatus method,,,,Metadata
+ ELISA,,,,Metadata
+ errBisulfiteSeq,,,,Metadata
+ exomeSeq,,,,Metadata
+ FIA-MSMS,,,,Metadata
+ FitBark,,,,Metadata
+ frailty assessment,,,,Metadata
+ Genotyping,,,,Metadata
+ HI-C,,,,Metadata
+ HiChIPseq,,,,Metadata
+ high content screen,,,,Metadata
+ HPLC,,,,Metadata
+ HPLC-MSMS,,,,Metadata
+ Immunocytochemistry,,,,Metadata
+ immunofluorescence,,,,Metadata
+ immunohistochemistry,,,,Metadata
+ in vivo bioluminescence,,,,Metadata
+ ISOSeq,,,,Metadata
+ jumpingLibrary,,,,Metadata
+ kinesthetic behavior,,,,Metadata
+ label free mass spectrometry,,,,Metadata
+ Laser Speckle Imaging,,,,Metadata
+ LC-MS,,,,Metadata
+ LC-MSMS,,,,Metadata
+ LC-SRM,,,,Metadata
+ lentiMPRA,,,,Metadata
+ LFP,,,,Metadata
+ liquid chromatography-electrochemical detection,,,,Metadata
+ lncrnaSeq,,,,Metadata
+ locomotor activation behavior,,,,Metadata
+ long-read rnaSeq,,,,Metadata
+ LTP,,,,Metadata
+ MDMS-SL,,,,Metadata
+ memory behavior,,,,Metadata
+ Metabolon,,,,Metadata
+ methylationArray,,,,Metadata
+ MIB/MS,,,,Metadata
+ microRNAcounts,,,,Metadata
+ mirnaArray,,,,Metadata
+ mirnaSeq,,,,Metadata
+ MRI,,,,Metadata
+ mRNAcounts,,,,Metadata
+ MudPIT,,,,Metadata
+ m6A-rnaSeq,,,,Metadata
+ nextGenerationTargetedSequencing,,,,Metadata
+ Nightingale NMR,,,,Metadata
+ NOMe-Seq,,,,Metadata
+ novelty response behavior,,,,Metadata
+ open field test,,,,Metadata
+ oxBS-Seq,,,,Metadata
+ pharmacodynamics,,,,Metadata
+ pharmacokinetics,,,,Metadata
+ photograph,,,,Metadata
+ polymeraseChainReaction,,,,Metadata
+ Positron Emission Tomography,,,,Metadata
+ proximity extension assay,,,,Metadata
+ questionnaire,,,,Metadata
+ Rader Lipidomics,,,,Metadata
+ Real Time PCR,,,,Metadata
+ Ribo-Seq,,,,Metadata
+ rotarod performance test,,,,Metadata
+ rnaArray,,,,Metadata
+ rnaSeq,,,,Metadata
+ RPPA,,,,Metadata
+ sandwich ELISA,,,,Metadata
+ Sanger sequencing,,,,Metadata
+ scale,,,,Metadata
+ scATACSeq,,,,Metadata
+ scCGIseq,,,,Metadata
+ scirnaSeq,,,,Metadata
+ scrnaSeq,,,,Metadata
+ scwholeGenomeSeq,,,,Metadata
+ SiMoA,,,,Metadata
+ snpArray,,,,Metadata
+ snATACSeq,,,,Metadata
+ snrnaSeq,,,,Metadata
+ spontaneous alternation,,,,Metadata
+ STARRSeq,,,,Metadata
+ TMT quantitation,,,,Metadata
+ tractionForceMicroscopy,,,,Metadata
+ UPLC-MSMS,,,,Metadata
+ UPLC-ESI-QTOF-MS,,,,Metadata
+ UC Davis GCTOF,,,,Metadata
+ UCSD Untargeted Metabolomics,,,,Metadata
+ Vernier Caliper,,,,Metadata
+ von Frey test,,,,Metadata
+ westernBlot,,,,Metadata
+ wheel running,,,,Metadata
+ whole-cell patch clamp,,,,Metadata
+ wholeGenomeSeq,,,,Metadata
+ Wishart Catecholamines,,,,Metadata
+ Wishart High Value Metabolites,,,,Metadata
+ Zeno Electronic Walkway,,,,Metadata

@@ -1,0 +1,514 @@
+Key,Key Description,Type,Source,Module
+Abdominal Peritoneum,,,,Metadata
+Accessory Tissue,,,,Metadata
+Acinar Salivary Gland System,,,,Metadata
+Adipose Tissue,,,,Metadata
+Adrenal Cortex,,,,Metadata
+Adrenal Gland Tissue,,,,Metadata
+Adrenal Medulla,,,,Metadata
+Alveolar Duct,,,,Metadata
+Alveolar Epithelium,,,,Metadata
+Alveolar Sac,,,,Metadata
+Alveolar Septum,,,,Metadata
+Anal Mucosa,,,,Metadata
+Aorta Endothelium,,,,Metadata
+Aorta Smooth Muscle Tissue,,,,Metadata
+Arachnoid Membrane,,,,Metadata
+Arterial System Endothelium,,,,Metadata
+Arterial System Smooth Muscle Tissue,,,,Metadata
+Arteriole Endothelium,,,,Metadata
+Arteriole Smooth Muscle Tissue,,,,Metadata
+Artery Endothelium,,,,Metadata
+Artery Smooth Muscle Tissue,,,,Metadata
+Basement Membrane,,,,Metadata
+Basilar Membrane,,,,Metadata
+Basilar Membrane of the Membranous Canal of the Cochlea,,,,Metadata
+Bile Duct Epithelium,,,,Metadata
+Bile Duct Tissue,,,,Metadata
+Bladder Lamina Propria,,,,Metadata
+Bladder Mucosa,,,,Metadata
+Bladder Muscular Coat,,,,Metadata
+Bladder Muscularis Mucosa,,,,Metadata
+Bladder Serosal Surface,,,,Metadata
+Bladder Tissue,,,,Metadata
+Bladder Urothelium,,,,Metadata
+Blood Vessel Endothelium,,,,Metadata
+Blood Vessel Tissue,,,,Metadata
+Bone Matrix,,,,Metadata
+Bone Tissue,,,,Metadata
+Bone Trabeculae,,,,Metadata
+Bowman's Membrane,,,,Metadata
+Brain Arachnoid Membrane,,,,Metadata
+Brain Dura Mater,,,,Metadata
+Brain Gray Matter,,,,Metadata
+Brain Pia Mater,,,,Metadata
+Brain White Matter,,,,Metadata
+Breast Fibroglandular Tissue,,,,Metadata
+Bronchial Epithelium,,,,Metadata
+Bronchiole Epithelium,,,,Metadata
+Bronchus Basement Membrane,,,,Metadata
+Bronchus Connective Tissue,,,,Metadata
+Bronchus Elastic Tissue,,,,Metadata
+Bronchus Lamina Propria,,,,Metadata
+Bronchus Smooth Muscle Tissue,,,,Metadata
+Bronchus Submucosa,,,,Metadata
+Bronchus-Associated Lymphoid Tissue,,,,Metadata
+Brown Adipose Tissue,,,,Metadata
+Buccal Mucosa,,,,Metadata
+Bulbar Conjunctiva,,,,Metadata
+Canalis Radicis Dentis,,,,Metadata
+Capillary Endothelium,,,,Metadata
+Cardiac Tissue,,,,Metadata
+Cartilage Matrix,,,,Metadata
+Cartilaginous Tissue,,,,Metadata
+Cementum,,,,Metadata
+Central Zone of the Prostatic Parenchyma,,,,Metadata
+Cerebellum White Matter,,,,Metadata
+Cerebral Meninges,,,,Metadata
+Cerebral White Matter,,,,Metadata
+Cervix Epithelium,,,,Metadata
+Cervix Glandular Epithelium,,,,Metadata
+Cervix Squamous Epithelium,,,,Metadata
+Choristoma,,,,Metadata
+Choroid,,,,Metadata
+Choroid Plexus Epithelium,,,,Metadata
+Choroid Plexus Epithelium of the Fourth Ventricle,,,,Metadata
+Choroid Plexus Epithelium of the Lateral Ventricle,,,,Metadata
+Ciliary Epithelium,,,,Metadata
+Ciliated Respiratory Mucosa,,,,Metadata
+Classic Lobule,,,,Metadata
+Colonic Mucosa,,,,Metadata
+Columnar Epithelium,,,,Metadata
+Conjunctiva,,,,Metadata
+Conjunctival Epithelium,,,,Metadata
+Connective Tissue,,,,Metadata
+Connective Tissue Component of the Peripheral Nerve,,,,Metadata
+Connective Tissue Proper,,,,Metadata
+Connective and Soft Tissue,,,,Metadata
+Corneal Endothelium,,,,Metadata
+Corneal Epithelium,,,,Metadata
+Corpus Callosum,,,,Metadata
+Cortical Bone,,,,Metadata
+Cortical Cell Layer,,,,Metadata
+Cortical Cell Layer of the Cerebellum,,,,Metadata
+Cortical Cell Layer of the Cerebral Cortex,,,,Metadata
+Crypt Epithelium,,,,Metadata
+Cuboidal Epithelium,,,,Metadata
+Deep Gray Matter,,,,Metadata
+Demineralized Bone Tissue,,,,Metadata
+Dense Connective Tissue,,,,Metadata
+Dental Pulp,,,,Metadata
+Dentin,,,,Metadata
+Dermal Papilla,,,,Metadata
+Dermis,,,,Metadata
+Dermo-Epidermal Junction,,,,Metadata
+Descemet's Membrane,,,,Metadata
+Digestive System Lamina Propria,,,,Metadata
+Duct Salivary Gland System,,,,Metadata
+Ductal Epithelium,,,,Metadata
+Duodenal Mucosa,,,,Metadata
+Dura Mater,,,,Metadata
+Ectocervical Mucosa,,,,Metadata
+Ectoderm,,,,Metadata
+Efferent Ductule Epithelium,,,,Metadata
+Elastic Cartilage,,,,Metadata
+Embryonic Connective Tissue,,,,Metadata
+Embryonic Tissue,,,,Metadata
+Enamel,,,,Metadata
+Endocervical Glandular Epithelium,,,,Metadata
+Endocervical Mucosa,,,,Metadata
+Endocrine Reproductive Tissue,,,,Metadata
+Endoderm,,,,Metadata
+Endometrial Tissue,,,,Metadata
+Endometrium,,,,Metadata
+Endoneurium,,,,Metadata
+Endosteum,,,,Metadata
+Endothelium,,,,Metadata
+Endothelium of the Glomerular Capillary,,,,Metadata
+Ependyma,,,,Metadata
+Ependyma and Remnants of the Central Canal of the Spinal Cord,,,,Metadata
+Epidermis,,,,Metadata
+Epineurium,,,,Metadata
+Episclera,,,,Metadata
+Epithelial Tissue,,,,Metadata
+Epithelium,,,,Metadata
+Esophageal Epithelium,,,,Metadata
+Esophageal Lamina Propria,,,,Metadata
+Esophageal Mucosa,,,,Metadata
+Esophageal Muscular Coat,,,,Metadata
+Esophageal Muscularis Mucosa,,,,Metadata
+Esophageal Serosal Surface,,,,Metadata
+Esophageal Squamous Epithelium,,,,Metadata
+Esophageal Tissue,,,,Metadata
+External Elastic Membrane,,,,Metadata
+External Granular Layer of the Cerebral Cortex,,,,Metadata
+External Pyramidal Cell Layer of the Cerebral Cortex,,,,Metadata
+Extracapsular Tissue,,,,Metadata
+Extracellular Matrix,,,,Metadata
+Extrahepatic Bile Duct Epithelium,,,,Metadata
+Eyelid Connective Tissue,,,,Metadata
+Eyelid Subcutaneous Connective Tissue,,,,Metadata
+Fascicle,,,,Metadata
+Fat Pad,,,,Metadata
+Fibroadipose Tissue,,,,Metadata
+Fibrocartilage,,,,Metadata
+Fibrous Tissue,,,,Metadata
+Foramen Apicis Dentis,,,,Metadata
+Fourth Ventricle Ependyma,,,,Metadata
+Gallbladder Epithelium,,,,Metadata
+Gallbladder Lamina Propria,,,,Metadata
+Gallbladder Serosal Surface,,,,Metadata
+Gallbladder Smooth Muscle Tissue,,,,Metadata
+Ganglion Cell Layer,,,,Metadata
+Ganglionic Layer of the Cerebral Cortex,,,,Metadata
+Gastric Mucosa,,,,Metadata
+Gastric Muscular Coat,,,,Metadata
+Gastric Muscularis Mucosa,,,,Metadata
+Gastric Serosal Surface,,,,Metadata
+Gastric Submucosa,,,,Metadata
+Gastric Tissue,,,,Metadata
+Genital Tubercle,,,,Metadata
+Germinal Center,,,,Metadata
+Germinal Epithelium,,,,Metadata
+Germinal Layer,,,,Metadata
+Germinative Follicular Epithelium,,,,Metadata
+Gingiva,,,,Metadata
+Gingival Epithelium,,,,Metadata
+Gingival Mucosa,,,,Metadata
+Glandular Epithelial Tissue,,,,Metadata
+Glandular Epithelium,,,,Metadata
+Glomerular Basement Membrane,,,,Metadata
+Granular Layer of the Cerebellum,,,,Metadata
+Gray Matter,,,,Metadata
+Gray Matter of the Spinal Cord,,,,Metadata
+Gubernaculum Testis,,,,Metadata
+Gut Epithelium,,,,Metadata
+Gut-Associated Lymphoid Tissue,,,,Metadata
+Hassall's Corpuscle,,,,Metadata
+Haversian Canal,,,,Metadata
+Haversian System,,,,Metadata
+Heart Valve Tissue,,,,Metadata
+Hematopoietic Tissue,,,,Metadata
+Hematopoietic and Lymphoid Tissue,,,,Metadata
+Hepatic Lobule,,,,Metadata
+Hepatic Sinusoid,,,,Metadata
+Hepatic Tissue,,,,Metadata
+Hepatobiliary Tissue,,,,Metadata
+Hyaline Cartilage,,,,Metadata
+Iliotibial Band,,,,Metadata
+Immature Bone,,,,Metadata
+Inner Enamel Epithelium,,,,Metadata
+Inner Limiting Membrane,,,,Metadata
+Inner Membrane Amniotic Membrane Tissue,,,,Metadata
+Inner Nuclear Layer,,,,Metadata
+Inner Plexiform Layer,,,,Metadata
+Interfollicular Area of the Lymph Node,,,,Metadata
+Intermediate Mesoderm,,,,Metadata
+Internal Elastic Membrane,,,,Metadata
+Internal Granular Layer of the Cerebellum,,,,Metadata
+Internal Granular Layer of the Cerebral Cortex,,,,Metadata
+Intestinal Epithelium,,,,Metadata
+Intestinal Mucosa,,,,Metadata
+Intestinal Serosal Surface,,,,Metadata
+Intestinal Smooth Muscle Tissue,,,,Metadata
+Intestinal Wall Tissue,,,,Metadata
+Intrahepatic Bile Duct Epithelium,,,,Metadata
+Intraparenchymal,,,,Metadata
+Irregular Dense Connective Tissue,,,,Metadata
+Islet of Langerhans,,,,Metadata
+Joint Capsule,,,,Metadata
+Juxtaglomerular Apparatus,,,,Metadata
+Lactiferous Duct,,,,Metadata
+Lamella of Harvesian System,,,,Metadata
+Lamina Propria,,,,Metadata
+Large Intestinal Lamina Propria,,,,Metadata
+Large Intestinal Mucosa,,,,Metadata
+Large Intestinal Muscular Coat,,,,Metadata
+Large Intestinal Muscularis Mucosa,,,,Metadata
+Large Intestinal Serosal Surface,,,,Metadata
+Large Intestinal Submucosa,,,,Metadata
+Large Intestinal Wall Tissue,,,,Metadata
+Laryngeal Connective Tissue,,,,Metadata
+Laryngeal Epithelium,,,,Metadata
+Laryngeal Mucosa,,,,Metadata
+Lateral Mesoderm,,,,Metadata
+Lateral Ventricle Ependyma,,,,Metadata
+Layer of the Ophthalmic Nerve Fibers,,,,Metadata
+Layer of the Rods and Cones,,,,Metadata
+Left Lung Alveolar Duct,,,,Metadata
+Leptomeninges,,,,Metadata
+Liver Acinus,,,,Metadata
+Loose Connective Tissue,,,,Metadata
+Lower Gingiva,,,,Metadata
+Lung Tissue,,,,Metadata
+Lymph Node Cortex,,,,Metadata
+Lymph Node Germinal Center,,,,Metadata
+Lymph Node Lymphoid Follicle,,,,Metadata
+Lymph Node Medullary Portion,,,,Metadata
+Lymph Node Sinus,,,,Metadata
+Lymph Node Subcapsular Sinus,,,,Metadata
+Lymph Node Tissue,,,,Metadata
+Lymph Node Trabecula,,,,Metadata
+Lymphatic Vessel Endothelium,,,,Metadata
+Lymphatic Vessel Smooth Muscle Tissue,,,,Metadata
+Lymphoid Follicle,,,,Metadata
+Lymphoid Tissue,,,,Metadata
+Mammary Epithelium,,,,Metadata
+Mammary Gland Tissue,,,,Metadata
+Mantle Zone,,,,Metadata
+Marginal Zone,,,,Metadata
+Marginal Zone of the Lymph Node,,,,Metadata
+Mature Bone,,,,Metadata
+Mediastinal Pleura,,,,Metadata
+Mediastinal Soft Tissue,,,,Metadata
+Medullary Bone,,,,Metadata
+Membrane,,,,Metadata
+Membrane of Reissner,,,,Metadata
+Membrane of the Brain or Spinal Cord,,,,Metadata
+Meningeal Layer of the Dura Mater,,,,Metadata
+Meninges,,,,Metadata
+Mesangium,,,,Metadata
+Mesenchyme,,,,Metadata
+Mesoderm,,,,Metadata
+Mesonephric Remnants,,,,Metadata
+Mesothelium,,,,Metadata
+Molecular Layer of the Cerebellum,,,,Metadata
+Molecular Layer of the Cerebral Cortex,,,,Metadata
+Mucosa,,,,Metadata
+Mucosa of the Lip,,,,Metadata
+Mucosa of the Lower Lip,,,,Metadata
+Mucosa of the Upper Lip,,,,Metadata
+Mucosa-Associated Lymphoid Tissue,,,,Metadata
+Mucous Connective Tissue,,,,Metadata
+Multiform Cell Layer of the Cerebral Cortex,,,,Metadata
+Muscle Layer,,,,Metadata
+Muscle Tissue,,,,Metadata
+Muscularis Mucosa,,,,Metadata
+Myelin Sheath,,,,Metadata
+Myocardium,,,,Metadata
+Myometrium,,,,Metadata
+Nasal Cavity Epithelium,,,,Metadata
+Nasal Cavity Respiratory Epithelium,,,,Metadata
+Nasal Mucosa,,,,Metadata
+Nasal Soft Tissue,,,,Metadata
+Nasopharynx Epithelium,,,,Metadata
+Nephron,,,,Metadata
+Nerve Sheath,,,,Metadata
+Nerve Tissue,,,,Metadata
+Nerve Tissue and Nerve Sheaths,,,,Metadata
+Nerve Tissue,,,,Metadata
+ Neuroepithelial Tissue,,,,Metadata
+ and Nerve Sheaths,,,,Metadata
+Neural Retina,,,,Metadata
+Neuroectoderm,,,,Metadata
+Neuroendocrine Tissue,,,,Metadata
+Neuroepithelial Tissue,,,,Metadata
+Neuropil,,,,Metadata
+Nodular Parenchymal Tissue,,,,Metadata
+Non-Cellular Component,,,,Metadata
+Non-Valve Cardiac Conduit Tissue,,,,Metadata
+Not applicable,,,,Metadata
+Not collected,,,,Metadata
+Ocular Tissue,,,,Metadata
+Odontogenic Ectomesenchyme,,,,Metadata
+Odontogenic Epithelium,,,,Metadata
+Odontogenic Tissue,,,,Metadata
+Olfactory Epithelium,,,,Metadata
+Olfactory Mucosa,,,,Metadata
+Oral Cavity Epithelium,,,,Metadata
+Oral Mucosa,,,,Metadata
+Oropharyngeal Lymphoid Tissue,,,,Metadata
+Oropharyngeal Soft Tissue,,,,Metadata
+Oropharyngeal Tissue,,,,Metadata
+Oropharynx Epithelium,,,,Metadata
+Osteoid,,,,Metadata
+Other,,,,Metadata
+Outer Enamel Epithelium,,,,Metadata
+Outer Limiting Membrane,,,,Metadata
+Outer Nuclear Layer,,,,Metadata
+Outer Plexiform Layer,,,,Metadata
+Ovarian Cortex,,,,Metadata
+Ovarian Medulla,,,,Metadata
+Ovarian Surface Epithelium,,,,Metadata
+Ovarian Tissue,,,,Metadata
+Palpebral Conjunctiva,,,,Metadata
+Pancreatic Acinus,,,,Metadata
+Papillary Dermis,,,,Metadata
+Papillary-Reticular Dermal Interface,,,,Metadata
+Parametrium,,,,Metadata
+Paranasal Sinus Epithelium,,,,Metadata
+Paratesticular Soft Tissue,,,,Metadata
+Parathyroid Gland Epithelial Tissue,,,,Metadata
+Parathyroid Gland Follicle,,,,Metadata
+Parathyroid Gland Tissue,,,,Metadata
+Paraxial Mesoderm,,,,Metadata
+Parenchyma,,,,Metadata
+Parietal Pleura,,,,Metadata
+Pelvic Peritoneum,,,,Metadata
+Penis Erectile Tissue,,,,Metadata
+Perforating Canal,,,,Metadata
+Periarteriolar Lymphoid Sheath,,,,Metadata
+Pericardium,,,,Metadata
+Perineural Tissue,,,,Metadata
+Perineurium,,,,Metadata
+Periodontium,,,,Metadata
+Periorbital Soft Tissue,,,,Metadata
+Periosteum,,,,Metadata
+Peripheral Nerve Sheath,,,,Metadata
+Peripheral Zone of the Prostatic Parenchyma,,,,Metadata
+Perisinusoidal Space,,,,Metadata
+Peritoneum,,,,Metadata
+Periurethral Zone of the Prostatic Parenchyma,,,,Metadata
+Peyer Patch,,,,Metadata
+Peyer Patch Germinal Center,,,,Metadata
+Peyer Patch Lymphoid Follicle,,,,Metadata
+Pia Mater,,,,Metadata
+Pigment Epithelium,,,,Metadata
+Pineal Parenchyma,,,,Metadata
+Placenta Tissue without Amniotic Elements,,,,Metadata
+Pleura,,,,Metadata
+Portal Lobule,,,,Metadata
+Portal Triad,,,,Metadata
+Posterior Pigment Epithelium,,,,Metadata
+Prefrontal Cortex,,,,Metadata
+Prepuce Epithelium,,,,Metadata
+Prostatic Duct Tissue,,,,Metadata
+Prostatic Epithelium,,,,Metadata
+Prostatic Muscular Tissue,,,,Metadata
+Prostatic Stroma,,,,Metadata
+Prostatic Tissue,,,,Metadata
+Pseudostratified Columnar Ciliated Epithelium,,,,Metadata
+Pseudostratified Columnar Epithelium,,,,Metadata
+Pseudostratified Epithelium,,,,Metadata
+Pulmonary Lobule,,,,Metadata
+Purkinje Cell Layer of the Cerebellum,,,,Metadata
+Pyramid of Ferrein,,,,Metadata
+Pyramid of Malpighi,,,,Metadata
+Rathke Pouch Epithelium,,,,Metadata
+Regular Dense Connective Tissue,,,,Metadata
+Remnants of the Central Canal of the Spinal Cord,,,,Metadata
+Remnants of the Notochord,,,,Metadata
+Renal Cortex,,,,Metadata
+Renal Interstitial Tissue,,,,Metadata
+Renal Medulla,,,,Metadata
+Renal Pelvis Urothelium,,,,Metadata
+Renal Pyramid,,,,Metadata
+Renal Tissue,,,,Metadata
+Renal Tubule Basement Membrane,,,,Metadata
+Renal Tubule Epithelium,,,,Metadata
+Reproductive Tissue,,,,Metadata
+Respiratory Bronchiole Epithelium,,,,Metadata
+Reticular Dermis,,,,Metadata
+Retina Layer,,,,Metadata
+Retinal Pigment Epithelium,,,,Metadata
+Right Lung Alveolar Duct,,,,Metadata
+Salivary Gland Tissue,,,,Metadata
+Secondary Tympanic Membrane,,,,Metadata
+Seminal Vesicle Epithelium,,,,Metadata
+Seminiferous Epithelium,,,,Metadata
+Seminiferous Tubule,,,,Metadata
+Serosa,,,,Metadata
+Serosal Surface of the Liver,,,,Metadata
+Sheath of Schwann,,,,Metadata
+Simple Columnar Epithelium,,,,Metadata
+Simple Cuboidal Epithelium,,,,Metadata
+Simple Epithelium,,,,Metadata
+Simple Squamous Epithelium,,,,Metadata
+Skeletal Muscle Tissue,,,,Metadata
+Skin Tissue,,,,Metadata
+Small Intestinal Lamina Propria,,,,Metadata
+Small Intestinal Mucosa,,,,Metadata
+Small Intestinal Muscular Coat,,,,Metadata
+Small Intestinal Muscularis Mucosa,,,,Metadata
+Small Intestinal Serosal Surface,,,,Metadata
+Small Intestinal Submucosa,,,,Metadata
+Small Intestinal Wall Tissue,,,,Metadata
+Smooth Muscle Tissue,,,,Metadata
+Soft Tissue,,,,Metadata
+Spinal Cord Arachnoid Membrane,,,,Metadata
+Spinal Cord Dura Mater,,,,Metadata
+Spinal Cord Pia Mater,,,,Metadata
+Spinal Meninges,,,,Metadata
+Splenic Cord,,,,Metadata
+Splenic Germinal Center,,,,Metadata
+Splenic Lymphoid Follicle,,,,Metadata
+Splenic Marginal Sinus,,,,Metadata
+Splenic Marginal Zone,,,,Metadata
+Splenic Pulp,,,,Metadata
+Splenic Red Pulp,,,,Metadata
+Splenic Sinus,,,,Metadata
+Splenic Tissue,,,,Metadata
+Splenic Trabecula,,,,Metadata
+Splenic White Pulp,,,,Metadata
+Squamous Epithelium,,,,Metadata
+Stratified Columnar Epithelium,,,,Metadata
+Stratified Cuboidal Epithelium,,,,Metadata
+Stratified Epithelium,,,,Metadata
+Stratified Squamous Epithelium,,,,Metadata
+Striated Muscle Tissue,,,,Metadata
+Stroma,,,,Metadata
+Subcapsular Epithelium of the Lens,,,,Metadata
+Subcutis,,,,Metadata
+Subependymal Tissue,,,,Metadata
+Submucosa,,,,Metadata
+Subserosa,,,,Metadata
+Substantia Nigra,,,,Metadata
+Superficial Myometrium,,,,Metadata
+Suprachorioid Lamina,,,,Metadata
+Surface Ectoderm,,,,Metadata
+Synovial Membrane,,,,Metadata
+Tectorial Membrane,,,,Metadata
+Terminal Bronchiole Epithelium,,,,Metadata
+Terminal Ductal Lobular Unit,,,,Metadata
+Testicular Tissue,,,,Metadata
+Thymic Epithelial Tissue,,,,Metadata
+Thymic Lobule,,,,Metadata
+Thymic Lymphoid Tissue,,,,Metadata
+Thymic Tissue,,,,Metadata
+Thymic Trabecula,,,,Metadata
+Thymus Cortex,,,,Metadata
+Thymus Medulla,,,,Metadata
+Thyroid Gland Epithelial Tissue,,,,Metadata
+Thyroid Gland Follicle,,,,Metadata
+Thyroid Gland Tissue,,,,Metadata
+Tongue Epithelium,,,,Metadata
+Tongue Skeletal Muscle Tissue,,,,Metadata
+Tonsillar Lymphoid Tissue,,,,Metadata
+Tonsillar Tissue,,,,Metadata
+Trachea Basement Membrane,,,,Metadata
+Trachea Lamina Propria,,,,Metadata
+Trachea Smooth Muscle Tissue,,,,Metadata
+Trachea Submucosa,,,,Metadata
+Tracheal Epithelium,,,,Metadata
+Transitional Epithelium,,,,Metadata
+Transitional Zone of the Prostatic Parenchyma,,,,Metadata
+Tunica Adventitia,,,,Metadata
+Tunica Intima,,,,Metadata
+Tunica Media,,,,Metadata
+Tympanic Epithelium,,,,Metadata
+Tympanic Membrane,,,,Metadata
+Umbilical Cord Tissue,,,,Metadata
+Unknown,,,,Metadata
+Upper Gingiva,,,,Metadata
+Urachal Epithelium,,,,Metadata
+Urethra Epithelium,,,,Metadata
+Urethra Urothelium,,,,Metadata
+Urothelium,,,,Metadata
+Uterus Serosal Surface,,,,Metadata
+Vaginal Epithelium,,,,Metadata
+Vaginal Squamous Epithelium,,,,Metadata
+Vas Deferens Epithelium,,,,Metadata
+Vascular Endothelium,,,,Metadata
+Vascular Smooth Muscle Tissue,,,,Metadata
+Vein Endothelium,,,,Metadata
+Vena Cava Endothelium,,,,Metadata
+Venous System Endothelium,,,,Metadata
+Venous System Smooth Muscle Tissue,,,,Metadata
+Ventricular Wall of the Heart,,,,Metadata
+Venule Endothelium,,,,Metadata
+Visceral Pleura,,,,Metadata
+Visceral Striated Muscle Tissue,,,,Metadata
+Waldeyer Ring,,,,Metadata
+White Adipose Tissue,,,,Metadata
+White Matter,,,,Metadata
+White Matter of the Spinal Cord,,,,Metadata

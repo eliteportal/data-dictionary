@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Module
-animal,nan,,nan,BaseAnnotation
-cerebral organoid,nan,,nan,BaseAnnotation
-immortalized cell line,nan,,nan,BaseAnnotation
-iPSC,nan,,nan,BaseAnnotation
-organoid,nan,,nan,BaseAnnotation
-primary cell culture,nan,,nan,BaseAnnotation
+animal,,,,BaseAnnotation
+ cerebral organoid,,,,BaseAnnotation
+ immortalized cell line,,,,BaseAnnotation
+ iPSC,,,,BaseAnnotation
+ organoid,,,,BaseAnnotation
+ primary cell culture,,,,BaseAnnotation

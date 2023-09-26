@@ -52,7 +52,7 @@ def load_and_backup_dm(file_path: str, output_dir: str):
     # write out old data model before changes
     file_path = pathlib.Path(file_path).stem + "-" + get_time() + ".csv"
 
-    output_path = pathlib.Path(output_dir, file_path)
+    output_path = pathlib.Path(output_dir, file_path).resolve()
 
     dm.to_csv(output_path, index=False)
 

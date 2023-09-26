@@ -14,7 +14,7 @@ Run `create_CSVs.py`. It will create a CSV for each unique Module found in the d
 
 # Updata Data Model and Metadata Dictionary
 
-<img src="https://github.com/nlee-sage/data_models_elite/blob/7e3e7a8066fe196f4f4b0f8477f0246736945b50/ELITE%20Logo.png" width="300" />
+<img src="https://github.com/eliteportal/data-dictionary/ELITE%20Logo.png" width="300" />
 
 ***Prerequisites:***
 
@@ -73,6 +73,6 @@ Any changes should be done in this [repo](https://github.com/eliteportal/data-mo
 # To Do
 
 - [ ] Update data model attributes with descriptions, types and source
-- [ ] Handling when there is no module
-- [ ] Only pages to generate are ones with key values, empty tables should not be shown
-- [ ] Add full table page
+- [X] (SEP-19-2023): Handling when there is no module
+- [X] (SEP-19-2023): Only pages to generate are ones with key values, empty tables should not be shown
+- [X] (SEP-19-2023): Add full table page

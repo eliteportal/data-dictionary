@@ -8,16 +8,17 @@ Notes:
 """
 
 # update EL model in repo with data-models version
-import utils
+from utils import utils
 import pathlib
 
 
 def main():
     url = "https://raw.githubusercontent.com/eliteportal/data-models/dev/EL.data.model.csv"
-    df = utils.utils.load_and_backup_dm(url, "../backups")
-    df.to_csv(pathlib.Path("../EL.data.model.csv").resolve())
+    df = utils.load_and_backup_dm(url, pathlib.Path("./backups").resolve())
+    df.to_csv(pathlib.Path("./EL.data.model.csv").resolve(), index=False)
+    print(pathlib.Path("./EL.data.model.csv").resolve())
     print("Successfully updated data model")
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()

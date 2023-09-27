@@ -2,6 +2,15 @@
 
 This is the repository hosting [ELITE data model](https://github.com/Sage-Bionetworks/ELITE-data-models/blob/main/models/EL_data_model_v3.csv) and a set of [standardized metadata terms](https://github.com/nlee-sage/data_models_elite/tree/main/_data) that can be used to describe attributes in the data model. The data model defines attributes that are associated with a dataset type (e.g. clinical metadata) and their interdependencies. [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/) pulls the data model when generating metadata template and validates manifests against it. This repository also houses the pipelines and workflows to streamline data model update and metadata dictonary management.
 
+# EL Metadata Dictionary Site
+
+EL Metadata Dictionary is a [Jekyll](https://jekyllrb.com/) site utilizing [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme and is published on [GitHub Pages](https://pages.github.com/).
+
+- `index.md` is the home page
+- `_config.yml` can be used to tweak Jekyll settings, such as theme, title
+- `_data/` folder stores data for Jekyll to use when generating the site
+- files in `docs/` will be accessed by GitHub Actions workflow to build the site
+
 # Setup
 
  a. Change the configuration yaml file to point to correct data model
@@ -43,15 +52,6 @@ Run `create_CSVs.py`. It will create a CSV for each unique Module found in the d
 1. Add and update metadata template csv and markdown files that are used in the metadata dictionary static site and commit the changes to the PR via [update_metadata_dictionary.yml](https://github.com/nlee-sage/data_models_elite/blob/main/.github/workflows/update_metadata_dictionary.yml)
 2. Build and publish the metadata dictionary site on GitHub pages via [pages.yml](https://github.com/nlee-sage/data_models_elite/blob/main/.github/workflows/pages.yml)
 
-# EL Metadata Dictionary Site
-
-EL Metadata Dictionary is a [Jekyll](https://jekyllrb.com/) site utilizing [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme and is published on [GitHub Pages](https://pages.github.com/).
-
-- `index.md` is the home page
-- `_config.yml` can be used to tweak Jekyll settings, such as theme, title
-- `_data/` folder stores data for Jekyll to use when generating the site
-- files in `docs/` will be accessed by GitHub Actions workflow to build the site
-
 ## Customization
 
 You can add additional descriptions to home page or specific page by directly editing `index.md` or markdown files in `docs/`.
@@ -73,6 +73,8 @@ Any changes should be done in this [repo](https://github.com/eliteportal/data-mo
 # To Do
 
 - [ ] Update data model attributes with descriptions, types and source
+- [ ] Fix template names on side bar
+- [ ] Remove terms from side bar with no values in table
 - [X] (SEP-19-2023): Handling when there is no module
 - [X] (SEP-19-2023): Only pages to generate are ones with key values, empty tables should not be shown
 - [X] (SEP-19-2023): Add full table page

@@ -1,97 +1,97 @@
-Key,Key Description,Type,Source,Module
-7z,,,,BaseAnnotation
- ab1,,,,BaseAnnotation
- abf,,,,BaseAnnotation
- avi,,,,BaseAnnotation
- bai,,,,BaseAnnotation
- bam,,,,BaseAnnotation
- bash script,,,,BaseAnnotation
- bcf,,,,BaseAnnotation
- bed,,,,BaseAnnotation
- bed broadPeak,,,,BaseAnnotation
- bed gappedPeak,,,,BaseAnnotation
- bed narrowPeak,,,,BaseAnnotation
- bedgraph,,,,BaseAnnotation
- bgzip,,,,BaseAnnotation
- bigwig,,,,BaseAnnotation
- bim,,,,BaseAnnotation
- bpm,,,,BaseAnnotation
- bsc,,,,BaseAnnotation
- cel,,,,BaseAnnotation
- chp,,,,BaseAnnotation
- cram,,,,BaseAnnotation
- csv,,,,BaseAnnotation
- czi,,,,BaseAnnotation
- dat,,,,BaseAnnotation
- DICOM,,,,BaseAnnotation
- doc,,,,BaseAnnotation
- dup,,,,BaseAnnotation
- excel,,,,BaseAnnotation
- fam,,,,BaseAnnotation
- fasta,,,,BaseAnnotation
- fastq,,,,BaseAnnotation
- fig,,,,BaseAnnotation
- flagstat,,,,BaseAnnotation
- gct,,,,BaseAnnotation
- gff3,,,,BaseAnnotation
- gtf,,,,BaseAnnotation
- gzip,,,,BaseAnnotation
- hdf,,,,BaseAnnotation
- hic,,,,BaseAnnotation
- html,,,,BaseAnnotation
- hyperlink,,,,BaseAnnotation
- idat,,,,BaseAnnotation
- idx,,,,BaseAnnotation
- jpg,,,,BaseAnnotation
- json,,,,BaseAnnotation
- locs,,,,BaseAnnotation
- maf,,,,BaseAnnotation
- mat,,,,BaseAnnotation
- md,,,,BaseAnnotation
- mov,,,,BaseAnnotation
- mp4,,,,BaseAnnotation
- msf,,,,BaseAnnotation
- mtx,,,,BaseAnnotation
- nirs,,,,BaseAnnotation
- pdf,,,,BaseAnnotation
- pdresult,,,,BaseAnnotation
- pdstudy,,,,BaseAnnotation
- pdview,,,,BaseAnnotation
- plink,,,,BaseAnnotation
- png,,,,BaseAnnotation
- powerpoint,,,,BaseAnnotation
- Python script,,,,BaseAnnotation
- pzfx,,,,BaseAnnotation
- R script,,,,BaseAnnotation
- raw,,,,BaseAnnotation
- RCC,,,,BaseAnnotation
- RLF,,,,BaseAnnotation
- RData,,,,BaseAnnotation
- recal,,,,BaseAnnotation
- rmd,,,,BaseAnnotation
- saf,,,,BaseAnnotation
- sam,,,,BaseAnnotation
- sav,,,,BaseAnnotation
- sdf,,,,BaseAnnotation
- seg,,,,BaseAnnotation
- Sentrix descriptor file,,,,BaseAnnotation
- sf3,,,,BaseAnnotation
- sif,,,,BaseAnnotation
- sqlite,,,,BaseAnnotation
- sra,,,,BaseAnnotation
- svg,,,,BaseAnnotation
- svs,,,,BaseAnnotation
- Synapse Table,,,,BaseAnnotation
- tab,,,,BaseAnnotation
- tagAlign,,,,BaseAnnotation
- tar,,,,BaseAnnotation
- tbi,,,,BaseAnnotation
- tif,,,,BaseAnnotation
- tranches,,,,BaseAnnotation
- tsv,,,,BaseAnnotation
- txt,,,,BaseAnnotation
- vcf,,,,BaseAnnotation
- wiggle,,,,BaseAnnotation
- xml,,,,BaseAnnotation
- yaml,,,,BaseAnnotation
- zip,,,,BaseAnnotation
+Key,Key Description,Type,Source,Parent
+7z,,unspecified,,BaseAnnotation
+ ab1,,unspecified,,BaseAnnotation
+ abf,,unspecified,,BaseAnnotation
+ avi,,unspecified,,BaseAnnotation
+ bai,,unspecified,,BaseAnnotation
+ bam,,unspecified,,BaseAnnotation
+ bash script,,unspecified,,BaseAnnotation
+ bcf,,unspecified,,BaseAnnotation
+ bed,,unspecified,,BaseAnnotation
+ bed broadPeak,,unspecified,,BaseAnnotation
+ bed gappedPeak,,unspecified,,BaseAnnotation
+ bed narrowPeak,,unspecified,,BaseAnnotation
+ bedgraph,,unspecified,,BaseAnnotation
+ bgzip,,unspecified,,BaseAnnotation
+ bigwig,,unspecified,,BaseAnnotation
+ bim,,unspecified,,BaseAnnotation
+ bpm,,unspecified,,BaseAnnotation
+ bsc,,unspecified,,BaseAnnotation
+ cel,,unspecified,,BaseAnnotation
+ chp,,unspecified,,BaseAnnotation
+ cram,,unspecified,,BaseAnnotation
+ csv,,unspecified,,BaseAnnotation
+ czi,,unspecified,,BaseAnnotation
+ dat,,unspecified,,BaseAnnotation
+ DICOM,,unspecified,,BaseAnnotation
+ doc,,unspecified,,BaseAnnotation
+ dup,,unspecified,,BaseAnnotation
+ excel,,unspecified,,BaseAnnotation
+ fam,,unspecified,,BaseAnnotation
+ fasta,,unspecified,,BaseAnnotation
+ fastq,,unspecified,,BaseAnnotation
+ fig,,unspecified,,BaseAnnotation
+ flagstat,,unspecified,,BaseAnnotation
+ gct,,unspecified,,BaseAnnotation
+ gff3,,unspecified,,BaseAnnotation
+ gtf,,unspecified,,BaseAnnotation
+ gzip,,unspecified,,BaseAnnotation
+ hdf,,unspecified,,BaseAnnotation
+ hic,,unspecified,,BaseAnnotation
+ html,,unspecified,,BaseAnnotation
+ hyperlink,,unspecified,,BaseAnnotation
+ idat,,unspecified,,BaseAnnotation
+ idx,,unspecified,,BaseAnnotation
+ jpg,,unspecified,,BaseAnnotation
+ json,,unspecified,,BaseAnnotation
+ locs,,unspecified,,BaseAnnotation
+ maf,,unspecified,,BaseAnnotation
+ mat,,unspecified,,BaseAnnotation
+ md,,unspecified,,BaseAnnotation
+ mov,,unspecified,,BaseAnnotation
+ mp4,,unspecified,,BaseAnnotation
+ msf,,unspecified,,BaseAnnotation
+ mtx,,unspecified,,BaseAnnotation
+ nirs,,unspecified,,BaseAnnotation
+ pdf,,unspecified,,BaseAnnotation
+ pdresult,,unspecified,,BaseAnnotation
+ pdstudy,,unspecified,,BaseAnnotation
+ pdview,,unspecified,,BaseAnnotation
+ plink,,unspecified,,BaseAnnotation
+ png,,unspecified,,BaseAnnotation
+ powerpoint,,unspecified,,BaseAnnotation
+ Python script,,unspecified,,BaseAnnotation
+ pzfx,,unspecified,,BaseAnnotation
+ R script,,unspecified,,BaseAnnotation
+ raw,,unspecified,,BaseAnnotation
+ RCC,,unspecified,,BaseAnnotation
+ RLF,,unspecified,,BaseAnnotation
+ RData,,unspecified,,BaseAnnotation
+ recal,,unspecified,,BaseAnnotation
+ rmd,,unspecified,,BaseAnnotation
+ saf,,unspecified,,BaseAnnotation
+ sam,,unspecified,,BaseAnnotation
+ sav,,unspecified,,BaseAnnotation
+ sdf,,unspecified,,BaseAnnotation
+ seg,,unspecified,,BaseAnnotation
+ Sentrix descriptor file,,unspecified,,BaseAnnotation
+ sf3,,unspecified,,BaseAnnotation
+ sif,,unspecified,,BaseAnnotation
+ sqlite,,unspecified,,BaseAnnotation
+ sra,,unspecified,,BaseAnnotation
+ svg,,unspecified,,BaseAnnotation
+ svs,,unspecified,,BaseAnnotation
+ Synapse Table,,unspecified,,BaseAnnotation
+ tab,,unspecified,,BaseAnnotation
+ tagAlign,,unspecified,,BaseAnnotation
+ tar,,unspecified,,BaseAnnotation
+ tbi,,unspecified,,BaseAnnotation
+ tif,,unspecified,,BaseAnnotation
+ tranches,,unspecified,,BaseAnnotation
+ tsv,,unspecified,,BaseAnnotation
+ txt,,unspecified,,BaseAnnotation
+ vcf,,unspecified,,BaseAnnotation
+ wiggle,,unspecified,,BaseAnnotation
+ xml,,unspecified,,BaseAnnotation
+ yaml,,unspecified,,BaseAnnotation
+ zip,,unspecified,,BaseAnnotation

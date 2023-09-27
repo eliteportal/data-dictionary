@@ -1,8 +1,7 @@
-Key,Key Description,Type,Source,Module
-in-solution,,,,Unspecified
-in-gel,,,,Unspecified
-OtherDigestionMethod,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherDigestionMethodDigestionMethod,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+in-gel,,STRING,,unspecified
+in-solution,,STRING,,unspecified

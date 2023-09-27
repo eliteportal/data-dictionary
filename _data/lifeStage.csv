@@ -1,8 +1,8 @@
-Key,Key Description,Type,Source,Module
-Juvenile,,,,Metadata
-Post-Juvenile,,,,Metadata
-Adult,,,,Metadata
-Other,,,,Metadata
-Unknown,,,,Metadata
-Not collected,,,,Metadata
-Not applicable,,,,Metadata
+Key,Key Description,Type,Source,Parent
+Adult,,STRING,,unspecified
+Juvenile,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherLifeStage,,STRING,,unspecified
+Post-Juvenile,,STRING,,unspecified
+Unknown,,STRING,,unspecified

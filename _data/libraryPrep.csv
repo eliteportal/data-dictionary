@@ -1,25 +1,25 @@
-Key,Key Description,Type,Source,Module
-amplicon,,,,Omics
-cellHashing,,,,Omics
-Chromium Single Cell 3',,,,Omics
-DNALibraryConstruction,,,,Omics
-EndItDNAEndRepairKit,,,,Omics
-KapaHyperPrep,,,,Omics
-lncRNAenrichment,,,,Omics
-methylSeq,,,,Omics
-miRNAenrichment,,,,Omics
-multiome,,,,Omics
-MULTIseq,,,,Omics
-PCRfree,,,,Omics
-polyAselection,,,,Omics
-proximity ligation,,,,Omics
-rRNAdepletion,,,,Omics
-SPLITseq,,,,Omics
-STARRSeq,,,,Omics
-SureCell,,,,Omics
-totalRNA,,,,Omics
-OtherLibraryPrep,,,,Omics
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
-Not Specified,,,,Omics
+Key,Key Description,Type,Source,Parent
+Chromium Single Cell 3',,STRING,,unspecified
+DNALibraryConstruction,,STRING,,unspecified
+EndItDNAEndRepairKit,,STRING,,unspecified
+KapaHyperPrep,,STRING,,unspecified
+MULTIseq,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherLibraryPrepLibraryPrep,,STRING,,unspecified
+PCRfree,,STRING,,unspecified
+SPLITseq,,STRING,,unspecified
+STARRSeq,,STRING,,unspecified
+SureCell,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+amplicon,,STRING,,unspecified
+cellHashing,,STRING,,unspecified
+lncRNAenrichment,,STRING,,unspecified
+methylSeq,,STRING,,unspecified
+miRNAenrichment,,STRING,,unspecified
+multiome,,STRING,,unspecified
+polyAselection,,STRING,,unspecified
+proximity ligation,,STRING,,unspecified
+rRNAdepletion,,STRING,,unspecified
+totalRNA,,STRING,,unspecified

@@ -1,55 +1,55 @@
-Key,Key Description,Type,Source,Module
-AFU,,,,Unspecified
-AI,,,,Unspecified
-AU/ml,,,,Unspecified
-DK units/ml,,,,Unspecified
-g/dl,,,,Unspecified
-g/l,,,,Unspecified
-gm,,,,Unspecified
-HAU,,,,Unspecified
-IU,,,,Unspecified
-iu/l,,,,Unspecified
-IU/ml,,,,Unspecified
-Kallikrein Inactivator Unit per Milliliter,,,,Unspecified
-kg,,,,Unspecified
-l,,,,Unspecified
-M,,,,Unspecified
-mg,,,,Unspecified
-mg/dl,,,,Unspecified
-mg/l,,,,Unspecified
-mg/ml,,,,Unspecified
-miu/ml,,,,Unspecified
-ml,,,,Unspecified
-mM,,,,Unspecified
-MOI,,,,Unspecified
-ng,,,,Unspecified
-ng/dl,,,,Unspecified
-ng/ml,,,,Unspecified
-ng/nl,,,,Unspecified
-ng/ul,,,,Unspecified
-nl,,,,Unspecified
-nM,,,,Unspecified
-Not Specified,,,,Unspecified
-NPX,,,,Unspecified
-optical density,,,,Unspecified
-PFU,,,,Unspecified
-PFUe,,,,Unspecified
-pg,,,,Unspecified
-pg/mg creatinine,,,,Unspecified
-pg/ml,,,,Unspecified
-pg/nl,,,,Unspecified
-pg/ul,,,,Unspecified
-pl,,,,Unspecified
-pM,,,,Unspecified
-Pound,,,,Unspecified
-TCID50,,,,Unspecified
-ug,,,,Unspecified
-ug/dl,,,,Unspecified
-ug/l,,,,Unspecified
-ug/ml,,,,Unspecified
-ug/ul,,,,Unspecified
-uiu/ml,,,,Unspecified
-ul,,,,Unspecified
-uM,,,,Unspecified
-umol/l,,,,Unspecified
-units/ml,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+AFU,,NUMBER,,unspecified
+AI,,NUMBER,,unspecified
+AU/ml,,NUMBER,,unspecified
+DK units/ml,,NUMBER,,unspecified
+HAU,,NUMBER,,unspecified
+IU,,NUMBER,,unspecified
+IU/ml,,NUMBER,,unspecified
+Kallikrein Inactivator Unit per Milliliter,,NUMBER,,unspecified
+M,,NUMBER,,unspecified
+MOI,,NUMBER,,unspecified
+NPX,,NUMBER,,unspecified
+Not Specified,,NUMBER,,unspecified
+PFU,,NUMBER,,unspecified
+PFUe,,NUMBER,,unspecified
+Pound,,NUMBER,,unspecified
+TCID50,,NUMBER,,unspecified
+g/dl,,NUMBER,,unspecified
+g/l,,NUMBER,,unspecified
+gm,,NUMBER,,unspecified
+iu/l,,NUMBER,,unspecified
+kg,,NUMBER,,unspecified
+l,,NUMBER,,unspecified
+mM,,NUMBER,,unspecified
+mg,,NUMBER,,unspecified
+mg/dl,,NUMBER,,unspecified
+mg/l,,NUMBER,,unspecified
+mg/ml,,NUMBER,,unspecified
+miu/ml,,NUMBER,,unspecified
+ml,,NUMBER,,unspecified
+nM,,NUMBER,,unspecified
+ng,,NUMBER,,unspecified
+ng/dl,,NUMBER,,unspecified
+ng/ml,,NUMBER,,unspecified
+ng/nl,,NUMBER,,unspecified
+ng/ul,,NUMBER,,unspecified
+nl,,NUMBER,,unspecified
+optical density,,NUMBER,,unspecified
+pM,,NUMBER,,unspecified
+pg,,NUMBER,,unspecified
+pg/mg creatinine,,NUMBER,,unspecified
+pg/ml,,NUMBER,,unspecified
+pg/nl,,NUMBER,,unspecified
+pg/ul,,NUMBER,,unspecified
+pl,,NUMBER,,unspecified
+uM,,NUMBER,,unspecified
+ug,,NUMBER,,unspecified
+ug/dl,,NUMBER,,unspecified
+ug/l,,NUMBER,,unspecified
+ug/ml,,NUMBER,,unspecified
+ug/ul,,NUMBER,,unspecified
+uiu/ml,,NUMBER,,unspecified
+ul,,NUMBER,,unspecified
+umol/l,,NUMBER,,unspecified
+units/ml,,NUMBER,,unspecified

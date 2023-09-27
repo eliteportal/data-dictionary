@@ -1,6 +1,6 @@
-Key,Key Description,Type,Source,Module
-TRUE,,,,Omics
-FALSE,,,,Omics
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
+Key,Key Description,Type,Source,Parent
+False,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+True,,STRING,,unspecified
+Unknown,,STRING,,unspecified

@@ -1,14 +1,12 @@
-Key,Key Description,Type,Source,Module
-Centenarian,,,,Metadata
-US Family,,,,Metadata
-Denmark Family,,,,Metadata
-The Osteoporotic Fractures in Men (MrOS) Study,,,,Metadata
-Study of Osteoporotic Fractures (SOF),,,,Metadata
-The Health,,,,Metadata
-Aging,,,,Metadata
-and Body Composition Study (HealthABC),,,,Metadata
-Cardiovascular Health Study (CHS),,,,Metadata
-Other,,,,Metadata
-Unknown,,,,Metadata
-Not collected,,,,Metadata
-Not applicable,,,,Metadata
+Key,Key Description,Type,Source,Parent
+Cardiovascular Health Study (CHS),,STRING,,unspecified
+Centenarian,,STRING,,unspecified
+Denmark Family,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherCohort,,STRING,,unspecified
+Study of Osteoporotic Fractures (SOF),,STRING,,unspecified
+The Health and Aging and Body Composition Study (HealthABC),,STRING,,unspecified
+The Osteoporotic Fractures in Men (MrOS) Study,,STRING,,unspecified
+US Family,,STRING,,unspecified
+Unknown,,STRING,,unspecified

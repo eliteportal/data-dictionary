@@ -5,16 +5,12 @@ Contributors: Nicholas Lee
 """
 
 # import packages
-import codecs
 from jinja2 import Template
 import os
 import yaml
 import pandas as pd
 import shutil
 
-import term_file_manager as tfm
-import term_page_manager as tpm
-import update_template_page as utp
 
 with open("./_config.yml", "r") as f:
     config = yaml.safe_load(f)

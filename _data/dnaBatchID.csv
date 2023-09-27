@@ -1,5 +1,6 @@
-Key,Key Description,Type,Source,Module
-Other,,,,Omics
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
+Key,Key Description,Type,Source,Parent
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherDnaBatchID,,STRING,,unspecified
+Unknown,,STRING,,unspecified

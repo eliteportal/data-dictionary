@@ -1,4 +1,4 @@
-Key,Key Description,Type,Source,Module
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+Unknown,,STRING,,unspecified

@@ -1,7 +1,8 @@
-Key,Key Description,Type,Source,Module
-TargetedMsTarget,,,,Unspecified
-UnTargetedMsTarget,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+TargetedMsTarget,,STRING,,unspecified
+UnTargetedMsTarget,,STRING,,unspecified
+UnTargetedMsTargetUnknown,,STRING,,unspecified
+Unknown,,STRING,,unspecified

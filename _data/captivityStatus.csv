@@ -1,8 +1,8 @@
-Key,Key Description,Type,Source,Module
-CaptiveCaptivityStatus,,,,Metadata
-Stranded,,,,Metadata
-Wild,,,,Metadata
-Other,,,,Metadata
-Unknown,,,,Metadata
-Not collected,,,,Metadata
-Not applicable,,,,Metadata
+Key,Key Description,Type,Source,Parent
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherCaptivityStatus,,STRING,,unspecified
+Stranded,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+Wild,,STRING,,unspecified
+captiveCaptivityStatus,,STRING,,unspecified

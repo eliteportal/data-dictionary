@@ -2,8 +2,8 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/ Rnaseq.html
-title: ' Rnaseq'
+permalink: docs/ RNAseq.html
+title: ' RNAseq'
 ---
 
 {% assign mydata=site.data.RNAseq %} 

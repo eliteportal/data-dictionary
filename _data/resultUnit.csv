@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Module
-FPKM,,,,Unspecified
-RPKM,,,,Unspecified
-TPM,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+FPKM,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+RPKM,,STRING,,unspecified
+TPM,,STRING,,unspecified

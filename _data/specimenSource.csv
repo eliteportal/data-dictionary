@@ -1,27 +1,5 @@
-Key,Key Description,Type,Source,Module
-Not applicable,,,,Unspecified
-Not collected,,,,Unspecified
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-alveolar capillary type 1 endothelial cell,,,,Unspecified
-alveolar capillary type 2 endothelial cell,,,,Unspecified
-blood vessel endothelial cell,,,,Unspecified
-capillary endothelial cell,,,,Unspecified
-endometrial microvascular endothelial cell,,,,Unspecified
-endothelial cell of arteriole,,,,Unspecified
-endothelial cell of artery,,,,Unspecified
-endothelial cell of high endothelial venule,,,,Unspecified
-endothelial cell of sinusoid,,,,Unspecified
-endothelial cell of venule,,,,Unspecified
-glomerular capillary endothelial cell,,,,Unspecified
-kidney afferent arteriole endothelial cell,,,,Unspecified
-kidney capillary endothelial cell,,,,Unspecified
-kidney efferent arteriole endothelial cell,,,,Unspecified
-peritubular capillary endothelial cell,,,,Unspecified
-placental villus capillary endothelial cell,,,,Unspecified
-pulmonary capillary endothelial cell,,,,Unspecified
-vasa recta ascending limb cell,,,,Unspecified
-vasa recta cell,,,,Unspecified
-vasa recta descending limb cell,,,,Unspecified
-vein endothelial cell,,,,Unspecified
-vein endothelial cell of respiratory system,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherSpecimenSource,,STRING,,unspecified
+Unknown,,STRING,,unspecified

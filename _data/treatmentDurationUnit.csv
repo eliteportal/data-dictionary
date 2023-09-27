@@ -1,10 +1,10 @@
-Key,Key Description,Type,Source,Module
-d.p.c.,,,,Unspecified
-Days,,,,Unspecified
-Hours,,,,Unspecified
-Minutes,,,,Unspecified
-Months,,,,Unspecified
-Not Specified,,,,Unspecified
-Seconds,,,,Unspecified
-Weeks,,,,Unspecified
-Years,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Days,,STRING,,unspecified
+Hours,,STRING,,unspecified
+Minutes,,STRING,,unspecified
+Months,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Seconds,,STRING,,unspecified
+Weeks,,STRING,,unspecified
+Years,,STRING,,unspecified
+d.p.c.,,STRING,,unspecified

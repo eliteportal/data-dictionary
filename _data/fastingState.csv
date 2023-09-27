@@ -1,7 +1,7 @@
-Key,Key Description,Type,Source,Module
-TRUE,,,,Unspecified
-FALSE,,,,Unspecified
-Other,,,,Unspecified
-Uknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+False,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherFastingState,,STRING,,unspecified
+True,,STRING,,unspecified
+Unknown,,STRING,,unspecified

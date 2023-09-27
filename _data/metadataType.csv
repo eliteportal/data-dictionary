@@ -1,9 +1,9 @@
-Key,Key Description,Type,Source,Module
-analytical covariates,,,,BaseAnnotation
- assay,,,,BaseAnnotation
- biospecimen,,,,BaseAnnotation
- data dictionary,,,,BaseAnnotation
- ID mapping,,,,BaseAnnotation
- individual,,,,BaseAnnotation
- manifest,,,,BaseAnnotation
- protocol,,,,BaseAnnotation
+Key,Key Description,Type,Source,Parent
+analytical covariates,,unspecified,,BaseAnnotation
+ assay,,unspecified,,BaseAnnotation
+ biospecimen,,unspecified,,BaseAnnotation
+ data dictionary,,unspecified,,BaseAnnotation
+ ID mapping,,unspecified,,BaseAnnotation
+ individual,,unspecified,,BaseAnnotation
+ manifest,,unspecified,,BaseAnnotation
+ protocol,,unspecified,,BaseAnnotation

@@ -1,10 +1,10 @@
-Key,Key Description,Type,Source,Module
-Label Free,,,,Unspecified
-TMT,,,,Unspecified
-ITRAQ,,,,Unspecified
-SILAC,,,,Unspecified
-Targeted Absolute Quantitation,,,,Unspecified
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+ITRAQ,,STRING,,unspecified
+Label Free,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherProtoemicsAssayType,,STRING,,unspecified
+SILAC,,STRING,,unspecified
+TMT,,STRING,,unspecified
+Targeted Absolute Quantitation,,STRING,,unspecified
+Unknown,,STRING,,unspecified

@@ -1,12 +1,12 @@
-Key,Key Description,Type,Source,Module
-bulk cell,,,,Unspecified
-single cell,,,,Unspecified
-bulk nuclei,,,,Unspecified
-single nucleus,,,,Unspecified
-mitochondria,,,,Unspecified
-sorted cells,,,,Unspecified
-sorted nuclei,,,,Unspecified
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherNucleicAcidSource,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+bulk cell,,STRING,,unspecified
+bulk nuclei,,STRING,,unspecified
+mitochondria,,STRING,,unspecified
+single cell,,STRING,,unspecified
+single nucleus,,STRING,,unspecified
+sorted cells,,STRING,,unspecified
+sorted nuclei,,STRING,,unspecified

@@ -1,9 +1,9 @@
-Key,Key Description,Type,Source,Module
-Protein,,,,Unspecified
-metabolite,,,,Unspecified
-Lipid,,,,Unspecified
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Lipid,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherMsAnalyteType,,STRING,,unspecified
+Protein,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+metabolite,,STRING,,unspecified

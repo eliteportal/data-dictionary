@@ -1,64 +1,64 @@
-Key,Key Description,Type,Source,Module
-10x Visium Spatial Gene Expression,,,,Omics
-Affymetrix Genome-Wide Human SNP 5.0 Array,,,,Omics
-Affymetrix Genome-Wide Human SNP 6.0 Array,,,,Omics
-Affymetrix Human Gene 1.0 ST Array,,,,Omics
-Affymetrix Human Genome U133 Plus 2.0 Array,,,,Omics
-Affymetrix U133AB,,,,Omics
-Agilent 44Karray,,,,Omics
-BGISEQ-500,,,,Omics
-Bionano Irys,,,,Omics
-Cherry Imaging FACE Platform,,,,Omics
-Cherry Imaging TRACE Platform,,,,Omics
-Chromium X,,,,Omics
-EnVision 2103 Multiplate Reader,,,,Omics
-Illumina 1M,,,,Omics
-Illumina Genome Analyzer IIx,,,,Omics
-Illumina h650,,,,Omics
-Illumina HiSeq 2000,,,,Omics
-Illumina HiSeq 2500,,,,Omics
-Illumina HiSeq 3000,,,,Omics
-Illumina HiSeq 4000,,,,Omics
-Illumina HiSeq X,,,,Omics
-Illumina Human660W-Quad v1.0 BeadChip,,,,Omics
-Illumina HumanHap300,,,,Omics
-Illumina HumanMethylation450,,,,Omics
-Illumina HumanOmni1-Quadv1.0,,,,Omics
-Illumina HumanOmniExpress-24 v1.0 BeadChip,,,,Omics
-Illumina HumanOmniExpress-24 v1.2 BeadChip,,,,Omics
-Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),,,,Omics
-Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,,,,Omics
-Illumina MouseWG-6 v2.0 expression BeadChip,,,,Omics
-Illumina NextSeq 1000,,,,Omics
-Illumina NextSeq 2000,,,,Omics
-Illumina NextSeq 500,,,,Omics
-Illumina NextSeq 550,,,,Omics
-Illumina NovaSeq 6000,,,,Omics
-Illumina Omni2pt5M,,,,Omics
-Illumina Omni5M,,,,Omics
-Illumina WholeGenome DASL,,,,Omics
-Infinium HumanOmniExpressExome,,,,Omics
-LI-COR Odyssey CLx,,,,Omics
-LifeViz Infinity System,,,,Omics
-LifeViz Micro System,,,,Omics
-LTQ Orbitrap XL,,,,Omics
-Nanostring Counter,,,,Omics
-Nanostring GeoMx,,,,Omics
-Olympus DP80,,,,Omics
-Orbitrap Fusion Lumos Tribrid,,,,Omics
-PacBio RS II,,,,Omics
-PacBio Sequel II System,,,,Omics
-PacBio Sequel IIe System,,,,Omics
-Perlegen 300Karray,,,,Omics
-Promega GloMax Discover,,,,Omics
-Q Exative HF,,,,Omics
-scale,,,,Omics
-Spectramax M Series,,,,Omics
-Vectra H1 3D Imaging System,,,,Omics
-Vevo 3100 Imaging System,,,,Omics
-Zeiss LSM 980,,,,Omics
-OtherTechnologyPlatformVersion,,,,Omics
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
-Not Specified,,,,Omics
+Key,Key Description,Type,Source,Parent
+10x Visium Spatial Gene Expression,,STRING,,unspecified
+Affymetrix Genome-Wide Human SNP 5.0 Array,,STRING,,unspecified
+Affymetrix Genome-Wide Human SNP 6.0 Array,,STRING,,unspecified
+Affymetrix Human Gene 1.0 ST Array,,STRING,,unspecified
+Affymetrix Human Genome U133 Plus 2.0 Array,,STRING,,unspecified
+Affymetrix U133AB,,STRING,,unspecified
+Agilent 44Karray,,STRING,,unspecified
+BGISEQ-500,,STRING,,unspecified
+Bionano Irys,,STRING,,unspecified
+Cherry Imaging FACE Platform,,STRING,,unspecified
+Cherry Imaging TRACE Platform,,STRING,,unspecified
+Chromium X,,STRING,,unspecified
+EnVision 2103 Multiplate Reader,,STRING,,unspecified
+Illumina 1M,,STRING,,unspecified
+Illumina Genome Analyzer IIx,,STRING,,unspecified
+Illumina HiSeq 2000,,STRING,,unspecified
+Illumina HiSeq 2500,,STRING,,unspecified
+Illumina HiSeq 3000,,STRING,,unspecified
+Illumina HiSeq 4000,,STRING,,unspecified
+Illumina HiSeq X,,STRING,,unspecified
+Illumina Human660W-Quad v1.0 BeadChip,,STRING,,unspecified
+Illumina HumanHap300,,STRING,,unspecified
+Illumina HumanMethylation450,,STRING,,unspecified
+Illumina HumanOmni1-Quadv1.0,,STRING,,unspecified
+Illumina HumanOmniExpress-24 v1.0 BeadChip,,STRING,,unspecified
+Illumina HumanOmniExpress-24 v1.2 BeadChip,,STRING,,unspecified
+Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),,STRING,,unspecified
+Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,,STRING,,unspecified
+Illumina MouseWG-6 v2.0 expression BeadChip,,STRING,,unspecified
+Illumina NextSeq 1000,,STRING,,unspecified
+Illumina NextSeq 2000,,STRING,,unspecified
+Illumina NextSeq 500,,STRING,,unspecified
+Illumina NextSeq 550,,STRING,,unspecified
+Illumina NovaSeq 6000,,STRING,,unspecified
+Illumina Omni2pt5M,,STRING,,unspecified
+Illumina Omni5M,,STRING,,unspecified
+Illumina WholeGenome DASL,,STRING,,unspecified
+Illumina h650,,STRING,,unspecified
+Infinium HumanOmniExpressExome,,STRING,,unspecified
+LI-COR Odyssey CLx,,STRING,,unspecified
+LTQ Orbitrap XL,,STRING,,unspecified
+LifeViz Infinity System,,STRING,,unspecified
+LifeViz Micro System,,STRING,,unspecified
+Nanostring Counter,,STRING,,unspecified
+Nanostring GeoMx,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+Olympus DP80,,STRING,,unspecified
+Orbitrap Fusion Lumos Tribrid,,STRING,,unspecified
+OtherTechnologyPlatformVersionTechnologyPlatformVersion,,STRING,,unspecified
+PacBio RS II,,STRING,,unspecified
+PacBio Sequel II System,,STRING,,unspecified
+PacBio Sequel IIe System,,STRING,,unspecified
+Perlegen 300Karray,,STRING,,unspecified
+Promega GloMax Discover,,STRING,,unspecified
+Q Exative HF,,STRING,,unspecified
+Spectramax M Series,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+Vectra H1 3D Imaging System,,STRING,,unspecified
+Vevo 3100 Imaging System,,STRING,,unspecified
+Zeiss LSM 980,,STRING,,unspecified
+scale,,STRING,,unspecified

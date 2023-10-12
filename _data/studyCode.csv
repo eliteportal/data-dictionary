@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Module
-LC,,,,Metadata
-LG,,,,Metadata
-ILO,,,,Metadata
-LLFS,,,,Metadata
+Key,Key Description,Type,Source,Parent
+ILO,,STRING,,unspecified
+LC,,STRING,,unspecified
+LG,,STRING,,unspecified
+LLFS,,STRING,,unspecified

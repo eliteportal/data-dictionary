@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Module
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
-Not Specified,,,,Omics
+Key,Key Description,Type,Source,Parent
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+Unknown,,STRING,,unspecified

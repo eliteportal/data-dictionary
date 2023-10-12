@@ -1,10 +1,10 @@
-Key,Key Description,Type,Source,Module
-MassBank of North America (MoNA),,,,Unspecified
-NIST17,,,,Unspecified
-Metlin,,,,Unspecified
-HMDB,,,,Unspecified
-OtherDatabaseName,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+HMDB,,STRING,,unspecified
+MassBank of North America (MoNA),,STRING,,unspecified
+Metlin,,STRING,,unspecified
+NIST17,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherDatabaseNameDatabaseName,,STRING,,unspecified
+Unknown,,STRING,,unspecified

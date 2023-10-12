@@ -1,16 +1,16 @@
-Key,Key Description,Type,Source,Module
-blood,,,,Unspecified
-Plasma,,,,Unspecified
-Urine,,,,Unspecified
-Saliva,,,,Unspecified
-stool,,,,Unspecified
-Serum,,,,Unspecified
-tissue,,,,Unspecified
-swabs,,,,Unspecified
-Sputum,,,,Unspecified
-Cerebrospinal Fluid (CSF),,,,Unspecified
-organoid,,,,Unspecified
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Cerebrospinal Fluid (CSF),,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherSpecimenType,,STRING,,unspecified
+Plasma,,STRING,,unspecified
+Saliva,,STRING,,unspecified
+Serum,,STRING,,unspecified
+Sputum,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+Urine,,STRING,,unspecified
+blood,,STRING,,unspecified
+organoid,,STRING,,unspecified
+stool,,STRING,,unspecified
+swabs,,STRING,,unspecified
+tissue,,STRING,,unspecified

@@ -1,89 +1,89 @@
-Key,Key Description,Type,Source,Module
-Amniotic Fluid,,,,Unspecified
-Appendix,,,,Unspecified
-B cell,,,,Unspecified
-Basophils,,,,Unspecified
-Bone,,,,Unspecified
-Bone Marrow,,,,Unspecified
-Brachial lymph node,,,,Unspecified
-brain,,,,Unspecified
-Breast Milk,,,,Unspecified
-Bronchoalveolar Lavage Fluid,,,,Unspecified
-Carbohydrate,,,,Unspecified
-Cell culture supernatant,,,,Unspecified
-cell line,,,,Unspecified
-Cerebrospinal Fluid,,,,Unspecified
-Cervical lymph nodes,,,,Unspecified
-Colon,,,,Unspecified
-Colonic Lamina Propria,,,,Unspecified
-Convalescent Plasma,,,,Unspecified
-Cord blood,,,,Unspecified
-Dendritic cell,,,,Unspecified
-Dermis,,,,Unspecified
-DNA,,,,Unspecified
-Dried Blood Spot,,,,Unspecified
-Endotracheal aspirate,,,,Unspecified
-Epithelium,,,,Unspecified
-Feces,,,,Unspecified
-Fibroblast,,,,Unspecified
-Gastric lamina propria,,,,Unspecified
-Ileum,,,,Unspecified
-Inguinal lymph node,,,,Unspecified
-Jejunum,,,,Unspecified
-Kidney,,,,Unspecified
-Leukocytes,,,,Unspecified
-Lipid,,,,Unspecified
-Liver,,,,Unspecified
-Lung,,,,Unspecified
-Lung lymph node,,,,Unspecified
-Lymph node,,,,Unspecified
-Lymphocyte,,,,Unspecified
-Macrophage,,,,Unspecified
-Mesenteric lymph node,,,,Unspecified
-Monocyte,,,,Unspecified
-Mouse Ear,,,,Unspecified
-Nasal lavage fluid,,,,Unspecified
-Nasal Swab,,,,Unspecified
-Nasal Swab or Nose Specimen,,,,Unspecified
-Nasopharyngeal Swab Specimen,,,,Unspecified
-Negative Control,,,,Unspecified
-Neutrophil,,,,Unspecified
-NK cell,,,,Unspecified
-Not Specified,,,,Unspecified
-Optic Nerve,,,,Unspecified
-Organoids,,,,Unspecified
-Oropharyngeal Swab Specimen,,,,Unspecified
-Osteoblasts,,,,Unspecified
-OtherSampleType,,,,Unspecified
-Pancreas,,,,Unspecified
-Pancreatic Stellate Cells,,,,Unspecified
-PBL,,,,Unspecified
-PBMC,,,,Unspecified
-Placenta,,,,Unspecified
-Plasma,,,,Unspecified
-Pooled Sample,,,,Unspecified
-Popliteal lymph node,,,,Unspecified
-Positive Control,,,,Unspecified
-Protein,,,,Unspecified
-Rectal Swab Specimen,,,,Unspecified
-Red Blood Cell,,,,Unspecified
-Saliva,,,,Unspecified
-Salivary Glands,,,,Unspecified
-Serum,,,,Unspecified
-Skin of body,,,,Unspecified
-Small intestine,,,,Unspecified
-Spleen,,,,Unspecified
-Sputum,,,,Unspecified
-Stomach,,,,Unspecified
-Synovial fluid,,,,Unspecified
-Synovial tissue,,,,Unspecified
-T cell,,,,Unspecified
-Thymus,,,,Unspecified
-Tonsil,,,,Unspecified
-Trachea,,,,Unspecified
-Tumor Tissue,,,,Unspecified
-Umbilical cord blood,,,,Unspecified
-Urinary bladder,,,,Unspecified
-Urine,,,,Unspecified
-Vagina,,,,Unspecified
-Whole blood,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Amniotic Fluid,,STRING,,unspecified
+Appendix,,STRING,,unspecified
+B cell,,STRING,,unspecified
+Basophils,,STRING,,unspecified
+Bone,,STRING,,unspecified
+Bone Marrow,,STRING,,unspecified
+Brachial lymph node,,STRING,,unspecified
+Breast Milk,,STRING,,unspecified
+Bronchoalveolar Lavage Fluid,,STRING,,unspecified
+Carbohydrate,,STRING,,unspecified
+Cell culture supernatant,,STRING,,unspecified
+Cerebrospinal Fluid,,STRING,,unspecified
+Cervical lymph nodes,,STRING,,unspecified
+Colon,,STRING,,unspecified
+Colonic Lamina Propria,,STRING,,unspecified
+Convalescent Plasma,,STRING,,unspecified
+Cord blood,,STRING,,unspecified
+DNA,,STRING,,unspecified
+Dendritic cell,,STRING,,unspecified
+Dermis,,STRING,,unspecified
+Dried Blood Spot,,STRING,,unspecified
+Endotracheal aspirate,,STRING,,unspecified
+Epithelium,,STRING,,unspecified
+Feces,,STRING,,unspecified
+Fibroblast,,STRING,,unspecified
+Gastric lamina propria,,STRING,,unspecified
+Ileum,,STRING,,unspecified
+Inguinal lymph node,,STRING,,unspecified
+Jejunum,,STRING,,unspecified
+Kidney,,STRING,,unspecified
+Leukocytes,,STRING,,unspecified
+Lipid,,STRING,,unspecified
+Liver,,STRING,,unspecified
+Lung,,STRING,,unspecified
+Lung lymph node,,STRING,,unspecified
+Lymph node,,STRING,,unspecified
+Lymphocyte,,STRING,,unspecified
+Macrophage,,STRING,,unspecified
+Mesenteric lymph node,,STRING,,unspecified
+Monocyte,,STRING,,unspecified
+Mouse Ear,,STRING,,unspecified
+NK cell,,STRING,,unspecified
+Nasal Swab,,STRING,,unspecified
+Nasal Swab or Nose Specimen,,STRING,,unspecified
+Nasal lavage fluid,,STRING,,unspecified
+Nasopharyngeal Swab Specimen,,STRING,,unspecified
+Negative Control,,STRING,,unspecified
+Neutrophil,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Optic Nerve,,STRING,,unspecified
+Organoids,,STRING,,unspecified
+Oropharyngeal Swab Specimen,,STRING,,unspecified
+Osteoblasts,,STRING,,unspecified
+OtherSampleTypeSampleType,,STRING,,unspecified
+PBL,,STRING,,unspecified
+PBMC,,STRING,,unspecified
+Pancreas,,STRING,,unspecified
+Pancreatic Stellate Cells,,STRING,,unspecified
+Placenta,,STRING,,unspecified
+Plasma,,STRING,,unspecified
+Pooled Sample,,STRING,,unspecified
+Popliteal lymph node,,STRING,,unspecified
+Positive Control,,STRING,,unspecified
+Protein,,STRING,,unspecified
+Rectal Swab Specimen,,STRING,,unspecified
+Red Blood Cell,,STRING,,unspecified
+Saliva,,STRING,,unspecified
+Salivary Glands,,STRING,,unspecified
+Serum,,STRING,,unspecified
+Skin of body,,STRING,,unspecified
+Small intestine,,STRING,,unspecified
+Spleen,,STRING,,unspecified
+Sputum,,STRING,,unspecified
+Stomach,,STRING,,unspecified
+Synovial fluid,,STRING,,unspecified
+Synovial tissue,,STRING,,unspecified
+T cell,,STRING,,unspecified
+Thymus,,STRING,,unspecified
+Tonsil,,STRING,,unspecified
+Trachea,,STRING,,unspecified
+Tumor Tissue,,STRING,,unspecified
+Umbilical cord blood,,STRING,,unspecified
+Urinary bladder,,STRING,,unspecified
+Urine,,STRING,,unspecified
+Vagina,,STRING,,unspecified
+Whole blood,,STRING,,unspecified
+brain,,STRING,,unspecified
+cell line,,STRING,,unspecified

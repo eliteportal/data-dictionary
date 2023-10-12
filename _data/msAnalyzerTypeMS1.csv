@@ -1,18 +1,18 @@
-Key,Key Description,Type,Source,Module
-LTQ Orbitrap XL,,,,Unspecified
-Orbitrap Fusion,,,,Unspecified
-Orbitrap Fusion Lumos,,,,Unspecified
-Q Exactive,,,,Unspecified
-Q Exactive HF,,,,Unspecified
-Q Exactive HF-X,,,,Unspecified
-Q Exactive Plus,,,,Unspecified
-Exploris 240Exploris 480quadrupole time-of-flight,,,,Unspecified
-time-of-flight,,,,Unspecified
-triple quadrupole,,,,Unspecified
-Xevo G2 QTOF,,,,Unspecified
-Xevo TQ-S,,,,Unspecified
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1MsAnalyzerTypeMS1,,STRING,,unspecified
+Exploris 240Exploris 480quadrupole time-of-flight,,STRING,,unspecified
+LTQ Orbitrap XL,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+Orbitrap Fusion,,STRING,,unspecified
+Orbitrap Fusion Lumos,,STRING,,unspecified
+Q Exactive,,STRING,,unspecified
+Q Exactive HF,,STRING,,unspecified
+Q Exactive HF-X,,STRING,,unspecified
+Q Exactive Plus,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+Xevo G2 QTOF,,STRING,,unspecified
+Xevo TQ-S,,STRING,,unspecified
+time-of-flight,,STRING,,unspecified
+triple quadrupole,,STRING,,unspecified

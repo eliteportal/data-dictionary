@@ -38,7 +38,7 @@ def get_time():
 
 
 def load_and_backup_dm(file_path: str, output_dir: str):
-    """Create backup of data model with time stamp.
+    """Create backup of data model with time stamp. Load the data model as a data frame object.
 
     Args:
         file_path (FILE): _description_

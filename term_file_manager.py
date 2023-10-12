@@ -7,16 +7,12 @@ Contributors: Dan Lu, Nicholas Lee
 Notes: 
 - CSV names cannot have spaces
 """
-# load modules
+# load Parents
 import argparse
 import os
-
-# import pdb
 from functools import partial
 import re
-
 import pandas as pd
-
 import yaml
 
 with open("./_config.yml", "r") as f:
@@ -24,7 +20,16 @@ with open("./_config.yml", "r") as f:
 
 
 def get_template_keys(data_model, template):
-    # extrace dependsOn values for the tempalte
+    """extract `dependsOn` values for the template
+
+    Args:
+        data_model (object): data model in use
+        template (str): template attribute
+
+    Returns:
+        list: list of dependsOn terms
+    """
+
     depends_on = (
         data_model.loc[data_model["Attribute"] == template, "DependsOn"]
         .str.split(",")
@@ -61,7 +66,16 @@ def get_template_keys(data_model, template):
 
 
 def create_term_df(data_model, term):
-    if "Template" in data_model.query("Attribute == @term")["Module"].values:
+    """Creates the term data frame csv to populate tables in the website.
+
+    Args:
+        data_model (object): full data model
+        term (string): attribute term to look up
+
+    Returns:
+        object: data frame object
+    """
+    if "Template" in data_model.query("Attribute == @term")["Parent"].values:
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
 
@@ -80,7 +94,7 @@ def create_term_df(data_model, term):
                 "DependsOn",
                 "Required",
                 "Source",
-                "Module",
+                "Parent",
             ]
         ].reset_index(drop=True)
 
@@ -100,24 +114,23 @@ def create_term_df(data_model, term):
         df[
             "Source"
         ] = "https://wits.worldbank.org/countryprofile/metadata/en/country/all"
-        df["Module"] = "Metadata"
+        df["Parent"] = "Metadata"
         df["Type"] = "Numeric"
 
     else:
         # prohibit = ["validValue", "BaseAnnotation", "Other"]
-
         df = data_model.loc[
             (~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()),
         ]
 
         df = df.loc[
             (df["Attribute"] == term) & (data_model["Parent"] != "validValue"),
-        ][["Attribute", "Valid Values", "DependsOn", "Type", "Module"]]
+        ][["Attribute", "Valid Values", "DependsOn", "Type", "Parent"]]
 
         # generate csv for term
         df = (
             df.drop(columns=["Attribute", "DependsOn"])
-            .set_index(["Type", "Module"])
+            .set_index(["Type", "Parent"])
             .apply(lambda x: x.str.split(",").explode())
             .reset_index()
         )
@@ -125,7 +138,7 @@ def create_term_df(data_model, term):
         # add columns
         df.rename(columns={"Valid Values": "Key"}, inplace=True)
         df = df.assign(**dict([(_, None) for _ in ["Key Description", "Source"]]))
-        df = df[["Key", "Key Description", "Type", "Source", "Module"]]
+        df = df[["Key", "Key Description", "Type", "Source", "Parent"]]
 
     return df
 
@@ -140,12 +153,11 @@ def generate_csv(data_model, term):
 
     df = create_term_df(data_model, term)
 
+    # need to make it readable
     term_csv_name = re.sub("\s|/", "_", term)
 
-    # print(term_csv_name)
-
     # write out data frame
-    df.to_csv(os.path.join("./_data", re.sub("\s|/", "_", term) + ".csv"), index=False)
+    df.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
 
     print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))
 
@@ -159,7 +171,7 @@ def update_csv(data_model, term):
     """
     term_csv_name = re.sub("\s|/", "_", term)
 
-    if "Template" in data_model.query("Attribute == @term")["Module"].values:
+    if "Template" in data_model.query("Attribute == @term")["Parent"].values:
         depends_on = get_template_keys(data_model, term)
         new = data_model.loc[data_model["Attribute"].isin(depends_on),]
         new = new[
@@ -171,7 +183,7 @@ def update_csv(data_model, term):
                 "DependsOn",
                 "Required",
                 "Source",
-                "Module",
+                "Parent",
             ]
         ].reset_index(drop=True)
         new.rename(
@@ -183,14 +195,15 @@ def update_csv(data_model, term):
         # update template file
         new.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
         print("\033[92m {} \033[00m".format(f"Updated {term}.csv"))
+
     else:
         # convert dataframe to long format
         new = data_model.loc[data_model["Attribute"] == term,][
-            ["Attribute", "Valid Values", "DependsOn", "Type", "Module"]
+            ["Attribute", "Valid Values", "DependsOn", "Type", "Parent"]
         ]
         new = (
             new.drop(columns=["Attribute", "DependsOn"])
-            .set_index(["Type", "Module"])
+            .set_index(["Type", "Parent"])
             .apply(lambda x: x.str.split(",").explode())
             .reset_index()
         )
@@ -201,18 +214,18 @@ def update_csv(data_model, term):
 
         # load existing csv
         old = pd.read_csv(f"./_data/{term_csv_name}.csv")
-        # upload existing csv if Key, Type or Module column is changed
+        # upload existing csv if Key, Type or Parent column is changed
         if not (
             new["Key"].equals(old["Key"])
             and new["Type"].equals(old["Type"])
-            and new["Module"].equals(old["Module"])
+            and new["Parent"].equals(old["Parent"])
         ):
             updated = new.astype(str).merge(
-                old.astype(str), how="left", on=["Key", "Type", "Module"]
+                old.astype(str), how="left", on=["Key", "Type", "Parent"]
             )
             updated["Type"] = new["Type"]
-            updated["Module"] = new["Module"]
-            updated = updated[["Key", "Key Description", "Type", "Source", "Module"]]
+            updated["Parent"] = new["Parent"]
+            updated = updated[["Key", "Key Description", "Type", "Source", "Parent"]]
             updated.to_csv(
                 os.path.join("./_data", term_csv_name + ".csv"),
                 index=False,
@@ -230,6 +243,7 @@ def manage_term_files(term=None):
     # load data model
     data_model = pd.read_csv(config["data_model"])
 
+    # remove spaces and irregular characters
     data_model["Attribute"] = data_model["Attribute"].str.replace(
         "\\s|/", "_", regex=True
     )

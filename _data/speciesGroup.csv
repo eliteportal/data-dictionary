@@ -1,10 +1,10 @@
-Key,Key Description,Type,Source,Module
-Human,,,,Metadata
-Rodent,,,,Metadata
-Bird,,,,Metadata
-Mammal,,,,Metadata
-Primate,,,,Metadata
-Other,,,,Metadata
-Unknown,,,,Metadata
-Not collected,,,,Metadata
-Not applicable,,,,Metadata
+Key,Key Description,Type,Source,Parent
+Bird,,STRING,,unspecified
+Human,,STRING,,unspecified
+Mammal,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherSpeciesGroup,,STRING,,unspecified
+Primate,,STRING,,unspecified
+Rodent,,STRING,,unspecified
+Unknown,,STRING,,unspecified

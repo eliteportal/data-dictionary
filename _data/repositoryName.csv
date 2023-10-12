@@ -1,25 +1,25 @@
-Key,Key Description,Type,Source,Module
-ArrayExpress,,,,Unspecified
-Broad Single Cell Portal,,,,Unspecified
-dbGAP,,,,Unspecified
-ENA,,,,Unspecified
-Ensembl,,,,Unspecified
-FlowRepository,,,,Unspecified
-GenBank,,,,Unspecified
-GEO,,,,Unspecified
-GISAID,,,,Unspecified
-IEDB,,,,Unspecified
-ImmPort,,,,Unspecified
-MassIVE,,,,Unspecified
-MetaboLights,,,,Unspecified
-Metabolomics Workbench,,,,Unspecified
-MGnify,,,,Unspecified
-NCBI Gene,,,,Unspecified
-PRIDE,,,,Unspecified
-SRA,,,,Unspecified
-UniProt,,,,Unspecified
-OtherRepositoryName,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+ArrayExpress,,STRING,,unspecified
+Broad Single Cell Portal,,STRING,,unspecified
+ENA,,STRING,,unspecified
+Ensembl,,STRING,,unspecified
+FlowRepository,,STRING,,unspecified
+GEO,,STRING,,unspecified
+GISAID,,STRING,,unspecified
+GenBank,,STRING,,unspecified
+IEDB,,STRING,,unspecified
+ImmPort,,STRING,,unspecified
+MGnify,,STRING,,unspecified
+MassIVE,,STRING,,unspecified
+MetaboLights,,STRING,,unspecified
+Metabolomics Workbench,,STRING,,unspecified
+NCBI Gene,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherRepositoryNameRepositoryName,,STRING,,unspecified
+PRIDE,,STRING,,unspecified
+SRA,,STRING,,unspecified
+UniProt,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+dbGAP,,STRING,,unspecified

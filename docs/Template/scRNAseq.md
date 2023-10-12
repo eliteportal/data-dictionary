@@ -2,12 +2,12 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/Sc Rnaseq.html
-title: Sc Rnaseq
+permalink: docs/scRNAseq.html
+title: scRNAseq
 ---
 
-{% assign mydata=site.data.scRNAseq %} 
-{: .note-title } 
+{% assign mydata=site.data.scRNAseq %}
+{: .note-title }
 >Sc Rnaseq
 >
 > [[Source]]()

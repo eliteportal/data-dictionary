@@ -1,21 +1,22 @@
-Key,Key Description,Type,Source,Module
-10x,,,,Omics
-Accel-NGS 2S Plus,,,,Omics
-Accel-NGS Methyl-Seq,,,,Omics
-CEL-seq,,,,Omics
-Drop-Seq,,,,Omics
-NEBNext,,,,Omics
-NexteraXT,,,,Omics
-Omni-ATAC,,,,Omics
-sac-seq,,,,Omics
-Smart-seq1,,,,Omics
-Smart-seq2,,,,Omics
-Smart-seq4,,,,Omics
-SMRTbell,,,,Omics
-TruSeq,,,,Omics
-Ultralow Methyl-Seq,,,,Omics
-OtherLibraryPreparationMethod,,,,Omics
-Unknown,,,,Omics
-Not collected,,,,Omics
-Not applicable,,,,Omics
-Not Specified,,,,Omics
+Key,Key Description,Type,Source,Parent
+10x,,STRING,,unspecified
+Accel-NGS 2S Plus,,STRING,,unspecified
+Accel-NGS Methyl-Seq,,STRING,,unspecified
+CEL-seq,,STRING,,unspecified
+Drop-Seq,,STRING,,unspecified
+NEBNext,,STRING,,unspecified
+NexteraXT,,STRING,,unspecified
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+Omni-ATAC,,STRING,,unspecified
+OtherLibraryPreparationMethodLibraryPreparationMethod,,STRING,,unspecified
+SMRTbell,,STRING,,unspecified
+Smart-seq1,,STRING,,unspecified
+Smart-seq2,,STRING,,unspecified
+Smart-seq4,,STRING,,unspecified
+TruSeq,,STRING,,unspecified
+TruSeqOtherLibraryPreparationMethodLibraryPreparationMethod,,STRING,,unspecified
+Ultralow Methyl-Seq,,STRING,,unspecified
+Unknown,,STRING,,unspecified
+sac-seq,,STRING,,unspecified

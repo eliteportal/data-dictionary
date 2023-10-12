@@ -1,7 +1,7 @@
-Key,Key Description,Type,Source,Module
-ADT,,,,BaseAnnotation
- cDNA,,,,BaseAnnotation
- CMO,,,,BaseAnnotation
- HTO,,,,BaseAnnotation
- LMO,,,,BaseAnnotation
- plasmid DNA,,,,BaseAnnotation
+Key,Key Description,Type,Source,Parent
+ADT,,unspecified,,BaseAnnotation
+ cDNA,,unspecified,,BaseAnnotation
+ CMO,,unspecified,,BaseAnnotation
+ HTO,,unspecified,,BaseAnnotation
+ LMO,,unspecified,,BaseAnnotation
+ plasmid DNA,,unspecified,,BaseAnnotation

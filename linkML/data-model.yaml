@@ -1,0 +1,7 @@
+enums:
+  AssayEnum:
+    permissible_values:
+      <value>:
+        description: <insert_description_here>
+        meaning: <link_to_ontology
+      

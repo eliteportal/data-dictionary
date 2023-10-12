@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Module
-C,,,,Unspecified
-F,,,,Unspecified
-K,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+C,,STRING,,unspecified
+F,,STRING,,unspecified
+K,,STRING,,unspecified
+Not Specified,,STRING,,unspecified

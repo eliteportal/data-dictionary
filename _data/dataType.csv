@@ -1,24 +1,24 @@
-Key,Key Description,Type,Source,Module
-Volume,,,,BaseAnnotation
- Weight,,,,BaseAnnotation
- Pharmacokinetic Study,,,,BaseAnnotation
- genomicVariants,,,,BaseAnnotation
- behavior process,,,,BaseAnnotation
- metabolomics,,,,BaseAnnotation
- image,,,,BaseAnnotation
- geneExpression,,,,BaseAnnotation
- isoformExpression,,,,BaseAnnotation
- proteomics,,,,BaseAnnotation
- kinomics,,,,BaseAnnotation
- drugScreen,,,,BaseAnnotation
- drugCombinationScreen,,,,BaseAnnotation
- cellularPhysiology,,,,BaseAnnotation
- chromatinActivity,,,,BaseAnnotation
- surveyData,,,,BaseAnnotation
- network,,,,BaseAnnotation
- clinical,,,,BaseAnnotation
- immunoassay,,,,BaseAnnotation
- electrophysiology,,,,BaseAnnotation
- metagenomics,,,,BaseAnnotation
- epigenetics,,,,BaseAnnotation
- pharmacology,,,,BaseAnnotation
+Key,Key Description,Type,Source,Parent
+Volume,,unspecified,,BaseAnnotation
+ Weight,,unspecified,,BaseAnnotation
+ Pharmacokinetic Study,,unspecified,,BaseAnnotation
+ genomicVariants,,unspecified,,BaseAnnotation
+ behavior process,,unspecified,,BaseAnnotation
+ metabolomics,,unspecified,,BaseAnnotation
+ image,,unspecified,,BaseAnnotation
+ geneExpression,,unspecified,,BaseAnnotation
+ isoformExpression,,unspecified,,BaseAnnotation
+ proteomics,,unspecified,,BaseAnnotation
+ kinomics,,unspecified,,BaseAnnotation
+ drugScreen,,unspecified,,BaseAnnotation
+ drugCombinationScreen,,unspecified,,BaseAnnotation
+ cellularPhysiology,,unspecified,,BaseAnnotation
+ chromatinActivity,,unspecified,,BaseAnnotation
+ surveyData,,unspecified,,BaseAnnotation
+ network,,unspecified,,BaseAnnotation
+ clinical,,unspecified,,BaseAnnotation
+ immunoassay,,unspecified,,BaseAnnotation
+ electrophysiology,,unspecified,,BaseAnnotation
+ metagenomics,,unspecified,,BaseAnnotation
+ epigenetics,,unspecified,,BaseAnnotation
+ pharmacology,,unspecified,,BaseAnnotation

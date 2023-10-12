@@ -1,49 +1,49 @@
-Key,Key Description,Type,Source,Module
-ANOVA,,,,BaseAnnotation
- assessment,,,,BaseAnnotation
- batch effect correction,,,,BaseAnnotation
- chromatin accessible quantitative trait loci detection,,,,BaseAnnotation
- Clustering,,,,BaseAnnotation
- comparison,,,,BaseAnnotation
- Copy number estimation,,,,BaseAnnotation
- correlation,,,,BaseAnnotation
- covariate specification,,,,BaseAnnotation
- data mining,,,,BaseAnnotation
- data normalization,,,,BaseAnnotation
- de-novo assembly,,,,BaseAnnotation
- differential expression,,,,BaseAnnotation
- differential methylation,,,,BaseAnnotation
- differential network analysis,,,,BaseAnnotation
- DNA methylation imputation,,,,BaseAnnotation
- dose response study,,,,BaseAnnotation
- Enrichment analysis,,,,BaseAnnotation
- EWAS,,,,BaseAnnotation
- expression quantitative trait loci detection,,,,BaseAnnotation
- Gene expression comparison,,,,BaseAnnotation
- Genome-Wide Association,,,,BaseAnnotation
- genome-wide pleiotropy,,,,BaseAnnotation
- genotypeAncestry,,,,BaseAnnotation
- genotype imputation,,,,BaseAnnotation
- hidden confounder detection,,,,BaseAnnotation
- manifold learning,,,,BaseAnnotation
- Mendelian randomization analysis,,,,BaseAnnotation
- methylation quantitative trait loci detection,,,,BaseAnnotation
- network analysis,,,,BaseAnnotation
- network driver detection,,,,BaseAnnotation
- outlier detection,,,,BaseAnnotation
- peak calling,,,,BaseAnnotation
- Polygenic Risk Scores,,,,BaseAnnotation
- principal component analysis,,,,BaseAnnotation
- protein quantitative trait loci detection,,,,BaseAnnotation
- purity,,,,BaseAnnotation
- quality control,,,,BaseAnnotation
- search engine output files,,,,BaseAnnotation
- Sequence alignment,,,,BaseAnnotation
- somatic mutation calling,,,,BaseAnnotation
- statistical network reconstruction,,,,BaseAnnotation
- structural variation detection,,,,BaseAnnotation
- Supervised Machine Learning,,,,BaseAnnotation
- transcript quantification,,,,BaseAnnotation
- variancePartition,,,,BaseAnnotation
- Variant calling,,,,BaseAnnotation
- visualization,,,,BaseAnnotation
+Key,Key Description,Type,Source,Parent
+ANOVA,,unspecified,,BaseAnnotation
+ assessment,,unspecified,,BaseAnnotation
+ batch effect correction,,unspecified,,BaseAnnotation
+ chromatin accessible quantitative trait loci detection,,unspecified,,BaseAnnotation
+ Clustering,,unspecified,,BaseAnnotation
+ comparison,,unspecified,,BaseAnnotation
+ Copy number estimation,,unspecified,,BaseAnnotation
+ correlation,,unspecified,,BaseAnnotation
+ covariate specification,,unspecified,,BaseAnnotation
+ data mining,,unspecified,,BaseAnnotation
+ data normalization,,unspecified,,BaseAnnotation
+ de-novo assembly,,unspecified,,BaseAnnotation
+ differential expression,,unspecified,,BaseAnnotation
+ differential methylation,,unspecified,,BaseAnnotation
+ differential network analysis,,unspecified,,BaseAnnotation
+ DNA methylation imputation,,unspecified,,BaseAnnotation
+ dose response study,,unspecified,,BaseAnnotation
+ Enrichment analysis,,unspecified,,BaseAnnotation
+ EWAS,,unspecified,,BaseAnnotation
+ expression quantitative trait loci detection,,unspecified,,BaseAnnotation
+ Gene expression comparison,,unspecified,,BaseAnnotation
+ Genome-Wide Association,,unspecified,,BaseAnnotation
+ genome-wide pleiotropy,,unspecified,,BaseAnnotation
+ genotypeAncestry,,unspecified,,BaseAnnotation
+ genotype imputation,,unspecified,,BaseAnnotation
+ hidden confounder detection,,unspecified,,BaseAnnotation
+ manifold learning,,unspecified,,BaseAnnotation
+ Mendelian randomization analysis,,unspecified,,BaseAnnotation
+ methylation quantitative trait loci detection,,unspecified,,BaseAnnotation
+ network analysis,,unspecified,,BaseAnnotation
+ network driver detection,,unspecified,,BaseAnnotation
+ outlier detection,,unspecified,,BaseAnnotation
+ peak calling,,unspecified,,BaseAnnotation
+ Polygenic Risk Scores,,unspecified,,BaseAnnotation
+ principal component analysis,,unspecified,,BaseAnnotation
+ protein quantitative trait loci detection,,unspecified,,BaseAnnotation
+ purity,,unspecified,,BaseAnnotation
+ quality control,,unspecified,,BaseAnnotation
+ search engine output files,,unspecified,,BaseAnnotation
+ Sequence alignment,,unspecified,,BaseAnnotation
+ somatic mutation calling,,unspecified,,BaseAnnotation
+ statistical network reconstruction,,unspecified,,BaseAnnotation
+ structural variation detection,,unspecified,,BaseAnnotation
+ Supervised Machine Learning,,unspecified,,BaseAnnotation
+ transcript quantification,,unspecified,,BaseAnnotation
+ variancePartition,,unspecified,,BaseAnnotation
+ Variant calling,,unspecified,,BaseAnnotation
+ visualization,,unspecified,,BaseAnnotation

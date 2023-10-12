@@ -1,4 +1,4 @@
-Key,Key Description,Type,Source,Module
-1,,,,Metadata
-2,,,,Metadata
-3,,,,Metadata
+Key,Key Description,Type,Source,Parent
+1,'US General Research Use',STRING,,unspecified
+2,'US Non-profit Use',STRING,,unspecified
+3,'Denmark Disease-specific + non-profit use',STRING,,unspecified

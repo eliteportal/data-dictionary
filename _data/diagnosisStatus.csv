@@ -1,6 +1,6 @@
-Key,Key Description,Type,Source,Module
-TRUE,,,,Metadata
-FALSE,,,,Metadata
-Unknown,,,,Metadata
-Not collected,,,,Metadata
-Not applicable,,,,Metadata
+Key,Key Description,Type,Source,Parent
+False,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+TrueDiagnosisStatus,,STRING,,unspecified
+Unknown,,STRING,,unspecified

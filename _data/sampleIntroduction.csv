@@ -1,6 +1,6 @@
-Key,Key Description,Type,Source,Module
-Other,,,,Unspecified
-Unknown,,,,Unspecified
-Not collected,,,,Unspecified
-Not applicable,,,,Unspecified
-Not Specified,,,,Unspecified
+Key,Key Description,Type,Source,Parent
+Not Specified,,STRING,,unspecified
+Not applicable,,STRING,,unspecified
+Not collected,,STRING,,unspecified
+OtherSampleIntroduction,,STRING,,unspecified
+Unknown,,STRING,,unspecified

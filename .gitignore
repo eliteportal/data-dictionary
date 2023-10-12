@@ -13,3 +13,4 @@ vendor/
 **/.vscode
 **/.mypy_cache
 **/__pycache__
+linkML/NF-example-Assay.yaml

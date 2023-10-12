@@ -1,4 +1,4 @@
 Key,Key Description,Type,Source,Parent
-1,,STRING,,unspecified
-2,,STRING,,unspecified
-3,,STRING,,unspecified
+1,'US General Research Use',STRING,,unspecified
+2,'US Non-profit Use',STRING,,unspecified
+3,'Denmark Disease-specific + non-profit use',STRING,,unspecified

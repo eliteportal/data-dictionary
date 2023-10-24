@@ -30,5 +30,5 @@ September 15, 2023
   - `studyName`
     - Name of the studies found within ELITE
 - Term Changes
-  - `studyCode` -> `projectCode`
+  - `studyCode` -> `project`
     - To distinguish between available studies and projects found within ELITE.

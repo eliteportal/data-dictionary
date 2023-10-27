@@ -8,7 +8,7 @@ on:
   pull_request:
     branches: main
     paths: 'EL.data.model.csv'
-
+  workflow_dispatch:
 jobs:
   CI:
     name: schema-convert

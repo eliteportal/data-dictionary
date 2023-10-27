@@ -1,61 +1,61 @@
 Key,Key Description,Type,Source,Parent
-3xTg-AD,,unspecified,,BaseAnnotation
- 5XFAD,,unspecified,,BaseAnnotation
- AB42,,unspecified,,BaseAnnotation
- Abca7A1527GAPOE4Trem2R47H,,unspecified,,BaseAnnotation
- Abca7KO,,unspecified,,BaseAnnotation
- Abca7V1599M_rs117187003,,unspecified,,BaseAnnotation
- Abi3S209F_Aduci,,unspecified,,BaseAnnotation
- APOE2KI,,unspecified,,BaseAnnotation
- APOE3KI,,unspecified,,BaseAnnotation
- APOE4KI,,unspecified,,BaseAnnotation
- APOE4Trem2R47H,,unspecified,,BaseAnnotation
- ApoEKO,,unspecified,,BaseAnnotation
- APPE693Q,,unspecified,,BaseAnnotation
- AppKOAPOE4Trem2R47H,,unspecified,,BaseAnnotation
- APPKM650,,unspecified,,BaseAnnotation
- APPKM670,,unspecified,,BaseAnnotation
- APPKM670-671NL-PSEN1deltaexon9,,unspecified,,BaseAnnotation
- APPPS1,,unspecified,,BaseAnnotation
- APPS1_Plexin-B1-KO,,unspecified,,BaseAnnotation
- B6.Clu,,unspecified,,BaseAnnotation
- B6.Gfap-APOE4,,unspecified,,BaseAnnotation
- Bin1.B6,,unspecified,,BaseAnnotation
- Bin1K358R_Aduci,,unspecified,,BaseAnnotation
- BRI2-AB42,,unspecified,,BaseAnnotation
- Cd2ap.B6,,unspecified,,BaseAnnotation
- Ceacam1KO,,unspecified,,BaseAnnotation
- Clasp2L163PSNP,,unspecified,,BaseAnnotation
- CRND8,,unspecified,,BaseAnnotation
- C57BL6J,,unspecified,,BaseAnnotation
- hAbetaKI,,unspecified,,BaseAnnotation
- hAPPAPOE4Trem2R47H,,unspecified,,BaseAnnotation
- hCR1KIAPOE4Trem2,,unspecified,,BaseAnnotation
- hTau,,unspecified,,BaseAnnotation
- hTauTrem2,,unspecified,,BaseAnnotation
- Il1rapKO,,unspecified,,BaseAnnotation
- Kif21bT82TSNP,,unspecified,,BaseAnnotation
- MAPT-P301K,,unspecified,,BaseAnnotation
- Meox2KOHET,,unspecified,,BaseAnnotation
- MthfrC677TSNP,,unspecified,,BaseAnnotation
- Mtmr4V297GSNP,,unspecified,,BaseAnnotation
- PicalmH458R,,unspecified,,BaseAnnotation
- Plcg2KO,,unspecified,,BaseAnnotation
- Plcg2M28LSNP,,unspecified,,BaseAnnotation
- Plexin-B1-KO,,unspecified,,BaseAnnotation
- rTg4510,,unspecified,,BaseAnnotation
- Snx1D465NSNP,,unspecified,,BaseAnnotation
- Sorl1A528TSNP,,unspecified,,BaseAnnotation
- Spi1rs1377416,,unspecified,,BaseAnnotation
- TAUPS19,,unspecified,,BaseAnnotation
- TAUPS19_Plexin-B1-KO,,unspecified,,BaseAnnotation
- TREM2,,unspecified,,BaseAnnotation
- Trem2flox,,unspecified,,BaseAnnotation
- Trem2KO,,unspecified,,BaseAnnotation
- Trem2R47H,,unspecified,,BaseAnnotation
- Trem2R47H_NSS,,unspecified,,BaseAnnotation
- Trem2Y38C,,unspecified,,BaseAnnotation
- TYROBP,,unspecified,,BaseAnnotation
- TYROBP_KO.KO,,unspecified,,BaseAnnotation
- TYROBP_WT,,unspecified,,BaseAnnotation
- TYROBP_WT.KO,,unspecified,,BaseAnnotation
+3xTgAD,,unspecified,,BaseAnnotation
+5XFAD,,unspecified,,BaseAnnotation
+AB42,,unspecified,,BaseAnnotation
+Abca7A1527GAPOE4Trem2R47H,,unspecified,,BaseAnnotation
+Abca7KO,,unspecified,,BaseAnnotation
+Abca7V1599Mrs117187003,,unspecified,,BaseAnnotation
+Abi3S209FAduci,,unspecified,,BaseAnnotation
+APOE2KI,,unspecified,,BaseAnnotation
+APOE3KI,,unspecified,,BaseAnnotation
+APOE4KI,,unspecified,,BaseAnnotation
+APOE4Trem2R47H,,unspecified,,BaseAnnotation
+ApoEKO,,unspecified,,BaseAnnotation
+APPE693Q,,unspecified,,BaseAnnotation
+AppKOAPOE4Trem2R47H,,unspecified,,BaseAnnotation
+APPKM650,,unspecified,,BaseAnnotation
+APPKM670,,unspecified,,BaseAnnotation
+APPKM670671NLPSEN1deltaexon9,,unspecified,,BaseAnnotation
+APPPS1,,unspecified,,BaseAnnotation
+APPS1PlexinB1KO,,unspecified,,BaseAnnotation
+B6Clu,,unspecified,,BaseAnnotation
+B6GfapAPOE4,,unspecified,,BaseAnnotation
+Bin1B6,,unspecified,,BaseAnnotation
+Bin1K358RAduci,,unspecified,,BaseAnnotation
+BRI2AB42,,unspecified,,BaseAnnotation
+Cd2apB6,,unspecified,,BaseAnnotation
+Ceacam1KO,,unspecified,,BaseAnnotation
+Clasp2L163PSNP,,unspecified,,BaseAnnotation
+CRND8,,unspecified,,BaseAnnotation
+C57BL6J,,unspecified,,BaseAnnotation
+hAbetaKI,,unspecified,,BaseAnnotation
+hAPPAPOE4Trem2R47H,,unspecified,,BaseAnnotation
+hCR1KIAPOE4Trem2,,unspecified,,BaseAnnotation
+hTau,,unspecified,,BaseAnnotation
+hTauTrem2,,unspecified,,BaseAnnotation
+Il1rapKO,,unspecified,,BaseAnnotation
+Kif21bT82TSNP,,unspecified,,BaseAnnotation
+MAPTP301K,,unspecified,,BaseAnnotation
+Meox2KOHET,,unspecified,,BaseAnnotation
+MthfrC677TSNP,,unspecified,,BaseAnnotation
+Mtmr4V297GSNP,,unspecified,,BaseAnnotation
+PicalmH458R,,unspecified,,BaseAnnotation
+Plcg2KO,,unspecified,,BaseAnnotation
+Plcg2M28LSNP,,unspecified,,BaseAnnotation
+PlexinB1KO,,unspecified,,BaseAnnotation
+rTg4510,,unspecified,,BaseAnnotation
+Snx1D465NSNP,,unspecified,,BaseAnnotation
+Sorl1A528TSNP,,unspecified,,BaseAnnotation
+Spi1rs1377416,,unspecified,,BaseAnnotation
+TAUPS19,,unspecified,,BaseAnnotation
+TAUPS19PlexinB1KO,,unspecified,,BaseAnnotation
+TREM2,,unspecified,,BaseAnnotation
+Trem2flox,,unspecified,,BaseAnnotation
+Trem2KO,,unspecified,,BaseAnnotation
+Trem2R47H,,unspecified,,BaseAnnotation
+Trem2R47HNSS,,unspecified,,BaseAnnotation
+Trem2Y38C,,unspecified,,BaseAnnotation
+TYROBP,,unspecified,,BaseAnnotation
+TYROBPKOKO,,unspecified,,BaseAnnotation
+TYROBPWT,,unspecified,,BaseAnnotation
+TYROBPWTKO,,unspecified,,BaseAnnotation

@@ -1,117 +1,117 @@
 Key,Key Description,Type,Source,Parent
-10x multiome,,STRING,,unspecified
- 16SrRNAseq,,STRING,,unspecified
- active avoidance learning behavior,,STRING,,unspecified
- anxiety-related behavior,,STRING,,unspecified
- ATACSeq,,STRING,,unspecified
- atomicForceMicroscopy,,STRING,,unspecified
- autoradiography,,STRING,,unspecified
- Baker Lipidomics,,STRING,,unspecified
- Biocrates Bile Acids,,STRING,,unspecified
- Biocrates p180,,STRING,,unspecified
- Biocrates Q500,,STRING,,unspecified
- bisulfiteSeq,,STRING,,unspecified
- Blood Chemistry Measurement,,STRING,,unspecified
- brightfieldMicroscopy,,STRING,,unspecified
- cellViabilityAssay,,STRING,,unspecified
- ChIPSeq,,STRING,,unspecified
- CITESeq,,STRING,,unspecified
- contextual conditioning behavior,,STRING,,unspecified
- CUT&Tag,,STRING,,unspecified
- DIA,,STRING,,unspecified
- DNA optical mapping,,STRING,,unspecified
- electrochemiluminescence,,STRING,,unspecified
- elevated plus maze test,,STRING,,unspecified
- elevated T maze apparatus method,,STRING,,unspecified
- ELISA,,STRING,,unspecified
- errBisulfiteSeq,,STRING,,unspecified
- exomeSeq,,STRING,,unspecified
- FIA-MSMS,,STRING,,unspecified
- FitBark,,STRING,,unspecified
- frailty assessment,,STRING,,unspecified
- Genotyping,,STRING,,unspecified
- HI-C,,STRING,,unspecified
- HiChIPseq,,STRING,,unspecified
- high content screen,,STRING,,unspecified
- HPLC,,STRING,,unspecified
- HPLC-MSMS,,STRING,,unspecified
- Immunocytochemistry,,STRING,,unspecified
- immunofluorescence,,STRING,,unspecified
- immunohistochemistry,,STRING,,unspecified
- in vivo bioluminescence,,STRING,,unspecified
- ISOSeq,,STRING,,unspecified
- jumpingLibrary,,STRING,,unspecified
- kinesthetic behavior,,STRING,,unspecified
- label free mass spectrometry,,STRING,,unspecified
- Laser Speckle Imaging,,STRING,,unspecified
- LC-MS,,STRING,,unspecified
- LC-MSMS,,STRING,,unspecified
- LC-SRM,,STRING,,unspecified
- lentiMPRA,,STRING,,unspecified
- LFP,,STRING,,unspecified
- liquid chromatography-electrochemical detection,,STRING,,unspecified
- lncrnaSeq,,STRING,,unspecified
- locomotor activation behavior,,STRING,,unspecified
- long-read rnaSeq,,STRING,,unspecified
- LTP,,STRING,,unspecified
- MDMS-SL,,STRING,,unspecified
- memory behavior,,STRING,,unspecified
- Metabolon,,STRING,,unspecified
- methylationArray,,STRING,,unspecified
- MIB/MS,,STRING,,unspecified
- microRNAcounts,,STRING,,unspecified
- mirnaArray,,STRING,,unspecified
- mirnaSeq,,STRING,,unspecified
- MRI,,STRING,,unspecified
- mRNAcounts,,STRING,,unspecified
- MudPIT,,STRING,,unspecified
- m6A-rnaSeq,,STRING,,unspecified
- nextGenerationTargetedSequencing,,STRING,,unspecified
- Nightingale NMR,,STRING,,unspecified
- NOMe-Seq,,STRING,,unspecified
- novelty response behavior,,STRING,,unspecified
- open field test,,STRING,,unspecified
- oxBS-Seq,,STRING,,unspecified
- pharmacodynamics,,STRING,,unspecified
- pharmacokinetics,,STRING,,unspecified
- photograph,,STRING,,unspecified
- polymeraseChainReaction,,STRING,,unspecified
- Positron Emission Tomography,,STRING,,unspecified
- proximity extension assay,,STRING,,unspecified
- questionnaire,,STRING,,unspecified
- Rader Lipidomics,,STRING,,unspecified
- Real Time PCR,,STRING,,unspecified
- Ribo-Seq,,STRING,,unspecified
- rotarod performance test,,STRING,,unspecified
- rnaArray,,STRING,,unspecified
- rnaSeq,,STRING,,unspecified
- RPPA,,STRING,,unspecified
- sandwich ELISA,,STRING,,unspecified
- Sanger sequencing,,STRING,,unspecified
- scale,,STRING,,unspecified
- scATACSeq,,STRING,,unspecified
- scCGIseq,,STRING,,unspecified
- scirnaSeq,,STRING,,unspecified
- scrnaSeq,,STRING,,unspecified
- scwholeGenomeSeq,,STRING,,unspecified
- SiMoA,,STRING,,unspecified
- snpArray,,STRING,,unspecified
- snATACSeq,,STRING,,unspecified
- snrnaSeq,,STRING,,unspecified
- spontaneous alternation,,STRING,,unspecified
- STARRSeq,,STRING,,unspecified
- TMT quantitation,,STRING,,unspecified
- tractionForceMicroscopy,,STRING,,unspecified
- UPLC-MSMS,,STRING,,unspecified
- UPLC-ESI-QTOF-MS,,STRING,,unspecified
- UC Davis GCTOF,,STRING,,unspecified
- UCSD Untargeted Metabolomics,,STRING,,unspecified
- Vernier Caliper,,STRING,,unspecified
- von Frey test,,STRING,,unspecified
- westernBlot,,STRING,,unspecified
- wheel running,,STRING,,unspecified
- whole-cell patch clamp,,STRING,,unspecified
- wholeGenomeSeq,,STRING,,unspecified
- Wishart Catecholamines,,STRING,,unspecified
- Wishart High Value Metabolites,,STRING,,unspecified
- Zeno Electronic Walkway,,STRING,,unspecified
+10xmultiome,,STRING,,unspecified
+16SrRNAseq,,STRING,,unspecified
+activeavoidancelearningbehavior,,STRING,,unspecified
+anxietyrelatedbehavior,,STRING,,unspecified
+ATACSeq,,STRING,,unspecified
+atomicForceMicroscopy,,STRING,,unspecified
+autoradiography,,STRING,,unspecified
+BakerLipidomics,,STRING,,unspecified
+BiocratesBileAcids,,STRING,,unspecified
+Biocratesp180,,STRING,,unspecified
+BiocratesQ500,,STRING,,unspecified
+bisulfiteSeq,,STRING,,unspecified
+BloodChemistryMeasurement,,STRING,,unspecified
+brightfieldMicroscopy,,STRING,,unspecified
+cellViabilityAssay,,STRING,,unspecified
+ChIPSeq,,STRING,,unspecified
+CITESeq,,STRING,,unspecified
+contextualconditioningbehavior,,STRING,,unspecified
+CUT&Tag,,STRING,,unspecified
+DIA,,STRING,,unspecified
+DNAopticalmapping,,STRING,,unspecified
+electrochemiluminescence,,STRING,,unspecified
+elevatedplusmazetest,,STRING,,unspecified
+elevatedTmazeapparatusmethod,,STRING,,unspecified
+ELISA,,STRING,,unspecified
+errBisulfiteSeq,,STRING,,unspecified
+exomeSeq,,STRING,,unspecified
+FIAMSMS,,STRING,,unspecified
+FitBark,,STRING,,unspecified
+frailtyassessment,,STRING,,unspecified
+Genotyping,,STRING,,unspecified
+HIC,,STRING,,unspecified
+HiChIPseq,,STRING,,unspecified
+highcontentscreen,,STRING,,unspecified
+HPLC,,STRING,,unspecified
+HPLCMSMS,,STRING,,unspecified
+Immunocytochemistry,,STRING,,unspecified
+immunofluorescence,,STRING,,unspecified
+immunohistochemistry,,STRING,,unspecified
+invivobioluminescence,,STRING,,unspecified
+ISOSeq,,STRING,,unspecified
+jumpingLibrary,,STRING,,unspecified
+kinestheticbehavior,,STRING,,unspecified
+labelfreemassspectrometry,,STRING,,unspecified
+LaserSpeckleImaging,,STRING,,unspecified
+LCMS,,STRING,,unspecified
+LCMSMS,,STRING,,unspecified
+LCSRM,,STRING,,unspecified
+lentiMPRA,,STRING,,unspecified
+LFP,,STRING,,unspecified
+liquidchromatographyelectrochemicaldetection,,STRING,,unspecified
+lncrnaSeq,,STRING,,unspecified
+locomotoractivationbehavior,,STRING,,unspecified
+longreadrnaSeq,,STRING,,unspecified
+LTP,,STRING,,unspecified
+MDMSSL,,STRING,,unspecified
+memorybehavior,,STRING,,unspecified
+Metabolon,,STRING,,unspecified
+methylationArray,,STRING,,unspecified
+MIB/MS,,STRING,,unspecified
+microRNAcounts,,STRING,,unspecified
+mirnaArray,,STRING,,unspecified
+mirnaSeq,,STRING,,unspecified
+MRI,,STRING,,unspecified
+mRNAcounts,,STRING,,unspecified
+MudPIT,,STRING,,unspecified
+m6ArnaSeq,,STRING,,unspecified
+nextGenerationTargetedSequencing,,STRING,,unspecified
+NightingaleNMR,,STRING,,unspecified
+NOMeSeq,,STRING,,unspecified
+noveltyresponsebehavior,,STRING,,unspecified
+openfieldtest,,STRING,,unspecified
+oxBSSeq,,STRING,,unspecified
+pharmacodynamics,,STRING,,unspecified
+pharmacokinetics,,STRING,,unspecified
+photograph,,STRING,,unspecified
+polymeraseChainReaction,,STRING,,unspecified
+PositronEmissionTomography,,STRING,,unspecified
+proximityextensionassay,,STRING,,unspecified
+questionnaire,,STRING,,unspecified
+RaderLipidomics,,STRING,,unspecified
+RealTimePCR,,STRING,,unspecified
+RiboSeq,,STRING,,unspecified
+rotarodperformancetest,,STRING,,unspecified
+rnaArray,,STRING,,unspecified
+rnaSeq,,STRING,,unspecified
+RPPA,,STRING,,unspecified
+sandwichELISA,,STRING,,unspecified
+Sangersequencing,,STRING,,unspecified
+scale,,STRING,,unspecified
+scATACSeq,,STRING,,unspecified
+scCGIseq,,STRING,,unspecified
+scirnaSeq,,STRING,,unspecified
+scrnaSeq,,STRING,,unspecified
+scwholeGenomeSeq,,STRING,,unspecified
+SiMoA,,STRING,,unspecified
+snpArray,,STRING,,unspecified
+snATACSeq,,STRING,,unspecified
+snrnaSeq,,STRING,,unspecified
+spontaneousalternation,,STRING,,unspecified
+STARRSeq,,STRING,,unspecified
+TMTquantitation,,STRING,,unspecified
+tractionForceMicroscopy,,STRING,,unspecified
+UPLCMSMS,,STRING,,unspecified
+UPLCESIQTOFMS,,STRING,,unspecified
+UCDavisGCTOF,,STRING,,unspecified
+UCSDUntargetedMetabolomics,,STRING,,unspecified
+VernierCaliper,,STRING,,unspecified
+vonFreytest,,STRING,,unspecified
+westernBlot,,STRING,,unspecified
+wheelrunning,,STRING,,unspecified
+wholecellpatchclamp,,STRING,,unspecified
+wholeGenomeSeq,,STRING,,unspecified
+WishartCatecholamines,,STRING,,unspecified
+WishartHighValueMetabolites,,STRING,,unspecified
+ZenoElectronicWalkway,,STRING,,unspecified

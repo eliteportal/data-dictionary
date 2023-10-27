@@ -29,11 +29,11 @@ def get_term_info(data_model, term):
 
     :param term: the term name
 
-    :returns: a dictionary with keys: Description and Module
+    :returns: a dictionary with keys: Description and module
     """
     # get the definition and module of the term from data model
     results = data_model.loc[
-        data_model["Attribute"] == term, ["Description", "Source", "Module"]
+        data_model["Attribute"] == term, ["Description", "Source", "module"]
     ].to_dict("records")
 
     return results
@@ -59,7 +59,7 @@ def generate_page(data_model, term):
     except IndexError:
         results[0]["Source"] = ""
 
-    if "Template" in data_model.query("Attribute == @term")["Module"].values:
+    if "Template" in data_model.query("Attribute == @term")["module"].values:
         # load template
         post = frontmatter.load("template_page_template.md")
         post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).title()
@@ -86,29 +86,29 @@ def generate_page(data_model, term):
             + f">{results[0]['Description']} [[Source]]({results[0]['Source']})\n"
             + post.content
         )
-    post.metadata["parent"] = results[0]["Module"]
+    post.metadata["parent"] = results[0]["module"]
 
     # create directory for the moduel if not exist
-    if not os.path.exists(f"docs/{results[0]['Module']}/"):
-        os.mkdir(f"docs/{results[0]['Module']}/")
+    if not os.path.exists(f"docs/{results[0]['module']}/"):
+        os.mkdir(f"docs/{results[0]['module']}/")
 
         # create a module page
         module = fileutils.MarkDownFile(
-            f"docs/{results[0]['Module']}/{results[0]['Module']}"
+            f"docs/{results[0]['module']}/{results[0]['module']}"
         )
 
-        if "Template" in data_model.query("Attribute == @term")["Module"].values:
+        if "Template" in data_model.query("Attribute == @term")["module"].values:
             # add permalink for template page
             module.append_end(
-                f"--- \nlayout: page \ntitle: {results[0]['Module']} \nhas_children: true \nnav_order: 5 \npermalink: docs/{results[0]['Module']}.html \n---"
+                f"--- \nlayout: page \ntitle: {results[0]['module']} \nhas_children: true \nnav_order: 5 \npermalink: docs/{results[0]['module']}.html \n---"
             )
         else:
             module.append_end(
-                f"--- \nlayout: page \ntitle: {results[0]['Module']} \nhas_children: true \nnav_order: 2 \npermalink: docs/{results[0]['Module']}.html \n---"
+                f"--- \nlayout: page \ntitle: {results[0]['module']} \nhas_children: true \nnav_order: 2 \npermalink: docs/{results[0]['module']}.html \n---"
             )
 
     # create file
-    file = fileutils.MarkDownFile(f"docs/{results[0]['Module']}/{term}")
+    file = fileutils.MarkDownFile(f"docs/{results[0]['module']}/{term}")
 
     # add content to the file
     file.append_end(frontmatter.dumps(post))
@@ -135,7 +135,7 @@ def generate_full_table(data_model):
     data_model = data_model.rename(
         {"Attribute": "Key", "Description": "Key Description"}, axis=1
     )
-    data_model = data_model[["Key", "Key Description", "Type", "Source", "Module"]]
+    data_model = data_model[["Key", "Key Description", "Type", "Source", "module"]]
     data_model.to_csv(f"_data/{site_data}.csv", index=False)
 
     # creating markdown text
@@ -194,7 +194,7 @@ def main():
     to_delete = [
         x
         for x in to_delete
-        if x not in data_model["Module"].dropna().unique().tolist()
+        if x not in data_model["module"].dropna().unique().tolist()
         and "Template" not in x
     ]
 

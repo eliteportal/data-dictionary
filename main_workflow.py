@@ -19,6 +19,6 @@ os.system(
 )
 
 # Test jekyll site
-os.system("bundle exec jekyll serve")
+# os.system("bundle exec jekyll serve")
 
 # push changes

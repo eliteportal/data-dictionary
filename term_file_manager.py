@@ -14,6 +14,7 @@ from functools import partial
 import re
 import pandas as pd
 import yaml
+import pathlib
 
 with open("./_config.yml", "r") as f:
     config = yaml.safe_load(f)

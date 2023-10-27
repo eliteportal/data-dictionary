@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "data-models-elite"
+name = "data-dictionary"
 version = "0.1.0"
 description = ""
 authors = ["Dan Lu, Nicholas Lee"]
@@ -17,6 +17,7 @@ markdown = "^3.4.4"
 tabulate = "^0.9.0"
 synapseclient = "^3.0.0"
 openpyxl = "^3.1.2"
+linkml = "^1.6.1"
 
 
 [tool.poetry.group.dev.dependencies]

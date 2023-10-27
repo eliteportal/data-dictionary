@@ -1,7 +1,9 @@
 Key,Key Description,Type,Source,Parent
-Female,,STRING,,unspecified
-Male,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherSex,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+Female,nan,STRING,nan,unspecified
+Male,nan,STRING,nan,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherSex,nan,STRING,nan,unspecified
+SexatBirth,,STRING,,unspecified
+SexofFetus,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified

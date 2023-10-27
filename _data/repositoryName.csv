@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-ArrayExpress,,STRING,,unspecified
-Broad Single Cell Portal,,STRING,,unspecified
-ENA,,STRING,,unspecified
-Ensembl,,STRING,,unspecified
-FlowRepository,,STRING,,unspecified
-GEO,,STRING,,unspecified
-GISAID,,STRING,,unspecified
-GenBank,,STRING,,unspecified
-IEDB,,STRING,,unspecified
-ImmPort,,STRING,,unspecified
-MGnify,,STRING,,unspecified
-MassIVE,,STRING,,unspecified
-MetaboLights,,STRING,,unspecified
-Metabolomics Workbench,,STRING,,unspecified
-NCBI Gene,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherRepositoryNameRepositoryName,,STRING,,unspecified
-PRIDE,,STRING,,unspecified
-SRA,,STRING,,unspecified
-UniProt,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-dbGAP,,STRING,,unspecified
+ArrayExpress,nan,STRING,nan,unspecified
+BroadSingleCellPortal,,STRING,,unspecified
+ENA,nan,STRING,nan,unspecified
+Ensembl,nan,STRING,nan,unspecified
+FlowRepository,nan,STRING,nan,unspecified
+GEO,nan,STRING,nan,unspecified
+GISAID,nan,STRING,nan,unspecified
+GenBank,nan,STRING,nan,unspecified
+IEDB,nan,STRING,nan,unspecified
+ImmPort,nan,STRING,nan,unspecified
+MGnify,nan,STRING,nan,unspecified
+MassIVE,nan,STRING,nan,unspecified
+MetaboLights,nan,STRING,nan,unspecified
+MetabolomicsWorkbench,,STRING,,unspecified
+NCBIGene,,STRING,,unspecified
+NotSpecified,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherRepositoryNameRepositoryName,nan,STRING,nan,unspecified
+PRIDE,nan,STRING,nan,unspecified
+SRA,nan,STRING,nan,unspecified
+UniProt,nan,STRING,nan,unspecified
+Unknown,nan,STRING,nan,unspecified
+dbGAP,nan,STRING,nan,unspecified

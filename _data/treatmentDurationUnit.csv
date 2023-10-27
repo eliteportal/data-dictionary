@@ -1,10 +1,10 @@
 Key,Key Description,Type,Source,Parent
-Days,,STRING,,unspecified
-Hours,,STRING,,unspecified
-Minutes,,STRING,,unspecified
-Months,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Seconds,,STRING,,unspecified
-Weeks,,STRING,,unspecified
-Years,,STRING,,unspecified
-d.p.c.,,STRING,,unspecified
+Days,nan,STRING,nan,unspecified
+Hours,nan,STRING,nan,unspecified
+Minutes,nan,STRING,nan,unspecified
+Months,nan,STRING,nan,unspecified
+NotSpecified,,STRING,,unspecified
+Seconds,nan,STRING,nan,unspecified
+Weeks,nan,STRING,nan,unspecified
+Years,nan,STRING,nan,unspecified
+dpc,,STRING,,unspecified

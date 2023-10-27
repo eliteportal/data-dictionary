@@ -1,5 +1,26 @@
 Key,Key Description,Type,Source,Parent
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherSpecimenSource,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+AfferentArterioleEndothelialCell,,STRING,,unspecified
+AscendingVasaRectaEndothelialCell,,STRING,,unspecified
+BloodEndothelialCells,,STRING,,unspecified
+BloodVesselEndothelialCell,,STRING,,unspecified
+CAP1generalcapillarygCap,,STRING,,unspecified
+CAP2aerocytecapillaryaCap,,STRING,,unspecified
+DescendingVasaRectaEndothelialCell,,STRING,,unspecified
+EfferentArterioleEndothelialcell,,STRING,,unspecified
+GlomerularCapillaryEndothelialCell,,STRING,,unspecified
+ILVhighendothelialvenuleendothelium,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherSpecimenSource,nan,STRING,nan,unspecified
+PeritubularCapillaryEndothelialCell,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified
+arterioleendothelialcell,,STRING,,unspecified
+capillaryendothelialcell,,STRING,,unspecified
+endometrialmicrovascularendothelialcell,,STRING,,unspecified
+endothelialcellofsinusoid,,STRING,,unspecified
+endothelialcellofvenule,,STRING,,unspecified
+kidneycapillaryendothelialcell,,STRING,,unspecified
+placentalmicrovascularendothelialcells,,STRING,,unspecified
+pulmonarycapillaryendothelialcell,,STRING,,unspecified
+vasarectacell,,STRING,,unspecified
+veinendothelialcellofrespiratorysystem,,STRING,,unspecified

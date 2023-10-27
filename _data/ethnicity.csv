@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-Hispanic or LatinoEthnicity,,STRING,,unspecified
-Not Hispanic or LatinoEthnicity,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherEthnicity,,STRING,,unspecified
-Prefer not to answer,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+HispanicorLatinoEthnicity,,STRING,,unspecified
+NotHispanicorLatinoEthnicity,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherEthnicity,nan,STRING,nan,unspecified
+Prefernottoanswer,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified

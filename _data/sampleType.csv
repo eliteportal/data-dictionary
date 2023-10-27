@@ -1,89 +1,89 @@
 Key,Key Description,Type,Source,Parent
-Amniotic Fluid,,STRING,,unspecified
-Appendix,,STRING,,unspecified
-B cell,,STRING,,unspecified
-Basophils,,STRING,,unspecified
-Bone,,STRING,,unspecified
-Bone Marrow,,STRING,,unspecified
-Brachial lymph node,,STRING,,unspecified
-Breast Milk,,STRING,,unspecified
-Bronchoalveolar Lavage Fluid,,STRING,,unspecified
-Carbohydrate,,STRING,,unspecified
-Cell culture supernatant,,STRING,,unspecified
-Cerebrospinal Fluid,,STRING,,unspecified
-Cervical lymph nodes,,STRING,,unspecified
-Colon,,STRING,,unspecified
-Colonic Lamina Propria,,STRING,,unspecified
-Convalescent Plasma,,STRING,,unspecified
-Cord blood,,STRING,,unspecified
-DNA,,STRING,,unspecified
-Dendritic cell,,STRING,,unspecified
-Dermis,,STRING,,unspecified
-Dried Blood Spot,,STRING,,unspecified
-Endotracheal aspirate,,STRING,,unspecified
-Epithelium,,STRING,,unspecified
-Feces,,STRING,,unspecified
-Fibroblast,,STRING,,unspecified
-Gastric lamina propria,,STRING,,unspecified
-Ileum,,STRING,,unspecified
-Inguinal lymph node,,STRING,,unspecified
-Jejunum,,STRING,,unspecified
-Kidney,,STRING,,unspecified
-Leukocytes,,STRING,,unspecified
-Lipid,,STRING,,unspecified
-Liver,,STRING,,unspecified
-Lung,,STRING,,unspecified
-Lung lymph node,,STRING,,unspecified
-Lymph node,,STRING,,unspecified
-Lymphocyte,,STRING,,unspecified
-Macrophage,,STRING,,unspecified
-Mesenteric lymph node,,STRING,,unspecified
-Monocyte,,STRING,,unspecified
-Mouse Ear,,STRING,,unspecified
-NK cell,,STRING,,unspecified
-Nasal Swab,,STRING,,unspecified
-Nasal Swab or Nose Specimen,,STRING,,unspecified
-Nasal lavage fluid,,STRING,,unspecified
-Nasopharyngeal Swab Specimen,,STRING,,unspecified
-Negative Control,,STRING,,unspecified
-Neutrophil,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Optic Nerve,,STRING,,unspecified
-Organoids,,STRING,,unspecified
-Oropharyngeal Swab Specimen,,STRING,,unspecified
-Osteoblasts,,STRING,,unspecified
-OtherSampleTypeSampleType,,STRING,,unspecified
-PBL,,STRING,,unspecified
-PBMC,,STRING,,unspecified
-Pancreas,,STRING,,unspecified
-Pancreatic Stellate Cells,,STRING,,unspecified
-Placenta,,STRING,,unspecified
-Plasma,,STRING,,unspecified
-Pooled Sample,,STRING,,unspecified
-Popliteal lymph node,,STRING,,unspecified
-Positive Control,,STRING,,unspecified
-Protein,,STRING,,unspecified
-Rectal Swab Specimen,,STRING,,unspecified
-Red Blood Cell,,STRING,,unspecified
-Saliva,,STRING,,unspecified
-Salivary Glands,,STRING,,unspecified
-Serum,,STRING,,unspecified
-Skin of body,,STRING,,unspecified
-Small intestine,,STRING,,unspecified
-Spleen,,STRING,,unspecified
-Sputum,,STRING,,unspecified
-Stomach,,STRING,,unspecified
-Synovial fluid,,STRING,,unspecified
-Synovial tissue,,STRING,,unspecified
-T cell,,STRING,,unspecified
-Thymus,,STRING,,unspecified
-Tonsil,,STRING,,unspecified
-Trachea,,STRING,,unspecified
-Tumor Tissue,,STRING,,unspecified
-Umbilical cord blood,,STRING,,unspecified
-Urinary bladder,,STRING,,unspecified
-Urine,,STRING,,unspecified
-Vagina,,STRING,,unspecified
-Whole blood,,STRING,,unspecified
-brain,,STRING,,unspecified
-cell line,,STRING,,unspecified
+AmnioticFluid,,STRING,,unspecified
+Appendix,nan,STRING,nan,unspecified
+Bcell,,STRING,,unspecified
+Basophils,nan,STRING,nan,unspecified
+Bone,nan,STRING,nan,unspecified
+BoneMarrow,,STRING,,unspecified
+Brachiallymphnode,,STRING,,unspecified
+BreastMilk,,STRING,,unspecified
+BronchoalveolarLavageFluid,,STRING,,unspecified
+Carbohydrate,nan,STRING,nan,unspecified
+Cellculturesupernatant,,STRING,,unspecified
+CerebrospinalFluid,,STRING,,unspecified
+Cervicallymphnodes,,STRING,,unspecified
+Colon,nan,STRING,nan,unspecified
+ColonicLaminaPropria,,STRING,,unspecified
+ConvalescentPlasma,,STRING,,unspecified
+Cordblood,,STRING,,unspecified
+DNA,nan,STRING,nan,unspecified
+Dendriticcell,,STRING,,unspecified
+Dermis,nan,STRING,nan,unspecified
+DriedBloodSpot,,STRING,,unspecified
+Endotrachealaspirate,,STRING,,unspecified
+Epithelium,nan,STRING,nan,unspecified
+Feces,nan,STRING,nan,unspecified
+Fibroblast,nan,STRING,nan,unspecified
+Gastriclaminapropria,,STRING,,unspecified
+Ileum,nan,STRING,nan,unspecified
+Inguinallymphnode,,STRING,,unspecified
+Jejunum,nan,STRING,nan,unspecified
+Kidney,nan,STRING,nan,unspecified
+Leukocytes,nan,STRING,nan,unspecified
+Lipid,nan,STRING,nan,unspecified
+Liver,nan,STRING,nan,unspecified
+Lung,nan,STRING,nan,unspecified
+Lunglymphnode,,STRING,,unspecified
+Lymphnode,,STRING,,unspecified
+Lymphocyte,nan,STRING,nan,unspecified
+Macrophage,nan,STRING,nan,unspecified
+Mesentericlymphnode,,STRING,,unspecified
+Monocyte,nan,STRING,nan,unspecified
+MouseEar,,STRING,,unspecified
+NKcell,,STRING,,unspecified
+NasalSwab,,STRING,,unspecified
+NasalSwaborNoseSpecimen,,STRING,,unspecified
+Nasallavagefluid,,STRING,,unspecified
+NasopharyngealSwabSpecimen,,STRING,,unspecified
+NegativeControl,,STRING,,unspecified
+Neutrophil,nan,STRING,nan,unspecified
+NotSpecified,,STRING,,unspecified
+OpticNerve,,STRING,,unspecified
+Organoids,nan,STRING,nan,unspecified
+OropharyngealSwabSpecimen,,STRING,,unspecified
+Osteoblasts,nan,STRING,nan,unspecified
+OtherSampleTypeSampleType,nan,STRING,nan,unspecified
+PBL,nan,STRING,nan,unspecified
+PBMC,nan,STRING,nan,unspecified
+Pancreas,nan,STRING,nan,unspecified
+PancreaticStellateCells,,STRING,,unspecified
+Placenta,nan,STRING,nan,unspecified
+Plasma,nan,STRING,nan,unspecified
+PooledSample,,STRING,,unspecified
+Popliteallymphnode,,STRING,,unspecified
+PositiveControl,,STRING,,unspecified
+Protein,nan,STRING,nan,unspecified
+RectalSwabSpecimen,,STRING,,unspecified
+RedBloodCell,,STRING,,unspecified
+Saliva,nan,STRING,nan,unspecified
+SalivaryGlands,,STRING,,unspecified
+Serum,nan,STRING,nan,unspecified
+Skinofbody,,STRING,,unspecified
+Smallintestine,,STRING,,unspecified
+Spleen,nan,STRING,nan,unspecified
+Sputum,nan,STRING,nan,unspecified
+Stomach,nan,STRING,nan,unspecified
+Synovialfluid,,STRING,,unspecified
+Synovialtissue,,STRING,,unspecified
+Tcell,,STRING,,unspecified
+Thymus,nan,STRING,nan,unspecified
+Tonsil,nan,STRING,nan,unspecified
+Trachea,nan,STRING,nan,unspecified
+TumorTissue,,STRING,,unspecified
+Umbilicalcordblood,,STRING,,unspecified
+Urinarybladder,,STRING,,unspecified
+Urine,nan,STRING,nan,unspecified
+Vagina,nan,STRING,nan,unspecified
+Wholeblood,,STRING,,unspecified
+brain,nan,STRING,nan,unspecified
+cellline,,STRING,,unspecified

@@ -1,7 +1,8 @@
 # This workflow is used to convert changed EL.data.model.csv to EL.data.model.jsonld
-# and push the updated veoibd.model.jsonld to feature branch
+# and push the updated ELITE.data.model.jsonld to feature branch
 
 name: CI
+permissions: write-all
 
 on:
   pull_request:

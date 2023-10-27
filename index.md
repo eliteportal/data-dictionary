@@ -19,6 +19,8 @@ Please create a ticket using the service desk linked above.
 
 ## Recent Changes
 
+October 24, 2023
+
 September 26, 2023
 
 - Term Changes

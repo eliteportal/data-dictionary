@@ -1,6 +1,6 @@
 Key,Key Description,Type,Source,Parent
-False,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-TrueDiagnosisStatus,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+False,nan,STRING,nan,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+TrueDiagnosisStatus,nan,STRING,nan,unspecified
+Unknown,nan,STRING,nan,unspecified

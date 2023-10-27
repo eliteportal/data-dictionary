@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Parent
-dataMatrix,,unspecified,,BaseAnnotation
- metadata,,unspecified,,BaseAnnotation
- normalized,,unspecified,,BaseAnnotation
- processed,,unspecified,,BaseAnnotation
- raw,,unspecified,,BaseAnnotation
- residualized,,unspecified,,BaseAnnotation
+dataMatrix,nan,unspecified,nan,BaseAnnotation
+metadata,,unspecified,,BaseAnnotation
+normalized,,unspecified,,BaseAnnotation
+processed,,unspecified,,BaseAnnotation
+raw,,unspecified,,BaseAnnotation
+residualized,,unspecified,,BaseAnnotation

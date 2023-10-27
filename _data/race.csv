@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Parent
-American Indian or Alaska Native,,STRING,,unspecified
-Asian,,STRING,,unspecified
-Black or African American,,STRING,,unspecified
-Multiracial,,STRING,,unspecified
-Native Hawaiian or OtherRace Pacific Islander,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherRace race,,STRING,,unspecified
-Prefer not to answer,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-White,,STRING,,unspecified
+AmericanIndianorAlaskaNative,,STRING,,unspecified
+Asian,nan,STRING,nan,unspecified
+BlackorAfricanAmerican,,STRING,,unspecified
+Multiracial,nan,STRING,nan,unspecified
+NativeHawaiianorOtherRacePacificIslander,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherRacerace,,STRING,,unspecified
+Prefernottoanswer,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified
+White,nan,STRING,nan,unspecified

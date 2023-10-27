@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Parent
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherNucleicAcidSource,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-bulk cell,,STRING,,unspecified
-bulk nuclei,,STRING,,unspecified
-mitochondria,,STRING,,unspecified
-single cell,,STRING,,unspecified
-single nucleus,,STRING,,unspecified
-sorted cells,,STRING,,unspecified
-sorted nuclei,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherNucleicAcidSource,nan,STRING,nan,unspecified
+Unknown,nan,STRING,nan,unspecified
+bulkcell,,STRING,,unspecified
+bulknuclei,,STRING,,unspecified
+mitochondria,nan,STRING,nan,unspecified
+singlecell,,STRING,,unspecified
+singlenucleus,,STRING,,unspecified
+sortedcells,,STRING,,unspecified
+sortednuclei,,STRING,,unspecified

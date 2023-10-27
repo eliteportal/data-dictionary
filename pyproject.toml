@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "data-models-elite"
+name = "data-dictionary"
 version = "0.1.0"
 description = ""
 authors = ["Dan Lu, Nicholas Lee"]

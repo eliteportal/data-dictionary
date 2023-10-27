@@ -1,16 +1,16 @@
 Key,Key Description,Type,Source,Parent
-DDA-MS,,STRING,,unspecified
-DIA-MS,,STRING,,unspecified
-FIA-MSMS,,STRING,,unspecified
-HPLC-MSMS,,STRING,,unspecified
-LC-MS,,STRING,,unspecified
-LC-MSMS,,STRING,,unspecified
-LC-SRMOtherMsAssayTechniqueMsAssayTechnique,,STRING,,unspecified
-MDMS-SL,,STRING,,unspecified
-MIB-MS,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-UPLC-ESI-QTOF-MS,,STRING,,unspecified
-UPLC-MSMS,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+DDAMS,,STRING,,unspecified
+DIAMS,,STRING,,unspecified
+FIAMSMS,,STRING,,unspecified
+HPLCMSMS,,STRING,,unspecified
+LCMS,,STRING,,unspecified
+LCMSMS,,STRING,,unspecified
+LCSRMOtherMsAssayTechniqueMsAssayTechnique,,STRING,,unspecified
+MDMSSL,,STRING,,unspecified
+MIBMS,,STRING,,unspecified
+NotSpecified,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+UPLCESIQTOFMS,,STRING,,unspecified
+UPLCMSMS,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified

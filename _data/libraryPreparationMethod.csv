@@ -1,22 +1,22 @@
 Key,Key Description,Type,Source,Parent
-10x,,STRING,,unspecified
-Accel-NGS 2S Plus,,STRING,,unspecified
-Accel-NGS Methyl-Seq,,STRING,,unspecified
-CEL-seq,,STRING,,unspecified
-Drop-Seq,,STRING,,unspecified
-NEBNext,,STRING,,unspecified
-NexteraXT,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-Omni-ATAC,,STRING,,unspecified
-OtherLibraryPreparationMethodLibraryPreparationMethod,,STRING,,unspecified
-SMRTbell,,STRING,,unspecified
-Smart-seq1,,STRING,,unspecified
-Smart-seq2,,STRING,,unspecified
-Smart-seq4,,STRING,,unspecified
-TruSeq,,STRING,,unspecified
-TruSeqOtherLibraryPreparationMethodLibraryPreparationMethod,,STRING,,unspecified
-Ultralow Methyl-Seq,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-sac-seq,,STRING,,unspecified
+10x,nan,STRING,nan,unspecified
+AccelNGS2SPlus,,STRING,,unspecified
+AccelNGSMethylSeq,,STRING,,unspecified
+CELseq,,STRING,,unspecified
+DropSeq,,STRING,,unspecified
+NEBNext,nan,STRING,nan,unspecified
+NexteraXT,nan,STRING,nan,unspecified
+NotSpecified,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OmniATAC,,STRING,,unspecified
+OtherLibraryPreparationMethodLibraryPreparationMethod,nan,STRING,nan,unspecified
+SMRTbell,nan,STRING,nan,unspecified
+Smartseq1,,STRING,,unspecified
+Smartseq2,,STRING,,unspecified
+Smartseq4,,STRING,,unspecified
+TruSeq,nan,STRING,nan,unspecified
+TruSeqOtherLibraryPreparationMethodLibraryPreparationMethod,nan,STRING,nan,unspecified
+UltralowMethylSeq,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified
+sacseq,,STRING,,unspecified

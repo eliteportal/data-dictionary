@@ -1,4 +1,4 @@
 Key,Key Description,Type,Source,Parent
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified

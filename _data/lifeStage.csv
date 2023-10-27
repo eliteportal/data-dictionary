@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-Adult,,STRING,,unspecified
-Juvenile,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherLifeStage,,STRING,,unspecified
-Post-Juvenile,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+Adult,nan,STRING,nan,unspecified
+Juvenile,nan,STRING,nan,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherLifeStage,nan,STRING,nan,unspecified
+PostJuvenile,,STRING,,unspecified
+Unknown,nan,STRING,nan,unspecified

@@ -1,14 +1,14 @@
 Key,Key Description,Type,Source,Parent
-AIBL pool,,STRING,,unspecified
-Baker pool,,STRING,,unspecified
-GIS,,STRING,,unspecified
-GoldenWest,,STRING,,unspecified
-NIST SRM 1950,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherControlType,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-internal standards,,STRING,,unspecified
-study pool,,STRING,,unspecified
-water plus Baker ISTD,,STRING,,unspecified
+AIBLpool,,STRING,,unspecified
+Bakerpool,,STRING,,unspecified
+GIS,nan,STRING,nan,unspecified
+GoldenWest,nan,STRING,nan,unspecified
+NISTSRM1950,,STRING,,unspecified
+NotSpecified,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherControlType,nan,STRING,nan,unspecified
+Unknown,nan,STRING,nan,unspecified
+internalstandards,,STRING,,unspecified
+studypool,,STRING,,unspecified
+waterplusBakerISTD,,STRING,,unspecified

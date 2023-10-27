@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-Chromium Single Cell 3',,STRING,,unspecified
-DNALibraryConstruction,,STRING,,unspecified
-EndItDNAEndRepairKit,,STRING,,unspecified
-KapaHyperPrep,,STRING,,unspecified
-MULTIseq,,STRING,,unspecified
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherLibraryPrepLibraryPrep,,STRING,,unspecified
-PCRfree,,STRING,,unspecified
-SPLITseq,,STRING,,unspecified
-STARRSeq,,STRING,,unspecified
-SureCell,,STRING,,unspecified
-Unknown,,STRING,,unspecified
-amplicon,,STRING,,unspecified
-cellHashing,,STRING,,unspecified
-lncRNAenrichment,,STRING,,unspecified
-methylSeq,,STRING,,unspecified
-miRNAenrichment,,STRING,,unspecified
-multiome,,STRING,,unspecified
-polyAselection,,STRING,,unspecified
-proximity ligation,,STRING,,unspecified
-rRNAdepletion,,STRING,,unspecified
-totalRNA,,STRING,,unspecified
+ChromiumSingleCell3',,STRING,,unspecified
+DNALibraryConstruction,nan,STRING,nan,unspecified
+EndItDNAEndRepairKit,nan,STRING,nan,unspecified
+KapaHyperPrep,nan,STRING,nan,unspecified
+MULTIseq,nan,STRING,nan,unspecified
+NotSpecified,,STRING,,unspecified
+Notapplicable,,STRING,,unspecified
+Notcollected,,STRING,,unspecified
+OtherLibraryPrepLibraryPrep,nan,STRING,nan,unspecified
+PCRfree,nan,STRING,nan,unspecified
+SPLITseq,nan,STRING,nan,unspecified
+STARRSeq,nan,STRING,nan,unspecified
+SureCell,nan,STRING,nan,unspecified
+Unknown,nan,STRING,nan,unspecified
+amplicon,nan,STRING,nan,unspecified
+cellHashing,nan,STRING,nan,unspecified
+lncRNAenrichment,nan,STRING,nan,unspecified
+methylSeq,nan,STRING,nan,unspecified
+miRNAenrichment,nan,STRING,nan,unspecified
+multiome,nan,STRING,nan,unspecified
+polyAselection,nan,STRING,nan,unspecified
+proximityligation,,STRING,,unspecified
+rRNAdepletion,nan,STRING,nan,unspecified
+totalRNA,nan,STRING,nan,unspecified

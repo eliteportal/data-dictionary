@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-HispanicorLatinoEthnicity,,STRING,,unspecified
-NotHispanicorLatinoEthnicity,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherEthnicity,nan,STRING,nan,unspecified
-Prefernottoanswer,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
+Not Hispanic or latino,nan,,nan,DataProperty
+Hispanic or latino,nan,,nan,DataProperty
+Prefer not to answer,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

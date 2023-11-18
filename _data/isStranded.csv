@@ -1,3 +1,3 @@
 Key,Key Description,Type,Source,Parent
-False,nan,BOOLEAN,nan,unspecified
-True,nan,BOOLEAN,nan,unspecified
+TRUE,,str,,DataProperty
+FALSE,,str,,DataProperty

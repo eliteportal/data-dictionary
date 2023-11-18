@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-Adult,nan,STRING,nan,unspecified
-Juvenile,nan,STRING,nan,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherLifeStage,nan,STRING,nan,unspecified
-PostJuvenile,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
+Juvenile,nan,,nan,DataProperty
+Post-Juvenile,nan,,nan,DataProperty
+Adult,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherCaptivityStatus,nan,STRING,nan,unspecified
-Stranded,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-Wild,nan,STRING,nan,unspecified
-captiveCaptivityStatus,nan,STRING,nan,unspecified
+CaptiveCaptivityStatus,nan,,nan,DataProperty
+Stranded,nan,,nan,DataProperty
+Wild,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

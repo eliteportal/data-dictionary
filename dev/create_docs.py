@@ -7,13 +7,10 @@ Contributors: Nicholas Lee
 # import packages
 from jinja2 import Template
 import os
-import yaml
 import pandas as pd
 import shutil
-
-
-with open("./_config.yml", "r") as f:
-    config = yaml.safe_load(f)
+from dotenv import dotenv_values
+config = dotenv_values(".env")
 
 
 def get_subdirectories(directory):

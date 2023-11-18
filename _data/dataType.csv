@@ -1,0 +1,24 @@
+Key,Key Description,Type,Source,Parent
+Volume,nan,,nan,BaseAnnotation
+Weight,nan,,nan,BaseAnnotation
+Pharmacokinetic Study,nan,,nan,BaseAnnotation
+genomicVariants,nan,,nan,BaseAnnotation
+behavior process,nan,,nan,BaseAnnotation
+metabolomics,nan,,nan,BaseAnnotation
+image,nan,,nan,BaseAnnotation
+geneExpression,nan,,nan,BaseAnnotation
+isoformExpression,nan,,nan,BaseAnnotation
+proteomics,nan,,nan,BaseAnnotation
+kinomics,nan,,nan,BaseAnnotation
+drugScreen,nan,,nan,BaseAnnotation
+drugCombinationScreen,nan,,nan,BaseAnnotation
+cellularPhysiology,nan,,nan,BaseAnnotation
+chromatinActivity,nan,,nan,BaseAnnotation
+surveyData,nan,,nan,BaseAnnotation
+network,nan,,nan,BaseAnnotation
+clinical,nan,,nan,BaseAnnotation
+immunoassay,nan,,nan,BaseAnnotation
+electrophysiology,nan,,nan,BaseAnnotation
+metagenomics,nan,,nan,BaseAnnotation
+epigenetics,nan,,nan,BaseAnnotation
+pharmacology,nan,,nan,BaseAnnotation

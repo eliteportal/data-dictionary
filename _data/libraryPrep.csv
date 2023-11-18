@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-ChromiumSingleCell3',,STRING,,unspecified
-DNALibraryConstruction,nan,STRING,nan,unspecified
-EndItDNAEndRepairKit,nan,STRING,nan,unspecified
-KapaHyperPrep,nan,STRING,nan,unspecified
-MULTIseq,nan,STRING,nan,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherLibraryPrepLibraryPrep,nan,STRING,nan,unspecified
-PCRfree,nan,STRING,nan,unspecified
-SPLITseq,nan,STRING,nan,unspecified
-STARRSeq,nan,STRING,nan,unspecified
-SureCell,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-amplicon,nan,STRING,nan,unspecified
-cellHashing,nan,STRING,nan,unspecified
-lncRNAenrichment,nan,STRING,nan,unspecified
-methylSeq,nan,STRING,nan,unspecified
-miRNAenrichment,nan,STRING,nan,unspecified
-multiome,nan,STRING,nan,unspecified
-polyAselection,nan,STRING,nan,unspecified
-proximityligation,,STRING,,unspecified
-rRNAdepletion,nan,STRING,nan,unspecified
-totalRNA,nan,STRING,nan,unspecified
+amplicon,nan,,nan,DataProperty
+cellHashing,nan,,nan,DataProperty
+Chromium Single Cell 3',nan,,nan,DataProperty
+DNALibraryConstruction,nan,,nan,DataProperty
+EndItDNAEndRepairKit,nan,,nan,DataProperty
+KapaHyperPrep,nan,,nan,DataProperty
+lncRNAenrichment,nan,,nan,DataProperty
+methylSeq,nan,,nan,DataProperty
+miRNAenrichment,nan,,nan,DataProperty
+multiome,nan,,nan,DataProperty
+MULTIseq,nan,,nan,DataProperty
+PCRfree,nan,,nan,DataProperty
+polyAselection,nan,,nan,DataProperty
+proximity ligation,nan,,nan,DataProperty
+rRNAdepletion,nan,,nan,DataProperty
+SPLITseq,nan,,nan,DataProperty
+STARRSeq,nan,,nan,DataProperty
+SureCell,nan,,nan,DataProperty
+totalRNA,nan,,nan,DataProperty
+OtherLibraryPrep,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

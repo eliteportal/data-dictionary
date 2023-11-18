@@ -1,10 +1,9 @@
 Key,Key Description,Type,Source,Parent
-Lipid,nan,STRING,nan,unspecified
-MolecularTestAnalyteType,,STRING,,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherMsAnalyteType,nan,STRING,nan,unspecified
-Protein,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-metabolite,nan,STRING,nan,unspecified
+Protein,nan,,nan,DataProperty
+metabolite,nan,,nan,DataProperty
+Lipid,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

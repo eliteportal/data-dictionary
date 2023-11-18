@@ -17,16 +17,16 @@ To see a full list of terms found in the data model see the [Full Table](docs/Fu
 
 Please create a ticket using the service desk linked above.
 
-## Recent Changes
+## Change Log
 
-October 24, 2023
+### October 24, 2023
 
-September 26, 2023
+### September 26, 2023
 
 - Term Changes
   - Changed all Yes/No valid values to TRUE/FALSE
 
-September 15, 2023
+### September 15, 2023
 
 - New Terms Added
   - `studyName`

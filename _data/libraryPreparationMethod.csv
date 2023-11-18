@@ -1,22 +1,21 @@
 Key,Key Description,Type,Source,Parent
-10x,nan,STRING,nan,unspecified
-AccelNGS2SPlus,,STRING,,unspecified
-AccelNGSMethylSeq,,STRING,,unspecified
-CELseq,,STRING,,unspecified
-DropSeq,,STRING,,unspecified
-NEBNext,nan,STRING,nan,unspecified
-NexteraXT,nan,STRING,nan,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OmniATAC,,STRING,,unspecified
-OtherLibraryPreparationMethodLibraryPreparationMethod,nan,STRING,nan,unspecified
-SMRTbell,nan,STRING,nan,unspecified
-Smartseq1,,STRING,,unspecified
-Smartseq2,,STRING,,unspecified
-Smartseq4,,STRING,,unspecified
-TruSeq,nan,STRING,nan,unspecified
-TruSeqOtherLibraryPreparationMethodLibraryPreparationMethod,nan,STRING,nan,unspecified
-UltralowMethylSeq,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
-sacseq,,STRING,,unspecified
+10x,nan,,nan,DataProperty
+Accel-NGS 2S Plus,nan,,nan,DataProperty
+Accel-NGS Methyl-Seq,nan,,nan,DataProperty
+CEL-seq,nan,,nan,DataProperty
+Drop-Seq,nan,,nan,DataProperty
+NEBNext,nan,,nan,DataProperty
+NexteraXT,nan,,nan,DataProperty
+Omni-ATAC,nan,,nan,DataProperty
+sac-seq,nan,,nan,DataProperty
+Smart-seq1,nan,,nan,DataProperty
+Smart-seq2,nan,,nan,DataProperty
+Smart-seq4,nan,,nan,DataProperty
+SMRTbell,nan,,nan,DataProperty
+TruSeq,nan,,nan,DataProperty
+Ultralow Methyl-Seq,nan,,nan,DataProperty
+OtherLibraryPreparationMethod,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

@@ -1,13 +1,5 @@
 Key,Key Description,Type,Source,Parent
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
-dataindependentacquisitionfromdissociationoffullmassrange,,STRING,,unspecified
-dataindependentacquisitionfromdissociationoffullmassrangeafterionmobilityseparation,,STRING,,unspecified
-dataindependentacquisitionfromdissociationofscanningquadrupoleacrossmassrange,,STRING,,unspecified
-dataindependentacquisitionfromdissociationofsequentialmassranges,,STRING,,unspecified
-dataindependentacquisitionfromdissociationofsequentialmassrangesafterionmobilityseparation,,STRING,,unspecified
-datadependentacquisition,,STRING,,unspecified
-selectedionmonitoring,,STRING,,unspecified
-selectedreactionmonitoring,,STRING,,unspecified
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

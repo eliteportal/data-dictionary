@@ -23,7 +23,7 @@ Run `create_CSVs.py`. It will create a CSV for each unique Module found in the d
 
 # Updata Data Model and Metadata Dictionary
 
-<img src="https://github.com/eliteportal/data-dictionary/ELITE%20Logo.png" width="300" />
+<img src="./assets/imgs/ELITE_logo.png" width="300"  style="background-color: white;"/>
 
 ***Prerequisites:***
 
@@ -45,11 +45,12 @@ Run `create_CSVs.py`. It will create a CSV for each unique Module found in the d
 
 **Step 1.** Pull most recent changes from the Main branch and create a new branch
 
-**Step 2.** On the new branch, edit terms csv files under \_data\ by adding Key Description and Source information.
+**Step 2.** On the new branch, edit terms csv files under `.\_data\` by adding Key Description and Source information.
 
 **Step 3.** Push the changes to the remote branch and create a pull request (PR) to the Main branch. Creating a PR will trigger several GitHub Actions to:
 
 1. Add and update metadata template csv and markdown files that are used in the metadata dictionary static site and commit the changes to the PR via [update_metadata_dictionary.yml](https://github.com/nlee-sage/data_models_elite/blob/main/.github/workflows/update_metadata_dictionary.yml)
+
 2. Build and publish the metadata dictionary site on GitHub pages via [pages.yml](https://github.com/nlee-sage/data_models_elite/blob/main/.github/workflows/pages.yml)
 
 ## Customization

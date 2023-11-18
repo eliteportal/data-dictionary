@@ -1,12 +1,14 @@
 Key,Key Description,Type,Source,Parent
-CardiovascularHealthStudyCHS,,STRING,,unspecified
-Centenarian,nan,STRING,nan,unspecified
-DenmarkFamily,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherCohort,nan,STRING,nan,unspecified
-StudyofOsteoporoticFracturesSOF,,STRING,,unspecified
-TheHealthandAgingandBodyCompositionStudyHealthABC,,STRING,,unspecified
-TheOsteoporoticFracturesinMenMrOSStudy,,STRING,,unspecified
-USFamily,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
+Centenarian,nan,,nan,DataProperty
+US Family,nan,,nan,DataProperty
+Denmark Family,nan,,nan,DataProperty
+The Osteoporotic Fractures in Men (MrOS) Study,nan,,nan,DataProperty
+Study of Osteoporotic Fractures (SOF),nan,,nan,DataProperty
+The Health,nan,,nan,DataProperty
+Aging,nan,,nan,DataProperty
+and Body Composition Study (HealthABC),nan,,nan,DataProperty
+Cardiovascular Health Study (CHS),nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

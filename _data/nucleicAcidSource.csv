@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Parent
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherNucleicAcidSource,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-bulkcell,,STRING,,unspecified
-bulknuclei,,STRING,,unspecified
-mitochondria,nan,STRING,nan,unspecified
-singlecell,,STRING,,unspecified
-singlenucleus,,STRING,,unspecified
-sortedcells,,STRING,,unspecified
-sortednuclei,,STRING,,unspecified
+bulk cell,nan,,nan,DataProperty
+single cell,nan,,nan,DataProperty
+bulk nuclei,nan,,nan,DataProperty
+single nucleus,nan,,nan,DataProperty
+mitochondria,nan,,nan,DataProperty
+sorted cells,nan,,nan,DataProperty
+sorted nuclei,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

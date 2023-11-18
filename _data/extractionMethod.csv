@@ -1,6 +1,5 @@
 Key,Key Description,Type,Source,Parent
-Not Specified,,STRING,,unspecified
-Not applicable,,STRING,,unspecified
-Not collected,,STRING,,unspecified
-OtherExtractionMethodExtractionMethod,,STRING,,unspecified
-Unknown,,STRING,,unspecified
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

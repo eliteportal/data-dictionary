@@ -1,18 +1,18 @@
 Key,Key Description,Type,Source,Parent
-BrukerAvanceIIITimsTOFProOtherMsAnalyzerTypeMS1MsAnalyzerTypeMS1,,STRING,,unspecified
-Exploris240Exploris480quadrupoletimeofflight,,STRING,,unspecified
-LTQOrbitrapXL,,STRING,,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OrbitrapFusion,,STRING,,unspecified
-OrbitrapFusionLumos,,STRING,,unspecified
-QExactive,,STRING,,unspecified
-QExactiveHF,,STRING,,unspecified
-QExactiveHFX,,STRING,,unspecified
-QExactivePlus,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
-XevoG2QTOF,,STRING,,unspecified
-XevoTQS,,STRING,,unspecified
-timeofflight,,STRING,,unspecified
-triplequadrupole,,STRING,,unspecified
+LTQ Orbitrap XL,nan,,nan,DataProperty
+Orbitrap Fusion,nan,,nan,DataProperty
+Orbitrap Fusion Lumos,nan,,nan,DataProperty
+Q Exactive,nan,,nan,DataProperty
+Q Exactive HF,nan,,nan,DataProperty
+Q Exactive HF-X,nan,,nan,DataProperty
+Q Exactive Plus,nan,,nan,DataProperty
+Exploris 240Exploris 480quadrupole time-of-flight,nan,,nan,DataProperty
+time-of-flight,nan,,nan,DataProperty
+triple quadrupole,nan,,nan,DataProperty
+Xevo G2 QTOF,nan,,nan,DataProperty
+Xevo TQ-S,nan,,nan,DataProperty
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

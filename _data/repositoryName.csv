@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-ArrayExpress,nan,STRING,nan,unspecified
-BroadSingleCellPortal,,STRING,,unspecified
-ENA,nan,STRING,nan,unspecified
-Ensembl,nan,STRING,nan,unspecified
-FlowRepository,nan,STRING,nan,unspecified
-GEO,nan,STRING,nan,unspecified
-GISAID,nan,STRING,nan,unspecified
-GenBank,nan,STRING,nan,unspecified
-IEDB,nan,STRING,nan,unspecified
-ImmPort,nan,STRING,nan,unspecified
-MGnify,nan,STRING,nan,unspecified
-MassIVE,nan,STRING,nan,unspecified
-MetaboLights,nan,STRING,nan,unspecified
-MetabolomicsWorkbench,,STRING,,unspecified
-NCBIGene,,STRING,,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherRepositoryNameRepositoryName,nan,STRING,nan,unspecified
-PRIDE,nan,STRING,nan,unspecified
-SRA,nan,STRING,nan,unspecified
-UniProt,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-dbGAP,nan,STRING,nan,unspecified
+ArrayExpress,nan,,nan,DataProperty
+Broad Single Cell Portal,nan,,nan,DataProperty
+dbGAP,nan,,nan,DataProperty
+ENA,nan,,nan,DataProperty
+Ensembl,nan,,nan,DataProperty
+FlowRepository,nan,,nan,DataProperty
+GenBank,nan,,nan,DataProperty
+GEO,nan,,nan,DataProperty
+GISAID,nan,,nan,DataProperty
+IEDB,nan,,nan,DataProperty
+ImmPort,nan,,nan,DataProperty
+MassIVE,nan,,nan,DataProperty
+MetaboLights,nan,,nan,DataProperty
+Metabolomics Workbench,nan,,nan,DataProperty
+MGnify,nan,,nan,DataProperty
+NCBI Gene,nan,,nan,DataProperty
+PRIDE,nan,,nan,DataProperty
+SRA,nan,,nan,DataProperty
+UniProt,nan,,nan,DataProperty
+OtherRepositoryName,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

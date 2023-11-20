@@ -1,89 +1,89 @@
 Key,Key Description,Type,Source,Parent
-AmnioticFluid,,STRING,,unspecified
-Appendix,nan,STRING,nan,unspecified
-Bcell,,STRING,,unspecified
-Basophils,nan,STRING,nan,unspecified
-Bone,nan,STRING,nan,unspecified
-BoneMarrow,,STRING,,unspecified
-Brachiallymphnode,,STRING,,unspecified
-BreastMilk,,STRING,,unspecified
-BronchoalveolarLavageFluid,,STRING,,unspecified
-Carbohydrate,nan,STRING,nan,unspecified
-Cellculturesupernatant,,STRING,,unspecified
-CerebrospinalFluid,,STRING,,unspecified
-Cervicallymphnodes,,STRING,,unspecified
-Colon,nan,STRING,nan,unspecified
-ColonicLaminaPropria,,STRING,,unspecified
-ConvalescentPlasma,,STRING,,unspecified
-Cordblood,,STRING,,unspecified
-DNA,nan,STRING,nan,unspecified
-Dendriticcell,,STRING,,unspecified
-Dermis,nan,STRING,nan,unspecified
-DriedBloodSpot,,STRING,,unspecified
-Endotrachealaspirate,,STRING,,unspecified
-Epithelium,nan,STRING,nan,unspecified
-Feces,nan,STRING,nan,unspecified
-Fibroblast,nan,STRING,nan,unspecified
-Gastriclaminapropria,,STRING,,unspecified
-Ileum,nan,STRING,nan,unspecified
-Inguinallymphnode,,STRING,,unspecified
-Jejunum,nan,STRING,nan,unspecified
-Kidney,nan,STRING,nan,unspecified
-Leukocytes,nan,STRING,nan,unspecified
-Lipid,nan,STRING,nan,unspecified
-Liver,nan,STRING,nan,unspecified
-Lung,nan,STRING,nan,unspecified
-Lunglymphnode,,STRING,,unspecified
-Lymphnode,,STRING,,unspecified
-Lymphocyte,nan,STRING,nan,unspecified
-Macrophage,nan,STRING,nan,unspecified
-Mesentericlymphnode,,STRING,,unspecified
-Monocyte,nan,STRING,nan,unspecified
-MouseEar,,STRING,,unspecified
-NKcell,,STRING,,unspecified
-NasalSwab,,STRING,,unspecified
-NasalSwaborNoseSpecimen,,STRING,,unspecified
-Nasallavagefluid,,STRING,,unspecified
-NasopharyngealSwabSpecimen,,STRING,,unspecified
-NegativeControl,,STRING,,unspecified
-Neutrophil,nan,STRING,nan,unspecified
-NotSpecified,,STRING,,unspecified
-OpticNerve,,STRING,,unspecified
-Organoids,nan,STRING,nan,unspecified
-OropharyngealSwabSpecimen,,STRING,,unspecified
-Osteoblasts,nan,STRING,nan,unspecified
-OtherSampleTypeSampleType,nan,STRING,nan,unspecified
-PBL,nan,STRING,nan,unspecified
-PBMC,nan,STRING,nan,unspecified
-Pancreas,nan,STRING,nan,unspecified
-PancreaticStellateCells,,STRING,,unspecified
-Placenta,nan,STRING,nan,unspecified
-Plasma,nan,STRING,nan,unspecified
-PooledSample,,STRING,,unspecified
-Popliteallymphnode,,STRING,,unspecified
-PositiveControl,,STRING,,unspecified
-Protein,nan,STRING,nan,unspecified
-RectalSwabSpecimen,,STRING,,unspecified
-RedBloodCell,,STRING,,unspecified
-Saliva,nan,STRING,nan,unspecified
-SalivaryGlands,,STRING,,unspecified
-Serum,nan,STRING,nan,unspecified
-Skinofbody,,STRING,,unspecified
-Smallintestine,,STRING,,unspecified
-Spleen,nan,STRING,nan,unspecified
-Sputum,nan,STRING,nan,unspecified
-Stomach,nan,STRING,nan,unspecified
-Synovialfluid,,STRING,,unspecified
-Synovialtissue,,STRING,,unspecified
-Tcell,,STRING,,unspecified
-Thymus,nan,STRING,nan,unspecified
-Tonsil,nan,STRING,nan,unspecified
-Trachea,nan,STRING,nan,unspecified
-TumorTissue,,STRING,,unspecified
-Umbilicalcordblood,,STRING,,unspecified
-Urinarybladder,,STRING,,unspecified
-Urine,nan,STRING,nan,unspecified
-Vagina,nan,STRING,nan,unspecified
-Wholeblood,,STRING,,unspecified
-brain,nan,STRING,nan,unspecified
-cellline,,STRING,,unspecified
+Amniotic Fluid,nan,,nan,DataProperty
+Appendix,nan,,nan,DataProperty
+B cell,nan,,nan,DataProperty
+Basophils,nan,,nan,DataProperty
+Bone,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Brachial lymph node,nan,,nan,DataProperty
+brain,nan,,nan,DataProperty
+Breast Milk,nan,,nan,DataProperty
+Bronchoalveolar Lavage Fluid,nan,,nan,DataProperty
+Carbohydrate,nan,,nan,DataProperty
+Cell culture supernatant,nan,,nan,DataProperty
+cell line,nan,,nan,DataProperty
+Cerebrospinal Fluid,nan,,nan,DataProperty
+Cervical lymph nodes,nan,,nan,DataProperty
+Colon,nan,,nan,DataProperty
+Colonic Lamina Propria,nan,,nan,DataProperty
+Convalescent Plasma,nan,,nan,DataProperty
+Cord blood,nan,,nan,DataProperty
+Dendritic cell,nan,,nan,DataProperty
+Dermis,nan,,nan,DataProperty
+DNA,nan,,nan,DataProperty
+Dried Blood Spot,nan,,nan,DataProperty
+Endotracheal aspirate,nan,,nan,DataProperty
+Epithelium,nan,,nan,DataProperty
+Feces,nan,,nan,DataProperty
+Fibroblast,nan,,nan,DataProperty
+Gastric lamina propria,nan,,nan,DataProperty
+Ileum,nan,,nan,DataProperty
+Inguinal lymph node,nan,,nan,DataProperty
+Jejunum,nan,,nan,DataProperty
+Kidney,nan,,nan,DataProperty
+Leukocytes,nan,,nan,DataProperty
+Lipid,nan,,nan,DataProperty
+Liver,nan,,nan,DataProperty
+Lung,nan,,nan,DataProperty
+Lung lymph node,nan,,nan,DataProperty
+Lymph node,nan,,nan,DataProperty
+Lymphocyte,nan,,nan,DataProperty
+Macrophage,nan,,nan,DataProperty
+Mesenteric lymph node,nan,,nan,DataProperty
+Monocyte,nan,,nan,DataProperty
+Mouse Ear,nan,,nan,DataProperty
+Nasal lavage fluid,nan,,nan,DataProperty
+Nasal Swab,nan,,nan,DataProperty
+Nasal Swab or Nose Specimen,nan,,nan,DataProperty
+Nasopharyngeal Swab Specimen,nan,,nan,DataProperty
+Negative Control,nan,,nan,DataProperty
+Neutrophil,nan,,nan,DataProperty
+NK cell,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty
+Optic Nerve,nan,,nan,DataProperty
+Organoids,nan,,nan,DataProperty
+Oropharyngeal Swab Specimen,nan,,nan,DataProperty
+Osteoblasts,nan,,nan,DataProperty
+OtherSampleType,nan,,nan,DataProperty
+Pancreas,nan,,nan,DataProperty
+Pancreatic Stellate Cells,nan,,nan,DataProperty
+PBL,nan,,nan,DataProperty
+PBMC,nan,,nan,DataProperty
+Placenta,nan,,nan,DataProperty
+Plasma,nan,,nan,DataProperty
+Pooled Sample,nan,,nan,DataProperty
+Popliteal lymph node,nan,,nan,DataProperty
+Positive Control,nan,,nan,DataProperty
+Protein,nan,,nan,DataProperty
+Rectal Swab Specimen,nan,,nan,DataProperty
+Red Blood Cell,nan,,nan,DataProperty
+Saliva,nan,,nan,DataProperty
+Salivary Glands,nan,,nan,DataProperty
+Serum,nan,,nan,DataProperty
+Skin of body,nan,,nan,DataProperty
+Small intestine,nan,,nan,DataProperty
+Spleen,nan,,nan,DataProperty
+Sputum,nan,,nan,DataProperty
+Stomach,nan,,nan,DataProperty
+Synovial fluid,nan,,nan,DataProperty
+Synovial tissue,nan,,nan,DataProperty
+T cell,nan,,nan,DataProperty
+Thymus,nan,,nan,DataProperty
+Tonsil,nan,,nan,DataProperty
+Trachea,nan,,nan,DataProperty
+Tumor Tissue,nan,,nan,DataProperty
+Umbilical cord blood,nan,,nan,DataProperty
+Urinary bladder,nan,,nan,DataProperty
+Urine,nan,,nan,DataProperty
+Vagina,nan,,nan,DataProperty
+Whole blood,nan,,nan,DataProperty

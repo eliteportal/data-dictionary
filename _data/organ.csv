@@ -1,364 +1,427 @@
 Key,Key Description,Type,Source,Parent
-AbdominalSkin,,STRING,,unspecified
-AccessoryLacrimalGland,,STRING,,unspecified
-AdrenalGland,,STRING,,unspecified
-AlveolarDuct,,STRING,,unspecified
-AnalGland,,STRING,,unspecified
-AnalSac,,STRING,,unspecified
-AnkleSkin,,STRING,,unspecified
-AnteriorCompartmentLymphNodeGroupLevelVI,,STRING,,unspecified
-AnteriorMediastinalLymphNode,,STRING,,unspecified
-AortocavalLymphNode,,STRING,,unspecified
-AortopulmonaryWindowLymphNode,,STRING,,unspecified
-ApocrineSweatGland,,STRING,,unspecified
-ArmSkin,,STRING,,unspecified
-AxillaryLymphNode,,STRING,,unspecified
-AxillaryLymphNodeLevelI,,STRING,,unspecified
-AxillaryLymphNodeLevelII,,STRING,,unspecified
-AxillaryLymphNodeLevelIII,,STRING,,unspecified
-BartholinGland,,STRING,,unspecified
-BileDuct,,STRING,,unspecified
-BiliaryTract,,STRING,,unspecified
-Bladder,,STRING,,unspecified
-BoneMarrow,,STRING,,unspecified
-BothEyes,,STRING,,unspecified
-BrachialLymphNode,,STRING,,unspecified
-Brain,,STRING,,unspecified
-BranchDuct,,STRING,,unspecified
-Breast,,STRING,,unspecified
-BronchialLymphNode,,STRING,,unspecified
-BronchialTree,,STRING,,unspecified
-Brunner'sGland,,STRING,,unspecified
-BuccalLymphNode,,STRING,,unspecified
-BuccalSalivaryGland,,STRING,,unspecified
-CardiaGland,,STRING,,unspecified
-CardiophrenicLymphNode,,STRING,,unspecified
-CeliacLymphNode,,STRING,,unspecified
-CeruminousGland,,STRING,,unspecified
-CervicalGland,,STRING,,unspecified
-CervicalLymphNode,,STRING,,unspecified
-CircumanalGland,,STRING,,unspecified
-CochlearDuct,,STRING,,unspecified
-ColonLymphNode,,STRING,,unspecified
-CommonBileDuct,,STRING,,unspecified
-CommonHepaticDuct,,STRING,,unspecified
-CommonIliacLymphNode,,STRING,,unspecified
-CowperGland,,STRING,,unspecified
-CysticDuct,,STRING,,unspecified
-DeepCervicalLymphNode,,STRING,,unspecified
-DiaphragmaticLymphNode,,STRING,,unspecified
-Distal1/3oftheCommonBileDuct,,STRING,,unspecified
-DistalCommonBileDuct,,STRING,,unspecified
-DistantLymphNode,,STRING,,unspecified
-DrainingLymphNode,,STRING,,unspecified
-Duct,,STRING,,unspecified
-DuctofGartner,,STRING,,unspecified
-DuctoftheEpididymis,,STRING,,unspecified
-DuctusSantorini,,STRING,,unspecified
-Ear,,STRING,,unspecified
-EarSkin,,STRING,,unspecified
-EccrineSweatGland,,STRING,,unspecified
-EfferentDuct,,STRING,,unspecified
-EjaculatoryDuct,,STRING,,unspecified
-ElbowSkin,,STRING,,unspecified
-EndocrineGland,,STRING,,unspecified
-EndocrineOvary,,STRING,,unspecified
-EndocrineSexOrgan,,STRING,,unspecified
-EndocrineTestis,,STRING,,unspecified
-Epididymis,,STRING,,unspecified
-EpigastricLymphNode,,STRING,,unspecified
-EpitrochlearLymphNode,,STRING,,unspecified
-EsophagealGland,,STRING,,unspecified
-EsophagealLymphNode,,STRING,,unspecified
-Esophagus,,STRING,,unspecified
-ExocrineGland,,STRING,,unspecified
-ExocrinePancreas,,STRING,,unspecified
-ExternalIliacLymphNode,,STRING,,unspecified
-ExtraAbdominalLymphNode,,STRING,,unspecified
-ExtrahepaticBileDuct,,STRING,,unspecified
-Eye,,STRING,,unspecified
-EyelidSkin,,STRING,,unspecified
-FallopianTube,,STRING,,unspecified
-FemaleBreast,,STRING,,unspecified
-FemalePrepuce,,STRING,,unspecified
-FemaleUrethra,,STRING,,unspecified
-FemoralLymphNode,,STRING,,unspecified
-Femur,,STRING,,unspecified
-FixedLymphNode,,STRING,,unspecified
-FlexuralSkin,,STRING,,unspecified
-FootDigitSkin,,STRING,,unspecified
-FootSkin,,STRING,,unspecified
-FundicGland,,STRING,,unspecified
-Gallbladder,,STRING,,unspecified
-GastricCurvatureLymphNode,,STRING,,unspecified
-GastricLymphNode,,STRING,,unspecified
-GastrohepaticLymphNode,,STRING,,unspecified
-GlabrousSkin,,STRING,,unspecified
-Gland,,STRING,,unspecified
-GlandofKrause,,STRING,,unspecified
-GlandofLittre,,STRING,,unspecified
-GlandofMoll,,STRING,,unspecified
-GlandofWolfring,,STRING,,unspecified
-Gonad,,STRING,,unspecified
-HandDigitSkin,,STRING,,unspecified
-HandSkin,,STRING,,unspecified
-HeadSkin,,STRING,,unspecified
-HeadandNeckLymphNode,,STRING,,unspecified
-Heart,,STRING,,unspecified
-HepaticDuct,,STRING,,unspecified
-HepaticLymphNode,,STRING,,unspecified
-HilarPortionoftheHepaticDuct,,STRING,,unspecified
-HilarPortionoftheLeftHepaticDuct,,STRING,,unspecified
-HilarPortionoftheRightHepaticDuct,,STRING,,unspecified
-Humerus,,STRING,,unspecified
-IleumLymphNode,,STRING,,unspecified
-IliacLymphNode,,STRING,,unspecified
-InferiorMediastinalLymphNode,,STRING,,unspecified
-InferiorParathyroidGland,,STRING,,unspecified
-InfraclavicularLymphNode,,STRING,,unspecified
-InguinalLymphNode,,STRING,,unspecified
-IntercalatedDuct,,STRING,,unspecified
-IntercalatedDuctofthePancreas,,STRING,,unspecified
-IntercalatedDuctoftheSalivaryGlandSystem,,STRING,,unspecified
-IntercostalLymphNode,,STRING,,unspecified
-InterlobularBileDuct,,STRING,,unspecified
-InterlobularDuct,,STRING,,unspecified
-InternalIliacLymphNode,,STRING,,unspecified
-InternalMammaryLymphNode,,STRING,,unspecified
-IntervalLymphNode,,STRING,,unspecified
-Intestine,,STRING,,unspecified
-IntraAbdominalLymphNode,,STRING,,unspecified
-IntrahepaticBileDuct,,STRING,,unspecified
-IntrahepaticLargeBileDuct,,STRING,,unspecified
-IntrahepaticPortionoftheLeftHepaticDuct,,STRING,,unspecified
-IntrahepaticPortionoftheRightHepaticDuct,,STRING,,unspecified
-IntramammaryLymphNode,,STRING,,unspecified
-IntrathoracicLymphNode,,STRING,,unspecified
-IntrathyroidalParathyroid,,STRING,,unspecified
-Kidney,,STRING,,unspecified
-KneeSkin,,STRING,,unspecified
-LabialSalivaryGland,,STRING,,unspecified
-LacrimalGland,,STRING,,unspecified
-LactiferousDuct,,STRING,,unspecified
-LaryngealMucousSalivaryGland,,STRING,,unspecified
-LeftAdrenalGland,,STRING,,unspecified
-LeftBreast,,STRING,,unspecified
-LeftEar,,STRING,,unspecified
-LeftEye,,STRING,,unspecified
-LeftFallopianTube,,STRING,,unspecified
-LeftHepaticDuct,,STRING,,unspecified
-LeftKidney,,STRING,,unspecified
-LeftLung,,STRING,,unspecified
-LeftLungAlveolarDuct,,STRING,,unspecified
-LeftOvary,,STRING,,unspecified
-LeftSeminalVesicle,,STRING,,unspecified
-LeftTestis,,STRING,,unspecified
-LeftUreter,,STRING,,unspecified
-LegSkin,,STRING,,unspecified
-LingualSalivaryGland,,STRING,,unspecified
-LingualTonsil,,STRING,,unspecified
-Liver,,STRING,,unspecified
-LowerGastrointestinalTractLymphNode,,STRING,,unspecified
-LowerJugularLymphNodeGroupLevelIV,,STRING,,unspecified
-Lung,,STRING,,unspecified
-LymphNode,,STRING,,unspecified
-LymphNodebyAnatomicSite,,STRING,,unspecified
-LymphNodeofInguinalRegionorLeg,,STRING,,unspecified
-MainPancreaticandAccessoryDucts,,STRING,,unspecified
-MajorSalivaryGland,,STRING,,unspecified
-MaleBreast,,STRING,,unspecified
-MalePrepuce,,STRING,,unspecified
-MaleUrethra,,STRING,,unspecified
-MammaryGland,,STRING,,unspecified
-MedialSupraclavicularLymphNode,,STRING,,unspecified
-MedianOrLowerCervicalLymphNode,,STRING,,unspecified
-MediastinalLymphNode,,STRING,,unspecified
-MeibomianGland,,STRING,,unspecified
-MesentericLymphNode,,STRING,,unspecified
-MiddleJugularLymphNodeGroupLevelIII,,STRING,,unspecified
-MinorSalivaryGland,,STRING,,unspecified
-MontgomeryTubercle,,STRING,,unspecified
-MucousSalivaryGland,,STRING,,unspecified
-MullerianDuct,,STRING,,unspecified
-NasolacrimalDuct,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelIII,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelIV,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelVI,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelVII,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelsIIV,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelsIIIV,,STRING,,unspecified
-NeckLymphNodeBoundaryLevelsandSublevels,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelIA,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelIB,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelIIA,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelIIB,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelVA,,STRING,,unspecified
-NeckLymphNodeBoundarySublevelVB,,STRING,,unspecified
-NeckLymphNodeGroups,,STRING,,unspecified
-NeckSkin,,STRING,,unspecified
-NonGlabrousSkin,,STRING,,unspecified
-Nose,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-NuchalLymphNode,,STRING,,unspecified
-ObturatorLymphNode,,STRING,,unspecified
-OccipitalLymphNode,,STRING,,unspecified
-OccipitalScalp,,STRING,,unspecified
-OrganofSpecialSense,,STRING,,unspecified
-OtherOrgan,nan,STRING,nan,unspecified
-Ovary,,STRING,,unspecified
-PalatineSalivaryGland,,STRING,,unspecified
-PalatineTonsil,,STRING,,unspecified
-Pancreas,,STRING,,unspecified
-PancreaticDuct,,STRING,,unspecified
-PancreaticLymphNode,,STRING,,unspecified
-ParaaorticLymphNode,,STRING,,unspecified
-ParacavalLymphNode,,STRING,,unspecified
-ParalaryngealLymphNode,,STRING,,unspecified
-ParapharyngealLymphNode,,STRING,,unspecified
-ParathyroidGland,,STRING,,unspecified
-ParatrachealLymphNode,,STRING,,unspecified
-ParotidDuct,,STRING,,unspecified
-ParotidGland,,STRING,,unspecified
-ParotidGlandLymphNode,,STRING,,unspecified
-PectoralLymphNode,,STRING,,unspecified
-PelvicLymphNode,,STRING,,unspecified
-Penis,,STRING,,unspecified
-PericardialLymphNode,,STRING,,unspecified
-PerifacialLymphNode,,STRING,,unspecified
-PerihilarLymphNode,,STRING,,unspecified
-PerirectalLymphNode,,STRING,,unspecified
-PeristomalSkin,,STRING,,unspecified
-PeritonealLymphNode,,STRING,,unspecified
-PharyngealTonsil,,STRING,,unspecified
-PinealGland,,STRING,,unspecified
-PituitaryGland,,STRING,,unspecified
-PoplitealLymphNode,,STRING,,unspecified
-PortaHepatisLymphNode,,STRING,,unspecified
-PortacavalLymphNode,,STRING,,unspecified
-PortalLymphNode,,STRING,,unspecified
-PosteriorCervicalLymphNode,,STRING,,unspecified
-PosteriorTriangleLymphNodeGroupSublevelsVAandVB,,STRING,,unspecified
-PreauricularLymphNode,,STRING,,unspecified
-PregnantUterus,,STRING,,unspecified
-PrelaryngealLymphNode,,STRING,,unspecified
-Prepuce,,STRING,,unspecified
-PresacralLymphNode,,STRING,,unspecified
-PretrachealLymphNode,,STRING,,unspecified
-ProstateGland,,STRING,,unspecified
-ProstaticDuct,,STRING,,unspecified
-PulmonaryHilarLymphNode,,STRING,,unspecified
-PyloricGland,,STRING,,unspecified
-RegionalLymphNode,,STRING,,unspecified
-RenalLymphNode,,STRING,,unspecified
-RetroauricularLymphNode,,STRING,,unspecified
-RetrocruralLymphNode,,STRING,,unspecified
-RetroperitonealLymphNode,,STRING,,unspecified
-RetropharyngealLymphNode,,STRING,,unspecified
-RetrosacralLymphNode,,STRING,,unspecified
-Rib,,STRING,,unspecified
-RightAdrenalGland,,STRING,,unspecified
-RightBreast,,STRING,,unspecified
-RightEar,,STRING,,unspecified
-RightEye,,STRING,,unspecified
-RightFallopianTube,,STRING,,unspecified
-RightHepaticDuct,,STRING,,unspecified
-RightKidney,,STRING,,unspecified
-RightLung,,STRING,,unspecified
-RightLungAlveolarDuct,,STRING,,unspecified
-RightLymphaticDuct,,STRING,,unspecified
-RightOvary,,STRING,,unspecified
-RightSeminalVesicle,,STRING,,unspecified
-RightTestis,,STRING,,unspecified
-RightUreter,,STRING,,unspecified
-SacralLymphNode,,STRING,,unspecified
-SalivaryGland,,STRING,,unspecified
-ScaleneLymphNode,,STRING,,unspecified
-Scalp,,STRING,,unspecified
-Scapula,,STRING,,unspecified
-Scrotum,,STRING,,unspecified
-SebaceousGland,,STRING,,unspecified
-SebaceousGlandDuct,,STRING,,unspecified
-SebaceousGlandoftheEyelash,,STRING,,unspecified
-SemicircularDuct,,STRING,,unspecified
-SeminalVesicle,,STRING,,unspecified
-SentinelLymphNode,,STRING,,unspecified
-SeromucousSalivaryGland,,STRING,,unspecified
-SerousSalivaryGland,,STRING,,unspecified
-SkeneGland,,STRING,,unspecified
-Skin,,STRING,,unspecified
-SkinAroundtheEye,,STRING,,unspecified
-SkinAroundtheMouth,,STRING,,unspecified
-SkinBetweentheEyebrows,,STRING,,unspecified
-SkinOfTheAxilla,,STRING,,unspecified
-SkinOfTheBack,,STRING,,unspecified
-SkinOfTheChin,,STRING,,unspecified
-SkinoftheBendingJoint,,STRING,,unspecified
-SkinoftheButtock,,STRING,,unspecified
-SkinoftheChest,,STRING,,unspecified
-SkinoftheExtremity,,STRING,,unspecified
-SkinoftheFace,,STRING,,unspecified
-SkinoftheForearm,,STRING,,unspecified
-SkinoftheInfrascapularRegion,,STRING,,unspecified
-SkinoftheInguinalRegion,,STRING,,unspecified
-SkinoftheLip,,STRING,,unspecified
-SkinoftheLowerExtremity,,STRING,,unspecified
-SkinoftheLowerLimbandHip,,STRING,,unspecified
-SkinofthePalm,,STRING,,unspecified
-SkinoftheScalpandNeck,,STRING,,unspecified
-SkinoftheSole,,STRING,,unspecified
-SkinoftheTrunk,,STRING,,unspecified
-SkinoftheUpperExtremity,,STRING,,unspecified
-SkinoftheUpperLimbandShoulder,,STRING,,unspecified
-Skinfold,,STRING,,unspecified
-SpermaticCord,,STRING,,unspecified
-SpinalCord,,STRING,,unspecified
-Spleen,,STRING,,unspecified
-SplenicHilarLymphNode,,STRING,,unspecified
-SplenicLymphNode,,STRING,,unspecified
-Sternum,,STRING,,unspecified
-Stomach,,STRING,,unspecified
-StriatedDuct,,STRING,,unspecified
-SubcarinalLymphNode,,STRING,,unspecified
-SublingualLymphNode,,STRING,,unspecified
-SublingualSalivaryGland,,STRING,,unspecified
-SubmandibularDuct,,STRING,,unspecified
-SubmandibularGland,,STRING,,unspecified
-SubmandibularLymphNode,,STRING,,unspecified
-SubmandibularLymphNodeGroupSublevelIB,,STRING,,unspecified
-SubmentalLymphNode,,STRING,,unspecified
-SubmentalLymphNodeGroupSublevelIA,,STRING,,unspecified
-SubsegmentalLymphNode,,STRING,,unspecified
-SuperficialCervicalLymphNode,,STRING,,unspecified
-SuperficialLymphNode,,STRING,,unspecified
-SuperiorMediastinalLymphNodeGroupLevelVII,,STRING,,unspecified
-SuperiorParathyroidGland,,STRING,,unspecified
-SupraclavicularLymphNode,,STRING,,unspecified
-SuprapubicSkin,,STRING,,unspecified
-SweatGland,,STRING,,unspecified
-SweatGlandDuct,,STRING,,unspecified
-Testis,,STRING,,unspecified
-ThoracicDuct,,STRING,,unspecified
-ThoracicLymphNode,,STRING,,unspecified
-ThymusGland,,STRING,,unspecified
-ThyroidGland,,STRING,,unspecified
-Tibia,,STRING,,unspecified
-Tongue,,STRING,,unspecified
-Tonsil,,STRING,,unspecified
-Trachea,,STRING,,unspecified
-TracheobronchialLymphNode,,STRING,,unspecified
-TracheobronchialTree,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
-UpperCervicalLymphNode,,STRING,,unspecified
-UpperJugularLymphNodeGroupSublevelsIIAandIIB,,STRING,,unspecified
-UpperParatrachealLymphNode,,STRING,,unspecified
-Ureter,,STRING,,unspecified
-Urethra,,STRING,,unspecified
-UrethralGland,,STRING,,unspecified
-Uterus,,STRING,,unspecified
-UtriculosaccularDuct,,STRING,,unspecified
-Vagina,,STRING,,unspecified
-VasDeferens,,STRING,,unspecified
-Vertebral,,STRING,,unspecified
-Vulva,,STRING,,unspecified
-WristSkin,,STRING,,unspecified
+Abdominal Skin,nan,,nan,DataProperty
+Accessory Lacrimal Gland,nan,,nan,DataProperty
+Adrenal Gland,nan,,nan,DataProperty
+Alveolar Duct,nan,,nan,DataProperty
+Anal Gland,nan,,nan,DataProperty
+Anal Sac,nan,,nan,DataProperty
+Ankle Skin,nan,,nan,DataProperty
+Anterior Compartment Lymph Node Group (Level VI),nan,,nan,DataProperty
+Anterior Mediastinal Lymph Node,nan,,nan,DataProperty
+Aortocaval Lymph Node,nan,,nan,DataProperty
+Aortopulmonary Window Lymph Node,nan,,nan,DataProperty
+Apocrine Sweat Gland,nan,,nan,DataProperty
+Arm Skin,nan,,nan,DataProperty
+Axillary Lymph Node,nan,,nan,DataProperty
+Axillary Lymph Node Level I,nan,,nan,DataProperty
+Axillary Lymph Node Level II,nan,,nan,DataProperty
+Axillary Lymph Node Level III,nan,,nan,DataProperty
+Bartholin Gland,nan,,nan,DataProperty
+Bile Duct,nan,,nan,DataProperty
+Biliary Tract,nan,,nan,DataProperty
+Bladder,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Femur,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Humerus,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Rib,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Scapula,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Sternum,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Tibia,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Bone Marrow,nan,,nan,DataProperty
+Vertebral,nan,,nan,DataProperty
+Both Eyes,nan,,nan,DataProperty
+Brachial Lymph Node,nan,,nan,DataProperty
+Brain,nan,,nan,DataProperty
+Branch Duct,nan,,nan,DataProperty
+Breast,nan,,nan,DataProperty
+Bronchial Lymph Node,nan,,nan,DataProperty
+Bronchial Tree,nan,,nan,DataProperty
+Brunner's Gland,nan,,nan,DataProperty
+Buccal Lymph Node,nan,,nan,DataProperty
+Buccal Salivary Gland,nan,,nan,DataProperty
+Cardia Gland,nan,,nan,DataProperty
+Cardiophrenic Lymph Node,nan,,nan,DataProperty
+Celiac Lymph Node,nan,,nan,DataProperty
+Ceruminous Gland,nan,,nan,DataProperty
+Cervical Gland,nan,,nan,DataProperty
+Cervical Lymph Node,nan,,nan,DataProperty
+Circumanal Gland,nan,,nan,DataProperty
+Cochlear Duct,nan,,nan,DataProperty
+Colon Lymph Node,nan,,nan,DataProperty
+Common Bile Duct,nan,,nan,DataProperty
+Common Hepatic Duct,nan,,nan,DataProperty
+Common Iliac Lymph Node,nan,,nan,DataProperty
+Cowper Gland,nan,,nan,DataProperty
+Cystic Duct,nan,,nan,DataProperty
+Deep Cervical Lymph Node,nan,,nan,DataProperty
+Diaphragmatic Lymph Node,nan,,nan,DataProperty
+Distal 1/3 of the Common Bile Duct,nan,,nan,DataProperty
+Distal Common Bile Duct,nan,,nan,DataProperty
+Distant Lymph Node,nan,,nan,DataProperty
+Draining Lymph Node,nan,,nan,DataProperty
+Duct,nan,,nan,DataProperty
+Duct of Gartner,nan,,nan,DataProperty
+Duct of the Epididymis,nan,,nan,DataProperty
+Ductus Santorini,nan,,nan,DataProperty
+Ear,nan,,nan,DataProperty
+Ear Skin,nan,,nan,DataProperty
+Eccrine Sweat Gland,nan,,nan,DataProperty
+Efferent Duct,nan,,nan,DataProperty
+Ejaculatory Duct,nan,,nan,DataProperty
+Elbow Skin,nan,,nan,DataProperty
+Endocrine Gland,nan,,nan,DataProperty
+Endocrine Ovary,nan,,nan,DataProperty
+Endocrine Sex Organ,nan,,nan,DataProperty
+Endocrine Testis,nan,,nan,DataProperty
+Epididymis,nan,,nan,DataProperty
+Epigastric Lymph Node,nan,,nan,DataProperty
+Epitrochlear Lymph Node,nan,,nan,DataProperty
+Esophageal Gland,nan,,nan,DataProperty
+Esophageal Lymph Node,nan,,nan,DataProperty
+Esophagus,nan,,nan,DataProperty
+Exocrine Gland,nan,,nan,DataProperty
+Exocrine Pancreas,nan,,nan,DataProperty
+External Iliac Lymph Node,nan,,nan,DataProperty
+Extra-Abdominal Lymph Node,nan,,nan,DataProperty
+Extrahepatic Bile Duct,nan,,nan,DataProperty
+Eye,nan,,nan,DataProperty
+Eyelid Skin,nan,,nan,DataProperty
+Fallopian Tube,nan,,nan,DataProperty
+Female Breast,nan,,nan,DataProperty
+Female Prepuce,nan,,nan,DataProperty
+Female Urethra,nan,,nan,DataProperty
+Femoral Lymph Node,nan,,nan,DataProperty
+Fixed Lymph Node,nan,,nan,DataProperty
+Flexural Skin,nan,,nan,DataProperty
+Foot Digit Skin,nan,,nan,DataProperty
+Foot Skin,nan,,nan,DataProperty
+Fundic Gland,nan,,nan,DataProperty
+Gallbladder,nan,,nan,DataProperty
+Gastric Curvature Lymph Node,nan,,nan,DataProperty
+Gastric Lymph Node,nan,,nan,DataProperty
+Gastrohepatic Lymph Node,nan,,nan,DataProperty
+Glabrous Skin,nan,,nan,DataProperty
+Gland,nan,,nan,DataProperty
+Gland of Krause,nan,,nan,DataProperty
+Gland of Littre,nan,,nan,DataProperty
+Gland of Moll,nan,,nan,DataProperty
+Gland of Wolfring,nan,,nan,DataProperty
+Gonad,nan,,nan,DataProperty
+Hand Digit Skin,nan,,nan,DataProperty
+Hand Skin,nan,,nan,DataProperty
+Head Skin,nan,,nan,DataProperty
+Head and Neck Lymph Node,nan,,nan,DataProperty
+Heart,nan,,nan,DataProperty
+Hepatic Duct,nan,,nan,DataProperty
+Hepatic Lymph Node,nan,,nan,DataProperty
+Hilar Portion of the Hepatic Duct,nan,,nan,DataProperty
+Hilar Portion of the Left Hepatic Duct,nan,,nan,DataProperty
+Hilar Portion of the Right Hepatic Duct,nan,,nan,DataProperty
+Ileum Lymph Node,nan,,nan,DataProperty
+Iliac Lymph Node,nan,,nan,DataProperty
+Inferior Mediastinal Lymph Node,nan,,nan,DataProperty
+Inferior Parathyroid Gland,nan,,nan,DataProperty
+Infraclavicular Lymph Node,nan,,nan,DataProperty
+Inguinal Lymph Node,nan,,nan,DataProperty
+Intercalated Duct,nan,,nan,DataProperty
+Intercalated Duct of the Pancreas,nan,,nan,DataProperty
+Intercalated Duct of the Salivary Gland System,nan,,nan,DataProperty
+Intercostal Lymph Node,nan,,nan,DataProperty
+Interlobular Bile Duct,nan,,nan,DataProperty
+Interlobular Duct,nan,,nan,DataProperty
+Internal Iliac Lymph Node,nan,,nan,DataProperty
+Internal Mammary Lymph Node,nan,,nan,DataProperty
+Interval Lymph Node,nan,,nan,DataProperty
+Intestine,nan,,nan,DataProperty
+Intra-Abdominal Lymph Node,nan,,nan,DataProperty
+Intrahepatic Bile Duct,nan,,nan,DataProperty
+Intrahepatic Large Bile Duct,nan,,nan,DataProperty
+Intrahepatic Portion of the Left Hepatic Duct,nan,,nan,DataProperty
+Intrahepatic Portion of the Right Hepatic Duct,nan,,nan,DataProperty
+Intramammary Lymph Node,nan,,nan,DataProperty
+Intrathoracic Lymph Node,nan,,nan,DataProperty
+Intrathyroidal Parathyroid,nan,,nan,DataProperty
+Kidney,nan,,nan,DataProperty
+Knee Skin,nan,,nan,DataProperty
+Labial Salivary Gland,nan,,nan,DataProperty
+Lacrimal Gland,nan,,nan,DataProperty
+Lactiferous Duct,nan,,nan,DataProperty
+Laryngeal Mucous Salivary Gland,nan,,nan,DataProperty
+Left Adrenal Gland,nan,,nan,DataProperty
+Left Breast,nan,,nan,DataProperty
+Left Ear,nan,,nan,DataProperty
+Left Eye,nan,,nan,DataProperty
+Left Fallopian Tube,nan,,nan,DataProperty
+Left Hepatic Duct,nan,,nan,DataProperty
+Left Kidney,nan,,nan,DataProperty
+Left Lung,nan,,nan,DataProperty
+Left Lung Alveolar Duct,nan,,nan,DataProperty
+Left Ovary,nan,,nan,DataProperty
+Left Seminal Vesicle,nan,,nan,DataProperty
+Left Testis,nan,,nan,DataProperty
+Left Ureter,nan,,nan,DataProperty
+Leg Skin,nan,,nan,DataProperty
+Lingual Salivary Gland,nan,,nan,DataProperty
+Lingual Tonsil,nan,,nan,DataProperty
+Liver,nan,,nan,DataProperty
+Lower Gastrointestinal Tract Lymph Node,nan,,nan,DataProperty
+Lower Jugular Lymph Node Group (Level IV),nan,,nan,DataProperty
+Lung,nan,,nan,DataProperty
+Lymph Node,nan,,nan,DataProperty
+Lymph Node by Anatomic Site,nan,,nan,DataProperty
+Lymph Node of Inguinal Region or Leg,nan,,nan,DataProperty
+Main Pancreatic and Accessory Ducts,nan,,nan,DataProperty
+Major Salivary Gland,nan,,nan,DataProperty
+Male Breast,nan,,nan,DataProperty
+Male Prepuce,nan,,nan,DataProperty
+Male Urethra,nan,,nan,DataProperty
+Mammary Gland,nan,,nan,DataProperty
+Medial Supraclavicular Lymph Node,nan,,nan,DataProperty
+Median Or Lower Cervical Lymph Node,nan,,nan,DataProperty
+Mediastinal Lymph Node,nan,,nan,DataProperty
+Meibomian Gland,nan,,nan,DataProperty
+Mesenteric Lymph Node,nan,,nan,DataProperty
+Middle Jugular Lymph Node Group (Level III),nan,,nan,DataProperty
+Minor Salivary Gland,nan,,nan,DataProperty
+Montgomery Tubercle,nan,,nan,DataProperty
+Mucous Salivary Gland,nan,,nan,DataProperty
+Mullerian Duct,nan,,nan,DataProperty
+Nasolacrimal Duct,nan,,nan,DataProperty
+Neck Lymph Node Boundary Level III,nan,,nan,DataProperty
+Neck Lymph Node Boundary Level IV,nan,,nan,DataProperty
+Neck Lymph Node Boundary Level VI,nan,,nan,DataProperty
+Neck Lymph Node Boundary Level VII,nan,,nan,DataProperty
+Neck Lymph Node Boundary Levels I-IV,nan,,nan,DataProperty
+Neck Lymph Node Boundary Levels II-IV,nan,,nan,DataProperty
+Neck Lymph Node Boundary Levels and Sublevels,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel IA,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel IB,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel IIA,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel IIB,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel VA,nan,,nan,DataProperty
+Neck Lymph Node Boundary Sublevel VB,nan,,nan,DataProperty
+Neck Lymph Node Groups,nan,,nan,DataProperty
+Neck Skin,nan,,nan,DataProperty
+Non-Glabrous Skin,nan,,nan,DataProperty
+Nose,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Nuchal Lymph Node,nan,,nan,DataProperty
+Obturator Lymph Node,nan,,nan,DataProperty
+Occipital Lymph Node,nan,,nan,DataProperty
+Occipital Scalp,nan,,nan,DataProperty
+Organ of Special Sense,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Ovary,nan,,nan,DataProperty
+Palatine Salivary Gland,nan,,nan,DataProperty
+Palatine Tonsil,nan,,nan,DataProperty
+Pancreas,nan,,nan,DataProperty
+Pancreatic Duct,nan,,nan,DataProperty
+Pancreatic Lymph Node,nan,,nan,DataProperty
+Paraaortic Lymph Node,nan,,nan,DataProperty
+Paracaval Lymph Node,nan,,nan,DataProperty
+Paralaryngeal Lymph Node,nan,,nan,DataProperty
+Parapharyngeal Lymph Node,nan,,nan,DataProperty
+Parathyroid Gland,nan,,nan,DataProperty
+Paratracheal Lymph Node,nan,,nan,DataProperty
+Parotid Duct,nan,,nan,DataProperty
+Parotid Gland,nan,,nan,DataProperty
+Parotid Gland Lymph Node,nan,,nan,DataProperty
+Pectoral Lymph Node,nan,,nan,DataProperty
+Pelvic Lymph Node,nan,,nan,DataProperty
+Penis,nan,,nan,DataProperty
+Pericardial Lymph Node,nan,,nan,DataProperty
+Perifacial Lymph Node,nan,,nan,DataProperty
+Perihilar Lymph Node,nan,,nan,DataProperty
+Perirectal Lymph Node,nan,,nan,DataProperty
+Peristomal Skin,nan,,nan,DataProperty
+Peritoneal Lymph Node,nan,,nan,DataProperty
+Pharyngeal Tonsil,nan,,nan,DataProperty
+Pineal Gland,nan,,nan,DataProperty
+Pituitary Gland,nan,,nan,DataProperty
+Popliteal Lymph Node,nan,,nan,DataProperty
+Porta Hepatis Lymph Node,nan,,nan,DataProperty
+Portacaval Lymph Node,nan,,nan,DataProperty
+Portal Lymph Node,nan,,nan,DataProperty
+Posterior Cervical Lymph Node,nan,,nan,DataProperty
+Posterior Triangle Lymph Node Group (Sublevels VA and VB),nan,,nan,DataProperty
+Preauricular Lymph Node,nan,,nan,DataProperty
+Pregnant Uterus,nan,,nan,DataProperty
+Prelaryngeal Lymph Node,nan,,nan,DataProperty
+Prepuce,nan,,nan,DataProperty
+Presacral Lymph Node,nan,,nan,DataProperty
+Pretracheal Lymph Node,nan,,nan,DataProperty
+Prostate Gland,nan,,nan,DataProperty
+Prostatic Duct,nan,,nan,DataProperty
+Pulmonary Hilar Lymph Node,nan,,nan,DataProperty
+Pyloric Gland,nan,,nan,DataProperty
+Regional Lymph Node,nan,,nan,DataProperty
+Renal Lymph Node,nan,,nan,DataProperty
+Retroauricular Lymph Node,nan,,nan,DataProperty
+Retrocrural Lymph Node,nan,,nan,DataProperty
+Retroperitoneal Lymph Node,nan,,nan,DataProperty
+Retropharyngeal Lymph Node,nan,,nan,DataProperty
+Retrosacral Lymph Node,nan,,nan,DataProperty
+Right Adrenal Gland,nan,,nan,DataProperty
+Right Breast,nan,,nan,DataProperty
+Right Ear,nan,,nan,DataProperty
+Right Eye,nan,,nan,DataProperty
+Right Fallopian Tube,nan,,nan,DataProperty
+Right Hepatic Duct,nan,,nan,DataProperty
+Right Kidney,nan,,nan,DataProperty
+Right Lung,nan,,nan,DataProperty
+Right Lung Alveolar Duct,nan,,nan,DataProperty
+Right Lymphatic Duct,nan,,nan,DataProperty
+Right Ovary,nan,,nan,DataProperty
+Right Seminal Vesicle,nan,,nan,DataProperty
+Right Testis,nan,,nan,DataProperty
+Right Ureter,nan,,nan,DataProperty
+Sacral Lymph Node,nan,,nan,DataProperty
+Salivary Gland,nan,,nan,DataProperty
+Scalene Lymph Node,nan,,nan,DataProperty
+Scalp,nan,,nan,DataProperty
+Scrotum,nan,,nan,DataProperty
+Sebaceous Gland,nan,,nan,DataProperty
+Sebaceous Gland Duct,nan,,nan,DataProperty
+Sebaceous Gland of the Eyelash,nan,,nan,DataProperty
+Semicircular Duct,nan,,nan,DataProperty
+Seminal Vesicle,nan,,nan,DataProperty
+Sentinel Lymph Node,nan,,nan,DataProperty
+Seromucous Salivary Gland,nan,,nan,DataProperty
+Serous Salivary Gland,nan,,nan,DataProperty
+Skene Gland,nan,,nan,DataProperty
+Skin,nan,,nan,DataProperty
+Skin Around the Eye,nan,,nan,DataProperty
+Skin Around the Mouth,nan,,nan,DataProperty
+Skin Between the Eyebrows,nan,,nan,DataProperty
+Skin Of The Axilla,nan,,nan,DataProperty
+Skin Of The Back,nan,,nan,DataProperty
+Skin Of The Chin,nan,,nan,DataProperty
+Skin of the Bending Joint,nan,,nan,DataProperty
+Skin of the Buttock,nan,,nan,DataProperty
+Skin of the Chest,nan,,nan,DataProperty
+Skin of the Extremity,nan,,nan,DataProperty
+Skin of the Face,nan,,nan,DataProperty
+Skin of the Forearm,nan,,nan,DataProperty
+Skin of the Infrascapular Region,nan,,nan,DataProperty
+Skin of the Inguinal Region,nan,,nan,DataProperty
+Skin of the Lip,nan,,nan,DataProperty
+Skin of the Lower Extremity,nan,,nan,DataProperty
+Skin of the Lower Limb and Hip,nan,,nan,
+Skin of the Palm,nan,,nan,
+Skin of the Scalp and Neck,nan,,nan,
+Skin of the Sole,nan,,nan,
+Skin of the Trunk,nan,,nan,
+Skin of the Upper Extremity,nan,,nan,
+Skin of the Upper Limb and Shoulder,nan,,nan,
+Skinfold,nan,,nan,
+Spermatic Cord,nan,,nan,
+Spinal Cord,nan,,nan,
+Spleen,nan,,nan,
+Splenic Hilar Lymph Node,nan,,nan,
+Splenic Lymph Node,nan,,nan,
+Stomach,nan,,nan,
+Striated Duct,nan,,nan,
+Subcarinal Lymph Node,nan,,nan,
+Sublingual Lymph Node,nan,,nan,
+Sublingual Salivary Gland,nan,,nan,
+Submandibular Duct,nan,,nan,
+Submandibular Gland,nan,,nan,
+Submandibular Lymph Node,nan,,nan,
+Submandibular Lymph Node Group (Sublevel IB),nan,,nan,
+Submental Lymph Node,nan,,nan,
+Submental Lymph Node Group (Sublevel IA),nan,,nan,
+Subsegmental Lymph Node,nan,,nan,
+Superficial Cervical Lymph Node,nan,,nan,
+Superficial Lymph Node,nan,,nan,
+Superior Mediastinal Lymph Node Group (Level VII),nan,,nan,
+Superior Parathyroid Gland,nan,,nan,
+Supraclavicular Lymph Node,nan,,nan,
+Suprapubic Skin,nan,,nan,
+Sweat Gland,nan,,nan,
+Sweat Gland Duct,nan,,nan,
+Testis,nan,,nan,
+Thoracic Duct,nan,,nan,
+Thoracic Lymph Node,nan,,nan,
+Thymus Gland,nan,,nan,
+Thyroid Gland,nan,,nan,
+Tongue,nan,,nan,
+Tonsil,nan,,nan,
+Trachea,nan,,nan,
+Tracheobronchial Lymph Node,nan,,nan,
+Tracheobronchial Tree,nan,,nan,
+Unknown,nan,,nan,
+Upper Cervical Lymph Node,nan,,nan,
+Upper Jugular Lymph Node Group (Sublevels IIA and IIB),nan,,nan,
+Upper Paratracheal Lymph Node,nan,,nan,
+Ureter,nan,,nan,
+Urethra,nan,,nan,
+Urethral Gland,nan,,nan,
+Uterus,nan,,nan,
+Utriculosaccular Duct,nan,,nan,
+Vagina,nan,,nan,
+Vas Deferens,nan,,nan,
+Vulva,nan,,nan,
+Wrist Skin,nan,,nan,

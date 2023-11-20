@@ -1,9 +1,9 @@
 Key,Key Description,Type,Source,Parent
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherTranscriptTypeTranscriptType,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-lincRNA,nan,STRING,nan,unspecified
-mRNA,nan,STRING,nan,unspecified
-snRNA,nan,STRING,nan,unspecified
+lincRNA,nan,,nan,DataProperty
+mRNA,nan,,nan,DataProperty
+snRNA,nan,,nan,DataProperty
+OtherTranscriptType,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

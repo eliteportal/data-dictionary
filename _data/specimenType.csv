@@ -1,33 +1,16 @@
 Key,Key Description,Type,Source,Parent
-AnalyteType,,STRING,,unspecified
-CerebrospinalFluidCSF,,STRING,,unspecified
-CytologySpecimenType,,STRING,,unspecified
-ImmunogenicitySpecimenAssessmentsSpecimenType,,STRING,,unspecified
-ImmunohistochemistrySpecimenType,,STRING,,unspecified
-LaboratorySpecimenType,,STRING,,unspecified
-MacroscopicFindingsSpecimenType,,STRING,,unspecified
-MicrobiologySpecimenType,,STRING,,unspecified
-MicrobiologySusceptibilitySpecimenType,,STRING,,unspecified
-MicroscopicFindingsSpecimenType,,STRING,,unspecified
-MolecularAnalysisSampleSource,,STRING,,unspecified
-MolecularTestAnalyteType,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OrganMeasurementsSpecimenType,,STRING,,unspecified
-OtherSpecimenType,nan,STRING,nan,unspecified
-PharmacokineticConcentrationSpecimenType,,STRING,,unspecified
-PharmacokineticParameterSpecimenType,,STRING,,unspecified
-Plasma,nan,STRING,nan,unspecified
-Saliva,nan,STRING,nan,unspecified
-Serum,nan,STRING,nan,unspecified
-SkinResponseSpecimenType,,STRING,,unspecified
-Sputum,nan,STRING,nan,unspecified
-TumorFindingsSpecimenType,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
-UrinarySystemFindingsSpecimenType,,STRING,,unspecified
-Urine,nan,STRING,nan,unspecified
-blood,nan,STRING,nan,unspecified
-organoid,nan,STRING,nan,unspecified
-stool,nan,STRING,nan,unspecified
-swabs,nan,STRING,nan,unspecified
-tissue,nan,STRING,nan,unspecified
+blood,nan,,nan,DataProperty
+Plasma,nan,,nan,DataProperty
+Urine,nan,,nan,DataProperty
+Saliva,nan,,nan,DataProperty
+stool,nan,,nan,DataProperty
+Serum,nan,,nan,DataProperty
+tissue,nan,,nan,DataProperty
+swabs,nan,,nan,DataProperty
+Sputum,nan,,nan,DataProperty
+Cerebrospinal Fluid (CSF),nan,,nan,DataProperty
+organoid,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

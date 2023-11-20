@@ -13,11 +13,9 @@ import os
 from functools import partial
 import re
 import pandas as pd
-import yaml
-import pathlib
+from dotenv import dotenv_values
 
-with open("./_config.yml", "r") as f:
-    config = yaml.safe_load(f)
+config = dotenv_values(".env")
 
 
 def get_template_keys(data_model, template):
@@ -115,6 +113,7 @@ def create_term_df(data_model, term):
         df[
             "Source"
         ] = "https://wits.worldbank.org/countryprofile/metadata/en/country/all"
+
         df["Parent"] = "Metadata"
         df["Type"] = "Numeric"
 
@@ -242,7 +241,7 @@ def manage_term_files(term=None):
     """
 
     # load data model
-    data_model = pd.read_csv(config["data_model"])
+    data_model = pd.read_csv(config["csv_model"])
 
     # remove spaces and irregular characters
     data_model["Attribute"] = data_model["Attribute"].str.replace(

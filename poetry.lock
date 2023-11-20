@@ -2028,6 +2028,20 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.0.tar.gz", hash = "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba"},
+    {file = "python_dotenv-1.0.0-py3-none-any.whl", hash = "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "python-frontmatter"
 version = "1.0.0"
 description = "Parse and manage posts with YAML (or other) frontmatter"
@@ -3063,4 +3077,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "483d1e278ce3869cbe9123eb0fdf5a2ca8505e9eb4722a313f3fd0f80bf245c5"
+content-hash = "11bbef5eb3f3b08ebc7c25af60a8c0386d310692d5c0b937fa6f963190532c4d"

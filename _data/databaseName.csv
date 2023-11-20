@@ -1,21 +1,10 @@
 Key,Key Description,Type,Source,Parent
-HMDB,nan,STRING,nan,unspecified
-MassBankofNorthAmericaMoNA,,STRING,,unspecified
-Metlin,nan,STRING,nan,unspecified
-NIST17,nan,STRING,nan,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherDatabaseNameDatabaseName,nan,STRING,nan,unspecified
-Unknown,nan,STRING,nan,unspecified
-databaseIPIarabidopsis,,STRING,,unspecified
-databaseIPIchicken,,STRING,,unspecified
-databaseIPIcow,,STRING,,unspecified
-databaseIPIhuman,,STRING,,unspecified
-databaseIPImouse,,STRING,,unspecified
-databaseIPIrat,,STRING,,unspecified
-databaseIPIzebrafish,,STRING,,unspecified
-databaseUniProtKB,,STRING,,unspecified
-databaseUniProtKB/SwissProt,,STRING,,unspecified
-databaseUniProtKB/TrEMBL,,STRING,,unspecified
-databasenr,,STRING,,unspecified
+MassBank of North America (MoNA),nan,,nan,DataProperty
+NIST17,nan,,nan,DataProperty
+Metlin,nan,,nan,DataProperty
+HMDB,nan,,nan,DataProperty
+OtherDatabaseName,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

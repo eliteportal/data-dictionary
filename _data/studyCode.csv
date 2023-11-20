@@ -1,5 +1,5 @@
 Key,Key Description,Type,Source,Parent
-ILO,,STRING,,unspecified
-LC,,STRING,,unspecified
-LG,,STRING,,unspecified
-LLFS,,STRING,,unspecified
+LC,nan,,nan,DataProperty
+LG,nan,,nan,DataProperty
+ILO,nan,,nan,DataProperty
+LLFS,nan,,nan,DataProperty

@@ -6,21 +6,15 @@ Contributors: Dan Lu, Nicholas Lee
 # load modules
 import glob
 import os
-
 import re
-
 from functools import partial
-
 import frontmatter
 import numpy as np
 import pandas as pd
-
 from mdutils import fileutils
+from dotenv import dotenv_values
 
-import yaml
-
-with open("./_config.yml", "r") as f:
-    config = yaml.safe_load(f)
+config = dotenv_values(".env")
 
 
 def get_term_info(data_model, term):
@@ -33,7 +27,7 @@ def get_term_info(data_model, term):
     """
     # get the definition and module of the term from data model
     results = data_model.loc[
-        data_model["Attribute"] == term, ["Description", "Source", "module"]
+        data_model["Attribute"] == term, ["Description", "Source", "Module"]
     ].to_dict("records")
 
     return results
@@ -47,19 +41,20 @@ def generate_page(data_model, term):
 
     :returns: a term Markdown page generated under the docs/<module_name> folder
     """
+    # quick cleanup
     term_attr = re.sub("_", " ", term)
 
     # get term information
     results = get_term_info(data_model, term_attr)
 
-    # add paragraph for term definition and source
+    # Try to add source
     try:
         if results[0]["Source"] == "Sage Bionetworks":
             results[0]["Source"] = "https://sagebionetworks.org/"
     except IndexError:
         results[0]["Source"] = ""
 
-    if "Template" in data_model.query("Attribute == @term")["module"].values:
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         # load template
         post = frontmatter.load("template_page_template.md")
         post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).title()
@@ -86,29 +81,29 @@ def generate_page(data_model, term):
             + f">{results[0]['Description']} [[Source]]({results[0]['Source']})\n"
             + post.content
         )
-    post.metadata["parent"] = results[0]["module"]
+    post.metadata["parent"] = results[0]["Module"]
 
     # create directory for the moduel if not exist
-    if not os.path.exists(f"docs/{results[0]['module']}/"):
-        os.mkdir(f"docs/{results[0]['module']}/")
+    if not os.path.exists(f"docs/{results[0]['Module']}/"):
+        os.mkdir(f"docs/{results[0]['Module']}/")
 
         # create a module page
         module = fileutils.MarkDownFile(
-            f"docs/{results[0]['module']}/{results[0]['module']}"
+            f"docs/{results[0]['Module']}/{results[0]['Module']}"
         )
 
-        if "Template" in data_model.query("Attribute == @term")["module"].values:
+        if "Template" in data_model.query("Attribute == @term")["Module"].values:
             # add permalink for template page
             module.append_end(
-                f"--- \nlayout: page \ntitle: {results[0]['module']} \nhas_children: true \nnav_order: 5 \npermalink: docs/{results[0]['module']}.html \n---"
+                f"--- \nlayout: page \ntitle: {results[0]['Module']} \nhas_children: true \nnav_order: 5 \npermalink: docs/{results[0]['Module']}.html \n---"
             )
         else:
             module.append_end(
-                f"--- \nlayout: page \ntitle: {results[0]['module']} \nhas_children: true \nnav_order: 2 \npermalink: docs/{results[0]['module']}.html \n---"
+                f"--- \nlayout: page \ntitle: {results[0]['Module']} \nhas_children: true \nnav_order: 2 \npermalink: docs/{results[0]['Module']}.html \n---"
             )
 
     # create file
-    file = fileutils.MarkDownFile(f"docs/{results[0]['module']}/{term}")
+    file = fileutils.MarkDownFile(f"docs/{results[0]['Module']}/{term}")
 
     # add content to the file
     file.append_end(frontmatter.dumps(post))
@@ -135,7 +130,7 @@ def generate_full_table(data_model):
     data_model = data_model.rename(
         {"Attribute": "Key", "Description": "Key Description"}, axis=1
     )
-    data_model = data_model[["Key", "Key Description", "Type", "Source", "module"]]
+    data_model = data_model[["Key", "Key Description", "Type", "Source", "Module"]]
     data_model.to_csv(f"_data/{site_data}.csv", index=False)
 
     # creating markdown text
@@ -166,7 +161,7 @@ def delete_page(term):
 
 def main():
     # load data model csv file
-    data_model = pd.read_csv(config["data_model"])
+    data_model = pd.read_csv(config["csv_model"])
 
     data_model.fillna("", inplace=True)
 
@@ -176,12 +171,10 @@ def main():
     ]
 
     term_pages = [
-        file.split("/")[-1].split(".")[0] for file in glob.glob("docs/*/*.md")
+        file.split("/")[-1].split(".")[0] for file in glob.glob("docs/**/*.md")
     ]
 
     to_add = map(str, np.setdiff1d(term_files, term_pages))
-
-    to_delete = np.setdiff1d(term_pages, term_files).tolist()
 
     # pdb.set_trace()
     # generate pages for terms with the term files
@@ -191,10 +184,16 @@ def main():
     list(map(generate_page_temp, to_add))
 
     # delete pages for terms without the term files and exclude module and template pages (since template page might be named differently from the template files)
+    to_delete = np.setdiff1d(term_pages, term_files)
+
+    to_delete = np.setdiff1d(set(to_delete), set(["FullTable", "Template"])).tolist()
+
+    print(f"Deleting: {to_delete}")
+
     to_delete = [
         x
         for x in to_delete
-        if x not in data_model["module"].dropna().unique().tolist()
+        if x not in data_model["Module"].dropna().unique().tolist()
         and "Template" not in x
     ]
 

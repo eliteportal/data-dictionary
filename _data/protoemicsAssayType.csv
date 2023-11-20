@@ -1,10 +1,10 @@
 Key,Key Description,Type,Source,Parent
-ITRAQ,nan,STRING,nan,unspecified
-LabelFree,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-OtherProtoemicsAssayType,nan,STRING,nan,unspecified
-SILAC,nan,STRING,nan,unspecified
-TMT,nan,STRING,nan,unspecified
-TargetedAbsoluteQuantitation,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
+Label Free,nan,,nan,DataProperty
+TMT,nan,,nan,DataProperty
+ITRAQ,nan,,nan,DataProperty
+SILAC,nan,,nan,DataProperty
+Targeted Absolute Quantitation,nan,,nan,DataProperty
+Other,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty

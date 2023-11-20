@@ -1,16 +1,16 @@
 Key,Key Description,Type,Source,Parent
-DDAMS,,STRING,,unspecified
-DIAMS,,STRING,,unspecified
-FIAMSMS,,STRING,,unspecified
-HPLCMSMS,,STRING,,unspecified
-LCMS,,STRING,,unspecified
-LCMSMS,,STRING,,unspecified
-LCSRMOtherMsAssayTechniqueMsAssayTechnique,,STRING,,unspecified
-MDMSSL,,STRING,,unspecified
-MIBMS,,STRING,,unspecified
-NotSpecified,,STRING,,unspecified
-Notapplicable,,STRING,,unspecified
-Notcollected,,STRING,,unspecified
-UPLCESIQTOFMS,,STRING,,unspecified
-UPLCMSMS,,STRING,,unspecified
-Unknown,nan,STRING,nan,unspecified
+DDA-MS,nan,,nan,DataProperty
+DIA-MS,nan,,nan,DataProperty
+FIA-MSMS,nan,,nan,DataProperty
+HPLC-MSMS,nan,,nan,DataProperty
+LC-MS,nan,,nan,DataProperty
+LC-MSMS,nan,,nan,DataProperty
+MDMS-SL,nan,,nan,DataProperty
+MIB-MS,nan,,nan,DataProperty
+UPLC-MSMS,nan,,nan,DataProperty
+UPLC-ESI-QTOF-MS,nan,,nan,DataProperty
+LC-SRMOtherMsAssayTechnique,nan,,nan,DataProperty
+Unknown,nan,,nan,DataProperty
+Not collected,nan,,nan,DataProperty
+Not applicable,nan,,nan,DataProperty
+Not Specified,nan,,nan,DataProperty

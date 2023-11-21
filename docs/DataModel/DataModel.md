@@ -44,7 +44,7 @@ title: DataModel
     },
    "deferRender": true,
    "columnDefs": [
-      { 
+      {
          targets: [3],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
@@ -53,7 +53,7 @@ title: DataModel
                   .text(data)
                   .wrap('<div></div>')
                   .parent()
-                  .html();} 
+                  .html();}
             if(type === 'display' & data == 'Sage Bionetworks'){
                 return $('<a>')
                    .attr('href', 'https://sagebionetworks.org/')
@@ -61,7 +61,7 @@ title: DataModel
                    .wrap('<div></div>')
                    .parent()
                    .html();
-            
+
             } else {
                return data;
             }

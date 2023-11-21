@@ -12,13 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  
+          fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: Install dependencies
         run: |
@@ -31,7 +31,7 @@ jobs:
       - name: update term file if data model csv is changed
         if: contains(steps.changed-files.outputs.modified_files, 'EL.data.model.csv')
         run: |
-          python term_file_manager.py
+          python file_manager.py
 
       - name: Get changed term files
         id: changed-files-yaml
@@ -46,14 +46,14 @@ jobs:
       - name: update term page if the availablity of term file changed
         if: steps.changed-files-yaml.outputs.data_added_files_count != 0 && steps.changed-files-yaml.outputs.data_deleted_files_count != 0
         run: |
-          python term_page_manager.py
-            
+          python page_manager.py
+
       - name: update template page if the availablity of term page changed
         if: steps.changed-files-yaml.outputs.page_modified_files_count != 0
         run: |
           python update_template_page.py
-      
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Updated term files and term pages'
+          message: "Updated term files and term pages"

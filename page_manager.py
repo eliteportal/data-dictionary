@@ -36,7 +36,7 @@ def get_info(data_model, term, column="Attribute"):
 
 def create_template_page(term, term_dict):
     # load template for templates in data model
-    post = frontmatter.load("template_page_template.md")
+    post = frontmatter.load("_layouts/template_page_template.md")
     post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).strip()
     post.metadata["parent"] = term_dict["Module"]
     post.content = (
@@ -60,7 +60,7 @@ def create_template_page(term, term_dict):
 
 def create_table_page(term, term_dict):
     # load markdown template for a page on the website
-    post = frontmatter.load("term_page_template.md")
+    post = frontmatter.load("_layouts/term_page_template.md")
     post.metadata["title"] = term
     post.content = (
         "{% assign mydata=site.data."
@@ -78,7 +78,7 @@ def create_table_page(term, term_dict):
 
 def create_module_page(module):
     # load markdown template for a page on the website
-    post = frontmatter.load("term_page_template.md")
+    post = frontmatter.load("_layouts/term_page_template.md")
     post.metadata["title"] = module
     post.metadata["nav_order"] = 5
     post.metadata["permalink"] = f"docs/Modules/{module}.html"
@@ -121,7 +121,7 @@ def create_full_table(data_model):
     module = fileutils.MarkDownFile(f"docs/{module_name}/{module_name}")
 
     # creating markdown text
-    post = frontmatter.load("term_page_template.md")
+    post = frontmatter.load("_layouts/term_page_template.md")
     del post.metadata["parent"]
     post.metadata["title"] = module_name
     post.metadata["nav_order"] = 2

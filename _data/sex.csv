@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Parent
-Male,nan,,nan,DataProperty
-Female,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+Male,,,,DataProperty
+Female,,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

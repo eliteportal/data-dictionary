@@ -1,5 +1,5 @@
 Key,Key Description,Type,Source,Parent
-FPKM,nan,,nan,DataProperty
-RPKM,nan,,nan,DataProperty
-TPM,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+FPKM,,,,DataProperty
+RPKM,,,,DataProperty
+TPM,,,,DataProperty
+Not Specified,,,,DataProperty

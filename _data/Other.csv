@@ -1,0 +1,83 @@
+Key,Key Description,Type,Parent
+Not Specified,,,ValidValue
+Not applicable,,,ValidValue
+Not collected,,,ValidValue
+Other,,,ValidValue
+Other race,,,ValidValue
+OtherAcquisitionBatchSizeUnit,"If ""other"" list units of measure",,ValidValue
+OtherBatchSizeUnit,"If ""other"" list the unit of measure",,ValidValue
+OtherCleavageAgents,"If ""other"" is selected, list the enzyme name. ",,ValidValue
+OtherControlType,"If ""other"" specify the control type",,ValidValue
+OtherConversionRatioUnits,,,ValidValue
+OtherDatabaseName,"If ""other"" list the name of the search database",,ValidValue
+OtherDatabaseSource,"If ""other"" list the name of the database source",,ValidValue
+OtherDigestionMethod,"If ""other"" list the type of digestion",,ValidValue
+OtherDnaBatchSizeUnit,"If ""other"" list unit of measure",,ValidValue
+OtherExperiementalBatchSizeUnit,,,ValidValue
+OtherExperimentalBatchSizeUnit,"If ""other"" list units of measure",,ValidValue
+OtherExtractionMethod,"If ""other"" list the name of the extraction method",,ValidValue
+OtherLensVoltageUnits,"If ""other"" provide the unit of measure",,ValidValue
+OtherLensVoltagesUnit,,,ValidValue
+OtherLibraryPrep,"If ""other"" list the name of the general strategy used to prepare the library",,ValidValue
+OtherLibraryPreparationMethod,"If ""other"" list the name of the library preparation methods",,ValidValue
+OtherLibraryVersion,"If ""other"" list the name of the library version",,ValidValue
+OtherMetabolomics HumanmeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,ValidValue
+OtherModificationParameters,"If ""other"" is selected, list the custom modification name. We recommend using an intuitive name",,ValidValue
+OtherMsAnalyteType,"If ""other"" list the type of analyte ",,ValidValue
+OtherMsAnalyzerTypeMS1,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,ValidValue
+OtherMsAnalyzerTypeMS2,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,ValidValue
+OtherMsAssayTechnique,"If ""other"" is selected list the name of the mass spectrometer technique used or the name of the proteomics assay used",,ValidValue
+OtherMsInstrumentModel,"If ""other"" is selected list the name of the instrument model",,ValidValue
+OtherPlatformLocation,"If ""other"" list the name of the platform location",,ValidValue
+OtherProcessingBatchSizeUnit,"If ""other"" list units of measure",,ValidValue
+OtherProteomicsAssayType,"If ""other"" is selected list the name of the type of peptide quantification used",,ValidValue
+OtherReadLengthUnits,"If ""other"" provide the unit of measure",,ValidValue
+OtherRepositoryName,"If ""other"" list the name of the repository",,ValidValue
+OtherRnaBatchSizeUnit,"If ""other"" list unit of measure",,ValidValue
+OtherSampleBatchSizeUnit,"If ""other"" list the unit of measure",,ValidValue
+OtherSampleIntdocution,"If ""other"" list the name of the sample introduction",,ValidValue
+OtherSampleType,"If ""other"" is selected list the type of sample",,ValidValue
+OtherSequencingBatchSizeUnit,"If ""other"" list unit of measure",,ValidValue
+OtherTechnologyPlatformVersion,"If ""other"" list the name of the platform version",,ValidValue
+OtherTranscriptType,"If ""other"" list the transcript type",,ValidValue
+OtherVaccumPressureUnits,"If ""other"" provide the unit of measure",,ValidValue
+OtherVacuumPressureUnit,,,ValidValue
+OtherYesHasIonizationSource,,,ValidValue
+Uknown,,,ValidValue
+"Unknown, Not collected",,,ValidValue
+specifyAcquisitionBatchSizeUnits,Value is determined by the data contributor,String,Specification
+specifyBatchSizeUnits,Value is determined by the data contributor,String,Specification
+specifyControlType,Value is determined by the data contributor,String,Specification
+specifyConversionRatioUnit,Value is determined by the data contributor,String,Specification
+specifyDNABatchSizeUnit,Value is determined by the data contributor,String,Specification
+specifyDatabaseName,Value is determined by the data contributor,String,Specification
+specifyDatabaseSource,Value is determined by the data contributor,String,Specification
+specifyDigestionMethod,Value is determined by the data contributor,String,Specification
+specifyEnrichmentMethod,Value is determined by the data contributor,String,Specification
+specifyExperimentalBatchSizeUnits,Value is determined by the data contributor,String,Specification
+specifyExtractionMethod,Value is determined by the data contributor,String,Specification
+specifyLensVoltageUnits,Value is determined by the data contributor,String,Specification
+specifyLibraryPrep,Value is determined by the data contributor,String,Specification
+specifyLibraryPreparationMethod,Value is determined by the data contributor,String,Specification
+specifyLibraryVersion,Value is determined by the data contributor,String,Specification
+specifyMSAnalyteType,Value is determined by the data contributor,String,Specification
+specifyMSAnalyzerTypeMS1,Value is determined by the data contributor,String,Specification
+specifyMSAnalyzerTypeMS2,Value is determined by the data contributor,String,Specification
+specifyMSAssayTechnique,Value is determined by the data contributor,String,Specification
+specifyMSInstrumentModel,Value is determined by the data contributor,String,Specification
+specifyMeasurementTechnique,Value is determined by the data contributor,String,Specification
+specifyOtherCleavageAgent,Value is determined by the data contributor,String,Specification
+specifyOtherModificationParameters,Value is determined by the data contributor,String,Specification
+specifyPlatformLocation,Value is determined by the data contributor,String,Specification
+specifyPlatformVersion,Value is determined by the data contributor,String,Specification
+specifyProcessingBatchSizeUnit,Value is determined by the data contributor,String,Specification
+specifyProteomicsAssayType,Value is determined by the data contributor,String,Specification
+specifyRNABatchSizeUnit,Value is determined by the data contributor,String,Specification
+specifyReadLengthUnits,Value is determined by the data contributor,String,Specification
+specifyRepositoryName,Value is determined by the data contributor,String,Specification
+specifySampleBatchSizeUnits,Value is determined by the data contributor,String,Specification
+specifySampleIntroduction,Value is determined by the data contributor,String,Specification
+specifySampleType,Value is determined by the data contributor,String,Specification
+specifySequencingBatchSizeUnit,Value is determined by the data contributor,String,Specification
+specifyTranscriptType,Value is determined by the data contributor,String,Specification
+specifyVacuumPressueUnits,Value is determined by the data contributor,String,Specification

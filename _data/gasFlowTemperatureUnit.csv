@@ -1,5 +1,5 @@
 Key,Key Description,Type,Source,Parent
-C,nan,,nan,DataProperty
-F,nan,,nan,DataProperty
-K,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+C,,,,DataProperty
+F,,,,DataProperty
+K,,,,DataProperty
+Not Specified,,,,DataProperty

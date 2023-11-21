@@ -1,427 +1,364 @@
 Key,Key Description,Type,Source,Parent
-Abdominal Skin,nan,,nan,DataProperty
-Accessory Lacrimal Gland,nan,,nan,DataProperty
-Adrenal Gland,nan,,nan,DataProperty
-Alveolar Duct,nan,,nan,DataProperty
-Anal Gland,nan,,nan,DataProperty
-Anal Sac,nan,,nan,DataProperty
-Ankle Skin,nan,,nan,DataProperty
-Anterior Compartment Lymph Node Group (Level VI),nan,,nan,DataProperty
-Anterior Mediastinal Lymph Node,nan,,nan,DataProperty
-Aortocaval Lymph Node,nan,,nan,DataProperty
-Aortopulmonary Window Lymph Node,nan,,nan,DataProperty
-Apocrine Sweat Gland,nan,,nan,DataProperty
-Arm Skin,nan,,nan,DataProperty
-Axillary Lymph Node,nan,,nan,DataProperty
-Axillary Lymph Node Level I,nan,,nan,DataProperty
-Axillary Lymph Node Level II,nan,,nan,DataProperty
-Axillary Lymph Node Level III,nan,,nan,DataProperty
-Bartholin Gland,nan,,nan,DataProperty
-Bile Duct,nan,,nan,DataProperty
-Biliary Tract,nan,,nan,DataProperty
-Bladder,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Femur,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Humerus,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Rib,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Scapula,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Sternum,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Tibia,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Vertebral,nan,,nan,DataProperty
-Both Eyes,nan,,nan,DataProperty
-Brachial Lymph Node,nan,,nan,DataProperty
-Brain,nan,,nan,DataProperty
-Branch Duct,nan,,nan,DataProperty
-Breast,nan,,nan,DataProperty
-Bronchial Lymph Node,nan,,nan,DataProperty
-Bronchial Tree,nan,,nan,DataProperty
-Brunner's Gland,nan,,nan,DataProperty
-Buccal Lymph Node,nan,,nan,DataProperty
-Buccal Salivary Gland,nan,,nan,DataProperty
-Cardia Gland,nan,,nan,DataProperty
-Cardiophrenic Lymph Node,nan,,nan,DataProperty
-Celiac Lymph Node,nan,,nan,DataProperty
-Ceruminous Gland,nan,,nan,DataProperty
-Cervical Gland,nan,,nan,DataProperty
-Cervical Lymph Node,nan,,nan,DataProperty
-Circumanal Gland,nan,,nan,DataProperty
-Cochlear Duct,nan,,nan,DataProperty
-Colon Lymph Node,nan,,nan,DataProperty
-Common Bile Duct,nan,,nan,DataProperty
-Common Hepatic Duct,nan,,nan,DataProperty
-Common Iliac Lymph Node,nan,,nan,DataProperty
-Cowper Gland,nan,,nan,DataProperty
-Cystic Duct,nan,,nan,DataProperty
-Deep Cervical Lymph Node,nan,,nan,DataProperty
-Diaphragmatic Lymph Node,nan,,nan,DataProperty
-Distal 1/3 of the Common Bile Duct,nan,,nan,DataProperty
-Distal Common Bile Duct,nan,,nan,DataProperty
-Distant Lymph Node,nan,,nan,DataProperty
-Draining Lymph Node,nan,,nan,DataProperty
-Duct,nan,,nan,DataProperty
-Duct of Gartner,nan,,nan,DataProperty
-Duct of the Epididymis,nan,,nan,DataProperty
-Ductus Santorini,nan,,nan,DataProperty
-Ear,nan,,nan,DataProperty
-Ear Skin,nan,,nan,DataProperty
-Eccrine Sweat Gland,nan,,nan,DataProperty
-Efferent Duct,nan,,nan,DataProperty
-Ejaculatory Duct,nan,,nan,DataProperty
-Elbow Skin,nan,,nan,DataProperty
-Endocrine Gland,nan,,nan,DataProperty
-Endocrine Ovary,nan,,nan,DataProperty
-Endocrine Sex Organ,nan,,nan,DataProperty
-Endocrine Testis,nan,,nan,DataProperty
-Epididymis,nan,,nan,DataProperty
-Epigastric Lymph Node,nan,,nan,DataProperty
-Epitrochlear Lymph Node,nan,,nan,DataProperty
-Esophageal Gland,nan,,nan,DataProperty
-Esophageal Lymph Node,nan,,nan,DataProperty
-Esophagus,nan,,nan,DataProperty
-Exocrine Gland,nan,,nan,DataProperty
-Exocrine Pancreas,nan,,nan,DataProperty
-External Iliac Lymph Node,nan,,nan,DataProperty
-Extra-Abdominal Lymph Node,nan,,nan,DataProperty
-Extrahepatic Bile Duct,nan,,nan,DataProperty
-Eye,nan,,nan,DataProperty
-Eyelid Skin,nan,,nan,DataProperty
-Fallopian Tube,nan,,nan,DataProperty
-Female Breast,nan,,nan,DataProperty
-Female Prepuce,nan,,nan,DataProperty
-Female Urethra,nan,,nan,DataProperty
-Femoral Lymph Node,nan,,nan,DataProperty
-Fixed Lymph Node,nan,,nan,DataProperty
-Flexural Skin,nan,,nan,DataProperty
-Foot Digit Skin,nan,,nan,DataProperty
-Foot Skin,nan,,nan,DataProperty
-Fundic Gland,nan,,nan,DataProperty
-Gallbladder,nan,,nan,DataProperty
-Gastric Curvature Lymph Node,nan,,nan,DataProperty
-Gastric Lymph Node,nan,,nan,DataProperty
-Gastrohepatic Lymph Node,nan,,nan,DataProperty
-Glabrous Skin,nan,,nan,DataProperty
-Gland,nan,,nan,DataProperty
-Gland of Krause,nan,,nan,DataProperty
-Gland of Littre,nan,,nan,DataProperty
-Gland of Moll,nan,,nan,DataProperty
-Gland of Wolfring,nan,,nan,DataProperty
-Gonad,nan,,nan,DataProperty
-Hand Digit Skin,nan,,nan,DataProperty
-Hand Skin,nan,,nan,DataProperty
-Head Skin,nan,,nan,DataProperty
-Head and Neck Lymph Node,nan,,nan,DataProperty
-Heart,nan,,nan,DataProperty
-Hepatic Duct,nan,,nan,DataProperty
-Hepatic Lymph Node,nan,,nan,DataProperty
-Hilar Portion of the Hepatic Duct,nan,,nan,DataProperty
-Hilar Portion of the Left Hepatic Duct,nan,,nan,DataProperty
-Hilar Portion of the Right Hepatic Duct,nan,,nan,DataProperty
-Ileum Lymph Node,nan,,nan,DataProperty
-Iliac Lymph Node,nan,,nan,DataProperty
-Inferior Mediastinal Lymph Node,nan,,nan,DataProperty
-Inferior Parathyroid Gland,nan,,nan,DataProperty
-Infraclavicular Lymph Node,nan,,nan,DataProperty
-Inguinal Lymph Node,nan,,nan,DataProperty
-Intercalated Duct,nan,,nan,DataProperty
-Intercalated Duct of the Pancreas,nan,,nan,DataProperty
-Intercalated Duct of the Salivary Gland System,nan,,nan,DataProperty
-Intercostal Lymph Node,nan,,nan,DataProperty
-Interlobular Bile Duct,nan,,nan,DataProperty
-Interlobular Duct,nan,,nan,DataProperty
-Internal Iliac Lymph Node,nan,,nan,DataProperty
-Internal Mammary Lymph Node,nan,,nan,DataProperty
-Interval Lymph Node,nan,,nan,DataProperty
-Intestine,nan,,nan,DataProperty
-Intra-Abdominal Lymph Node,nan,,nan,DataProperty
-Intrahepatic Bile Duct,nan,,nan,DataProperty
-Intrahepatic Large Bile Duct,nan,,nan,DataProperty
-Intrahepatic Portion of the Left Hepatic Duct,nan,,nan,DataProperty
-Intrahepatic Portion of the Right Hepatic Duct,nan,,nan,DataProperty
-Intramammary Lymph Node,nan,,nan,DataProperty
-Intrathoracic Lymph Node,nan,,nan,DataProperty
-Intrathyroidal Parathyroid,nan,,nan,DataProperty
-Kidney,nan,,nan,DataProperty
-Knee Skin,nan,,nan,DataProperty
-Labial Salivary Gland,nan,,nan,DataProperty
-Lacrimal Gland,nan,,nan,DataProperty
-Lactiferous Duct,nan,,nan,DataProperty
-Laryngeal Mucous Salivary Gland,nan,,nan,DataProperty
-Left Adrenal Gland,nan,,nan,DataProperty
-Left Breast,nan,,nan,DataProperty
-Left Ear,nan,,nan,DataProperty
-Left Eye,nan,,nan,DataProperty
-Left Fallopian Tube,nan,,nan,DataProperty
-Left Hepatic Duct,nan,,nan,DataProperty
-Left Kidney,nan,,nan,DataProperty
-Left Lung,nan,,nan,DataProperty
-Left Lung Alveolar Duct,nan,,nan,DataProperty
-Left Ovary,nan,,nan,DataProperty
-Left Seminal Vesicle,nan,,nan,DataProperty
-Left Testis,nan,,nan,DataProperty
-Left Ureter,nan,,nan,DataProperty
-Leg Skin,nan,,nan,DataProperty
-Lingual Salivary Gland,nan,,nan,DataProperty
-Lingual Tonsil,nan,,nan,DataProperty
-Liver,nan,,nan,DataProperty
-Lower Gastrointestinal Tract Lymph Node,nan,,nan,DataProperty
-Lower Jugular Lymph Node Group (Level IV),nan,,nan,DataProperty
-Lung,nan,,nan,DataProperty
-Lymph Node,nan,,nan,DataProperty
-Lymph Node by Anatomic Site,nan,,nan,DataProperty
-Lymph Node of Inguinal Region or Leg,nan,,nan,DataProperty
-Main Pancreatic and Accessory Ducts,nan,,nan,DataProperty
-Major Salivary Gland,nan,,nan,DataProperty
-Male Breast,nan,,nan,DataProperty
-Male Prepuce,nan,,nan,DataProperty
-Male Urethra,nan,,nan,DataProperty
-Mammary Gland,nan,,nan,DataProperty
-Medial Supraclavicular Lymph Node,nan,,nan,DataProperty
-Median Or Lower Cervical Lymph Node,nan,,nan,DataProperty
-Mediastinal Lymph Node,nan,,nan,DataProperty
-Meibomian Gland,nan,,nan,DataProperty
-Mesenteric Lymph Node,nan,,nan,DataProperty
-Middle Jugular Lymph Node Group (Level III),nan,,nan,DataProperty
-Minor Salivary Gland,nan,,nan,DataProperty
-Montgomery Tubercle,nan,,nan,DataProperty
-Mucous Salivary Gland,nan,,nan,DataProperty
-Mullerian Duct,nan,,nan,DataProperty
-Nasolacrimal Duct,nan,,nan,DataProperty
-Neck Lymph Node Boundary Level III,nan,,nan,DataProperty
-Neck Lymph Node Boundary Level IV,nan,,nan,DataProperty
-Neck Lymph Node Boundary Level VI,nan,,nan,DataProperty
-Neck Lymph Node Boundary Level VII,nan,,nan,DataProperty
-Neck Lymph Node Boundary Levels I-IV,nan,,nan,DataProperty
-Neck Lymph Node Boundary Levels II-IV,nan,,nan,DataProperty
-Neck Lymph Node Boundary Levels and Sublevels,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel IA,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel IB,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel IIA,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel IIB,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel VA,nan,,nan,DataProperty
-Neck Lymph Node Boundary Sublevel VB,nan,,nan,DataProperty
-Neck Lymph Node Groups,nan,,nan,DataProperty
-Neck Skin,nan,,nan,DataProperty
-Non-Glabrous Skin,nan,,nan,DataProperty
-Nose,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Nuchal Lymph Node,nan,,nan,DataProperty
-Obturator Lymph Node,nan,,nan,DataProperty
-Occipital Lymph Node,nan,,nan,DataProperty
-Occipital Scalp,nan,,nan,DataProperty
-Organ of Special Sense,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Ovary,nan,,nan,DataProperty
-Palatine Salivary Gland,nan,,nan,DataProperty
-Palatine Tonsil,nan,,nan,DataProperty
-Pancreas,nan,,nan,DataProperty
-Pancreatic Duct,nan,,nan,DataProperty
-Pancreatic Lymph Node,nan,,nan,DataProperty
-Paraaortic Lymph Node,nan,,nan,DataProperty
-Paracaval Lymph Node,nan,,nan,DataProperty
-Paralaryngeal Lymph Node,nan,,nan,DataProperty
-Parapharyngeal Lymph Node,nan,,nan,DataProperty
-Parathyroid Gland,nan,,nan,DataProperty
-Paratracheal Lymph Node,nan,,nan,DataProperty
-Parotid Duct,nan,,nan,DataProperty
-Parotid Gland,nan,,nan,DataProperty
-Parotid Gland Lymph Node,nan,,nan,DataProperty
-Pectoral Lymph Node,nan,,nan,DataProperty
-Pelvic Lymph Node,nan,,nan,DataProperty
-Penis,nan,,nan,DataProperty
-Pericardial Lymph Node,nan,,nan,DataProperty
-Perifacial Lymph Node,nan,,nan,DataProperty
-Perihilar Lymph Node,nan,,nan,DataProperty
-Perirectal Lymph Node,nan,,nan,DataProperty
-Peristomal Skin,nan,,nan,DataProperty
-Peritoneal Lymph Node,nan,,nan,DataProperty
-Pharyngeal Tonsil,nan,,nan,DataProperty
-Pineal Gland,nan,,nan,DataProperty
-Pituitary Gland,nan,,nan,DataProperty
-Popliteal Lymph Node,nan,,nan,DataProperty
-Porta Hepatis Lymph Node,nan,,nan,DataProperty
-Portacaval Lymph Node,nan,,nan,DataProperty
-Portal Lymph Node,nan,,nan,DataProperty
-Posterior Cervical Lymph Node,nan,,nan,DataProperty
-Posterior Triangle Lymph Node Group (Sublevels VA and VB),nan,,nan,DataProperty
-Preauricular Lymph Node,nan,,nan,DataProperty
-Pregnant Uterus,nan,,nan,DataProperty
-Prelaryngeal Lymph Node,nan,,nan,DataProperty
-Prepuce,nan,,nan,DataProperty
-Presacral Lymph Node,nan,,nan,DataProperty
-Pretracheal Lymph Node,nan,,nan,DataProperty
-Prostate Gland,nan,,nan,DataProperty
-Prostatic Duct,nan,,nan,DataProperty
-Pulmonary Hilar Lymph Node,nan,,nan,DataProperty
-Pyloric Gland,nan,,nan,DataProperty
-Regional Lymph Node,nan,,nan,DataProperty
-Renal Lymph Node,nan,,nan,DataProperty
-Retroauricular Lymph Node,nan,,nan,DataProperty
-Retrocrural Lymph Node,nan,,nan,DataProperty
-Retroperitoneal Lymph Node,nan,,nan,DataProperty
-Retropharyngeal Lymph Node,nan,,nan,DataProperty
-Retrosacral Lymph Node,nan,,nan,DataProperty
-Right Adrenal Gland,nan,,nan,DataProperty
-Right Breast,nan,,nan,DataProperty
-Right Ear,nan,,nan,DataProperty
-Right Eye,nan,,nan,DataProperty
-Right Fallopian Tube,nan,,nan,DataProperty
-Right Hepatic Duct,nan,,nan,DataProperty
-Right Kidney,nan,,nan,DataProperty
-Right Lung,nan,,nan,DataProperty
-Right Lung Alveolar Duct,nan,,nan,DataProperty
-Right Lymphatic Duct,nan,,nan,DataProperty
-Right Ovary,nan,,nan,DataProperty
-Right Seminal Vesicle,nan,,nan,DataProperty
-Right Testis,nan,,nan,DataProperty
-Right Ureter,nan,,nan,DataProperty
-Sacral Lymph Node,nan,,nan,DataProperty
-Salivary Gland,nan,,nan,DataProperty
-Scalene Lymph Node,nan,,nan,DataProperty
-Scalp,nan,,nan,DataProperty
-Scrotum,nan,,nan,DataProperty
-Sebaceous Gland,nan,,nan,DataProperty
-Sebaceous Gland Duct,nan,,nan,DataProperty
-Sebaceous Gland of the Eyelash,nan,,nan,DataProperty
-Semicircular Duct,nan,,nan,DataProperty
-Seminal Vesicle,nan,,nan,DataProperty
-Sentinel Lymph Node,nan,,nan,DataProperty
-Seromucous Salivary Gland,nan,,nan,DataProperty
-Serous Salivary Gland,nan,,nan,DataProperty
-Skene Gland,nan,,nan,DataProperty
-Skin,nan,,nan,DataProperty
-Skin Around the Eye,nan,,nan,DataProperty
-Skin Around the Mouth,nan,,nan,DataProperty
-Skin Between the Eyebrows,nan,,nan,DataProperty
-Skin Of The Axilla,nan,,nan,DataProperty
-Skin Of The Back,nan,,nan,DataProperty
-Skin Of The Chin,nan,,nan,DataProperty
-Skin of the Bending Joint,nan,,nan,DataProperty
-Skin of the Buttock,nan,,nan,DataProperty
-Skin of the Chest,nan,,nan,DataProperty
-Skin of the Extremity,nan,,nan,DataProperty
-Skin of the Face,nan,,nan,DataProperty
-Skin of the Forearm,nan,,nan,DataProperty
-Skin of the Infrascapular Region,nan,,nan,DataProperty
-Skin of the Inguinal Region,nan,,nan,DataProperty
-Skin of the Lip,nan,,nan,DataProperty
-Skin of the Lower Extremity,nan,,nan,DataProperty
-Skin of the Lower Limb and Hip,nan,,nan,
-Skin of the Palm,nan,,nan,
-Skin of the Scalp and Neck,nan,,nan,
-Skin of the Sole,nan,,nan,
-Skin of the Trunk,nan,,nan,
-Skin of the Upper Extremity,nan,,nan,
-Skin of the Upper Limb and Shoulder,nan,,nan,
-Skinfold,nan,,nan,
-Spermatic Cord,nan,,nan,
-Spinal Cord,nan,,nan,
-Spleen,nan,,nan,
-Splenic Hilar Lymph Node,nan,,nan,
-Splenic Lymph Node,nan,,nan,
-Stomach,nan,,nan,
-Striated Duct,nan,,nan,
-Subcarinal Lymph Node,nan,,nan,
-Sublingual Lymph Node,nan,,nan,
-Sublingual Salivary Gland,nan,,nan,
-Submandibular Duct,nan,,nan,
-Submandibular Gland,nan,,nan,
-Submandibular Lymph Node,nan,,nan,
-Submandibular Lymph Node Group (Sublevel IB),nan,,nan,
-Submental Lymph Node,nan,,nan,
-Submental Lymph Node Group (Sublevel IA),nan,,nan,
-Subsegmental Lymph Node,nan,,nan,
-Superficial Cervical Lymph Node,nan,,nan,
-Superficial Lymph Node,nan,,nan,
-Superior Mediastinal Lymph Node Group (Level VII),nan,,nan,
-Superior Parathyroid Gland,nan,,nan,
-Supraclavicular Lymph Node,nan,,nan,
-Suprapubic Skin,nan,,nan,
-Sweat Gland,nan,,nan,
-Sweat Gland Duct,nan,,nan,
-Testis,nan,,nan,
-Thoracic Duct,nan,,nan,
-Thoracic Lymph Node,nan,,nan,
-Thymus Gland,nan,,nan,
-Thyroid Gland,nan,,nan,
-Tongue,nan,,nan,
-Tonsil,nan,,nan,
-Trachea,nan,,nan,
-Tracheobronchial Lymph Node,nan,,nan,
-Tracheobronchial Tree,nan,,nan,
-Unknown,nan,,nan,
-Upper Cervical Lymph Node,nan,,nan,
-Upper Jugular Lymph Node Group (Sublevels IIA and IIB),nan,,nan,
-Upper Paratracheal Lymph Node,nan,,nan,
-Ureter,nan,,nan,
-Urethra,nan,,nan,
-Urethral Gland,nan,,nan,
-Uterus,nan,,nan,
-Utriculosaccular Duct,nan,,nan,
-Vagina,nan,,nan,
-Vas Deferens,nan,,nan,
-Vulva,nan,,nan,
-Wrist Skin,nan,,nan,
+Abdominal Skin,,,,DataProperty
+Accessory Lacrimal Gland,,,,DataProperty
+Adrenal Gland,,,,DataProperty
+Alveolar Duct,,,,DataProperty
+Anal Gland,,,,DataProperty
+Anal Sac,,,,DataProperty
+Ankle Skin,,,,DataProperty
+Anterior Compartment Lymph Node Group (Level VI),,,,DataProperty
+Anterior Mediastinal Lymph Node,,,,DataProperty
+Aortocaval Lymph Node,,,,DataProperty
+Aortopulmonary Window Lymph Node,,,,DataProperty
+Apocrine Sweat Gland,,,,DataProperty
+Arm Skin,,,,DataProperty
+Axillary Lymph Node,,,,DataProperty
+Axillary Lymph Node Level I,,,,DataProperty
+Axillary Lymph Node Level II,,,,DataProperty
+Axillary Lymph Node Level III,,,,DataProperty
+Bartholin Gland,,,,DataProperty
+Bile Duct,,,,DataProperty
+Biliary Tract,,,,DataProperty
+Bladder,,,,DataProperty
+Bone Marrow,,,,DataProperty
+Femur,,,,DataProperty
+Humerus,,,,DataProperty
+Rib,,,,DataProperty
+Scapula,,,,DataProperty
+Sternum,,,,DataProperty
+Tibia,,,,DataProperty
+Vertebral,,,,DataProperty
+Both Eyes,,,,DataProperty
+Brachial Lymph Node,,,,DataProperty
+Brain,,,,DataProperty
+Branch Duct,,,,DataProperty
+Breast,,,,DataProperty
+Bronchial Lymph Node,,,,DataProperty
+Bronchial Tree,,,,DataProperty
+Brunner's Gland,,,,DataProperty
+Buccal Lymph Node,,,,DataProperty
+Buccal Salivary Gland,,,,DataProperty
+Cardia Gland,,,,DataProperty
+Cardiophrenic Lymph Node,,,,DataProperty
+Celiac Lymph Node,,,,DataProperty
+Ceruminous Gland,,,,DataProperty
+Cervical Gland,,,,DataProperty
+Cervical Lymph Node,,,,DataProperty
+Circumanal Gland,,,,DataProperty
+Cochlear Duct,,,,DataProperty
+Colon Lymph Node,,,,DataProperty
+Common Bile Duct,,,,DataProperty
+Common Hepatic Duct,,,,DataProperty
+Common Iliac Lymph Node,,,,DataProperty
+Cowper Gland,,,,DataProperty
+Cystic Duct,,,,DataProperty
+Deep Cervical Lymph Node,,,,DataProperty
+Diaphragmatic Lymph Node,,,,DataProperty
+Distal 1/3 of the Common Bile Duct,,,,DataProperty
+Distal Common Bile Duct,,,,DataProperty
+Distant Lymph Node,,,,DataProperty
+Draining Lymph Node,,,,DataProperty
+Duct,,,,DataProperty
+Duct of Gartner,,,,DataProperty
+Duct of the Epididymis,,,,DataProperty
+Ductus Santorini,,,,DataProperty
+Ear,,,,DataProperty
+Ear Skin,,,,DataProperty
+Eccrine Sweat Gland,,,,DataProperty
+Efferent Duct,,,,DataProperty
+Ejaculatory Duct,,,,DataProperty
+Elbow Skin,,,,DataProperty
+Endocrine Gland,,,,DataProperty
+Endocrine Ovary,,,,DataProperty
+Endocrine Sex Organ,,,,DataProperty
+Endocrine Testis,,,,DataProperty
+Epididymis,,,,DataProperty
+Epigastric Lymph Node,,,,DataProperty
+Epitrochlear Lymph Node,,,,DataProperty
+Esophageal Gland,,,,DataProperty
+Esophageal Lymph Node,,,,DataProperty
+Esophagus,,,,DataProperty
+Exocrine Gland,,,,DataProperty
+Exocrine Pancreas,,,,DataProperty
+External Iliac Lymph Node,,,,DataProperty
+Extra-Abdominal Lymph Node,,,,DataProperty
+Extrahepatic Bile Duct,,,,DataProperty
+Eye,,,,DataProperty
+Eyelid Skin,,,,DataProperty
+Fallopian Tube,,,,DataProperty
+Female Breast,,,,DataProperty
+Female Prepuce,,,,DataProperty
+Female Urethra,,,,DataProperty
+Femoral Lymph Node,,,,DataProperty
+Fixed Lymph Node,,,,DataProperty
+Flexural Skin,,,,DataProperty
+Foot Digit Skin,,,,DataProperty
+Foot Skin,,,,DataProperty
+Fundic Gland,,,,DataProperty
+Gallbladder,,,,DataProperty
+Gastric Curvature Lymph Node,,,,DataProperty
+Gastric Lymph Node,,,,DataProperty
+Gastrohepatic Lymph Node,,,,DataProperty
+Glabrous Skin,,,,DataProperty
+Gland,,,,DataProperty
+Gland of Krause,,,,DataProperty
+Gland of Littre,,,,DataProperty
+Gland of Moll,,,,DataProperty
+Gland of Wolfring,,,,DataProperty
+Gonad,,,,DataProperty
+Hand Digit Skin,,,,DataProperty
+Hand Skin,,,,DataProperty
+Head Skin,,,,DataProperty
+Head and Neck Lymph Node,,,,DataProperty
+Heart,,,,DataProperty
+Hepatic Duct,,,,DataProperty
+Hepatic Lymph Node,,,,DataProperty
+Hilar Portion of the Hepatic Duct,,,,DataProperty
+Hilar Portion of the Left Hepatic Duct,,,,DataProperty
+Hilar Portion of the Right Hepatic Duct,,,,DataProperty
+Ileum Lymph Node,,,,DataProperty
+Iliac Lymph Node,,,,DataProperty
+Inferior Mediastinal Lymph Node,,,,DataProperty
+Inferior Parathyroid Gland,,,,DataProperty
+Infraclavicular Lymph Node,,,,DataProperty
+Inguinal Lymph Node,,,,DataProperty
+Intercalated Duct,,,,DataProperty
+Intercalated Duct of the Pancreas,,,,DataProperty
+Intercalated Duct of the Salivary Gland System,,,,DataProperty
+Intercostal Lymph Node,,,,DataProperty
+Interlobular Bile Duct,,,,DataProperty
+Interlobular Duct,,,,DataProperty
+Internal Iliac Lymph Node,,,,DataProperty
+Internal Mammary Lymph Node,,,,DataProperty
+Interval Lymph Node,,,,DataProperty
+Intestine,,,,DataProperty
+Intra-Abdominal Lymph Node,,,,DataProperty
+Intrahepatic Bile Duct,,,,DataProperty
+Intrahepatic Large Bile Duct,,,,DataProperty
+Intrahepatic Portion of the Left Hepatic Duct,,,,DataProperty
+Intrahepatic Portion of the Right Hepatic Duct,,,,DataProperty
+Intramammary Lymph Node,,,,DataProperty
+Intrathoracic Lymph Node,,,,DataProperty
+Intrathyroidal Parathyroid,,,,DataProperty
+Kidney,,,,DataProperty
+Knee Skin,,,,DataProperty
+Labial Salivary Gland,,,,DataProperty
+Lacrimal Gland,,,,DataProperty
+Lactiferous Duct,,,,DataProperty
+Laryngeal Mucous Salivary Gland,,,,DataProperty
+Left Adrenal Gland,,,,DataProperty
+Left Breast,,,,DataProperty
+Left Ear,,,,DataProperty
+Left Eye,,,,DataProperty
+Left Fallopian Tube,,,,DataProperty
+Left Hepatic Duct,,,,DataProperty
+Left Kidney,,,,DataProperty
+Left Lung,,,,DataProperty
+Left Lung Alveolar Duct,,,,DataProperty
+Left Ovary,,,,DataProperty
+Left Seminal Vesicle,,,,DataProperty
+Left Testis,,,,DataProperty
+Left Ureter,,,,DataProperty
+Leg Skin,,,,DataProperty
+Lingual Salivary Gland,,,,DataProperty
+Lingual Tonsil,,,,DataProperty
+Liver,,,,DataProperty
+Lower Gastrointestinal Tract Lymph Node,,,,DataProperty
+Lower Jugular Lymph Node Group (Level IV),,,,DataProperty
+Lung,,,,DataProperty
+Lymph Node,,,,DataProperty
+Lymph Node by Anatomic Site,,,,DataProperty
+Lymph Node of Inguinal Region or Leg,,,,DataProperty
+Main Pancreatic and Accessory Ducts,,,,DataProperty
+Major Salivary Gland,,,,DataProperty
+Male Breast,,,,DataProperty
+Male Prepuce,,,,DataProperty
+Male Urethra,,,,DataProperty
+Mammary Gland,,,,DataProperty
+Medial Supraclavicular Lymph Node,,,,DataProperty
+Median Or Lower Cervical Lymph Node,,,,DataProperty
+Mediastinal Lymph Node,,,,DataProperty
+Meibomian Gland,,,,DataProperty
+Mesenteric Lymph Node,,,,DataProperty
+Middle Jugular Lymph Node Group (Level III),,,,DataProperty
+Minor Salivary Gland,,,,DataProperty
+Montgomery Tubercle,,,,DataProperty
+Mucous Salivary Gland,,,,DataProperty
+Mullerian Duct,,,,DataProperty
+Nasolacrimal Duct,,,,DataProperty
+Neck Lymph Node Boundary Level III,,,,DataProperty
+Neck Lymph Node Boundary Level IV,,,,DataProperty
+Neck Lymph Node Boundary Level VI,,,,DataProperty
+Neck Lymph Node Boundary Level VII,,,,DataProperty
+Neck Lymph Node Boundary Levels I-IV,,,,DataProperty
+Neck Lymph Node Boundary Levels II-IV,,,,DataProperty
+Neck Lymph Node Boundary Levels and Sublevels,,,,DataProperty
+Neck Lymph Node Boundary Sublevel IA,,,,DataProperty
+Neck Lymph Node Boundary Sublevel IB,,,,DataProperty
+Neck Lymph Node Boundary Sublevel IIA,,,,DataProperty
+Neck Lymph Node Boundary Sublevel IIB,,,,DataProperty
+Neck Lymph Node Boundary Sublevel VA,,,,DataProperty
+Neck Lymph Node Boundary Sublevel VB,,,,DataProperty
+Neck Lymph Node Groups,,,,DataProperty
+Neck Skin,,,,DataProperty
+Non-Glabrous Skin,,,,DataProperty
+Nose,,,,DataProperty
+Not applicable,,,,DataProperty
+Not collected,,,,DataProperty
+Nuchal Lymph Node,,,,DataProperty
+Obturator Lymph Node,,,,DataProperty
+Occipital Lymph Node,,,,DataProperty
+Occipital Scalp,,,,DataProperty
+Organ of Special Sense,,,,DataProperty
+Other,,,,DataProperty
+Ovary,,,,DataProperty
+Palatine Salivary Gland,,,,DataProperty
+Palatine Tonsil,,,,DataProperty
+Pancreas,,,,DataProperty
+Pancreatic Duct,,,,DataProperty
+Pancreatic Lymph Node,,,,DataProperty
+Paraaortic Lymph Node,,,,DataProperty
+Paracaval Lymph Node,,,,DataProperty
+Paralaryngeal Lymph Node,,,,DataProperty
+Parapharyngeal Lymph Node,,,,DataProperty
+Parathyroid Gland,,,,DataProperty
+Paratracheal Lymph Node,,,,DataProperty
+Parotid Duct,,,,DataProperty
+Parotid Gland,,,,DataProperty
+Parotid Gland Lymph Node,,,,DataProperty
+Pectoral Lymph Node,,,,DataProperty
+Pelvic Lymph Node,,,,DataProperty
+Penis,,,,DataProperty
+Pericardial Lymph Node,,,,DataProperty
+Perifacial Lymph Node,,,,DataProperty
+Perihilar Lymph Node,,,,DataProperty
+Perirectal Lymph Node,,,,DataProperty
+Peristomal Skin,,,,DataProperty
+Peritoneal Lymph Node,,,,DataProperty
+Pharyngeal Tonsil,,,,DataProperty
+Pineal Gland,,,,DataProperty
+Pituitary Gland,,,,DataProperty
+Popliteal Lymph Node,,,,DataProperty
+Porta Hepatis Lymph Node,,,,DataProperty
+Portacaval Lymph Node,,,,DataProperty
+Portal Lymph Node,,,,DataProperty
+Posterior Cervical Lymph Node,,,,DataProperty
+Posterior Triangle Lymph Node Group (Sublevels VA and VB),,,,DataProperty
+Preauricular Lymph Node,,,,DataProperty
+Pregnant Uterus,,,,DataProperty
+Prelaryngeal Lymph Node,,,,DataProperty
+Prepuce,,,,DataProperty
+Presacral Lymph Node,,,,DataProperty
+Pretracheal Lymph Node,,,,DataProperty
+Prostate Gland,,,,DataProperty
+Prostatic Duct,,,,DataProperty
+Pulmonary Hilar Lymph Node,,,,DataProperty
+Pyloric Gland,,,,DataProperty
+Regional Lymph Node,,,,DataProperty
+Renal Lymph Node,,,,DataProperty
+Retroauricular Lymph Node,,,,DataProperty
+Retrocrural Lymph Node,,,,DataProperty
+Retroperitoneal Lymph Node,,,,DataProperty
+Retropharyngeal Lymph Node,,,,DataProperty
+Retrosacral Lymph Node,,,,DataProperty
+Right Adrenal Gland,,,,DataProperty
+Right Breast,,,,DataProperty
+Right Ear,,,,DataProperty
+Right Eye,,,,DataProperty
+Right Fallopian Tube,,,,DataProperty
+Right Hepatic Duct,,,,DataProperty
+Right Kidney,,,,DataProperty
+Right Lung,,,,DataProperty
+Right Lung Alveolar Duct,,,,DataProperty
+Right Lymphatic Duct,,,,DataProperty
+Right Ovary,,,,DataProperty
+Right Seminal Vesicle,,,,DataProperty
+Right Testis,,,,DataProperty
+Right Ureter,,,,DataProperty
+Sacral Lymph Node,,,,DataProperty
+Salivary Gland,,,,DataProperty
+Scalene Lymph Node,,,,DataProperty
+Scalp,,,,DataProperty
+Scrotum,,,,DataProperty
+Sebaceous Gland,,,,DataProperty
+Sebaceous Gland Duct,,,,DataProperty
+Sebaceous Gland of the Eyelash,,,,DataProperty
+Semicircular Duct,,,,DataProperty
+Seminal Vesicle,,,,DataProperty
+Sentinel Lymph Node,,,,DataProperty
+Seromucous Salivary Gland,,,,DataProperty
+Serous Salivary Gland,,,,DataProperty
+Skene Gland,,,,DataProperty
+Skin,,,,DataProperty
+Skin Around the Eye,,,,DataProperty
+Skin Around the Mouth,,,,DataProperty
+Skin Between the Eyebrows,,,,DataProperty
+Skin Of The Axilla,,,,DataProperty
+Skin Of The Back,,,,DataProperty
+Skin Of The Chin,,,,DataProperty
+Skin of the Bending Joint,,,,DataProperty
+Skin of the Buttock,,,,DataProperty
+Skin of the Chest,,,,DataProperty
+Skin of the Extremity,,,,DataProperty
+Skin of the Face,,,,DataProperty
+Skin of the Forearm,,,,DataProperty
+Skin of the Infrascapular Region,,,,DataProperty
+Skin of the Inguinal Region,,,,DataProperty
+Skin of the Lip,,,,DataProperty
+Skin of the Lower Extremity,,,,DataProperty
+Skin of the Lower Limb and Hip,,,,DataProperty
+Skin of the Palm,,,,DataProperty
+Skin of the Scalp and Neck,,,,DataProperty
+Skin of the Sole,,,,DataProperty
+Skin of the Trunk,,,,DataProperty
+Skin of the Upper Extremity,,,,DataProperty
+Skin of the Upper Limb and Shoulder,,,,DataProperty
+Skinfold,,,,DataProperty
+Spermatic Cord,,,,DataProperty
+Spinal Cord,,,,DataProperty
+Spleen,,,,DataProperty
+Splenic Hilar Lymph Node,,,,DataProperty
+Splenic Lymph Node,,,,DataProperty
+Stomach,,,,DataProperty
+Striated Duct,,,,DataProperty
+Subcarinal Lymph Node,,,,DataProperty
+Sublingual Lymph Node,,,,DataProperty
+Sublingual Salivary Gland,,,,DataProperty
+Submandibular Duct,,,,DataProperty
+Submandibular Gland,,,,DataProperty
+Submandibular Lymph Node,,,,DataProperty
+Submandibular Lymph Node Group (Sublevel IB),,,,DataProperty
+Submental Lymph Node,,,,DataProperty
+Submental Lymph Node Group (Sublevel IA),,,,DataProperty
+Subsegmental Lymph Node,,,,DataProperty
+Superficial Cervical Lymph Node,,,,DataProperty
+Superficial Lymph Node,,,,DataProperty
+Superior Mediastinal Lymph Node Group (Level VII),,,,DataProperty
+Superior Parathyroid Gland,,,,DataProperty
+Supraclavicular Lymph Node,,,,DataProperty
+Suprapubic Skin,,,,DataProperty
+Sweat Gland,,,,DataProperty
+Sweat Gland Duct,,,,DataProperty
+Testis,,,,DataProperty
+Thoracic Duct,,,,DataProperty
+Thoracic Lymph Node,,,,DataProperty
+Thymus Gland,,,,DataProperty
+Thyroid Gland,,,,DataProperty
+Tongue,,,,DataProperty
+Tonsil,,,,DataProperty
+Trachea,,,,DataProperty
+Tracheobronchial Lymph Node,,,,DataProperty
+Tracheobronchial Tree,,,,DataProperty
+Unknown,,,,DataProperty
+Upper Cervical Lymph Node,,,,DataProperty
+Upper Jugular Lymph Node Group (Sublevels IIA and IIB),,,,DataProperty
+Upper Paratracheal Lymph Node,,,,DataProperty
+Ureter,,,,DataProperty
+Urethra,,,,DataProperty
+Urethral Gland,,,,DataProperty
+Uterus,,,,DataProperty
+Utriculosaccular Duct,,,,DataProperty
+Vagina,,,,DataProperty
+Vas Deferens,,,,DataProperty
+Vulva,,,,DataProperty
+Wrist Skin,,,,DataProperty

@@ -8,9 +8,9 @@ import os
 os.system("python dev/get_data_model.py")
 
 # update new csvs and and terms
-os.system("python term_file_manager.py")
+os.system("python file_manager.py")
 
-os.system("python term_page_manager.py")
+os.system("python page_manager.py")
 
 # Test jekyll site
 # os.system("bundle exec jekyll serve")

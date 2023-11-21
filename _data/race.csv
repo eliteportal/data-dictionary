@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Parent
-White,nan,,nan,DataProperty
-Black or African American,nan,,nan,DataProperty
-Asian,nan,,nan,DataProperty
-American Indian or Alaska Native,nan,,nan,DataProperty
-Native Hawaiian or Other Pacific Islander,nan,,nan,DataProperty
-Multiracial,nan,,nan,DataProperty
-Other race,nan,,nan,DataProperty
-Prefer not to answer,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+White,,,,DataProperty
+Black or African American,,,,DataProperty
+Asian,,,,DataProperty
+American Indian or Alaska Native,,,,DataProperty
+Native Hawaiian or Other Pacific Islander,,,,DataProperty
+Multiracial,,,,DataProperty
+Other race,,,,DataProperty
+Prefer not to answer,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

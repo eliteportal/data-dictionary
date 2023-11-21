@@ -1,0 +1,336 @@
+Key,Key Description,Type,Parent
+10x,,,ValidValue
+AFU,,,ValidValue
+AI,,,ValidValue
+AIBL pool,,,ValidValue
+Accel-NGS 2S Plus,,,ValidValue
+Accel-NGS Methyl-Seq,,,ValidValue
+Adult,,,ValidValue
+Affymetrix Genome-Wide Human SNP 5.0 Array,,,ValidValue
+Agilent 44Karray,,,ValidValue
+Aging,,,ValidValue
+American Indian or Alaska Native,,,ValidValue
+Appendix,,,ValidValue
+ArrayExpress,,,ValidValue
+BGISEQ-500,,,ValidValue
+BU,,,ValidValue
+Baker pool,,,ValidValue
+Bionano Irys,,,ValidValue
+Bone,,,ValidValue
+Bone Marrow,,,ValidValue
+Brachial lymph node,,,ValidValue
+Breast Milk,,,ValidValue
+Broad Single Cell Portal,,,ValidValue
+Bronchoalveolar Lavage Fluid,,,ValidValue
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,ValidValue
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,,ValidValue
+CEL-seq,,,ValidValue
+CaptiveCaptivityStatus,"The duration of captivity in months for the individuals in captivity (formatted in months, ex. 72 months). note: Applicable only to animals with captivity status captive.",,ValidValue
+Carbohydrate,,,ValidValue
+Cardiovascular Health Study (CHS),,,ValidValue
+Cell culture supernatant,,,ValidValue
+Centenarian,,,ValidValue
+Cerebrospinal Fluid,,,ValidValue
+Cerebrospinal Fluid (CSF),,,ValidValue
+Cervical lymph nodes,,,ValidValue
+Cherry Imaging FACE Platform,,,ValidValue
+Cherry Imaging TRACE Platform,,,ValidValue
+Chromium Single Cell 3',,,ValidValue
+Chromium X,,,ValidValue
+Colon,,,ValidValue
+Colonic Lamina Propria,,,ValidValue
+Convalescent Plasma,,,ValidValue
+Cord blood,,,ValidValue
+DDA-MS,,,ValidValue
+DIA-MS,,,ValidValue
+DK,,,ValidValue
+Dendritic cell,,,ValidValue
+Denmark Family,,,ValidValue
+Dermis,,,ValidValue
+Dried Blood Spot,,,ValidValue
+ENA,,,ValidValue
+EndItDNAEndRepairKit,,,ValidValue
+Endotracheal aspirate,,,ValidValue
+Ensembl,,,ValidValue
+FALSE,,,ValidValue
+FPKM,,,ValidValue
+FlowRepository,,,ValidValue
+GEO,,,ValidValue
+GIS,,,ValidValue
+GISAID,,,ValidValue
+Gastric lamina propria,,,ValidValue
+GenBank,,,ValidValue
+GoldenWest,,,ValidValue
+HAU,,,ValidValue
+HMDB,,,ValidValue
+HPLC-MSMS,,,ValidValue
+Hispanic or latino,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,ValidValue
+IEDB,,,ValidValue
+ITRAQ,,,ValidValue
+ImmPort,,,ValidValue
+Infinium HumanOmniExpressExome,,,ValidValue
+Inguinal lymph node,,,ValidValue
+Jejunum,,,ValidValue
+Juvenile,,,ValidValue
+K,,,ValidValue
+Kallikrein Inactivator Unit per Milliliter,,,ValidValue
+KapaHyperPrep,,,ValidValue
+Kidney,,,ValidValue
+LC-MS,,,ValidValue
+LC-MSMS,,,ValidValue
+LC-SRMOtherMsAssayTechnique,,,ValidValue
+LI-COR Odyssey CLx,,,ValidValue
+LTQ Orbitrap XL,,,ValidValue
+Label Free,,,ValidValue
+Leukocytes,,,ValidValue
+LifeViz Infinity System,,,ValidValue
+LifeViz Micro System,,,ValidValue
+Lipid,,,ValidValue
+Liver,,,ValidValue
+Lung,,,ValidValue
+Lung lymph node,,,ValidValue
+Lymph node,,,ValidValue
+Lymphocyte,,,ValidValue
+MDMS-SL,,,ValidValue
+MGnify,,,ValidValue
+MIB-MS,,,ValidValue
+MOI,,,ValidValue
+MONDO,,,ValidValue
+MULTIseq,,,ValidValue
+Macrophage,,,ValidValue
+Male,,,ValidValue
+Mammal,,,ValidValue
+MassBank of North America (MoNA),,,ValidValue
+MassIVE,,,ValidValue
+Mesenteric lymph node,,,ValidValue
+MetaboLights,,,ValidValue
+Metabolomics Workbench,,,ValidValue
+Metlin,,,ValidValue
+Minutes,,,ValidValue
+Monocyte,,,ValidValue
+Mouse Ear,,,ValidValue
+NCBI Gene,,,ValidValue
+NEBNext,,,ValidValue
+NIST SRM 1950,,,ValidValue
+NIST17,,,ValidValue
+NK cell,,,ValidValue
+NPX,,,ValidValue
+NY,,,ValidValue
+Nanostring Counter,,,ValidValue
+Nanostring GeoMx,,,ValidValue
+Nasal Swab,,,ValidValue
+Nasal Swab or Nose Specimen,,,ValidValue
+Nasal lavage fluid,,,ValidValue
+Nasopharyngeal Swab Specimen,,,ValidValue
+Negative,,,ValidValue
+Negative Control,,,ValidValue
+Neutrophil,,,ValidValue
+NexteraXT,,,ValidValue
+Olympus DP80,,,ValidValue
+Omni-ATAC,,,ValidValue
+Optic Nerve,,,ValidValue
+Orbitrap Fusion,,,ValidValue
+Orbitrap Fusion Lumos,,,ValidValue
+Orbitrap Fusion Lumos Tribrid,,,ValidValue
+Organoids,,,ValidValue
+Oropharyngeal Swab Specimen,,,ValidValue
+Osteoblasts,,,ValidValue
+PBL,,,ValidValue
+PBMC,,,ValidValue
+PCRfree,,,ValidValue
+PFU,,,ValidValue
+PFUe,,,ValidValue
+PRIDE,,,ValidValue
+PT,,,ValidValue
+PacBio RS II,,,ValidValue
+PacBio Sequel II System,,,ValidValue
+PacBio Sequel IIe System,,,ValidValue
+Pancreas,,,ValidValue
+Pancreatic Stellate Cells,,,ValidValue
+Perlegen 300Karray,,,ValidValue
+Placenta,,,ValidValue
+Plasma,,,ValidValue
+Pooled Sample,,,ValidValue
+Popliteal lymph node,,,ValidValue
+Positive,,,ValidValue
+Positive Control,,,ValidValue
+Post-Juvenile,,,ValidValue
+Pound,,,ValidValue
+Prefer not to answer,,,ValidValue
+Primate,,,ValidValue
+Promega GloMax Discover,,,ValidValue
+Protein,,,ValidValue
+Q Exactive,,,ValidValue
+Q Exactive HF,,,ValidValue
+Q Exactive HF-X,,,ValidValue
+Q Exactive Plus,,,ValidValue
+Q Exative HF,,,ValidValue
+RPKM,,,ValidValue
+Rectal Swab Specimen,,,ValidValue
+SILAC,,,ValidValue
+SMRTbell,,,ValidValue
+SPLITseq,,,ValidValue
+SRA,,,ValidValue
+STARRSeq,,,ValidValue
+Saliva,,,ValidValue
+Seconds,,,ValidValue
+Serum,,,ValidValue
+Smart-seq1,,,ValidValue
+Smart-seq2,,,ValidValue
+Smart-seq4,,,ValidValue
+Spectramax M Series,,,ValidValue
+Sputum,,,ValidValue
+Stranded,,,ValidValue
+Study of Osteoporotic Fractures (SOF),,,ValidValue
+SureCell,,,ValidValue
+Synovial fluid,,,ValidValue
+Synovial tissue,,,ValidValue
+T cell,,,ValidValue
+TCID50,,,ValidValue
+TMT,,,ValidValue
+TPM,,,ValidValue
+TRUE,Indicate the disease or condition.,,ValidValue
+Targeted Absolute Quantitation,,,ValidValue
+TargetedMsTarget,the type of biospecimen subjected to analysis,,ValidValue
+The Health,,,ValidValue
+The Osteoporotic Fractures in Men (MrOS) Study,,,ValidValue
+Tonsil,,,ValidValue
+TruSeq,,,ValidValue
+TruSeqOtherLibraryPreparationMethod,,,ValidValue
+UPLC-ESI-QTOF-MS,,,ValidValue
+UPLC-MSMS,,,ValidValue
+US Family,,,ValidValue
+Ultralow Methyl-Seq,,,ValidValue
+Umbilical cord blood,,,ValidValue
+UnTargetedMsTarget,,,ValidValue
+UnTargetedMsTargetUnknown,,,ValidValue
+UniProt,,,ValidValue
+Unknown,,,ValidValue
+Vectra H1 3D Imaging System,,,ValidValue
+Vevo 3100 Imaging System,,,ValidValue
+Weeks,,,ValidValue
+White,,,ValidValue
+Wild,,,ValidValue
+Xevo G2 QTOF,,,ValidValue
+Xevo TQ-S,,,ValidValue
+Years,,,ValidValue
+YesHasAssayControl,Control samples suitable for normalization and batch correction,,ValidValue
+YesHasIonizationSource,Ion charge state (positive or negative-ion analysis),,ValidValue
+YesUseReagent,"One or more identifiers, separated by a semicolon (;). The reagent identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,ValidValue
+YesUseTreatment,"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,ValidValue
+Zeiss LSM 980,,,ValidValue
+acquisitionMode,"The specific aspect of a mass spectrometer method by which mass ranges are selected and possibly dissociated (full scan, MSn, SIM, MRM, etc.).",,DataProperty
+acquisitionSoftware,The name of the acquisition software used,,DataProperty
+acquistionSoftwareVersion,The version number of software used,,DataProperty
+amplicon,,,ValidValue
+and Body Composition Study (HealthABC),,,ValidValue
+batchSize,The number of samples,,DataProperty
+batchSizeUnit,The unit of measurement for number of samples in a batch,,DataProperty
+bulk cell,,,ValidValue
+bulk nuclei,,,ValidValue
+cell line,,,ValidValue
+cellHashing,,,ValidValue
+cellType,Indicate the cell type. ,,
+cleavageAgents,Name(s) of the enzyme used,,
+controlType,Control samples suitable for normalization and batch correction,,DataProperty
+conversionRatio,The ratio or % detailing how well the bisulfite conversion worked,,DataProperty
+conversionRatioUnits,The units of measurement.,,DataProperty
+d.p.c.,,,ValidValue
+dataGenerationSite,The place where data from a particular specimen was generated.,,DataProperty
+databaseName,"The name of the search database (nr, SwissProt or est_human, and/or mass spectral library).",,DataProperty
+databaseSource,"The name of the organization, project, or laboratory from where the database is obtained (UniProt, NCBI, EBI, other).",,DataProperty
+databaseWeblink,"An internet address that may provide details of a database or software search, as well as for labs who generate their own search method",,DataProperty
+dbGAP,,,ValidValue
+digestionMethod,"The type of digestion - in-solution, in-gel, etc. (ex. ""in-gel digestion"")",,DataProperty
+enrichmentMethod,The method used for performing an enrichment of specific regions by a restriction enzyme digest,,DataProperty
+experiementalBatchSize,The number of samples ,,DataProperty
+experiementalBatchSizeUnit,The unit of measurement for number of samples in a experimental batch,,DataProperty
+extractionMethod,The name of the process used to separate a desired component of an input material from the remainder,,DataProperty
+fastingState,Was individual fasting when the sample was taken (true/false),,DataProperty
+forward,,,ValidValue
+fractionIdentifier,"Identifier string that describes the sample fraction. This identifier should contain the fraction number(s) or similar information. (It MUST start from 1; if the experiment is not fractionated, 1 MUST be used for each MSRun (assay).",,DataProperty
+fragmentMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",,DataProperty
+gDNAconc,gDNA Concentration in ng,,DataProperty
+gasFlowTemperature,"e.g., nebulization gas, cone gas, etc.",,DataProperty
+gasFlowTemperatureUnit,Unit of gas flow temperature,,DataProperty
+hasAssayControl,"Boolean flag indicating whether or not a specimen is a technical or assay control. Examples include study pools or reference pools, blanks, or internal standards.",,DataProperty
+hasIonizationSource,Were the ionization conditions recorded to enable reproduction of the experiment,,DataProperty
+in-gel,,,ValidValue
+in-solution,,,ValidValue
+internal standards,,,ValidValue
+ionProperty,Ion charge state (positive or negative-ion analysis),,DataProperty
+isPostMortem,Was the sample taken after death (true/false),,DataProperty
+laboratoryProcedure,Procedure by which the Specimen was derived from Parent Specimen (if applicable),,DataProperty
+lambdaDNAconc,Lambda DNA spike-in concentration in ng,,DataProperty
+lensVoltages ,"The skimmer/focusing lens voltages e.g., capillary voltage, etc.",,DataProperty
+lensVoltagesUnit ,Unit of lens voltages,,DataProperty
+lincRNA,,,ValidValue
+lncRNAenrichment,,,ValidValue
+mRNA,,,ValidValue
+meanCoverage,Total number of bases covered by ATAC-seq reads/size of genome,,DataProperty
+metabolite,,,ValidValue
+methylSeq,,,ValidValue
+miRNAenrichment,,,ValidValue
+mitochondria,,,ValidValue
+modificationParameters,Modification parameters for the search engine run. [ PSI: PI http://www.w3.org/2002/07/owl#Axiom ],,DataProperty
+msAnalyteType,the type of biospecimen subjected to analysis,,DataProperty
+msAnalyzerTypeMS1,"Describes the mass spectrometer analyzer used to read out parent ions (quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",,DataProperty
+msAnalyzerTypeMS2,"Describes the mass spectrometer analyzer used to read out fragment ions(quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",,DataProperty
+msAssayTechnique,Specified the mass spectrometer technique used,,DataProperty
+msInstrumentModel,The model of the mass spectrometer  used,,DataProperty
+msTarget,specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay,,DataProperty
+multiome,,,ValidValue
+nucleicAcidSource,"Specifies the type of nucleic acid (DNA, RNA, Pooled, etc.) found in a sample.",,DataProperty
+optical density,,,ValidValue
+organoid,,,ValidValue
+pairedEnd,,,ValidValue
+parentSpecimenID,"Unique identifier for the direct Parent from which the Specimen was derived, processed, pooled, etc. (if applicable)",,DataProperty
+parentSpecimenType,Type of biological material comprising the Parent Specimen (if applicable),,DataProperty
+pcrCycles,Number of PCR cycles to amplify transposased DNA fragments,,DataProperty
+polyAselection,,,ValidValue
+precursorMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",,DataProperty
+protoemicsAssayType,Type of peptide quantification used (ex. Label Free),,DataProperty
+proximity ligation,,,ValidValue
+rRNAdepletion,,,ValidValue
+repositoryName,"The public repository name for the transcript (for example, Ensembl or NCBI Gene)",,DataProperty
+resultUnit,The unit for the result value,,DataProperty
+reverse,,,ValidValue
+sac-seq,,,ValidValue
+sampleIntroduction,"The sample introduction and delivery. From GC, from LC, direct infusion without chromatography, direct infusion using dedicated autosampler flow rate.",,DataProperty
+samplePrepProtocol,An internet address that may provide more details of the protocol information (web link),,DataProperty
+sampleType,The type of sample collected,,DataProperty
+scale,,,ValidValue
+single cell,,,ValidValue
+single nucleus,,,ValidValue
+singleEnd,,,ValidValue
+snRNA,,,ValidValue
+sorted cells,,,ValidValue
+sorted nuclei,,,ValidValue
+specimenIdSource,"The repository or database to which a specimenID maps; or, the group or lab that generated the specimen. For cell culture studies, the commercial source or lab that generated the cells.",,DataProperty
+specimenSource,Indicate the biological area of the specimen,,DataProperty
+specimenType,Type of biological material comprising the Specimen,,DataProperty
+spectrometerFrequency,The frequency at which a spectrometer causes hydrogen atoms to resonate (in MHz),,DataProperty
+stool,,,ValidValue
+study pool,,,ValidValue
+studyName,Name of studies found in project,,validValues
+swabs,,,ValidValue
+time-of-flight,,,ValidValue
+tissueVolume,The volume of the tissue sample. Measured in microliters.,,DataProperty
+tissueWeight,The mass of the tissue specimen. Measured in mg.,,DataProperty
+totalRNA,,,ValidValue
+transcriptType,The type of transcript reported,,DataProperty
+treatmentAmountUnit,Unit of treatment amount,,DataProperty
+treatmentAmountValue,"The Amount Value indicates how much (concentration, mass, volume) of a treatment agent was applied to a sample.",,DataProperty
+treatmentDurationUnit,Unit of treatment duration,,DataProperty
+treatmentDurationValue,Duration of treatment,,DataProperty
+treatmentID(s),"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,DataProperty
+treatmentName,"Treatments refer to in vitro modifications of samples. Three treatment types are supported: agent amount, duration, and temperature.  Treatment name is an alternate identifier to the Treatment ID ",,DataProperty
+treatmentTemperatureUnit,Unit of treatment temperature,,DataProperty
+treatmentTemperatureValue,Value of treatment temperature,,DataProperty
+triple quadrupole,,,ValidValue
+useReagent,Was a reagent applied to the sample,,DataProperty
+useTreatment,Was a treatment applied to the sample,,DataProperty
+vacuumPressure,The recorded vacuum pressure value,,DataProperty
+vacuumPressureUnit,Unit of vacuum pressure value,,DataProperty
+valueReported,The count or gene count for the transcript,,DataProperty
+water plus Baker ISTD,,,ValidValue

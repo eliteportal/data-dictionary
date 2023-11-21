@@ -2,15 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/bsSeq.html
-title: bsSeq
+title: bs Seq
 ---
 
-{% assign mydata=site.data.bsSeq %}
-{: .note-title }
->Bs Seq
+{% assign mydata=site.data.bsSeq %} 
+{: .note-title } 
+>bs Seq
 >
->bisulfite-seq WGBS methylseq methylomics,Template for bisulfite-seq WGBS methylseq methylomics [[Source]](Unspecified)
+>bisulfite-seq WGBS methylseq methylomics [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

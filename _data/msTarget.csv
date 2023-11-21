@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Parent
-TargetedMsTarget,nan,,nan,DataProperty
-UnTargetedMsTarget,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+TargetedMsTarget,,,,DataProperty
+UnTargetedMsTarget,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

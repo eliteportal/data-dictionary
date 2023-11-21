@@ -1,14 +1,14 @@
 Key,Key Description,Type,Source,Parent
-Centenarian,nan,,nan,DataProperty
-US Family,nan,,nan,DataProperty
-Denmark Family,nan,,nan,DataProperty
-The Osteoporotic Fractures in Men (MrOS) Study,nan,,nan,DataProperty
-Study of Osteoporotic Fractures (SOF),nan,,nan,DataProperty
-The Health,nan,,nan,DataProperty
-Aging,nan,,nan,DataProperty
-and Body Composition Study (HealthABC),nan,,nan,DataProperty
-Cardiovascular Health Study (CHS),nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+Centenarian,,,,DataProperty
+US Family,,,,DataProperty
+Denmark Family,,,,DataProperty
+The Osteoporotic Fractures in Men (MrOS) Study,,,,DataProperty
+Study of Osteoporotic Fractures (SOF),,,,DataProperty
+The Health,,,,DataProperty
+Aging,,,,DataProperty
+and Body Composition Study (HealthABC),,,,DataProperty
+Cardiovascular Health Study (CHS),,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

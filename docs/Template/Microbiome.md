@@ -2,15 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/ Microbiome.html
-title: ' Microbiome'
+title: Microbiome
 ---
 
 {% assign mydata=site.data.Microbiome %} 
 {: .note-title } 
-> Microbiome
+>Microbiome
 >
-> [[Source]]()
+>Template used for contributing metadata to the ELITE portal [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

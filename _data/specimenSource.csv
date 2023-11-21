@@ -1,27 +1,27 @@
 Key,Key Description,Type,Source,Parent
-Not applicable,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-alveolar capillary type 1 endothelial cell,nan,,nan,DataProperty
-alveolar capillary type 2 endothelial cell,nan,,nan,DataProperty
-blood vessel endothelial cell,nan,,nan,DataProperty
-capillary endothelial cell,nan,,nan,DataProperty
-endometrial microvascular endothelial cell,nan,,nan,DataProperty
-endothelial cell of arteriole,nan,,nan,DataProperty
-endothelial cell of artery,nan,,nan,DataProperty
-endothelial cell of high endothelial venule,nan,,nan,DataProperty
-endothelial cell of sinusoid,nan,,nan,DataProperty
-endothelial cell of venule,nan,,nan,DataProperty
-glomerular capillary endothelial cell,nan,,nan,DataProperty
-kidney afferent arteriole endothelial cell,nan,,nan,DataProperty
-kidney capillary endothelial cell,nan,,nan,DataProperty
-kidney efferent arteriole endothelial cell,nan,,nan,DataProperty
-peritubular capillary endothelial cell,nan,,nan,DataProperty
-placental villus capillary endothelial cell,nan,,nan,DataProperty
-pulmonary capillary endothelial cell,nan,,nan,DataProperty
-vasa recta ascending limb cell,nan,,nan,DataProperty
-vasa recta cell,nan,,nan,DataProperty
-vasa recta descending limb cell,nan,,nan,DataProperty
-vein endothelial cell,nan,,nan,DataProperty
-vein endothelial cell of respiratory system,nan,,nan,DataProperty
+Not applicable,,,,DataProperty
+Not collected,,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+alveolar capillary type 1 endothelial cell,,,,DataProperty
+alveolar capillary type 2 endothelial cell,,,,DataProperty
+blood vessel endothelial cell,,,,DataProperty
+capillary endothelial cell,,,,DataProperty
+endometrial microvascular endothelial cell,,,,DataProperty
+endothelial cell of arteriole,,,,DataProperty
+endothelial cell of artery,,,,DataProperty
+endothelial cell of high endothelial venule,,,,DataProperty
+endothelial cell of sinusoid,,,,DataProperty
+endothelial cell of venule,,,,DataProperty
+glomerular capillary endothelial cell,,,,DataProperty
+kidney afferent arteriole endothelial cell,,,,DataProperty
+kidney capillary endothelial cell,,,,DataProperty
+kidney efferent arteriole endothelial cell,,,,DataProperty
+peritubular capillary endothelial cell,,,,DataProperty
+placental villus capillary endothelial cell,,,,DataProperty
+pulmonary capillary endothelial cell,,,,DataProperty
+vasa recta ascending limb cell,,,,DataProperty
+vasa recta cell,,,,DataProperty
+vasa recta descending limb cell,,,,DataProperty
+vein endothelial cell,,,,DataProperty
+vein endothelial cell of respiratory system,,,,DataProperty

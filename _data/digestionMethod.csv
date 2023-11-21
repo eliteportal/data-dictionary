@@ -1,8 +1,8 @@
 Key,Key Description,Type,Source,Parent
-in-solution,nan,,nan,DataProperty
-in-gel,nan,,nan,DataProperty
-OtherDigestionMethod,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+in-solution,,,,DataProperty
+in-gel,,,,DataProperty
+OtherDigestionMethod,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
 ,,,,DataProperty

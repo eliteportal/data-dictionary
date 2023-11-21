@@ -1,9 +1,9 @@
 Key,Key Description,Type,Source,Parent
-Protein,nan,,nan,ValidValue
-metabolite,nan,,nan,ValidValue
-Lipid,nan,,nan,ValidValue
-Other,nan,,nan,ValidValue
-Unknown,nan,,nan,ValidValue
-Not collected,nan,,nan,ValidValue
-Not applicable,nan,,nan,ValidValue
-Not Specified,nan,,nan,ValidValue
+Protein,,,,ValidValue
+metabolite,,,,ValidValue
+Lipid,,,,ValidValue
+Other,,,,ValidValue
+Unknown,,,,ValidValue
+Not collected,,,,ValidValue
+Not applicable,,,,ValidValue
+Not Specified,,,,ValidValue

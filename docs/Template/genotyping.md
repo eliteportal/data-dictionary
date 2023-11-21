@@ -2,15 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/Genotyping.html
-title: Genotyping
+title: genotyping
 ---
 
 {% assign mydata=site.data.genotyping %} 
 {: .note-title } 
->Genotyping
+>genotyping
 >
-> [[Source]]()
+>Template used for contributing metadata to the ELITE portal [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

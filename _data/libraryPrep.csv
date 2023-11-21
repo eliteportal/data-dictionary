@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-amplicon,nan,,nan,DataProperty
-cellHashing,nan,,nan,DataProperty
-Chromium Single Cell 3',nan,,nan,DataProperty
-DNALibraryConstruction,nan,,nan,DataProperty
-EndItDNAEndRepairKit,nan,,nan,DataProperty
-KapaHyperPrep,nan,,nan,DataProperty
-lncRNAenrichment,nan,,nan,DataProperty
-methylSeq,nan,,nan,DataProperty
-miRNAenrichment,nan,,nan,DataProperty
-multiome,nan,,nan,DataProperty
-MULTIseq,nan,,nan,DataProperty
-PCRfree,nan,,nan,DataProperty
-polyAselection,nan,,nan,DataProperty
-proximity ligation,nan,,nan,DataProperty
-rRNAdepletion,nan,,nan,DataProperty
-SPLITseq,nan,,nan,DataProperty
-STARRSeq,nan,,nan,DataProperty
-SureCell,nan,,nan,DataProperty
-totalRNA,nan,,nan,DataProperty
-OtherLibraryPrep,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+amplicon,,,,DataProperty
+cellHashing,,,,DataProperty
+Chromium Single Cell 3',,,,DataProperty
+DNALibraryConstruction,,,,DataProperty
+EndItDNAEndRepairKit,,,,DataProperty
+KapaHyperPrep,,,,DataProperty
+lncRNAenrichment,,,,DataProperty
+methylSeq,,,,DataProperty
+miRNAenrichment,,,,DataProperty
+multiome,,,,DataProperty
+MULTIseq,,,,DataProperty
+PCRfree,,,,DataProperty
+polyAselection,,,,DataProperty
+proximity ligation,,,,DataProperty
+rRNAdepletion,,,,DataProperty
+SPLITseq,,,,DataProperty
+STARRSeq,,,,DataProperty
+SureCell,,,,DataProperty
+totalRNA,,,,DataProperty
+OtherLibraryPrep,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

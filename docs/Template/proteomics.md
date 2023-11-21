@@ -2,15 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/Proteomics.html
-title: Proteomics
+title: proteomics
 ---
 
 {% assign mydata=site.data.proteomics %} 
 {: .note-title } 
->Proteomics
+>proteomics
 >
-> [[Source]]()
+>Template used for contributing metadata to the ELITE portal [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

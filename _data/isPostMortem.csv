@@ -1,7 +1,7 @@
 Key,Key Description,Type,Source,Parent
-TRUE,nan,,nan,DataProperty
-FALSE,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Uknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+TRUE,,,,DataProperty
+FALSE,,,,DataProperty
+Other,,,,DataProperty
+Uknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

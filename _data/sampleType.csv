@@ -1,89 +1,89 @@
 Key,Key Description,Type,Source,Parent
-Amniotic Fluid,nan,,nan,DataProperty
-Appendix,nan,,nan,DataProperty
-B cell,nan,,nan,DataProperty
-Basophils,nan,,nan,DataProperty
-Bone,nan,,nan,DataProperty
-Bone Marrow,nan,,nan,DataProperty
-Brachial lymph node,nan,,nan,DataProperty
-brain,nan,,nan,DataProperty
-Breast Milk,nan,,nan,DataProperty
-Bronchoalveolar Lavage Fluid,nan,,nan,DataProperty
-Carbohydrate,nan,,nan,DataProperty
-Cell culture supernatant,nan,,nan,DataProperty
-cell line,nan,,nan,DataProperty
-Cerebrospinal Fluid,nan,,nan,DataProperty
-Cervical lymph nodes,nan,,nan,DataProperty
-Colon,nan,,nan,DataProperty
-Colonic Lamina Propria,nan,,nan,DataProperty
-Convalescent Plasma,nan,,nan,DataProperty
-Cord blood,nan,,nan,DataProperty
-Dendritic cell,nan,,nan,DataProperty
-Dermis,nan,,nan,DataProperty
-DNA,nan,,nan,DataProperty
-Dried Blood Spot,nan,,nan,DataProperty
-Endotracheal aspirate,nan,,nan,DataProperty
-Epithelium,nan,,nan,DataProperty
-Feces,nan,,nan,DataProperty
-Fibroblast,nan,,nan,DataProperty
-Gastric lamina propria,nan,,nan,DataProperty
-Ileum,nan,,nan,DataProperty
-Inguinal lymph node,nan,,nan,DataProperty
-Jejunum,nan,,nan,DataProperty
-Kidney,nan,,nan,DataProperty
-Leukocytes,nan,,nan,DataProperty
-Lipid,nan,,nan,DataProperty
-Liver,nan,,nan,DataProperty
-Lung,nan,,nan,DataProperty
-Lung lymph node,nan,,nan,DataProperty
-Lymph node,nan,,nan,DataProperty
-Lymphocyte,nan,,nan,DataProperty
-Macrophage,nan,,nan,DataProperty
-Mesenteric lymph node,nan,,nan,DataProperty
-Monocyte,nan,,nan,DataProperty
-Mouse Ear,nan,,nan,DataProperty
-Nasal lavage fluid,nan,,nan,DataProperty
-Nasal Swab,nan,,nan,DataProperty
-Nasal Swab or Nose Specimen,nan,,nan,DataProperty
-Nasopharyngeal Swab Specimen,nan,,nan,DataProperty
-Negative Control,nan,,nan,DataProperty
-Neutrophil,nan,,nan,DataProperty
-NK cell,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
-Optic Nerve,nan,,nan,DataProperty
-Organoids,nan,,nan,DataProperty
-Oropharyngeal Swab Specimen,nan,,nan,DataProperty
-Osteoblasts,nan,,nan,DataProperty
-OtherSampleType,nan,,nan,DataProperty
-Pancreas,nan,,nan,DataProperty
-Pancreatic Stellate Cells,nan,,nan,DataProperty
-PBL,nan,,nan,DataProperty
-PBMC,nan,,nan,DataProperty
-Placenta,nan,,nan,DataProperty
-Plasma,nan,,nan,DataProperty
-Pooled Sample,nan,,nan,DataProperty
-Popliteal lymph node,nan,,nan,DataProperty
-Positive Control,nan,,nan,DataProperty
-Protein,nan,,nan,DataProperty
-Rectal Swab Specimen,nan,,nan,DataProperty
-Red Blood Cell,nan,,nan,DataProperty
-Saliva,nan,,nan,DataProperty
-Salivary Glands,nan,,nan,DataProperty
-Serum,nan,,nan,DataProperty
-Skin of body,nan,,nan,DataProperty
-Small intestine,nan,,nan,DataProperty
-Spleen,nan,,nan,DataProperty
-Sputum,nan,,nan,DataProperty
-Stomach,nan,,nan,DataProperty
-Synovial fluid,nan,,nan,DataProperty
-Synovial tissue,nan,,nan,DataProperty
-T cell,nan,,nan,DataProperty
-Thymus,nan,,nan,DataProperty
-Tonsil,nan,,nan,DataProperty
-Trachea,nan,,nan,DataProperty
-Tumor Tissue,nan,,nan,DataProperty
-Umbilical cord blood,nan,,nan,DataProperty
-Urinary bladder,nan,,nan,DataProperty
-Urine,nan,,nan,DataProperty
-Vagina,nan,,nan,DataProperty
-Whole blood,nan,,nan,DataProperty
+Amniotic Fluid,,,,DataProperty
+Appendix,,,,DataProperty
+B cell,,,,DataProperty
+Basophils,,,,DataProperty
+Bone,,,,DataProperty
+Bone Marrow,,,,DataProperty
+Brachial lymph node,,,,DataProperty
+brain,,,,DataProperty
+Breast Milk,,,,DataProperty
+Bronchoalveolar Lavage Fluid,,,,DataProperty
+Carbohydrate,,,,DataProperty
+Cell culture supernatant,,,,DataProperty
+cell line,,,,DataProperty
+Cerebrospinal Fluid,,,,DataProperty
+Cervical lymph nodes,,,,DataProperty
+Colon,,,,DataProperty
+Colonic Lamina Propria,,,,DataProperty
+Convalescent Plasma,,,,DataProperty
+Cord blood,,,,DataProperty
+Dendritic cell,,,,DataProperty
+Dermis,,,,DataProperty
+DNA,,,,DataProperty
+Dried Blood Spot,,,,DataProperty
+Endotracheal aspirate,,,,DataProperty
+Epithelium,,,,DataProperty
+Feces,,,,DataProperty
+Fibroblast,,,,DataProperty
+Gastric lamina propria,,,,DataProperty
+Ileum,,,,DataProperty
+Inguinal lymph node,,,,DataProperty
+Jejunum,,,,DataProperty
+Kidney,,,,DataProperty
+Leukocytes,,,,DataProperty
+Lipid,,,,DataProperty
+Liver,,,,DataProperty
+Lung,,,,DataProperty
+Lung lymph node,,,,DataProperty
+Lymph node,,,,DataProperty
+Lymphocyte,,,,DataProperty
+Macrophage,,,,DataProperty
+Mesenteric lymph node,,,,DataProperty
+Monocyte,,,,DataProperty
+Mouse Ear,,,,DataProperty
+Nasal lavage fluid,,,,DataProperty
+Nasal Swab,,,,DataProperty
+Nasal Swab or Nose Specimen,,,,DataProperty
+Nasopharyngeal Swab Specimen,,,,DataProperty
+Negative Control,,,,DataProperty
+Neutrophil,,,,DataProperty
+NK cell,,,,DataProperty
+Not Specified,,,,DataProperty
+Optic Nerve,,,,DataProperty
+Organoids,,,,DataProperty
+Oropharyngeal Swab Specimen,,,,DataProperty
+Osteoblasts,,,,DataProperty
+OtherSampleType,,,,DataProperty
+Pancreas,,,,DataProperty
+Pancreatic Stellate Cells,,,,DataProperty
+PBL,,,,DataProperty
+PBMC,,,,DataProperty
+Placenta,,,,DataProperty
+Plasma,,,,DataProperty
+Pooled Sample,,,,DataProperty
+Popliteal lymph node,,,,DataProperty
+Positive Control,,,,DataProperty
+Protein,,,,DataProperty
+Rectal Swab Specimen,,,,DataProperty
+Red Blood Cell,,,,DataProperty
+Saliva,,,,DataProperty
+Salivary Glands,,,,DataProperty
+Serum,,,,DataProperty
+Skin of body,,,,DataProperty
+Small intestine,,,,DataProperty
+Spleen,,,,DataProperty
+Sputum,,,,DataProperty
+Stomach,,,,DataProperty
+Synovial fluid,,,,DataProperty
+Synovial tissue,,,,DataProperty
+T cell,,,,DataProperty
+Thymus,,,,DataProperty
+Tonsil,,,,DataProperty
+Trachea,,,,DataProperty
+Tumor Tissue,,,,DataProperty
+Umbilical cord blood,,,,DataProperty
+Urinary bladder,,,,DataProperty
+Urine,,,,DataProperty
+Vagina,,,,DataProperty
+Whole blood,,,,DataProperty

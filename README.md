@@ -73,9 +73,10 @@ Any changes should be done in this [repo](https://github.com/eliteportal/data-mo
 
 # To Do
 
-- [ ] Update data model attributes with descriptions, types and source
 - [ ] Fix template names on side bar
-- [ ] Remove terms from side bar with no values in table
+- [ ] For each module besides Template, create a table in that side bar menu
+- [ ] Update data model attributes with descriptions, types and source
+- [X] Remove terms from side bar with no values in table
 - [X] (SEP-19-2023): Handling when there is no module
 - [X] (SEP-19-2023): Only pages to generate are ones with key values, empty tables should not be shown
 - [X] (SEP-19-2023): Add full table page

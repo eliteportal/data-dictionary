@@ -1,5 +1,5 @@
 Key,Key Description,Type,Source,Parent
-LC,nan,,nan,DataProperty
-LG,nan,,nan,DataProperty
-ILO,nan,,nan,DataProperty
-LLFS,nan,,nan,DataProperty
+LC,,,,DataProperty
+LG,,,,DataProperty
+ILO,,,,DataProperty
+LLFS,,,,DataProperty

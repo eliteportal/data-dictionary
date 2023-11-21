@@ -1,10 +1,10 @@
 Key,Key Description,Type,Source,Parent
-MassBank of North America (MoNA),nan,,nan,DataProperty
-NIST17,nan,,nan,DataProperty
-Metlin,nan,,nan,DataProperty
-HMDB,nan,,nan,DataProperty
-OtherDatabaseName,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+MassBank of North America (MoNA),,,,DataProperty
+NIST17,,,,DataProperty
+Metlin,,,,DataProperty
+HMDB,,,,DataProperty
+OtherDatabaseName,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

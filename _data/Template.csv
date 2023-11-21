@@ -1,0 +1,13 @@
+Key,Key Description,Type,Parent
+Biospecimen human,Template used for contributing metadata to the ELITE portal,,Template
+Biospecimen nonHuman,Template used for contributing metadata to the ELITE portal,,Template
+Individual Human,Template used for contributing metadata to the ELITE portal,,Template
+Individual nonHuman,Template used for contributing metadata to the ELITE portal,,Template
+Metabolomics Human,Template used for contributing metadata to the ELITE portal,,Template
+Microbiome,Template used for contributing metadata to the ELITE portal,,Template
+RNAseq,Template used for contributing metadata to the ELITE portal,,Template
+Whole Genome Sequencing,Template used for contributing metadata to the ELITE portal,,Template
+bsSeq,bisulfite-seq WGBS methylseq methylomics,,Template
+genotyping,Template used for contributing metadata to the ELITE portal,,Template
+proteomics,Template used for contributing metadata to the ELITE portal,,Template
+scRNAseq,Template used for contributing metadata to the ELITE portal,,Template

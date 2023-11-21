@@ -1,3 +1,3 @@
 Key,Key Description,Type,Source,Parent
-YesUseTreatment,nan,,nan,DataProperty
-No,nan,,nan,DataProperty
+YesUseTreatment,,,,DataProperty
+No,,,,DataProperty

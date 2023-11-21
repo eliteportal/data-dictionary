@@ -1,56 +1,56 @@
 Key,Key Description,Type,Source,Parent
-AFU,nan,,nan,DataProperty
-AI,nan,,nan,DataProperty
-AU/ml,nan,,nan,DataProperty
-DK units/ml,nan,,nan,DataProperty
-bpg/dl,nan,,nan,DataProperty
-g/l,nan,,nan,DataProperty
-gm,nan,,nan,DataProperty
-HAU,nan,,nan,DataProperty
-IU,nan,,nan,DataProperty
-iu/l,nan,,nan,DataProperty
-IU/ml,nan,,nan,DataProperty
-Kallikrein Inactivator Unit per Milliliter,nan,,nan,DataProperty
-kg,nan,,nan,DataProperty
-l,nan,,nan,DataProperty
-M,nan,,nan,DataProperty
-mg,nan,,nan,DataProperty
-mg/dl,nan,,nan,DataProperty
-mg/l,nan,,nan,DataProperty
-mg/ml,nan,,nan,DataProperty
-miu/ml,nan,,nan,DataProperty
-ml,nan,,nan,DataProperty
-mM,nan,,nan,DataProperty
-MOI,nan,,nan,DataProperty
-ng,nan,,nan,DataProperty
-ng/dl,nan,,nan,DataProperty
-ng/ml,nan,,nan,DataProperty
-ng/nl,nan,,nan,DataProperty
-ng/ul,nan,,nan,DataProperty
-nl,nan,,nan,DataProperty
-nM,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
-NPX,nan,,nan,DataProperty
-optical density,nan,,nan,DataProperty
-PFU,nan,,nan,DataProperty
-PFUe,nan,,nan,DataProperty
-pg,nan,,nan,DataProperty
-pg/mg creatinine,nan,,nan,DataProperty
-pg/ml,nan,,nan,DataProperty
-pg/nl,nan,,nan,DataProperty
-pg/ul,nan,,nan,DataProperty
-pl,nan,,nan,DataProperty
-pM,nan,,nan,DataProperty
-Pound,nan,,nan,DataProperty
-TCID50,nan,,nan,DataProperty
-ug,nan,,nan,DataProperty
-ug/dl,nan,,nan,DataProperty
-ug/l,nan,,nan,DataProperty
-ug/ml,nan,,nan,DataProperty
-ug/ul,nan,,nan,DataProperty
-uiu/ml,nan,,nan,DataProperty
-ul,nan,,nan,DataProperty
-uM,nan,,nan,DataProperty
-umol/l,nan,,nan,DataProperty
-units/ml,nan,,nan,DataProperty
-OtherVacuumPressureUnit,nan,,nan,DataProperty
+AFU,,,,DataProperty
+AI,,,,DataProperty
+AU/ml,,,,DataProperty
+DK units/ml,,,,DataProperty
+bpg/dl,,,,DataProperty
+g/l,,,,DataProperty
+gm,,,,DataProperty
+HAU,,,,DataProperty
+IU,,,,DataProperty
+iu/l,,,,DataProperty
+IU/ml,,,,DataProperty
+Kallikrein Inactivator Unit per Milliliter,,,,DataProperty
+kg,,,,DataProperty
+l,,,,DataProperty
+M,,,,DataProperty
+mg,,,,DataProperty
+mg/dl,,,,DataProperty
+mg/l,,,,DataProperty
+mg/ml,,,,DataProperty
+miu/ml,,,,DataProperty
+ml,,,,DataProperty
+mM,,,,DataProperty
+MOI,,,,DataProperty
+ng,,,,DataProperty
+ng/dl,,,,DataProperty
+ng/ml,,,,DataProperty
+ng/nl,,,,DataProperty
+ng/ul,,,,DataProperty
+nl,,,,DataProperty
+nM,,,,DataProperty
+Not Specified,,,,DataProperty
+NPX,,,,DataProperty
+optical density,,,,DataProperty
+PFU,,,,DataProperty
+PFUe,,,,DataProperty
+pg,,,,DataProperty
+pg/mg creatinine,,,,DataProperty
+pg/ml,,,,DataProperty
+pg/nl,,,,DataProperty
+pg/ul,,,,DataProperty
+pl,,,,DataProperty
+pM,,,,DataProperty
+Pound,,,,DataProperty
+TCID50,,,,DataProperty
+ug,,,,DataProperty
+ug/dl,,,,DataProperty
+ug/l,,,,DataProperty
+ug/ml,,,,DataProperty
+ug/ul,,,,DataProperty
+uiu/ml,,,,DataProperty
+ul,,,,DataProperty
+uM,,,,DataProperty
+umol/l,,,,DataProperty
+units/ml,,,,DataProperty
+OtherVacuumPressureUnit,,,,DataProperty

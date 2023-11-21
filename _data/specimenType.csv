@@ -1,16 +1,16 @@
 Key,Key Description,Type,Source,Parent
-blood,nan,,nan,DataProperty
-Plasma,nan,,nan,DataProperty
-Urine,nan,,nan,DataProperty
-Saliva,nan,,nan,DataProperty
-stool,nan,,nan,DataProperty
-Serum,nan,,nan,DataProperty
-tissue,nan,,nan,DataProperty
-swabs,nan,,nan,DataProperty
-Sputum,nan,,nan,DataProperty
-Cerebrospinal Fluid (CSF),nan,,nan,DataProperty
-organoid,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+blood,,,,DataProperty
+Plasma,,,,DataProperty
+Urine,,,,DataProperty
+Saliva,,,,DataProperty
+stool,,,,DataProperty
+Serum,,,,DataProperty
+tissue,,,,DataProperty
+swabs,,,,DataProperty
+Sputum,,,,DataProperty
+Cerebrospinal Fluid (CSF),,,,DataProperty
+organoid,,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

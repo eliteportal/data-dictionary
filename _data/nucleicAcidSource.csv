@@ -1,12 +1,12 @@
 Key,Key Description,Type,Source,Parent
-bulk cell,nan,,nan,DataProperty
-single cell,nan,,nan,DataProperty
-bulk nuclei,nan,,nan,DataProperty
-single nucleus,nan,,nan,DataProperty
-mitochondria,nan,,nan,DataProperty
-sorted cells,nan,,nan,DataProperty
-sorted nuclei,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
+bulk cell,,,,DataProperty
+single cell,,,,DataProperty
+bulk nuclei,,,,DataProperty
+single nucleus,,,,DataProperty
+mitochondria,,,,DataProperty
+sorted cells,,,,DataProperty
+sorted nuclei,,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty

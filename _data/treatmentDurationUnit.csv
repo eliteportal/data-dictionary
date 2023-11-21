@@ -1,10 +1,10 @@
 Key,Key Description,Type,Source,Parent
-d.p.c.,nan,,nan,DataProperty
-Days,nan,,nan,DataProperty
-Hours,nan,,nan,DataProperty
-Minutes,nan,,nan,DataProperty
-Months,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
-Seconds,nan,,nan,DataProperty
-Weeks,nan,,nan,DataProperty
-Years,nan,,nan,DataProperty
+d.p.c.,,,,DataProperty
+Days,,,,DataProperty
+Hours,,,,DataProperty
+Minutes,,,,DataProperty
+Months,,,,DataProperty
+Not Specified,,,,DataProperty
+Seconds,,,,DataProperty
+Weeks,,,,DataProperty
+Years,,,,DataProperty

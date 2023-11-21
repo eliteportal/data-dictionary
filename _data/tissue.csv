@@ -1,518 +1,512 @@
 Key,Key Description,Type,Source,Parent
-Abdominal Peritoneum,nan,,nan,DataProperty
-Accessory Tissue,nan,,nan,DataProperty
-Acinar Salivary Gland System,nan,,nan,DataProperty
-Adipose Tissue,nan,,nan,DataProperty
-Adrenal Cortex,nan,,nan,DataProperty
-Adrenal Gland Tissue,nan,,nan,DataProperty
-Adrenal Medulla,nan,,nan,DataProperty
-Alveolar Duct,nan,,nan,DataProperty
-Alveolar Epithelium,nan,,nan,DataProperty
-Alveolar Sac,nan,,nan,DataProperty
-Alveolar Septum,nan,,nan,DataProperty
-Anal Mucosa,nan,,nan,DataProperty
-Aorta Endothelium,nan,,nan,DataProperty
-Aorta Smooth Muscle Tissue,nan,,nan,DataProperty
-Arachnoid Membrane,nan,,nan,DataProperty
-Arterial System Endothelium,nan,,nan,DataProperty
-Arterial System Smooth Muscle Tissue,nan,,nan,DataProperty
-Arteriole Endothelium,nan,,nan,DataProperty
-Arteriole Smooth Muscle Tissue,nan,,nan,DataProperty
-Artery Endothelium,nan,,nan,DataProperty
-Artery Smooth Muscle Tissue,nan,,nan,DataProperty
-Basement Membrane,nan,,nan,DataProperty
-Basilar Membrane,nan,,nan,DataProperty
-Basilar Membrane of the Membranous Canal of the Cochlea,nan,,nan,DataProperty
-Bile Duct Epithelium,nan,,nan,DataProperty
-Bile Duct Tissue,nan,,nan,DataProperty
-Bladder Lamina Propria,nan,,nan,DataProperty
-Bladder Mucosa,nan,,nan,DataProperty
-Bladder Muscular Coat,nan,,nan,DataProperty
-Bladder Muscularis Mucosa,nan,,nan,DataProperty
-Bladder Serosal Surface,nan,,nan,DataProperty
-Bladder Tissue,nan,,nan,DataProperty
-Bladder Urothelium,nan,,nan,DataProperty
-Blood Vessel Endothelium,nan,,nan,DataProperty
-Blood Vessel Tissue,nan,,nan,DataProperty
-Bone Matrix,nan,,nan,DataProperty
-Bone Tissue,nan,,nan,DataProperty
-Bone Trabeculae,nan,,nan,DataProperty
-Bowman's Membrane,nan,,nan,DataProperty
-Brain Arachnoid Membrane,nan,,nan,DataProperty
-Brain Dura Mater,nan,,nan,DataProperty
-Brain Gray Matter,nan,,nan,DataProperty
-Brain Pia Mater,nan,,nan,DataProperty
-Brain White Matter,nan,,nan,DataProperty
-Breast Fibroglandular Tissue,nan,,nan,DataProperty
-Bronchial Epithelium,nan,,nan,DataProperty
-Bronchiole Epithelium,nan,,nan,DataProperty
-Bronchus Basement Membrane,nan,,nan,DataProperty
-Bronchus Connective Tissue,nan,,nan,DataProperty
-Bronchus Elastic Tissue,nan,,nan,DataProperty
-Bronchus Lamina Propria,nan,,nan,DataProperty
-Bronchus Smooth Muscle Tissue,nan,,nan,DataProperty
-Bronchus Submucosa,nan,,nan,DataProperty
-Bronchus-Associated Lymphoid Tissue,nan,,nan,DataProperty
-Brown Adipose Tissue,nan,,nan,DataProperty
-Buccal Mucosa,nan,,nan,DataProperty
-Bulbar Conjunctiva,nan,,nan,DataProperty
-Canalis Radicis Dentis,nan,,nan,DataProperty
-Capillary Endothelium,nan,,nan,DataProperty
-Cardiac Tissue,nan,,nan,DataProperty
-Cartilage Matrix,nan,,nan,DataProperty
-Cartilaginous Tissue,nan,,nan,DataProperty
-Cementum,nan,,nan,DataProperty
-Central Zone of the Prostatic Parenchyma,nan,,nan,DataProperty
-Cerebellum White Matter,nan,,nan,DataProperty
-Cerebral Meninges,nan,,nan,DataProperty
-Cerebral White Matter,nan,,nan,DataProperty
-Cervix Epithelium,nan,,nan,DataProperty
-Cervix Glandular Epithelium,nan,,nan,DataProperty
-Cervix Squamous Epithelium,nan,,nan,DataProperty
-Choristoma,nan,,nan,DataProperty
-Choroid,nan,,nan,DataProperty
-Choroid Plexus Epithelium,nan,,nan,DataProperty
-Choroid Plexus Epithelium of the Fourth Ventricle,nan,,nan,DataProperty
-Choroid Plexus Epithelium of the Lateral Ventricle,nan,,nan,DataProperty
-Ciliary Epithelium,nan,,nan,DataProperty
-Ciliated Respiratory Mucosa,nan,,nan,DataProperty
-Classic Lobule,nan,,nan,DataProperty
-Colonic Mucosa,nan,,nan,DataProperty
-Columnar Epithelium,nan,,nan,DataProperty
-Conjunctiva,nan,,nan,DataProperty
-Conjunctival Epithelium,nan,,nan,DataProperty
-Connective Tissue,nan,,nan,DataProperty
-Connective Tissue Component of the Peripheral Nerve,nan,,nan,DataProperty
-Connective Tissue Proper,nan,,nan,DataProperty
-Connective and Soft Tissue,nan,,nan,DataProperty
-Corneal Endothelium,nan,,nan,DataProperty
-Corneal Epithelium,nan,,nan,DataProperty
-Corpus Callosum,nan,,nan,DataProperty
-Cortical Bone,nan,,nan,DataProperty
-Cortical Cell Layer,nan,,nan,DataProperty
-Cortical Cell Layer of the Cerebellum,nan,,nan,DataProperty
-Cortical Cell Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Crypt Epithelium,nan,,nan,DataProperty
-Cuboidal Epithelium,nan,,nan,DataProperty
-Deep Gray Matter,nan,,nan,DataProperty
-Demineralized Bone Tissue,nan,,nan,DataProperty
-Dense Connective Tissue,nan,,nan,DataProperty
-Dental Pulp,nan,,nan,DataProperty
-Dentin,nan,,nan,DataProperty
-Dermal Papilla,nan,,nan,DataProperty
-Dermis,nan,,nan,DataProperty
-Dermo-Epidermal Junction,nan,,nan,DataProperty
-Descemet's Membrane,nan,,nan,DataProperty
-Digestive System Lamina Propria,nan,,nan,DataProperty
-Duct Salivary Gland System,nan,,nan,DataProperty
-Ductal Epithelium,nan,,nan,DataProperty
-Duodenal Mucosa,nan,,nan,DataProperty
-Dura Mater,nan,,nan,DataProperty
-Ectocervical Mucosa,nan,,nan,DataProperty
-Ectoderm,nan,,nan,DataProperty
-Efferent Ductule Epithelium,nan,,nan,DataProperty
-Elastic Cartilage,nan,,nan,DataProperty
-Embryonic Connective Tissue,nan,,nan,DataProperty
-Embryonic Tissue,nan,,nan,DataProperty
-Enamel,nan,,nan,DataProperty
-Endocervical Glandular Epithelium,nan,,nan,DataProperty
-Endocervical Mucosa,nan,,nan,DataProperty
-Endocrine Reproductive Tissue,nan,,nan,DataProperty
-Endoderm,nan,,nan,DataProperty
-Endometrial Tissue,nan,,nan,DataProperty
-Endometrium,nan,,nan,DataProperty
-Endoneurium,nan,,nan,DataProperty
-Endosteum,nan,,nan,DataProperty
-Endothelium,nan,,nan,DataProperty
-Endothelium of the Glomerular Capillary,nan,,nan,DataProperty
-Ependyma,nan,,nan,DataProperty
-Ependyma and Remnants of the Central Canal of the Spinal Cord,nan,,nan,DataProperty
-Epidermis,nan,,nan,DataProperty
-Epineurium,nan,,nan,DataProperty
-Episclera,nan,,nan,DataProperty
-Epithelial Tissue,nan,,nan,DataProperty
-Epithelium,nan,,nan,DataProperty
-Esophageal Epithelium,nan,,nan,DataProperty
-Esophageal Lamina Propria,nan,,nan,DataProperty
-Esophageal Mucosa,nan,,nan,DataProperty
-Esophageal Muscular Coat,nan,,nan,DataProperty
-Esophageal Muscularis Mucosa,nan,,nan,DataProperty
-Esophageal Serosal Surface,nan,,nan,DataProperty
-Esophageal Squamous Epithelium,nan,,nan,DataProperty
-Esophageal Tissue,nan,,nan,DataProperty
-External Elastic Membrane,nan,,nan,DataProperty
-External Granular Layer of the Cerebral Cortex,nan,,nan,DataProperty
-External Pyramidal Cell Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Extracapsular Tissue,nan,,nan,DataProperty
-Extracellular Matrix,nan,,nan,DataProperty
-Extrahepatic Bile Duct Epithelium,nan,,nan,DataProperty
-Eyelid Connective Tissue,nan,,nan,DataProperty
-Eyelid Subcutaneous Connective Tissue,nan,,nan,DataProperty
-Fascicle,nan,,nan,DataProperty
-Fat Pad,nan,,nan,DataProperty
-Fibroadipose Tissue,nan,,nan,DataProperty
-Fibrocartilage,nan,,nan,DataProperty
-Fibrous Tissue,nan,,nan,DataProperty
-Foramen Apicis Dentis,nan,,nan,DataProperty
-Fourth Ventricle Ependyma,nan,,nan,DataProperty
-Gallbladder Epithelium,nan,,nan,DataProperty
-Gallbladder Lamina Propria,nan,,nan,DataProperty
-Gallbladder Serosal Surface,nan,,nan,DataProperty
-Gallbladder Smooth Muscle Tissue,nan,,nan,DataProperty
-Ganglion Cell Layer,nan,,nan,DataProperty
-Ganglionic Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Gastric Mucosa,nan,,nan,DataProperty
-Gastric Muscular Coat,nan,,nan,DataProperty
-Gastric Muscularis Mucosa,nan,,nan,DataProperty
-Gastric Serosal Surface,nan,,nan,DataProperty
-Gastric Submucosa,nan,,nan,DataProperty
-Gastric Tissue,nan,,nan,DataProperty
-Genital Tubercle,nan,,nan,DataProperty
-Germinal Center,nan,,nan,DataProperty
-Germinal Epithelium,nan,,nan,DataProperty
-Germinal Layer,nan,,nan,DataProperty
-Germinative Follicular Epithelium,nan,,nan,DataProperty
-Gingiva,nan,,nan,DataProperty
-Gingival Epithelium,nan,,nan,DataProperty
-Gingival Mucosa,nan,,nan,DataProperty
-Glandular Epithelial Tissue,nan,,nan,DataProperty
-Glandular Epithelium,nan,,nan,DataProperty
-Glomerular Basement Membrane,nan,,nan,DataProperty
-Granular Layer of the Cerebellum,nan,,nan,DataProperty
-Gray Matter,nan,,nan,DataProperty
-Gray Matter of the Spinal Cord,nan,,nan,DataProperty
-Gubernaculum Testis,nan,,nan,DataProperty
-Gut Epithelium,nan,,nan,DataProperty
-Gut-Associated Lymphoid Tissue,nan,,nan,DataProperty
-Hassall's Corpuscle,nan,,nan,DataProperty
-Haversian Canal,nan,,nan,DataProperty
-Haversian System,nan,,nan,DataProperty
-Heart Valve Tissue,nan,,nan,DataProperty
-Hematopoietic Tissue,nan,,nan,DataProperty
-Hematopoietic and Lymphoid Tissue,nan,,nan,DataProperty
-Hepatic Lobule,nan,,nan,DataProperty
-Hepatic Sinusoid,nan,,nan,DataProperty
-Hepatic Tissue,nan,,nan,DataProperty
-Hepatobiliary Tissue,nan,,nan,DataProperty
-Hyaline Cartilage,nan,,nan,DataProperty
-Iliotibial Band,nan,,nan,DataProperty
-Immature Bone,nan,,nan,DataProperty
-Inner Enamel Epithelium,nan,,nan,DataProperty
-Inner Limiting Membrane,nan,,nan,DataProperty
-Inner Membrane Amniotic Membrane Tissue,nan,,nan,DataProperty
-Inner Nuclear Layer,nan,,nan,DataProperty
-Inner Plexiform Layer,nan,,nan,DataProperty
-Interfollicular Area of the Lymph Node,nan,,nan,DataProperty
-Intermediate Mesoderm,nan,,nan,DataProperty
-Internal Elastic Membrane,nan,,nan,DataProperty
-Internal Granular Layer of the Cerebellum,nan,,nan,DataProperty
-Internal Granular Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Intestinal Epithelium,nan,,nan,DataProperty
-Intestinal Mucosa,nan,,nan,DataProperty
-Intestinal Serosal Surface,nan,,nan,DataProperty
-Intestinal Smooth Muscle Tissue,nan,,nan,DataProperty
-Intestinal Wall Tissue,nan,,nan,DataProperty
-Intrahepatic Bile Duct Epithelium,nan,,nan,DataProperty
-Intraparenchymal,nan,,nan,DataProperty
-Irregular Dense Connective Tissue,nan,,nan,DataProperty
-Islet of Langerhans,nan,,nan,DataProperty
-Joint Capsule,nan,,nan,DataProperty
-Juxtaglomerular Apparatus,nan,,nan,DataProperty
-Lactiferous Duct,nan,,nan,DataProperty
-Lamella of Harvesian System,nan,,nan,DataProperty
-Lamina Propria,nan,,nan,DataProperty
-Large Intestinal Lamina Propria,nan,,nan,DataProperty
-Large Intestinal Mucosa,nan,,nan,DataProperty
-Large Intestinal Muscular Coat,nan,,nan,DataProperty
-Large Intestinal Muscularis Mucosa,nan,,nan,DataProperty
-Large Intestinal Serosal Surface,nan,,nan,DataProperty
-Large Intestinal Submucosa,nan,,nan,DataProperty
-Large Intestinal Wall Tissue,nan,,nan,DataProperty
-Laryngeal Connective Tissue,nan,,nan,DataProperty
-Laryngeal Epithelium,nan,,nan,DataProperty
-Laryngeal Mucosa,nan,,nan,DataProperty
-Lateral Mesoderm,nan,,nan,DataProperty
-Lateral Ventricle Ependyma,nan,,nan,DataProperty
-Layer of the Ophthalmic Nerve Fibers,nan,,nan,DataProperty
-Layer of the Rods and Cones,nan,,nan,DataProperty
-Left Lung Alveolar Duct,nan,,nan,DataProperty
-Leptomeninges,nan,,nan,DataProperty
-Liver Acinus,nan,,nan,DataProperty
-Loose Connective Tissue,nan,,nan,DataProperty
-Lower Gingiva,nan,,nan,DataProperty
-Lung Tissue,nan,,nan,DataProperty
-Lymph Node Cortex,nan,,nan,DataProperty
-Lymph Node Germinal Center,nan,,nan,DataProperty
-Lymph Node Lymphoid Follicle,nan,,nan,DataProperty
-Lymph Node Medullary Portion,nan,,nan,DataProperty
-Lymph Node Sinus,nan,,nan,DataProperty
-Lymph Node Subcapsular Sinus,nan,,nan,DataProperty
-Lymph Node Tissue,nan,,nan,DataProperty
-Lymph Node Trabecula,nan,,nan,DataProperty
-Lymphatic Vessel Endothelium,nan,,nan,DataProperty
-Lymphatic Vessel Smooth Muscle Tissue,nan,,nan,DataProperty
-Lymphoid Follicle,nan,,nan,DataProperty
-Lymphoid Tissue,nan,,nan,DataProperty
-Mammary Epithelium,nan,,nan,DataProperty
-Mammary Gland Tissue,nan,,nan,DataProperty
-Mantle Zone,nan,,nan,DataProperty
-Marginal Zone,nan,,nan,DataProperty
-Marginal Zone of the Lymph Node,nan,,nan,DataProperty
-Mature Bone,nan,,nan,DataProperty
-Mediastinal Pleura,nan,,nan,DataProperty
-Mediastinal Soft Tissue,nan,,nan,DataProperty
-Medullary Bone,nan,,nan,DataProperty
-Membrane,nan,,nan,DataProperty
-Membrane of Reissner,nan,,nan,DataProperty
-Membrane of the Brain or Spinal Cord,nan,,nan,DataProperty
-Meningeal Layer of the Dura Mater,nan,,nan,DataProperty
-Meninges,nan,,nan,DataProperty
-Mesangium,nan,,nan,DataProperty
-Mesenchyme,nan,,nan,DataProperty
-Mesoderm,nan,,nan,DataProperty
-Mesonephric Remnants,nan,,nan,DataProperty
-Mesothelium,nan,,nan,DataProperty
-Molecular Layer of the Cerebellum,nan,,nan,DataProperty
-Molecular Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Mucosa,nan,,nan,DataProperty
-Mucosa of the Lip,nan,,nan,DataProperty
-Mucosa of the Lower Lip,nan,,nan,DataProperty
-Mucosa of the Upper Lip,nan,,nan,DataProperty
-Mucosa-Associated Lymphoid Tissue,nan,,nan,DataProperty
-Mucous Connective Tissue,nan,,nan,DataProperty
-Multiform Cell Layer of the Cerebral Cortex,nan,,nan,DataProperty
-Muscle Layer,nan,,nan,DataProperty
-Muscle Tissue,nan,,nan,DataProperty
-Muscularis Mucosa,nan,,nan,DataProperty
-Myelin Sheath,nan,,nan,DataProperty
-Myocardium,nan,,nan,DataProperty
-Myometrium,nan,,nan,DataProperty
-Nasal Cavity Epithelium,nan,,nan,DataProperty
-Nasal Cavity Respiratory Epithelium,nan,,nan,DataProperty
-Nasal Mucosa,nan,,nan,DataProperty
-Nasal Soft Tissue,nan,,nan,DataProperty
-Nasopharynx Epithelium,nan,,nan,DataProperty
-Nephron,nan,,nan,DataProperty
-Nerve Sheath,nan,,nan,DataProperty
-Nerve Tissue,nan,,nan,DataProperty
-Nerve Tissue,nan,,nan,DataProperty
-Nerve Tissue and Nerve Sheaths,nan,,nan,DataProperty
-Nerve Tissue,nan,,nan,DataProperty
-Nerve Tissue,nan,,nan,DataProperty
-Neuroepithelial Tissue,nan,,nan,DataProperty
-Neuroepithelial Tissue,nan,,nan,DataProperty
-and Nerve Sheaths,nan,,nan,DataProperty
-Neural Retina,nan,,nan,DataProperty
-Neuroectoderm,nan,,nan,DataProperty
-Neuroendocrine Tissue,nan,,nan,DataProperty
-Neuroepithelial Tissue,nan,,nan,DataProperty
-Neuroepithelial Tissue,nan,,nan,DataProperty
-Neuropil,nan,,nan,DataProperty
-Nodular Parenchymal Tissue,nan,,nan,DataProperty
-Non-Cellular Component,nan,,nan,DataProperty
-Non-Valve Cardiac Conduit Tissue,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Ocular Tissue,nan,,nan,DataProperty
-Odontogenic Ectomesenchyme,nan,,nan,DataProperty
-Odontogenic Epithelium,nan,,nan,DataProperty
-Odontogenic Tissue,nan,,nan,DataProperty
-Olfactory Epithelium,nan,,nan,DataProperty
-Olfactory Mucosa,nan,,nan,DataProperty
-Oral Cavity Epithelium,nan,,nan,DataProperty
-Oral Mucosa,nan,,nan,DataProperty
-Oropharyngeal Lymphoid Tissue,nan,,nan,DataProperty
-Oropharyngeal Soft Tissue,nan,,nan,DataProperty
-Oropharyngeal Tissue,nan,,nan,DataProperty
-Oropharynx Epithelium,nan,,nan,DataProperty
-Osteoid,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Outer Enamel Epithelium,nan,,nan,DataProperty
-Outer Limiting Membrane,nan,,nan,DataProperty
-Outer Nuclear Layer,nan,,nan,DataProperty
-Outer Plexiform Layer,nan,,nan,DataProperty
-Ovarian Cortex,nan,,nan,DataProperty
-Ovarian Medulla,nan,,nan,DataProperty
-Ovarian Surface Epithelium,nan,,nan,DataProperty
-Ovarian Tissue,nan,,nan,DataProperty
-Palpebral Conjunctiva,nan,,nan,DataProperty
-Pancreatic Acinus,nan,,nan,DataProperty
-Papillary Dermis,nan,,nan,DataProperty
-Papillary-Reticular Dermal Interface,nan,,nan,DataProperty
-Parametrium,nan,,nan,DataProperty
-Paranasal Sinus Epithelium,nan,,nan,DataProperty
-Paratesticular Soft Tissue,nan,,nan,DataProperty
-Parathyroid Gland Epithelial Tissue,nan,,nan,DataProperty
-Parathyroid Gland Follicle,nan,,nan,DataProperty
-Parathyroid Gland Tissue,nan,,nan,DataProperty
-Paraxial Mesoderm,nan,,nan,DataProperty
-Parenchyma,nan,,nan,DataProperty
-Parietal Pleura,nan,,nan,DataProperty
-Pelvic Peritoneum,nan,,nan,DataProperty
-Penis Erectile Tissue,nan,,nan,DataProperty
-Perforating Canal,nan,,nan,DataProperty
-Periarteriolar Lymphoid Sheath,nan,,nan,DataProperty
-Pericardium,nan,,nan,DataProperty
-Perineural Tissue,nan,,nan,DataProperty
-Perineurium,nan,,nan,DataProperty
-Periodontium,nan,,nan,DataProperty
-Periorbital Soft Tissue,nan,,nan,DataProperty
-Periosteum,nan,,nan,DataProperty
-Peripheral Nerve Sheath,nan,,nan,DataProperty
-Peripheral Zone of the Prostatic Parenchyma,nan,,nan,DataProperty
-Perisinusoidal Space,nan,,nan,DataProperty
-Peritoneum,nan,,nan,DataProperty
-Periurethral Zone of the Prostatic Parenchyma,nan,,nan,DataProperty
-Peyer Patch,nan,,nan,DataProperty
-Peyer Patch Germinal Center,nan,,nan,DataProperty
-Peyer Patch Lymphoid Follicle,nan,,nan,DataProperty
-Pia Mater,nan,,nan,DataProperty
-Pigment Epithelium,nan,,nan,DataProperty
-Pineal Parenchyma,nan,,nan,DataProperty
-Placenta Tissue without Amniotic Elements,nan,,nan,DataProperty
-Pleura,nan,,nan,DataProperty
-Portal Lobule,nan,,nan,DataProperty
-Portal Triad,nan,,nan,DataProperty
-Posterior Pigment Epithelium,nan,,nan,DataProperty
-Prefrontal Cortex,nan,,nan,DataProperty
-Prepuce Epithelium,nan,,nan,DataProperty
-Prostatic Duct Tissue,nan,,nan,DataProperty
-Prostatic Epithelium,nan,,nan,DataProperty
-Prostatic Muscular Tissue,nan,,nan,DataProperty
-Prostatic Stroma,nan,,nan,DataProperty
-Prostatic Tissue,nan,,nan,DataProperty
-Pseudostratified Columnar Ciliated Epithelium,nan,,nan,DataProperty
-Pseudostratified Columnar Epithelium,nan,,nan,DataProperty
-Pseudostratified Epithelium,nan,,nan,DataProperty
-Pulmonary Lobule,nan,,nan,DataProperty
-Purkinje Cell Layer of the Cerebellum,nan,,nan,DataProperty
-Pyramid of Ferrein,nan,,nan,DataProperty
-Pyramid of Malpighi,nan,,nan,DataProperty
-Rathke Pouch Epithelium,nan,,nan,DataProperty
-Regular Dense Connective Tissue,nan,,nan,DataProperty
-Remnants of the Central Canal of the Spinal Cord,nan,,nan,DataProperty
-Remnants of the Notochord,nan,,nan,DataProperty
-Renal Cortex,nan,,nan,DataProperty
-Renal Interstitial Tissue,nan,,nan,DataProperty
-Renal Medulla,nan,,nan,DataProperty
-Renal Pelvis Urothelium,nan,,nan,DataProperty
-Renal Pyramid,nan,,nan,DataProperty
-Renal Tissue,nan,,nan,DataProperty
-Renal Tubule Basement Membrane,nan,,nan,DataProperty
-Renal Tubule Epithelium,nan,,nan,DataProperty
-Reproductive Tissue,nan,,nan,DataProperty
-Respiratory Bronchiole Epithelium,nan,,nan,DataProperty
-Reticular Dermis,nan,,nan,DataProperty
-Retina Layer,nan,,nan,DataProperty
-Retinal Pigment Epithelium,nan,,nan,DataProperty
-Right Lung Alveolar Duct,nan,,nan,DataProperty
-Salivary Gland Tissue,nan,,nan,DataProperty
-Secondary Tympanic Membrane,nan,,nan,DataProperty
-Seminal Vesicle Epithelium,nan,,nan,DataProperty
-Seminiferous Epithelium,nan,,nan,DataProperty
-Seminiferous Tubule,nan,,nan,DataProperty
-Serosa,nan,,nan,DataProperty
-Serosal Surface of the Liver,nan,,nan,DataProperty
-Sheath of Schwann,nan,,nan,DataProperty
-Simple Columnar Epithelium,nan,,nan,DataProperty
-Simple Cuboidal Epithelium,nan,,nan,DataProperty
-Simple Epithelium,nan,,nan,DataProperty
-Simple Squamous Epithelium,nan,,nan,DataProperty
-Skeletal Muscle Tissue,nan,,nan,DataProperty
-Skin Tissue,nan,,nan,DataProperty
-Small Intestinal Lamina Propria,nan,,nan,DataProperty
-Small Intestinal Mucosa,nan,,nan,DataProperty
-Small Intestinal Muscular Coat,nan,,nan,DataProperty
-Small Intestinal Muscularis Mucosa,nan,,nan,DataProperty
-Small Intestinal Serosal Surface,nan,,nan,DataProperty
-Small Intestinal Submucosa,nan,,nan,DataProperty
-Small Intestinal Wall Tissue,nan,,nan,DataProperty
-Smooth Muscle Tissue,nan,,nan,DataProperty
-Soft Tissue,nan,,nan,DataProperty
-Spinal Cord Arachnoid Membrane,nan,,nan,DataProperty
-Spinal Cord Dura Mater,nan,,nan,DataProperty
-Spinal Cord Pia Mater,nan,,nan,DataProperty
-Spinal Meninges,nan,,nan,DataProperty
-Splenic Cord,nan,,nan,DataProperty
-Splenic Germinal Center,nan,,nan,DataProperty
-Splenic Lymphoid Follicle,nan,,nan,DataProperty
-Splenic Marginal Sinus,nan,,nan,DataProperty
-Splenic Marginal Zone,nan,,nan,DataProperty
-Splenic Pulp,nan,,nan,DataProperty
-Splenic Red Pulp,nan,,nan,DataProperty
-Splenic Sinus,nan,,nan,DataProperty
-Splenic Tissue,nan,,nan,DataProperty
-Splenic Trabecula,nan,,nan,DataProperty
-Splenic White Pulp,nan,,nan,DataProperty
-Squamous Epithelium,nan,,nan,DataProperty
-Stratified Columnar Epithelium,nan,,nan,DataProperty
-Stratified Cuboidal Epithelium,nan,,nan,DataProperty
-Stratified Epithelium,nan,,nan,DataProperty
-Stratified Squamous Epithelium,nan,,nan,DataProperty
-Striated Muscle Tissue,nan,,nan,DataProperty
-Stroma,nan,,nan,DataProperty
-Subcapsular Epithelium of the Lens,nan,,nan,DataProperty
-Subcutis,nan,,nan,DataProperty
-Subependymal Tissue,nan,,nan,DataProperty
-Submucosa,nan,,nan,DataProperty
-Subserosa,nan,,nan,DataProperty
-Substantia Nigra,nan,,nan,DataProperty
-Superficial Myometrium,nan,,nan,DataProperty
-Suprachorioid Lamina,nan,,nan,DataProperty
-Surface Ectoderm,nan,,nan,DataProperty
-Synovial Membrane,nan,,nan,DataProperty
-Tectorial Membrane,nan,,nan,DataProperty
-Terminal Bronchiole Epithelium,nan,,nan,DataProperty
-Terminal Ductal Lobular Unit,nan,,nan,DataProperty
-Testicular Tissue,nan,,nan,DataProperty
-Thymic Epithelial Tissue,nan,,nan,DataProperty
-Thymic Lobule,nan,,nan,DataProperty
-Thymic Lymphoid Tissue,nan,,nan,DataProperty
-Thymic Tissue,nan,,nan,DataProperty
-Thymic Trabecula,nan,,nan,DataProperty
-Thymus Cortex,nan,,nan,DataProperty
-Thymus Medulla,nan,,nan,DataProperty
-Thyroid Gland Epithelial Tissue,nan,,nan,DataProperty
-Thyroid Gland Follicle,nan,,nan,DataProperty
-Thyroid Gland Tissue,nan,,nan,DataProperty
-Tongue Epithelium,nan,,nan,DataProperty
-Tongue Skeletal Muscle Tissue,nan,,nan,DataProperty
-Tonsillar Lymphoid Tissue,nan,,nan,DataProperty
-Tonsillar Tissue,nan,,nan,DataProperty
-Trachea Basement Membrane,nan,,nan,DataProperty
-Trachea Lamina Propria,nan,,nan,DataProperty
-Trachea Smooth Muscle Tissue,nan,,nan,DataProperty
-Trachea Submucosa,nan,,nan,DataProperty
-Tracheal Epithelium,nan,,nan,DataProperty
-Transitional Epithelium,nan,,nan,DataProperty
-Transitional Zone of the Prostatic Parenchyma,nan,,nan,DataProperty
-Tunica Adventitia,nan,,nan,DataProperty
-Tunica Intima,nan,,nan,DataProperty
-Tunica Media,nan,,nan,DataProperty
-Tympanic Epithelium,nan,,nan,DataProperty
-Tympanic Membrane,nan,,nan,DataProperty
-Umbilical Cord Tissue,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Upper Gingiva,nan,,nan,DataProperty
-Urachal Epithelium,nan,,nan,DataProperty
-Urethra Epithelium,nan,,nan,DataProperty
-Urethra Urothelium,nan,,nan,DataProperty
-Urothelium,nan,,nan,DataProperty
-Uterus Serosal Surface,nan,,nan,DataProperty
-Vaginal Epithelium,nan,,nan,DataProperty
-Vaginal Squamous Epithelium,nan,,nan,DataProperty
-Vas Deferens Epithelium,nan,,nan,DataProperty
-Vascular Endothelium,nan,,nan,DataProperty
-Vascular Smooth Muscle Tissue,nan,,nan,DataProperty
-Vein Endothelium,nan,,nan,DataProperty
-Vena Cava Endothelium,nan,,nan,DataProperty
-Venous System Endothelium,nan,,nan,DataProperty
-Venous System Smooth Muscle Tissue,nan,,nan,DataProperty
-Ventricular Wall of the Heart,nan,,nan,DataProperty
-Venule Endothelium,nan,,nan,DataProperty
-Visceral Pleura,nan,,nan,DataProperty
-Visceral Striated Muscle Tissue,nan,,nan,DataProperty
-Waldeyer Ring,nan,,nan,
-White Adipose Tissue,nan,,nan,
-White Matter,nan,,nan,
-White Matter of the Spinal Cord,nan,,nan,
+Abdominal Peritoneum,,,,DataProperty
+Accessory Tissue,,,,DataProperty
+Acinar Salivary Gland System,,,,DataProperty
+Adipose Tissue,,,,DataProperty
+Adrenal Cortex,,,,DataProperty
+Adrenal Gland Tissue,,,,DataProperty
+Adrenal Medulla,,,,DataProperty
+Alveolar Duct,,,,DataProperty
+Alveolar Epithelium,,,,DataProperty
+Alveolar Sac,,,,DataProperty
+Alveolar Septum,,,,DataProperty
+Anal Mucosa,,,,DataProperty
+Aorta Endothelium,,,,DataProperty
+Aorta Smooth Muscle Tissue,,,,DataProperty
+Arachnoid Membrane,,,,DataProperty
+Arterial System Endothelium,,,,DataProperty
+Arterial System Smooth Muscle Tissue,,,,DataProperty
+Arteriole Endothelium,,,,DataProperty
+Arteriole Smooth Muscle Tissue,,,,DataProperty
+Artery Endothelium,,,,DataProperty
+Artery Smooth Muscle Tissue,,,,DataProperty
+Basement Membrane,,,,DataProperty
+Basilar Membrane,,,,DataProperty
+Basilar Membrane of the Membranous Canal of the Cochlea,,,,DataProperty
+Bile Duct Epithelium,,,,DataProperty
+Bile Duct Tissue,,,,DataProperty
+Bladder Lamina Propria,,,,DataProperty
+Bladder Mucosa,,,,DataProperty
+Bladder Muscular Coat,,,,DataProperty
+Bladder Muscularis Mucosa,,,,DataProperty
+Bladder Serosal Surface,,,,DataProperty
+Bladder Tissue,,,,DataProperty
+Bladder Urothelium,,,,DataProperty
+Blood Vessel Endothelium,,,,DataProperty
+Blood Vessel Tissue,,,,DataProperty
+Bone Matrix,,,,DataProperty
+Bone Tissue,,,,DataProperty
+Bone Trabeculae,,,,DataProperty
+Bowman's Membrane,,,,DataProperty
+Brain Arachnoid Membrane,,,,DataProperty
+Brain Dura Mater,,,,DataProperty
+Brain Gray Matter,,,,DataProperty
+Brain Pia Mater,,,,DataProperty
+Brain White Matter,,,,DataProperty
+Breast Fibroglandular Tissue,,,,DataProperty
+Bronchial Epithelium,,,,DataProperty
+Bronchiole Epithelium,,,,DataProperty
+Bronchus Basement Membrane,,,,DataProperty
+Bronchus Connective Tissue,,,,DataProperty
+Bronchus Elastic Tissue,,,,DataProperty
+Bronchus Lamina Propria,,,,DataProperty
+Bronchus Smooth Muscle Tissue,,,,DataProperty
+Bronchus Submucosa,,,,DataProperty
+Bronchus-Associated Lymphoid Tissue,,,,DataProperty
+Brown Adipose Tissue,,,,DataProperty
+Buccal Mucosa,,,,DataProperty
+Bulbar Conjunctiva,,,,DataProperty
+Canalis Radicis Dentis,,,,DataProperty
+Capillary Endothelium,,,,DataProperty
+Cardiac Tissue,,,,DataProperty
+Cartilage Matrix,,,,DataProperty
+Cartilaginous Tissue,,,,DataProperty
+Cementum,,,,DataProperty
+Central Zone of the Prostatic Parenchyma,,,,DataProperty
+Cerebellum White Matter,,,,DataProperty
+Cerebral Meninges,,,,DataProperty
+Cerebral White Matter,,,,DataProperty
+Cervix Epithelium,,,,DataProperty
+Cervix Glandular Epithelium,,,,DataProperty
+Cervix Squamous Epithelium,,,,DataProperty
+Choristoma,,,,DataProperty
+Choroid,,,,DataProperty
+Choroid Plexus Epithelium,,,,DataProperty
+Choroid Plexus Epithelium of the Fourth Ventricle,,,,DataProperty
+Choroid Plexus Epithelium of the Lateral Ventricle,,,,DataProperty
+Ciliary Epithelium,,,,DataProperty
+Ciliated Respiratory Mucosa,,,,DataProperty
+Classic Lobule,,,,DataProperty
+Colonic Mucosa,,,,DataProperty
+Columnar Epithelium,,,,DataProperty
+Conjunctiva,,,,DataProperty
+Conjunctival Epithelium,,,,DataProperty
+Connective Tissue,,,,DataProperty
+Connective Tissue Component of the Peripheral Nerve,,,,DataProperty
+Connective Tissue Proper,,,,DataProperty
+Connective and Soft Tissue,,,,DataProperty
+Corneal Endothelium,,,,DataProperty
+Corneal Epithelium,,,,DataProperty
+Corpus Callosum,,,,DataProperty
+Cortical Bone,,,,DataProperty
+Cortical Cell Layer,,,,DataProperty
+Cortical Cell Layer of the Cerebellum,,,,DataProperty
+Cortical Cell Layer of the Cerebral Cortex,,,,DataProperty
+Crypt Epithelium,,,,DataProperty
+Cuboidal Epithelium,,,,DataProperty
+Deep Gray Matter,,,,DataProperty
+Demineralized Bone Tissue,,,,DataProperty
+Dense Connective Tissue,,,,DataProperty
+Dental Pulp,,,,DataProperty
+Dentin,,,,DataProperty
+Dermal Papilla,,,,DataProperty
+Dermis,,,,DataProperty
+Dermo-Epidermal Junction,,,,DataProperty
+Descemet's Membrane,,,,DataProperty
+Digestive System Lamina Propria,,,,DataProperty
+Duct Salivary Gland System,,,,DataProperty
+Ductal Epithelium,,,,DataProperty
+Duodenal Mucosa,,,,DataProperty
+Dura Mater,,,,DataProperty
+Ectocervical Mucosa,,,,DataProperty
+Ectoderm,,,,DataProperty
+Efferent Ductule Epithelium,,,,DataProperty
+Elastic Cartilage,,,,DataProperty
+Embryonic Connective Tissue,,,,DataProperty
+Embryonic Tissue,,,,DataProperty
+Enamel,,,,DataProperty
+Endocervical Glandular Epithelium,,,,DataProperty
+Endocervical Mucosa,,,,DataProperty
+Endocrine Reproductive Tissue,,,,DataProperty
+Endoderm,,,,DataProperty
+Endometrial Tissue,,,,DataProperty
+Endometrium,,,,DataProperty
+Endoneurium,,,,DataProperty
+Endosteum,,,,DataProperty
+Endothelium,,,,DataProperty
+Endothelium of the Glomerular Capillary,,,,DataProperty
+Ependyma,,,,DataProperty
+Ependyma and Remnants of the Central Canal of the Spinal Cord,,,,DataProperty
+Epidermis,,,,DataProperty
+Epineurium,,,,DataProperty
+Episclera,,,,DataProperty
+Epithelial Tissue,,,,DataProperty
+Epithelium,,,,DataProperty
+Esophageal Epithelium,,,,DataProperty
+Esophageal Lamina Propria,,,,DataProperty
+Esophageal Mucosa,,,,DataProperty
+Esophageal Muscular Coat,,,,DataProperty
+Esophageal Muscularis Mucosa,,,,DataProperty
+Esophageal Serosal Surface,,,,DataProperty
+Esophageal Squamous Epithelium,,,,DataProperty
+Esophageal Tissue,,,,DataProperty
+External Elastic Membrane,,,,DataProperty
+External Granular Layer of the Cerebral Cortex,,,,DataProperty
+External Pyramidal Cell Layer of the Cerebral Cortex,,,,DataProperty
+Extracapsular Tissue,,,,DataProperty
+Extracellular Matrix,,,,DataProperty
+Extrahepatic Bile Duct Epithelium,,,,DataProperty
+Eyelid Connective Tissue,,,,DataProperty
+Eyelid Subcutaneous Connective Tissue,,,,DataProperty
+Fascicle,,,,DataProperty
+Fat Pad,,,,DataProperty
+Fibroadipose Tissue,,,,DataProperty
+Fibrocartilage,,,,DataProperty
+Fibrous Tissue,,,,DataProperty
+Foramen Apicis Dentis,,,,DataProperty
+Fourth Ventricle Ependyma,,,,DataProperty
+Gallbladder Epithelium,,,,DataProperty
+Gallbladder Lamina Propria,,,,DataProperty
+Gallbladder Serosal Surface,,,,DataProperty
+Gallbladder Smooth Muscle Tissue,,,,DataProperty
+Ganglion Cell Layer,,,,DataProperty
+Ganglionic Layer of the Cerebral Cortex,,,,DataProperty
+Gastric Mucosa,,,,DataProperty
+Gastric Muscular Coat,,,,DataProperty
+Gastric Muscularis Mucosa,,,,DataProperty
+Gastric Serosal Surface,,,,DataProperty
+Gastric Submucosa,,,,DataProperty
+Gastric Tissue,,,,DataProperty
+Genital Tubercle,,,,DataProperty
+Germinal Center,,,,DataProperty
+Germinal Epithelium,,,,DataProperty
+Germinal Layer,,,,DataProperty
+Germinative Follicular Epithelium,,,,DataProperty
+Gingiva,,,,DataProperty
+Gingival Epithelium,,,,DataProperty
+Gingival Mucosa,,,,DataProperty
+Glandular Epithelial Tissue,,,,DataProperty
+Glandular Epithelium,,,,DataProperty
+Glomerular Basement Membrane,,,,DataProperty
+Granular Layer of the Cerebellum,,,,DataProperty
+Gray Matter,,,,DataProperty
+Gray Matter of the Spinal Cord,,,,DataProperty
+Gubernaculum Testis,,,,DataProperty
+Gut Epithelium,,,,DataProperty
+Gut-Associated Lymphoid Tissue,,,,DataProperty
+Hassall's Corpuscle,,,,DataProperty
+Haversian Canal,,,,DataProperty
+Haversian System,,,,DataProperty
+Heart Valve Tissue,,,,DataProperty
+Hematopoietic Tissue,,,,DataProperty
+Hematopoietic and Lymphoid Tissue,,,,DataProperty
+Hepatic Lobule,,,,DataProperty
+Hepatic Sinusoid,,,,DataProperty
+Hepatic Tissue,,,,DataProperty
+Hepatobiliary Tissue,,,,DataProperty
+Hyaline Cartilage,,,,DataProperty
+Iliotibial Band,,,,DataProperty
+Immature Bone,,,,DataProperty
+Inner Enamel Epithelium,,,,DataProperty
+Inner Limiting Membrane,,,,DataProperty
+Inner Membrane Amniotic Membrane Tissue,,,,DataProperty
+Inner Nuclear Layer,,,,DataProperty
+Inner Plexiform Layer,,,,DataProperty
+Interfollicular Area of the Lymph Node,,,,DataProperty
+Intermediate Mesoderm,,,,DataProperty
+Internal Elastic Membrane,,,,DataProperty
+Internal Granular Layer of the Cerebellum,,,,DataProperty
+Internal Granular Layer of the Cerebral Cortex,,,,DataProperty
+Intestinal Epithelium,,,,DataProperty
+Intestinal Mucosa,,,,DataProperty
+Intestinal Serosal Surface,,,,DataProperty
+Intestinal Smooth Muscle Tissue,,,,DataProperty
+Intestinal Wall Tissue,,,,DataProperty
+Intrahepatic Bile Duct Epithelium,,,,DataProperty
+Intraparenchymal,,,,DataProperty
+Irregular Dense Connective Tissue,,,,DataProperty
+Islet of Langerhans,,,,DataProperty
+Joint Capsule,,,,DataProperty
+Juxtaglomerular Apparatus,,,,DataProperty
+Lactiferous Duct,,,,DataProperty
+Lamella of Harvesian System,,,,DataProperty
+Lamina Propria,,,,DataProperty
+Large Intestinal Lamina Propria,,,,DataProperty
+Large Intestinal Mucosa,,,,DataProperty
+Large Intestinal Muscular Coat,,,,DataProperty
+Large Intestinal Muscularis Mucosa,,,,DataProperty
+Large Intestinal Serosal Surface,,,,DataProperty
+Large Intestinal Submucosa,,,,DataProperty
+Large Intestinal Wall Tissue,,,,DataProperty
+Laryngeal Connective Tissue,,,,DataProperty
+Laryngeal Epithelium,,,,DataProperty
+Laryngeal Mucosa,,,,DataProperty
+Lateral Mesoderm,,,,DataProperty
+Lateral Ventricle Ependyma,,,,DataProperty
+Layer of the Ophthalmic Nerve Fibers,,,,DataProperty
+Layer of the Rods and Cones,,,,DataProperty
+Left Lung Alveolar Duct,,,,DataProperty
+Leptomeninges,,,,DataProperty
+Liver Acinus,,,,DataProperty
+Loose Connective Tissue,,,,DataProperty
+Lower Gingiva,,,,DataProperty
+Lung Tissue,,,,DataProperty
+Lymph Node Cortex,,,,DataProperty
+Lymph Node Germinal Center,,,,DataProperty
+Lymph Node Lymphoid Follicle,,,,DataProperty
+Lymph Node Medullary Portion,,,,DataProperty
+Lymph Node Sinus,,,,DataProperty
+Lymph Node Subcapsular Sinus,,,,DataProperty
+Lymph Node Tissue,,,,DataProperty
+Lymph Node Trabecula,,,,DataProperty
+Lymphatic Vessel Endothelium,,,,DataProperty
+Lymphatic Vessel Smooth Muscle Tissue,,,,DataProperty
+Lymphoid Follicle,,,,DataProperty
+Lymphoid Tissue,,,,DataProperty
+Mammary Epithelium,,,,DataProperty
+Mammary Gland Tissue,,,,DataProperty
+Mantle Zone,,,,DataProperty
+Marginal Zone,,,,DataProperty
+Marginal Zone of the Lymph Node,,,,DataProperty
+Mature Bone,,,,DataProperty
+Mediastinal Pleura,,,,DataProperty
+Mediastinal Soft Tissue,,,,DataProperty
+Medullary Bone,,,,DataProperty
+Membrane,,,,DataProperty
+Membrane of Reissner,,,,DataProperty
+Membrane of the Brain or Spinal Cord,,,,DataProperty
+Meningeal Layer of the Dura Mater,,,,DataProperty
+Meninges,,,,DataProperty
+Mesangium,,,,DataProperty
+Mesenchyme,,,,DataProperty
+Mesoderm,,,,DataProperty
+Mesonephric Remnants,,,,DataProperty
+Mesothelium,,,,DataProperty
+Molecular Layer of the Cerebellum,,,,DataProperty
+Molecular Layer of the Cerebral Cortex,,,,DataProperty
+Mucosa,,,,DataProperty
+Mucosa of the Lip,,,,DataProperty
+Mucosa of the Lower Lip,,,,DataProperty
+Mucosa of the Upper Lip,,,,DataProperty
+Mucosa-Associated Lymphoid Tissue,,,,DataProperty
+Mucous Connective Tissue,,,,DataProperty
+Multiform Cell Layer of the Cerebral Cortex,,,,DataProperty
+Muscle Layer,,,,DataProperty
+Muscle Tissue,,,,DataProperty
+Muscularis Mucosa,,,,DataProperty
+Myelin Sheath,,,,DataProperty
+Myocardium,,,,DataProperty
+Myometrium,,,,DataProperty
+Nasal Cavity Epithelium,,,,DataProperty
+Nasal Cavity Respiratory Epithelium,,,,DataProperty
+Nasal Mucosa,,,,DataProperty
+Nasal Soft Tissue,,,,DataProperty
+Nasopharynx Epithelium,,,,DataProperty
+Nephron,,,,DataProperty
+Nerve Sheath,,,,DataProperty
+Nerve Tissue,,,,DataProperty
+Nerve Tissue and Nerve Sheaths,,,,DataProperty
+Neuroepithelial Tissue,,,,DataProperty
+and Nerve Sheaths,,,,DataProperty
+Neural Retina,,,,DataProperty
+Neuroectoderm,,,,DataProperty
+Neuroendocrine Tissue,,,,DataProperty
+Neuropil,,,,DataProperty
+Nodular Parenchymal Tissue,,,,DataProperty
+Non-Cellular Component,,,,DataProperty
+Non-Valve Cardiac Conduit Tissue,,,,DataProperty
+Not applicable,,,,DataProperty
+Not collected,,,,DataProperty
+Ocular Tissue,,,,DataProperty
+Odontogenic Ectomesenchyme,,,,DataProperty
+Odontogenic Epithelium,,,,DataProperty
+Odontogenic Tissue,,,,DataProperty
+Olfactory Epithelium,,,,DataProperty
+Olfactory Mucosa,,,,DataProperty
+Oral Cavity Epithelium,,,,DataProperty
+Oral Mucosa,,,,DataProperty
+Oropharyngeal Lymphoid Tissue,,,,DataProperty
+Oropharyngeal Soft Tissue,,,,DataProperty
+Oropharyngeal Tissue,,,,DataProperty
+Oropharynx Epithelium,,,,DataProperty
+Osteoid,,,,DataProperty
+Other,,,,DataProperty
+Outer Enamel Epithelium,,,,DataProperty
+Outer Limiting Membrane,,,,DataProperty
+Outer Nuclear Layer,,,,DataProperty
+Outer Plexiform Layer,,,,DataProperty
+Ovarian Cortex,,,,DataProperty
+Ovarian Medulla,,,,DataProperty
+Ovarian Surface Epithelium,,,,DataProperty
+Ovarian Tissue,,,,DataProperty
+Palpebral Conjunctiva,,,,DataProperty
+Pancreatic Acinus,,,,DataProperty
+Papillary Dermis,,,,DataProperty
+Papillary-Reticular Dermal Interface,,,,DataProperty
+Parametrium,,,,DataProperty
+Paranasal Sinus Epithelium,,,,DataProperty
+Paratesticular Soft Tissue,,,,DataProperty
+Parathyroid Gland Epithelial Tissue,,,,DataProperty
+Parathyroid Gland Follicle,,,,DataProperty
+Parathyroid Gland Tissue,,,,DataProperty
+Paraxial Mesoderm,,,,DataProperty
+Parenchyma,,,,DataProperty
+Parietal Pleura,,,,DataProperty
+Pelvic Peritoneum,,,,DataProperty
+Penis Erectile Tissue,,,,DataProperty
+Perforating Canal,,,,DataProperty
+Periarteriolar Lymphoid Sheath,,,,DataProperty
+Pericardium,,,,DataProperty
+Perineural Tissue,,,,DataProperty
+Perineurium,,,,DataProperty
+Periodontium,,,,DataProperty
+Periorbital Soft Tissue,,,,DataProperty
+Periosteum,,,,DataProperty
+Peripheral Nerve Sheath,,,,DataProperty
+Peripheral Zone of the Prostatic Parenchyma,,,,DataProperty
+Perisinusoidal Space,,,,DataProperty
+Peritoneum,,,,DataProperty
+Periurethral Zone of the Prostatic Parenchyma,,,,DataProperty
+Peyer Patch,,,,DataProperty
+Peyer Patch Germinal Center,,,,DataProperty
+Peyer Patch Lymphoid Follicle,,,,DataProperty
+Pia Mater,,,,DataProperty
+Pigment Epithelium,,,,DataProperty
+Pineal Parenchyma,,,,DataProperty
+Placenta Tissue without Amniotic Elements,,,,DataProperty
+Pleura,,,,DataProperty
+Portal Lobule,,,,DataProperty
+Portal Triad,,,,DataProperty
+Posterior Pigment Epithelium,,,,DataProperty
+Prefrontal Cortex,,,,DataProperty
+Prepuce Epithelium,,,,DataProperty
+Prostatic Duct Tissue,,,,DataProperty
+Prostatic Epithelium,,,,DataProperty
+Prostatic Muscular Tissue,,,,DataProperty
+Prostatic Stroma,,,,DataProperty
+Prostatic Tissue,,,,DataProperty
+Pseudostratified Columnar Ciliated Epithelium,,,,DataProperty
+Pseudostratified Columnar Epithelium,,,,DataProperty
+Pseudostratified Epithelium,,,,DataProperty
+Pulmonary Lobule,,,,DataProperty
+Purkinje Cell Layer of the Cerebellum,,,,DataProperty
+Pyramid of Ferrein,,,,DataProperty
+Pyramid of Malpighi,,,,DataProperty
+Rathke Pouch Epithelium,,,,DataProperty
+Regular Dense Connective Tissue,,,,DataProperty
+Remnants of the Central Canal of the Spinal Cord,,,,DataProperty
+Remnants of the Notochord,,,,DataProperty
+Renal Cortex,,,,DataProperty
+Renal Interstitial Tissue,,,,DataProperty
+Renal Medulla,,,,DataProperty
+Renal Pelvis Urothelium,,,,DataProperty
+Renal Pyramid,,,,DataProperty
+Renal Tissue,,,,DataProperty
+Renal Tubule Basement Membrane,,,,DataProperty
+Renal Tubule Epithelium,,,,DataProperty
+Reproductive Tissue,,,,DataProperty
+Respiratory Bronchiole Epithelium,,,,DataProperty
+Reticular Dermis,,,,DataProperty
+Retina Layer,,,,DataProperty
+Retinal Pigment Epithelium,,,,DataProperty
+Right Lung Alveolar Duct,,,,DataProperty
+Salivary Gland Tissue,,,,DataProperty
+Secondary Tympanic Membrane,,,,DataProperty
+Seminal Vesicle Epithelium,,,,DataProperty
+Seminiferous Epithelium,,,,DataProperty
+Seminiferous Tubule,,,,DataProperty
+Serosa,,,,DataProperty
+Serosal Surface of the Liver,,,,DataProperty
+Sheath of Schwann,,,,DataProperty
+Simple Columnar Epithelium,,,,DataProperty
+Simple Cuboidal Epithelium,,,,DataProperty
+Simple Epithelium,,,,DataProperty
+Simple Squamous Epithelium,,,,DataProperty
+Skeletal Muscle Tissue,,,,DataProperty
+Skin Tissue,,,,DataProperty
+Small Intestinal Lamina Propria,,,,DataProperty
+Small Intestinal Mucosa,,,,DataProperty
+Small Intestinal Muscular Coat,,,,DataProperty
+Small Intestinal Muscularis Mucosa,,,,DataProperty
+Small Intestinal Serosal Surface,,,,DataProperty
+Small Intestinal Submucosa,,,,DataProperty
+Small Intestinal Wall Tissue,,,,DataProperty
+Smooth Muscle Tissue,,,,DataProperty
+Soft Tissue,,,,DataProperty
+Spinal Cord Arachnoid Membrane,,,,DataProperty
+Spinal Cord Dura Mater,,,,DataProperty
+Spinal Cord Pia Mater,,,,DataProperty
+Spinal Meninges,,,,DataProperty
+Splenic Cord,,,,DataProperty
+Splenic Germinal Center,,,,DataProperty
+Splenic Lymphoid Follicle,,,,DataProperty
+Splenic Marginal Sinus,,,,DataProperty
+Splenic Marginal Zone,,,,DataProperty
+Splenic Pulp,,,,DataProperty
+Splenic Red Pulp,,,,DataProperty
+Splenic Sinus,,,,DataProperty
+Splenic Tissue,,,,DataProperty
+Splenic Trabecula,,,,DataProperty
+Splenic White Pulp,,,,DataProperty
+Squamous Epithelium,,,,DataProperty
+Stratified Columnar Epithelium,,,,DataProperty
+Stratified Cuboidal Epithelium,,,,DataProperty
+Stratified Epithelium,,,,DataProperty
+Stratified Squamous Epithelium,,,,DataProperty
+Striated Muscle Tissue,,,,DataProperty
+Stroma,,,,DataProperty
+Subcapsular Epithelium of the Lens,,,,DataProperty
+Subcutis,,,,DataProperty
+Subependymal Tissue,,,,DataProperty
+Submucosa,,,,DataProperty
+Subserosa,,,,DataProperty
+Substantia Nigra,,,,DataProperty
+Superficial Myometrium,,,,DataProperty
+Suprachorioid Lamina,,,,DataProperty
+Surface Ectoderm,,,,DataProperty
+Synovial Membrane,,,,DataProperty
+Tectorial Membrane,,,,DataProperty
+Terminal Bronchiole Epithelium,,,,DataProperty
+Terminal Ductal Lobular Unit,,,,DataProperty
+Testicular Tissue,,,,DataProperty
+Thymic Epithelial Tissue,,,,DataProperty
+Thymic Lobule,,,,DataProperty
+Thymic Lymphoid Tissue,,,,DataProperty
+Thymic Tissue,,,,DataProperty
+Thymic Trabecula,,,,DataProperty
+Thymus Cortex,,,,DataProperty
+Thymus Medulla,,,,DataProperty
+Thyroid Gland Epithelial Tissue,,,,DataProperty
+Thyroid Gland Follicle,,,,DataProperty
+Thyroid Gland Tissue,,,,DataProperty
+Tongue Epithelium,,,,DataProperty
+Tongue Skeletal Muscle Tissue,,,,DataProperty
+Tonsillar Lymphoid Tissue,,,,DataProperty
+Tonsillar Tissue,,,,DataProperty
+Trachea Basement Membrane,,,,DataProperty
+Trachea Lamina Propria,,,,DataProperty
+Trachea Smooth Muscle Tissue,,,,DataProperty
+Trachea Submucosa,,,,DataProperty
+Tracheal Epithelium,,,,DataProperty
+Transitional Epithelium,,,,DataProperty
+Transitional Zone of the Prostatic Parenchyma,,,,DataProperty
+Tunica Adventitia,,,,DataProperty
+Tunica Intima,,,,DataProperty
+Tunica Media,,,,DataProperty
+Tympanic Epithelium,,,,DataProperty
+Tympanic Membrane,,,,DataProperty
+Umbilical Cord Tissue,,,,DataProperty
+Unknown,,,,DataProperty
+Upper Gingiva,,,,DataProperty
+Urachal Epithelium,,,,DataProperty
+Urethra Epithelium,,,,DataProperty
+Urethra Urothelium,,,,DataProperty
+Urothelium,,,,DataProperty
+Uterus Serosal Surface,,,,DataProperty
+Vaginal Epithelium,,,,DataProperty
+Vaginal Squamous Epithelium,,,,DataProperty
+Vas Deferens Epithelium,,,,DataProperty
+Vascular Endothelium,,,,DataProperty
+Vascular Smooth Muscle Tissue,,,,DataProperty
+Vein Endothelium,,,,DataProperty
+Vena Cava Endothelium,,,,DataProperty
+Venous System Endothelium,,,,DataProperty
+Venous System Smooth Muscle Tissue,,,,DataProperty
+Ventricular Wall of the Heart,,,,DataProperty
+Venule Endothelium,,,,DataProperty
+Visceral Pleura,,,,DataProperty
+Visceral Striated Muscle Tissue,,,,DataProperty
+Waldeyer Ring,,,,DataProperty
+White Adipose Tissue,,,,DataProperty
+White Matter,,,,DataProperty
+White Matter of the Spinal Cord,,,,DataProperty

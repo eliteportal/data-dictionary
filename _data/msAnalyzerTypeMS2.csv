@@ -1,18 +1,18 @@
 Key,Key Description,Type,Source,Parent
-LTQ Orbitrap XL,nan,,nan,DataProperty
-Orbitrap Fusion,nan,,nan,DataProperty
-Orbitrap Fusion Lumos,nan,,nan,DataProperty
-Q Exactive,nan,,nan,DataProperty
-Q Exactive HF,nan,,nan,DataProperty
-Q Exactive HF-X,nan,,nan,DataProperty
-Q Exactive Plus,nan,,nan,DataProperty
-Exploris 240Exploris 480quadrupole time-of-flight,nan,,nan,DataProperty
-time-of-flight,nan,,nan,DataProperty
-triple quadrupole,nan,,nan,DataProperty
-Xevo G2 QTOF,nan,,nan,DataProperty
-Xevo TQ-S,nan,,nan,DataProperty
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+LTQ Orbitrap XL,,,,DataProperty
+Orbitrap Fusion,,,,DataProperty
+Orbitrap Fusion Lumos,,,,DataProperty
+Q Exactive,,,,DataProperty
+Q Exactive HF,,,,DataProperty
+Q Exactive HF-X,,,,DataProperty
+Q Exactive Plus,,,,DataProperty
+Exploris 240Exploris 480quadrupole time-of-flight,,,,DataProperty
+time-of-flight,,,,DataProperty
+triple quadrupole,,,,DataProperty
+Xevo G2 QTOF,,,,DataProperty
+Xevo TQ-S,,,,DataProperty
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

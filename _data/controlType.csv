@@ -1,14 +1,14 @@
 Key,Key Description,Type,Source,Parent
-GIS,nan,,nan,DataProperty
-GoldenWest,nan,,nan,DataProperty
-NIST SRM 1950,nan,,nan,DataProperty
-AIBL pool,nan,,nan,DataProperty
-Baker pool,nan,,nan,DataProperty
-water plus Baker ISTD,nan,,nan,DataProperty
-study pool,nan,,nan,DataProperty
-internal standards,nan,,nan,DataProperty
-Other,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+GIS,,,,DataProperty
+GoldenWest,,,,DataProperty
+NIST SRM 1950,,,,DataProperty
+AIBL pool,,,,DataProperty
+Baker pool,,,,DataProperty
+water plus Baker ISTD,,,,DataProperty
+study pool,,,,DataProperty
+internal standards,,,,DataProperty
+Other,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

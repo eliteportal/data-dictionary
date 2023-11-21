@@ -78,7 +78,7 @@ def create_term_df(data_model, term):
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
 
-        # filter out attributes from data model table
+        # filter attributes in depends_on from data model table
         df = data_model.loc[data_model["Attribute"].isin(depends_on),]
 
         # # filter out valid values from data model table. data_model uses Parent to distinguish types of attributes
@@ -163,12 +163,14 @@ def generate_csv(data_model, term):
 
 
 def update_csv(data_model, term):
-    """_summary_
+    """If current CSV does not match the new data model, update the attribute CSV
 
-    Args:
-        data_model (_type_): _description_
-        term (_type_): _description_
+    :param data_model: DCC data model
+    :type data_model: dataframe
+    :param term: Attribute to create CSV for
+    :type term: str
     """
+
     term_csv_name = re.sub("\s|/", "_", term)
 
     if "Template" in data_model.query("Attribute == @term")["Parent"].values:
@@ -197,10 +199,11 @@ def update_csv(data_model, term):
         print("\033[92m {} \033[00m".format(f"Updated {term}.csv"))
 
     else:
-        # convert dataframe to long format
+        # Create new data frame
         new = data_model.loc[data_model["Attribute"] == term,][
             ["Attribute", "Valid Values", "DependsOn", "Type", "Parent"]
         ]
+
         new = (
             new.drop(columns=["Attribute", "DependsOn"])
             .set_index(["Type", "Parent"])
@@ -209,11 +212,11 @@ def update_csv(data_model, term):
         )
         # add columns
         new.rename(columns={"Valid Values": "Key"}, inplace=True)
-
         new["Key"] = new["Key"].str.strip()
 
         # load existing csv
         old = pd.read_csv(f"./_data/{term_csv_name}.csv")
+
         # upload existing csv if Key, Type or Parent column is changed
         if not (
             new["Key"].equals(old["Key"])
@@ -234,10 +237,10 @@ def update_csv(data_model, term):
 
 
 def manage_term_files(term=None):
-    """_summary_
+    """Create CSV for terms(Attributes)
 
-    Args:
-        term (_type_, optional): _description_. Defaults to None.
+    :param term: Attribute to be found in the data model, defaults to None
+    :type term: str, optional
     """
 
     # load data model
@@ -253,7 +256,7 @@ def manage_term_files(term=None):
         file.split(".csv")[0] for file in os.listdir("_data/") if file.endswith(".csv")
     ]
 
-    if term:
+    if bool(term):
         df = data_model.loc[
             (~data_model["Attribute"].isin(files))
             & ((~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna()))
@@ -295,7 +298,7 @@ def manage_term_files(term=None):
             os.remove(f"_data/{file}.csv")
 
 
-def main():
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
@@ -310,7 +313,3 @@ def main():
         manage_term_files(args.term)
     else:
         manage_term_files()
-
-
-if __name__ == "__main__":
-    main()

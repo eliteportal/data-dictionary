@@ -3,7 +3,6 @@ layout: page
 title: template
 datatable: true
 parent: module
-permalink: permalink
 ---
 
 <table id="myTable" class="display" style="width:100%">

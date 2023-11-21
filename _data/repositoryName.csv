@@ -1,25 +1,25 @@
 Key,Key Description,Type,Source,Parent
-ArrayExpress,nan,,nan,DataProperty
-Broad Single Cell Portal,nan,,nan,DataProperty
-dbGAP,nan,,nan,DataProperty
-ENA,nan,,nan,DataProperty
-Ensembl,nan,,nan,DataProperty
-FlowRepository,nan,,nan,DataProperty
-GenBank,nan,,nan,DataProperty
-GEO,nan,,nan,DataProperty
-GISAID,nan,,nan,DataProperty
-IEDB,nan,,nan,DataProperty
-ImmPort,nan,,nan,DataProperty
-MassIVE,nan,,nan,DataProperty
-MetaboLights,nan,,nan,DataProperty
-Metabolomics Workbench,nan,,nan,DataProperty
-MGnify,nan,,nan,DataProperty
-NCBI Gene,nan,,nan,DataProperty
-PRIDE,nan,,nan,DataProperty
-SRA,nan,,nan,DataProperty
-UniProt,nan,,nan,DataProperty
-OtherRepositoryName,nan,,nan,DataProperty
-Unknown,nan,,nan,DataProperty
-Not collected,nan,,nan,DataProperty
-Not applicable,nan,,nan,DataProperty
-Not Specified,nan,,nan,DataProperty
+ArrayExpress,,,,DataProperty
+Broad Single Cell Portal,,,,DataProperty
+dbGAP,,,,DataProperty
+ENA,,,,DataProperty
+Ensembl,,,,DataProperty
+FlowRepository,,,,DataProperty
+GenBank,,,,DataProperty
+GEO,,,,DataProperty
+GISAID,,,,DataProperty
+IEDB,,,,DataProperty
+ImmPort,,,,DataProperty
+MassIVE,,,,DataProperty
+MetaboLights,,,,DataProperty
+Metabolomics Workbench,,,,DataProperty
+MGnify,,,,DataProperty
+NCBI Gene,,,,DataProperty
+PRIDE,,,,DataProperty
+SRA,,,,DataProperty
+UniProt,,,,DataProperty
+OtherRepositoryName,,,,DataProperty
+Unknown,,,,DataProperty
+Not collected,,,,DataProperty
+Not applicable,,,,DataProperty
+Not Specified,,,,DataProperty

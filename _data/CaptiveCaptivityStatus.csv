@@ -1,4 +1,4 @@
 Key,Key Description,Type,Source,Parent
-Unknown,nan,,nan,ValidValue
-Not collected,nan,,nan,ValidValue
-Not applicable,nan,,nan,ValidValue
+Unknown,,,,ValidValue
+Not collected,,,,ValidValue
+Not applicable,,,,ValidValue

@@ -2,15 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-permalink: docs/scRNAseq.html
-title: scRNAseq
+title: sc RNAseq
 ---
 
-{% assign mydata=site.data.scRNAseq %}
-{: .note-title }
->Sc Rnaseq
+{% assign mydata=site.data.scRNAseq %} 
+{: .note-title } 
+>sc RNAseq
 >
-> [[Source]]()
+>Template used for contributing metadata to the ELITE portal [[Source]]()
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

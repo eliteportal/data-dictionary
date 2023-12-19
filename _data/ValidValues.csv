@@ -1,0 +1,241 @@
+Key,Key Description,Valid Values,columnType,Parent,Module
+10x,,,,ValidValue,ValidValues
+Accel-NGS 2S Plus,,,,ValidValue,ValidValues
+Accel-NGS Methyl-Seq,,,,ValidValue,ValidValues
+Adult,,,,ValidValue,ValidValues
+Affymetrix Genome-Wide Human SNP 5.0 Array,,,,ValidValue,ValidValues
+AFU,,,,MeasurementUnit,ValidValues
+Agilent 44Karray,,,,ValidValue,ValidValues
+Aging,,,,ValidValue,ValidValues
+AI,,,,MeasurementUnit,ValidValues
+AIBL pool,,,,ValidValue,ValidValues
+amplicon,,,,ValidValue,ValidValues
+and Body Composition Study (HealthABC),,,,ValidValue,ValidValues
+ArrayExpress,,,,ValidValue,ValidValues
+AU/ml,,,,MeasurementUnit,ValidValues
+Baker pool,,,,ValidValue,ValidValues
+BGISEQ-500,,,,ValidValue,ValidValues
+Bionano Irys,,,,ValidValue,ValidValues
+bpg/dl,,,,MeasurementUnit,ValidValues
+Broad Single Cell Portal,,,,ValidValue,ValidValues
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,,ValidValue,ValidValues
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,,,ValidValue,ValidValues
+BU,,,,ValidValue,ValidValues
+bulk cell,,,,ValidValue,ValidValues
+bulk nuclei,,,,ValidValue,ValidValues
+CaptiveCaptivityStatus,"The duration of captivity in months for the individuals in captivity (formatted in months, ex. 72 months). note: Applicable only to animals with captivity status captive.","Unknown, Not collected, Not applicable",,ValidValue,ValidValues
+Cardiovascular Health Study (CHS),,,,ValidValue,ValidValues
+CEL-seq,,,,ValidValue,ValidValues
+cellHashing,,,,ValidValue,ValidValues
+Centenarian,,,,ValidValue,ValidValues
+Cerebrospinal Fluid (CSF),,,,ValidValue,ValidValues
+Cherry Imaging FACE Platform,,,,ValidValue,ValidValues
+Cherry Imaging TRACE Platform,,,,ValidValue,ValidValues
+Chromium Single Cell 3',,,,ValidValue,ValidValues
+Chromium X,,,,ValidValue,ValidValues
+d.p.c.,,,,ValidValue,ValidValues
+dbGAP,,,,ValidValue,ValidValues
+DDA-MS,,,,ValidValue,ValidValues
+Denmark Family,,,,ValidValue,ValidValues
+DIA-MS,,,,ValidValue,ValidValues
+DK,,,,ValidValue,ValidValues
+DK units/ml,,,,MeasurementUnit,ValidValues
+ENA,,,,ValidValue,ValidValues
+EndItDNAEndRepairKit,,,,ValidValue,ValidValues
+Ensembl,,,,ValidValue,ValidValues
+FALSE,,,,ValidValue,ValidValues
+Filename,Name of the file. This helps to link annotations from metadata files.,,,ManifestColumn,ValidValues
+FlowRepository,,,,ValidValue,ValidValues
+forward,,,,ValidValue,ValidValues
+FPKM,,,,ValidValue,ValidValues
+g/l,,,,MeasurementUnit,ValidValues
+GenBank,,,,ValidValue,ValidValues
+GEO,,,,ValidValue,ValidValues
+GIS,,,,ValidValue,ValidValues
+GISAID,,,,ValidValue,ValidValues
+gm,,,,MeasurementUnit,ValidValues
+GoldenWest,,,,ValidValue,ValidValues
+HAU,,,,MeasurementUnit,ValidValues
+Hispanic or latino,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,,ValidValue,ValidValues
+HMDB,,,,ValidValue,ValidValues
+HPLC-MSMS,,,,ValidValue,ValidValues
+IEDB,,,,ValidValue,ValidValues
+ImmPort,,,,ValidValue,ValidValues
+in-gel,,,,ValidValue,ValidValues
+in-solution,,,,ValidValue,ValidValues
+Infinium HumanOmniExpressExome,,,,ValidValue,ValidValues
+internal standards,,,,ValidValue,ValidValues
+ITRAQ,,,,ValidValue,ValidValues
+IU,,,,MeasurementUnit,ValidValues
+iu/l,,,,MeasurementUnit,ValidValues
+IU/ml,,,,MeasurementUnit,ValidValues
+Juvenile,,,,ValidValue,ValidValues
+K,,,,ValidValue,ValidValues
+Kallikrein Inactivator Unit per Milliliter,,,,MeasurementUnit,ValidValues
+KapaHyperPrep,,,,ValidValue,ValidValues
+kg,,,,MeasurementUnit,ValidValues
+l,,,,MeasurementUnit,ValidValues
+Label Free,,,,ValidValue,ValidValues
+LC-MS,,,,ValidValue,ValidValues
+LC-MSMS,,,,ValidValue,ValidValues
+LC-SRMOtherMsAssayTechnique,,,,ValidValue,ValidValues
+LI-COR Odyssey CLx,,,,ValidValue,ValidValues
+LifeViz Infinity System,,,,ValidValue,ValidValues
+LifeViz Micro System,,,,ValidValue,ValidValues
+lincRNA,,,,ValidValue,ValidValues
+lncRNAenrichment,,,,ValidValue,ValidValues
+LTQ Orbitrap XL,,,,ValidValue,ValidValues
+M,Molar,,,MeasurementUnit,ValidValues
+Male,,,,ValidValue,ValidValues
+Mammal,,,,ValidValue,ValidValues
+MassBank of North America (MoNA),,,,ValidValue,ValidValues
+MassIVE,,,,ValidValue,ValidValues
+MDMS-SL,,,,ValidValue,ValidValues
+MetaboLights,,,,ValidValue,ValidValues
+metabolite,,,,ValidValue,ValidValues
+Metabolomics Workbench,,,,ValidValue,ValidValues
+methylSeq,,,,ValidValue,ValidValues
+Metlin,,,,ValidValue,ValidValues
+mg,,,,MeasurementUnit,ValidValues
+mg/dl,,,,MeasurementUnit,ValidValues
+mg/l,,,,MeasurementUnit,ValidValues
+mg/ml,,,,MeasurementUnit,ValidValues
+MGnify,,,,ValidValue,ValidValues
+MIB-MS,,,,ValidValue,ValidValues
+Minutes,,,,ValidValue,ValidValues
+miRNAenrichment,,,,ValidValue,ValidValues
+mitochondria,,,,ValidValue,ValidValues
+miu/ml,,,,MeasurementUnit,ValidValues
+ml,,,,MeasurementUnit,ValidValues
+mM,,,,MeasurementUnit,ValidValues
+MOI,,,,MeasurementUnit,ValidValues
+MONDO,,,,ValidValue,ValidValues
+mRNA,,,,ValidValue,ValidValues
+multiome,,,,ValidValue,ValidValues
+MULTIseq,,,,ValidValue,ValidValues
+Nanostring Counter,,,,ValidValue,ValidValues
+Nanostring GeoMx,,,,ValidValue,ValidValues
+NCBI Gene,,,,ValidValue,ValidValues
+NEBNext,,,,ValidValue,ValidValues
+Negative,,,,ValidValue,ValidValues
+Negative Control,,,,ValidValue,ValidValues
+NexteraXT,,,,ValidValue,ValidValues
+ng,,,,MeasurementUnit,ValidValues
+ng/dl,,,,MeasurementUnit,ValidValues
+ng/ml,,,,MeasurementUnit,ValidValues
+ng/nl,,,,MeasurementUnit,ValidValues
+ng/ul,,,,MeasurementUnit,ValidValues
+NIST SRM 1950,,,,ValidValue,ValidValues
+NIST17,,,,ValidValue,ValidValues
+nl,,,,MeasurementUnit,ValidValues
+nM,,,,MeasurementUnit,ValidValues
+No,,,,ValidValue,ValidValues
+NPX,,,,MeasurementUnit,ValidValues
+NY,,,,ValidValue,ValidValues
+Olympus DP80,,,,ValidValue,ValidValues
+Omni-ATAC,,,,ValidValue,ValidValues
+optical density,,,,MeasurementUnit,ValidValues
+Orbitrap Fusion,,,,ValidValue,ValidValues
+Orbitrap Fusion Lumos,,,,ValidValue,ValidValues
+Orbitrap Fusion Lumos Tribrid,,,,ValidValue,ValidValues
+organoid,,,,ValidValue,ValidValues
+PacBio RS II,,,,ValidValue,ValidValues
+PacBio Sequel II System,,,,ValidValue,ValidValues
+PacBio Sequel IIe System,,,,ValidValue,ValidValues
+pairedEnd,,,,ValidValue,ValidValues
+PCRfree,,,,ValidValue,ValidValues
+Perlegen 300Karray,,,,ValidValue,ValidValues
+PFU,,,,MeasurementUnit,ValidValues
+PFUe,,,,MeasurementUnit,ValidValues
+pg,,,,MeasurementUnit,ValidValues
+pg/mg creatinine,,,,MeasurementUnit,ValidValues
+pg/ml,,,,MeasurementUnit,ValidValues
+pg/nl,,,,MeasurementUnit,ValidValues
+pg/ul,,,,MeasurementUnit,ValidValues
+pl,,,,MeasurementUnit,ValidValues
+pM,,,,MeasurementUnit,ValidValues
+polyAselection,,,,ValidValue,ValidValues
+Positive,,,,ValidValue,ValidValues
+Post-Juvenile,,,,ValidValue,ValidValues
+Pound,,,,MeasurementUnit,ValidValues
+PRIDE,,,,ValidValue,ValidValues
+Primate,,,,ValidValue,ValidValues
+Promega GloMax Discover,,,,ValidValue,ValidValues
+proximity ligation,,,,ValidValue,ValidValues
+PT,,,,ValidValue,ValidValues
+Q Exactive,,,,ValidValue,ValidValues
+Q Exactive HF,,,,ValidValue,ValidValues
+Q Exactive HF-X,,,,ValidValue,ValidValues
+Q Exactive Plus,,,,ValidValue,ValidValues
+Q Exative HF,,,,ValidValue,ValidValues
+reverse,,,,ValidValue,ValidValues
+RPKM,,,,ValidValue,ValidValues
+rRNAdepletion,,,,ValidValue,ValidValues
+sac-seq,,,,ValidValue,ValidValues
+scale,,,,ValidValue,ValidValues
+Seconds,,,,ValidValue,ValidValues
+SILAC,,,,ValidValue,ValidValues
+single cell,,,,ValidValue,ValidValues
+single nucleus,,,,ValidValue,ValidValues
+singleEnd,,,,ValidValue,ValidValues
+Smart-seq1,,,,ValidValue,ValidValues
+Smart-seq2,,,,ValidValue,ValidValues
+Smart-seq4,,,,ValidValue,ValidValues
+SMRTbell,,,,ValidValue,ValidValues
+snRNA,,,,ValidValue,ValidValues
+sorted cells,,,,ValidValue,ValidValues
+sorted nuclei,,,,ValidValue,ValidValues
+Spectramax M Series,,,,ValidValue,ValidValues
+SPLITseq,,,,ValidValue,ValidValues
+SRA,,,,ValidValue,ValidValues
+STARRSeq,,,,ValidValue,ValidValues
+stool,,,,ValidValue,ValidValues
+Stranded,,,,ValidValue,ValidValues
+Study of Osteoporotic Fractures (SOF),,,,ValidValue,ValidValues
+study pool,,,,ValidValue,ValidValues
+studyName,Name of studies found in project,"LLFS, MRGWAS, ELPSCRNA, Aging-PheWAS, Organoid scRNAseq",,ValidValue,ValidValues
+SureCell,,,,ValidValue,ValidValues
+swabs,,,,ValidValue,ValidValues
+Targeted Absolute Quantitation,,,,ValidValue,ValidValues
+TargetedMsTarget,the type of biospecimen subjected to analysis,"Protein, metabolite, Lipid, Other, Unknown, Not collected, Not applicable, Not Specified",,ValidValue,ValidValues
+TCID50,,,,MeasurementUnit,ValidValues
+The Health,,,,ValidValue,ValidValues
+The Osteoporotic Fractures in Men (MrOS) Study,,,,ValidValue,ValidValues
+time-of-flight,,,,ValidValue,ValidValues
+TMT,,,,ValidValue,ValidValues
+totalRNA,,,,ValidValue,ValidValues
+TPM,,,,ValidValue,ValidValues
+triple quadrupole,,,,ValidValue,ValidValues
+TRUE,Indicate the disease or condition.,,,ValidValue,ValidValues
+TruSeq,,,,ValidValue,ValidValues
+TruSeqOtherLibraryPreparationMethod,,,,ValidValue,ValidValues
+ug,,,,MeasurementUnit,ValidValues
+ug/dl,,,,MeasurementUnit,ValidValues
+ug/l,,,,MeasurementUnit,ValidValues
+ug/ml,,,,MeasurementUnit,ValidValues
+ug/ul,,,,MeasurementUnit,ValidValues
+uiu/ml,,,,MeasurementUnit,ValidValues
+ul,,,,MeasurementUnit,ValidValues
+Ultralow Methyl-Seq,,,,ValidValue,ValidValues
+uM,,,,MeasurementUnit,ValidValues
+umol/l,,,,MeasurementUnit,ValidValues
+UniProt,,,,ValidValue,ValidValues
+units/ml,,,,MeasurementUnit,ValidValues
+UnTargetedMsTarget,,,,ValidValue,ValidValues
+UnTargetedMsTargetUnknown,,,,ValidValue,ValidValues
+UPLC-ESI-QTOF-MS,,,,ValidValue,ValidValues
+UPLC-MSMS,,,,ValidValue,ValidValues
+US Family,Name of the cohort,,,ValidValue,ValidValues
+Vectra H1 3D Imaging System,,,,ValidValue,ValidValues
+Vevo 3100 Imaging System,,,,ValidValue,ValidValues
+water plus Baker ISTD,,,,ValidValue,ValidValues
+Weeks,,,,ValidValue,ValidValues
+Wild,,,,ValidValue,ValidValues
+Xevo G2 QTOF,,,,ValidValue,ValidValues
+Xevo TQ-S,,,,ValidValue,ValidValues
+Years,,,,ValidValue,ValidValues
+YesHasAssayControl,Control samples suitable for normalization and batch correction,"GIS, GoldenWest, NIST SRM 1950, AIBL pool, Baker pool, water plus Baker ISTD, study pool, internal standards, Other, Unknown, Not collected, Not applicable, Not Specified",,ValidValue,ValidValues
+YesHasIonizationSource,Ion charge state (positive or negative-ion analysis),"Positive, Negative",,ValidValue,ValidValues
+YesUseReagent,"One or more identifiers, separated by a semicolon (;). The reagent identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,,ValidValue,ValidValues
+YesUseTreatment,"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,,ValidValue,ValidValues
+Zeiss LSM 980,,,,ValidValue,ValidValues

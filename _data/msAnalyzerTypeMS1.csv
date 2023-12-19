@@ -1,18 +1,18 @@
-Key,Key Description,Type,Source,Parent
-LTQ Orbitrap XL,,,,DataProperty
-Orbitrap Fusion,,,,DataProperty
-Orbitrap Fusion Lumos,,,,DataProperty
-Q Exactive,,,,DataProperty
-Q Exactive HF,,,,DataProperty
-Q Exactive HF-X,,,,DataProperty
-Q Exactive Plus,,,,DataProperty
-Exploris 240Exploris 480quadrupole time-of-flight,,,,DataProperty
-time-of-flight,,,,DataProperty
-triple quadrupole,,,,DataProperty
-Xevo G2 QTOF,,,,DataProperty
-Xevo TQ-S,,,,DataProperty
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+LTQ Orbitrap XL,,,,ManifestColumn
+ Orbitrap Fusion,,,,ManifestColumn
+ Orbitrap Fusion Lumos,,,,ManifestColumn
+ Q Exactive,,,,ManifestColumn
+ Q Exactive HF,,,,ManifestColumn
+ Q Exactive HF-X,,,,ManifestColumn
+ Q Exactive Plus,,,,ManifestColumn
+ Exploris 240Exploris 480quadrupole time-of-flight,,,,ManifestColumn
+ time-of-flight,,,,ManifestColumn
+ triple quadrupole,,,,ManifestColumn
+ Xevo G2 QTOF,,,,ManifestColumn
+ Xevo TQ-S,,,,ManifestColumn
+ Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

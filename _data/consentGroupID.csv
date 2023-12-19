@@ -1,4 +1,7 @@
-Key,Key Description,Type,Source,Parent
-1,,,,DataProperty
-2,,,,DataProperty
-3,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+1,,,,ManifestColumn
+ 2,,,,ManifestColumn
+ 3,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+  Not collected,,,,ManifestColumn
+  OtherAcquisitionBatchSizeUnit,,,,ManifestColumn

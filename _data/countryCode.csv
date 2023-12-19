@@ -67,7 +67,7 @@ Key,Key Description,Country ISO3,Long Name,Region,Source,Parent,Type
 262,Djibouti,DJI,Republic of Djibouti,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 212,Dominica,DMA,Commonwealth of Dominica,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 214,Dominican Republic,DOM,Dominican Republic,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-EAS,East Asia & Pacific,EAS,East Asia & Pacific (all income levels),,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+EAS,East Asia & Pacific,EAS,East Asia & Pacific,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 626,East Timor,TMP,Democratic Republic of Timor-Leste,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 218,Ecuador,ECU,Republic of Ecuador,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 818,"Egypt, Arab Rep.",EGY,Arab Republic of Egypt,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -75,10 +75,11 @@ EAS,East Asia & Pacific,EAS,East Asia & Pacific (all income levels),,https://wit
 226,Equatorial Guinea,GNQ,Republic of Equatorial Guinea,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 232,Eritrea,ERI,State of Eritrea,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 233,Estonia,EST,Republic of Estonia,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+748,Eswatini,SWZ,Kingdom of Eswatini,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 231,Ethiopia(excludes Eritrea),ETH,Federal Democratic Republic of Ethiopia,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 230,Ethiopia(includes Eritrea),ETF,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-ECS,Europe & Central Asia,ECS,Europe & Central Asia (all income levels),,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-234,Faeroe Islands,FRO,Faeroe Islands,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+ECS,Europe & Central Asia,ECS,Europe & Central Asia,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+234,Faeroe Islands,FRO,Faroe Islands,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 238,Falkland Island,FLK,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 242,Fiji,FJI,Republic of Fiji,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 246,Finland,FIN,Republic of Finland,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -129,7 +130,7 @@ ECS,Europe & Central Asia,ECS,Europe & Central Asia (all income levels),,https:/
 414,Kuwait,KWT,State of Kuwait,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 417,Kyrgyz Republic,KGZ,Kyrgyz Republic,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 418,Lao PDR,LAO,Lao People's Democratic Republic,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-LCN,Latin America & Caribbean,LCN,Latin America & Caribbean (all income levels),,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+LCN,Latin America & Caribbean,LCN,Latin America & Caribbean,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 428,Latvia,LVA,Republic of Latvia,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 422,Lebanon,LBN,Lebanese Republic,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 426,Lesotho,LSO,Kingdom of Lesotho,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -138,7 +139,6 @@ LCN,Latin America & Caribbean,LCN,Latin America & Caribbean (all income levels),
 440,Lithuania,LTU,Republic of Lithuania,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 442,Luxembourg,LUX,Grand Duchy of Luxembourg,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 446,Macao,MAC,Macao Special Administrative Region of the People's Republic of China,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-807,"Macedonia, FYR",MKD,Former Yugoslav Republic of Macedonia,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 450,Madagascar,MDG,Republic of Madagascar,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 454,Malawi,MWI,Republic of Malawi,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 458,Malaysia,MYS,Malaysia,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -152,7 +152,7 @@ LCN,Latin America & Caribbean,LCN,Latin America & Caribbean (all income levels),
 175,Mayotte,MYT,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 484,Mexico,MEX,United Mexican States,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 583,"Micronesia, Fed. Sts.",FSM,Federated States of Micronesia,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-MEA,Middle East & North Africa,MEA,Middle East & North Africa (all income levels),,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+MEA,Middle East & North Africa,MEA,Middle East & North Africa,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 498,Moldova,MDA,Republic of Moldova,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 492,Monaco,MCO,Principality of Monaco,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 496,Mongolia,MNG,Mongolia,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -175,6 +175,7 @@ MEA,Middle East & North Africa,MEA,Middle East & North Africa (all income levels
 570,Niue,NIU,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 574,Norfolk Island,NFK,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 NAC,North America,NAC,North America,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+807,North Macedonia,MKD,Republic of North Macedonia,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 580,Northern Mariana Islands,MNP,Commonwealth of the Northern Mariana Islands,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 578,Norway,NOR,Kingdom of Norway,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 275,Occ.Pal.Terr,PSE,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -196,7 +197,9 @@ NAC,North America,NAC,North America,,https://wits.worldbank.org/countryprofile/m
 642,Romania,ROM,Romania,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 643,Russian Federation,RUS,Russian Federation,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 646,Rwanda,RWA,Republic of Rwanda,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+652,Saint Barthélemy,BLM,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 654,Saint Helena,SHN,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+534,Saint Maarten (Dutch part),SXM,Sint Maarten (Dutch part),Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 666,Saint Pierre and Miquelon,SPM,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 882,Samoa,WSM,Samoa,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 674,San Marino,SMR,Republic of San Marino,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -207,7 +210,6 @@ NAC,North America,NAC,North America,,https://wits.worldbank.org/countryprofile/m
 690,Seychelles,SYC,Republic of Seychelles,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 694,Sierra Leone,SLE,Republic of Sierra Leone,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 702,Singapore,SGP,Republic of Singapore,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-534,Sint Maarten,SXM,Sint Maarten (Dutch part),Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 703,Slovak Republic,SVK,Slovak Republic,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 705,Slovenia,SVN,Republic of Slovenia,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 090,Solomon Islands,SLB,Solomon Islands,East Asia & Pacific,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -223,10 +225,9 @@ SAS,South Asia,SAS,South Asia,,https://wits.worldbank.org/countryprofile/metadat
 659,St. Kitts and Nevis,KNA,St. Kitts and Nevis,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 662,St. Lucia,LCA,St. Lucia,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 670,St. Vincent and the Grenadines,VCT,St. Vincent and the Grenadines,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-SSF,Sub-Saharan Africa,SSF,Sub-Saharan Africa (all income levels),,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+SSF,Sub-Saharan Africa,SSF,Sub-Saharan Africa,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 729,Sudan,SUD,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 740,Suriname,SUR,Republic of Suriname,Latin America & Caribbean,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-748,Swaziland,SWZ,Kingdom of Swaziland,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 752,Sweden,SWE,Kingdom of Sweden,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 756,Switzerland,CHE,Switzerland,Europe & Central Asia,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 760,Syrian Arab Republic,SYR,Syrian Arab Republic,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
@@ -260,6 +261,6 @@ SSF,Sub-Saharan Africa,SSF,Sub-Saharan Africa (all income levels),,https://wits.
 000,World,WLD,World,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 887,Yemen,YEM,Republic of Yemen,Middle East & North Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 720,Yemen Democratic,YDR,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
-890,"Yugoslavia, FR (Serbia/Montene",YUG,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
+890,"Yugoslavia,FR(Serbia/Montenegr",YUG,,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 894,Zambia,ZMB,Republic of Zambia,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric
 716,Zimbabwe,ZWE,Republic of Zimbabwe,Sub-Saharan Africa,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata,Numeric

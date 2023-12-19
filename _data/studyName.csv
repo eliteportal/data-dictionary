@@ -1,6 +1,6 @@
-Key,Key Description,Type,Source,Parent
-LLFS,,,,validValues
-MRGWAS,,,,validValues
-ELPSCRNA,,,,validValues
-Aging-PheWAS,,,,validValues
-Organoid scRNAseq,,,,validValues
+Key,Key Description,columnType,Source,Parent
+LLFS,,,,ValidValue
+ MRGWAS,,,,ValidValue
+ ELPSCRNA,,,,ValidValue
+ Aging-PheWAS,,,,ValidValue
+ Organoid scRNAseq,,,,ValidValue

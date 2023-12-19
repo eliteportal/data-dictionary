@@ -1,5 +1,5 @@
-Key,Key Description,Type,Parent
-ILO,Project name,,ValidValue
-LC,Project name,,ValidValue
-LG,Project name,,ValidValue
-LLFS,Project and study name,,ValidValue
+Key,Key Description,Valid Values,columnType,Parent,Module
+ILO,Project name,,,ValidValue,Project
+LC,Project name,,,ValidValue,Project
+LG,Project name,,,ValidValue,Project
+LLFS,Project and study name,,,ValidValue,Project

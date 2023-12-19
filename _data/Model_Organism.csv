@@ -1,4 +1,4 @@
-Key,Key Description,Type,Parent
-Bird,,,ValidValue
-Human,,,ValidValue
-Rodent,,,ValidValue
+Key,Key Description,Valid Values,columnType,Parent,Module
+Bird,,,,ValidValue,Model Organism
+Human,,,,ValidValue,Model Organism
+Rodent,,,,ValidValue,Model Organism

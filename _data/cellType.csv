@@ -1,1294 +1,1294 @@
-Key,Key Description,Type,Source,Parent
-A2 amacrine cell,,,,
-Astro L1 FGFR3 SERPINI2 primary motor cortex astrocyte (Hsap),,,,
-Astro L1-6 FGFR3 AQP1 primary motor cortex astrocyte (Hsap),,,,
-Astro L1-6 FGFR3 PLCG1 primary motor cortex astrocyte (Hsap),,,,
-B cell,,,,
-B cell zone reticular cell,,,,
-CD19-positive,,,,
-Bergmann glial cell,,,,
-CD14-low,,,,
-CD16-positive monocyte,,,,
-CD14-positive monocyte,,,,
-CD14-positive,,,,
-CD16-low monocyte,,,,
-CD141-positive myeloid dendritic cell,,,,
-CD16-negative,,,,
-CD56-bright natural killer cell,,,,
-human,,,,
-CD1c-positive myeloid dendritic cell,,,,
-CD4-negative,,,,
-CD8-negative,,,,
-alpha-beta intraepithelial T cell,,,,
-CD4-positive helper T cell,,,,
-CD4-positive,,,,
-alpha-beta T cell,,,,
-alpha-beta cytotoxic T cell,,,,
-alpha-beta memory T cell,,,,
-CD8-alpha alpha positive,,,,
-gamma-delta intraepithelial T cell,,,,
-CD8-alpha-alpha-positive,,,,
-CD8-alpha-beta-positive,,,,
-CD8-positive,,,,
-CD45RO-positive,,,,
-CD8aa(I) thymocyte,,,,
-CD8aa(II) thymocyte,,,,
-CD8alpha-negative thymic conventional dendritic cell,,,,
-CD8alpha-positive thymic conventional dendritic cell,,,,
-CNS interneuron,,,,
-Endo L2-5 NOSTRIN SRGN primary motor cortex endothelial cell (Hsap),,,,
-Exc L2 LAMP5 KCNG3 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2 LINC00507 ATP7B primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2 LINC00507 GLRA3 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2-3 LINC00507 DSG3 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2-3 RORB CCDC68 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2-3 RORB PTPN3 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L2-3 RORB RTKN2 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3 LAMP5 CARM1P1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3 RORB OTOGL primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3 THEMIS ENPEP primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 FEZF2 ASGR2 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 FEZF2 LINC01107 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 RORB LAMA4 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 RORB LINC01202 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 RORB LNX2 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 RORB RPRM primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L3-5 RORB TNNT2 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 FEZF2 CSN1S1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 FEZF2 NREP-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 FEZF2 PKD2L1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 FEZF2 RNF144A-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 RORB MED8 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 THEMIS FGF10 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 THEMIS LINC01116 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 THEMIS RGPD6 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 THEMIS SLC22A18 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5 THEMIS VILL primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 C9orf135-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 CFTR primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 FILIP1L primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 IFNG-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 LPO primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 OR1L8 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 FEZF2 SH2D1B primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 THEMIS SMYD1 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L5-6 THEMIS TNFAIP6 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 FEZF2 FFAR4 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 FEZF2 KLK7 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 FEZF2 PDYN primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 FEZF2 POGK primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 FEZF2 PROKR2 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 THEMIS LINC00343 primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 THEMIS SLN primary motor cortex glutamatergic neuron (Hsap),,,,
-Exc L6 THEMIS SNTG2 primary motor cortex glutamatergic neuron (Hsap),,,,
-GABAergic interneuron,,,,
-Hofbauer cell,,,,
-Inh L1 LAMP5 BMP2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 LAMP5 NMBR primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 LAMP5 PVRL2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 LAMP5 RAB11FIP1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 PAX6 CHRFAM7A primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 PAX6 MIR101-1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 PVALB-like SST ASIC4 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 SST DEFB108B primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 SST P4HA3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1 VIP KLHDC8B primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 PVALB CDK20 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 SST CCNJL primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 SST CLIC6 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 SST PRRT4 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 VIP EXPH5 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 VIP HTR3A primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 VIP PTGER3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 VIP SCML4 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-2 VIP WNT4 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-3 SST FAM20A primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-3 VIP CBLN1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-3 VIP CHRNA2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-3 VIP FNDC1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-3 VIP HSPB6 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-5 VIP CD27-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-5 VIP LINC01013 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-5 VIP PHLDB3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-5 VIP SMOC1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 LAMP5 AARD primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 LAMP5 CA1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 LAMP5 NES primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 PVALB COL15A1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 SST NPY primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L1-6 VIP SLC7A6OS primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2 PAX6 FREM2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2 PVALB FRZB primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2 VIP SLC6A16 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2-3 SST NMU primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2-5 PVALB HHIPL1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2-5 PVALB RPH3AL primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2-5 VIP BSPRY primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L2-5 VIP SOX11 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3 PVALB SAMD13 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 PVALB ISG20 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 SST CDH3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 SST GGTLC3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 SST OR5AH1P primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 VIP HS3ST3A1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 VIP IGDCC3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-5 VIP TAC3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-6 PAX6 LINC01497 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-6 VIP UG0898H09 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L3-6 VIP ZIM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5 PVALB LRIG3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5 SST RPL35AP11 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 LAMP5 CRABP1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB FAM150B primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB GAPDHP60 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB KCNIP2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB MEPE primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB SST CRHR2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 PVALB ZFPM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST BEAN1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST C4orf26 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST DNAJC14 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST FBN2 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST ISX primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST KLHL1 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST PAWR primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 SST PIK3CD primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L5-6 VIP COL4A3 primary motor cortex GABAergic interneuron (Hsap),,,,
-Inh L6 SST TH primary motor cortex GABAergic interneuron (Hsap),,,,
-Kupffer cell,,,,
-Langerhans cell,,,,
-M cell of gut,,,,
-Merkel cell,,,,
-Micro L1-6 TYROBP CD74 primary motor cortex microglial cell (Hsap),,,,
-Mueller cell,,,,
-Not applicable,,,,
-Not collected,,,,
-OFF-bipolar cell,,,,
-ON-bipolar cell,,,,
-ON-blue cone bipolar cell,,,,
-OPC L1-6 PDGFRA COL20A1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,
-Oligo L2-6 OPALIN FTH1P3 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,
-Oligo L2-6 OPALIN MAP6D1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,
-Oligo L3-6 OPALIN-like ENPP6 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,
-Oligo L5-6 OPALIN LDLRAP1 primary motor cortex oligodendrocyte (Hsap),,,,
-Other,,,,
-Purkinje myocyte,,,,
-Schwann cell,,,,
-T cell,,,,
-T cell zone reticular cell,,,,
-T follicular helper cell,,,,
-T follicular regulatory cell,,,,
-T-helper 1 cell,,,,
-T-helper 17 cell,,,,
-T-helper 2 cell,,,,
-Unknown,,,,
-VLMC L1-5 PDGFRA COLEC12 primary motor cortex vascular leptomeningeal cell (Hsap),,,,
-a8 bistratified small-field cell,,,,
-absorptive cell,,,,
-activated stellate cell,,,,
-adult endothelial progenitor cell,,,,
-adventitial stromal cell,,,,
-afferent neuron,,,,
-airway deuterosomal cell,,,,
-airway submucosal gland ciliated duct cell,,,,
-airway submucosal gland ciliated duct cells,,,,
-airway submucosal gland collecting duct epithelial cell,,,,
-airway submucosal gland duct basal cell,,,,
-alveolar capillary type 1 endothelial cell,,,,
-alveolar capillary type 2 endothelial cell,,,,
-alveolar macrophage,,,,
-alveolar macrophage ccl3+,,,,
-alveolar macrophage mt-positive,,,,
-alveolar macrophage proliferating,,,,
-alveolar type 1 fibroblast cell,,,,
-alveolar type 2 fibroblast cell,,,,
-amacrine cell,,,,
-amex_153,,,,
-amex_154,,,,
-amex_155,,,,
-amex_156,,,,
-amex_157,,,,
-amex_158,,,,
-amex_159,,,,
-amex_160,,,,
-amex_161,,,,
-amex_162,,,,
-amex_171,,,,
-amex_172,,,,
-amex_173,,,,
-amex_174,,,,
-amex_175,,,,
-amex_405,,,,
-amex_406,,,,
-amex_407,,,,
-amex_408,,,,
-amex_419,,,,
-amnion mesenchymal stromal cell (amsc),,,,
-amygdala excitatory neuron,,,,
-androgen secreting cell,,,,
-animal cell,,,,
-apocrine cell,,,,
-articular chondrocyte,,,,
-astro_52,,,,
-astro_53,,,,
-astro_54,,,,
-astro_55,,,,
-astro_56,,,,
-astro_57,,,,
-astro_58,,,,
-astro_59,,,,
-astro_60,,,,
-astro_61,,,,
-astro_62,,,,
-astro_63,,,,
-astro_64,,,,
-astrocyte,,,,
-astrocyte of the cerebral cortex,,,,
-astrocyte of the forebrain,,,,
-autonomic neuronal cells,,,,
-b cell,,,,
-basal cell,,,,
-basal cell of bladder urothelium,,,,
-basal cell of epithelium of lobular bronchiole,,,,
-basal cell of epithelium of respiratory bronchiole,,,,
-basal cell of epithelium of terminal bronchiole,,,,
-basal cell of epithelium of trachea,,,,
-basal cell of prostate epithelium,,,,
-basal cell of prostatic urethra,,,,
-basal cell of ureter urothelium,,,,
-basal epithelial cell of tracheobronchial tree,,,,
-basophil,,,,
-bcell_0,,,,
-bche (butyrylcholinesterase) cell,,,,
-beige adipocyte,,,,
-bgl_51,,,,
-bladder cell,,,,
-bladder microvascular endothelial cell,,,,
-bladder urothelial cell,,,,
-blood vessel endothelial cell,,,,
-blood vessel smooth muscle cell,,,,
-bone cell,,,,
-bone lining cells,,,,
-brain vascular cell,,,,
-branched duct epithelial cell,,,,
-bronchial smooth muscle cell,,,,
-bronchiolar smooth muscle cell,,,,
-brush cell,,,,
-brush cell of bronchus,,,,
-brush cell of epithelium of lobar bronchus,,,,
-brush cell of trachea,,,,
-ca13_119,,,,
-ca13_163,,,,
-ca13_169,,,,
-ca13_179,,,,
-ca13_180,,,,
-ca13_181,,,,
-ca13_182,,,,
-ca13_183,,,,
-ca13_184,,,,
-ca13_185,,,,
-ca13_186,,,,
-ca13_187,,,,
-ca13_188,,,,
-ca13_189,,,,
-ca4_190,,,,
-ca4_191,,,,
-ca4_192,,,,
-ca4_193,,,,
-ca4_194,,,,
-ca4_195,,,,
-ca4_196,,,,
-ca4_197,,,,
-ca4_198,,,,
-camera-type eye photoreceptor cell,,,,
-capillary endothelial cell,,,,
-capsule mesenchymal stromal cell,,,,
-cardiac atrium fibroblast,,,,
-cardiac endothelial cell,,,,
-cardiac muscle cell,,,,
-cardiac pacemaker cell of sinoatrial node,,,,
-cardiac ventricle fibroblast,,,,
-catecholaminergic neuron,,,,
-caudal ganglionic eminence derived interneuron,,,,
-cbi_298,,,,
-cbi_299,,,,
-cbi_300,,,,
-cbi_301,,,,
-cbi_302,,,,
-cbi_303,,,,
-cbi_304,,,,
-cbi_305,,,,
-cbi_306,,,,
-cbi_307,,,,
-cd4+ t,,,,
-cd4+ t cell resident memory,,,,
-cd4+ t-cell,,,,
-cd8 t cell effector memory,,,,
-cd8 trm (residence memory),,,,
-cd8+ t,,,,
-cd8+ t cell resident memory,,,,
-cd8+ t-cells,,,,
-cell of skeletal muscle,,,,
-cell type (from CL),,,,
-cell type (from LMHA),,,,
-centrilobular region hepatocyte,,,,
-centroblast,,,,
-centrocyte,,,,
-cerebellar inhibitory GABAergic interneuron,,,,
-cerebral cortex neuron,,,,
-cge_276,,,,
-cge_277,,,,
-cge_278,,,,
-cge_279,,,,
-cge_280,,,,
-cge_281,,,,
-cge_282,,,,
-cge_283,,,,
-cge_284,,,,
-cge_285,,,,
-cge_286,,,,
-cge_287,,,,
-cge_288,,,,
-cge_289,,,,
-cge_290,,,,
-cge_291,,,,
-cge_292,,,,
-cge_293,,,,
-cge_294,,,,
-cge_295,,,,
-cge_296,,,,
-chondrocyte,,,,
-chorionic mesenchymal stromal cell (cmsc),,,,
-choroid plexus cell,,,,
-chrp_76,,,,
-chrp_77,,,,
-chrp_78,,,,
-chrp_79,,,,
-chrp_80,,,,
-chrp_81,,,,
-chrp_82,,,,
-ciliated cell,,,,
-ciliated cell of the bronchus,,,,
-ciliated columnar cell of tracheobronchial tree,,,,
-ciliated epithelial cell,,,,
-class switched memory B cell,,,,
-classical monocyte,,,,
-club cell,,,,
-club cell of prostatic urethra,,,,
-columnar chondrocyte,,,,
-columnar ovarian surface epithelial cell,,,,
-columnar/cuboidal epithelial cell,,,,
-committed double negative thymocyte (Homo sapiens),,,,
-common lymphoid progenitor,,,,
-common myeloid progenitor,,,,
-connective tissue cell,,,,
-connective tissue type mast cell,,,,
-contractile cell,,,,
-conventional dendritic cell,,,,
-cop_37,,,,
-cop_38,,,,
-cop_39,,,,
-cop_41,,,,
-cop_42,,,,
-cop_43,,,,
-cop_75,,,,
-corneal endothelial cell,,,,
-corneal epithelial cell,,,,
-corneocyte,,,,
-corpus luteum endothelial cell,,,,
-corpus luteum macrophage,,,,
-cortical thymic epithelial cell,,,,
-corticomedullary thymic epithelial cell,,,,
-cumulus cell,,,,
-cytotoxic T cell,,,,
-cytotoxic memory t cell,,,,
-dec205+ dc,,,,
-deep superficial,,,,
-dendritic cell,,,,
-dentate gyrus neuron,,,,
-dermal dendritic cell,,,,
-detrusor smooth muscle cell of bladder,,,,
-detrusor smooth muscle cell of ureter,,,,
-dg_199,,,,
-dg_200,,,,
-dg_201,,,,
-dg_202,,,,
-dg_203,,,,
-dg_204,,,,
-dg_205,,,,
-differentiation-committed oligodendrocyte precursor,,,,
-diffuse bipolar 1 cell,,,,
-diffuse bipolar 2 cell,,,,
-diffuse bipolar 3a cell,,,,
-diffuse bipolar 3b cell,,,,
-diffuse bipolar 4 cell,,,,
-diffuse bipolar 6 cell,,,,
-dlct6b_100,,,,
-dlct6b_101,,,,
-dlct6b_102,,,,
-dlct6b_103,,,,
-dlct6b_104,,,,
-dlct6b_105,,,,
-dlct6b_106,,,,
-dlct6b_107,,,,
-dlct6b_108,,,,
-dlct6b_109,,,,
-dlct6b_110,,,,
-dlct6b_111,,,,
-dlct6b_112,,,,
-dlct6b_84,,,,
-dlct6b_97,,,,
-dlct6b_98,,,,
-dlct6b_99,,,,
-dlit_136,,,,
-dlit_137,,,,
-dlit_139,,,,
-dlit_140,,,,
-dlit_141,,,,
-dlit_142,,,,
-dlit_143,,,,
-dlit_144,,,,
-dlit_145,,,,
-dlit_146,,,,
-dlit_147,,,,
-dlit_148,,,,
-dlit_149,,,,
-dlit_150,,,,
-dlit_151,,,,
-dlit_152,,,,
-dlnp_83,,,,
-dlnp_85,,,,
-dlnp_86,,,,
-dlnp_87,,,,
-dlnp_88,,,,
-dlnp_89,,,,
-dlnp_90,,,,
-dlnp_91,,,,
-dlnp_92,,,,
-dlnp_93,,,,
-dlnp_94,,,,
-dlnp_95,,,,
-dlnp_96,,,,
-double negative thymocyte,,,,
-double-positive,,,,
-alpha-beta thymocyte,,,,
-dpt+ fibroblast cell of bladder,,,,
-dpt+ fibroblast cell of ureter,,,,
-duodenal goblet cell,,,,
-early T lineage precursor,,,,
-eccrine cell,,,,
-ecto-epithelial cell,,,,
-effector CD8-positive,,,,
-effector memory CD4-positive,,,,
-terminally differentiated,,,,
-effector memory CD45RA-positive,,,,
-effector memory CD8-positive,,,,
-electrically active cell,,,,
-electrically responsive cell,,,,
-emsn_222,,,,
-emsn_223,,,,
-emsn_224,,,,
-emsn_225,,,,
-emsn_226,,,,
-emsn_227,,,,
-emsn_228,,,,
-emsn_229,,,,
-emsn_230,,,,
-emsn_231,,,,
-emsn_232,,,,
-emsn_233,,,,
-emsn_234,,,,
-emsn_426,,,,
-endo-epithelial cell,,,,
-endocardial cell,,,,
-endocervical epithelial cell,,,,
-endocrine cell,,,,
-endocrine-paracrine cell of prostate gland,,,,
-endometrial epithelial cell,,,,
-endometrial microvascular endothelial cell,,,,
-endothelial cell,,,,
-endothelial cell of arteriole,,,,
-endothelial cell of artery,,,,
-endothelial cell of bladder,,,,
-endothelial cell of hepatic sinusoid,,,,
-endothelial cell of high endothelial venule,,,,
-endothelial cell of lymphatic vessel,,,,
-endothelial cell of respiratory system lymphatic vessel,,,,
-endothelial cell of sinusoid,,,,
-endothelial cell of ureter,,,,
-endothelial cell of vascular tree,,,,
-endothelial cell of venule,,,,
-enterocyte,,,,
-enterocyte of epithelium of large intestine,,,,
-enteroendocrine cell,,,,
-eomes low liver nk cell,,,,
-eosinophil,,,,
-epen_65,,,,
-epen_66,,,,
-epen_67,,,,
-epen_68,,,,
-epen_69,,,,
-epen_70,,,,
-epen_71,,,,
-epen_72,,,,
-epen_73,,,,
-epen_74,,,,
-ependymal cell,,,,
-epicardial adipocyte,,,,
-epidermal Langerhans cell,,,,
-epithelial cell,,,,
-epithelial cell of amnion,,,,
-epithelial cell of distal tubule,,,,
-epithelial cell of early distal convoluted tubule,,,,
-epithelial cell of exocrine pancreas,,,,
-epithelial cell of large intestine,,,,
-epithelial cell of late distal convoluted tubule,,,,
-epithelial cell of pancreas,,,,
-epithelial cell of prostate,,,,
-epithelial cell of proximal tubule,,,,
-epithelial cell of proximal tubule segment 1,,,,
-epithelial cell of proximal tubule segment 2,,,,
-epithelial cell of proximal tubule segment 3,,,,
-epithelial cell of thymus,,,,
-epithelial cell of tracheobronchial tree,,,,
-epithelial fate stem cell,,,,
-epithelial stem cells,,,,
-erythrocyte,,,,
-erythroid lineage cell,,,,
-extracellular matrix secreting cell,,,,
-extratelencephalic-projecting glutamatergic cortical neuron,,,,
-extravillous trophoblast,,,,
-eye photoreceptor cell,,,,
-fat cell,,,,
-fbl_24,,,,
-fbl_25,,,,
-fbl_26,,,,
-fbl_27,,,,
-fbl_28,,,,
-fbl_29,,,,
-fbl_30,,,,
-fbl_31,,,,
-fibroblast,,,,
-fibroblast of pulmonary artery,,,,
-fibroblast-mesenchymal cell,,,,
-fibrocyte of adventitia of ureter,,,,
-flat epithelial cells,,,,
-flat midget bipolar cell,,,,
-flattened cuboidal ovarian surface epithelial cell,,,,
-follicular dendritic cell,,,,
-gamma-delta T cell,,,,
-ganglion,,,,
-gastrin secreting cell,,,,
-germinal center B cell,,,,
-glandular epithelial cell,,,,
-glial cell,,,,
-glomerular capillary endothelial cell,,,,
-glomerular mesangial cell,,,,
-glutamatergic neuron,,,,
-glutamic acid decarboxylase 65 cell,,,,
-glycinergic amacrine cell,,,,
-goblet cell,,,,
-goblet cell of epithelium of lobar bronchus,,,,
-granulocyte,,,,
-granulocyte monocyte progenitor cell,,,,
-granulocytopoietic cell,,,,
-group 1 innate lymphoid cell,,,,
-group 2 innate lymphoid cell,,,,
-group 3 innate lymphoid cell,,,,
-hematopoietic cell,,,,
-hematopoietic lineage restricted progenitor cell,,,,
-hematopoietic multipotent progenitor cell,,,,
-hematopoietic oligopotent progenitor cell,,,,
-hematopoietic precursor cell,,,,
-hematopoietic stem cell,,,,
-hepatic oval stem cell,,,,
-hepatic pit cell,,,,
-hepatic progenitor cell,,,,
-hepatic stellate cell,,,,
-hepatocyte,,,,
-hillock cell of prostatic urethra,,,,
-hilus cell of ovary,,,,
-hippocampal CA1-3 neuron,,,,
-hippocampal CA4 neuron,,,,
-hippocampal astrocyte,,,,
-hypertrophic chondrocyte,,,,
-ileal goblet cell,,,,
-immature B cell,,,,
-immature NK T cell,,,,
-immature NK T cell stage IV,,,,
-immature alpha-beta T cell,,,,
-immature conventional dendritic cell,,,,
-immature eosinophil,,,,
-immature natural killer cell,,,,
-immature neutrophil,,,,
-immune cell,,,,
-innate lymphoid cell,,,,
-intercalary cell,,,,
-interdigitating dendritic cells,,,,
-intermediate cell of bladder urothelium,,,,
-intermediate cell of ureter urothelium,,,,
-interneuron,,,,
-interstitial cell of Cajal,,,,
-interstitial fibroblast,,,,
-interstitial macrophage,,,,
-intestinal crypt stem cell of large intestine,,,,
-intestinal epithelial cell,,,,
-intestinal tuft cell,,,,
-intratelencephalic-projecting glutamatergic cortical neuron,,,,
-invaginating midget bipolar cell,,,,
-iris pigment epithelial cell,,,,
-jejunal goblet cell,,,,
-keratin accumulating cell,,,,
-keratinocyte,,,,
-keratinocyte (onychocyte),,,,
-keratinocyte stem cell,,,,
-keratocyte,,,,
-kidney afferent arteriole endothelial cell,,,,
-kidney arterial blood vessel cell,,,,
-kidney blood vessel cell,,,,
-kidney capillary endothelial cell,,,,
-kidney cell,,,,
-kidney collecting duct alpha-intercalated cell,,,,
-kidney collecting duct epithelial cell,,,,
-kidney collecting duct intercalated cell,,,,
-kidney collecting duct principal cell,,,,
-kidney connecting tubule alpha-intercalated cell,,,,
-kidney connecting tubule beta-intercalated cell,,,,
-kidney connecting tubule epithelial cell,,,,
-kidney connecting tubule intercalated cell,,,,
-kidney connecting tubule principal cell,,,,
-kidney corpuscule cell,,,,
-kidney cortex collecting duct epithelial cell,,,,
-kidney cortex collecting duct intercalated cell,,,,
-kidney cortex collecting duct principal cell,,,,
-kidney cortex tubule cell,,,,
-kidney cortical cell,,,,
-kidney distal convoluted tubule epithelial cell,,,,
-kidney efferent arteriole endothelial cell,,,,
-kidney epithelial cell,,,,
-kidney granular cell,,,,
-kidney inner medulla collecting duct principal cell,,,,
-kidney interstitial alternatively activated macrophage,,,,
-kidney interstitial cell,,,,
-kidney interstitial fibroblast,,,,
-kidney interstitial myofibroblast,,,,
-kidney loop of Henle ascending limb epithelial cell,,,,
-kidney loop of Henle cortical thick ascending limb epithelial cell,,,,
-kidney loop of Henle epithelial cell,,,,
-kidney loop of Henle long descending thin limb inner medulla epithelial cell,,,,
-kidney loop of Henle long descending thin limb outer medulla epithelial cell,,,,
-kidney loop of Henle medullary thick ascending limb epithelial cell,,,,
-kidney loop of Henle short descending thin limb epithelial cell,,,,
-kidney loop of Henle thick ascending limb epithelial cell,,,,
-kidney loop of Henle thin ascending limb epithelial cell,,,,
-kidney loop of Henle thin descending limb epithelial cell,,,,
-kidney medulla cell,,,,
-kidney outer medulla cell,,,,
-kidney outer medulla collecting duct epithelial cell,,,,
-kidney outer medulla collecting duct intercalated cell,,,,
-kidney outer medulla collecting duct principal cell,,,,
-l5et_113,,,,
-l5et_114,,,,
-l5et_115,,,,
-l5et_117,,,,
-l5et_118,,,,
-langerhans cell,,,,
-large intestine crypt goblet cell,,,,
-lens epithelial cell,,,,
-lens fiber cell,,,,
-leukocyte,,,,
-limbal stem cells,,,,
-lining cell,,,,
-lipofibroblast cell of bladder,,,,
-lipofibroblast cell of ureter,,,,
-llc_264,,,,
-llc_265,,,,
-llc_266,,,,
-llc_267,,,,
-llc_268,,,,
-llc_269,,,,
-llc_270,,,,
-llc_271,,,,
-llc_272,,,,
-llc_273,,,,
-llc_274,,,,
-llc_275,,,,
-low columnar epithelial cell,,,,
-lower rhombic lip neuron,,,,
-lrl_315,,,,
-lrl_316,,,,
-lrl_317,,,,
-lrl_318,,,,
-lrl_319,,,,
-lrl_320,,,,
-lrl_321,,,,
-lrl_322,,,,
-luminal cell of prostate epithelium,,,,
-luminal epithelial cell,,,,
-lung ciliated cell,,,,
-lung megakaryocyte,,,,
-lung neuroendocrine cell,,,,
-lung parenchyma resident eosinophil,,,,
-lung perichondrial fibroblast,,,,
-lung pericyte,,,,
-lung resident memory CD4-positive,,,,
-lung resident memory CD8-positive,,,,
-luteal cell,,,,
-lymph node fibroblastic reticular cell,,,,
-lymph node macrophage,,,,
-lymph node marginal reticular cell,,,,
-lymph node subcapsular sinus macrophage,,,,
-lymph node tingible body macrophage,,,,
-lymphatic,,,,
-lymphatic endothelial cell of medulla ceiling,,,,
-lymphatic endothelial cell of subcapsular sinus ceiling,,,,
-lymphatic endothelial cell of subcapsular sinus floor,,,,
-lymphatic endothelial cell of trabecula,,,,
-lymphatic vessel smooth muscle cell,,,,
-lymphatics,,,,
-lympho-myeloid progenitor cell (lmpp),,,,
-lymphocyte,,,,
-lymphocyte of B lineage,,,,
-lymphocyte of large intestine lamina propria,,,,
-m1-like macrophage,,,,
-m2-like macrophage,,,,
-macroglial cell,,,,
-macrophage,,,,
-macula densa epithelial cell,,,,
-mammillary body neuron,,,,
-mantle zone b cell,,,,
-marginal zone B cell of spleen,,,,
-marrow adipocytes,,,,
-mast cell,,,,
-mature B cell,,,,
-mature CD4 single-positive thymocyte,,,,
-mature CD8 single-positive thymocyte,,,,
-mature NK T cell,,,,
-mature T cell,,,,
-mature alpha-beta T cell,,,,
-mature cd8 t cell,,,,
-mature conventional dendritic cell,,,,
-mature eosinophil,,,,
-mature natural killer cell,,,,
-mature neutrophil,,,,
-medial ganglionic eminence derived interneuron,,,,
-medium field retinal amacrine cell,,,,
-medium spiny neuron,,,,
-medullary reticular cell,,,,
-medullary thymic epithelial cell,,,,
-medullary thymic epithelial cell type 1,,,,
-medullary thymic epithelial cell type 2,,,,
-medullary thymic epithelial cell type 3,,,,
-medullary thymic epithelial cell type 4,,,,
-megakaryocyte,,,,
-megakaryocyte progenitor cell,,,,
-megakaryocyte-erythroid progenitor cell,,,,
-melanocyte,,,,
-melanocyte of skin,,,,
-memory B cell,,,,
-mesenchymal stem cell of Wharton's jelly,,,,
-meso-epithelial cell,,,,
-mesothelial cell,,,,
-mesothelial cell of visceral peritoneum,,,,
-mesothelial cell of visceral pleura,,,,
-mge_236,,,,
-mge_239,,,,
-mge_240,,,,
-mge_241,,,,
-mge_242,,,,
-mge_243,,,,
-mge_244,,,,
-mge_245,,,,
-mge_246,,,,
-mge_247,,,,
-mge_248,,,,
-mge_249,,,,
-mge_250,,,,
-mge_251,,,,
-mge_252,,,,
-mge_253,,,,
-mge_254,,,,
-mge_255,,,,
-mge_256,,,,
-mge_257,,,,
-mge_258,,,,
-mge_259,,,,
-mge_260,,,,
-mge_261,,,,
-mge_262,,,,
-mge_263,,,,
-mgl_10,,,,
-mgl_11,,,,
-mgl_12,,,,
-mgl_4,,,,
-mgl_5,,,,
-mgl_6,,,,
-mgl_7,,,,
-mgl_8,,,,
-mgl_9,,,,
-microglial cell,,,,
-microvascular endothelial cell,,,,
-midbrain-derived inhibitory neuron,,,,
-midget ganglion cell of retina,,,,
-midi_433,,,,
-midi_434,,,,
-midi_435,,,,
-midi_436,,,,
-midi_437,,,,
-midi_438,,,,
-midi_439,,,,
-midi_440,,,,
-midi_441,,,,
-midi_442,,,,
-midi_443,,,,
-midi_444,,,,
-midzonal region hepatocyte,,,,
-migratory dendritic cell,,,,
-misc_116,,,,
-misc_132,,,,
-misc_164,,,,
-misc_165,,,,
-misc_166,,,,
-misc_167,,,,
-misc_168,,,,
-misc_170,,,,
-misc_176,,,,
-misc_177,,,,
-misc_178,,,,
-misc_314,,,,
-misc_401,,,,
-misc_404,,,,
-mmb_323,,,,
-mmb_324,,,,
-mmb_325,,,,
-mmb_326,,,,
-mmb_327,,,,
-mmb_328,,,,
-mmb_329,,,,
-mmb_330,,,,
-mmb_331,,,,
-mmb_332,,,,
-mmb_333,,,,
-mono_3,,,,
-monocyte,,,,
-monocyte derived cell,,,,
-monocyte-derived dendritic cell,,,,
-monocytoid B cell,,,,
-mononuclear cytotrophoblast cell,,,,
-mononuclear osteoclast,,,,
-motor neuron,,,,
-msn_206,,,,
-msn_207,,,,
-msn_208,,,,
-msn_209,,,,
-msn_210,,,,
-msn_211,,,,
-msn_212,,,,
-msn_213,,,,
-msn_214,,,,
-msn_215,,,,
-msn_216,,,,
-msn_217,,,,
-msn_218,,,,
-msn_219,,,,
-msn_220,,,,
-msn_221,,,,
-msn_427,,,,
-msn_430,,,,
-mucosal invariant T cell,,,,
-mucosal type mast cell,,,,
-mucus secreting cell of bronchus submucosal gland,,,,
-mucus secreting cell of trachea gland,,,,
-multinuclear osteoclast,,,,
-mural cell,,,,
-muscle,,,,
-muscle cell,,,,
-myelocyte,,,,
-myeloid cell,,,,
-myeloid dendritic cell,,,,
-myeloid leukocyte,,,,
-myeloid lineage restricted progenitor cell,,,,
-myeloid progenitor (mop),,,,
-myo-medullary thymic epithelial cell,,,,
-myoepithelial cell of bronchus submucosal gland,,,,
-myoepithelial cell of sweat gland,,,,
-myoepithelial cell of trachea gland,,,,
-myofibroblast cell,,,,
-myofibroblast cell of bladder,,,,
-myofibroblast cell of ureter,,,,
-naive B cell,,,,
-naive regulatory T cell,,,,
-naive thymus-derived CD4-positive,,,,
-naive thymus-derived CD8-positive,,,,
-native cell,,,,
-natural killer cell,,,,
-near-projecting glutamatergic cortical neuron,,,,
-nephron tubule epithelial cell,,,,
-nerve,,,,
-nerves,,,,
-neural cell,,,,
-neurecto-epithelial cell,,,,
-neuro-medullary thymic epithelial cell,,,,
-neuroendocrine cell,,,,
-neuroendocrine cell of epithelium of lobar bronchus,,,,
-neuron,,,,
-neuron associated cell,,,,
-neuron associated cell (sensu Vertebrata),,,,
-neuron of the forebrain,,,,
-neutrophil,,,,
-nkcell_2,,,,
-non-classical monocyte,,,,
-non-pigmented ciliary epithelial cell,,,,
-non-terminally differentiated cell,,,,
-nonmucinous cuboidal epithelial cell,,,,
-oligo_40,,,,
-oligo_44,,,,
-oligo_45,,,,
-oligo_46,,,,
-oligo_47,,,,
-oligo_48,,,,
-oligo_49,,,,
-oligo_50,,,,
-oligodendrocyte,,,,
-oligodendrocyte precursor cell,,,,
-opc_32,,,,
-opc_33,,,,
-opc_34,,,,
-opc_35,,,,
-opc_36,,,,
-osteoblast,,,,
-osteoclast,,,,
-osteocyte,,,,
-pancreas exocrine glandular cell,,,,
-pancreatic A cell,,,,
-pancreatic D cell,,,,
-pancreatic PP cell,,,,
-pancreatic acinar cell,,,,
-pancreatic centro-acinar cell,,,,
-pancreatic ductal cell,,,,
-pancreatic endocrine cell,,,,
-pancreatic epsilon cell,,,,
-pancreatic goblet cell,,,,
-pancreatic stellate cell,,,,
-paneth cell of colon,,,,
-paneth cell of epithelium proper of small intestine,,,,
-papillary tips cell,,,,
-parasol ganglion cell of retina,,,,
-parietal epithelial cell,,,,
-peptide hormone secreting cell,,,,
-per_21,,,,
-per_22,,,,
-per_23,,,,
-perichondrial fibroblast,,,,
-pericryptal fibroblastic sheath,,,,
-pericyte,,,,
-pericyte cell of bladder,,,,
-pericyte cell of ureter,,,,
-periepithelial fibroblast,,,,
-perineural cell,,,,
-perineurial cell,,,,
-perineurial cells,,,,
-periportal region hepatocyte,,,,
-peritubular capillary endothelial cell,,,,
-perivascular cells,,,,
-perivascular support cell,,,,
-photoreceptor cell,,,,
-pi16+ fibroblast cell of bladder,,,,
-pi16+ fibroblast cell of ureter,,,,
-pigment cell,,,,
-pigmented ciliary epithelial cell,,,,
-placental stromal cell (psc),,,,
-placental villus capillary endothelial cell,,,,
-plasma cell,,,,
-plasmablast,,,,
-plasmacytoid dendritic cell,,,,
-platelet,,,,
-pneumocyte,,,,
-podocyte,,,,
-polyaxonal amacrine cell,,,,
-portal fibroblast,,,,
-pre-antral follicle granulosa cell,,,,
-precursor B cell,,,,
-prehypertrophic chondrocytes,,,,
-preosteoblast,,,,
-preosteoclasts,,,,
-prickle cell,,,,
-primary lens fiber,,,,
-primary oocyte,,,,
-pro-B cell,,,,
-promonocyte,,,,
-promyelocyte,,,,
-prostate gland microvascular endothelial cell,,,,
-prostate perictye,,,,
-pulmonary artery endothelial cell,,,,
-pulmonary capillary endothelial cell,,,,
-pulmonary interstitial fibroblast,,,,
-pulmonary ionocyte,,,,
-quiescent stellate cell,,,,
-rearranging double negative thymocyte (Homo sapiens),,,,
-regulatory T cell,,,,
-regulatory cd4+ t,,,,
-renal alpha-intercalated cell,,,,
-renal beta-intercalated cell,,,,
-renal cortical epithelial cell,,,,
-renal intercalated cell,,,,
-renal interstitial pericyte,,,,
-renal medullary fibroblast,,,,
-renal principal cell,,,,
-residual hypertrophic chondrocytes,,,,
-respiratory basal cell,,,,
-respiratory ciliated cell,,,,
-respiratory epithelial cell,,,,
-respiratory suprabasal cell,,,,
-reticular cell,,,,
-reticular cell of splenic cord,,,,
-reticular cell of splenic sinusoid,,,,
-retina horizontal cell,,,,
-retinal bipolar neuron,,,,
-retinal blood vessel endothelial cell,,,,
-retinal cell,,,,
-retinal cone cell,,,,
-retinal ganglion cell,,,,
-retinal pigment epithelial cell,,,,
-retinal rod cell,,,,
-rod bipolar cell,,,,
-rounded chondrocytes,,,,
-sebum secreting cell,,,,
-secondary crest myofibroblast,,,,
-secondary lens fiber,,,,
-secretory cell,,,,
-secretory epithelial cell,,,,
-semilunar cell,,,,
-semilunar type 1 cell,,,,
-semilunar type 3 cell,,,,
-seromucus secreting cell,,,,
-serous cell of epithelium of bronchus,,,,
-serous cell of epithelium of trachea,,,,
-serous secreting cell of bronchus submucosal gland,,,,
-simple columnar epithelial cell,,,,
-sinusoidal cells,,,,
-skin fibroblast,,,,
-smooth muscle cell,,,,
-smooth muscle cell of bladder,,,,
-smooth muscle cell of large intestine,,,,
-smooth muscle cell of prostate,,,,
-smooth muscle cell of the coronary artery,,,,
-smooth muscle cell of the pulmonary artery,,,,
-somatic cell,,,,
-sox9+ epithelial cell,,,,
-specialized cardiac myocyte,,,,
-specified double negative thymocyte (Homo sapiens),,,,
-splat_235,,,,
-splat_237,,,,
-splat_238,,,,
-splat_313,,,,
-splat_334,,,,
-splat_335,,,,
-splat_336,,,,
-splat_337,,,,
-splat_338,,,,
-splat_339,,,,
-splat_340,,,,
-splat_341,,,,
-splat_342,,,,
-splat_343,,,,
-splat_344,,,,
-splat_345,,,,
-splat_346,,,,
-splat_347,,,,
-splat_348,,,,
-splat_349,,,,
-splat_350,,,,
-splat_351,,,,
-splat_352,,,,
-splat_353,,,,
-splat_354,,,,
-splat_355,,,,
-splat_356,,,,
-splat_357,,,,
-splat_358,,,,
-splat_359,,,,
-splat_360,,,,
-splat_361,,,,
-splat_362,,,,
-splat_363,,,,
-splat_364,,,,
-splat_365,,,,
-splat_366,,,,
-splat_367,,,,
-splat_368,,,,
-splat_369,,,,
-splat_370,,,,
-splat_371,,,,
-splat_373,,,,
-splat_374,,,,
-splat_375,,,,
-splat_376,,,,
-splat_377,,,,
-splat_378,,,,
-splat_379,,,,
-splat_380,,,,
-splat_381,,,,
-splat_382,,,,
-splat_383,,,,
-splat_384,,,,
-splat_385,,,,
-splat_386,,,,
-splat_387,,,,
-splat_388,,,,
-splat_389,,,,
-splat_390,,,,
-splat_391,,,,
-splat_392,,,,
-splat_393,,,,
-splat_394,,,,
-splat_395,,,,
-splat_396,,,,
-splat_397,,,,
-splat_398,,,,
-splat_399,,,,
-splat_400,,,,
-splat_402,,,,
-splat_403,,,,
-splat_409,,,,
-splat_410,,,,
-splat_411,,,,
-splat_412,,,,
-splat_413,,,,
-splat_414,,,,
-splat_415,,,,
-splat_416,,,,
-splat_417,,,,
-splat_418,,,,
-splat_420,,,,
-splat_421,,,,
-splat_422,,,,
-splat_423,,,,
-splat_424,,,,
-splat_425,,,,
-splat_428,,,,
-splat_429,,,,
-splat_431,,,,
-splat_432,,,,
-splenic endothelial cell,,,,
-splenic littoral cell,,,,
-splenic macrophage,,,,
-splenic marginal zone macrophage,,,,
-splenic pericyte,,,,
-splenic perifollicular zone macrophage,,,,
-splenic red pulp macrophage,,,,
-splenic red pulp stromal cell,,,,
-splenic smooth muscle cell,,,,
-splenic stromal sheath cell,,,,
-splenic tingible body macrophage,,,,
-splenic white pulp macrophage,,,,
-squamous epithelial cell,,,,
-starburst amacrine cell,,,,
-stem cell,,,,
-stratified cuboidal epithelial cell,,,,
-stratified squamous epithelial cell,,,,
-stroma type i cell,,,,
-stroma type ii cell,,,,
-stroma type iii cell,,,,
-stroma type iv cell,,,,
-stroma type v cell,,,,
-stromal cell,,,,
-stromal cell of endometrium,,,,
-stromal cell of ovary,,,,
-stromal cell of pancreas,,,,
-stuff accumulating cell,,,,
-subcapsular dendritic cell,,,,
-subcapsular thymic epithelial cell,,,,
-subcutaneous fat cell,,,,
-subepithelial membrane,,,,
-superficial cell of bladder urothelium,,,,
-superficial cell of ureter urothelium,,,,
-sympathetic neuron,,,,
-sympathetic noradrenergic neuron,,,,
-syncytiotrophoblast cell,,,,
-t cell,,,,
-tall columnar epithelial cell,,,,
-tbet low liver nk cell,,,,
-tcell_1,,,,
-telocyte,,,,
-thalamic excitatory neuron,,,,
-theca cell,,,,
-thex_372,,,,
-thex_445,,,,
-thex_446,,,,
-thex_447,,,,
-thex_448,,,,
-thex_449,,,,
-thex_450,,,,
-thex_451,,,,
-thex_452,,,,
-thex_453,,,,
-thex_454,,,,
-thex_455,,,,
-thex_456,,,,
-thex_457,,,,
-thex_458,,,,
-thex_459,,,,
-thex_460,,,,
-thymic conventional dendritic cell,,,,
-thymic cortical macrophage,,,,
-thymic fibroblast type 1,,,,
-thymic fibroblast type 2,,,,
-thymic macrophage,,,,
-thymic medullary macrophage,,,,
-thymic plasmacytoid dendritic cell,,,,
-thymocyte,,,,
-tonsil squamous cell,,,,
-tracheal goblet cell,,,,
-tracheobronchial chondrocyte,,,,
-tracheobronchial goblet cell,,,,
-tracheobronchial smooth muscle cell,,,,
-transit amplifying cell of colon,,,,
-transitional epithelial cell,,,,
-transitional principal-intercalated cell,,,,
-transitional stage B cell,,,,
-trophoblast cell,,,,
-tuft cell of small intestine,,,,
-type B pancreatic cell,,,,
-type EC enteroendocrine cell,,,,
-type I NK T cell,,,,
-type I cell of carotid body,,,,
-type I pneumocyte,,,,
-type II pneumocyte,,,,
-ulit_120,,,,
-ulit_121,,,,
-ulit_122,,,,
-ulit_123,,,,
-ulit_124,,,,
-ulit_125,,,,
-ulit_126,,,,
-ulit_127,,,,
-ulit_128,,,,
-ulit_129,,,,
-ulit_130,,,,
-ulit_131,,,,
-ulit_133,,,,
-ulit_134,,,,
-ulit_135,,,,
-ulit_138,,,,
-unswitched memory B cell,,,,
-upper rhombic lip neuron,,,,
-ureter adventitial cell,,,,
-url_297,,,,
-url_308,,,,
-url_309,,,,
-url_310,,,,
-url_311,,,,
-url_312,,,,
-uterine dendritic cells,,,,
-uterine macrophage,,,,
-uterine natural killer cell,,,,
-uterine nk cell,,,,
-uterine smooth muscle type i cell,,,,
-uterine smooth muscle type ii cell,,,,
-valve interstitial cell,,,,
-vasa recta ascending limb cell,,,,
-vasa recta cell,,,,
-vasa recta descending limb cell,,,,
-vascular associated smooth muscle cell,,,,
-vascular endothelial cell,,,,
+Key,Key Description,columnType,Source,Parent
+A2 amacrine cell,,,,ManifestColumn
+ Astro L1 FGFR3 SERPINI2 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
+ Astro L1-6 FGFR3 AQP1 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
+ Astro L1-6 FGFR3 PLCG1 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
+ B cell,,,,ManifestColumn
+ B cell zone reticular cell,,,,ManifestColumn
+ CD19-positive,,,,ManifestColumn
+ Bergmann glial cell,,,,ManifestColumn
+ CD14-low,,,,ManifestColumn
+ CD16-positive monocyte,,,,ManifestColumn
+ CD14-positive monocyte,,,,ManifestColumn
+ CD14-positive,,,,ManifestColumn
+ CD16-low monocyte,,,,ManifestColumn
+ CD141-positive myeloid dendritic cell,,,,ManifestColumn
+ CD16-negative,,,,ManifestColumn
+ CD56-bright natural killer cell,,,,ManifestColumn
+ human,,,,ManifestColumn
+ CD1c-positive myeloid dendritic cell,,,,ManifestColumn
+ CD4-negative,,,,ManifestColumn
+ CD8-negative,,,,ManifestColumn
+ alpha-beta intraepithelial T cell,,,,ManifestColumn
+ CD4-positive helper T cell,,,,ManifestColumn
+ CD4-positive,,,,ManifestColumn
+ alpha-beta T cell,,,,ManifestColumn
+ alpha-beta cytotoxic T cell,,,,ManifestColumn
+ alpha-beta memory T cell,,,,ManifestColumn
+ CD8-alpha alpha positive,,,,ManifestColumn
+ gamma-delta intraepithelial T cell,,,,ManifestColumn
+ CD8-alpha-alpha-positive,,,,ManifestColumn
+ CD8-alpha-beta-positive,,,,ManifestColumn
+ CD8-positive,,,,ManifestColumn
+ CD45RO-positive,,,,ManifestColumn
+ CD8aa(I) thymocyte,,,,ManifestColumn
+ CD8aa(II) thymocyte,,,,ManifestColumn
+ CD8alpha-negative thymic conventional dendritic cell,,,,ManifestColumn
+ CD8alpha-positive thymic conventional dendritic cell,,,,ManifestColumn
+ CNS interneuron,,,,ManifestColumn
+ Endo L2-5 NOSTRIN SRGN primary motor cortex endothelial cell (Hsap),,,,ManifestColumn
+ Exc L2 LAMP5 KCNG3 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2 LINC00507 ATP7B primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2 LINC00507 GLRA3 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2-3 LINC00507 DSG3 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2-3 RORB CCDC68 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2-3 RORB PTPN3 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L2-3 RORB RTKN2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3 LAMP5 CARM1P1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3 RORB OTOGL primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3 THEMIS ENPEP primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 FEZF2 ASGR2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 FEZF2 LINC01107 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 RORB LAMA4 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 RORB LINC01202 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 RORB LNX2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 RORB RPRM primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L3-5 RORB TNNT2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 FEZF2 CSN1S1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 FEZF2 NREP-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 FEZF2 PKD2L1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 FEZF2 RNF144A-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 RORB MED8 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 THEMIS FGF10 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 THEMIS LINC01116 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 THEMIS RGPD6 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 THEMIS SLC22A18 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5 THEMIS VILL primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 C9orf135-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 CFTR primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 FILIP1L primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 IFNG-AS1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 LPO primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 OR1L8 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 FEZF2 SH2D1B primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 THEMIS SMYD1 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L5-6 THEMIS TNFAIP6 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 FEZF2 FFAR4 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 FEZF2 KLK7 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 FEZF2 PDYN primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 FEZF2 POGK primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 FEZF2 PROKR2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 THEMIS LINC00343 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 THEMIS SLN primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ Exc L6 THEMIS SNTG2 primary motor cortex glutamatergic neuron (Hsap),,,,ManifestColumn
+ GABAergic interneuron,,,,ManifestColumn
+ Hofbauer cell,,,,ManifestColumn
+ Inh L1 LAMP5 BMP2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 LAMP5 NMBR primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 LAMP5 PVRL2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 LAMP5 RAB11FIP1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 PAX6 CHRFAM7A primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 PAX6 MIR101-1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 PVALB-like SST ASIC4 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 SST DEFB108B primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 SST P4HA3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1 VIP KLHDC8B primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 PVALB CDK20 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 SST CCNJL primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 SST CLIC6 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 SST PRRT4 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 VIP EXPH5 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 VIP HTR3A primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 VIP PTGER3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 VIP SCML4 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-2 VIP WNT4 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-3 SST FAM20A primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-3 VIP CBLN1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-3 VIP CHRNA2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-3 VIP FNDC1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-3 VIP HSPB6 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-5 VIP CD27-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-5 VIP LINC01013 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-5 VIP PHLDB3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-5 VIP SMOC1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 LAMP5 AARD primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 LAMP5 CA1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 LAMP5 NES primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 PVALB COL15A1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 SST NPY primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L1-6 VIP SLC7A6OS primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2 PAX6 FREM2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2 PVALB FRZB primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2 VIP SLC6A16 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2-3 SST NMU primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2-5 PVALB HHIPL1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2-5 PVALB RPH3AL primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2-5 VIP BSPRY primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L2-5 VIP SOX11 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3 PVALB SAMD13 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 PVALB ISG20 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 SST CDH3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 SST GGTLC3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 SST OR5AH1P primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 VIP HS3ST3A1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 VIP IGDCC3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-5 VIP TAC3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-6 PAX6 LINC01497 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-6 VIP UG0898H09 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L3-6 VIP ZIM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5 PVALB LRIG3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5 SST RPL35AP11 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 LAMP5 CRABP1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB FAM150B primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB GAPDHP60 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB KCNIP2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB MEPE primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB SST CRHR2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 PVALB ZFPM2-AS1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST BEAN1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST C4orf26 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST DNAJC14 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST FBN2 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST ISX primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST KLHL1 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST PAWR primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 SST PIK3CD primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L5-6 VIP COL4A3 primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Inh L6 SST TH primary motor cortex GABAergic interneuron (Hsap),,,,ManifestColumn
+ Kupffer cell,,,,ManifestColumn
+ Langerhans cell,,,,ManifestColumn
+ M cell of gut,,,,ManifestColumn
+ Merkel cell,,,,ManifestColumn
+ Micro L1-6 TYROBP CD74 primary motor cortex microglial cell (Hsap),,,,ManifestColumn
+ Mueller cell,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ OFF-bipolar cell,,,,ManifestColumn
+ ON-bipolar cell,,,,ManifestColumn
+ ON-blue cone bipolar cell,,,,ManifestColumn
+ OPC L1-6 PDGFRA COL20A1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,ManifestColumn
+ Oligo L2-6 OPALIN FTH1P3 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,ManifestColumn
+ Oligo L2-6 OPALIN MAP6D1 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,ManifestColumn
+ Oligo L3-6 OPALIN-like ENPP6 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,ManifestColumn
+ Oligo L5-6 OPALIN LDLRAP1 primary motor cortex oligodendrocyte (Hsap),,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Purkinje myocyte,,,,ManifestColumn
+ Schwann cell,,,,ManifestColumn
+ T cell,,,,ManifestColumn
+ T cell zone reticular cell,,,,ManifestColumn
+ T follicular helper cell,,,,ManifestColumn
+ T follicular regulatory cell,,,,ManifestColumn
+ T-helper 1 cell,,,,ManifestColumn
+ T-helper 17 cell,,,,ManifestColumn
+ T-helper 2 cell,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ VLMC L1-5 PDGFRA COLEC12 primary motor cortex vascular leptomeningeal cell (Hsap),,,,ManifestColumn
+ a8 bistratified small-field cell,,,,ManifestColumn
+ absorptive cell,,,,ManifestColumn
+ activated stellate cell,,,,ManifestColumn
+ adult endothelial progenitor cell,,,,ManifestColumn
+ adventitial stromal cell,,,,ManifestColumn
+ afferent neuron,,,,ManifestColumn
+ airway deuterosomal cell,,,,ManifestColumn
+ airway submucosal gland ciliated duct cell,,,,ManifestColumn
+ airway submucosal gland ciliated duct cells,,,,ManifestColumn
+ airway submucosal gland collecting duct epithelial cell,,,,ManifestColumn
+ airway submucosal gland duct basal cell,,,,ManifestColumn
+ alveolar capillary type 1 endothelial cell,,,,ManifestColumn
+ alveolar capillary type 2 endothelial cell,,,,ManifestColumn
+ alveolar macrophage,,,,ManifestColumn
+ alveolar macrophage ccl3+,,,,ManifestColumn
+ alveolar macrophage mt-positive,,,,ManifestColumn
+ alveolar macrophage proliferating,,,,ManifestColumn
+ alveolar type 1 fibroblast cell,,,,ManifestColumn
+ alveolar type 2 fibroblast cell,,,,ManifestColumn
+ amacrine cell,,,,ManifestColumn
+ amex_153,,,,ManifestColumn
+ amex_154,,,,ManifestColumn
+ amex_155,,,,ManifestColumn
+ amex_156,,,,ManifestColumn
+ amex_157,,,,ManifestColumn
+ amex_158,,,,ManifestColumn
+ amex_159,,,,ManifestColumn
+ amex_160,,,,ManifestColumn
+ amex_161,,,,ManifestColumn
+ amex_162,,,,ManifestColumn
+ amex_171,,,,ManifestColumn
+ amex_172,,,,ManifestColumn
+ amex_173,,,,ManifestColumn
+ amex_174,,,,ManifestColumn
+ amex_175,,,,ManifestColumn
+ amex_405,,,,ManifestColumn
+ amex_406,,,,ManifestColumn
+ amex_407,,,,ManifestColumn
+ amex_408,,,,ManifestColumn
+ amex_419,,,,ManifestColumn
+ amnion mesenchymal stromal cell (amsc),,,,ManifestColumn
+ amygdala excitatory neuron,,,,ManifestColumn
+ androgen secreting cell,,,,ManifestColumn
+ animal cell,,,,ManifestColumn
+ apocrine cell,,,,ManifestColumn
+ articular chondrocyte,,,,ManifestColumn
+ astro_52,,,,ManifestColumn
+ astro_53,,,,ManifestColumn
+ astro_54,,,,ManifestColumn
+ astro_55,,,,ManifestColumn
+ astro_56,,,,ManifestColumn
+ astro_57,,,,ManifestColumn
+ astro_58,,,,ManifestColumn
+ astro_59,,,,ManifestColumn
+ astro_60,,,,ManifestColumn
+ astro_61,,,,ManifestColumn
+ astro_62,,,,ManifestColumn
+ astro_63,,,,ManifestColumn
+ astro_64,,,,ManifestColumn
+ astrocyte,,,,ManifestColumn
+ astrocyte of the cerebral cortex,,,,ManifestColumn
+ astrocyte of the forebrain,,,,ManifestColumn
+ autonomic neuronal cells,,,,ManifestColumn
+ b cell,,,,ManifestColumn
+ basal cell,,,,ManifestColumn
+ basal cell of bladder urothelium,,,,ManifestColumn
+ basal cell of epithelium of lobular bronchiole,,,,ManifestColumn
+ basal cell of epithelium of respiratory bronchiole,,,,ManifestColumn
+ basal cell of epithelium of terminal bronchiole,,,,ManifestColumn
+ basal cell of epithelium of trachea,,,,ManifestColumn
+ basal cell of prostate epithelium,,,,ManifestColumn
+ basal cell of prostatic urethra,,,,ManifestColumn
+ basal cell of ureter urothelium,,,,ManifestColumn
+ basal epithelial cell of tracheobronchial tree,,,,ManifestColumn
+ basophil,,,,ManifestColumn
+ bcell_0,,,,ManifestColumn
+ bche (butyrylcholinesterase) cell,,,,ManifestColumn
+ beige adipocyte,,,,ManifestColumn
+ bgl_51,,,,ManifestColumn
+ bladder cell,,,,ManifestColumn
+ bladder microvascular endothelial cell,,,,ManifestColumn
+ bladder urothelial cell,,,,ManifestColumn
+ blood vessel endothelial cell,,,,ManifestColumn
+ blood vessel smooth muscle cell,,,,ManifestColumn
+ bone cell,,,,ManifestColumn
+ bone lining cells,,,,ManifestColumn
+ brain vascular cell,,,,ManifestColumn
+ branched duct epithelial cell,,,,ManifestColumn
+ bronchial smooth muscle cell,,,,ManifestColumn
+ bronchiolar smooth muscle cell,,,,ManifestColumn
+ brush cell,,,,ManifestColumn
+ brush cell of bronchus,,,,ManifestColumn
+ brush cell of epithelium of lobar bronchus,,,,ManifestColumn
+ brush cell of trachea,,,,ManifestColumn
+ ca13_119,,,,ManifestColumn
+ ca13_163,,,,ManifestColumn
+ ca13_169,,,,ManifestColumn
+ ca13_179,,,,ManifestColumn
+ ca13_180,,,,ManifestColumn
+ ca13_181,,,,ManifestColumn
+ ca13_182,,,,ManifestColumn
+ ca13_183,,,,ManifestColumn
+ ca13_184,,,,ManifestColumn
+ ca13_185,,,,ManifestColumn
+ ca13_186,,,,ManifestColumn
+ ca13_187,,,,ManifestColumn
+ ca13_188,,,,ManifestColumn
+ ca13_189,,,,ManifestColumn
+ ca4_190,,,,ManifestColumn
+ ca4_191,,,,ManifestColumn
+ ca4_192,,,,ManifestColumn
+ ca4_193,,,,ManifestColumn
+ ca4_194,,,,ManifestColumn
+ ca4_195,,,,ManifestColumn
+ ca4_196,,,,ManifestColumn
+ ca4_197,,,,ManifestColumn
+ ca4_198,,,,ManifestColumn
+ camera-type eye photoreceptor cell,,,,ManifestColumn
+ capillary endothelial cell,,,,ManifestColumn
+ capsule mesenchymal stromal cell,,,,ManifestColumn
+ cardiac atrium fibroblast,,,,ManifestColumn
+ cardiac endothelial cell,,,,ManifestColumn
+ cardiac muscle cell,,,,ManifestColumn
+ cardiac pacemaker cell of sinoatrial node,,,,ManifestColumn
+ cardiac ventricle fibroblast,,,,ManifestColumn
+ catecholaminergic neuron,,,,ManifestColumn
+ caudal ganglionic eminence derived interneuron,,,,ManifestColumn
+ cbi_298,,,,ManifestColumn
+ cbi_299,,,,ManifestColumn
+ cbi_300,,,,ManifestColumn
+ cbi_301,,,,ManifestColumn
+ cbi_302,,,,ManifestColumn
+ cbi_303,,,,ManifestColumn
+ cbi_304,,,,ManifestColumn
+ cbi_305,,,,ManifestColumn
+ cbi_306,,,,ManifestColumn
+ cbi_307,,,,ManifestColumn
+ cd4+ t,,,,ManifestColumn
+ cd4+ t cell resident memory,,,,ManifestColumn
+ cd4+ t-cell,,,,ManifestColumn
+ cd8 t cell effector memory,,,,ManifestColumn
+ cd8 trm (residence memory),,,,ManifestColumn
+ cd8+ t,,,,ManifestColumn
+ cd8+ t cell resident memory,,,,ManifestColumn
+ cd8+ t-cells,,,,ManifestColumn
+ cell of skeletal muscle,,,,ManifestColumn
+ cell type (from CL),,,,ManifestColumn
+ cell type (from LMHA),,,,ManifestColumn
+ centrilobular region hepatocyte,,,,ManifestColumn
+ centroblast,,,,ManifestColumn
+ centrocyte,,,,ManifestColumn
+ cerebellar inhibitory GABAergic interneuron,,,,ManifestColumn
+ cerebral cortex neuron,,,,ManifestColumn
+ cge_276,,,,ManifestColumn
+ cge_277,,,,ManifestColumn
+ cge_278,,,,ManifestColumn
+ cge_279,,,,ManifestColumn
+ cge_280,,,,ManifestColumn
+ cge_281,,,,ManifestColumn
+ cge_282,,,,ManifestColumn
+ cge_283,,,,ManifestColumn
+ cge_284,,,,ManifestColumn
+ cge_285,,,,ManifestColumn
+ cge_286,,,,ManifestColumn
+ cge_287,,,,ManifestColumn
+ cge_288,,,,ManifestColumn
+ cge_289,,,,ManifestColumn
+ cge_290,,,,ManifestColumn
+ cge_291,,,,ManifestColumn
+ cge_292,,,,ManifestColumn
+ cge_293,,,,ManifestColumn
+ cge_294,,,,ManifestColumn
+ cge_295,,,,ManifestColumn
+ cge_296,,,,ManifestColumn
+ chondrocyte,,,,ManifestColumn
+ chorionic mesenchymal stromal cell (cmsc),,,,ManifestColumn
+ choroid plexus cell,,,,ManifestColumn
+ chrp_76,,,,ManifestColumn
+ chrp_77,,,,ManifestColumn
+ chrp_78,,,,ManifestColumn
+ chrp_79,,,,ManifestColumn
+ chrp_80,,,,ManifestColumn
+ chrp_81,,,,ManifestColumn
+ chrp_82,,,,ManifestColumn
+ ciliated cell,,,,ManifestColumn
+ ciliated cell of the bronchus,,,,ManifestColumn
+ ciliated columnar cell of tracheobronchial tree,,,,ManifestColumn
+ ciliated epithelial cell,,,,ManifestColumn
+ class switched memory B cell,,,,ManifestColumn
+ classical monocyte,,,,ManifestColumn
+ club cell,,,,ManifestColumn
+ club cell of prostatic urethra,,,,ManifestColumn
+ columnar chondrocyte,,,,ManifestColumn
+ columnar ovarian surface epithelial cell,,,,ManifestColumn
+ columnar/cuboidal epithelial cell,,,,ManifestColumn
+ committed double negative thymocyte (Homo sapiens),,,,ManifestColumn
+ common lymphoid progenitor,,,,ManifestColumn
+ common myeloid progenitor,,,,ManifestColumn
+ connective tissue cell,,,,ManifestColumn
+ connective tissue type mast cell,,,,ManifestColumn
+ contractile cell,,,,ManifestColumn
+ conventional dendritic cell,,,,ManifestColumn
+ cop_37,,,,ManifestColumn
+ cop_38,,,,ManifestColumn
+ cop_39,,,,ManifestColumn
+ cop_41,,,,ManifestColumn
+ cop_42,,,,ManifestColumn
+ cop_43,,,,ManifestColumn
+ cop_75,,,,ManifestColumn
+ corneal endothelial cell,,,,ManifestColumn
+ corneal epithelial cell,,,,ManifestColumn
+ corneocyte,,,,ManifestColumn
+ corpus luteum endothelial cell,,,,ManifestColumn
+ corpus luteum macrophage,,,,ManifestColumn
+ cortical thymic epithelial cell,,,,ManifestColumn
+ corticomedullary thymic epithelial cell,,,,ManifestColumn
+ cumulus cell,,,,ManifestColumn
+ cytotoxic T cell,,,,ManifestColumn
+ cytotoxic memory t cell,,,,ManifestColumn
+ dec205+ dc,,,,ManifestColumn
+ deep superficial,,,,ManifestColumn
+ dendritic cell,,,,ManifestColumn
+ dentate gyrus neuron,,,,ManifestColumn
+ dermal dendritic cell,,,,ManifestColumn
+ detrusor smooth muscle cell of bladder,,,,ManifestColumn
+ detrusor smooth muscle cell of ureter,,,,ManifestColumn
+ dg_199,,,,ManifestColumn
+ dg_200,,,,ManifestColumn
+ dg_201,,,,ManifestColumn
+ dg_202,,,,ManifestColumn
+ dg_203,,,,ManifestColumn
+ dg_204,,,,ManifestColumn
+ dg_205,,,,ManifestColumn
+ differentiation-committed oligodendrocyte precursor,,,,ManifestColumn
+ diffuse bipolar 1 cell,,,,ManifestColumn
+ diffuse bipolar 2 cell,,,,ManifestColumn
+ diffuse bipolar 3a cell,,,,ManifestColumn
+ diffuse bipolar 3b cell,,,,ManifestColumn
+ diffuse bipolar 4 cell,,,,ManifestColumn
+ diffuse bipolar 6 cell,,,,ManifestColumn
+ dlct6b_100,,,,ManifestColumn
+ dlct6b_101,,,,ManifestColumn
+ dlct6b_102,,,,ManifestColumn
+ dlct6b_103,,,,ManifestColumn
+ dlct6b_104,,,,ManifestColumn
+ dlct6b_105,,,,ManifestColumn
+ dlct6b_106,,,,ManifestColumn
+ dlct6b_107,,,,ManifestColumn
+ dlct6b_108,,,,ManifestColumn
+ dlct6b_109,,,,ManifestColumn
+ dlct6b_110,,,,ManifestColumn
+ dlct6b_111,,,,ManifestColumn
+ dlct6b_112,,,,ManifestColumn
+ dlct6b_84,,,,ManifestColumn
+ dlct6b_97,,,,ManifestColumn
+ dlct6b_98,,,,ManifestColumn
+ dlct6b_99,,,,ManifestColumn
+ dlit_136,,,,ManifestColumn
+ dlit_137,,,,ManifestColumn
+ dlit_139,,,,ManifestColumn
+ dlit_140,,,,ManifestColumn
+ dlit_141,,,,ManifestColumn
+ dlit_142,,,,ManifestColumn
+ dlit_143,,,,ManifestColumn
+ dlit_144,,,,ManifestColumn
+ dlit_145,,,,ManifestColumn
+ dlit_146,,,,ManifestColumn
+ dlit_147,,,,ManifestColumn
+ dlit_148,,,,ManifestColumn
+ dlit_149,,,,ManifestColumn
+ dlit_150,,,,ManifestColumn
+ dlit_151,,,,ManifestColumn
+ dlit_152,,,,ManifestColumn
+ dlnp_83,,,,ManifestColumn
+ dlnp_85,,,,ManifestColumn
+ dlnp_86,,,,ManifestColumn
+ dlnp_87,,,,ManifestColumn
+ dlnp_88,,,,ManifestColumn
+ dlnp_89,,,,ManifestColumn
+ dlnp_90,,,,ManifestColumn
+ dlnp_91,,,,ManifestColumn
+ dlnp_92,,,,ManifestColumn
+ dlnp_93,,,,ManifestColumn
+ dlnp_94,,,,ManifestColumn
+ dlnp_95,,,,ManifestColumn
+ dlnp_96,,,,ManifestColumn
+ double negative thymocyte,,,,ManifestColumn
+ double-positive,,,,ManifestColumn
+ alpha-beta thymocyte,,,,ManifestColumn
+ dpt+ fibroblast cell of bladder,,,,ManifestColumn
+ dpt+ fibroblast cell of ureter,,,,ManifestColumn
+ duodenal goblet cell,,,,ManifestColumn
+ early T lineage precursor,,,,ManifestColumn
+ eccrine cell,,,,ManifestColumn
+ ecto-epithelial cell,,,,ManifestColumn
+ effector CD8-positive,,,,ManifestColumn
+ effector memory CD4-positive,,,,ManifestColumn
+ terminally differentiated,,,,ManifestColumn
+ effector memory CD45RA-positive,,,,ManifestColumn
+ effector memory CD8-positive,,,,ManifestColumn
+ electrically active cell,,,,ManifestColumn
+ electrically responsive cell,,,,ManifestColumn
+ emsn_222,,,,ManifestColumn
+ emsn_223,,,,ManifestColumn
+ emsn_224,,,,ManifestColumn
+ emsn_225,,,,ManifestColumn
+ emsn_226,,,,ManifestColumn
+ emsn_227,,,,ManifestColumn
+ emsn_228,,,,ManifestColumn
+ emsn_229,,,,ManifestColumn
+ emsn_230,,,,ManifestColumn
+ emsn_231,,,,ManifestColumn
+ emsn_232,,,,ManifestColumn
+ emsn_233,,,,ManifestColumn
+ emsn_234,,,,ManifestColumn
+ emsn_426,,,,ManifestColumn
+ endo-epithelial cell,,,,ManifestColumn
+ endocardial cell,,,,ManifestColumn
+ endocervical epithelial cell,,,,ManifestColumn
+ endocrine cell,,,,ManifestColumn
+ endocrine-paracrine cell of prostate gland,,,,ManifestColumn
+ endometrial epithelial cell,,,,ManifestColumn
+ endometrial microvascular endothelial cell,,,,ManifestColumn
+ endothelial cell,,,,ManifestColumn
+ endothelial cell of arteriole,,,,ManifestColumn
+ endothelial cell of artery,,,,ManifestColumn
+ endothelial cell of bladder,,,,ManifestColumn
+ endothelial cell of hepatic sinusoid,,,,ManifestColumn
+ endothelial cell of high endothelial venule,,,,ManifestColumn
+ endothelial cell of lymphatic vessel,,,,ManifestColumn
+ endothelial cell of respiratory system lymphatic vessel,,,,ManifestColumn
+ endothelial cell of sinusoid,,,,ManifestColumn
+ endothelial cell of ureter,,,,ManifestColumn
+ endothelial cell of vascular tree,,,,ManifestColumn
+ endothelial cell of venule,,,,ManifestColumn
+ enterocyte,,,,ManifestColumn
+ enterocyte of epithelium of large intestine,,,,ManifestColumn
+ enteroendocrine cell,,,,ManifestColumn
+ eomes low liver nk cell,,,,ManifestColumn
+ eosinophil,,,,ManifestColumn
+ epen_65,,,,ManifestColumn
+ epen_66,,,,ManifestColumn
+ epen_67,,,,ManifestColumn
+ epen_68,,,,ManifestColumn
+ epen_69,,,,ManifestColumn
+ epen_70,,,,ManifestColumn
+ epen_71,,,,ManifestColumn
+ epen_72,,,,ManifestColumn
+ epen_73,,,,ManifestColumn
+ epen_74,,,,ManifestColumn
+ ependymal cell,,,,ManifestColumn
+ epicardial adipocyte,,,,ManifestColumn
+ epidermal Langerhans cell,,,,ManifestColumn
+ epithelial cell,,,,ManifestColumn
+ epithelial cell of amnion,,,,ManifestColumn
+ epithelial cell of distal tubule,,,,ManifestColumn
+ epithelial cell of early distal convoluted tubule,,,,ManifestColumn
+ epithelial cell of exocrine pancreas,,,,ManifestColumn
+ epithelial cell of large intestine,,,,ManifestColumn
+ epithelial cell of late distal convoluted tubule,,,,ManifestColumn
+ epithelial cell of pancreas,,,,ManifestColumn
+ epithelial cell of prostate,,,,ManifestColumn
+ epithelial cell of proximal tubule,,,,ManifestColumn
+ epithelial cell of proximal tubule segment 1,,,,ManifestColumn
+ epithelial cell of proximal tubule segment 2,,,,ManifestColumn
+ epithelial cell of proximal tubule segment 3,,,,ManifestColumn
+ epithelial cell of thymus,,,,ManifestColumn
+ epithelial cell of tracheobronchial tree,,,,ManifestColumn
+ epithelial fate stem cell,,,,ManifestColumn
+ epithelial stem cells,,,,ManifestColumn
+ erythrocyte,,,,ManifestColumn
+ erythroid lineage cell,,,,ManifestColumn
+ extracellular matrix secreting cell,,,,ManifestColumn
+ extratelencephalic-projecting glutamatergic cortical neuron,,,,ManifestColumn
+ extravillous trophoblast,,,,ManifestColumn
+ eye photoreceptor cell,,,,ManifestColumn
+ fat cell,,,,ManifestColumn
+ fbl_24,,,,ManifestColumn
+ fbl_25,,,,ManifestColumn
+ fbl_26,,,,ManifestColumn
+ fbl_27,,,,ManifestColumn
+ fbl_28,,,,ManifestColumn
+ fbl_29,,,,ManifestColumn
+ fbl_30,,,,ManifestColumn
+ fbl_31,,,,ManifestColumn
+ fibroblast,,,,ManifestColumn
+ fibroblast of pulmonary artery,,,,ManifestColumn
+ fibroblast-mesenchymal cell,,,,ManifestColumn
+ fibrocyte of adventitia of ureter,,,,ManifestColumn
+ flat epithelial cells,,,,ManifestColumn
+ flat midget bipolar cell,,,,ManifestColumn
+ flattened cuboidal ovarian surface epithelial cell,,,,ManifestColumn
+ follicular dendritic cell,,,,ManifestColumn
+ gamma-delta T cell,,,,ManifestColumn
+ ganglion,,,,ManifestColumn
+ gastrin secreting cell,,,,ManifestColumn
+ germinal center B cell,,,,ManifestColumn
+ glandular epithelial cell,,,,ManifestColumn
+ glial cell,,,,ManifestColumn
+ glomerular capillary endothelial cell,,,,ManifestColumn
+ glomerular mesangial cell,,,,ManifestColumn
+ glutamatergic neuron,,,,ManifestColumn
+ glutamic acid decarboxylase 65 cell,,,,ManifestColumn
+ glycinergic amacrine cell,,,,ManifestColumn
+ goblet cell,,,,ManifestColumn
+ goblet cell of epithelium of lobar bronchus,,,,ManifestColumn
+ granulocyte,,,,ManifestColumn
+ granulocyte monocyte progenitor cell,,,,ManifestColumn
+ granulocytopoietic cell,,,,ManifestColumn
+ group 1 innate lymphoid cell,,,,ManifestColumn
+ group 2 innate lymphoid cell,,,,ManifestColumn
+ group 3 innate lymphoid cell,,,,ManifestColumn
+ hematopoietic cell,,,,ManifestColumn
+ hematopoietic lineage restricted progenitor cell,,,,ManifestColumn
+ hematopoietic multipotent progenitor cell,,,,ManifestColumn
+ hematopoietic oligopotent progenitor cell,,,,ManifestColumn
+ hematopoietic precursor cell,,,,ManifestColumn
+ hematopoietic stem cell,,,,ManifestColumn
+ hepatic oval stem cell,,,,ManifestColumn
+ hepatic pit cell,,,,ManifestColumn
+ hepatic progenitor cell,,,,ManifestColumn
+ hepatic stellate cell,,,,ManifestColumn
+ hepatocyte,,,,ManifestColumn
+ hillock cell of prostatic urethra,,,,ManifestColumn
+ hilus cell of ovary,,,,ManifestColumn
+ hippocampal CA1-3 neuron,,,,ManifestColumn
+ hippocampal CA4 neuron,,,,ManifestColumn
+ hippocampal astrocyte,,,,ManifestColumn
+ hypertrophic chondrocyte,,,,ManifestColumn
+ ileal goblet cell,,,,ManifestColumn
+ immature B cell,,,,ManifestColumn
+ immature NK T cell,,,,ManifestColumn
+ immature NK T cell stage IV,,,,ManifestColumn
+ immature alpha-beta T cell,,,,ManifestColumn
+ immature conventional dendritic cell,,,,ManifestColumn
+ immature eosinophil,,,,ManifestColumn
+ immature natural killer cell,,,,ManifestColumn
+ immature neutrophil,,,,ManifestColumn
+ immune cell,,,,ManifestColumn
+ innate lymphoid cell,,,,ManifestColumn
+ intercalary cell,,,,ManifestColumn
+ interdigitating dendritic cells,,,,ManifestColumn
+ intermediate cell of bladder urothelium,,,,ManifestColumn
+ intermediate cell of ureter urothelium,,,,ManifestColumn
+ interneuron,,,,ManifestColumn
+ interstitial cell of Cajal,,,,ManifestColumn
+ interstitial fibroblast,,,,ManifestColumn
+ interstitial macrophage,,,,ManifestColumn
+ intestinal crypt stem cell of large intestine,,,,ManifestColumn
+ intestinal epithelial cell,,,,ManifestColumn
+ intestinal tuft cell,,,,ManifestColumn
+ intratelencephalic-projecting glutamatergic cortical neuron,,,,ManifestColumn
+ invaginating midget bipolar cell,,,,ManifestColumn
+ iris pigment epithelial cell,,,,ManifestColumn
+ jejunal goblet cell,,,,ManifestColumn
+ keratin accumulating cell,,,,ManifestColumn
+ keratinocyte,,,,ManifestColumn
+ keratinocyte (onychocyte),,,,ManifestColumn
+ keratinocyte stem cell,,,,ManifestColumn
+ keratocyte,,,,ManifestColumn
+ kidney afferent arteriole endothelial cell,,,,ManifestColumn
+ kidney arterial blood vessel cell,,,,ManifestColumn
+ kidney blood vessel cell,,,,ManifestColumn
+ kidney capillary endothelial cell,,,,ManifestColumn
+ kidney cell,,,,ManifestColumn
+ kidney collecting duct alpha-intercalated cell,,,,ManifestColumn
+ kidney collecting duct epithelial cell,,,,ManifestColumn
+ kidney collecting duct intercalated cell,,,,ManifestColumn
+ kidney collecting duct principal cell,,,,ManifestColumn
+ kidney connecting tubule alpha-intercalated cell,,,,ManifestColumn
+ kidney connecting tubule beta-intercalated cell,,,,ManifestColumn
+ kidney connecting tubule epithelial cell,,,,ManifestColumn
+ kidney connecting tubule intercalated cell,,,,ManifestColumn
+ kidney connecting tubule principal cell,,,,ManifestColumn
+ kidney corpuscule cell,,,,ManifestColumn
+ kidney cortex collecting duct epithelial cell,,,,ManifestColumn
+ kidney cortex collecting duct intercalated cell,,,,ManifestColumn
+ kidney cortex collecting duct principal cell,,,,ManifestColumn
+ kidney cortex tubule cell,,,,ManifestColumn
+ kidney cortical cell,,,,ManifestColumn
+ kidney distal convoluted tubule epithelial cell,,,,ManifestColumn
+ kidney efferent arteriole endothelial cell,,,,ManifestColumn
+ kidney epithelial cell,,,,ManifestColumn
+ kidney granular cell,,,,ManifestColumn
+ kidney inner medulla collecting duct principal cell,,,,ManifestColumn
+ kidney interstitial alternatively activated macrophage,,,,ManifestColumn
+ kidney interstitial cell,,,,ManifestColumn
+ kidney interstitial fibroblast,,,,ManifestColumn
+ kidney interstitial myofibroblast,,,,ManifestColumn
+ kidney loop of Henle ascending limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle cortical thick ascending limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle epithelial cell,,,,ManifestColumn
+ kidney loop of Henle long descending thin limb inner medulla epithelial cell,,,,ManifestColumn
+ kidney loop of Henle long descending thin limb outer medulla epithelial cell,,,,ManifestColumn
+ kidney loop of Henle medullary thick ascending limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle short descending thin limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle thick ascending limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle thin ascending limb epithelial cell,,,,ManifestColumn
+ kidney loop of Henle thin descending limb epithelial cell,,,,ManifestColumn
+ kidney medulla cell,,,,ManifestColumn
+ kidney outer medulla cell,,,,ManifestColumn
+ kidney outer medulla collecting duct epithelial cell,,,,ManifestColumn
+ kidney outer medulla collecting duct intercalated cell,,,,ManifestColumn
+ kidney outer medulla collecting duct principal cell,,,,ManifestColumn
+ l5et_113,,,,ManifestColumn
+ l5et_114,,,,ManifestColumn
+ l5et_115,,,,ManifestColumn
+ l5et_117,,,,ManifestColumn
+ l5et_118,,,,ManifestColumn
+ langerhans cell,,,,ManifestColumn
+ large intestine crypt goblet cell,,,,ManifestColumn
+ lens epithelial cell,,,,ManifestColumn
+ lens fiber cell,,,,ManifestColumn
+ leukocyte,,,,ManifestColumn
+ limbal stem cells,,,,ManifestColumn
+ lining cell,,,,ManifestColumn
+ lipofibroblast cell of bladder,,,,ManifestColumn
+ lipofibroblast cell of ureter,,,,ManifestColumn
+ llc_264,,,,ManifestColumn
+ llc_265,,,,ManifestColumn
+ llc_266,,,,ManifestColumn
+ llc_267,,,,ManifestColumn
+ llc_268,,,,ManifestColumn
+ llc_269,,,,ManifestColumn
+ llc_270,,,,ManifestColumn
+ llc_271,,,,ManifestColumn
+ llc_272,,,,ManifestColumn
+ llc_273,,,,ManifestColumn
+ llc_274,,,,ManifestColumn
+ llc_275,,,,ManifestColumn
+ low columnar epithelial cell,,,,ManifestColumn
+ lower rhombic lip neuron,,,,ManifestColumn
+ lrl_315,,,,ManifestColumn
+ lrl_316,,,,ManifestColumn
+ lrl_317,,,,ManifestColumn
+ lrl_318,,,,ManifestColumn
+ lrl_319,,,,ManifestColumn
+ lrl_320,,,,ManifestColumn
+ lrl_321,,,,ManifestColumn
+ lrl_322,,,,ManifestColumn
+ luminal cell of prostate epithelium,,,,ManifestColumn
+ luminal epithelial cell,,,,ManifestColumn
+ lung ciliated cell,,,,ManifestColumn
+ lung megakaryocyte,,,,ManifestColumn
+ lung neuroendocrine cell,,,,ManifestColumn
+ lung parenchyma resident eosinophil,,,,ManifestColumn
+ lung perichondrial fibroblast,,,,ManifestColumn
+ lung pericyte,,,,ManifestColumn
+ lung resident memory CD4-positive,,,,ManifestColumn
+ lung resident memory CD8-positive,,,,ManifestColumn
+ luteal cell,,,,ManifestColumn
+ lymph node fibroblastic reticular cell,,,,ManifestColumn
+ lymph node macrophage,,,,ManifestColumn
+ lymph node marginal reticular cell,,,,ManifestColumn
+ lymph node subcapsular sinus macrophage,,,,ManifestColumn
+ lymph node tingible body macrophage,,,,ManifestColumn
+ lymphatic,,,,ManifestColumn
+ lymphatic endothelial cell of medulla ceiling,,,,ManifestColumn
+ lymphatic endothelial cell of subcapsular sinus ceiling,,,,ManifestColumn
+ lymphatic endothelial cell of subcapsular sinus floor,,,,ManifestColumn
+ lymphatic endothelial cell of trabecula,,,,ManifestColumn
+ lymphatic vessel smooth muscle cell,,,,ManifestColumn
+ lymphatics,,,,ManifestColumn
+ lympho-myeloid progenitor cell (lmpp),,,,ManifestColumn
+ lymphocyte,,,,ManifestColumn
+ lymphocyte of B lineage,,,,ManifestColumn
+ lymphocyte of large intestine lamina propria,,,,ManifestColumn
+ m1-like macrophage,,,,ManifestColumn
+ m2-like macrophage,,,,ManifestColumn
+ macroglial cell,,,,ManifestColumn
+ macrophage,,,,ManifestColumn
+ macula densa epithelial cell,,,,ManifestColumn
+ mammillary body neuron,,,,ManifestColumn
+ mantle zone b cell,,,,ManifestColumn
+ marginal zone B cell of spleen,,,,ManifestColumn
+ marrow adipocytes,,,,ManifestColumn
+ mast cell,,,,ManifestColumn
+ mature B cell,,,,ManifestColumn
+ mature CD4 single-positive thymocyte,,,,ManifestColumn
+ mature CD8 single-positive thymocyte,,,,ManifestColumn
+ mature NK T cell,,,,ManifestColumn
+ mature T cell,,,,ManifestColumn
+ mature alpha-beta T cell,,,,ManifestColumn
+ mature cd8 t cell,,,,ManifestColumn
+ mature conventional dendritic cell,,,,ManifestColumn
+ mature eosinophil,,,,ManifestColumn
+ mature natural killer cell,,,,ManifestColumn
+ mature neutrophil,,,,ManifestColumn
+ medial ganglionic eminence derived interneuron,,,,ManifestColumn
+ medium field retinal amacrine cell,,,,ManifestColumn
+ medium spiny neuron,,,,ManifestColumn
+ medullary reticular cell,,,,ManifestColumn
+ medullary thymic epithelial cell,,,,ManifestColumn
+ medullary thymic epithelial cell type 1,,,,ManifestColumn
+ medullary thymic epithelial cell type 2,,,,ManifestColumn
+ medullary thymic epithelial cell type 3,,,,ManifestColumn
+ medullary thymic epithelial cell type 4,,,,ManifestColumn
+ megakaryocyte,,,,ManifestColumn
+ megakaryocyte progenitor cell,,,,ManifestColumn
+ megakaryocyte-erythroid progenitor cell,,,,ManifestColumn
+ melanocyte,,,,ManifestColumn
+ melanocyte of skin,,,,ManifestColumn
+ memory B cell,,,,ManifestColumn
+ mesenchymal stem cell of Wharton's jelly,,,,ManifestColumn
+ meso-epithelial cell,,,,ManifestColumn
+ mesothelial cell,,,,ManifestColumn
+ mesothelial cell of visceral peritoneum,,,,ManifestColumn
+ mesothelial cell of visceral pleura,,,,ManifestColumn
+ mge_236,,,,ManifestColumn
+ mge_239,,,,ManifestColumn
+ mge_240,,,,ManifestColumn
+ mge_241,,,,ManifestColumn
+ mge_242,,,,ManifestColumn
+ mge_243,,,,ManifestColumn
+ mge_244,,,,ManifestColumn
+ mge_245,,,,ManifestColumn
+ mge_246,,,,ManifestColumn
+ mge_247,,,,ManifestColumn
+ mge_248,,,,ManifestColumn
+ mge_249,,,,ManifestColumn
+ mge_250,,,,ManifestColumn
+ mge_251,,,,ManifestColumn
+ mge_252,,,,ManifestColumn
+ mge_253,,,,ManifestColumn
+ mge_254,,,,ManifestColumn
+ mge_255,,,,ManifestColumn
+ mge_256,,,,ManifestColumn
+ mge_257,,,,ManifestColumn
+ mge_258,,,,ManifestColumn
+ mge_259,,,,ManifestColumn
+ mge_260,,,,ManifestColumn
+ mge_261,,,,ManifestColumn
+ mge_262,,,,ManifestColumn
+ mge_263,,,,ManifestColumn
+ mgl_10,,,,ManifestColumn
+ mgl_11,,,,ManifestColumn
+ mgl_12,,,,ManifestColumn
+ mgl_4,,,,ManifestColumn
+ mgl_5,,,,ManifestColumn
+ mgl_6,,,,ManifestColumn
+ mgl_7,,,,ManifestColumn
+ mgl_8,,,,ManifestColumn
+ mgl_9,,,,ManifestColumn
+ microglial cell,,,,ManifestColumn
+ microvascular endothelial cell,,,,ManifestColumn
+ midbrain-derived inhibitory neuron,,,,ManifestColumn
+ midget ganglion cell of retina,,,,ManifestColumn
+ midi_433,,,,ManifestColumn
+ midi_434,,,,ManifestColumn
+ midi_435,,,,ManifestColumn
+ midi_436,,,,ManifestColumn
+ midi_437,,,,ManifestColumn
+ midi_438,,,,ManifestColumn
+ midi_439,,,,ManifestColumn
+ midi_440,,,,ManifestColumn
+ midi_441,,,,ManifestColumn
+ midi_442,,,,ManifestColumn
+ midi_443,,,,ManifestColumn
+ midi_444,,,,ManifestColumn
+ midzonal region hepatocyte,,,,ManifestColumn
+ migratory dendritic cell,,,,ManifestColumn
+ misc_116,,,,ManifestColumn
+ misc_132,,,,ManifestColumn
+ misc_164,,,,ManifestColumn
+ misc_165,,,,ManifestColumn
+ misc_166,,,,ManifestColumn
+ misc_167,,,,ManifestColumn
+ misc_168,,,,ManifestColumn
+ misc_170,,,,ManifestColumn
+ misc_176,,,,ManifestColumn
+ misc_177,,,,ManifestColumn
+ misc_178,,,,ManifestColumn
+ misc_314,,,,ManifestColumn
+ misc_401,,,,ManifestColumn
+ misc_404,,,,ManifestColumn
+ mmb_323,,,,ManifestColumn
+ mmb_324,,,,ManifestColumn
+ mmb_325,,,,ManifestColumn
+ mmb_326,,,,ManifestColumn
+ mmb_327,,,,ManifestColumn
+ mmb_328,,,,ManifestColumn
+ mmb_329,,,,ManifestColumn
+ mmb_330,,,,ManifestColumn
+ mmb_331,,,,ManifestColumn
+ mmb_332,,,,ManifestColumn
+ mmb_333,,,,ManifestColumn
+ mono_3,,,,ManifestColumn
+ monocyte,,,,ManifestColumn
+ monocyte derived cell,,,,ManifestColumn
+ monocyte-derived dendritic cell,,,,ManifestColumn
+ monocytoid B cell,,,,ManifestColumn
+ mononuclear cytotrophoblast cell,,,,ManifestColumn
+ mononuclear osteoclast,,,,ManifestColumn
+ motor neuron,,,,ManifestColumn
+ msn_206,,,,ManifestColumn
+ msn_207,,,,ManifestColumn
+ msn_208,,,,ManifestColumn
+ msn_209,,,,ManifestColumn
+ msn_210,,,,ManifestColumn
+ msn_211,,,,ManifestColumn
+ msn_212,,,,ManifestColumn
+ msn_213,,,,ManifestColumn
+ msn_214,,,,ManifestColumn
+ msn_215,,,,ManifestColumn
+ msn_216,,,,ManifestColumn
+ msn_217,,,,ManifestColumn
+ msn_218,,,,ManifestColumn
+ msn_219,,,,ManifestColumn
+ msn_220,,,,ManifestColumn
+ msn_221,,,,ManifestColumn
+ msn_427,,,,ManifestColumn
+ msn_430,,,,ManifestColumn
+ mucosal invariant T cell,,,,ManifestColumn
+ mucosal type mast cell,,,,ManifestColumn
+ mucus secreting cell of bronchus submucosal gland,,,,ManifestColumn
+ mucus secreting cell of trachea gland,,,,ManifestColumn
+ multinuclear osteoclast,,,,ManifestColumn
+ mural cell,,,,ManifestColumn
+ muscle,,,,ManifestColumn
+ muscle cell,,,,ManifestColumn
+ myelocyte,,,,ManifestColumn
+ myeloid cell,,,,ManifestColumn
+ myeloid dendritic cell,,,,ManifestColumn
+ myeloid leukocyte,,,,ManifestColumn
+ myeloid lineage restricted progenitor cell,,,,ManifestColumn
+ myeloid progenitor (mop),,,,ManifestColumn
+ myo-medullary thymic epithelial cell,,,,ManifestColumn
+ myoepithelial cell of bronchus submucosal gland,,,,ManifestColumn
+ myoepithelial cell of sweat gland,,,,ManifestColumn
+ myoepithelial cell of trachea gland,,,,ManifestColumn
+ myofibroblast cell,,,,ManifestColumn
+ myofibroblast cell of bladder,,,,ManifestColumn
+ myofibroblast cell of ureter,,,,ManifestColumn
+ naive B cell,,,,ManifestColumn
+ naive regulatory T cell,,,,ManifestColumn
+ naive thymus-derived CD4-positive,,,,ManifestColumn
+ naive thymus-derived CD8-positive,,,,ManifestColumn
+ native cell,,,,ManifestColumn
+ natural killer cell,,,,ManifestColumn
+ near-projecting glutamatergic cortical neuron,,,,ManifestColumn
+ nephron tubule epithelial cell,,,,ManifestColumn
+ nerve,,,,ManifestColumn
+ nerves,,,,ManifestColumn
+ neural cell,,,,ManifestColumn
+ neurecto-epithelial cell,,,,ManifestColumn
+ neuro-medullary thymic epithelial cell,,,,ManifestColumn
+ neuroendocrine cell,,,,ManifestColumn
+ neuroendocrine cell of epithelium of lobar bronchus,,,,ManifestColumn
+ neuron,,,,ManifestColumn
+ neuron associated cell,,,,ManifestColumn
+ neuron associated cell (sensu Vertebrata),,,,ManifestColumn
+ neuron of the forebrain,,,,ManifestColumn
+ neutrophil,,,,ManifestColumn
+ nkcell_2,,,,ManifestColumn
+ non-classical monocyte,,,,ManifestColumn
+ non-pigmented ciliary epithelial cell,,,,ManifestColumn
+ non-terminally differentiated cell,,,,ManifestColumn
+ nonmucinous cuboidal epithelial cell,,,,ManifestColumn
+ oligo_40,,,,ManifestColumn
+ oligo_44,,,,ManifestColumn
+ oligo_45,,,,ManifestColumn
+ oligo_46,,,,ManifestColumn
+ oligo_47,,,,ManifestColumn
+ oligo_48,,,,ManifestColumn
+ oligo_49,,,,ManifestColumn
+ oligo_50,,,,ManifestColumn
+ oligodendrocyte,,,,ManifestColumn
+ oligodendrocyte precursor cell,,,,ManifestColumn
+ opc_32,,,,ManifestColumn
+ opc_33,,,,ManifestColumn
+ opc_34,,,,ManifestColumn
+ opc_35,,,,ManifestColumn
+ opc_36,,,,ManifestColumn
+ osteoblast,,,,ManifestColumn
+ osteoclast,,,,ManifestColumn
+ osteocyte,,,,ManifestColumn
+ pancreas exocrine glandular cell,,,,ManifestColumn
+ pancreatic A cell,,,,ManifestColumn
+ pancreatic D cell,,,,ManifestColumn
+ pancreatic PP cell,,,,ManifestColumn
+ pancreatic acinar cell,,,,ManifestColumn
+ pancreatic centro-acinar cell,,,,ManifestColumn
+ pancreatic ductal cell,,,,ManifestColumn
+ pancreatic endocrine cell,,,,ManifestColumn
+ pancreatic epsilon cell,,,,ManifestColumn
+ pancreatic goblet cell,,,,ManifestColumn
+ pancreatic stellate cell,,,,ManifestColumn
+ paneth cell of colon,,,,ManifestColumn
+ paneth cell of epithelium proper of small intestine,,,,ManifestColumn
+ papillary tips cell,,,,ManifestColumn
+ parasol ganglion cell of retina,,,,ManifestColumn
+ parietal epithelial cell,,,,ManifestColumn
+ peptide hormone secreting cell,,,,ManifestColumn
+ per_21,,,,ManifestColumn
+ per_22,,,,ManifestColumn
+ per_23,,,,ManifestColumn
+ perichondrial fibroblast,,,,ManifestColumn
+ pericryptal fibroblastic sheath,,,,ManifestColumn
+ pericyte,,,,ManifestColumn
+ pericyte cell of bladder,,,,ManifestColumn
+ pericyte cell of ureter,,,,ManifestColumn
+ periepithelial fibroblast,,,,ManifestColumn
+ perineural cell,,,,ManifestColumn
+ perineurial cell,,,,ManifestColumn
+ perineurial cells,,,,ManifestColumn
+ periportal region hepatocyte,,,,ManifestColumn
+ peritubular capillary endothelial cell,,,,ManifestColumn
+ perivascular cells,,,,ManifestColumn
+ perivascular support cell,,,,ManifestColumn
+ photoreceptor cell,,,,ManifestColumn
+ pi16+ fibroblast cell of bladder,,,,ManifestColumn
+ pi16+ fibroblast cell of ureter,,,,ManifestColumn
+ pigment cell,,,,ManifestColumn
+ pigmented ciliary epithelial cell,,,,ManifestColumn
+ placental stromal cell (psc),,,,ManifestColumn
+ placental villus capillary endothelial cell,,,,ManifestColumn
+ plasma cell,,,,ManifestColumn
+ plasmablast,,,,ManifestColumn
+ plasmacytoid dendritic cell,,,,ManifestColumn
+ platelet,,,,ManifestColumn
+ pneumocyte,,,,ManifestColumn
+ podocyte,,,,ManifestColumn
+ polyaxonal amacrine cell,,,,ManifestColumn
+ portal fibroblast,,,,ManifestColumn
+ pre-antral follicle granulosa cell,,,,ManifestColumn
+ precursor B cell,,,,ManifestColumn
+ prehypertrophic chondrocytes,,,,ManifestColumn
+ preosteoblast,,,,ManifestColumn
+ preosteoclasts,,,,ManifestColumn
+ prickle cell,,,,ManifestColumn
+ primary lens fiber,,,,ManifestColumn
+ primary oocyte,,,,ManifestColumn
+ pro-B cell,,,,ManifestColumn
+ promonocyte,,,,ManifestColumn
+ promyelocyte,,,,ManifestColumn
+ prostate gland microvascular endothelial cell,,,,ManifestColumn
+ prostate perictye,,,,ManifestColumn
+ pulmonary artery endothelial cell,,,,ManifestColumn
+ pulmonary capillary endothelial cell,,,,ManifestColumn
+ pulmonary interstitial fibroblast,,,,ManifestColumn
+ pulmonary ionocyte,,,,ManifestColumn
+ quiescent stellate cell,,,,ManifestColumn
+ rearranging double negative thymocyte (Homo sapiens),,,,ManifestColumn
+ regulatory T cell,,,,ManifestColumn
+ regulatory cd4+ t,,,,ManifestColumn
+ renal alpha-intercalated cell,,,,ManifestColumn
+ renal beta-intercalated cell,,,,ManifestColumn
+ renal cortical epithelial cell,,,,ManifestColumn
+ renal intercalated cell,,,,ManifestColumn
+ renal interstitial pericyte,,,,ManifestColumn
+ renal medullary fibroblast,,,,ManifestColumn
+ renal principal cell,,,,ManifestColumn
+ residual hypertrophic chondrocytes,,,,ManifestColumn
+ respiratory basal cell,,,,ManifestColumn
+ respiratory ciliated cell,,,,ManifestColumn
+ respiratory epithelial cell,,,,ManifestColumn
+ respiratory suprabasal cell,,,,ManifestColumn
+ reticular cell,,,,ManifestColumn
+ reticular cell of splenic cord,,,,ManifestColumn
+ reticular cell of splenic sinusoid,,,,ManifestColumn
+ retina horizontal cell,,,,ManifestColumn
+ retinal bipolar neuron,,,,ManifestColumn
+ retinal blood vessel endothelial cell,,,,ManifestColumn
+ retinal cell,,,,ManifestColumn
+ retinal cone cell,,,,ManifestColumn
+ retinal ganglion cell,,,,ManifestColumn
+ retinal pigment epithelial cell,,,,ManifestColumn
+ retinal rod cell,,,,ManifestColumn
+ rod bipolar cell,,,,ManifestColumn
+ rounded chondrocytes,,,,ManifestColumn
+ sebum secreting cell,,,,ManifestColumn
+ secondary crest myofibroblast,,,,ManifestColumn
+ secondary lens fiber,,,,ManifestColumn
+ secretory cell,,,,ManifestColumn
+ secretory epithelial cell,,,,ManifestColumn
+ semilunar cell,,,,ManifestColumn
+ semilunar type 1 cell,,,,ManifestColumn
+ semilunar type 3 cell,,,,ManifestColumn
+ seromucus secreting cell,,,,ManifestColumn
+ serous cell of epithelium of bronchus,,,,ManifestColumn
+ serous cell of epithelium of trachea,,,,ManifestColumn
+ serous secreting cell of bronchus submucosal gland,,,,ManifestColumn
+ simple columnar epithelial cell,,,,ManifestColumn
+ sinusoidal cells,,,,ManifestColumn
+ skin fibroblast,,,,ManifestColumn
+ smooth muscle cell,,,,ManifestColumn
+ smooth muscle cell of bladder,,,,ManifestColumn
+ smooth muscle cell of large intestine,,,,ManifestColumn
+ smooth muscle cell of prostate,,,,ManifestColumn
+ smooth muscle cell of the coronary artery,,,,ManifestColumn
+ smooth muscle cell of the pulmonary artery,,,,ManifestColumn
+ somatic cell,,,,ManifestColumn
+ sox9+ epithelial cell,,,,ManifestColumn
+ specialized cardiac myocyte,,,,ManifestColumn
+ specified double negative thymocyte (Homo sapiens),,,,ManifestColumn
+ splat_235,,,,ManifestColumn
+ splat_237,,,,ManifestColumn
+ splat_238,,,,ManifestColumn
+ splat_313,,,,ManifestColumn
+ splat_334,,,,ManifestColumn
+ splat_335,,,,ManifestColumn
+ splat_336,,,,ManifestColumn
+ splat_337,,,,ManifestColumn
+ splat_338,,,,ManifestColumn
+ splat_339,,,,ManifestColumn
+ splat_340,,,,ManifestColumn
+ splat_341,,,,ManifestColumn
+ splat_342,,,,ManifestColumn
+ splat_343,,,,ManifestColumn
+ splat_344,,,,ManifestColumn
+ splat_345,,,,ManifestColumn
+ splat_346,,,,ManifestColumn
+ splat_347,,,,ManifestColumn
+ splat_348,,,,ManifestColumn
+ splat_349,,,,ManifestColumn
+ splat_350,,,,ManifestColumn
+ splat_351,,,,ManifestColumn
+ splat_352,,,,ManifestColumn
+ splat_353,,,,ManifestColumn
+ splat_354,,,,ManifestColumn
+ splat_355,,,,ManifestColumn
+ splat_356,,,,ManifestColumn
+ splat_357,,,,ManifestColumn
+ splat_358,,,,ManifestColumn
+ splat_359,,,,ManifestColumn
+ splat_360,,,,ManifestColumn
+ splat_361,,,,ManifestColumn
+ splat_362,,,,ManifestColumn
+ splat_363,,,,ManifestColumn
+ splat_364,,,,ManifestColumn
+ splat_365,,,,ManifestColumn
+ splat_366,,,,ManifestColumn
+ splat_367,,,,ManifestColumn
+ splat_368,,,,ManifestColumn
+ splat_369,,,,ManifestColumn
+ splat_370,,,,ManifestColumn
+ splat_371,,,,ManifestColumn
+ splat_373,,,,ManifestColumn
+ splat_374,,,,ManifestColumn
+ splat_375,,,,ManifestColumn
+ splat_376,,,,ManifestColumn
+ splat_377,,,,ManifestColumn
+ splat_378,,,,ManifestColumn
+ splat_379,,,,ManifestColumn
+ splat_380,,,,ManifestColumn
+ splat_381,,,,ManifestColumn
+ splat_382,,,,ManifestColumn
+ splat_383,,,,ManifestColumn
+ splat_384,,,,ManifestColumn
+ splat_385,,,,ManifestColumn
+ splat_386,,,,ManifestColumn
+ splat_387,,,,ManifestColumn
+ splat_388,,,,ManifestColumn
+ splat_389,,,,ManifestColumn
+ splat_390,,,,ManifestColumn
+ splat_391,,,,ManifestColumn
+ splat_392,,,,ManifestColumn
+ splat_393,,,,ManifestColumn
+ splat_394,,,,ManifestColumn
+ splat_395,,,,ManifestColumn
+ splat_396,,,,ManifestColumn
+ splat_397,,,,ManifestColumn
+ splat_398,,,,ManifestColumn
+ splat_399,,,,ManifestColumn
+ splat_400,,,,ManifestColumn
+ splat_402,,,,ManifestColumn
+ splat_403,,,,ManifestColumn
+ splat_409,,,,ManifestColumn
+ splat_410,,,,ManifestColumn
+ splat_411,,,,ManifestColumn
+ splat_412,,,,ManifestColumn
+ splat_413,,,,ManifestColumn
+ splat_414,,,,ManifestColumn
+ splat_415,,,,ManifestColumn
+ splat_416,,,,ManifestColumn
+ splat_417,,,,ManifestColumn
+ splat_418,,,,ManifestColumn
+ splat_420,,,,ManifestColumn
+ splat_421,,,,ManifestColumn
+ splat_422,,,,ManifestColumn
+ splat_423,,,,ManifestColumn
+ splat_424,,,,ManifestColumn
+ splat_425,,,,ManifestColumn
+ splat_428,,,,ManifestColumn
+ splat_429,,,,ManifestColumn
+ splat_431,,,,ManifestColumn
+ splat_432,,,,ManifestColumn
+ splenic endothelial cell,,,,ManifestColumn
+ splenic littoral cell,,,,ManifestColumn
+ splenic macrophage,,,,ManifestColumn
+ splenic marginal zone macrophage,,,,ManifestColumn
+ splenic pericyte,,,,ManifestColumn
+ splenic perifollicular zone macrophage,,,,ManifestColumn
+ splenic red pulp macrophage,,,,ManifestColumn
+ splenic red pulp stromal cell,,,,ManifestColumn
+ splenic smooth muscle cell,,,,ManifestColumn
+ splenic stromal sheath cell,,,,ManifestColumn
+ splenic tingible body macrophage,,,,ManifestColumn
+ splenic white pulp macrophage,,,,ManifestColumn
+ squamous epithelial cell,,,,ManifestColumn
+ starburst amacrine cell,,,,ManifestColumn
+ stem cell,,,,ManifestColumn
+ stratified cuboidal epithelial cell,,,,ManifestColumn
+ stratified squamous epithelial cell,,,,ManifestColumn
+ stroma type i cell,,,,ManifestColumn
+ stroma type ii cell,,,,ManifestColumn
+ stroma type iii cell,,,,ManifestColumn
+ stroma type iv cell,,,,ManifestColumn
+ stroma type v cell,,,,ManifestColumn
+ stromal cell,,,,ManifestColumn
+ stromal cell of endometrium,,,,ManifestColumn
+ stromal cell of ovary,,,,ManifestColumn
+ stromal cell of pancreas,,,,ManifestColumn
+ stuff accumulating cell,,,,ManifestColumn
+ subcapsular dendritic cell,,,,ManifestColumn
+ subcapsular thymic epithelial cell,,,,ManifestColumn
+ subcutaneous fat cell,,,,ManifestColumn
+ subepithelial membrane,,,,ManifestColumn
+ superficial cell of bladder urothelium,,,,ManifestColumn
+ superficial cell of ureter urothelium,,,,ManifestColumn
+ sympathetic neuron,,,,ManifestColumn
+ sympathetic noradrenergic neuron,,,,ManifestColumn
+ syncytiotrophoblast cell,,,,ManifestColumn
+ t cell,,,,ManifestColumn
+ tall columnar epithelial cell,,,,ManifestColumn
+ tbet low liver nk cell,,,,ManifestColumn
+ tcell_1,,,,ManifestColumn
+ telocyte,,,,ManifestColumn
+ thalamic excitatory neuron,,,,ManifestColumn
+ theca cell,,,,ManifestColumn
+ thex_372,,,,ManifestColumn
+ thex_445,,,,ManifestColumn
+ thex_446,,,,ManifestColumn
+ thex_447,,,,ManifestColumn
+ thex_448,,,,ManifestColumn
+ thex_449,,,,ManifestColumn
+ thex_450,,,,ManifestColumn
+ thex_451,,,,ManifestColumn
+ thex_452,,,,ManifestColumn
+ thex_453,,,,ManifestColumn
+ thex_454,,,,ManifestColumn
+ thex_455,,,,ManifestColumn
+ thex_456,,,,ManifestColumn
+ thex_457,,,,ManifestColumn
+ thex_458,,,,ManifestColumn
+ thex_459,,,,ManifestColumn
+ thex_460,,,,ManifestColumn
+ thymic conventional dendritic cell,,,,ManifestColumn
+ thymic cortical macrophage,,,,ManifestColumn
+ thymic fibroblast type 1,,,,ManifestColumn
+ thymic fibroblast type 2,,,,ManifestColumn
+ thymic macrophage,,,,ManifestColumn
+ thymic medullary macrophage,,,,ManifestColumn
+ thymic plasmacytoid dendritic cell,,,,ManifestColumn
+ thymocyte,,,,ManifestColumn
+ tonsil squamous cell,,,,ManifestColumn
+ tracheal goblet cell,,,,ManifestColumn
+ tracheobronchial chondrocyte,,,,ManifestColumn
+ tracheobronchial goblet cell,,,,ManifestColumn
+ tracheobronchial smooth muscle cell,,,,ManifestColumn
+ transit amplifying cell of colon,,,,ManifestColumn
+ transitional epithelial cell,,,,ManifestColumn
+ transitional principal-intercalated cell,,,,ManifestColumn
+ transitional stage B cell,,,,ManifestColumn
+ trophoblast cell,,,,ManifestColumn
+ tuft cell of small intestine,,,,ManifestColumn
+ type B pancreatic cell,,,,ManifestColumn
+ type EC enteroendocrine cell,,,,ManifestColumn
+ type I NK T cell,,,,ManifestColumn
+ type I cell of carotid body,,,,ManifestColumn
+ type I pneumocyte,,,,ManifestColumn
+ type II pneumocyte,,,,ManifestColumn
+ ulit_120,,,,ManifestColumn
+ ulit_121,,,,ManifestColumn
+ ulit_122,,,,ManifestColumn
+ ulit_123,,,,ManifestColumn
+ ulit_124,,,,ManifestColumn
+ ulit_125,,,,ManifestColumn
+ ulit_126,,,,ManifestColumn
+ ulit_127,,,,ManifestColumn
+ ulit_128,,,,ManifestColumn
+ ulit_129,,,,ManifestColumn
+ ulit_130,,,,ManifestColumn
+ ulit_131,,,,ManifestColumn
+ ulit_133,,,,ManifestColumn
+ ulit_134,,,,ManifestColumn
+ ulit_135,,,,ManifestColumn
+ ulit_138,,,,ManifestColumn
+ unswitched memory B cell,,,,ManifestColumn
+ upper rhombic lip neuron,,,,ManifestColumn
+ ureter adventitial cell,,,,ManifestColumn
+ url_297,,,,ManifestColumn
+ url_308,,,,ManifestColumn
+ url_309,,,,ManifestColumn
+ url_310,,,,ManifestColumn
+ url_311,,,,ManifestColumn
+ url_312,,,,ManifestColumn
+ uterine dendritic cells,,,,ManifestColumn
+ uterine macrophage,,,,ManifestColumn
+ uterine natural killer cell,,,,ManifestColumn
+ uterine nk cell,,,,ManifestColumn
+ uterine smooth muscle type i cell,,,,ManifestColumn
+ uterine smooth muscle type ii cell,,,,ManifestColumn
+ valve interstitial cell,,,,ManifestColumn
+ vasa recta ascending limb cell,,,,ManifestColumn
+ vasa recta cell,,,,ManifestColumn
+ vasa recta descending limb cell,,,,ManifestColumn
+ vascular associated smooth muscle cell,,,,ManifestColumn
+ vascular endothelial cell,,,,ManifestColumn

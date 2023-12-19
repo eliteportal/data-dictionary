@@ -1,47 +1,5 @@
-Key,Key Description,Type,Parent
-AU/ml,,NUMERIC,ValidValue
-DK units/ml,,NUMERIC,ValidValue
-Days,,NUMERIC,ValidValue
-Hours,,NUMERIC,ValidValue
-IU,,NUMERIC,ValidValue
-IU/ml,,NUMERIC,ValidValue
-M,Molar,NUMERIC,ValidValue
-Months,,NUMERIC,ValidValue
-bpg/dl,,NUMERIC,ValidValue
-g/dl,,NUMERIC,ValidValue
-g/l,,NUMERIC,ValidValue
-gm,,NUMERIC,ValidValue
-iu/l,,NUMERIC,ValidValue
-kg,,NUMERIC,ValidValue
-l,,NUMERIC,ValidValue
-mM,,NUMERIC,ValidValue
-mg,,NUMERIC,ValidValue
-mg/dl,,NUMERIC,ValidValue
-mg/l,,NUMERIC,ValidValue
-mg/ml,,NUMERIC,ValidValue
-miu/ml,,NUMERIC,ValidValue
-ml,,NUMERIC,ValidValue
-nM,,NUMERIC,ValidValue
-ng,,NUMERIC,ValidValue
-ng/dl,,NUMERIC,ValidValue
-ng/ml,,NUMERIC,ValidValue
-ng/nl,,NUMERIC,ValidValue
-ng/ul,,NUMERIC,ValidValue
-nl,,NUMERIC,ValidValue
-pM,,NUMERIC,ValidValue
-pg,,NUMERIC,ValidValue
-pg/mg creatinine,,NUMERIC,ValidValue
-pg/ml,,NUMERIC,ValidValue
-pg/nl,,NUMERIC,ValidValue
-pg/ul,,NUMERIC,ValidValue
-pl,,NUMERIC,ValidValue
-uM,,NUMERIC,ValidValue
-ug,,NUMERIC,ValidValue
-ug/dl,,NUMERIC,ValidValue
-ug/l,,NUMERIC,ValidValue
-ug/ml,,NUMERIC,ValidValue
-ug/ul,,NUMERIC,ValidValue
-uiu/ml,,NUMERIC,ValidValue
-ul,,NUMERIC,ValidValue
-umol/l,,NUMERIC,ValidValue
-units/ml,,NUMERIC,ValidValue
+Key,Key Description,Valid Values,columnType,Parent,Module
+Days,,,NUMERIC,MeasurementUnit,Unit
+g/dl,,,NUMERIC,ValidValue,Unit
+Hours,,,NUMERIC,MeasurementUnit,Unit
+Months,,,NUMERIC,ValidValue,Unit

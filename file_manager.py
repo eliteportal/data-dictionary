@@ -7,15 +7,18 @@ Contributors: Dan Lu, Nicholas Lee
 Notes: 
 - CSV names cannot have spaces
 """
+
 # load Parents
 import argparse
 import os
 import re
 import pandas as pd
 from functools import partial
+from pathlib import Path
 from dotenv import dotenv_values
 
 config = dotenv_values(".env")
+ROOT_DIR = Path(__file__).resolve().parent
 
 
 def get_template_keys(data_model, template):
@@ -29,11 +32,14 @@ def get_template_keys(data_model, template):
         list: list of dependsOn terms
     """
 
-    depends_on = (
-        data_model.loc[data_model["Attribute"] == template, "DependsOn"]
-        .str.split(",")
-        .values[0]
-    )
+    depends_on = [
+        d.strip()
+        for d in (
+            data_model.loc[data_model["Attribute"] == template, "DependsOn"]
+            .str.split(",")
+            .values[0]
+        )
+    ]
 
     # extract dependencies for valid values of required attributes
     valid_values = (
@@ -78,20 +84,26 @@ def create_module_csv(data_model, module):
     df = data_model.fillna("")
 
     df = df.loc[(df["Module"] == module),][
-        ["Attribute", "Description", "Valid Values", "Type", "Parent", "Module"]
+        [
+            "Attribute",
+            "Description",
+            "Valid Values",
+            "columnType",
+            "Parent",
+            "Module",
+        ]
     ]
 
-    # add columns
+    # rename columns
     df.rename(
         columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
     )
-    df = df[["Key", "Key Description", "Type", "Parent"]]
 
     # need to make it readable
     term_csv_name = re.sub("\s|/", "_", module)
 
     # write out data frame
-    df.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
+    df.to_csv(Path(ROOT_DIR, "_data", term_csv_name + ".csv"), index=False)
 
     print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))
 
@@ -106,7 +118,7 @@ def create_term_df(data_model, term):
     Returns:
         object: data frame object
     """
-    if "Template" in data_model.query("Attribute == @term")["Parent"].values:
+    if "Template" in data_model.query("Attribute == @term")["Module"].values:
         # generate csv for template
         depends_on = get_template_keys(data_model, term)
 
@@ -120,18 +132,19 @@ def create_term_df(data_model, term):
             [
                 "Attribute",
                 "Description",
-                "Type",
-                "Valid Values",
-                "DependsOn",
                 "Required",
+                "columnType",
+                "DependsOn",
                 "Source",
                 "Parent",
+                "Valid Values",
             ]
         ].reset_index(drop=True)
 
         df.rename(
             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
         )
+
     elif term == "countryCode":
         df = pd.read_excel(
             io="http://wits.worldbank.org/data/public/WITSCountryProfile-Country_Indicator_ProductMetada-en.xlsx",
@@ -157,12 +170,12 @@ def create_term_df(data_model, term):
 
         df = df.loc[
             (df["Attribute"] == term) & (data_model["Parent"] != "validValue"),
-        ][["Attribute", "Valid Values", "DependsOn", "Type", "Parent"]]
+        ][["Attribute", "Valid Values", "DependsOn", "columnType", "Parent"]]
 
         # generate csv for term
         df = (
             df.drop(columns=["Attribute", "DependsOn"])
-            .set_index(["Type", "Parent"])
+            .set_index(["columnType", "Parent"])
             .apply(lambda x: x.str.split(",").explode())
             .reset_index()
         )
@@ -170,7 +183,7 @@ def create_term_df(data_model, term):
         # add columns
         df.rename(columns={"Valid Values": "Key"}, inplace=True)
         df = df.assign(**dict([(_, None) for _ in ["Key Description", "Source"]]))
-        df = df[["Key", "Key Description", "Type", "Source", "Parent"]]
+        df = df[["Key", "Key Description", "columnType", "Source", "Parent"]]
 
     df = df.drop_duplicates()
 
@@ -178,7 +191,7 @@ def create_term_df(data_model, term):
     term_csv_name = re.sub("\s|/", "_", term)
 
     # write out data frame
-    df.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
+    df.to_csv(Path(ROOT_DIR, "_data", term_csv_name + ".csv"), index=False)
 
     print("\033[92m {} \033[00m".format(f"Added {term_csv_name}.csv"))
 
@@ -267,7 +280,7 @@ def manage_files(term=None):
     """
 
     # load data model
-    data_model = pd.read_csv(config["csv_model"])
+    data_model = pd.read_csv(config["csv_model_link"])
 
     # Create CSVs for the modules
     modules = data_model["Module"].unique().tolist()

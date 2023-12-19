@@ -1,16 +1,16 @@
-Key,Key Description,Type,Source,Parent
-blood,,,,DataProperty
-Plasma,,,,DataProperty
-Urine,,,,DataProperty
-Saliva,,,,DataProperty
-stool,,,,DataProperty
-Serum,,,,DataProperty
-tissue,,,,DataProperty
-swabs,,,,DataProperty
-Sputum,,,,DataProperty
-Cerebrospinal Fluid (CSF),,,,DataProperty
-organoid,,,,DataProperty
-Other,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+blood,,,,ManifestColumn
+ Plasma,,,,ManifestColumn
+ Urine,,,,ManifestColumn
+ Saliva,,,,ManifestColumn
+ stool,,,,ManifestColumn
+ Serum,,,,ManifestColumn
+ tissue,,,,ManifestColumn
+ swabs,,,,ManifestColumn
+ Sputum,,,,ManifestColumn
+ Cerebrospinal Fluid (CSF),,,,ManifestColumn
+ organoid,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

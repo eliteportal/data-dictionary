@@ -1,13 +1,14 @@
-Key,Key Description,Type,Parent
-Biospecimen human,Template used for contributing metadata to the ELITE portal,,Template
-Biospecimen nonHuman,Template used for contributing metadata to the ELITE portal,,Template
-Individual Human,Template used for contributing metadata to the ELITE portal,,Template
-Individual nonHuman,Template used for contributing metadata to the ELITE portal,,Template
-Metabolomics Human,Template used for contributing metadata to the ELITE portal,,Template
-Microbiome,Template used for contributing metadata to the ELITE portal,,Template
-RNAseq,Template used for contributing metadata to the ELITE portal,,Template
-Whole Genome Sequencing,Template used for contributing metadata to the ELITE portal,,Template
-bsSeq,bisulfite-seq WGBS methylseq methylomics,,Template
-genotyping,Template used for contributing metadata to the ELITE portal,,Template
-proteomics,Template used for contributing metadata to the ELITE portal,,Template
-scRNAseq,Template used for contributing metadata to the ELITE portal,,Template
+Key,Key Description,Valid Values,columnType,Parent,Module
+Biospecimen human,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Biospecimen nonHuman,Template used for contributing metadata to the ELITE portal,,,Component,Template
+bsSeq,Template used for contributing metadata to the ELITE portal for bisulfite-seq WGBS methylseq methylomics,,,Component,Template
+file_annotation_template,AD file annotation template schema,,,Component,Template
+genotyping,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Individual Human,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Individual nonHuman,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Metabolomics Human,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Microbiome,Template used for contributing metadata to the ELITE portal,,,Component,Template
+proteomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
+RNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
+scRNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Whole Genome Sequencing,Template used for contributing metadata to the ELITE portal,,,Component,Template

@@ -1,16 +1,16 @@
-Key,Key Description,Type,Source,Parent
-DDA-MS,,,,DataProperty
-DIA-MS,,,,DataProperty
-FIA-MSMS,,,,DataProperty
-HPLC-MSMS,,,,DataProperty
-LC-MS,,,,DataProperty
-LC-MSMS,,,,DataProperty
-MDMS-SL,,,,DataProperty
-MIB-MS,,,,DataProperty
-UPLC-MSMS,,,,DataProperty
-UPLC-ESI-QTOF-MS,,,,DataProperty
-LC-SRMOtherMsAssayTechnique,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+DDA-MS,,,,ManifestColumn
+ DIA-MS,,,,ManifestColumn
+ FIA-MSMS,,,,ManifestColumn
+ HPLC-MSMS,,,,ManifestColumn
+ LC-MS,,,,ManifestColumn
+ LC-MSMS,,,,ManifestColumn
+ MDMS-SL,,,,ManifestColumn
+ MIB-MS,,,,ManifestColumn
+ UPLC-MSMS,,,,ManifestColumn
+ UPLC-ESI-QTOF-MS,,,,ManifestColumn
+ LC-SRMOtherMsAssayTechnique,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

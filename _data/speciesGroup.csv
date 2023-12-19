@@ -1,10 +1,10 @@
-Key,Key Description,Type,Source,Parent
-Human,,,,DataProperty
-Rodent,,,,DataProperty
-Bird,,,,DataProperty
-Mammal,,,,DataProperty
-Primate,,,,DataProperty
-Other,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+Human,,,,ManifestColumn
+ Rodent,,,,ManifestColumn
+ Bird,,,,ManifestColumn
+ Mammal,,,,ManifestColumn
+ Primate,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

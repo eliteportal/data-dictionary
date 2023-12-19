@@ -1,12 +1,12 @@
-Key,Key Description,Type,Source,Parent
-bulk cell,,,,DataProperty
-single cell,,,,DataProperty
-bulk nuclei,,,,DataProperty
-single nucleus,,,,DataProperty
-mitochondria,,,,DataProperty
-sorted cells,,,,DataProperty
-sorted nuclei,,,,DataProperty
-Other,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+bulk cell,,,,ManifestColumn
+ single cell,,,,ManifestColumn
+ bulk nuclei,,,,ManifestColumn
+ single nucleus,,,,ManifestColumn
+ mitochondria,,,,ManifestColumn
+ sorted cells,,,,ManifestColumn
+ sorted nuclei,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

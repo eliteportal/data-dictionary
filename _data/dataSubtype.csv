@@ -1,8 +1,8 @@
-Key,Key Description,Type,Source,Parent
-dataMatrix,,,,BaseAnnotation
-metadata,,,,BaseAnnotation
-normalized,,,,BaseAnnotation
-processed,,,,BaseAnnotation
-raw,,,,BaseAnnotation
-residualized,,,,BaseAnnotation
-analysis,,,,BaseAnnotation
+Key,Key Description,columnType,Source,Parent
+dataMatrix,,,,ManifestColumn
+ metadata,,,,ManifestColumn
+ normalized,,,,ManifestColumn
+ processed,,,,ManifestColumn
+ raw,,,,ManifestColumn
+ residualized,,,,ManifestColumn
+ analysis,,,,ManifestColumn

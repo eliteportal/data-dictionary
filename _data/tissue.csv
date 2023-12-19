@@ -1,512 +1,512 @@
-Key,Key Description,Type,Source,Parent
-Abdominal Peritoneum,,,,DataProperty
-Accessory Tissue,,,,DataProperty
-Acinar Salivary Gland System,,,,DataProperty
-Adipose Tissue,,,,DataProperty
-Adrenal Cortex,,,,DataProperty
-Adrenal Gland Tissue,,,,DataProperty
-Adrenal Medulla,,,,DataProperty
-Alveolar Duct,,,,DataProperty
-Alveolar Epithelium,,,,DataProperty
-Alveolar Sac,,,,DataProperty
-Alveolar Septum,,,,DataProperty
-Anal Mucosa,,,,DataProperty
-Aorta Endothelium,,,,DataProperty
-Aorta Smooth Muscle Tissue,,,,DataProperty
-Arachnoid Membrane,,,,DataProperty
-Arterial System Endothelium,,,,DataProperty
-Arterial System Smooth Muscle Tissue,,,,DataProperty
-Arteriole Endothelium,,,,DataProperty
-Arteriole Smooth Muscle Tissue,,,,DataProperty
-Artery Endothelium,,,,DataProperty
-Artery Smooth Muscle Tissue,,,,DataProperty
-Basement Membrane,,,,DataProperty
-Basilar Membrane,,,,DataProperty
-Basilar Membrane of the Membranous Canal of the Cochlea,,,,DataProperty
-Bile Duct Epithelium,,,,DataProperty
-Bile Duct Tissue,,,,DataProperty
-Bladder Lamina Propria,,,,DataProperty
-Bladder Mucosa,,,,DataProperty
-Bladder Muscular Coat,,,,DataProperty
-Bladder Muscularis Mucosa,,,,DataProperty
-Bladder Serosal Surface,,,,DataProperty
-Bladder Tissue,,,,DataProperty
-Bladder Urothelium,,,,DataProperty
-Blood Vessel Endothelium,,,,DataProperty
-Blood Vessel Tissue,,,,DataProperty
-Bone Matrix,,,,DataProperty
-Bone Tissue,,,,DataProperty
-Bone Trabeculae,,,,DataProperty
-Bowman's Membrane,,,,DataProperty
-Brain Arachnoid Membrane,,,,DataProperty
-Brain Dura Mater,,,,DataProperty
-Brain Gray Matter,,,,DataProperty
-Brain Pia Mater,,,,DataProperty
-Brain White Matter,,,,DataProperty
-Breast Fibroglandular Tissue,,,,DataProperty
-Bronchial Epithelium,,,,DataProperty
-Bronchiole Epithelium,,,,DataProperty
-Bronchus Basement Membrane,,,,DataProperty
-Bronchus Connective Tissue,,,,DataProperty
-Bronchus Elastic Tissue,,,,DataProperty
-Bronchus Lamina Propria,,,,DataProperty
-Bronchus Smooth Muscle Tissue,,,,DataProperty
-Bronchus Submucosa,,,,DataProperty
-Bronchus-Associated Lymphoid Tissue,,,,DataProperty
-Brown Adipose Tissue,,,,DataProperty
-Buccal Mucosa,,,,DataProperty
-Bulbar Conjunctiva,,,,DataProperty
-Canalis Radicis Dentis,,,,DataProperty
-Capillary Endothelium,,,,DataProperty
-Cardiac Tissue,,,,DataProperty
-Cartilage Matrix,,,,DataProperty
-Cartilaginous Tissue,,,,DataProperty
-Cementum,,,,DataProperty
-Central Zone of the Prostatic Parenchyma,,,,DataProperty
-Cerebellum White Matter,,,,DataProperty
-Cerebral Meninges,,,,DataProperty
-Cerebral White Matter,,,,DataProperty
-Cervix Epithelium,,,,DataProperty
-Cervix Glandular Epithelium,,,,DataProperty
-Cervix Squamous Epithelium,,,,DataProperty
-Choristoma,,,,DataProperty
-Choroid,,,,DataProperty
-Choroid Plexus Epithelium,,,,DataProperty
-Choroid Plexus Epithelium of the Fourth Ventricle,,,,DataProperty
-Choroid Plexus Epithelium of the Lateral Ventricle,,,,DataProperty
-Ciliary Epithelium,,,,DataProperty
-Ciliated Respiratory Mucosa,,,,DataProperty
-Classic Lobule,,,,DataProperty
-Colonic Mucosa,,,,DataProperty
-Columnar Epithelium,,,,DataProperty
-Conjunctiva,,,,DataProperty
-Conjunctival Epithelium,,,,DataProperty
-Connective Tissue,,,,DataProperty
-Connective Tissue Component of the Peripheral Nerve,,,,DataProperty
-Connective Tissue Proper,,,,DataProperty
-Connective and Soft Tissue,,,,DataProperty
-Corneal Endothelium,,,,DataProperty
-Corneal Epithelium,,,,DataProperty
-Corpus Callosum,,,,DataProperty
-Cortical Bone,,,,DataProperty
-Cortical Cell Layer,,,,DataProperty
-Cortical Cell Layer of the Cerebellum,,,,DataProperty
-Cortical Cell Layer of the Cerebral Cortex,,,,DataProperty
-Crypt Epithelium,,,,DataProperty
-Cuboidal Epithelium,,,,DataProperty
-Deep Gray Matter,,,,DataProperty
-Demineralized Bone Tissue,,,,DataProperty
-Dense Connective Tissue,,,,DataProperty
-Dental Pulp,,,,DataProperty
-Dentin,,,,DataProperty
-Dermal Papilla,,,,DataProperty
-Dermis,,,,DataProperty
-Dermo-Epidermal Junction,,,,DataProperty
-Descemet's Membrane,,,,DataProperty
-Digestive System Lamina Propria,,,,DataProperty
-Duct Salivary Gland System,,,,DataProperty
-Ductal Epithelium,,,,DataProperty
-Duodenal Mucosa,,,,DataProperty
-Dura Mater,,,,DataProperty
-Ectocervical Mucosa,,,,DataProperty
-Ectoderm,,,,DataProperty
-Efferent Ductule Epithelium,,,,DataProperty
-Elastic Cartilage,,,,DataProperty
-Embryonic Connective Tissue,,,,DataProperty
-Embryonic Tissue,,,,DataProperty
-Enamel,,,,DataProperty
-Endocervical Glandular Epithelium,,,,DataProperty
-Endocervical Mucosa,,,,DataProperty
-Endocrine Reproductive Tissue,,,,DataProperty
-Endoderm,,,,DataProperty
-Endometrial Tissue,,,,DataProperty
-Endometrium,,,,DataProperty
-Endoneurium,,,,DataProperty
-Endosteum,,,,DataProperty
-Endothelium,,,,DataProperty
-Endothelium of the Glomerular Capillary,,,,DataProperty
-Ependyma,,,,DataProperty
-Ependyma and Remnants of the Central Canal of the Spinal Cord,,,,DataProperty
-Epidermis,,,,DataProperty
-Epineurium,,,,DataProperty
-Episclera,,,,DataProperty
-Epithelial Tissue,,,,DataProperty
-Epithelium,,,,DataProperty
-Esophageal Epithelium,,,,DataProperty
-Esophageal Lamina Propria,,,,DataProperty
-Esophageal Mucosa,,,,DataProperty
-Esophageal Muscular Coat,,,,DataProperty
-Esophageal Muscularis Mucosa,,,,DataProperty
-Esophageal Serosal Surface,,,,DataProperty
-Esophageal Squamous Epithelium,,,,DataProperty
-Esophageal Tissue,,,,DataProperty
-External Elastic Membrane,,,,DataProperty
-External Granular Layer of the Cerebral Cortex,,,,DataProperty
-External Pyramidal Cell Layer of the Cerebral Cortex,,,,DataProperty
-Extracapsular Tissue,,,,DataProperty
-Extracellular Matrix,,,,DataProperty
-Extrahepatic Bile Duct Epithelium,,,,DataProperty
-Eyelid Connective Tissue,,,,DataProperty
-Eyelid Subcutaneous Connective Tissue,,,,DataProperty
-Fascicle,,,,DataProperty
-Fat Pad,,,,DataProperty
-Fibroadipose Tissue,,,,DataProperty
-Fibrocartilage,,,,DataProperty
-Fibrous Tissue,,,,DataProperty
-Foramen Apicis Dentis,,,,DataProperty
-Fourth Ventricle Ependyma,,,,DataProperty
-Gallbladder Epithelium,,,,DataProperty
-Gallbladder Lamina Propria,,,,DataProperty
-Gallbladder Serosal Surface,,,,DataProperty
-Gallbladder Smooth Muscle Tissue,,,,DataProperty
-Ganglion Cell Layer,,,,DataProperty
-Ganglionic Layer of the Cerebral Cortex,,,,DataProperty
-Gastric Mucosa,,,,DataProperty
-Gastric Muscular Coat,,,,DataProperty
-Gastric Muscularis Mucosa,,,,DataProperty
-Gastric Serosal Surface,,,,DataProperty
-Gastric Submucosa,,,,DataProperty
-Gastric Tissue,,,,DataProperty
-Genital Tubercle,,,,DataProperty
-Germinal Center,,,,DataProperty
-Germinal Epithelium,,,,DataProperty
-Germinal Layer,,,,DataProperty
-Germinative Follicular Epithelium,,,,DataProperty
-Gingiva,,,,DataProperty
-Gingival Epithelium,,,,DataProperty
-Gingival Mucosa,,,,DataProperty
-Glandular Epithelial Tissue,,,,DataProperty
-Glandular Epithelium,,,,DataProperty
-Glomerular Basement Membrane,,,,DataProperty
-Granular Layer of the Cerebellum,,,,DataProperty
-Gray Matter,,,,DataProperty
-Gray Matter of the Spinal Cord,,,,DataProperty
-Gubernaculum Testis,,,,DataProperty
-Gut Epithelium,,,,DataProperty
-Gut-Associated Lymphoid Tissue,,,,DataProperty
-Hassall's Corpuscle,,,,DataProperty
-Haversian Canal,,,,DataProperty
-Haversian System,,,,DataProperty
-Heart Valve Tissue,,,,DataProperty
-Hematopoietic Tissue,,,,DataProperty
-Hematopoietic and Lymphoid Tissue,,,,DataProperty
-Hepatic Lobule,,,,DataProperty
-Hepatic Sinusoid,,,,DataProperty
-Hepatic Tissue,,,,DataProperty
-Hepatobiliary Tissue,,,,DataProperty
-Hyaline Cartilage,,,,DataProperty
-Iliotibial Band,,,,DataProperty
-Immature Bone,,,,DataProperty
-Inner Enamel Epithelium,,,,DataProperty
-Inner Limiting Membrane,,,,DataProperty
-Inner Membrane Amniotic Membrane Tissue,,,,DataProperty
-Inner Nuclear Layer,,,,DataProperty
-Inner Plexiform Layer,,,,DataProperty
-Interfollicular Area of the Lymph Node,,,,DataProperty
-Intermediate Mesoderm,,,,DataProperty
-Internal Elastic Membrane,,,,DataProperty
-Internal Granular Layer of the Cerebellum,,,,DataProperty
-Internal Granular Layer of the Cerebral Cortex,,,,DataProperty
-Intestinal Epithelium,,,,DataProperty
-Intestinal Mucosa,,,,DataProperty
-Intestinal Serosal Surface,,,,DataProperty
-Intestinal Smooth Muscle Tissue,,,,DataProperty
-Intestinal Wall Tissue,,,,DataProperty
-Intrahepatic Bile Duct Epithelium,,,,DataProperty
-Intraparenchymal,,,,DataProperty
-Irregular Dense Connective Tissue,,,,DataProperty
-Islet of Langerhans,,,,DataProperty
-Joint Capsule,,,,DataProperty
-Juxtaglomerular Apparatus,,,,DataProperty
-Lactiferous Duct,,,,DataProperty
-Lamella of Harvesian System,,,,DataProperty
-Lamina Propria,,,,DataProperty
-Large Intestinal Lamina Propria,,,,DataProperty
-Large Intestinal Mucosa,,,,DataProperty
-Large Intestinal Muscular Coat,,,,DataProperty
-Large Intestinal Muscularis Mucosa,,,,DataProperty
-Large Intestinal Serosal Surface,,,,DataProperty
-Large Intestinal Submucosa,,,,DataProperty
-Large Intestinal Wall Tissue,,,,DataProperty
-Laryngeal Connective Tissue,,,,DataProperty
-Laryngeal Epithelium,,,,DataProperty
-Laryngeal Mucosa,,,,DataProperty
-Lateral Mesoderm,,,,DataProperty
-Lateral Ventricle Ependyma,,,,DataProperty
-Layer of the Ophthalmic Nerve Fibers,,,,DataProperty
-Layer of the Rods and Cones,,,,DataProperty
-Left Lung Alveolar Duct,,,,DataProperty
-Leptomeninges,,,,DataProperty
-Liver Acinus,,,,DataProperty
-Loose Connective Tissue,,,,DataProperty
-Lower Gingiva,,,,DataProperty
-Lung Tissue,,,,DataProperty
-Lymph Node Cortex,,,,DataProperty
-Lymph Node Germinal Center,,,,DataProperty
-Lymph Node Lymphoid Follicle,,,,DataProperty
-Lymph Node Medullary Portion,,,,DataProperty
-Lymph Node Sinus,,,,DataProperty
-Lymph Node Subcapsular Sinus,,,,DataProperty
-Lymph Node Tissue,,,,DataProperty
-Lymph Node Trabecula,,,,DataProperty
-Lymphatic Vessel Endothelium,,,,DataProperty
-Lymphatic Vessel Smooth Muscle Tissue,,,,DataProperty
-Lymphoid Follicle,,,,DataProperty
-Lymphoid Tissue,,,,DataProperty
-Mammary Epithelium,,,,DataProperty
-Mammary Gland Tissue,,,,DataProperty
-Mantle Zone,,,,DataProperty
-Marginal Zone,,,,DataProperty
-Marginal Zone of the Lymph Node,,,,DataProperty
-Mature Bone,,,,DataProperty
-Mediastinal Pleura,,,,DataProperty
-Mediastinal Soft Tissue,,,,DataProperty
-Medullary Bone,,,,DataProperty
-Membrane,,,,DataProperty
-Membrane of Reissner,,,,DataProperty
-Membrane of the Brain or Spinal Cord,,,,DataProperty
-Meningeal Layer of the Dura Mater,,,,DataProperty
-Meninges,,,,DataProperty
-Mesangium,,,,DataProperty
-Mesenchyme,,,,DataProperty
-Mesoderm,,,,DataProperty
-Mesonephric Remnants,,,,DataProperty
-Mesothelium,,,,DataProperty
-Molecular Layer of the Cerebellum,,,,DataProperty
-Molecular Layer of the Cerebral Cortex,,,,DataProperty
-Mucosa,,,,DataProperty
-Mucosa of the Lip,,,,DataProperty
-Mucosa of the Lower Lip,,,,DataProperty
-Mucosa of the Upper Lip,,,,DataProperty
-Mucosa-Associated Lymphoid Tissue,,,,DataProperty
-Mucous Connective Tissue,,,,DataProperty
-Multiform Cell Layer of the Cerebral Cortex,,,,DataProperty
-Muscle Layer,,,,DataProperty
-Muscle Tissue,,,,DataProperty
-Muscularis Mucosa,,,,DataProperty
-Myelin Sheath,,,,DataProperty
-Myocardium,,,,DataProperty
-Myometrium,,,,DataProperty
-Nasal Cavity Epithelium,,,,DataProperty
-Nasal Cavity Respiratory Epithelium,,,,DataProperty
-Nasal Mucosa,,,,DataProperty
-Nasal Soft Tissue,,,,DataProperty
-Nasopharynx Epithelium,,,,DataProperty
-Nephron,,,,DataProperty
-Nerve Sheath,,,,DataProperty
-Nerve Tissue,,,,DataProperty
-Nerve Tissue and Nerve Sheaths,,,,DataProperty
-Neuroepithelial Tissue,,,,DataProperty
-and Nerve Sheaths,,,,DataProperty
-Neural Retina,,,,DataProperty
-Neuroectoderm,,,,DataProperty
-Neuroendocrine Tissue,,,,DataProperty
-Neuropil,,,,DataProperty
-Nodular Parenchymal Tissue,,,,DataProperty
-Non-Cellular Component,,,,DataProperty
-Non-Valve Cardiac Conduit Tissue,,,,DataProperty
-Not applicable,,,,DataProperty
-Not collected,,,,DataProperty
-Ocular Tissue,,,,DataProperty
-Odontogenic Ectomesenchyme,,,,DataProperty
-Odontogenic Epithelium,,,,DataProperty
-Odontogenic Tissue,,,,DataProperty
-Olfactory Epithelium,,,,DataProperty
-Olfactory Mucosa,,,,DataProperty
-Oral Cavity Epithelium,,,,DataProperty
-Oral Mucosa,,,,DataProperty
-Oropharyngeal Lymphoid Tissue,,,,DataProperty
-Oropharyngeal Soft Tissue,,,,DataProperty
-Oropharyngeal Tissue,,,,DataProperty
-Oropharynx Epithelium,,,,DataProperty
-Osteoid,,,,DataProperty
-Other,,,,DataProperty
-Outer Enamel Epithelium,,,,DataProperty
-Outer Limiting Membrane,,,,DataProperty
-Outer Nuclear Layer,,,,DataProperty
-Outer Plexiform Layer,,,,DataProperty
-Ovarian Cortex,,,,DataProperty
-Ovarian Medulla,,,,DataProperty
-Ovarian Surface Epithelium,,,,DataProperty
-Ovarian Tissue,,,,DataProperty
-Palpebral Conjunctiva,,,,DataProperty
-Pancreatic Acinus,,,,DataProperty
-Papillary Dermis,,,,DataProperty
-Papillary-Reticular Dermal Interface,,,,DataProperty
-Parametrium,,,,DataProperty
-Paranasal Sinus Epithelium,,,,DataProperty
-Paratesticular Soft Tissue,,,,DataProperty
-Parathyroid Gland Epithelial Tissue,,,,DataProperty
-Parathyroid Gland Follicle,,,,DataProperty
-Parathyroid Gland Tissue,,,,DataProperty
-Paraxial Mesoderm,,,,DataProperty
-Parenchyma,,,,DataProperty
-Parietal Pleura,,,,DataProperty
-Pelvic Peritoneum,,,,DataProperty
-Penis Erectile Tissue,,,,DataProperty
-Perforating Canal,,,,DataProperty
-Periarteriolar Lymphoid Sheath,,,,DataProperty
-Pericardium,,,,DataProperty
-Perineural Tissue,,,,DataProperty
-Perineurium,,,,DataProperty
-Periodontium,,,,DataProperty
-Periorbital Soft Tissue,,,,DataProperty
-Periosteum,,,,DataProperty
-Peripheral Nerve Sheath,,,,DataProperty
-Peripheral Zone of the Prostatic Parenchyma,,,,DataProperty
-Perisinusoidal Space,,,,DataProperty
-Peritoneum,,,,DataProperty
-Periurethral Zone of the Prostatic Parenchyma,,,,DataProperty
-Peyer Patch,,,,DataProperty
-Peyer Patch Germinal Center,,,,DataProperty
-Peyer Patch Lymphoid Follicle,,,,DataProperty
-Pia Mater,,,,DataProperty
-Pigment Epithelium,,,,DataProperty
-Pineal Parenchyma,,,,DataProperty
-Placenta Tissue without Amniotic Elements,,,,DataProperty
-Pleura,,,,DataProperty
-Portal Lobule,,,,DataProperty
-Portal Triad,,,,DataProperty
-Posterior Pigment Epithelium,,,,DataProperty
-Prefrontal Cortex,,,,DataProperty
-Prepuce Epithelium,,,,DataProperty
-Prostatic Duct Tissue,,,,DataProperty
-Prostatic Epithelium,,,,DataProperty
-Prostatic Muscular Tissue,,,,DataProperty
-Prostatic Stroma,,,,DataProperty
-Prostatic Tissue,,,,DataProperty
-Pseudostratified Columnar Ciliated Epithelium,,,,DataProperty
-Pseudostratified Columnar Epithelium,,,,DataProperty
-Pseudostratified Epithelium,,,,DataProperty
-Pulmonary Lobule,,,,DataProperty
-Purkinje Cell Layer of the Cerebellum,,,,DataProperty
-Pyramid of Ferrein,,,,DataProperty
-Pyramid of Malpighi,,,,DataProperty
-Rathke Pouch Epithelium,,,,DataProperty
-Regular Dense Connective Tissue,,,,DataProperty
-Remnants of the Central Canal of the Spinal Cord,,,,DataProperty
-Remnants of the Notochord,,,,DataProperty
-Renal Cortex,,,,DataProperty
-Renal Interstitial Tissue,,,,DataProperty
-Renal Medulla,,,,DataProperty
-Renal Pelvis Urothelium,,,,DataProperty
-Renal Pyramid,,,,DataProperty
-Renal Tissue,,,,DataProperty
-Renal Tubule Basement Membrane,,,,DataProperty
-Renal Tubule Epithelium,,,,DataProperty
-Reproductive Tissue,,,,DataProperty
-Respiratory Bronchiole Epithelium,,,,DataProperty
-Reticular Dermis,,,,DataProperty
-Retina Layer,,,,DataProperty
-Retinal Pigment Epithelium,,,,DataProperty
-Right Lung Alveolar Duct,,,,DataProperty
-Salivary Gland Tissue,,,,DataProperty
-Secondary Tympanic Membrane,,,,DataProperty
-Seminal Vesicle Epithelium,,,,DataProperty
-Seminiferous Epithelium,,,,DataProperty
-Seminiferous Tubule,,,,DataProperty
-Serosa,,,,DataProperty
-Serosal Surface of the Liver,,,,DataProperty
-Sheath of Schwann,,,,DataProperty
-Simple Columnar Epithelium,,,,DataProperty
-Simple Cuboidal Epithelium,,,,DataProperty
-Simple Epithelium,,,,DataProperty
-Simple Squamous Epithelium,,,,DataProperty
-Skeletal Muscle Tissue,,,,DataProperty
-Skin Tissue,,,,DataProperty
-Small Intestinal Lamina Propria,,,,DataProperty
-Small Intestinal Mucosa,,,,DataProperty
-Small Intestinal Muscular Coat,,,,DataProperty
-Small Intestinal Muscularis Mucosa,,,,DataProperty
-Small Intestinal Serosal Surface,,,,DataProperty
-Small Intestinal Submucosa,,,,DataProperty
-Small Intestinal Wall Tissue,,,,DataProperty
-Smooth Muscle Tissue,,,,DataProperty
-Soft Tissue,,,,DataProperty
-Spinal Cord Arachnoid Membrane,,,,DataProperty
-Spinal Cord Dura Mater,,,,DataProperty
-Spinal Cord Pia Mater,,,,DataProperty
-Spinal Meninges,,,,DataProperty
-Splenic Cord,,,,DataProperty
-Splenic Germinal Center,,,,DataProperty
-Splenic Lymphoid Follicle,,,,DataProperty
-Splenic Marginal Sinus,,,,DataProperty
-Splenic Marginal Zone,,,,DataProperty
-Splenic Pulp,,,,DataProperty
-Splenic Red Pulp,,,,DataProperty
-Splenic Sinus,,,,DataProperty
-Splenic Tissue,,,,DataProperty
-Splenic Trabecula,,,,DataProperty
-Splenic White Pulp,,,,DataProperty
-Squamous Epithelium,,,,DataProperty
-Stratified Columnar Epithelium,,,,DataProperty
-Stratified Cuboidal Epithelium,,,,DataProperty
-Stratified Epithelium,,,,DataProperty
-Stratified Squamous Epithelium,,,,DataProperty
-Striated Muscle Tissue,,,,DataProperty
-Stroma,,,,DataProperty
-Subcapsular Epithelium of the Lens,,,,DataProperty
-Subcutis,,,,DataProperty
-Subependymal Tissue,,,,DataProperty
-Submucosa,,,,DataProperty
-Subserosa,,,,DataProperty
-Substantia Nigra,,,,DataProperty
-Superficial Myometrium,,,,DataProperty
-Suprachorioid Lamina,,,,DataProperty
-Surface Ectoderm,,,,DataProperty
-Synovial Membrane,,,,DataProperty
-Tectorial Membrane,,,,DataProperty
-Terminal Bronchiole Epithelium,,,,DataProperty
-Terminal Ductal Lobular Unit,,,,DataProperty
-Testicular Tissue,,,,DataProperty
-Thymic Epithelial Tissue,,,,DataProperty
-Thymic Lobule,,,,DataProperty
-Thymic Lymphoid Tissue,,,,DataProperty
-Thymic Tissue,,,,DataProperty
-Thymic Trabecula,,,,DataProperty
-Thymus Cortex,,,,DataProperty
-Thymus Medulla,,,,DataProperty
-Thyroid Gland Epithelial Tissue,,,,DataProperty
-Thyroid Gland Follicle,,,,DataProperty
-Thyroid Gland Tissue,,,,DataProperty
-Tongue Epithelium,,,,DataProperty
-Tongue Skeletal Muscle Tissue,,,,DataProperty
-Tonsillar Lymphoid Tissue,,,,DataProperty
-Tonsillar Tissue,,,,DataProperty
-Trachea Basement Membrane,,,,DataProperty
-Trachea Lamina Propria,,,,DataProperty
-Trachea Smooth Muscle Tissue,,,,DataProperty
-Trachea Submucosa,,,,DataProperty
-Tracheal Epithelium,,,,DataProperty
-Transitional Epithelium,,,,DataProperty
-Transitional Zone of the Prostatic Parenchyma,,,,DataProperty
-Tunica Adventitia,,,,DataProperty
-Tunica Intima,,,,DataProperty
-Tunica Media,,,,DataProperty
-Tympanic Epithelium,,,,DataProperty
-Tympanic Membrane,,,,DataProperty
-Umbilical Cord Tissue,,,,DataProperty
-Unknown,,,,DataProperty
-Upper Gingiva,,,,DataProperty
-Urachal Epithelium,,,,DataProperty
-Urethra Epithelium,,,,DataProperty
-Urethra Urothelium,,,,DataProperty
-Urothelium,,,,DataProperty
-Uterus Serosal Surface,,,,DataProperty
-Vaginal Epithelium,,,,DataProperty
-Vaginal Squamous Epithelium,,,,DataProperty
-Vas Deferens Epithelium,,,,DataProperty
-Vascular Endothelium,,,,DataProperty
-Vascular Smooth Muscle Tissue,,,,DataProperty
-Vein Endothelium,,,,DataProperty
-Vena Cava Endothelium,,,,DataProperty
-Venous System Endothelium,,,,DataProperty
-Venous System Smooth Muscle Tissue,,,,DataProperty
-Ventricular Wall of the Heart,,,,DataProperty
-Venule Endothelium,,,,DataProperty
-Visceral Pleura,,,,DataProperty
-Visceral Striated Muscle Tissue,,,,DataProperty
-Waldeyer Ring,,,,DataProperty
-White Adipose Tissue,,,,DataProperty
-White Matter,,,,DataProperty
-White Matter of the Spinal Cord,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+Abdominal Peritoneum,,,,ManifestColumn
+ Accessory Tissue,,,,ManifestColumn
+ Acinar Salivary Gland System,,,,ManifestColumn
+ Adipose Tissue,,,,ManifestColumn
+ Adrenal Cortex,,,,ManifestColumn
+ Adrenal Gland Tissue,,,,ManifestColumn
+ Adrenal Medulla,,,,ManifestColumn
+ Alveolar Duct,,,,ManifestColumn
+ Alveolar Epithelium,,,,ManifestColumn
+ Alveolar Sac,,,,ManifestColumn
+ Alveolar Septum,,,,ManifestColumn
+ Anal Mucosa,,,,ManifestColumn
+ Aorta Endothelium,,,,ManifestColumn
+ Aorta Smooth Muscle Tissue,,,,ManifestColumn
+ Arachnoid Membrane,,,,ManifestColumn
+ Arterial System Endothelium,,,,ManifestColumn
+ Arterial System Smooth Muscle Tissue,,,,ManifestColumn
+ Arteriole Endothelium,,,,ManifestColumn
+ Arteriole Smooth Muscle Tissue,,,,ManifestColumn
+ Artery Endothelium,,,,ManifestColumn
+ Artery Smooth Muscle Tissue,,,,ManifestColumn
+ Basement Membrane,,,,ManifestColumn
+ Basilar Membrane,,,,ManifestColumn
+ Basilar Membrane of the Membranous Canal of the Cochlea,,,,ManifestColumn
+ Bile Duct Epithelium,,,,ManifestColumn
+ Bile Duct Tissue,,,,ManifestColumn
+ Bladder Lamina Propria,,,,ManifestColumn
+ Bladder Mucosa,,,,ManifestColumn
+ Bladder Muscular Coat,,,,ManifestColumn
+ Bladder Muscularis Mucosa,,,,ManifestColumn
+ Bladder Serosal Surface,,,,ManifestColumn
+ Bladder Tissue,,,,ManifestColumn
+ Bladder Urothelium,,,,ManifestColumn
+ Blood Vessel Endothelium,,,,ManifestColumn
+ Blood Vessel Tissue,,,,ManifestColumn
+ Bone Matrix,,,,ManifestColumn
+ Bone Tissue,,,,ManifestColumn
+ Bone Trabeculae,,,,ManifestColumn
+ Bowman's Membrane,,,,ManifestColumn
+ Brain Arachnoid Membrane,,,,ManifestColumn
+ Brain Dura Mater,,,,ManifestColumn
+ Brain Gray Matter,,,,ManifestColumn
+ Brain Pia Mater,,,,ManifestColumn
+ Brain White Matter,,,,ManifestColumn
+ Breast Fibroglandular Tissue,,,,ManifestColumn
+ Bronchial Epithelium,,,,ManifestColumn
+ Bronchiole Epithelium,,,,ManifestColumn
+ Bronchus Basement Membrane,,,,ManifestColumn
+ Bronchus Connective Tissue,,,,ManifestColumn
+ Bronchus Elastic Tissue,,,,ManifestColumn
+ Bronchus Lamina Propria,,,,ManifestColumn
+ Bronchus Smooth Muscle Tissue,,,,ManifestColumn
+ Bronchus Submucosa,,,,ManifestColumn
+ Bronchus-Associated Lymphoid Tissue,,,,ManifestColumn
+ Brown Adipose Tissue,,,,ManifestColumn
+ Buccal Mucosa,,,,ManifestColumn
+ Bulbar Conjunctiva,,,,ManifestColumn
+ Canalis Radicis Dentis,,,,ManifestColumn
+ Capillary Endothelium,,,,ManifestColumn
+ Cardiac Tissue,,,,ManifestColumn
+ Cartilage Matrix,,,,ManifestColumn
+ Cartilaginous Tissue,,,,ManifestColumn
+ Cementum,,,,ManifestColumn
+ Central Zone of the Prostatic Parenchyma,,,,ManifestColumn
+ Cerebellum White Matter,,,,ManifestColumn
+ Cerebral Meninges,,,,ManifestColumn
+ Cerebral White Matter,,,,ManifestColumn
+ Cervix Epithelium,,,,ManifestColumn
+ Cervix Glandular Epithelium,,,,ManifestColumn
+ Cervix Squamous Epithelium,,,,ManifestColumn
+ Choristoma,,,,ManifestColumn
+ Choroid,,,,ManifestColumn
+ Choroid Plexus Epithelium,,,,ManifestColumn
+ Choroid Plexus Epithelium of the Fourth Ventricle,,,,ManifestColumn
+ Choroid Plexus Epithelium of the Lateral Ventricle,,,,ManifestColumn
+ Ciliary Epithelium,,,,ManifestColumn
+ Ciliated Respiratory Mucosa,,,,ManifestColumn
+ Classic Lobule,,,,ManifestColumn
+ Colonic Mucosa,,,,ManifestColumn
+ Columnar Epithelium,,,,ManifestColumn
+ Conjunctiva,,,,ManifestColumn
+ Conjunctival Epithelium,,,,ManifestColumn
+ Connective Tissue,,,,ManifestColumn
+ Connective Tissue Component of the Peripheral Nerve,,,,ManifestColumn
+ Connective Tissue Proper,,,,ManifestColumn
+ Connective and Soft Tissue,,,,ManifestColumn
+ Corneal Endothelium,,,,ManifestColumn
+ Corneal Epithelium,,,,ManifestColumn
+ Corpus Callosum,,,,ManifestColumn
+ Cortical Bone,,,,ManifestColumn
+ Cortical Cell Layer,,,,ManifestColumn
+ Cortical Cell Layer of the Cerebellum,,,,ManifestColumn
+ Cortical Cell Layer of the Cerebral Cortex,,,,ManifestColumn
+ Crypt Epithelium,,,,ManifestColumn
+ Cuboidal Epithelium,,,,ManifestColumn
+ Deep Gray Matter,,,,ManifestColumn
+ Demineralized Bone Tissue,,,,ManifestColumn
+ Dense Connective Tissue,,,,ManifestColumn
+ Dental Pulp,,,,ManifestColumn
+ Dentin,,,,ManifestColumn
+ Dermal Papilla,,,,ManifestColumn
+ Dermis,,,,ManifestColumn
+ Dermo-Epidermal Junction,,,,ManifestColumn
+ Descemet's Membrane,,,,ManifestColumn
+ Digestive System Lamina Propria,,,,ManifestColumn
+ Duct Salivary Gland System,,,,ManifestColumn
+ Ductal Epithelium,,,,ManifestColumn
+ Duodenal Mucosa,,,,ManifestColumn
+ Dura Mater,,,,ManifestColumn
+ Ectocervical Mucosa,,,,ManifestColumn
+ Ectoderm,,,,ManifestColumn
+ Efferent Ductule Epithelium,,,,ManifestColumn
+ Elastic Cartilage,,,,ManifestColumn
+ Embryonic Connective Tissue,,,,ManifestColumn
+ Embryonic Tissue,,,,ManifestColumn
+ Enamel,,,,ManifestColumn
+ Endocervical Glandular Epithelium,,,,ManifestColumn
+ Endocervical Mucosa,,,,ManifestColumn
+ Endocrine Reproductive Tissue,,,,ManifestColumn
+ Endoderm,,,,ManifestColumn
+ Endometrial Tissue,,,,ManifestColumn
+ Endometrium,,,,ManifestColumn
+ Endoneurium,,,,ManifestColumn
+ Endosteum,,,,ManifestColumn
+ Endothelium,,,,ManifestColumn
+ Endothelium of the Glomerular Capillary,,,,ManifestColumn
+ Ependyma,,,,ManifestColumn
+ Ependyma and Remnants of the Central Canal of the Spinal Cord,,,,ManifestColumn
+ Epidermis,,,,ManifestColumn
+ Epineurium,,,,ManifestColumn
+ Episclera,,,,ManifestColumn
+ Epithelial Tissue,,,,ManifestColumn
+ Epithelium,,,,ManifestColumn
+ Esophageal Epithelium,,,,ManifestColumn
+ Esophageal Lamina Propria,,,,ManifestColumn
+ Esophageal Mucosa,,,,ManifestColumn
+ Esophageal Muscular Coat,,,,ManifestColumn
+ Esophageal Muscularis Mucosa,,,,ManifestColumn
+ Esophageal Serosal Surface,,,,ManifestColumn
+ Esophageal Squamous Epithelium,,,,ManifestColumn
+ Esophageal Tissue,,,,ManifestColumn
+ External Elastic Membrane,,,,ManifestColumn
+ External Granular Layer of the Cerebral Cortex,,,,ManifestColumn
+ External Pyramidal Cell Layer of the Cerebral Cortex,,,,ManifestColumn
+ Extracapsular Tissue,,,,ManifestColumn
+ Extracellular Matrix,,,,ManifestColumn
+ Extrahepatic Bile Duct Epithelium,,,,ManifestColumn
+ Eyelid Connective Tissue,,,,ManifestColumn
+ Eyelid Subcutaneous Connective Tissue,,,,ManifestColumn
+ Fascicle,,,,ManifestColumn
+ Fat Pad,,,,ManifestColumn
+ Fibroadipose Tissue,,,,ManifestColumn
+ Fibrocartilage,,,,ManifestColumn
+ Fibrous Tissue,,,,ManifestColumn
+ Foramen Apicis Dentis,,,,ManifestColumn
+ Fourth Ventricle Ependyma,,,,ManifestColumn
+ Gallbladder Epithelium,,,,ManifestColumn
+ Gallbladder Lamina Propria,,,,ManifestColumn
+ Gallbladder Serosal Surface,,,,ManifestColumn
+ Gallbladder Smooth Muscle Tissue,,,,ManifestColumn
+ Ganglion Cell Layer,,,,ManifestColumn
+ Ganglionic Layer of the Cerebral Cortex,,,,ManifestColumn
+ Gastric Mucosa,,,,ManifestColumn
+ Gastric Muscular Coat,,,,ManifestColumn
+ Gastric Muscularis Mucosa,,,,ManifestColumn
+ Gastric Serosal Surface,,,,ManifestColumn
+ Gastric Submucosa,,,,ManifestColumn
+ Gastric Tissue,,,,ManifestColumn
+ Genital Tubercle,,,,ManifestColumn
+ Germinal Center,,,,ManifestColumn
+ Germinal Epithelium,,,,ManifestColumn
+ Germinal Layer,,,,ManifestColumn
+ Germinative Follicular Epithelium,,,,ManifestColumn
+ Gingiva,,,,ManifestColumn
+ Gingival Epithelium,,,,ManifestColumn
+ Gingival Mucosa,,,,ManifestColumn
+ Glandular Epithelial Tissue,,,,ManifestColumn
+ Glandular Epithelium,,,,ManifestColumn
+ Glomerular Basement Membrane,,,,ManifestColumn
+ Granular Layer of the Cerebellum,,,,ManifestColumn
+ Gray Matter,,,,ManifestColumn
+ Gray Matter of the Spinal Cord,,,,ManifestColumn
+ Gubernaculum Testis,,,,ManifestColumn
+ Gut Epithelium,,,,ManifestColumn
+ Gut-Associated Lymphoid Tissue,,,,ManifestColumn
+ Hassall's Corpuscle,,,,ManifestColumn
+ Haversian Canal,,,,ManifestColumn
+ Haversian System,,,,ManifestColumn
+ Heart Valve Tissue,,,,ManifestColumn
+ Hematopoietic Tissue,,,,ManifestColumn
+ Hematopoietic and Lymphoid Tissue,,,,ManifestColumn
+ Hepatic Lobule,,,,ManifestColumn
+ Hepatic Sinusoid,,,,ManifestColumn
+ Hepatic Tissue,,,,ManifestColumn
+ Hepatobiliary Tissue,,,,ManifestColumn
+ Hyaline Cartilage,,,,ManifestColumn
+ Iliotibial Band,,,,ManifestColumn
+ Immature Bone,,,,ManifestColumn
+ Inner Enamel Epithelium,,,,ManifestColumn
+ Inner Limiting Membrane,,,,ManifestColumn
+ Inner Membrane Amniotic Membrane Tissue,,,,ManifestColumn
+ Inner Nuclear Layer,,,,ManifestColumn
+ Inner Plexiform Layer,,,,ManifestColumn
+ Interfollicular Area of the Lymph Node,,,,ManifestColumn
+ Intermediate Mesoderm,,,,ManifestColumn
+ Internal Elastic Membrane,,,,ManifestColumn
+ Internal Granular Layer of the Cerebellum,,,,ManifestColumn
+ Internal Granular Layer of the Cerebral Cortex,,,,ManifestColumn
+ Intestinal Epithelium,,,,ManifestColumn
+ Intestinal Mucosa,,,,ManifestColumn
+ Intestinal Serosal Surface,,,,ManifestColumn
+ Intestinal Smooth Muscle Tissue,,,,ManifestColumn
+ Intestinal Wall Tissue,,,,ManifestColumn
+ Intrahepatic Bile Duct Epithelium,,,,ManifestColumn
+ Intraparenchymal,,,,ManifestColumn
+ Irregular Dense Connective Tissue,,,,ManifestColumn
+ Islet of Langerhans,,,,ManifestColumn
+ Joint Capsule,,,,ManifestColumn
+ Juxtaglomerular Apparatus,,,,ManifestColumn
+ Lactiferous Duct,,,,ManifestColumn
+ Lamella of Harvesian System,,,,ManifestColumn
+ Lamina Propria,,,,ManifestColumn
+ Large Intestinal Lamina Propria,,,,ManifestColumn
+ Large Intestinal Mucosa,,,,ManifestColumn
+ Large Intestinal Muscular Coat,,,,ManifestColumn
+ Large Intestinal Muscularis Mucosa,,,,ManifestColumn
+ Large Intestinal Serosal Surface,,,,ManifestColumn
+ Large Intestinal Submucosa,,,,ManifestColumn
+ Large Intestinal Wall Tissue,,,,ManifestColumn
+ Laryngeal Connective Tissue,,,,ManifestColumn
+ Laryngeal Epithelium,,,,ManifestColumn
+ Laryngeal Mucosa,,,,ManifestColumn
+ Lateral Mesoderm,,,,ManifestColumn
+ Lateral Ventricle Ependyma,,,,ManifestColumn
+ Layer of the Ophthalmic Nerve Fibers,,,,ManifestColumn
+ Layer of the Rods and Cones,,,,ManifestColumn
+ Left Lung Alveolar Duct,,,,ManifestColumn
+ Leptomeninges,,,,ManifestColumn
+ Liver Acinus,,,,ManifestColumn
+ Loose Connective Tissue,,,,ManifestColumn
+ Lower Gingiva,,,,ManifestColumn
+ Lung Tissue,,,,ManifestColumn
+ Lymph Node Cortex,,,,ManifestColumn
+ Lymph Node Germinal Center,,,,ManifestColumn
+ Lymph Node Lymphoid Follicle,,,,ManifestColumn
+ Lymph Node Medullary Portion,,,,ManifestColumn
+ Lymph Node Sinus,,,,ManifestColumn
+ Lymph Node Subcapsular Sinus,,,,ManifestColumn
+ Lymph Node Tissue,,,,ManifestColumn
+ Lymph Node Trabecula,,,,ManifestColumn
+ Lymphatic Vessel Endothelium,,,,ManifestColumn
+ Lymphatic Vessel Smooth Muscle Tissue,,,,ManifestColumn
+ Lymphoid Follicle,,,,ManifestColumn
+ Lymphoid Tissue,,,,ManifestColumn
+ Mammary Epithelium,,,,ManifestColumn
+ Mammary Gland Tissue,,,,ManifestColumn
+ Mantle Zone,,,,ManifestColumn
+ Marginal Zone,,,,ManifestColumn
+ Marginal Zone of the Lymph Node,,,,ManifestColumn
+ Mature Bone,,,,ManifestColumn
+ Mediastinal Pleura,,,,ManifestColumn
+ Mediastinal Soft Tissue,,,,ManifestColumn
+ Medullary Bone,,,,ManifestColumn
+ Membrane,,,,ManifestColumn
+ Membrane of Reissner,,,,ManifestColumn
+ Membrane of the Brain or Spinal Cord,,,,ManifestColumn
+ Meningeal Layer of the Dura Mater,,,,ManifestColumn
+ Meninges,,,,ManifestColumn
+ Mesangium,,,,ManifestColumn
+ Mesenchyme,,,,ManifestColumn
+ Mesoderm,,,,ManifestColumn
+ Mesonephric Remnants,,,,ManifestColumn
+ Mesothelium,,,,ManifestColumn
+ Molecular Layer of the Cerebellum,,,,ManifestColumn
+ Molecular Layer of the Cerebral Cortex,,,,ManifestColumn
+ Mucosa,,,,ManifestColumn
+ Mucosa of the Lip,,,,ManifestColumn
+ Mucosa of the Lower Lip,,,,ManifestColumn
+ Mucosa of the Upper Lip,,,,ManifestColumn
+ Mucosa-Associated Lymphoid Tissue,,,,ManifestColumn
+ Mucous Connective Tissue,,,,ManifestColumn
+ Multiform Cell Layer of the Cerebral Cortex,,,,ManifestColumn
+ Muscle Layer,,,,ManifestColumn
+ Muscle Tissue,,,,ManifestColumn
+ Muscularis Mucosa,,,,ManifestColumn
+ Myelin Sheath,,,,ManifestColumn
+ Myocardium,,,,ManifestColumn
+ Myometrium,,,,ManifestColumn
+ Nasal Cavity Epithelium,,,,ManifestColumn
+ Nasal Cavity Respiratory Epithelium,,,,ManifestColumn
+ Nasal Mucosa,,,,ManifestColumn
+ Nasal Soft Tissue,,,,ManifestColumn
+ Nasopharynx Epithelium,,,,ManifestColumn
+ Nephron,,,,ManifestColumn
+ Nerve Sheath,,,,ManifestColumn
+ Nerve Tissue,,,,ManifestColumn
+ Nerve Tissue and Nerve Sheaths,,,,ManifestColumn
+ Neuroepithelial Tissue,,,,ManifestColumn
+ and Nerve Sheaths,,,,ManifestColumn
+ Neural Retina,,,,ManifestColumn
+ Neuroectoderm,,,,ManifestColumn
+ Neuroendocrine Tissue,,,,ManifestColumn
+ Neuropil,,,,ManifestColumn
+ Nodular Parenchymal Tissue,,,,ManifestColumn
+ Non-Cellular Component,,,,ManifestColumn
+ Non-Valve Cardiac Conduit Tissue,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Ocular Tissue,,,,ManifestColumn
+ Odontogenic Ectomesenchyme,,,,ManifestColumn
+ Odontogenic Epithelium,,,,ManifestColumn
+ Odontogenic Tissue,,,,ManifestColumn
+ Olfactory Epithelium,,,,ManifestColumn
+ Olfactory Mucosa,,,,ManifestColumn
+ Oral Cavity Epithelium,,,,ManifestColumn
+ Oral Mucosa,,,,ManifestColumn
+ Oropharyngeal Lymphoid Tissue,,,,ManifestColumn
+ Oropharyngeal Soft Tissue,,,,ManifestColumn
+ Oropharyngeal Tissue,,,,ManifestColumn
+ Oropharynx Epithelium,,,,ManifestColumn
+ Osteoid,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Outer Enamel Epithelium,,,,ManifestColumn
+ Outer Limiting Membrane,,,,ManifestColumn
+ Outer Nuclear Layer,,,,ManifestColumn
+ Outer Plexiform Layer,,,,ManifestColumn
+ Ovarian Cortex,,,,ManifestColumn
+ Ovarian Medulla,,,,ManifestColumn
+ Ovarian Surface Epithelium,,,,ManifestColumn
+ Ovarian Tissue,,,,ManifestColumn
+ Palpebral Conjunctiva,,,,ManifestColumn
+ Pancreatic Acinus,,,,ManifestColumn
+ Papillary Dermis,,,,ManifestColumn
+ Papillary-Reticular Dermal Interface,,,,ManifestColumn
+ Parametrium,,,,ManifestColumn
+ Paranasal Sinus Epithelium,,,,ManifestColumn
+ Paratesticular Soft Tissue,,,,ManifestColumn
+ Parathyroid Gland Epithelial Tissue,,,,ManifestColumn
+ Parathyroid Gland Follicle,,,,ManifestColumn
+ Parathyroid Gland Tissue,,,,ManifestColumn
+ Paraxial Mesoderm,,,,ManifestColumn
+ Parenchyma,,,,ManifestColumn
+ Parietal Pleura,,,,ManifestColumn
+ Pelvic Peritoneum,,,,ManifestColumn
+ Penis Erectile Tissue,,,,ManifestColumn
+ Perforating Canal,,,,ManifestColumn
+ Periarteriolar Lymphoid Sheath,,,,ManifestColumn
+ Pericardium,,,,ManifestColumn
+ Perineural Tissue,,,,ManifestColumn
+ Perineurium,,,,ManifestColumn
+ Periodontium,,,,ManifestColumn
+ Periorbital Soft Tissue,,,,ManifestColumn
+ Periosteum,,,,ManifestColumn
+ Peripheral Nerve Sheath,,,,ManifestColumn
+ Peripheral Zone of the Prostatic Parenchyma,,,,ManifestColumn
+ Perisinusoidal Space,,,,ManifestColumn
+ Peritoneum,,,,ManifestColumn
+ Periurethral Zone of the Prostatic Parenchyma,,,,ManifestColumn
+ Peyer Patch,,,,ManifestColumn
+ Peyer Patch Germinal Center,,,,ManifestColumn
+ Peyer Patch Lymphoid Follicle,,,,ManifestColumn
+ Pia Mater,,,,ManifestColumn
+ Pigment Epithelium,,,,ManifestColumn
+ Pineal Parenchyma,,,,ManifestColumn
+ Placenta Tissue without Amniotic Elements,,,,ManifestColumn
+ Pleura,,,,ManifestColumn
+ Portal Lobule,,,,ManifestColumn
+ Portal Triad,,,,ManifestColumn
+ Posterior Pigment Epithelium,,,,ManifestColumn
+ Prefrontal Cortex,,,,ManifestColumn
+ Prepuce Epithelium,,,,ManifestColumn
+ Prostatic Duct Tissue,,,,ManifestColumn
+ Prostatic Epithelium,,,,ManifestColumn
+ Prostatic Muscular Tissue,,,,ManifestColumn
+ Prostatic Stroma,,,,ManifestColumn
+ Prostatic Tissue,,,,ManifestColumn
+ Pseudostratified Columnar Ciliated Epithelium,,,,ManifestColumn
+ Pseudostratified Columnar Epithelium,,,,ManifestColumn
+ Pseudostratified Epithelium,,,,ManifestColumn
+ Pulmonary Lobule,,,,ManifestColumn
+ Purkinje Cell Layer of the Cerebellum,,,,ManifestColumn
+ Pyramid of Ferrein,,,,ManifestColumn
+ Pyramid of Malpighi,,,,ManifestColumn
+ Rathke Pouch Epithelium,,,,ManifestColumn
+ Regular Dense Connective Tissue,,,,ManifestColumn
+ Remnants of the Central Canal of the Spinal Cord,,,,ManifestColumn
+ Remnants of the Notochord,,,,ManifestColumn
+ Renal Cortex,,,,ManifestColumn
+ Renal Interstitial Tissue,,,,ManifestColumn
+ Renal Medulla,,,,ManifestColumn
+ Renal Pelvis Urothelium,,,,ManifestColumn
+ Renal Pyramid,,,,ManifestColumn
+ Renal Tissue,,,,ManifestColumn
+ Renal Tubule Basement Membrane,,,,ManifestColumn
+ Renal Tubule Epithelium,,,,ManifestColumn
+ Reproductive Tissue,,,,ManifestColumn
+ Respiratory Bronchiole Epithelium,,,,ManifestColumn
+ Reticular Dermis,,,,ManifestColumn
+ Retina Layer,,,,ManifestColumn
+ Retinal Pigment Epithelium,,,,ManifestColumn
+ Right Lung Alveolar Duct,,,,ManifestColumn
+ Salivary Gland Tissue,,,,ManifestColumn
+ Secondary Tympanic Membrane,,,,ManifestColumn
+ Seminal Vesicle Epithelium,,,,ManifestColumn
+ Seminiferous Epithelium,,,,ManifestColumn
+ Seminiferous Tubule,,,,ManifestColumn
+ Serosa,,,,ManifestColumn
+ Serosal Surface of the Liver,,,,ManifestColumn
+ Sheath of Schwann,,,,ManifestColumn
+ Simple Columnar Epithelium,,,,ManifestColumn
+ Simple Cuboidal Epithelium,,,,ManifestColumn
+ Simple Epithelium,,,,ManifestColumn
+ Simple Squamous Epithelium,,,,ManifestColumn
+ Skeletal Muscle Tissue,,,,ManifestColumn
+ Skin Tissue,,,,ManifestColumn
+ Small Intestinal Lamina Propria,,,,ManifestColumn
+ Small Intestinal Mucosa,,,,ManifestColumn
+ Small Intestinal Muscular Coat,,,,ManifestColumn
+ Small Intestinal Muscularis Mucosa,,,,ManifestColumn
+ Small Intestinal Serosal Surface,,,,ManifestColumn
+ Small Intestinal Submucosa,,,,ManifestColumn
+ Small Intestinal Wall Tissue,,,,ManifestColumn
+ Smooth Muscle Tissue,,,,ManifestColumn
+ Soft Tissue,,,,ManifestColumn
+ Spinal Cord Arachnoid Membrane,,,,ManifestColumn
+ Spinal Cord Dura Mater,,,,ManifestColumn
+ Spinal Cord Pia Mater,,,,ManifestColumn
+ Spinal Meninges,,,,ManifestColumn
+ Splenic Cord,,,,ManifestColumn
+ Splenic Germinal Center,,,,ManifestColumn
+ Splenic Lymphoid Follicle,,,,ManifestColumn
+ Splenic Marginal Sinus,,,,ManifestColumn
+ Splenic Marginal Zone,,,,ManifestColumn
+ Splenic Pulp,,,,ManifestColumn
+ Splenic Red Pulp,,,,ManifestColumn
+ Splenic Sinus,,,,ManifestColumn
+ Splenic Tissue,,,,ManifestColumn
+ Splenic Trabecula,,,,ManifestColumn
+ Splenic White Pulp,,,,ManifestColumn
+ Squamous Epithelium,,,,ManifestColumn
+ Stratified Columnar Epithelium,,,,ManifestColumn
+ Stratified Cuboidal Epithelium,,,,ManifestColumn
+ Stratified Epithelium,,,,ManifestColumn
+ Stratified Squamous Epithelium,,,,ManifestColumn
+ Striated Muscle Tissue,,,,ManifestColumn
+ Stroma,,,,ManifestColumn
+ Subcapsular Epithelium of the Lens,,,,ManifestColumn
+ Subcutis,,,,ManifestColumn
+ Subependymal Tissue,,,,ManifestColumn
+ Submucosa,,,,ManifestColumn
+ Subserosa,,,,ManifestColumn
+ Substantia Nigra,,,,ManifestColumn
+ Superficial Myometrium,,,,ManifestColumn
+ Suprachorioid Lamina,,,,ManifestColumn
+ Surface Ectoderm,,,,ManifestColumn
+ Synovial Membrane,,,,ManifestColumn
+ Tectorial Membrane,,,,ManifestColumn
+ Terminal Bronchiole Epithelium,,,,ManifestColumn
+ Terminal Ductal Lobular Unit,,,,ManifestColumn
+ Testicular Tissue,,,,ManifestColumn
+ Thymic Epithelial Tissue,,,,ManifestColumn
+ Thymic Lobule,,,,ManifestColumn
+ Thymic Lymphoid Tissue,,,,ManifestColumn
+ Thymic Tissue,,,,ManifestColumn
+ Thymic Trabecula,,,,ManifestColumn
+ Thymus Cortex,,,,ManifestColumn
+ Thymus Medulla,,,,ManifestColumn
+ Thyroid Gland Epithelial Tissue,,,,ManifestColumn
+ Thyroid Gland Follicle,,,,ManifestColumn
+ Thyroid Gland Tissue,,,,ManifestColumn
+ Tongue Epithelium,,,,ManifestColumn
+ Tongue Skeletal Muscle Tissue,,,,ManifestColumn
+ Tonsillar Lymphoid Tissue,,,,ManifestColumn
+ Tonsillar Tissue,,,,ManifestColumn
+ Trachea Basement Membrane,,,,ManifestColumn
+ Trachea Lamina Propria,,,,ManifestColumn
+ Trachea Smooth Muscle Tissue,,,,ManifestColumn
+ Trachea Submucosa,,,,ManifestColumn
+ Tracheal Epithelium,,,,ManifestColumn
+ Transitional Epithelium,,,,ManifestColumn
+ Transitional Zone of the Prostatic Parenchyma,,,,ManifestColumn
+ Tunica Adventitia,,,,ManifestColumn
+ Tunica Intima,,,,ManifestColumn
+ Tunica Media,,,,ManifestColumn
+ Tympanic Epithelium,,,,ManifestColumn
+ Tympanic Membrane,,,,ManifestColumn
+ Umbilical Cord Tissue,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Upper Gingiva,,,,ManifestColumn
+ Urachal Epithelium,,,,ManifestColumn
+ Urethra Epithelium,,,,ManifestColumn
+ Urethra Urothelium,,,,ManifestColumn
+ Urothelium,,,,ManifestColumn
+ Uterus Serosal Surface,,,,ManifestColumn
+ Vaginal Epithelium,,,,ManifestColumn
+ Vaginal Squamous Epithelium,,,,ManifestColumn
+ Vas Deferens Epithelium,,,,ManifestColumn
+ Vascular Endothelium,,,,ManifestColumn
+ Vascular Smooth Muscle Tissue,,,,ManifestColumn
+ Vein Endothelium,,,,ManifestColumn
+ Vena Cava Endothelium,,,,ManifestColumn
+ Venous System Endothelium,,,,ManifestColumn
+ Venous System Smooth Muscle Tissue,,,,ManifestColumn
+ Ventricular Wall of the Heart,,,,ManifestColumn
+ Venule Endothelium,,,,ManifestColumn
+ Visceral Pleura,,,,ManifestColumn
+ Visceral Striated Muscle Tissue,,,,ManifestColumn
+ Waldeyer Ring,,,,ManifestColumn
+ White Adipose Tissue,,,,ManifestColumn
+ White Matter,,,,ManifestColumn
+ White Matter of the Spinal Cord,,,,ManifestColumn

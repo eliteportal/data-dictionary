@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Parent
-FPKM,,,,DataProperty
-RPKM,,,,DataProperty
-TPM,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+FPKM,,,,ManifestColumn
+ RPKM,,,,ManifestColumn
+ TPM,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

@@ -1,7 +1,7 @@
-Key,Key Description,Type,Source,Parent
-TRUE,,,,DataProperty
-FALSE,,,,DataProperty
-Other,,,,DataProperty
-Uknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+TRUE,,,,ManifestColumn
+ FALSE,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Uknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

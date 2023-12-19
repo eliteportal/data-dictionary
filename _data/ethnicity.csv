@@ -1,8 +1,8 @@
-Key,Key Description,Type,Source,Parent
-Not Hispanic or latino,,,,DataProperty
-Hispanic or latino,,,,DataProperty
-Prefer not to answer,,,,DataProperty
-Other,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+Not Hispanic or latino,,,,ManifestColumn
+ Hispanic or latino,,,,ManifestColumn
+ Prefer not to answer,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

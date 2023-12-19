@@ -1,5 +1,5 @@
-Key,Key Description,Type,Source,Parent
-LC,,,,DataProperty
-LG,,,,DataProperty
-ILO,,,,DataProperty
-LLFS,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+LC,,,,ManifestColumn
+ LG,,,,ManifestColumn
+ ILO,,,,ManifestColumn
+ LLFS,,,,ManifestColumn

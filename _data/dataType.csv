@@ -1,24 +1,24 @@
-Key,Key Description,Type,Source,Parent
-Volume,,,,BaseAnnotation
-Weight,,,,BaseAnnotation
-Pharmacokinetic Study,,,,BaseAnnotation
-genomicVariants,,,,BaseAnnotation
-behavior process,,,,BaseAnnotation
-metabolomics,,,,BaseAnnotation
-image,,,,BaseAnnotation
-geneExpression,,,,BaseAnnotation
-isoformExpression,,,,BaseAnnotation
-proteomics,,,,BaseAnnotation
-kinomics,,,,BaseAnnotation
-drugScreen,,,,BaseAnnotation
-drugCombinationScreen,,,,BaseAnnotation
-cellularPhysiology,,,,BaseAnnotation
-chromatinActivity,,,,BaseAnnotation
-surveyData,,,,BaseAnnotation
-network,,,,BaseAnnotation
-clinical,,,,BaseAnnotation
-immunoassay,,,,BaseAnnotation
-electrophysiology,,,,BaseAnnotation
-metagenomics,,,,BaseAnnotation
-epigenetics,,,,BaseAnnotation
-pharmacology,,,,BaseAnnotation
+Key,Key Description,columnType,Source,Parent
+Volume,,,,ManifestColumn
+ Weight,,,,ManifestColumn
+ Pharmacokinetic Study,,,,ManifestColumn
+ genomicVariants,,,,ManifestColumn
+ behavior process,,,,ManifestColumn
+ metabolomics,,,,ManifestColumn
+ image,,,,ManifestColumn
+ geneExpression,,,,ManifestColumn
+ isoformExpression,,,,ManifestColumn
+ proteomics,,,,ManifestColumn
+ kinomics,,,,ManifestColumn
+ drugScreen,,,,ManifestColumn
+ drugCombinationScreen,,,,ManifestColumn
+ cellularPhysiology,,,,ManifestColumn
+ chromatinActivity,,,,ManifestColumn
+ surveyData,,,,ManifestColumn
+ network,,,,ManifestColumn
+ clinical,,,,ManifestColumn
+ immunoassay,,,,ManifestColumn
+ electrophysiology,,,,ManifestColumn
+ metagenomics,,,,ManifestColumn
+ epigenetics,,,,ManifestColumn
+ pharmacology,,,,ManifestColumn

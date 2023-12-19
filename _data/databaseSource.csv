@@ -1,6 +1,6 @@
-Key,Key Description,Type,Source,Parent
-OtherDatabaseSource,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+OtherDatabaseSource,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

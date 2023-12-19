@@ -1,7 +1,7 @@
-Key,Key Description,Type,Source,Parent
-analysis,,,,BaseAnnotation
-curatedData,,,,BaseAnnotation
-experimentalData,,,,BaseAnnotation
-metadata,,,,BaseAnnotation
-report,,,,BaseAnnotation
-tool,,,,BaseAnnotation
+Key,Key Description,columnType,Source,Parent
+analysis,,,,ManifestColumn
+ curatedData,,,,ManifestColumn
+ experimentalData,,,,ManifestColumn
+ metadata,,,,ManifestColumn
+ report,,,,ManifestColumn
+ tool,,,,ManifestColumn

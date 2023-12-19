@@ -1,9 +1,9 @@
-Key,Key Description,Type,Source,Parent
-BU,,,,DataProperty
-PT,,,,DataProperty
-NY,,,,DataProperty
-DK,,,,DataProperty
-Other,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+BU,,,,ManifestColumn
+ PT,,,,ManifestColumn
+ NY,,,,ManifestColumn
+ DK,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

@@ -1,21 +1,21 @@
-Key,Key Description,Type,Source,Parent
-10x,,,,DataProperty
-Accel-NGS 2S Plus,,,,DataProperty
-Accel-NGS Methyl-Seq,,,,DataProperty
-CEL-seq,,,,DataProperty
-Drop-Seq,,,,DataProperty
-NEBNext,,,,DataProperty
-NexteraXT,,,,DataProperty
-Omni-ATAC,,,,DataProperty
-sac-seq,,,,DataProperty
-Smart-seq1,,,,DataProperty
-Smart-seq2,,,,DataProperty
-Smart-seq4,,,,DataProperty
-SMRTbell,,,,DataProperty
-TruSeq,,,,DataProperty
-Ultralow Methyl-Seq,,,,DataProperty
-OtherLibraryPreparationMethod,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+10x,,,,ManifestColumn
+ Accel-NGS 2S Plus,,,,ManifestColumn
+ Accel-NGS Methyl-Seq,,,,ManifestColumn
+ CEL-seq,,,,ManifestColumn
+ Drop-Seq,,,,ManifestColumn
+ NEBNext,,,,ManifestColumn
+ NexteraXT,,,,ManifestColumn
+ Omni-ATAC,,,,ManifestColumn
+ sac-seq,,,,ManifestColumn
+ Smart-seq1,,,,ManifestColumn
+ Smart-seq2,,,,ManifestColumn
+ Smart-seq4,,,,ManifestColumn
+ SMRTbell,,,,ManifestColumn
+ TruSeq,,,,ManifestColumn
+ Ultralow Methyl-Seq,,,,ManifestColumn
+ OtherLibraryPreparationMethod,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

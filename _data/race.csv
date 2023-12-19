@@ -1,12 +1,12 @@
-Key,Key Description,Type,Source,Parent
-White,,,,DataProperty
-Black or African American,,,,DataProperty
-Asian,,,,DataProperty
-American Indian or Alaska Native,,,,DataProperty
-Native Hawaiian or Other Pacific Islander,,,,DataProperty
-Multiracial,,,,DataProperty
-Other race,,,,DataProperty
-Prefer not to answer,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+Asian,,,,ManifestColumn
+ American Indian or Alaska Native,,,,ManifestColumn
+ Black or African American,,,,ManifestColumn
+ Multiracial,,,,ManifestColumn
+ Native Hawaiian or Other Pacific Islander,,,,ManifestColumn
+ White,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Prefer not to answer,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

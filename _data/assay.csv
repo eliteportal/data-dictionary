@@ -1,117 +1,117 @@
-Key,Key Description,Type,Source,Parent
-10x multiome,,,,DataProperty
-16SrRNAseq,,,,DataProperty
-active avoidance learning behavior,,,,DataProperty
-anxiety-related behavior,,,,DataProperty
-ATACSeq,,,,DataProperty
-atomicForceMicroscopy,,,,DataProperty
-autoradiography,,,,DataProperty
-Baker Lipidomics,,,,DataProperty
-Biocrates Bile Acids,,,,DataProperty
-Biocrates p180,,,,DataProperty
-Biocrates Q500,,,,DataProperty
-bisulfiteSeq,,,,DataProperty
-Blood Chemistry Measurement,,,,DataProperty
-brightfieldMicroscopy,,,,DataProperty
-cellViabilityAssay,,,,DataProperty
-ChIPSeq,,,,DataProperty
-CITESeq,,,,DataProperty
-contextual conditioning behavior,,,,DataProperty
-CUT&Tag,,,,DataProperty
-DIA,,,,DataProperty
-DNA optical mapping,,,,DataProperty
-electrochemiluminescence,,,,DataProperty
-elevated plus maze test,,,,DataProperty
-elevated T maze apparatus method,,,,DataProperty
-ELISA,,,,DataProperty
-errBisulfiteSeq,,,,DataProperty
-exomeSeq,,,,DataProperty
-FIA-MSMS,,,,DataProperty
-FitBark,,,,DataProperty
-frailty assessment,,,,DataProperty
-Genotyping,,,,DataProperty
-HI-C,,,,DataProperty
-HiChIPseq,,,,DataProperty
-high content screen,,,,DataProperty
-HPLC,,,,DataProperty
-HPLC-MSMS,,,,DataProperty
-Immunocytochemistry,,,,DataProperty
-immunofluorescence,,,,DataProperty
-immunohistochemistry,,,,DataProperty
-in vivo bioluminescence,,,,DataProperty
-ISOSeq,,,,DataProperty
-jumpingLibrary,,,,DataProperty
-kinesthetic behavior,,,,DataProperty
-label free mass spectrometry,,,,DataProperty
-Laser Speckle Imaging,,,,DataProperty
-LC-MS,,,,DataProperty
-LC-MSMS,,,,DataProperty
-LC-SRM,,,,DataProperty
-lentiMPRA,,,,DataProperty
-LFP,,,,DataProperty
-liquid chromatography-electrochemical detection,,,,DataProperty
-lncrnaSeq,,,,DataProperty
-locomotor activation behavior,,,,DataProperty
-long-read rnaSeq,,,,DataProperty
-LTP,,,,DataProperty
-MDMS-SL,,,,DataProperty
-memory behavior,,,,DataProperty
-Metabolon,,,,DataProperty
-methylationArray,,,,DataProperty
-MIB/MS,,,,DataProperty
-microRNAcounts,,,,DataProperty
-mirnaArray,,,,DataProperty
-mirnaSeq,,,,DataProperty
-MRI,,,,DataProperty
-mRNAcounts,,,,DataProperty
-MudPIT,,,,DataProperty
-m6A-rnaSeq,,,,DataProperty
-nextGenerationTargetedSequencing,,,,DataProperty
-Nightingale NMR,,,,DataProperty
-NOMe-Seq,,,,DataProperty
-novelty response behavior,,,,DataProperty
-open field test,,,,DataProperty
-oxBS-Seq,,,,DataProperty
-pharmacodynamics,,,,DataProperty
-pharmacokinetics,,,,DataProperty
-photograph,,,,DataProperty
-polymeraseChainReaction,,,,DataProperty
-Positron Emission Tomography,,,,DataProperty
-proximity extension assay,,,,DataProperty
-questionnaire,,,,DataProperty
-Rader Lipidomics,,,,DataProperty
-Real Time PCR,,,,DataProperty
-Ribo-Seq,,,,DataProperty
-rotarod performance test,,,,DataProperty
-rnaArray,,,,DataProperty
-rnaSeq,,,,DataProperty
-RPPA,,,,DataProperty
-sandwich ELISA,,,,DataProperty
-Sanger sequencing,,,,DataProperty
-scale,,,,DataProperty
-scATACSeq,,,,DataProperty
-scCGIseq,,,,DataProperty
-scirnaSeq,,,,DataProperty
-scrnaSeq,,,,DataProperty
-scwholeGenomeSeq,,,,DataProperty
-SiMoA,,,,DataProperty
-snpArray,,,,DataProperty
-snATACSeq,,,,DataProperty
-snrnaSeq,,,,DataProperty
-spontaneous alternation,,,,DataProperty
-STARRSeq,,,,DataProperty
-TMT quantitation,,,,DataProperty
-tractionForceMicroscopy,,,,DataProperty
-UPLC-MSMS,,,,DataProperty
-UPLC-ESI-QTOF-MS,,,,DataProperty
-UC Davis GCTOF,,,,DataProperty
-UCSD Untargeted Metabolomics,,,,DataProperty
-Vernier Caliper,,,,DataProperty
-von Frey test,,,,DataProperty
-westernBlot,,,,DataProperty
-wheel running,,,,DataProperty
-whole-cell patch clamp,,,,DataProperty
-wholeGenomeSeq,,,,DataProperty
-Wishart Catecholamines,,,,DataProperty
-Wishart High Value Metabolites,,,,DataProperty
-Zeno Electronic Walkway,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+10x multiome,,,,ManifestColumn
+ 16SrRNAseq,,,,ManifestColumn
+ active avoidance learning behavior,,,,ManifestColumn
+ anxiety-related behavior,,,,ManifestColumn
+ ATACSeq,,,,ManifestColumn
+ atomicForceMicroscopy,,,,ManifestColumn
+ autoradiography,,,,ManifestColumn
+ Baker Lipidomics,,,,ManifestColumn
+ Biocrates Bile Acids,,,,ManifestColumn
+ Biocrates p180,,,,ManifestColumn
+ Biocrates Q500,,,,ManifestColumn
+ bisulfiteSeq,,,,ManifestColumn
+ Blood Chemistry Measurement,,,,ManifestColumn
+ brightfieldMicroscopy,,,,ManifestColumn
+ cellViabilityAssay,,,,ManifestColumn
+ ChIPSeq,,,,ManifestColumn
+ CITESeq,,,,ManifestColumn
+ contextual conditioning behavior,,,,ManifestColumn
+ CUT&Tag,,,,ManifestColumn
+ DIA,,,,ManifestColumn
+ DNA optical mapping,,,,ManifestColumn
+ electrochemiluminescence,,,,ManifestColumn
+ elevated plus maze test,,,,ManifestColumn
+ elevated T maze apparatus method,,,,ManifestColumn
+ ELISA,,,,ManifestColumn
+ errBisulfiteSeq,,,,ManifestColumn
+ exomeSeq,,,,ManifestColumn
+ FIA-MSMS,,,,ManifestColumn
+ FitBark,,,,ManifestColumn
+ frailty assessment,,,,ManifestColumn
+ Genotyping,,,,ManifestColumn
+ HI-C,,,,ManifestColumn
+ HiChIPseq,,,,ManifestColumn
+ high content screen,,,,ManifestColumn
+ HPLC,,,,ManifestColumn
+ HPLC-MSMS,,,,ManifestColumn
+ Immunocytochemistry,,,,ManifestColumn
+ immunofluorescence,,,,ManifestColumn
+ immunohistochemistry,,,,ManifestColumn
+ in vivo bioluminescence,,,,ManifestColumn
+ ISOSeq,,,,ManifestColumn
+ jumpingLibrary,,,,ManifestColumn
+ kinesthetic behavior,,,,ManifestColumn
+ label free mass spectrometry,,,,ManifestColumn
+ Laser Speckle Imaging,,,,ManifestColumn
+ LC-MS,,,,ManifestColumn
+ LC-MSMS,,,,ManifestColumn
+ LC-SRM,,,,ManifestColumn
+ lentiMPRA,,,,ManifestColumn
+ LFP,,,,ManifestColumn
+ liquid chromatography-electrochemical detection,,,,ManifestColumn
+ lncrnaSeq,,,,ManifestColumn
+ locomotor activation behavior,,,,ManifestColumn
+ long-read rnaSeq,,,,ManifestColumn
+ LTP,,,,ManifestColumn
+ MDMS-SL,,,,ManifestColumn
+ memory behavior,,,,ManifestColumn
+ Metabolon,,,,ManifestColumn
+ methylationArray,,,,ManifestColumn
+ MIB/MS,,,,ManifestColumn
+ microRNAcounts,,,,ManifestColumn
+ mirnaArray,,,,ManifestColumn
+ mirnaSeq,,,,ManifestColumn
+ MRI,,,,ManifestColumn
+ mRNAcounts,,,,ManifestColumn
+ MudPIT,,,,ManifestColumn
+ m6A-rnaSeq,,,,ManifestColumn
+ nextGenerationTargetedSequencing,,,,ManifestColumn
+ Nightingale NMR,,,,ManifestColumn
+ NOMe-Seq,,,,ManifestColumn
+ novelty response behavior,,,,ManifestColumn
+ open field test,,,,ManifestColumn
+ oxBS-Seq,,,,ManifestColumn
+ pharmacodynamics,,,,ManifestColumn
+ pharmacokinetics,,,,ManifestColumn
+ photograph,,,,ManifestColumn
+ polymeraseChainReaction,,,,ManifestColumn
+ Positron Emission Tomography,,,,ManifestColumn
+ proximity extension assay,,,,ManifestColumn
+ questionnaire,,,,ManifestColumn
+ Rader Lipidomics,,,,ManifestColumn
+ Real Time PCR,,,,ManifestColumn
+ Ribo-Seq,,,,ManifestColumn
+ rotarod performance test,,,,ManifestColumn
+ rnaArray,,,,ManifestColumn
+ rnaSeq,,,,ManifestColumn
+ RPPA,,,,ManifestColumn
+ sandwich ELISA,,,,ManifestColumn
+ Sanger sequencing,,,,ManifestColumn
+ scale,,,,ManifestColumn
+ scATACSeq,,,,ManifestColumn
+ scCGIseq,,,,ManifestColumn
+ scirnaSeq,,,,ManifestColumn
+ scrnaSeq,,,,ManifestColumn
+ scwholeGenomeSeq,,,,ManifestColumn
+ SiMoA,,,,ManifestColumn
+ snpArray,,,,ManifestColumn
+ snATACSeq,,,,ManifestColumn
+ snrnaSeq,,,,ManifestColumn
+ spontaneous alternation,,,,ManifestColumn
+ STARRSeq,,,,ManifestColumn
+ TMT quantitation,,,,ManifestColumn
+ tractionForceMicroscopy,,,,ManifestColumn
+ UPLC-MSMS,,,,ManifestColumn
+ UPLC-ESI-QTOF-MS,,,,ManifestColumn
+ UC Davis GCTOF,,,,ManifestColumn
+ UCSD Untargeted Metabolomics,,,,ManifestColumn
+ Vernier Caliper,,,,ManifestColumn
+ von Frey test,,,,ManifestColumn
+ westernBlot,,,,ManifestColumn
+ wheel running,,,,ManifestColumn
+ whole-cell patch clamp,,,,ManifestColumn
+ wholeGenomeSeq,,,,ManifestColumn
+ Wishart Catecholamines,,,,ManifestColumn
+ Wishart High Value Metabolites,,,,ManifestColumn
+ Zeno Electronic Walkway,,,,ManifestColumn

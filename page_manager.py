@@ -13,9 +13,11 @@ import frontmatter
 import numpy as np
 import pandas as pd
 from mdutils import fileutils
+from pathlib import Path
 from dotenv import dotenv_values
 
 config = dotenv_values(".env")
+ROOT_DIR = Path(__file__).resolve().parent
 
 
 def get_info(data_model, term, column="Attribute"):
@@ -36,7 +38,7 @@ def get_info(data_model, term, column="Attribute"):
 
 def create_template_page(term, term_dict):
     # load template for templates in data model
-    post = frontmatter.load("_layouts/template_page_template.md")
+    post = frontmatter.load(Path(ROOT_DIR, "_layouts/template_page_template.md"))
     post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).strip()
     post.metadata["parent"] = term_dict["Module"]
     post.content = (
@@ -50,7 +52,9 @@ def create_template_page(term, term_dict):
     )
 
     # create file
-    file = fileutils.MarkDownFile(f"docs/{term_dict['Module']}/{term}")
+    file = fileutils.MarkDownFile(
+        str(Path(ROOT_DIR, f"docs/{term_dict['Module']}/{term}"))
+    )
 
     # add content to the file
     file.append_end(frontmatter.dumps(post))
@@ -60,7 +64,7 @@ def create_template_page(term, term_dict):
 
 def create_table_page(term, term_dict):
     # load markdown template for a page on the website
-    post = frontmatter.load("_layouts/term_page_template.md")
+    post = frontmatter.load(Path(ROOT_DIR, "_layouts/term_page_template.md"))
     post.metadata["title"] = term
     post.content = (
         "{% assign mydata=site.data."
@@ -78,7 +82,7 @@ def create_table_page(term, term_dict):
 
 def create_module_page(module):
     # load markdown template for a page on the website
-    post = frontmatter.load("_layouts/term_page_template.md")
+    post = frontmatter.load(Path(ROOT_DIR, "_layouts/term_page_template.md"))
     post.metadata["title"] = module
     post.metadata["nav_order"] = 5
     post.metadata["permalink"] = f"docs/Modules/{module}.html"
@@ -94,7 +98,7 @@ def create_module_page(module):
     )
 
     # create a module page
-    module_page = fileutils.MarkDownFile(f"docs/Modules/{module}")
+    module_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/Modules/{module}")))
 
     # add content to the file
     module_page.append_end(frontmatter.dumps(post))
@@ -110,18 +114,20 @@ def create_full_table(data_model):
     df = data_model.rename(
         {"Attribute": "Key", "Description": "Key Description"}, axis=1, errors="ignore"
     )
-    df = df[["Key", "Key Description", "Type", "Source", "Module"]]
-    df.to_csv(f"_data/{module_name}.csv", index=False)
+    df = df[["Key", "Key Description", "columnType", "Source", "Module"]]
+    df.to_csv(Path(ROOT_DIR, f"_data/{module_name}.csv", index=False))
 
     # create directory for the moduel if not exist
     if not os.path.exists(f"docs/{module_name}/"):
         os.mkdir(f"docs/{module_name}/")
 
     # create a module page
-    module = fileutils.MarkDownFile(f"docs/{module_name}/{module_name}")
+    module = fileutils.MarkDownFile(
+        str(Path(ROOT_DIR, f"docs/{module_name}/{module_name}"))
+    )
 
     # creating markdown text
-    post = frontmatter.load("_layouts/term_page_template.md")
+    post = frontmatter.load(Path(ROOT_DIR, "_layouts/term_page_template.md"))
     del post.metadata["parent"]
     post.metadata["title"] = module_name
     post.metadata["nav_order"] = 2
@@ -147,14 +153,14 @@ def delete_page(term):
     :param term: attribute found in the data model
     :type term: str
     """
-    for file in glob.glob("docs/*/*.md"):
+    for file in glob.glob(str(ROOT_DIR) + "/docs/*/*.md"):
         if file.split("/")[-1].split(".")[0] == term:
             os.remove(file)
 
 
 if __name__ == "__main__":
     # load data model csv file
-    data_model = pd.read_csv(config["csv_model"])
+    data_model = pd.read_csv(config["csv_model_link"])
     data_model.fillna("", inplace=True)
 
     # generate a full table in case there needs to be some references to it

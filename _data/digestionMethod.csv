@@ -1,8 +1,7 @@
-Key,Key Description,Type,Source,Parent
-in-solution,,,,DataProperty
-in-gel,,,,DataProperty
-OtherDigestionMethod,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+in-solution,,,,ManifestColumn
+ in-gel,,,,ManifestColumn
+ OtherDigestionMethod,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn

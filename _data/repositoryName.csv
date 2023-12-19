@@ -1,25 +1,25 @@
-Key,Key Description,Type,Source,Parent
-ArrayExpress,,,,DataProperty
-Broad Single Cell Portal,,,,DataProperty
-dbGAP,,,,DataProperty
-ENA,,,,DataProperty
-Ensembl,,,,DataProperty
-FlowRepository,,,,DataProperty
-GenBank,,,,DataProperty
-GEO,,,,DataProperty
-GISAID,,,,DataProperty
-IEDB,,,,DataProperty
-ImmPort,,,,DataProperty
-MassIVE,,,,DataProperty
-MetaboLights,,,,DataProperty
-Metabolomics Workbench,,,,DataProperty
-MGnify,,,,DataProperty
-NCBI Gene,,,,DataProperty
-PRIDE,,,,DataProperty
-SRA,,,,DataProperty
-UniProt,,,,DataProperty
-OtherRepositoryName,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+ArrayExpress,,,,ManifestColumn
+ Broad Single Cell Portal,,,,ManifestColumn
+ dbGAP,,,,ManifestColumn
+ ENA,,,,ManifestColumn
+ Ensembl,,,,ManifestColumn
+ FlowRepository,,,,ManifestColumn
+ GenBank,,,,ManifestColumn
+ GEO,,,,ManifestColumn
+ GISAID,,,,ManifestColumn
+ IEDB,,,,ManifestColumn
+ ImmPort,,,,ManifestColumn
+ MassIVE,,,,ManifestColumn
+ MetaboLights,,,,ManifestColumn
+ Metabolomics Workbench,,,,ManifestColumn
+ MGnify,,,,ManifestColumn
+ NCBI Gene,,,,ManifestColumn
+ PRIDE,,,,ManifestColumn
+ SRA,,,,ManifestColumn
+ UniProt,,,,ManifestColumn
+ OtherRepositoryName,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

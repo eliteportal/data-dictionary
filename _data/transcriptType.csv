@@ -1,9 +1,9 @@
-Key,Key Description,Type,Source,Parent
-lincRNA,,,,DataProperty
-mRNA,,,,DataProperty
-snRNA,,,,DataProperty
-OtherTranscriptType,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+lincRNA,,,,ManifestColumn
+ mRNA,,,,ManifestColumn
+ snRNA,,,,ManifestColumn
+ OtherTranscriptType,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

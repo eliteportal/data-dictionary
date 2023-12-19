@@ -1,25 +1,25 @@
-Key,Key Description,Type,Source,Parent
-amplicon,,,,DataProperty
-cellHashing,,,,DataProperty
-Chromium Single Cell 3',,,,DataProperty
-DNALibraryConstruction,,,,DataProperty
-EndItDNAEndRepairKit,,,,DataProperty
-KapaHyperPrep,,,,DataProperty
-lncRNAenrichment,,,,DataProperty
-methylSeq,,,,DataProperty
-miRNAenrichment,,,,DataProperty
-multiome,,,,DataProperty
-MULTIseq,,,,DataProperty
-PCRfree,,,,DataProperty
-polyAselection,,,,DataProperty
-proximity ligation,,,,DataProperty
-rRNAdepletion,,,,DataProperty
-SPLITseq,,,,DataProperty
-STARRSeq,,,,DataProperty
-SureCell,,,,DataProperty
-totalRNA,,,,DataProperty
-OtherLibraryPrep,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+amplicon,,,,ManifestColumn
+ cellHashing,,,,ManifestColumn
+ Chromium Single Cell 3',,,,ManifestColumn
+ DNALibraryConstruction,,,,ManifestColumn
+ EndItDNAEndRepairKit,,,,ManifestColumn
+ KapaHyperPrep,,,,ManifestColumn
+ lncRNAenrichment,,,,ManifestColumn
+ methylSeq,,,,ManifestColumn
+ miRNAenrichment,,,,ManifestColumn
+ multiome,,,,ManifestColumn
+ MULTIseq,,,,ManifestColumn
+ PCRfree,,,,ManifestColumn
+ polyAselection,,,,ManifestColumn
+ proximity ligation,,,,ManifestColumn
+ rRNAdepletion,,,,ManifestColumn
+ SPLITseq,,,,ManifestColumn
+ STARRSeq,,,,ManifestColumn
+ SureCell,,,,ManifestColumn
+ totalRNA,,,,ManifestColumn
+ OtherLibraryPrep,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

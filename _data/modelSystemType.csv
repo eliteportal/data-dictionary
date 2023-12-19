@@ -1,7 +1,7 @@
-Key,Key Description,Type,Source,Parent
+Key,Key Description,columnType,Source,Parent
 animal,,,,BaseAnnotation
-cerebral organoid,,,,BaseAnnotation
-immortalized cell line,,,,BaseAnnotation
-iPSC,,,,BaseAnnotation
-organoid,,,,BaseAnnotation
-primary cell culture,,,,BaseAnnotation
+ cerebral organoid,,,,BaseAnnotation
+ immortalized cell line,,,,BaseAnnotation
+ iPSC,,,,BaseAnnotation
+ organoid,,,,BaseAnnotation
+ primary cell culture,,,,BaseAnnotation

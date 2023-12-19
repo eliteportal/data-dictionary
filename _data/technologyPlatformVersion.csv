@@ -1,64 +1,64 @@
-Key,Key Description,Type,Source,Parent
-10x Visium Spatial Gene Expression,,,,DataProperty
-Affymetrix Genome-Wide Human SNP 5.0 Array,,,,DataProperty
-Affymetrix Genome-Wide Human SNP 6.0 Array,,,,DataProperty
-Affymetrix Human Gene 1.0 ST Array,,,,DataProperty
-Affymetrix Human Genome U133 Plus 2.0 Array,,,,DataProperty
-Affymetrix U133AB,,,,DataProperty
-Agilent 44Karray,,,,DataProperty
-BGISEQ-500,,,,DataProperty
-Bionano Irys,,,,DataProperty
-Cherry Imaging FACE Platform,,,,DataProperty
-Cherry Imaging TRACE Platform,,,,DataProperty
-Chromium X,,,,DataProperty
-EnVision 2103 Multiplate Reader,,,,DataProperty
-Illumina 1M,,,,DataProperty
-Illumina Genome Analyzer IIx,,,,DataProperty
-Illumina h650,,,,DataProperty
-Illumina HiSeq 2000,,,,DataProperty
-Illumina HiSeq 2500,,,,DataProperty
-Illumina HiSeq 3000,,,,DataProperty
-Illumina HiSeq 4000,,,,DataProperty
-Illumina HiSeq X,,,,DataProperty
-Illumina Human660W-Quad v1.0 BeadChip,,,,DataProperty
-Illumina HumanHap300,,,,DataProperty
-Illumina HumanMethylation450,,,,DataProperty
-Illumina HumanOmni1-Quadv1.0,,,,DataProperty
-Illumina HumanOmniExpress-24 v1.0 BeadChip,,,,DataProperty
-Illumina HumanOmniExpress-24 v1.2 BeadChip,,,,DataProperty
-Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),,,,DataProperty
-Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,,,,DataProperty
-Illumina MouseWG-6 v2.0 expression BeadChip,,,,DataProperty
-Illumina NextSeq 1000,,,,DataProperty
-Illumina NextSeq 2000,,,,DataProperty
-Illumina NextSeq 500,,,,DataProperty
-Illumina NextSeq 550,,,,DataProperty
-Illumina NovaSeq 6000,,,,DataProperty
-Illumina Omni2pt5M,,,,DataProperty
-Illumina Omni5M,,,,DataProperty
-Illumina WholeGenome DASL,,,,DataProperty
-Infinium HumanOmniExpressExome,,,,DataProperty
-LI-COR Odyssey CLx,,,,DataProperty
-LifeViz Infinity System,,,,DataProperty
-LifeViz Micro System,,,,DataProperty
-LTQ Orbitrap XL,,,,DataProperty
-Nanostring Counter,,,,DataProperty
-Nanostring GeoMx,,,,DataProperty
-Olympus DP80,,,,DataProperty
-Orbitrap Fusion Lumos Tribrid,,,,DataProperty
-PacBio RS II,,,,DataProperty
-PacBio Sequel II System,,,,DataProperty
-PacBio Sequel IIe System,,,,DataProperty
-Perlegen 300Karray,,,,DataProperty
-Promega GloMax Discover,,,,DataProperty
-Q Exative HF,,,,DataProperty
-scale,,,,DataProperty
-Spectramax M Series,,,,DataProperty
-Vectra H1 3D Imaging System,,,,DataProperty
-Vevo 3100 Imaging System,,,,DataProperty
-Zeiss LSM 980,,,,DataProperty
-OtherTechnologyPlatformVersion,,,,DataProperty
-Unknown,,,,DataProperty
-Not collected,,,,DataProperty
-Not applicable,,,,DataProperty
-Not Specified,,,,DataProperty
+Key,Key Description,columnType,Source,Parent
+10x Visium Spatial Gene Expression,,,,ManifestColumn
+ Affymetrix Genome-Wide Human SNP 5.0 Array,,,,ManifestColumn
+ Affymetrix Genome-Wide Human SNP 6.0 Array,,,,ManifestColumn
+ Affymetrix Human Gene 1.0 ST Array,,,,ManifestColumn
+ Affymetrix Human Genome U133 Plus 2.0 Array,,,,ManifestColumn
+ Affymetrix U133AB,,,,ManifestColumn
+ Agilent 44Karray,,,,ManifestColumn
+ BGISEQ-500,,,,ManifestColumn
+ Bionano Irys,,,,ManifestColumn
+ Cherry Imaging FACE Platform,,,,ManifestColumn
+ Cherry Imaging TRACE Platform,,,,ManifestColumn
+ Chromium X,,,,ManifestColumn
+ EnVision 2103 Multiplate Reader,,,,ManifestColumn
+ Illumina 1M,,,,ManifestColumn
+ Illumina Genome Analyzer IIx,,,,ManifestColumn
+ Illumina h650,,,,ManifestColumn
+ Illumina HiSeq 2000,,,,ManifestColumn
+ Illumina HiSeq 2500,,,,ManifestColumn
+ Illumina HiSeq 3000,,,,ManifestColumn
+ Illumina HiSeq 4000,,,,ManifestColumn
+ Illumina HiSeq X,,,,ManifestColumn
+ Illumina Human660W-Quad v1.0 BeadChip,,,,ManifestColumn
+ Illumina HumanHap300,,,,ManifestColumn
+ Illumina HumanMethylation450,,,,ManifestColumn
+ Illumina HumanOmni1-Quadv1.0,,,,ManifestColumn
+ Illumina HumanOmniExpress-24 v1.0 BeadChip,,,,ManifestColumn
+ Illumina HumanOmniExpress-24 v1.2 BeadChip,,,,ManifestColumn
+ Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),,,,ManifestColumn
+ Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,,,,ManifestColumn
+ Illumina MouseWG-6 v2.0 expression BeadChip,,,,ManifestColumn
+ Illumina NextSeq 1000,,,,ManifestColumn
+ Illumina NextSeq 2000,,,,ManifestColumn
+ Illumina NextSeq 500,,,,ManifestColumn
+ Illumina NextSeq 550,,,,ManifestColumn
+ Illumina NovaSeq 6000,,,,ManifestColumn
+ Illumina Omni2pt5M,,,,ManifestColumn
+ Illumina Omni5M,,,,ManifestColumn
+ Illumina WholeGenome DASL,,,,ManifestColumn
+ Infinium HumanOmniExpressExome,,,,ManifestColumn
+ LI-COR Odyssey CLx,,,,ManifestColumn
+ LifeViz Infinity System,,,,ManifestColumn
+ LifeViz Micro System,,,,ManifestColumn
+ LTQ Orbitrap XL,,,,ManifestColumn
+ Nanostring Counter,,,,ManifestColumn
+ Nanostring GeoMx,,,,ManifestColumn
+ Olympus DP80,,,,ManifestColumn
+ Orbitrap Fusion Lumos Tribrid,,,,ManifestColumn
+ PacBio RS II,,,,ManifestColumn
+ PacBio Sequel II System,,,,ManifestColumn
+ PacBio Sequel IIe System,,,,ManifestColumn
+ Perlegen 300Karray,,,,ManifestColumn
+ Promega GloMax Discover,,,,ManifestColumn
+ Q Exative HF,,,,ManifestColumn
+ scale,,,,ManifestColumn
+ Spectramax M Series,,,,ManifestColumn
+ Vectra H1 3D Imaging System,,,,ManifestColumn
+ Vevo 3100 Imaging System,,,,ManifestColumn
+ Zeiss LSM 980,,,,ManifestColumn
+ OtherTechnologyPlatformVersion,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn

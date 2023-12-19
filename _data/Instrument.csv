@@ -1,30 +1,30 @@
-Key,Key Description,Type,Parent
-10x Visium Spatial Gene Expression,Instrument Model Name,,ValidValue
-EnVision 2103 Multiplate Reader,Instrument Model Name,,ValidValue
-Exploris 240Exploris 480quadrupole time-of-flight,Instrument Model Name,,ValidValue
-FIA-MSMS,Instrument Model Name,,ValidValue
-Illumina 1M,Instrument Model Name,,ValidValue
-Illumina Genome Analyzer IIx,Instrument Model Name,,ValidValue
-Illumina HiSeq 2000,Instrument Model Name,,ValidValue
-Illumina HiSeq 2500,Instrument Model Name,,ValidValue
-Illumina HiSeq 3000,Instrument Model Name,,ValidValue
-Illumina HiSeq 4000,Instrument Model Name,,ValidValue
-Illumina HiSeq X,Instrument Model Name,,ValidValue
-Illumina Human660W-Quad v1.0 BeadChip,Instrument Model Name,,ValidValue
-Illumina HumanHap300,Instrument Model Name,,ValidValue
-Illumina HumanMethylation450,Instrument Model Name,,ValidValue
-Illumina HumanOmni1-Quadv1.0,Instrument Model Name,,ValidValue
-Illumina HumanOmniExpress-24 v1.0 BeadChip,Instrument Model Name,,ValidValue
-Illumina HumanOmniExpress-24 v1.2 BeadChip,Instrument Model Name,,ValidValue
-Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),Instrument Model Name,,ValidValue
-Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,Instrument Model Name,,ValidValue
-Illumina MouseWG-6 v2.0 expression BeadChip,Instrument Model Name,,ValidValue
-Illumina NextSeq 1000,Instrument Model Name,,ValidValue
-Illumina NextSeq 2000,Instrument Model Name,,ValidValue
-Illumina NextSeq 500,Instrument Model Name,,ValidValue
-Illumina NextSeq 550,Instrument Model Name,,ValidValue
-Illumina NovaSeq 6000,Instrument Model Name,,ValidValue
-Illumina Omni2pt5M,Instrument Model Name,,ValidValue
-Illumina Omni5M,Instrument Model Name,,ValidValue
-Illumina WholeGenome DASL,Instrument Model Name,,ValidValue
-Illumina h650,Instrument Model Name,,ValidValue
+Key,Key Description,Valid Values,columnType,Parent,Module
+10x Visium Spatial Gene Expression,Instrument Model Name,,,ValidValue,Instrument
+EnVision 2103 Multiplate Reader,Instrument Model Name,,,ValidValue,Instrument
+Exploris 240Exploris 480quadrupole time-of-flight,Instrument Model Name,,,ValidValue,Instrument
+FIA-MSMS,Instrument Model Name,,,ValidValue,Instrument
+Illumina 1M,Instrument Model Name,,,ValidValue,Instrument
+Illumina Genome Analyzer IIx,Instrument Model Name,,,ValidValue,Instrument
+Illumina h650,Instrument Model Name,,,ValidValue,Instrument
+Illumina HiSeq 2000,Instrument Model Name,,,ValidValue,Instrument
+Illumina HiSeq 2500,Instrument Model Name,,,ValidValue,Instrument
+Illumina HiSeq 3000,Instrument Model Name,,,ValidValue,Instrument
+Illumina HiSeq 4000,Instrument Model Name,,,ValidValue,Instrument
+Illumina HiSeq X,Instrument Model Name,,,ValidValue,Instrument
+Illumina Human660W-Quad v1.0 BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina HumanHap300,Instrument Model Name,,,ValidValue,Instrument
+Illumina HumanMethylation450,Instrument Model Name,,,ValidValue,Instrument
+Illumina HumanOmni1-Quadv1.0,Instrument Model Name,,,ValidValue,Instrument
+Illumina HumanOmniExpress-24 v1.0 BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina HumanOmniExpress-24 v1.2 BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),Instrument Model Name,,,ValidValue,Instrument
+Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,Instrument Model Name,,,ValidValue,Instrument
+Illumina MouseWG-6 v2.0 expression BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina NextSeq 1000,Instrument Model Name,,,ValidValue,Instrument
+Illumina NextSeq 2000,Instrument Model Name,,,ValidValue,Instrument
+Illumina NextSeq 500,Instrument Model Name,,,ValidValue,Instrument
+Illumina NextSeq 550,Instrument Model Name,,,ValidValue,Instrument
+Illumina NovaSeq 6000,Instrument Model Name,,,ValidValue,Instrument
+Illumina Omni2pt5M,Instrument Model Name,,,ValidValue,Instrument
+Illumina Omni5M,Instrument Model Name,,,ValidValue,Instrument
+Illumina WholeGenome DASL,Instrument Model Name,,,ValidValue,Instrument

@@ -284,6 +284,7 @@ def manage_files(term=None):
 
     # Create CSVs for the modules
     modules = data_model["Module"].unique().tolist()
+
     for m in modules:
         try:
             create_module_csv(data_model, m)

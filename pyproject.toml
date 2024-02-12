@@ -19,6 +19,9 @@ synapseclient = "^3.0.0"
 openpyxl = "^3.1.2"
 linkml = "^1.6.1"
 python-dotenv = "^1.0.0"
+networkx = ">=2.8.6,<3.0.0"
+plotly = "^5.18.0"
+pyvis = "^0.3.2"
 
 
 [tool.poetry.group.dev.dependencies]

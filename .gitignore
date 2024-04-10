@@ -15,3 +15,4 @@ vendor/
 **/__pycache__
 linkML/NF-example-Assay.yaml
 **/.env.secrets
+**/*.log

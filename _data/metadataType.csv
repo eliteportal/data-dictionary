@@ -1,9 +1,9 @@
 Key,Key Description,columnType,Source,Parent
-analytical covariates,,,,BaseAnnotation
+ID mapping,,,,BaseAnnotation
  assay,,,,BaseAnnotation
  biospecimen,,,,BaseAnnotation
  data dictionary,,,,BaseAnnotation
- ID mapping,,,,BaseAnnotation
  individual,,,,BaseAnnotation
  manifest,,,,BaseAnnotation
  protocol,,,,BaseAnnotation
+analytical covariates,,,,BaseAnnotation

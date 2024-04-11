@@ -1,5 +1,12 @@
 Key,Key Description,columnType,Source,Parent
-7z,,,,BaseAnnotation
+DICOM,,,,BaseAnnotation
+ Python script,,,,BaseAnnotation
+ R script,,,,BaseAnnotation
+ RCC,,,,BaseAnnotation
+ RData,,,,BaseAnnotation
+ RLF,,,,BaseAnnotation
+ Sentrix descriptor file,,,,BaseAnnotation
+ Synapse Table,,,,BaseAnnotation
  ab1,,,,BaseAnnotation
  abf,,,,BaseAnnotation
  avi,,,,BaseAnnotation
@@ -23,7 +30,6 @@ Key,Key Description,columnType,Source,Parent
  csv,,,,BaseAnnotation
  czi,,,,BaseAnnotation
  dat,,,,BaseAnnotation
- DICOM,,,,BaseAnnotation
  doc,,,,BaseAnnotation
  dup,,,,BaseAnnotation
  excel,,,,BaseAnnotation
@@ -48,6 +54,7 @@ Key,Key Description,columnType,Source,Parent
  maf,,,,BaseAnnotation
  mat,,,,BaseAnnotation
  md,,,,BaseAnnotation
+ md5,,,,BaseAnnotation
  mov,,,,BaseAnnotation
  mp4,,,,BaseAnnotation
  msf,,,,BaseAnnotation
@@ -60,13 +67,8 @@ Key,Key Description,columnType,Source,Parent
  plink,,,,BaseAnnotation
  png,,,,BaseAnnotation
  powerpoint,,,,BaseAnnotation
- Python script,,,,BaseAnnotation
  pzfx,,,,BaseAnnotation
- R script,,,,BaseAnnotation
  raw,,,,BaseAnnotation
- RCC,,,,BaseAnnotation
- RLF,,,,BaseAnnotation
- RData,,,,BaseAnnotation
  recal,,,,BaseAnnotation
  rmd,,,,BaseAnnotation
  saf,,,,BaseAnnotation
@@ -74,14 +76,12 @@ Key,Key Description,columnType,Source,Parent
  sav,,,,BaseAnnotation
  sdf,,,,BaseAnnotation
  seg,,,,BaseAnnotation
- Sentrix descriptor file,,,,BaseAnnotation
  sf3,,,,BaseAnnotation
  sif,,,,BaseAnnotation
  sqlite,,,,BaseAnnotation
  sra,,,,BaseAnnotation
  svg,,,,BaseAnnotation
  svs,,,,BaseAnnotation
- Synapse Table,,,,BaseAnnotation
  tab,,,,BaseAnnotation
  tagAlign,,,,BaseAnnotation
  tar,,,,BaseAnnotation
@@ -95,3 +95,4 @@ Key,Key Description,columnType,Source,Parent
  xml,,,,BaseAnnotation
  yaml,,,,BaseAnnotation
  zip,,,,BaseAnnotation
+7z,,,,BaseAnnotation

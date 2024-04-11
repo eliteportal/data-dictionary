@@ -1,10 +1,10 @@
 Key,Key Description,columnType,Source,Parent
-Label Free,,,,ManifestColumn
- TMT,,,,ManifestColumn
- ITRAQ,,,,ManifestColumn
- SILAC,,,,ManifestColumn
- Targeted Absolute Quantitation,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+ITRAQ,,,,ManifestColumn
  Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ SILAC,,,,ManifestColumn
+ TMT,,,,ManifestColumn
+ Targeted Absolute Quantitation,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+Label Free,,,,ManifestColumn

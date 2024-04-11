@@ -1,8 +1,8 @@
 Key,Key Description,columnType,Source,Parent
-Juvenile,,,,ManifestColumn
- Post-Juvenile,,,,ManifestColumn
- Adult,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+Adult,,,,ManifestColumn
  Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Post-Juvenile,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+Juvenile,,,,ManifestColumn

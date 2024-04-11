@@ -1,49 +1,49 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
 ANOVA,ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.,,string,AnalysisType,Analysis
 assessment,"The final result of a determination of the value, significance, or extent of.",,string,AnalysisType,Analysis
-batch effect correction,Adjustment of variable of interest for batch effects.,,string,AnalysisType,Analysis
-chromatin accessible quantitative trait loci detection,Chromatin accessible quantitative trait locus analysis. Also abbreviated caQTL or chQTL.,,string,AnalysisType,Analysis
+batch_effect_correction,Adjustment of variable of interest for batch effects.,,string,AnalysisType,Analysis
+chromatin_accessible_quantitative_trait_loci_detection,Chromatin accessible quantitative trait locus analysis. Also abbreviated caQTL or chQTL.,,string,AnalysisType,Analysis
 Clustering,Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).,,string,AnalysisType,Analysis
 comparison,The examination of two or more people or things in order to detect similarities and differences.,,string,AnalysisType,Analysis
-Copy number estimation,Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.,,string,AnalysisType,Analysis
+Copy_number_estimation,Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.,,string,AnalysisType,Analysis
 correlation,"The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others.",,string,AnalysisType,Analysis
-covariate specification,"A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",,string,AnalysisType,Analysis
-data mining,"Use of sophisticated analysis tools to sort through, organize, examine, and combine large sets of information",,string,AnalysisType,Analysis
-data normalization,,,string,AnalysisType,Analysis
-de-novo assembly,Assembly of reference sequence from short read sequences without external reference genome build.,,string,AnalysisType,Analysis
-differential expression,Genes or isoforms that are differentially expressed between two conditions.,,string,AnalysisType,Analysis
-differential methylation,Differences in methylation between a test sample and a normal comparison sample.,,string,AnalysisType,Analysis
-differential network analysis,Identification of changes in coexpression patterns between two conditions.,,string,AnalysisType,Analysis
-DNA methylation imputation,The statistical inference of unobserved DNA methylation marks.,,string,AnalysisType,Analysis
-dose response study,A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.,,string,AnalysisType,Analysis
-Enrichment analysis,Over-representation analysis.,,string,AnalysisType,Analysis
+covariate_specification,"A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",,string,AnalysisType,Analysis
+data_mining,"Use of sophisticated analysis tools to sort through, organize, examine, and combine large sets of information",,string,AnalysisType,Analysis
+data_normalization,,,string,AnalysisType,Analysis
+de-novo_assembly,Assembly of reference sequence from short read sequences without external reference genome build.,,string,AnalysisType,Analysis
+differential_expression,Genes or isoforms that are differentially expressed between two conditions.,,string,AnalysisType,Analysis
+differential_methylation,Differences in methylation between a test sample and a normal comparison sample.,,string,AnalysisType,Analysis
+differential_network_analysis,Identification of changes in coexpression patterns between two conditions.,,string,AnalysisType,Analysis
+DNA_methylation_imputation,The statistical inference of unobserved DNA methylation marks.,,string,AnalysisType,Analysis
+dose_response_study,A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.,,string,AnalysisType,Analysis
+Enrichment_analysis,Over-representation analysis.,,string,AnalysisType,Analysis
 EWAS,epigenome-wide association study,,string,AnalysisType,Analysis
-expression quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein. Abbreviated eQTL.,,string,AnalysisType,Analysis
-Gene expression comparison,Comparison of gene expression profiles.,,string,AnalysisType,Analysis
-Genome-Wide Association,"An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",,string,AnalysisType,Analysis
-genome-wide pleiotropy,Analysis of genomic overlap between traits,,string,AnalysisType,Analysis
-genotype imputation,The statistical inference of unobserved genotypes.,,string,AnalysisType,Analysis
+expression_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein. Abbreviated eQTL.,,string,AnalysisType,Analysis
+Gene_expression_comparison,Comparison of gene expression profiles.,,string,AnalysisType,Analysis
+Genome-Wide_Association,"An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",,string,AnalysisType,Analysis
+genome-wide_pleiotropy,Analysis of genomic overlap between traits,,string,AnalysisType,Analysis
+genotype_imputation,The statistical inference of unobserved genotypes.,,string,AnalysisType,Analysis
 genotypeAncestry,model genetic ancestry from SNP data,,string,AnalysisType,Analysis
-hidden confounder detection,Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.,,string,AnalysisType,Analysis
-manifold learning,Application of any class of non-linear dimensionality reduction methods to produce low dimensional representations of noisy high dimensional data,,string,AnalysisType,Analysis
-Mendelian randomization analysis,The use of the genetic variation of known functions or phenotypes to correlate the causal effects of those functions or phenotypes with a disease outcome.,,string,AnalysisType,Analysis
-methylation quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA. Abbreviated mQTL or meQTL.,,string,AnalysisType,Analysis
-network analysis,"A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",,string,AnalysisType,Analysis
-network driver detection,Identification of drivers of disease based on network analyses.,,string,AnalysisType,Analysis
-outlier detection,An observation in a data set that is numerically distant from the rest of the data.,,string,AnalysisType,Analysis
-peak calling,"An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",,string,AnalysisType,Analysis
-Polygenic Risk Scores,A sample level estimate of the genetic component of disease risk based on genome-wide association studies.,,string,AnalysisType,Analysis
-principal component analysis,Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.,,string,AnalysisType,Analysis
-protein quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate protein expression. Abbreviated pQTL.,,string,AnalysisType,Analysis
+hidden_confounder_detection,Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.,,string,AnalysisType,Analysis
+manifold_learning,Application of any class of non-linear dimensionality reduction methods to produce low dimensional representations of noisy high dimensional data,,string,AnalysisType,Analysis
+Mendelian_randomization_analysis,The use of the genetic variation of known functions or phenotypes to correlate the causal effects of those functions or phenotypes with a disease outcome.,,string,AnalysisType,Analysis
+methylation_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA. Abbreviated mQTL or meQTL.,,string,AnalysisType,Analysis
+network_analysis,"A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",,string,AnalysisType,Analysis
+network_driver_detection,Identification of drivers of disease based on network analyses.,,string,AnalysisType,Analysis
+outlier_detection,An observation in a data set that is numerically distant from the rest of the data.,,string,AnalysisType,Analysis
+peak_calling,"An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",,string,AnalysisType,Analysis
+Polygenic_Risk_Scores,A sample level estimate of the genetic component of disease risk based on genome-wide association studies.,,string,AnalysisType,Analysis
+principal_component_analysis,Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.,,string,AnalysisType,Analysis
+protein_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate protein expression. Abbreviated pQTL.,,string,AnalysisType,Analysis
 purity,"A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components",,string,AnalysisType,Analysis
-quality control,A technique used to ensure a certain level of quality in a product or service.,,string,AnalysisType,Analysis
-search engine output files,These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.,,string,AnalysisType,Analysis
-Sequence alignment,Alignment of reads to a reference genome,,string,AnalysisType,Analysis
-somatic mutation calling,Identification of de-novo mutations in somatic cells.,,string,AnalysisType,Analysis
-statistical network reconstruction,Learning network relationships between genes based on their coexpression patterns.,,string,AnalysisType,Analysis
-structural variation detection,Detection of large regions in a genome subject to copy-number variation or other structural variations.,,string,AnalysisType,Analysis
-Supervised Machine Learning,A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.,,string,AnalysisType,Analysis
-transcript quantification,Quantification of the abundunce of specific gene expression transcript isoforms.,,string,AnalysisType,Analysis
+quality_control,A technique used to ensure a certain level of quality in a product or service.,,string,AnalysisType,Analysis
+search_engine_output_files,These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.,,string,AnalysisType,Analysis
+Sequence_alignment,Alignment of reads to a reference genome,,string,AnalysisType,Analysis
+somatic_mutation_calling,Identification of de-novo mutations in somatic cells.,,string,AnalysisType,Analysis
+statistical_network_reconstruction,Learning network relationships between genes based on their coexpression patterns.,,string,AnalysisType,Analysis
+structural_variation_detection,Detection of large regions in a genome subject to copy-number variation or other structural variations.,,string,AnalysisType,Analysis
+Supervised_Machine_Learning,A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.,,string,AnalysisType,Analysis
+transcript_quantification,Quantification of the abundunce of specific gene expression transcript isoforms.,,string,AnalysisType,Analysis
 variancePartition,Identification of percentage variance explained of a dependent variable by multiple classes of independent variables.,,string,AnalysisType,Analysis
-Variant calling,"Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",,string,AnalysisType,Analysis
+Variant_calling,"Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",,string,AnalysisType,Analysis
 visualization,"Resource that provides access to tools for graphical, interactive, multimodal and multidimensional data and result visualization.",,string,AnalysisType,Analysis

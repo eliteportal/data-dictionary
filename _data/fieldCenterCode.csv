@@ -1,9 +1,9 @@
 Key,Key Description,columnType,Source,Parent
-BU,,,,ManifestColumn
- PT,,,,ManifestColumn
+DK,,,,ManifestColumn
  NY,,,,ManifestColumn
- DK,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
  Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ PT,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+BU,,,,ManifestColumn

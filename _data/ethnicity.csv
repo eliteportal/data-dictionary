@@ -1,8 +1,8 @@
 Key,Key Description,columnType,Source,Parent
-Not Hispanic or latino,,,,ManifestColumn
- Hispanic or latino,,,,ManifestColumn
- Prefer not to answer,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+Hispanic or latino,,,,ManifestColumn
  Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Prefer not to answer,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+Not Hispanic or latino,,,,ManifestColumn

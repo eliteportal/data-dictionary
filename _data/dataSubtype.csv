@@ -1,8 +1,8 @@
 Key,Key Description,columnType,Source,Parent
-dataMatrix,,,,ManifestColumn
+analysis,,,,ManifestColumn
  metadata,,,,ManifestColumn
  normalized,,,,ManifestColumn
  processed,,,,ManifestColumn
  raw,,,,ManifestColumn
  residualized,,,,ManifestColumn
- analysis,,,,ManifestColumn
+dataMatrix,,,,ManifestColumn

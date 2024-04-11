@@ -1,18 +1,34 @@
 Key,Key Description,columnType,Source,Parent
-LTQ Orbitrap XL,,,,ManifestColumn
- Orbitrap Fusion,,,,ManifestColumn
- Orbitrap Fusion Lumos,,,,ManifestColumn
- Q Exactive,,,,ManifestColumn
- Q Exactive HF,,,,ManifestColumn
- Q Exactive HF-X,,,,ManifestColumn
- Q Exactive Plus,,,,ManifestColumn
- Exploris 240Exploris 480quadrupole time-of-flight,,,,ManifestColumn
- time-of-flight,,,,ManifestColumn
- triple quadrupole,,,,ManifestColumn
- Xevo G2 QTOF,,,,ManifestColumn
- Xevo TQ-S,,,,ManifestColumn
- Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,string,,ManifestColumn
+ Exploris 240Exploris 480quadrupole time-of-flight,,string,,ManifestColumn
+ Not Specified,,string,,ManifestColumn
+ Not applicable,,string,,ManifestColumn
+ Not collected,,string,,ManifestColumn
+ Orbitrap Fusion,,string,,ManifestColumn
+ Orbitrap Fusion Lumos,,string,,ManifestColumn
+ Q Exactive,,string,,ManifestColumn
+ Q Exactive HF,,string,,ManifestColumn
+ Q Exactive HF-X,,string,,ManifestColumn
+ Q Exactive Plus,,string,,ManifestColumn
+ Unknown,,string,,ManifestColumn
+ Xevo G2 QTOF,,string,,ManifestColumn
+ Xevo TQ-S,,string,,ManifestColumn
+ time-of-flight,,string,,ManifestColumn
+ triple quadrupole,,string,,ManifestColumn
+Bruker Avance III,,string,,ManifestColumn
+Exploris 240,,string,,ManifestColumn
+Exploris 480,,string,,ManifestColumn
+LTQ Orbitrap XL,,string,,ManifestColumn
+Orbitrap Fusion,,string,,ManifestColumn
+Orbitrap Fusion Lumos,,string,,ManifestColumn
+OtherMsAnalyzerTypeMS2 ,,string,,ManifestColumn
+Q Exactive,,string,,ManifestColumn
+Q Exactive HF,,string,,ManifestColumn
+Q Exactive HF-X,,string,,ManifestColumn
+Q Exactive Plus,,string,,ManifestColumn
+TimsTOF Pro,,string,,ManifestColumn
+Xevo G2 QTOF,,string,,ManifestColumn
+Xevo TQ-S,,string,,ManifestColumn
+quadrupole time-of-flight,,string,,ManifestColumn
+time-of-flight,,string,,ManifestColumn
+triple quadrupole,,string,,ManifestColumn

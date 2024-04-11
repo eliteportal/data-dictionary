@@ -128,7 +128,7 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
     """
 
     if (
-        term in data_model.query("`Attribute` == @term")["Module"].values
+        "Template" in data_model.query("`Attribute` == @term")["Module"].values
         and term != "countryCode"
     ):
         # Generate CSV for template
@@ -159,9 +159,7 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
                 "Long Name",
                 "Region",
             ]
-        ].rename(
-            columns={"Country Code": "Key", "Country Name": "Key Description"}, axis=1
-        )
+        ].rename(columns={"Country Code": "Key", "Country Name": "Key Description"})
         df["Source"] = (
             "https://wits.worldbank.org/countryprofile/metadata/en/country/all"
         )
@@ -175,7 +173,7 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
         ]
         df = filtered_data.loc[
             (filtered_data["Attribute"] == term)
-            & (data_model["Parent"] != "validValue")
+            & (data_model["Parent"] != "ValidValue")
         ][["Attribute", "Valid Values", "DependsOn", "columnType", "Parent"]]
 
         # Explode comma-separated values
@@ -301,25 +299,10 @@ def manage_files(term: str = None) -> None:
         logging.error("CSV data model link in config not found!")
         return
 
-    # Preprocess and compare data models
-    data_model.rename(
-        columns={"Attribute": "Key", "Description": "Key Description"},
-        errors="ignore",
-        inplace=True,
+    # Generate attribute CSVs with sanitization
+    data_model["Attribute"] = data_model["Attribute"].str.replace(
+        "\\s|/", "_", regex=True
     )
-    data_model = data_model[
-        ["Key", "Key Description", "columnType", "Source", "Module"]
-    ]
-
-    comparison = data_model.compare(current_dm)
-
-    if len(comparison) == 0:
-        logging.info("Data models are the same, no changes needed")
-        print("Data models are the same, no changes needed")
-        return
-
-    # Update data model CSV
-    data_model.to_csv(Path(ROOT_DIR, "_data/DataModel.csv"), index=False)
 
     # Generate module CSVs
     modules = data_model["Module"].unique().tolist()
@@ -330,18 +313,28 @@ def manage_files(term: str = None) -> None:
             logging.debug(f"Error creating module CSV for '{module}': {e}")
             print(f"Error creating module CSV for '{module}': {e}")
 
-    # Generate attribute CSVs with sanitization
-    data_model["Attribute"] = data_model["Attribute"].str.replace(
-        "\\s|/", "_", regex=True
-    )
     relevant_data = data_model.loc[
-        (~data_model["Valid Values"].isna()) | (~data_model["DependsOn"].isna())
+        (~data_model["Valid Values"].isna())
+        | (~data_model["DependsOn"].isna()) & (data_model["Parent"] != "ValidValue")
     ]
 
     def generate_csv_temp(attr):
         create_term_df(relevant_data, attr)
 
     list(map(generate_csv_temp, relevant_data["Attribute"].unique()))
+
+    data_model.rename(
+        columns={"Attribute": "Key", "Description": "Key Description"},
+        errors="ignore",
+        inplace=True,
+    )
+
+    data_model = data_model[
+        ["Key", "Key Description", "columnType", "Source", "Module"]
+    ]
+
+    # Update data model CSV
+    data_model.to_csv(Path(ROOT_DIR, "_data/DataModel.csv"), index=False)
 
     logging.info("Successfully created term files for data model")
 

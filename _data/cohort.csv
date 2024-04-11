@@ -1,12 +1,12 @@
 Key,Key Description,columnType,Source,Parent
-Centenarian,,,,ManifestColumn
- US Family,,,,ManifestColumn
+Cardiovascular Health Study (CHS),,,,ManifestColumn
  Denmark Family,,,,ManifestColumn
- The Osteoporotic Fractures in Men (MrOS) Study,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
  Study of Osteoporotic Fractures (SOF),,,,ManifestColumn
  The Health and Aging and Body Composition Study (HealthABC),,,,ManifestColumn
- Cardiovascular Health Study (CHS),,,,ManifestColumn
- Other,,,,ManifestColumn
+ The Osteoporotic Fractures in Men (MrOS) Study,,,,ManifestColumn
+ US Family,,,,ManifestColumn
  Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
+Centenarian,,,,ManifestColumn

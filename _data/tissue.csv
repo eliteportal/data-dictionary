@@ -1,6 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-Abdominal Peritoneum,,,,ManifestColumn
- Accessory Tissue,,,,ManifestColumn
+Accessory Tissue,,,,ManifestColumn
  Acinar Salivary Gland System,,,,ManifestColumn
  Adipose Tissue,,,,ManifestColumn
  Adrenal Cortex,,,,ManifestColumn
@@ -296,11 +295,10 @@ Abdominal Peritoneum,,,,ManifestColumn
  Nerve Sheath,,,,ManifestColumn
  Nerve Tissue,,,,ManifestColumn
  Nerve Tissue and Nerve Sheaths,,,,ManifestColumn
- Neuroepithelial Tissue,,,,ManifestColumn
- and Nerve Sheaths,,,,ManifestColumn
  Neural Retina,,,,ManifestColumn
  Neuroectoderm,,,,ManifestColumn
  Neuroendocrine Tissue,,,,ManifestColumn
+ Neuroepithelial Tissue,,,,ManifestColumn
  Neuropil,,,,ManifestColumn
  Nodular Parenchymal Tissue,,,,ManifestColumn
  Non-Cellular Component,,,,ManifestColumn
@@ -510,3 +508,6 @@ Abdominal Peritoneum,,,,ManifestColumn
  White Adipose Tissue,,,,ManifestColumn
  White Matter,,,,ManifestColumn
  White Matter of the Spinal Cord,,,,ManifestColumn
+ and Nerve Sheaths,,,,ManifestColumn
+ blood,,,,ManifestColumn
+Abdominal Peritoneum,,,,ManifestColumn

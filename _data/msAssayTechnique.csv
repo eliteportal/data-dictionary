@@ -1,16 +1,16 @@
 Key,Key Description,columnType,Source,Parent
-DDA-MS,,,,ManifestColumn
- DIA-MS,,,,ManifestColumn
- FIA-MSMS,,,,ManifestColumn
- HPLC-MSMS,,,,ManifestColumn
- LC-MS,,,,ManifestColumn
- LC-MSMS,,,,ManifestColumn
- MDMS-SL,,,,ManifestColumn
- MIB-MS,,,,ManifestColumn
- UPLC-MSMS,,,,ManifestColumn
- UPLC-ESI-QTOF-MS,,,,ManifestColumn
- LC-SRMOtherMsAssayTechnique,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+DIA-MS,,string,,ManifestColumn
+ FIA-MSMS,,string,,ManifestColumn
+ HPLC-MSMS,,string,,ManifestColumn
+ LC-MS,,string,,ManifestColumn
+ LC-MSMS,,string,,ManifestColumn
+ LC-SRMOtherMsAssayTechnique,,string,,ManifestColumn
+ MDMS-SL,,string,,ManifestColumn
+ MIB-MS,,string,,ManifestColumn
+ Not Specified,,string,,ManifestColumn
+ Not applicable,,string,,ManifestColumn
+ Not collected,,string,,ManifestColumn
+ UPLC-ESI-QTOF-MS,,string,,ManifestColumn
+ UPLC-MSMS,,string,,ManifestColumn
+ Unknown,,string,,ManifestColumn
+DDA-MS,,string,,ManifestColumn

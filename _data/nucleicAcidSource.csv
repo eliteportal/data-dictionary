@@ -1,12 +1,12 @@
 Key,Key Description,columnType,Source,Parent
-bulk cell,,,,ManifestColumn
- single cell,,,,ManifestColumn
- bulk nuclei,,,,ManifestColumn
- single nucleus,,,,ManifestColumn
- mitochondria,,,,ManifestColumn
- sorted cells,,,,ManifestColumn
- sorted nuclei,,,,ManifestColumn
+Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
  Other,,,,ManifestColumn
  Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
+ bulk nuclei,,,,ManifestColumn
+ mitochondria,,,,ManifestColumn
+ single cell,,,,ManifestColumn
+ single nucleus,,,,ManifestColumn
+ sorted cells,,,,ManifestColumn
+ sorted nuclei,,,,ManifestColumn
+bulk cell,,,,ManifestColumn

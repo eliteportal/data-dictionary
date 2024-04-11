@@ -1,6 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+Not collected,,,,ManifestColumn
  Other,,,,ManifestColumn
  Unknown,,,,ManifestColumn
  alveolar capillary type 1 endothelial cell,,,,ManifestColumn
@@ -25,3 +24,4 @@ Not applicable,,,,ManifestColumn
  vasa recta descending limb cell,,,,ManifestColumn
  vein endothelial cell,,,,ManifestColumn
  vein endothelial cell of respiratory system,,,,ManifestColumn
+Not applicable,,,,ManifestColumn

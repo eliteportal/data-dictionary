@@ -1,5 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+Not Specified,,string,,ManifestColumn
+ Not applicable,,string,,ManifestColumn
+ Not collected,,string,,ManifestColumn
+Unknown,,string,,ManifestColumn

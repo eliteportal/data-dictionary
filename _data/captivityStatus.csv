@@ -1,8 +1,8 @@
 Key,Key Description,columnType,Source,Parent
-CaptiveCaptivityStatus,,,,ManifestColumn
- Stranded,,,,ManifestColumn
- Wild,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
+Not applicable,,,,ManifestColumn
  Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Stranded,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Wild,,,,ManifestColumn
+CaptiveCaptivityStatus,,,,ManifestColumn

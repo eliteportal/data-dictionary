@@ -1,6 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-Abdominal Skin,,,,ManifestColumn
- Accessory Lacrimal Gland,,,,ManifestColumn
+Accessory Lacrimal Gland,,,,ManifestColumn
  Adrenal Gland,,,,ManifestColumn
  Alveolar Duct,,,,ManifestColumn
  Anal Gland,,,,ManifestColumn
@@ -21,13 +20,6 @@ Abdominal Skin,,,,ManifestColumn
  Biliary Tract,,,,ManifestColumn
  Bladder,,,,ManifestColumn
  Bone Marrow,,,,ManifestColumn
- Femur,,,,ManifestColumn
- Humerus,,,,ManifestColumn
- Rib,,,,ManifestColumn
- Scapula,,,,ManifestColumn
- Sternum,,,,ManifestColumn
- Tibia,,,,ManifestColumn
- Vertebral,,,,ManifestColumn
  Both Eyes,,,,ManifestColumn
  Brachial Lymph Node,,,,ManifestColumn
  Brain,,,,ManifestColumn
@@ -90,6 +82,7 @@ Abdominal Skin,,,,ManifestColumn
  Female Prepuce,,,,ManifestColumn
  Female Urethra,,,,ManifestColumn
  Femoral Lymph Node,,,,ManifestColumn
+ Femur,,,,ManifestColumn
  Fixed Lymph Node,,,,ManifestColumn
  Flexural Skin,,,,ManifestColumn
  Foot Digit Skin,,,,ManifestColumn
@@ -116,6 +109,7 @@ Abdominal Skin,,,,ManifestColumn
  Hilar Portion of the Hepatic Duct,,,,ManifestColumn
  Hilar Portion of the Left Hepatic Duct,,,,ManifestColumn
  Hilar Portion of the Right Hepatic Duct,,,,ManifestColumn
+ Humerus,,,,ManifestColumn
  Ileum Lymph Node,,,,ManifestColumn
  Iliac Lymph Node,,,,ManifestColumn
  Inferior Mediastinal Lymph Node,,,,ManifestColumn
@@ -261,6 +255,7 @@ Abdominal Skin,,,,ManifestColumn
  Retroperitoneal Lymph Node,,,,ManifestColumn
  Retropharyngeal Lymph Node,,,,ManifestColumn
  Retrosacral Lymph Node,,,,ManifestColumn
+ Rib,,,,ManifestColumn
  Right Adrenal Gland,,,,ManifestColumn
  Right Breast,,,,ManifestColumn
  Right Ear,,,,ManifestColumn
@@ -279,6 +274,7 @@ Abdominal Skin,,,,ManifestColumn
  Salivary Gland,,,,ManifestColumn
  Scalene Lymph Node,,,,ManifestColumn
  Scalp,,,,ManifestColumn
+ Scapula,,,,ManifestColumn
  Scrotum,,,,ManifestColumn
  Sebaceous Gland,,,,ManifestColumn
  Sebaceous Gland Duct,,,,ManifestColumn
@@ -319,6 +315,7 @@ Abdominal Skin,,,,ManifestColumn
  Spleen,,,,ManifestColumn
  Splenic Hilar Lymph Node,,,,ManifestColumn
  Splenic Lymph Node,,,,ManifestColumn
+ Sternum,,,,ManifestColumn
  Stomach,,,,ManifestColumn
  Striated Duct,,,,ManifestColumn
  Subcarinal Lymph Node,,,,ManifestColumn
@@ -344,6 +341,7 @@ Abdominal Skin,,,,ManifestColumn
  Thoracic Lymph Node,,,,ManifestColumn
  Thymus Gland,,,,ManifestColumn
  Thyroid Gland,,,,ManifestColumn
+ Tibia,,,,ManifestColumn
  Tongue,,,,ManifestColumn
  Tonsil,,,,ManifestColumn
  Trachea,,,,ManifestColumn
@@ -360,5 +358,7 @@ Abdominal Skin,,,,ManifestColumn
  Utriculosaccular Duct,,,,ManifestColumn
  Vagina,,,,ManifestColumn
  Vas Deferens,,,,ManifestColumn
+ Vertebral,,,,ManifestColumn
  Vulva,,,,ManifestColumn
  Wrist Skin,,,,ManifestColumn
+Abdominal Skin,,,,ManifestColumn

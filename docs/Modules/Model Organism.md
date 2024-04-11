@@ -11,7 +11,7 @@ title: Model Organism
 {: .note-title } 
 >Model Organism
 >
->Module in the data modele
+>Module in the data model
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

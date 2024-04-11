@@ -1,24 +1,24 @@
 Key,Key Description,columnType,Source,Parent
-Volume,,,,ManifestColumn
+Pharmacokinetic Study,,,,ManifestColumn
  Weight,,,,ManifestColumn
- Pharmacokinetic Study,,,,ManifestColumn
- genomicVariants,,,,ManifestColumn
  behavior process,,,,ManifestColumn
- metabolomics,,,,ManifestColumn
- image,,,,ManifestColumn
- geneExpression,,,,ManifestColumn
- isoformExpression,,,,ManifestColumn
- proteomics,,,,ManifestColumn
- kinomics,,,,ManifestColumn
- drugScreen,,,,ManifestColumn
- drugCombinationScreen,,,,ManifestColumn
  cellularPhysiology,,,,ManifestColumn
  chromatinActivity,,,,ManifestColumn
- surveyData,,,,ManifestColumn
- network,,,,ManifestColumn
  clinical,,,,ManifestColumn
- immunoassay,,,,ManifestColumn
+ drugCombinationScreen,,,,ManifestColumn
+ drugScreen,,,,ManifestColumn
  electrophysiology,,,,ManifestColumn
- metagenomics,,,,ManifestColumn
  epigenetics,,,,ManifestColumn
+ geneExpression,,,,ManifestColumn
+ genomicVariants,,,,ManifestColumn
+ image,,,,ManifestColumn
+ immunoassay,,,,ManifestColumn
+ isoformExpression,,,,ManifestColumn
+ kinomics,,,,ManifestColumn
+ metabolomics,,,,ManifestColumn
+ metagenomics,,,,ManifestColumn
+ network,,,,ManifestColumn
  pharmacology,,,,ManifestColumn
+ proteomics,,,,ManifestColumn
+ surveyData,,,,ManifestColumn
+Volume,,,,ManifestColumn

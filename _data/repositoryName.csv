@@ -1,25 +1,25 @@
 Key,Key Description,columnType,Source,Parent
-ArrayExpress,,,,ManifestColumn
- Broad Single Cell Portal,,,,ManifestColumn
- dbGAP,,,,ManifestColumn
+Broad Single Cell Portal,,,,ManifestColumn
  ENA,,,,ManifestColumn
  Ensembl,,,,ManifestColumn
  FlowRepository,,,,ManifestColumn
- GenBank,,,,ManifestColumn
  GEO,,,,ManifestColumn
  GISAID,,,,ManifestColumn
+ GenBank,,,,ManifestColumn
  IEDB,,,,ManifestColumn
  ImmPort,,,,ManifestColumn
+ MGnify,,,,ManifestColumn
  MassIVE,,,,ManifestColumn
  MetaboLights,,,,ManifestColumn
  Metabolomics Workbench,,,,ManifestColumn
- MGnify,,,,ManifestColumn
  NCBI Gene,,,,ManifestColumn
+ Not Specified,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ OtherRepositoryName,,,,ManifestColumn
  PRIDE,,,,ManifestColumn
  SRA,,,,ManifestColumn
  UniProt,,,,ManifestColumn
- OtherRepositoryName,,,,ManifestColumn
  Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+ dbGAP,,,,ManifestColumn
+ArrayExpress,,,,ManifestColumn

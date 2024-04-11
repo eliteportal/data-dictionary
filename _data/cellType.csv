@@ -1,36 +1,29 @@
 Key,Key Description,columnType,Source,Parent
-A2 amacrine cell,,,,ManifestColumn
- Astro L1 FGFR3 SERPINI2 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
+Astro L1 FGFR3 SERPINI2 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
  Astro L1-6 FGFR3 AQP1 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
  Astro L1-6 FGFR3 PLCG1 primary motor cortex astrocyte (Hsap),,,,ManifestColumn
  B cell,,,,ManifestColumn
  B cell zone reticular cell,,,,ManifestColumn
- CD19-positive,,,,ManifestColumn
  Bergmann glial cell,,,,ManifestColumn
  CD14-low,,,,ManifestColumn
- CD16-positive monocyte,,,,ManifestColumn
- CD14-positive monocyte,,,,ManifestColumn
  CD14-positive,,,,ManifestColumn
- CD16-low monocyte,,,,ManifestColumn
+ CD14-positive monocyte,,,,ManifestColumn
  CD141-positive myeloid dendritic cell,,,,ManifestColumn
+ CD16-low monocyte,,,,ManifestColumn
  CD16-negative,,,,ManifestColumn
- CD56-bright natural killer cell,,,,ManifestColumn
- human,,,,ManifestColumn
+ CD16-positive monocyte,,,,ManifestColumn
+ CD19-positive,,,,ManifestColumn
  CD1c-positive myeloid dendritic cell,,,,ManifestColumn
  CD4-negative,,,,ManifestColumn
- CD8-negative,,,,ManifestColumn
- alpha-beta intraepithelial T cell,,,,ManifestColumn
- CD4-positive helper T cell,,,,ManifestColumn
  CD4-positive,,,,ManifestColumn
- alpha-beta T cell,,,,ManifestColumn
- alpha-beta cytotoxic T cell,,,,ManifestColumn
- alpha-beta memory T cell,,,,ManifestColumn
+ CD4-positive helper T cell,,,,ManifestColumn
+ CD45RO-positive,,,,ManifestColumn
+ CD56-bright natural killer cell,,,,ManifestColumn
  CD8-alpha alpha positive,,,,ManifestColumn
- gamma-delta intraepithelial T cell,,,,ManifestColumn
  CD8-alpha-alpha-positive,,,,ManifestColumn
  CD8-alpha-beta-positive,,,,ManifestColumn
+ CD8-negative,,,,ManifestColumn
  CD8-positive,,,,ManifestColumn
- CD45RO-positive,,,,ManifestColumn
  CD8aa(I) thymocyte,,,,ManifestColumn
  CD8aa(II) thymocyte,,,,ManifestColumn
  CD8alpha-negative thymic conventional dendritic cell,,,,ManifestColumn
@@ -172,6 +165,7 @@ A2 amacrine cell,,,,ManifestColumn
  Oligo L3-6 OPALIN-like ENPP6 primary motor cortex oligodendrocyte precursor cell (Hsap),,,,ManifestColumn
  Oligo L5-6 OPALIN LDLRAP1 primary motor cortex oligodendrocyte (Hsap),,,,ManifestColumn
  Other,,,,ManifestColumn
+ PBMC,,,,ManifestColumn
  Purkinje myocyte,,,,ManifestColumn
  Schwann cell,,,,ManifestColumn
  T cell,,,,ManifestColumn
@@ -194,6 +188,11 @@ A2 amacrine cell,,,,ManifestColumn
  airway submucosal gland ciliated duct cells,,,,ManifestColumn
  airway submucosal gland collecting duct epithelial cell,,,,ManifestColumn
  airway submucosal gland duct basal cell,,,,ManifestColumn
+ alpha-beta T cell,,,,ManifestColumn
+ alpha-beta cytotoxic T cell,,,,ManifestColumn
+ alpha-beta intraepithelial T cell,,,,ManifestColumn
+ alpha-beta memory T cell,,,,ManifestColumn
+ alpha-beta thymocyte,,,,ManifestColumn
  alveolar capillary type 1 endothelial cell,,,,ManifestColumn
  alveolar capillary type 2 endothelial cell,,,,ManifestColumn
  alveolar macrophage,,,,ManifestColumn
@@ -471,7 +470,6 @@ A2 amacrine cell,,,,ManifestColumn
  dlnp_96,,,,ManifestColumn
  double negative thymocyte,,,,ManifestColumn
  double-positive,,,,ManifestColumn
- alpha-beta thymocyte,,,,ManifestColumn
  dpt+ fibroblast cell of bladder,,,,ManifestColumn
  dpt+ fibroblast cell of ureter,,,,ManifestColumn
  duodenal goblet cell,,,,ManifestColumn
@@ -480,7 +478,6 @@ A2 amacrine cell,,,,ManifestColumn
  ecto-epithelial cell,,,,ManifestColumn
  effector CD8-positive,,,,ManifestColumn
  effector memory CD4-positive,,,,ManifestColumn
- terminally differentiated,,,,ManifestColumn
  effector memory CD45RA-positive,,,,ManifestColumn
  effector memory CD8-positive,,,,ManifestColumn
  electrically active cell,,,,ManifestColumn
@@ -577,6 +574,7 @@ A2 amacrine cell,,,,ManifestColumn
  flattened cuboidal ovarian surface epithelial cell,,,,ManifestColumn
  follicular dendritic cell,,,,ManifestColumn
  gamma-delta T cell,,,,ManifestColumn
+ gamma-delta intraepithelial T cell,,,,ManifestColumn
  ganglion,,,,ManifestColumn
  gastrin secreting cell,,,,ManifestColumn
  germinal center B cell,,,,ManifestColumn
@@ -611,6 +609,7 @@ A2 amacrine cell,,,,ManifestColumn
  hippocampal CA1-3 neuron,,,,ManifestColumn
  hippocampal CA4 neuron,,,,ManifestColumn
  hippocampal astrocyte,,,,ManifestColumn
+ human,,,,ManifestColumn
  hypertrophic chondrocyte,,,,ManifestColumn
  ileal goblet cell,,,,ManifestColumn
  immature B cell,,,,ManifestColumn
@@ -1211,6 +1210,7 @@ A2 amacrine cell,,,,ManifestColumn
  tbet low liver nk cell,,,,ManifestColumn
  tcell_1,,,,ManifestColumn
  telocyte,,,,ManifestColumn
+ terminally differentiated,,,,ManifestColumn
  thalamic excitatory neuron,,,,ManifestColumn
  theca cell,,,,ManifestColumn
  thex_372,,,,ManifestColumn
@@ -1292,3 +1292,4 @@ A2 amacrine cell,,,,ManifestColumn
  vasa recta descending limb cell,,,,ManifestColumn
  vascular associated smooth muscle cell,,,,ManifestColumn
  vascular endothelial cell,,,,ManifestColumn
+A2 amacrine cell,,,,ManifestColumn

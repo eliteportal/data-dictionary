@@ -1,3 +1,2 @@
 Key,Key Description,columnType,Source,Parent
-TRUE,,,,BaseAnnotation
- FALSE,,,,BaseAnnotation
+False,,,,BaseAnnotation

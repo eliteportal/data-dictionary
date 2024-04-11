@@ -1,187 +1,198 @@
 Key,Key Description,columnType,Source,Module
 10x,,,,ValidValues
-10x Visium Spatial Gene Expression,Instrument Model Name,,,Instrument
-Accel-NGS 2S Plus,,,,ValidValues
-Accel-NGS Methyl-Seq,,,,ValidValues
-acquisitionBatchID,"Acquisition batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
-acquisitionBatchSize,The number of samples,,Sage Bionetworks,Assay
-acquisitionBatchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Assay
-acquisitionMode,"The specific aspect of a mass spectrometer method by which mass ranges are selected and possibly dissociated (full scan, MSn, SIM, MRM, etc.).",,https://www.ebi.ac.uk/ols/ontologies/ms/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMS_1003213,Unspecified
-acquisitionSoftware,The name of the acquisition software used,,http://purl.obolibrary.org/obo/MS_1001455,Unspecified
-acquistionSoftwareVersion,The version number of software used,,Sage Bionetworks,Unspecified
+10x_Visium_Spatial_Gene_Expression,Instrument Model Name,,,Instrument
+Accel-NGS_2S_Plus,,,,ValidValues
+Accel-NGS_Methyl-Seq,,,,ValidValues
+acquisitionBatchID,"Acquisition batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",string,Sage Bionetworks,"Assay,Metadata"
+acquisitionBatchSize,The number of samples,string,Sage Bionetworks,"Assay,Metadata"
+acquisitionBatchSizeUnit,The unit of measurement for number of samples in a batch,string,Sage Bionetworks,"Assay,Metadata"
+acquisitionMode,"The specific aspect of a mass spectrometer method by which mass ranges are selected and possibly dissociated (full scan, MSn, SIM, MRM, etc.).,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,https://www.ebi.ac.uk/ols/ontologies/ms/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMS_1003213,Metadata
+acquisitionSoftware,"The name of the acquisition software used.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,http://purl.obolibrary.org/obo/MS_1001455,Metadata
+acquistionSoftwareVersion,"The version number of software used.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",number,Sage Bionetworks,Metadata
 Adult,,,,ValidValues
-Affymetrix Genome-Wide Human SNP 5.0 Array,,,,ValidValues
-Affymetrix Genome-Wide Human SNP 6.0 Array,,,,Assay
-Affymetrix Human Gene 1.0 ST Array,,,,Assay
-Affymetrix Human Genome U133 Plus 2.0 Array,,,,Assay
-Affymetrix U133AB,,,,Assay
+Affymetrix_Genome-Wide_Human_SNP_5.0_Array,,,,ValidValues
+Affymetrix_Genome-Wide_Human_SNP_6.0_Array,,,,Assay
+Affymetrix_Human_Gene_1.0_ST_Array,,,,Assay
+Affymetrix_Human_Genome_U133_Plus_2.0_Array,,,,Assay
+Affymetrix_U133AB,,,,Assay
 AFU,,,,ValidValues
 age,"Age of the individual (age in years of the individual at first recorded study event (enrollment, visit, observation, sample collection, survey completion, etc.)",,Sage Bionetworks,Metadata
-Agilent 44Karray,,,,ValidValues
+Agilent_44Karray,,,,ValidValues
 Aging,,,,ValidValues
 AI,,,,ValidValues
-AIBL pool,,,,ValidValues
-American Indian or Alaska Native,,,,Metadata
-Amniotic Fluid,,,,SampleType
+AIBL_pool,,,,ValidValues
+American_Indian_or_Alaska_Native,,,,Metadata
+Amniotic_Fluid,,,,SampleType
 amplicon,,,,ValidValues
 analysisType,Type of analysis,,sage.annotations-analysis.analysisType-0.0.14,BaseAnnotation
-analytical covariates,A file that contains a combination or subset of individual- or specimen-level covariates used for a particular analysis.,,Sage Bionetworks,BaseAnnotation
-and Body Composition Study (HealthABC),,,,ValidValues
+analytical_covariates,A file that contains a combination or subset of individual- or specimen-level covariates used for a particular analysis.,,Sage Bionetworks,BaseAnnotation
 ANOVA,ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.,string,http://purl.obolibrary.org/obo/OBI_0200201,Analysis
 Appendix,,,,SampleType
 ArrayExpress,,,,ValidValues
 Asian,,,,Metadata
 assay,The analysis or technology used to generate the data in this file,,Sage Bionetworks,Metadata
 assessment,"The final result of a determination of the value, significance, or extent of.",string,http://purl.obolibrary.org/obo/NCIT_C25217,Analysis
-AU/ml,,,,ValidValues
-B cell,,,,SampleType
-Baker pool,,,,ValidValues
+AU_ml,Arbitrary units per milliliter,,,ValidValues
+B_cell,,,,SampleType
+Baker_pool,,,,ValidValues
 Basophils,,,,SampleType
-batch effect correction,Adjustment of variable of interest for batch effects.,string,https://www.ncbi.nlm.nih.gov/pubmed/16632515,Analysis
-batchID,"ID used to identify a batch, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
-batchLabel,Used to supply batch label information with any string value,,http://purl.obolibrary.org/obo/MS_4000088,Assay
-batchSize,The number of samples,,Sage Bionetworks,Unspecified
-batchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Unspecified
+batch_effect_correction,Adjustment of variable of interest for batch effects.,string,https://www.ncbi.nlm.nih.gov/pubmed/16632515,Analysis
+batchID,"ID used to identify a batch, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",string,Sage Bionetworks,"Assay,Metadata"
+batchLabel,Used to supply batch label information with any string value,string,http://purl.obolibrary.org/obo/MS_4000088,"Assay,Metadata"
+batchSize,The number of samples,number,Sage Bionetworks,Metadata
+batchSizeUnit,The unit of measurement for number of samples in a batch,string,Sage Bionetworks,Metadata
 BGISEQ-500,,,,ValidValues
-Bionano Irys,,,,ValidValues
+Bionano_Irys,,,,ValidValues
 biospecimen,Metadata describing properties of specimens collected and/or analyzed in the study.,,Sage Bionetworks,BaseAnnotation
-Biospecimen human,Template used for contributing metadata to the ELITE portal,,,Template
-Biospecimen nonHuman,Template used for contributing metadata to the ELITE portal,,,Template
+Biospecimen_human,Metadata template used for contributing metadata to the ELITE portal,,,Template
+Biospecimen_nonHuman,Metadata template used for contributing metadata to the ELITE portal,,,Template
 Bird,,,,Model Organism
-Black or African American,,,,Metadata
+Black_or_African_American,,,,Metadata
 blood,,,,SampleType
 Bone,,,,SampleType
-Bone Marrow,,,,SampleType
-bpg/dl,,,,ValidValues
-Brachial lymph node,,,,SampleType
+Bone_Marrow,,,,SampleType
+bpg_dl,,,,ValidValues
+Brachial_lymph_node,,,,SampleType
 brain,,,,SampleType
-Breast Milk,,,,SampleType
-Broad Single Cell Portal,,,,ValidValues
-Bronchoalveolar Lavage Fluid,,,,SampleType
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,,,ValidValues
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS2,,,,ValidValues
+Breast_Milk,,,,SampleType
+Broad_Single_Cell_Portal,,,,ValidValues
+Bronchoalveolar_Lavage_Fluid,,,,SampleType
+Bruker_Avance_IIITimsTOF_ProOtherMsAnalyzerTypeMS1,,,,ValidValues
+Bruker_Avance_IIITimsTOF_ProOtherMsAnalyzerTypeMS2,,,,ValidValues
 bsSeq,Template used for contributing metadata to the ELITE portal for bisulfite-seq WGBS methylseq methylomics,,,Template
 BU,,,,ValidValues
-bulk cell,,,,ValidValues
-bulk nuclei,,,,ValidValues
+bulk_cell,,,,ValidValues
+bulk_nuclei,,,,ValidValues
 CaptiveCaptivityStatus,"The duration of captivity in months for the individuals in captivity (formatted in months, ex. 72 months). note: Applicable only to animals with captivity status captive.",,https://www.animalaudiograms.org/audiogram_metadata_scheme#:~:text=species%20are%20possible.-,ValidValues
 captivityDuration,"The duration of captivity in months for the individuals in captivity (formatted in months, ex. 72 months). note: Applicable only to animals with captivity status captive.",,"-The%20duration%20of,captivity%20duration,https://www.animalaudiograms.org/audiogram_metadata_scheme#:~:text=species%20are%20possible.-",Metadata
 captivityStatus,"The status of the individual with regard to captivity. note: Wild, captive, and stranded values are applicable, especially for marine mammals. Depending on life stage terminology for individual species, other are possible. Please let the data curation team know.",,"-The%20status%20of,captivity%20status,https://www.animalaudiograms.org/audiogram_metadata_scheme#:~:text=of%20the%20animal.-",Metadata
 Carbohydrate,,,,SampleType
-Cardiovascular Health Study (CHS),,,,ValidValues
-CCF-BSO values,External ontology used for populating values,,,Ontology
+Cardiovascular_Health_Study_(CHS),,,,ValidValues
+CCF-BSO,The Common Coordinate Framework Biological Structure Ontology,,https://github.com/hubmapconsortium/ccf-ontology/blob/develop/ccf-bso.owl,Ontology
 CEL-seq,,,,ValidValues
-Cell culture supernatant,,,,SampleType
-cell line,,,,SampleType
+Cell_culture_supernatant,,,,SampleType
+cell_line,,,,SampleType
 cellHashing,,,,ValidValues
-cellType,"Indicate the cell type. ",,,Unspecified
+cellType,Indicate the cell type. ,,,
 Centenarian,,,,ValidValues
-Cerebrospinal Fluid,,,,SampleType
-Cerebrospinal Fluid (CSF),,,,ValidValues
-Cervical lymph nodes,,,,SampleType
-Cherry Imaging FACE Platform,,,,ValidValues
-Cherry Imaging TRACE Platform,,,,ValidValues
-chromatin accessible quantitative trait loci detection,Chromatin accessible quantitative trait locus analysis. Also abbreviated caQTL or chQTL.,string,https://www.cell.com/cell/pdf/S0092-8674(17)31253-9.pdf,Analysis
-Chromium Single Cell 3',,,,ValidValues
-Chromium X,,,,ValidValues
-cleavageAgents,Name(s) of the enzyme used,,Proteomics Sample Metadata,Unspecified
+Cerebrospinal_Fluid,,,,SampleType
+Cerebrospinal_Fluid_(CSF),,,,ValidValues
+Cervical_lymph_nodes,,,,SampleType
+Cherry_Imaging_FACE_Platform,,,,ValidValues
+Cherry_Imaging_TRACE_Platform,,,,ValidValues
+chromatin_accessible_quantitative_trait_loci_detection,Chromatin accessible quantitative trait locus analysis. Also abbreviated caQTL or chQTL.,string,https://www.cell.com/cell/pdf/S0092-8674(17)31253-9.pdf,Analysis
+Chromium_Single_Cell_3',,,,ValidValues
+Chromium_X,,,,ValidValues
+cleavageAgents,Name(s) of the enzyme used,string,Proteomics Sample Metadata,
 Clustering,Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).,string,http://edamontology.org/operation_3432,Analysis
 cohort,Name of the cohort the individual belongs to,,Sage Bionetworks,Metadata
 Colon,,,,SampleType
-Colonic Lamina Propria,,,,SampleType
+Colonic_Lamina_Propria,,,,SampleType
 commonName,"The biological species common name the individual belongs to (ex. ""Horned Lark"").note: As a default, the valid scientific name for the species should be indicated. ",,https://www.ebi.ac.uk/ols4/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_1874,Metadata
 comparison,The examination of two or more people or things in order to detect similarities and differences.,string,http://purl.obolibrary.org/obo/NCIT_C49156,Analysis
+ComputationalTools,Template used to curate computational tools used by researchers,,Sage Bionetworks,Template
+consentGroup,"Indicate the consent group for the individual, provided by the data contributor's data dictionary",,Sage Bionetworks,Metadata
 consentGroupID,"Indicate the consent group for the individual, provided by the data contributor's data dictionary",,Sage Bionetworks,Metadata
-consortium,The name of the consortium,,sage.annotations-sageCommunity.consortium-0.0.5,BaseAnnotation
-controlType,Control samples suitable for normalization and batch correction,,https://doi.org/10.1101/2020.05.19.105197https://doi.org/10.1038/sdata.2017.140https://www-s.nist.gov/srmors/view_detail.cfmsrm=1950Sage BionetworksDSLWG,Unspecified
-Convalescent Plasma,,,,SampleType
-conversionRatio,The ratio or % detailing how well the bisulfite conversion worked,,Sage Bionetworks,Unspecified
-conversionRatioUnits,The units of measurement.,,Sage Bionetworks,Unspecified
-Copy number estimation,Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.,string,http://edamontology.org/operation_3233,Analysis
-Cord blood,,,,SampleType
+consortium,"Unique identifier for the consortium, assigned by the contributor",,Sage Bionetworks,Metadata
+contributor,"Name of the contributor(s) associated with the software tool. If there are multiple people, separate them with a comma. ",str,,Tool
+controlType,"Control samples suitable for normalization and batch correction.,Possible example values:,GIS,GoldenWest,NIST SRM 1950,AIBL pool, ,Baker pool, ,water plus Baker ISTD,study pool,internal standards,Other,Unknown,Not collected,Not applicable,Not specified",string,https://doi.org/10.1101/2020.05.19.105197https://doi.org/10.1038/sdata.2017.140https://www-s.nist.gov/srmors/view_detail.cfmsrm=1950Sage BionetworksDSLWG,Metadata
+Convalescent_Plasma,,,,SampleType
+conversionRatio,The ratio or % detailing how well the bisulfite conversion worked,,Sage Bionetworks,
+conversionRatioUnits,The units of measurement.,,Sage Bionetworks,
+Copy_number_estimation,Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.,string,http://edamontology.org/operation_3233,Analysis
+Cord_blood,,,,SampleType
 correlation,"The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others.",string,http://purl.obolibrary.org/obo/NCIT_C48834,Analysis
 countryCode,"Indicate the geographic region for the individual (shown as ex. ""840"")",,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Metadata
-covariate specification,"A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",string,http://purl.obolibrary.org/obo/OBCS_0000040,Analysis
-d.p.c.,,,,ValidValues
-data dictionary,Metadata describing terms or variables that appear in another file.,,Sage Bionetworks,BaseAnnotation
-data mining,"Use of sophisticated analysis tools to sort through, organize, examine, and combine large sets of information",string,http://id.nlm.nih.gov/mesh/D057225,Analysis
-data normalization,,string,https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015,Analysis
-databaseName,"The name of the search database (nr, SwissProt or est_human, and/or mass spectral library).",,http://purl.obolibrary.org/obo/MS_1001013,Unspecified
-databaseSource,"The name of the organization, project, or laboratory from where the database is obtained (UniProt, NCBI, EBI, other).",,http://purl.obolibrary.org/obo/MS_1001012,Unspecified
-databaseWeblink,"An internet address that may provide details of a database or software search, as well as for labs who generate their own search method",,"DSLWG,Sage Bionetworks",Unspecified
-dataFile,"The data file provides the name of the raw file generated by the instrument. The data files can be instrument raw files but also converted peak lists such as mzML, MGF or result files like mzIdentML.",,Proteomics Sample Metadata,Metadata
-dataGenerationSite,The place where data from a particular specimen was generated.,,Sage Bionetworks,Unspecified
+covariate_specification,"A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",string,http://purl.obolibrary.org/obo/OBCS_0000040,Analysis
+d.p.c.,Days post coitum,,,ValidValues
+data_dictionary,Metadata describing terms or variables that appear in another file.,,Sage Bionetworks,BaseAnnotation
+data_mining,"Use of sophisticated analysis tools to sort through, organize, examine, and combine large sets of information",string,http://id.nlm.nih.gov/mesh/D057225,Analysis
+data_normalization,,string,https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015,Analysis
+databaseName,"The name of the search database (nr, SwissProt or est_human, and/or mass spectral library).,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,http://purl.obolibrary.org/obo/MS_1001013,Metadata
+databaseSource,"The name of the organization, project, or laboratory from where the database is obtained (UniProt, NCBI, EBI, other).",string,http://purl.obolibrary.org/obo/MS_1001012,Metadata
+databaseWeblink,"An internet address that may provide details of a database or software search, as well as for labs that generate their own search method (web link).,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,"DSLWG,Sage Bionetworks",Metadata
+dataCoordinationCenter,Data coordination center,,sage.annotations-sageCommunity.consortium-0.0.5,BaseAnnotation
+dataFile,"Name of additional file(s) accompanying the data. The file(s) provide, for example, the name of any raw files generated by the instrument, generated reports from a vendor, an Rscript, or an instructions document. The files can be instrument raw files, converted peak lists such as mzML, MGF, or result files like mzIdentML. The files can be additional documentation submitted alongside the data needed for reuse and sharing purposes.,Provide the file names of any additional files submitted alongside the data (ex., an ADAT file). Multiple file names can be separated by (;),Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified,Name of additional file(s) accompanying the data. The file(s) provide, for example, the name of any raw files generated by the instrument, generated reports from a vendor, an Rscript, or an instructions document. The files can be instrument raw files, converted peak lists such as mzML, MGF, or result files like mzIdentML. The files can be additional documentation submitted alongside the data needed for reuse and sharing purposes.,,Provide the file names of any additional files submitted alongside the data.",string,Proteomics Sample Metadata,Metadata
+dataGenerationSite,The place where data from a particular specimen was generated.,,Sage Bionetworks,
 dataSubtype,"Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",,sage.annotations-experimentalData.dataSubtype-0.0.3,BaseAnnotation
 dataType,Types of input/output data in bioinformatics pipelines,,sage.annotations-experimentalData.dataType-0.0.3,BaseAnnotation
 Days,,NUMERIC,,Unit
 dbGAP,,,,ValidValues
+DCC,Name of the Data Coordination Center,str,,Tool
 DDA-MS,,,,ValidValues
-de-novo assembly,Assembly of reference sequence from short read sequences without external reference genome build.,string,http://purl.obolibrary.org/obo/GENEPIO_0001628,Analysis
-Dendritic cell,,,,SampleType
-Denmark Family,,,,ValidValues
+de-novo_assembly,Assembly of reference sequence from short read sequences without external reference genome build.,string,http://purl.obolibrary.org/obo/GENEPIO_0001628,Analysis
+Dendritic_cell,,,,SampleType
+Denmark_Family,,,,ValidValues
 Dermis,,,,SampleType
 DIA-MS,,,,ValidValues
 diagnosis,Indicate the disease or condition.,,LLFS data dictionary,Metadata
 diagnosisStatus,"Whether the individual has been diagnosed with a condition or disease (physical and/or cognitive), ""True"" indicates the individual has been diagnosed",,Sage Bionetworks,Metadata
-differential expression,Genes or isoforms that are differentially expressed between two conditions.,string,http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810,Analysis
-differential methylation,Differences in methylation between a test sample and a normal comparison sample.,string,http://purl.obolibrary.org/obo/NCIT_C123883,Analysis
-differential network analysis,Identification of changes in coexpression patterns between two conditions.,string,http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000616,Analysis
-digestionMethod,"The type of digestion - in-solution, in-gel, etc. (ex. ""in-gel digestion"")",,"DSLWG,Sage Bionetworks",Unspecified
+differential_expression,Genes or isoforms that are differentially expressed between two conditions.,string,http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810,Analysis
+differential_methylation,Differences in methylation between a test sample and a normal comparison sample.,string,http://purl.obolibrary.org/obo/NCIT_C123883,Analysis
+differential_network_analysis,Identification of changes in coexpression patterns between two conditions.,string,http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000616,Analysis
+digestionMethod,"The type of digestion - in-solution, in-gel, etc. (ex. ""in-gel digestion"")",string,"DSLWG,Sage Bionetworks",
+digestionReagent,"Enzymes or reagents used for digestion. ,",string,,Metadata
 directionalBSseqLibrary,Indicates whether or not the bisulfiteSeq library is directional,,Sage Bionetworks,Assay
+displayName,Name to be displayed on the portal,str,,Tool
 DK,,,,ValidValues
-DK units/ml,,,,ValidValues
+DK_units_ml,,,,ValidValues
 DNA,,,,SampleType
-DNA methylation imputation,The statistical inference of unobserved DNA methylation marks.,string,https://dx.doi.org/10.1534/genetics.115.185967,Analysis
+DNA_methylation_imputation,The statistical inference of unobserved DNA methylation marks.,string,https://dx.doi.org/10.1534/genetics.115.185967,Analysis
 dnaBatchID,DNA isolation batch,,Sage Bionetworks,Assay
 dnaBatchSize,The number of samples,,Sage Bionetworks,Assay
 dnaBatchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Assay
 DNALibraryConstruction,,,,Assay
-dose response study,A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.,string,http://purl.obolibrary.org/obo/NCIT_C127803,Analysis
-Dried Blood Spot,,,,SampleType
+documentation,Supporting documents related to the tool,str,,Tool
+dose_response_study,A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.,string,http://purl.obolibrary.org/obo/NCIT_C127803,Analysis
+Dried_Blood_Spot,,,,SampleType
 Drop-Seq,,,,Assay
 ENA,,,,ValidValues
 EndItDNAEndRepairKit,,,,ValidValues
-Endotracheal aspirate,,,,SampleType
-Enrichment analysis,Over-representation analysis.,string,http://edamontology.org/operation_3501,Analysis
-enrichmentMethod,The method used for performing an enrichment of specific regions by a restriction enzyme digest,,Sage Bionetworks,Unspecified
+Endotracheal_aspirate,,,,SampleType
+enrichment,"Protocol or reagent used for enrichment (ex. Fe3+NTA-Agarose (Qiagen),Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+Enrichment_analysis,Over-representation analysis.,string,http://edamontology.org/operation_3501,Analysis
+enrichmentMethod,The method used for performing an enrichment of specific regions by a restriction enzyme digest,,Sage Bionetworks,
+enrichmentStrategy,"Type of peptide or protein enrichment,",string,,Metadata
 Ensembl,,,,ValidValues
-EnVision 2103 Multiplate Reader,Instrument Model Name,,,Instrument
+EnVision_2103_Multiplate_Reader,Instrument Model Name,,,Instrument
 Epithelium,,,,SampleType
 ethnicGroupCode,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsfdictionary=NCI_Thesaurus&version=23.04d&code=C93563&ns=ncit&type=properties&key=1040179992&b=1&n=0&vse=null,Metadata
 ethnicity,Ethnicity of individual,,"Sage Bionetworks,https://www.synapse.org/#!Synapse:syn25878249",Metadata
 EWAS,epigenome-wide association study,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508712/,Analysis
-experiementalBatchSize,"The number of samples ",,Sage Bionetworks,Unspecified
-experiementalBatchSizeUnit,The unit of measurement for number of samples in a experimental batch,,Sage Bionetworks,Unspecified
-Exploris 240Exploris 480quadrupole time-of-flight,Instrument Model Name,,,Instrument
-expression quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein. Abbreviated eQTL.,string,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C113415,Analysis
-extractionMethod,The name of the process used to separate a desired component of an input material from the remainder,,http://purl.obolibrary.org/obo/OBI_0302884,Unspecified
+experiementalBatchSize,The number of samples ,number,Sage Bionetworks,Metadata
+experiementalBatchSizeUnit,The unit of measurement for number of samples in a experimental batch,string,Sage Bionetworks,Metadata
+experimentType,"The type of experiment used.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+Exploris_240Exploris_480quadrupole_time-of-flight,Instrument Model Name,,,Instrument
+expression_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein. Abbreviated eQTL.,string,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C113415,Analysis
+extractionMethod,"The name of the process used to separate a desired component of an input material from the remainder.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,http://purl.obolibrary.org/obo/OBI_0302884,Metadata
 FALSE,,,,ValidValues
-fastingState,Was individual fasting when the sample was taken (true/false),,Sage Bionetworks,Unspecified
+familyStudyParticipant,If the entity is a part of a family study,boolean,sage.annotations-sageCommunity.resourceType-0.0.5,BaseAnnotation
+fastingState,Was individual fasting when the sample was taken (true/false),,Sage Bionetworks,
 Feces,,,,SampleType
 Female,,,,Metadata
 FIA-MSMS,Instrument Model Name,,,Instrument
 Fibroblast,,,,SampleType
-fieldCenterCode,"Name of the field center ",,Sage Bionetworks,Metadata
+fieldCenterCode,Name of the field center ,,Sage Bionetworks,Metadata
 file_annotation_template,AD file annotation template schema,,sysbio.metadataTemplates-ad.manifest,Template
 fileFormat,"Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",,sage.annotations-sageCommunity.fileFormat-0.0.12,BaseAnnotation
 Filename,Name of the file. This helps to link annotations from metadata files.,,,ValidValues
 FlowRepository,,,,ValidValues
 forward,,,,ValidValues
 FPKM,,,,ValidValues
-fractionIdentifier,"Identifier string that describes the sample fraction. This identifier should contain the fraction number(s) or similar information. (It MUST start from 1; if the experiment is not fractionated, 1 MUST be used for each MSRun (assay).",,"MS Ontology,Sage Bionetworks,The Proteomics Sample Metadata Project",Unspecified
-fragmentMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",,Proteomics Sample Metadata,Unspecified
-g/dl,,NUMERIC,,Unit
-g/l,,,,ValidValues
-gasFlowTemperature,"e.g., nebulization gas, cone gas, etc.",,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-gasFlowTemperatureUnit,Unit of gas flow temperature,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-Gastric lamina propria,,,,SampleType
-gDNAconc,gDNA Concentration in ng,,Sage Bionetworks,Unspecified
+fractionIdentifier,"Identifier string that describes the sample fraction. This identifier should contain the fraction number(s) or similar information. (It MUST start from 1; if the experiment is not fractionated, 1 MUST be used for each MSRun (assay).","number,string","MS Ontology,Sage Bionetworks,The Proteomics Sample Metadata Project",
+fragmentMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",string,Proteomics Sample Metadata,
+g_dl,,NUMERIC,,Unit
+g_l,,,,ValidValues
+gasFlowTemperature,"e.g., nebulization gas, cone gas, etc.,Unit of measure: ,C,F,K,Not specified",number,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+gasFlowTemperatureUnit,Unit of gas flow temperature,string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+Gastric_lamina_propria,,,,SampleType
+gDNAconc,gDNA Concentration in ng,,Sage Bionetworks,
 GenBank,,,,ValidValues
-Genbank common names,External ontology used for populating values,,,Ontology
-Gene expression comparison,Comparison of gene expression profiles.,string,http://edamontology.org/operation_0315,Analysis
-Genome-Wide Association,"An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",string,http://purl.bioontology.org/ontology/MESH/D055106,Analysis
-genome-wide pleiotropy,Analysis of genomic overlap between traits,string,https://doi.org/10.1098/rsob.170125,Analysis
-genotype imputation,The statistical inference of unobserved genotypes.,string,https://www.ncbi.nlm.nih.gov/pubmed/17572673,Analysis
+Genbank,External ontology used for populating values,,,Ontology
+Gene_expression_comparison,Comparison of gene expression profiles.,string,http://edamontology.org/operation_0315,Analysis
+Genome-Wide_Association,"An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",string,http://purl.bioontology.org/ontology/MESH/D055106,Analysis
+genome-wide_pleiotropy,Analysis of genomic overlap between traits,string,https://doi.org/10.1098/rsob.170125,Analysis
+genotype_imputation,The statistical inference of unobserved genotypes.,string,https://www.ncbi.nlm.nih.gov/pubmed/17572673,Analysis
 genotypeAncestry,model genetic ancestry from SNP data,string,http://www.compgen.pitt.edu/GemTools/GemTools.htm,Analysis
 genotyping,Template used for contributing metadata to the ELITE portal,,,Template
 GEO,,,,ValidValues
@@ -190,205 +201,216 @@ GISAID,,,,ValidValues
 gm,,,,ValidValues
 GoldenWest,,,,ValidValues
 grant,"Grant number including activity code, institute code, and serial number (e.g. U01MH103392)",,sage.annotations-neuro.grant-0.0.2,BaseAnnotation
-hasAssayControl,"Boolean flag indicating whether or not a specimen is a technical or assay control. Examples include study pools or reference pools, blanks, or internal standards.",,Sage Bionetworks,Unspecified
-hasIonizationSource,Were the ionization conditions recorded to enable reproduction of the experiment,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
+hasAssayControl,"Boolean flag indicating whether or not a specimen is a technical or assay control. Examples include study pools or reference pools, blanks, or internal standards.",boolean,Sage Bionetworks,Metadata
+hasIonizationSource,Were the ionization conditions recorded to enable reproduction of the experiment,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",
+hasIonizationSource?,Were the ionization conditions recorded to enable reproduction of the experiment?,boolean,,Metadata
 HAU,,,,ValidValues
-hidden confounder detection,Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.,string,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161,Analysis
-Hispanic or latino,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsfdictionary=NCI_Thesaurus&version=23.04d&code=C93563&ns=ncit&type=properties&key=1040179992&b=1&n=0&vse=null,ValidValues
+hidden_confounder_detection,Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.,string,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161,Analysis
+Hispanic_or_latino,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",,https://ncithesaurus.nci.nih.gov/ncitbrowser/pages/concept_details.jsfdictionary=NCI_Thesaurus&version=23.04d&code=C93563&ns=ncit&type=properties&key=1040179992&b=1&n=0&vse=null,ValidValues
 HMDB,,,,ValidValues
 Hours,,NUMERIC,,Unit
 HPLC-MSMS,,,,ValidValues
-HPO,,,,Ontology
+HPO,Human phenotype ontology,,,Ontology
 Human,,,,Model Organism
-Human Reference Atlas values,External ontology used for populating values,,,Ontology
-ID mapping,A file or table that maps data identifiers to one another for example to establish a link between two biological databases for the purposes of data integration.,,http://edamontology.org/operation_3282,BaseAnnotation
+Human_Reference_Atlas_values,External ontology used for populating values,,,Ontology
+ID_mapping,A file or table that maps data identifiers to one another for example to establish a link between two biological databases for the purposes of data integration.,,http://edamontology.org/operation_3282,BaseAnnotation
 IEDB,,,,ValidValues
 Ileum,,,,SampleType
-Illumina 1M,Instrument Model Name,,,Instrument
-Illumina Genome Analyzer IIx,Instrument Model Name,,,Instrument
-Illumina h650,Instrument Model Name,,,Instrument
-Illumina HiSeq 2000,Instrument Model Name,,,Instrument
-Illumina HiSeq 2500,Instrument Model Name,,,Instrument
-Illumina HiSeq 3000,Instrument Model Name,,,Instrument
-Illumina HiSeq 4000,Instrument Model Name,,,Instrument
-Illumina HiSeq X,Instrument Model Name,,,Instrument
-Illumina Human660W-Quad v1.0 BeadChip,Instrument Model Name,,,Instrument
-Illumina HumanHap300,Instrument Model Name,,,Instrument
-Illumina HumanMethylation450,Instrument Model Name,,,Instrument
-Illumina HumanOmni1-Quadv1.0,Instrument Model Name,,,Instrument
-Illumina HumanOmniExpress-24 v1.0 BeadChip,Instrument Model Name,,,Instrument
-Illumina HumanOmniExpress-24 v1.2 BeadChip,Instrument Model Name,,,Instrument
-Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),Instrument Model Name,,,Instrument
-Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,Instrument Model Name,,,Instrument
-Illumina MouseWG-6 v2.0 expression BeadChip,Instrument Model Name,,,Instrument
-Illumina NextSeq 1000,Instrument Model Name,,,Instrument
-Illumina NextSeq 2000,Instrument Model Name,,,Instrument
-Illumina NextSeq 500,Instrument Model Name,,,Instrument
-Illumina NextSeq 550,Instrument Model Name,,,Instrument
-Illumina NovaSeq 6000,Instrument Model Name,,,Instrument
-Illumina Omni2pt5M,Instrument Model Name,,,Instrument
-Illumina Omni5M,Instrument Model Name,,,Instrument
-Illumina WholeGenome DASL,Instrument Model Name,,,Instrument
-ILO,Project name,,,Project
+Illumina_1M,Instrument Model Name,,,Instrument
+Illumina_Genome_Analyzer_IIx,Instrument Model Name,,,Instrument
+Illumina_h650,Instrument Model Name,,,Instrument
+Illumina_HiSeq_2000,Instrument Model Name,,,Instrument
+Illumina_HiSeq_2500,Instrument Model Name,,,Instrument
+Illumina_HiSeq_3000,Instrument Model Name,,,Instrument
+Illumina_HiSeq_4000,Instrument Model Name,,,Instrument
+Illumina_HiSeq_X,Instrument Model Name,,,Instrument
+Illumina_Human660W-Quad_v1.0_BeadChip,Instrument Model Name,,,Instrument
+Illumina_HumanHap300,Instrument Model Name,,,Instrument
+Illumina_HumanMethylation450,Instrument Model Name,,,Instrument
+Illumina_HumanOmni1-Quadv1.0,Instrument Model Name,,,Instrument
+Illumina_HumanOmniExpress-24_v1.0_BeadChip,Instrument Model Name,,,Instrument
+Illumina_HumanOmniExpress-24_v1.2_BeadChip,Instrument Model Name,,,Instrument
+Illumina_Infinium_MethylationEPIC_BeadChip_v1.0_(850k),Instrument Model Name,,,Instrument
+Illumina_Infinium_MethylationEPIC_BeadChip_v2.0_(935k)Illumina_MiSeq,Instrument Model Name,,,Instrument
+Illumina_MouseWG-6_v2.0_expression_BeadChip,Instrument Model Name,,,Instrument
+Illumina_NextSeq_1000,Instrument Model Name,,,Instrument
+Illumina_NextSeq_2000,Instrument Model Name,,,Instrument
+Illumina_NextSeq_500,Instrument Model Name,,,Instrument
+Illumina_NextSeq_550,Instrument Model Name,,,Instrument
+Illumina_NovaSeq_6000,Instrument Model Name,,,Instrument
+Illumina_Omni2pt5M,Instrument Model Name,,,Instrument
+Illumina_Omni5M,Instrument Model Name,,,Instrument
+Illumina_WholeGenome_DASL,Instrument Model Name,,,Instrument
+ILO,Integrative Longevity Omics,,,Consortium
 ImmPort,,,,ValidValues
 in-gel,,,,ValidValues
 in-solution,,,,ValidValues
 individual,Metadata describing properties of individuals (human or animal) represented in the study.,,Sage Bionetworks,BaseAnnotation
-Individual Human,Template used for contributing metadata to the ELITE portal,,,Template
-Individual nonHuman,Template used for contributing metadata to the ELITE portal,,,Template
+Individual_Human,Template used for contributing metadata to the ELITE portal,,,Template
+Individual_nonHuman,Template used for contributing metadata to the ELITE portal,,,Template
 individualID,"Identifying string linked to the individual or animal being studied, provided by the data contributor",,Sage Bionetworks,Metadata
-Infinium HumanOmniExpressExome,,,,ValidValues
-Inguinal lymph node,,,,SampleType
-internal standards,,,,ValidValues
-ionProperty,Ion charge state (positive or negative-ion analysis),,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
+Infinium_HumanOmniExpressExome,,,,ValidValues
+Inguinal_lymph_node,,,,SampleType
+instrumentModel,"The model of the instrument used.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+internal_standards,,,,ValidValues
+ionProperty,Ion charge state (positive or negative-ion analysis),string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+isGovernanceFolder,Used to help governance to find folder to apply access restrictions,boolean,,Metadata
 isModelSystem,,,sage.annotations-neuro.isModelSystem-0.0.2,BaseAnnotation
-isMultiSpecimen,Boolean flag indicating whether or not a file has data for multiple specimens,,sage.annotations-experimentalData.isMultiSpecimen-0.0.2,BaseAnnotation
-isPostMortem,Was the sample taken after death (true/false),,Sage Bionetworks,Unspecified
+isMultiSpecimen,Boolean flag indicating whether or not a file has data for multiple specimens. Use either True or False,,sage.annotations-experimentalData.isMultiSpecimen-0.0.2,BaseAnnotation
+isobaricLabelingReagent,"Reagent set used for isobaric labeling.,Examples:,iTRAQ113,TMT126,,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+isPostMortem,Was the sample taken after death (true/false),,Sage Bionetworks,
 isStranded,Whether or not the library is stranded.,str,Sage Bionetworks,Assay
 ITRAQ,,,,ValidValues
 IU,,,,ValidValues
-iu/l,,,,ValidValues
-IU/ml,,,,ValidValues
+iu_l,,,,ValidValues
+IU_ml,,,,ValidValues
 Jejunum,,,,SampleType
 Juvenile,,,,ValidValues
 K,,,,ValidValues
-Kallikrein Inactivator Unit per Milliliter,,,,ValidValues
+Kallikrein_Inactivator_Unit_per_Milliliter,,,,ValidValues
 KapaHyperPrep,,,,ValidValues
 kg,,,,ValidValues
 Kidney,,,,SampleType
 l,,,,ValidValues
-Label Free,,,,ValidValues
-laboratoryProcedure,Procedure by which the Specimen was derived from Parent Specimen (if applicable),,Sage Bionetworks,Unspecified
-lambdaDNAconc,Lambda DNA spike-in concentration in ng,,Sage Bionetworks,Unspecified
-LC,Project name,,,Project
+Label_Free,,,,ValidValues
+Label_freeLabelQuantiation,"When labelFreeQuantitation = `other`, add your custom value to the cell",string,,Other
+labelFreeQuantitation,"Type of label-free data analysis strategy ,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+labelQuantitation,"Type of labeling used ,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+laboratoryProcedure,Procedure by which the Specimen was derived from Parent Specimen (if applicable),,Sage Bionetworks,
+lambdaDNAconc,Lambda DNA spike-in concentration in ng,,Sage Bionetworks,
+LC,Longevity Consortium,,,Consortium
 LC-MS,,,,ValidValues
 LC-MSMS,,,,ValidValues
 LC-SRMOtherMsAssayTechnique,,,,ValidValues
-"lensVoltages ","The skimmer/focusing lens voltages e.g., capillary voltage, etc.",,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-"lensVoltagesUnit ",Unit of lens voltages,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
+lensVoltages,"The skimmer/focusing lens voltages e.g., capillary voltage, etc.",number,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+lensVoltagesUnit,Unit of lens voltages,string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
 Leukocytes,,,,SampleType
-LG,Project name,,,Project
-LI-COR Odyssey CLx,,,,ValidValues
+LG,Longevity Genomics,,,Consortium
+LI-COR_Odyssey_CLx,,,,ValidValues
 libraryBatchID,"Library batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
 libraryPrep,The general strategy by which the library was prepared,,Sage Bionetworks,Assay
 libraryPreparationMethod,Method by which library was prepared,,Sage Bionetworks,Assay
 libraryType,"The type of library, in assays where samples are barcoded or hashed for multiplexing or each sample has multiple libraries amplified separately before pooled sequencing.",,sage.annotations-ngs.libraryType-0.0.3,BaseAnnotation
 libraryVersion,"Library Version: for example, rnaSeq 10x library version",,Sage Bionetworks,Assay
 lifeStage,The life stage of the individual. note: Other are possible depending on life stage terminology for individual species. Please let the data curation team know.,,"-The%20life%20stage,Biological Collections Ontology,https://www.animalaudiograms.org/audiogram_metadata_scheme#:~:text=range%3A%20female%3B%20male-,https://www.ebi.ac.uk/ols/ontologies/pato,life%20stage",Metadata
-LifeViz Infinity System,,,,ValidValues
-LifeViz Micro System,,,,ValidValues
+LifeViz_Infinity_System,,,,ValidValues
+LifeViz_Micro_System,,,,ValidValues
 lincRNA,,,,ValidValues
 Lipid,,,,SampleType
 Liver,,,,SampleType
-LLFS,Project and study name,,,Project
+LLFS,Long Life Family Study,,,Consortium
 lncRNAenrichment,,,,ValidValues
-LTQ Orbitrap XL,,,,ValidValues
+LTQ_Orbitrap_XL,,,,ValidValues
 Lung,,,,SampleType
-Lung lymph node,,,,SampleType
-Lymph node,,,,SampleType
+Lung_lymph_node,,,,SampleType
+Lymph_node,,,,SampleType
 Lymphocyte,,,,SampleType
 M,Molar,,,ValidValues
 Macrophage,,,,SampleType
 Male,,,,ValidValues
 Mammal,,,,ValidValues
 manifest,Metadata describing a list of files and the annotations terms associated with them.,,Sage Bionetworks,BaseAnnotation
-manifold learning,Application of any class of non-linear dimensionality reduction methods to produce low dimensional representations of noisy high dimensional data,string,Sage Bionetworks,Analysis
-MassBank of North America (MoNA),,,,ValidValues
+manifold_learning,Application of any class of non-linear dimensionality reduction methods to produce low dimensional representations of noisy high dimensional data,string,Sage Bionetworks,Analysis
+MassBank_of_North_America_(MoNA),,,,ValidValues
 MassIVE,,,,ValidValues
-MAXO codes or labels,External ontology used for populating values,,,Ontology
+MAXO,Medical Action Ontology,,,Ontology
 MDMS-SL,,,,ValidValues
-meanCoverage,Total number of bases covered by ATAC-seq reads/size of genome,,Sage Bionetworks,Unspecified
-Mendelian randomization analysis,The use of the genetic variation of known functions or phenotypes to correlate the causal effects of those functions or phenotypes with a disease outcome.,string," http://purl.bioontology.org/ontology/MESH/D057182",Analysis
-Mesenteric lymph node,,,,SampleType
+meanCoverage,Total number of bases covered by ATAC-seq reads/size of genome,,Sage Bionetworks,
+measurementTechnique,"The name of the measurement technique describing the assay method.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
+Mendelian_randomization_analysis,The use of the genetic variation of known functions or phenotypes to correlate the causal effects of those functions or phenotypes with a disease outcome.,string,http://purl.bioontology.org/ontology/MESH/D057182,Analysis
+Mesenteric_lymph_node,,,,SampleType
 MetaboLights,,,,ValidValues
 metabolite,,,,ValidValues
-Metabolomics Human,Template used for contributing metadata to the ELITE portal,,,Template
-Metabolomics Workbench,,,,ValidValues
+Metabolomics,Template used for contributing metadata to the ELITE portal,,,Template
+Metabolomics_Workbench,,,,ValidValues
 metadata,"A file of clinical, technical, or other parameters that describe a dataset.",,,BaseAnnotation
 metadataType,"For files of dataSubtype: metadata, a description of the type of metadata in the file.",,sage.annotations-experimentalData.metadataType-0.0.4,BaseAnnotation
-methylation quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA. Abbreviated mQTL or meQTL.,string,https://doi.org/10.1186/gb-2011-12-1-r10,Analysis
+methylation_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA. Abbreviated mQTL or meQTL.,string,https://doi.org/10.1186/gb-2011-12-1-r10,Analysis
 methylSeq,,,,ValidValues
 Metlin,,,,ValidValues
 mg,,,,ValidValues
-mg/dl,,,,ValidValues
-mg/l,,,,ValidValues
-mg/ml,,,,ValidValues
+mg_dl,,,,ValidValues
+mg_l,,,,ValidValues
+mg_ml,,,,ValidValues
 MGnify,,,,ValidValues
 MIB-MS,,,,ValidValues
 Microbiome,Template used for contributing metadata to the ELITE portal,,,Template
 Minutes,,,,ValidValues
 miRNAenrichment,,,,ValidValues
 mitochondria,,,,ValidValues
-miu/ml,,,,ValidValues
+miu_ml,,,,ValidValues
 ml,,,,ValidValues
 mM,,,,ValidValues
 modelSystemName,,,sage.annotations-neuro.modelSystemName-0.0.8,BaseAnnotation
 modelSystemType,Type of model system.,,sage.annotations-experimentalData.modelSystemType-0.0.2,BaseAnnotation
-modificationParameters,Modification parameters for the search engine run. [ PSI: PI http://www.w3.org/2002/07/owl#Axiom ],,https://www.ebi.ac.uk/ols/ontologies/ms/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMS_1001055,Unspecified
+modificationParameters,Modification parameters for the search engine run. [ PSI: PI http://www.w3.org/2002/07/owl#Axiom ],string,https://www.ebi.ac.uk/ols/ontologies/ms/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMS_1001055,
 MOI,,,,ValidValues
 MONDO,,,,ValidValues
 Monocyte,,,,SampleType
 Months,,NUMERIC,,Unit
-Mouse Ear,,,,SampleType
+Mouse_Ear,,,,SampleType
 mRNA,,,,ValidValues
-msAnalyteType,the type of biospecimen subjected to analysis,,http://purl.obolibrary.org/obo/NCIT_C156434,Unspecified
-msAnalyzerTypeMS1,"Describes the mass spectrometer analyzer used to read out parent ions (quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-msAnalyzerTypeMS2,"Describes the mass spectrometer analyzer used to read out fragment ions(quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-msAssayTechnique,Specified the mass spectrometer technique used,,"DSLWG,Sage Bionetworks",Unspecified
-msInstrumentModel,The model of the mass spectrometer  used,,"Proposed minimum metadata relative to mass spectrometry  ,Sage Bionetworks",Unspecified
-msTarget,specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay,,Sage Bionetworks,Unspecified
+msAnalyteType,"The type of biospecimen subjected to analysis (ex., peptide, protein, metabolite, lipid),Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,http://purl.obolibrary.org/obo/NCIT_C156434,Metadata
+msAnalyzerTypeMS1,"Describes the mass spectrometer analyzer used to read out parent ions (quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+msAnalyzerTypeMS2,"Describes the mass spectrometer analyzer used to read out fragment ions(quadrupole, ion-trap, time-of-flight, FT-ICR, including combinations of these for hybrid instruments)",string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+msAssayTechnique,"Specified the mass spectrometer technique used or the name of the proteomics assay used (ex. DDA),Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,"DSLWG,Sage Bionetworks",Metadata
+msInstrumentModel,The model of the mass spectrometer  used,,"Proposed minimum metadata relative to mass spectrometry  ,Sage Bionetworks",
+msTarget,Specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay,string,Sage Bionetworks,Metadata
 multiome,,,,ValidValues
 Multiracial,,,,Metadata
 MULTIseq,,,,ValidValues
-Nanostring Counter,,,,ValidValues
-Nanostring GeoMx,,,,ValidValues
-Nasal lavage fluid,,,,SampleType
-Nasal Swab,,,,SampleType
-Nasal Swab or Nose Specimen,,,,SampleType
-Nasopharyngeal Swab Specimen,,,,SampleType
-Native Hawaiian or Other Pacific Islander,,,,Metadata
-NCBI Gene,,,,ValidValues
-NCBI taxonomy values,External ontology used for populating values,,,Ontology
-NCI values,External ontology used for populating values,,,Ontology
+name,Name of the tool,str,,Tool
+Nanostring_Counter,,,,ValidValues
+Nanostring_GeoMx,,,,ValidValues
+Nasal_lavage_fluid,,,,SampleType
+Nasal_Swab,,,,SampleType
+Nasal_Swab_or_Nose_Specimen,,,,SampleType
+Nasopharyngeal_Swab_Specimen,,,,SampleType
+Native_Hawaiian_or_Other_Pacific_Islander,,,,Metadata
+NCBI_Gene,,,,ValidValues
+NCBI_taxonomy_values,External ontology used for populating values,,,Ontology
+NCI_values,External ontology used for populating values,,,Ontology
 NEBNext,,,,ValidValues
 Negative,,,,ValidValues
-Negative Control,,,,ValidValues
-network analysis,"A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",string,http://purl.obolibrary.org/obo/OBI_0200080,Analysis
-network driver detection,Identification of drivers of disease based on network analyses.,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194029/,Analysis
+Negative_Control,,,,ValidValues
+network_analysis,"A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",string,http://purl.obolibrary.org/obo/OBI_0200080,Analysis
+network_driver_detection,Identification of drivers of disease based on network analyses.,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194029/,Analysis
 Neutrophil,,,,SampleType
 NexteraXT,,,,ValidValues
 ng,,,,ValidValues
-ng/dl,,,,ValidValues
-ng/ml,,,,ValidValues
-ng/nl,,,,ValidValues
-ng/ul,,,,ValidValues
-NIST SRM 1950,,,,ValidValues
+ng_dl,,,,ValidValues
+ng_ml,,,,ValidValues
+ng_nl,,,,ValidValues
+ng_ul,,,,ValidValues
+NIST_SRM_1950,,,,ValidValues
 NIST17,,,,ValidValues
-NK cell,,,,SampleType
+NK_cell,,,,SampleType
 nl,,,,ValidValues
 nM,,,,ValidValues
 No,,,,ValidValues
-Not applicable,,,,Other
-Not collected,,,,Other
-Not Hispanic or latino,,,,Metadata
-Not Specified,,,,Other
+Not_applicable,When the attribute does not apply to the observation,,,Other
+Not_available,When the value is not available,,,Other
+Not_collected,Variable was purposely not collected,,,Other
+Not_Hispanic_or_latino,,,,Metadata
+Not_Specified,,,,Other
 NPX,,,,ValidValues
-nucleicAcidSource,"Specifies the type of nucleic acid (DNA, RNA, Pooled, etc.) found in a sample.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jspdictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C171278&key=1146649015&b=1&n=1,Unspecified
+nucleicAcidSource,"Specifies the type of nucleic acid (DNA, RNA, Pooled, etc.) found in a sample.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jspdictionary=NCI_Thesaurus&version=23.04d&ns=ncit&code=C171278&key=1146649015&b=1&n=1,
 NY,,,,ValidValues
-Olympus DP80,,,,ValidValues
+OLS,Ontology Lookup Service. Repository containing biological ontologies,,https://www.ebi.ac.uk/ols4/ontologies,Repository
+Olympus_DP80,,,,ValidValues
 Omni-ATAC,,,,ValidValues
-Optic Nerve,,,,SampleType
-optical density,,,,ValidValues
-Orbitrap Fusion,,,,ValidValues
-Orbitrap Fusion Lumos,,,,ValidValues
-Orbitrap Fusion Lumos Tribrid,,,,ValidValues
+Optic_Nerve,,,,SampleType
+optical_density,,,,ValidValues
+Orbitrap_Fusion,,,,ValidValues
+Orbitrap_Fusion_Lumos,,,,ValidValues
+Orbitrap_Fusion_Lumos_Tribrid,,,,ValidValues
 organ,Indicate the organ the specimen is from,,http://purl.obolibrary.org/obo/NCIT_C13018,Metadata
 organoid,,,,ValidValues
 Organoids,,,,SampleType
-Oropharyngeal Swab Specimen,,,,SampleType
+Oropharyngeal_Swab_Specimen,,,,SampleType
 Osteoblasts,,,,SampleType
 Other,,,,Other
-Other race,,,,Metadata
+Other_race,,,,Metadata
 OtherAcquisitionBatchSizeUnit,"If ""other"" list units of measure",,,Other
 OtherBatchSizeUnit,"If ""other"" list the unit of measure",,Sage Bionetworks,Other
 OtherCleavageAgents,"If ""other"" is selected, list the enzyme name. ",,Sage Bionetworks,Other
@@ -396,17 +418,20 @@ OtherControlType,"If ""other"" specify the control type",,Sage Bionetworks,Other
 OtherConversionRatioUnits,,,,Other
 OtherDatabaseName,"If ""other"" list the name of the search database",,Sage Bionetworks,Other
 OtherDatabaseSource,"If ""other"" list the name of the database source",,Sage Bionetworks,Other
+OtherDataFile,"When DataFile = `other`, add your custom value to the cell",string,,Other
 OtherDigestionMethod,"If ""other"" list the type of digestion",,Sage Bionetworks,Other
 OtherDnaBatchSizeUnit,"If ""other"" list unit of measure",,Sage Bionetworks,Other
 OtherExperiementalBatchSizeUnit,,,,Other
 OtherExperimentalBatchSizeUnit,"If ""other"" list units of measure",,,Other
 OtherExtractionMethod,"If ""other"" list the name of the extraction method",,Sage Bionetworks,Other
+OtherLabelFreeQuantitation,"When LabelFreeQuantitation = `other`, add your custom value to the cell",string,,Other
 OtherLensVoltagesUnit,,,,Other
 OtherLensVoltageUnits,"If ""other"" provide the unit of measure",,Sage Bionetworks,Other
 OtherLibraryPrep,"If ""other"" list the name of the general strategy used to prepare the library",,Sage Bionetworks,Other
 OtherLibraryPreparationMethod,"If ""other"" list the name of the library preparation methods",,Sage Bionetworks,Other
 OtherLibraryVersion,"If ""other"" list the name of the library version",,Sage Bionetworks,Other
-OtherMetabolomics HumanmeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,Sage Bionetworks,Other
+OtherMeasurementTechnique,"When MeasurementTechnique = `other`, add your custom value to the cell",string,,Other
+OtherMetabolomics_HumanmeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,Sage Bionetworks,Other
 OtherModificationParameters,"If ""other"" is selected, list the custom modification name. We recommend using an intuitive name",,Sage Bionetworks,Other
 OtherMsAnalyteType,"If ""other"" list the type of analyte ",,Sage Bionetworks,Other
 OtherMsAnalyzerTypeMS1,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,Sage Bionetworks,Other
@@ -415,6 +440,7 @@ OtherMsAssayTechnique,"If ""other"" is selected list the name of the mass spectr
 OtherMsInstrumentModel,"If ""other"" is selected list the name of the instrument model",,Sage Bionetworks,Other
 OtherPlatformLocation,"If ""other"" list the name of the platform location",,Sage Bionetworks,Other
 OtherProcessingBatchSizeUnit,"If ""other"" list units of measure",,Sage Bionetworks,Other
+OtherProteomics_digestionReagent,"When DigestionReagent = `other`, add your custom value to the cell",string,,Other
 OtherProteomicsAssayType,"If ""other"" is selected list the name of the type of peptide quantification used",,Sage Bionetworks,Other
 OtherReadLengthUnits,"If ""other"" provide the unit of measure",,Sage Bionetworks,Other
 OtherRepositoryName,"If ""other"" list the name of the repository",,Sage Bionetworks,Other
@@ -428,65 +454,67 @@ OtherTranscriptType,"If ""other"" list the transcript type",,Sage Bionetworks,Ot
 OtherVaccumPressureUnits,"If ""other"" provide the unit of measure",,Sage Bionetworks,Other
 OtherVacuumPressureUnit,,,,Other
 OtherYesHasIonizationSource,,,,Other
-outlier detection,An observation in a data set that is numerically distant from the rest of the data.,string,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79083,Analysis
-PacBio RS II,,,,ValidValues
-PacBio Sequel II System,,,,ValidValues
-PacBio Sequel IIe System,,,,ValidValues
+outlier_detection,An observation in a data set that is numerically distant from the rest of the data.,string,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79083,Analysis
+PacBio_RS_II,,,,ValidValues
+PacBio_Sequel_II_System,,,,ValidValues
+PacBio_Sequel_IIe_System,,,,ValidValues
 pairedEnd,,,,ValidValues
 Pancreas,,,,SampleType
-Pancreatic Stellate Cells,,,,SampleType
-parentSpecimenID,"Unique identifier for the direct Parent from which the Specimen was derived, processed, pooled, etc. (if applicable)",,Sage Bionetworks,Unspecified
-parentSpecimenType,Type of biological material comprising the Parent Specimen (if applicable),,Sage Bionetworks,Unspecified
+Pancreatic_Stellate_Cells,,,,SampleType
+parentSpecimenID,"Unique identifier for the direct Parent from which the Specimen was derived, processed, pooled, etc. (if applicable)",,Sage Bionetworks,
+parentSpecimenType,Type of biological material comprising the Parent Specimen (if applicable),,Sage Bionetworks,
 PBL,,,,SampleType
 PBMC,,,,SampleType
-pcrCycles,Number of PCR cycles to amplify transposased DNA fragments,,Sage Bionetworks,Unspecified
+pcrCycles,Number of PCR cycles to amplify transposased DNA fragments,,Sage Bionetworks,
 PCRfree,,,,ValidValues
-peak calling,"An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",string,http://purl.obolibrary.org/obo/OBCS_0000167,Analysis
-Perlegen 300Karray,,,,ValidValues
+peak_calling,"An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",string,http://purl.obolibrary.org/obo/OBCS_0000167,Analysis
+Perlegen_300Karray,,,,ValidValues
 PFU,,,,ValidValues
 PFUe,,,,ValidValues
 pg,,,,ValidValues
-pg/mg creatinine,,,,ValidValues
-pg/ml,,,,ValidValues
-pg/nl,,,,ValidValues
-pg/ul,,,,ValidValues
+pg_mg_creatinine,,,,ValidValues
+pg_ml,,,,ValidValues
+pg_nl,,,,ValidValues
+pg_ul,,,,ValidValues
 pl,,,,ValidValues
 Placenta,,,,SampleType
 Plasma,,,,SampleType
 platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",,sage.annotations-experimentalData.platform-0.0.26,BaseAnnotation
-platformLocation,"The name of the laboratory, facility, vendor, company, or location where the data generation platform was located, provided by the data contributor",,Sage Bionetworks,Assay
+platformLocation,"The name of the laboratory, facility, vendor, company, or location where the data generation platform was located, provided by the data contributor.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,Sage Bionetworks,"Assay,Metadata"
 pM,,,,ValidValues
 polyAselection,,,,ValidValues
-Polygenic Risk Scores,A sample level estimate of the genetic component of disease risk based on genome-wide association studies.,string,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348,Analysis
-Pooled Sample,,,,SampleType
-Popliteal lymph node,,,,SampleType
+Polygenic_Risk_Scores,A sample level estimate of the genetic component of disease risk based on genome-wide association studies.,string,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348,Analysis
+Pooled_Sample,,,,SampleType
+Popliteal_lymph_node,,,,SampleType
+portal,Name of the portal the data is hosted in,,,SampleType
 Positive,,,,ValidValues
-Positive Control,,,,SampleType
+Positive_Control,,,,SampleType
 Post-Juvenile,,,,ValidValues
 Pound,,,,ValidValues
-precursorMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",,Proteomics Sample Metadata,Unspecified
-Prefer not to answer,,,,Metadata
+precursorMassTolerance,"Units of measure are Da or ppm (ex. ""0.6 Da"" or ""20 ppm"")",string,Proteomics Sample Metadata,
+Prefer_not_to_answer,,,,Metadata
 PRIDE,,,,ValidValues
 Primate,,,,ValidValues
-principal component analysis,Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.,string,http://purl.bioontology.org/ontology/MESH/D025341,Analysis
-processingBatchID,"Processing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
-processingBatchSize,The number of samples,,Sage Bionetworks,Assay
-processingBatchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Assay
-Promega GloMax Discover,,,,ValidValues
+principal_component_analysis,Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.,string,http://purl.bioontology.org/ontology/MESH/D025341,Analysis
+processingBatchID,"Processing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",string,Sage Bionetworks,"Assay,Metadata"
+processingBatchSize,The number of samples,string,Sage Bionetworks,"Assay,Metadata"
+processingBatchSizeUnit,The unit of measurement for number of samples in a batch,string,Sage Bionetworks,"Assay,Metadata"
+Promega_GloMax_Discover,,,,ValidValues
 Protein,,,,SampleType
-protein quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate protein expression. Abbreviated pQTL.,string,https://doi.org/10.1371/journal.pgen.1000072,Analysis
+protein_quantitative_trait_loci_detection,A stretch of DNA at a particular chromosomal location that is able to regulate protein expression. Abbreviated pQTL.,string,https://doi.org/10.1371/journal.pgen.1000072,Analysis
 proteomics,Template used for contributing metadata to the ELITE portal,,,Template
 protocol,"A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",,http://purl.obolibrary.org/obo/OBI_0000272,BaseAnnotation
-protoemicsAssayType,Type of peptide quantification used (ex. Label Free),,"DSLWG,Sage Bionetworks,https://www.ebi.ac.uk/ols/ontologies/pride/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPRIDE_0000514&viewMode=All&siblings=false",Unspecified
-proximity ligation,,,,ValidValues
+protoemicsAssayType,Type of peptide quantification used (ex. Label Free),,"DSLWG,Sage Bionetworks,https://www.ebi.ac.uk/ols/ontologies/pride/termsiri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPRIDE_0000514&viewMode=All&siblings=false",
+proximity_ligation,,,,ValidValues
 PT,,,,ValidValues
 purity,"A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components",string,http://purl.obolibrary.org/obo/NCIT_C62352,Analysis
-Q Exactive,,,,ValidValues
-Q Exactive HF,,,,ValidValues
-Q Exactive HF-X,,,,ValidValues
-Q Exactive Plus,,,,ValidValues
-Q Exative HF,,,,ValidValues
-quality control,A technique used to ensure a certain level of quality in a product or service.,string,http://purl.obolibrary.org/obo/ERO_0001219,Analysis
+Q_Exactive,,,,ValidValues
+Q_Exactive_HF,,,,ValidValues
+Q_Exactive_HF-X,,,,ValidValues
+Q_Exactive_Plus,,,,ValidValues
+Q_Exative_HF,,,,ValidValues
+quality_control,A technique used to ensure a certain level of quality in a product or service.,string,http://purl.obolibrary.org/obo/ERO_0001219,Analysis
+quantationStrategy,"The general strategy used for differential analysis,Example:,Absolute quantitation analysis,Isobaric label quantitation analysis,LC-MS label-free quantitation analysis,,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,,Metadata
 race,Race of individual,,"Sage Bionetworks,https://jamanetwork.com/pages/inclusive-language,https://thesaurus.cancer.gov/ncitbrowser/pages/home.jsfversion=23.04d,https://www.synapse.org/#!Synapse:syn25878249",Metadata
 readLength,The length of the read,,Sage Bionetworks,Assay
 readLengthUnits,The units of measurement.,,Sage Bionetworks,Assay
@@ -494,16 +522,16 @@ readStrandOrigin,The strand from which the read originates in a strand-specific 
 reagentCatalogNumber,"If the assay reagent is a commercial product, enter the vendor's catalog identifier. If the reagent is a custom preparation enter 'NA'. ",,"ImmPort,Sage Bionetworks",Assay
 reagentContact,The contact information is particularly helpful when the reagent is not from a commercial vendor.,,"ImmPort,Sage Bionetworks",Assay
 reagentID(s),"One or more identifiers, separated by a semicolon (;). The reagent identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"ImmPort,Sage Bionetworks",Assay
-reagentLotNumber,"The lot number is often provided by a reagent source when the reagent is replenished over time. ",,"ImmPort,Sage Bionetworks",Assay
+reagentLotNumber,The lot number is often provided by a reagent source when the reagent is replenished over time. ,,"ImmPort,Sage Bionetworks",Assay
 reagentManufacturer,"The manufacturer is the source of a reagent and may include commercial vendors as well as non-commercial sources (e.g., collaborating labs)",,"ImmPort,Sage Bionetworks",Assay
 reagentName,The reagent name is an alternative to the Reagent ID,,"ImmPort,Sage Bionetworks",Assay
 reagentWeblink,An internet address that may provide details of an assay reagent.,,"ImmPort,Sage Bionetworks",Assay
-Rectal Swab Specimen,,,,SampleType
-Red Blood Cell,,,,SampleType
+Rectal_Swab_Specimen,,,,SampleType
+Red_Blood_Cell,,,,SampleType
 referenceTranscriptID,The ID for the transcript/gene. Either the NCBI ID or the Ensembl ID must be provided,,Sage Bionetworks,Assay
-repositoryName,"The public repository name for the transcript (for example, Ensembl or NCBI Gene)",,Sage Bionetworks,Unspecified
+repositoryName,"The public repository name for the transcript (for example, Ensembl or NCBI Gene)",,Sage Bionetworks,
 resourceType,The type of resource being stored and annotated,,sage.annotations-sageCommunity.resourceType-0.0.5,BaseAnnotation
-resultUnit,The unit for the result value,,Sage Bionetworks,Unspecified
+resultUnit,The unit for the result value,,Sage Bionetworks,
 reverse,,,,ValidValues
 rnaBatchID,"RNA isolation batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
 rnaBatchSize,The number of samples,,Sage Bionetworks,Assay
@@ -515,182 +543,189 @@ rRNAdepletion,,,,ValidValues
 runType,The type of run,,Sage Bionetworks,Assay
 sac-seq,,,,ValidValues
 Saliva,,,,SampleType
-Salivary Glands,,,,SampleType
-sampleBatchID,"Sample batch lot identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,http://purl.obolibrary.org/obo/MS_1000053,Assay
-sampleBatchSize,The number of samples,,Sage Bionetworks,Assay
-sampleBatchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Assay
-sampleIntroduction,"The sample introduction and delivery. From GC, from LC, direct infusion without chromatography, direct infusion using dedicated autosampler flow rate.",,"Proposed minimum metadata relative to mass spectrometry  ,Sage Bionetworks",Unspecified
-samplePrepProtocol,An internet address that may provide more details of the protocol information (web link),,Sage Bionetworks,Unspecified
-sampleType,The type of sample collected,,"ImmPort,Sage Bionetworks",Unspecified
+Salivary_Glands,,,,SampleType
+sampleBatchID,"Sample batch lot identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",string,http://purl.obolibrary.org/obo/MS_1000053,"Assay,Metadata"
+sampleBatchSize,The number of samples,string,Sage Bionetworks,"Assay,Metadata"
+sampleBatchSizeUnit,The unit of measurement for number of samples in a batch,string,Sage Bionetworks,"Assay,Metadata"
+sampleIntroduction,"The sample introduction and delivery. From GC, from LC, direct infusion without chromatography, direct infusion using dedicated autosampler flow rate. ,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,"Proposed minimum metadata relative to mass spectrometry  ,Sage Bionetworks",Metadata
+samplePrepProtocol,"An internet address that may provide more details of the protocol information (web link).,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,Sage Bionetworks,Metadata
+sampleType,"The type of sample collected or the term used to describe the source of a biospecimen used for a laboratory test.,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,"ImmPort,Sage Bionetworks",Metadata
 samplingAge,"The calculated age of the sample, measurement is determined or coded by the data contributor. ",,Sage Bionetworks,Metadata
 scale,,,,ValidValues
 scRNAseq,Template used for contributing metadata to the ELITE portal,,,Template
-search engine output files,These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.,string,https://web.archive.org/web/20191213022828/https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride/how-submit-data-proteomexchange-pride/proteomics-data-forma,Analysis
+search_engine_output_files,These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.,string,https://web.archive.org/web/20191213022828/https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride/how-submit-data-proteomexchange-pride/proteomics-data-forma,Analysis
 Seconds,,,,ValidValues
-Sequence alignment,Alignment of reads to a reference genome,string,http://edamontology.org/operation_0292,Analysis
+Sequence_alignment,Alignment of reads to a reference genome,string,http://edamontology.org/operation_0292,Analysis
 sequencingBatchID,"Sequencing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,Sage Bionetworks,Assay
 sequencingBatchSize,The number of samples,,Sage Bionetworks,Assay
 sequencingBatchSizeUnit,The unit of measurement for number of samples in a batch,,Sage Bionetworks,Assay
 Serum,,,,SampleType
 sex,The biological sex of the individual,,"Sage Bionetworks,https://www.synapse.org/#!Synapse:syn25878249",Metadata
 SILAC,,,,ValidValues
-single cell,,,,ValidValues
-single nucleus,,,,ValidValues
+single_cell,,,,ValidValues
+single_nucleus,,,,ValidValues
 singleEnd,,,,ValidValues
-Skin of body,,,,SampleType
-Small intestine,,,,SampleType
+Skin_of_body,,,,SampleType
+Small_intestine,,,,SampleType
 Smart-seq1,,,,ValidValues
 Smart-seq2,,,,ValidValues
 Smart-seq4,,,,ValidValues
 SMRTbell,,,,ValidValues
 snRNA,,,,ValidValues
-somatic mutation calling,Identification of de-novo mutations in somatic cells.,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4803342/,Analysis
-sorted cells,,,,ValidValues
-sorted nuclei,,,,ValidValues
+softwareType,Type of application ,str,,Tool
+somatic_mutation_calling,Identification of de-novo mutations in somatic cells.,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4803342/,Analysis
+sorted_cells,,,,ValidValues
+sorted_nuclei,,,,ValidValues
 speciesAge,"Age of individual (formatted in months, ex. ""72 months""). note: Uncertainty about the age might require recording age by specifying a lower and upper estimate in months for the age of the animal.",,"-The%20age%20of,Sage Bionetworks,age,https://www.animalaudiograms.org/audiogram_metadata_scheme#:~:text=species%20are%20possible.-",Metadata
-speciesGroup,The taxonomic ranking including both species and subspecies the individual belongs to.,,",https://ontobee.org/ontology/NCITiri=http://purl.obolibrary.org/obo/NCIT_C62690https://www.ebi.ac.uk/ols/ontologies/edam/termsiri=http%3A%2F%2Fedamontology.org%2Fdata_1045",Metadata
+speciesGroup,The taxonomic ranking including both species and subspecies the individual belongs to.,,https://ontobee.org/ontology/NCITiri=http://purl.obolibrary.org/obo/NCIT_C62690https://www.ebi.ac.uk/ols/ontologies/edam/termsiri=http%3A%2F%2Fedamontology.org%2Fdata_1045,Metadata
 speciesName,"The scientific name of the species (typically a taxonomic group, ex. ""Eremophila alpestris"") the individual belongs to.",,https://www.ebi.ac.uk/ols4/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_1045,Metadata
-specifyAcquisitionBatchSizeUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyBatchSizeUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyControlType,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyAcquisitionBatchSizeUnits,"If ""other"" list units of measure",String,Sage Bionetworks,Other
+specifyBatchSizeUnits,"If ""other"" list the unit of measure","String,string",Sage Bionetworks,Other
+specifyControlType,"If ""other"" specify the control type","String,string",Sage Bionetworks,Other
 specifyConversionRatioUnit,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyDatabaseName,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyDatabaseSource,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyDatabaseName,"If ""other"" list the name of the search database","String,string",Sage Bionetworks,Other
+specifyDatabaseSource,"If ""other"" list the name of the database source","String,string",Sage Bionetworks,Other
 specifyDigestionMethod,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyDigestionReagent,"If ""other"" is selected specify the name of the enzyme",string,,Other
 specifyDNABatchSizeUnit,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyEnrichmentMethod,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyExperimentalBatchSizeUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyEnrichmentStrategy,"If ""other"" is selected specify the name",string,,Other
+specifyExperimentalBatchSizeUnits,"If ""other"" list units of measure",String,Sage Bionetworks,Other
 specifyExtractionMethod,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyLensVoltageUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyLabelFreeQuantitation,"If ""other"" is selected please specify",string,,Other
+specifyLensVoltageUnits,"If ""other"" provide the unit of measure","String,string",Sage Bionetworks,Other
 specifyLibraryPrep,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyLibraryPreparationMethod,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyLibraryVersion,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMeasurementTechnique,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMSAnalyteType,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMSAnalyzerTypeMS1,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMSAnalyzerTypeMS2,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMSAssayTechnique,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyMSInstrumentModel,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyMeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used","String,string",Sage Bionetworks,Other
+specifyMSAnalyteType,"If ""other"" list the type of analyte ","String,string",Sage Bionetworks,Other
+specifyMSAnalyzerTypeMS1,"If ""other"" is selected list the name of the mass spectrometer analyzer used","String,string",Sage Bionetworks,Other
+specifyMSAnalyzerTypeMS2,"If ""other"" is selected list the name of the mass spectrometer analyzer used","String,string",Sage Bionetworks,Other
+specifyMSAssayTechnique,"If ""other"" is selected list the name of the mass spectrometer technique used or the name of the proteomics assay used","String,string",Sage Bionetworks,Other
+specifyMSInstrumentModel,"If ""other"" is selected list the name of the instrument model","String,string",Sage Bionetworks,Other
 specifyOtherCleavageAgent,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyOtherDataFile,"If ""other"" is selected, list the name of the data file. ",string,,Other
 specifyOtherModificationParameters,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyPlatformLocation,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyPlatformVersion,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyProcessingBatchSizeUnit,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyPlatformLocation,"If ""other"" list the name of the platform location","String,string",Sage Bionetworks,Other
+specifyPlatformVersion,"If ""other"" list the name of the platform version","String,string",Sage Bionetworks,Other
+specifyProcessingBatchSizeUnit,"If ""other"" list units of measure","String,string",Sage Bionetworks,Other
 specifyProteomicsAssayType,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyReadLengthUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyRepositoryName,Value is determined by the data contributor,String,Sage Bionetworks,Other
 specifyRNABatchSizeUnit,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifySampleBatchSizeUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifySampleIntroduction,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifySampleType,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifySampleBatchSizeUnits,"If ""other"" list the unit of measure","String,string",Sage Bionetworks,Other
+specifySampleIntroduction,"If ""other"" list the name of the sample introduction","String,string",Sage Bionetworks,Other
+specifySampleType,"If ""other"" is selected list the type of sample","String,string",Sage Bionetworks,Other
 specifySequencingBatchSizeUnit,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifySoftwareType,"If ""OtherSoftwareType"" is selected under software type. Freeform text that can be added by the contributor",str,,Tool
 specifyTranscriptType,Value is determined by the data contributor,String,Sage Bionetworks,Other
-specifyVacuumPressueUnits,Value is determined by the data contributor,String,Sage Bionetworks,Other
+specifyVacuumPressueUnits,"If ""other"" provide the unit of measure","String,string",Sage Bionetworks,Other
 specimenAge,The subject's age at the time of specimen extraction is the individual's age (since birth) at the time a given specimen was extracted. Measured as age in years.,,Sage Bionetworks,Metadata
-specimenID,"Identifying string linked to a particular sample or specimen, provide by the data contributor",,Sage Bionetworks,Metadata
-specimenIdSource,"The repository or database to which a specimenID maps; or, the group or lab that generated the specimen. For cell culture studies, the commercial source or lab that generated the cells.",,Sage Bionetworks,Unspecified
-specimenSource,Indicate the biological area of the specimen,,https://www.ebi.ac.uk/ols4/ontologies/ccf/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004537&lang=en&viewMode=PreferredRoots&siblings=false,Unspecified
-specimenType,Type of biological material comprising the Specimen,,"Sage Bionetworks,http://purl.obolibrary.org/obo/NCIT_C70713",Unspecified
-Spectramax M Series,,,,ValidValues
-spectrometerFrequency,The frequency at which a spectrometer causes hydrogen atoms to resonate (in MHz),,Sage Bionetworks,Unspecified
+specimenID,"Identifying string linked to a particular sample or specimen, provided by the data contributor",string,Sage Bionetworks,Metadata
+specimenIdSource,"The repository or database to which a specimenID maps; or, the group or lab that generated the specimen. For cell culture studies, the commercial source or lab that generated the cells.",,Sage Bionetworks,
+specimenSource,Indicate the biological area of the specimen,,https://www.ebi.ac.uk/ols4/ontologies/ccf/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004537&lang=en&viewMode=PreferredRoots&siblings=false,
+specimenType,Type of biological material comprising the Specimen,,"Sage Bionetworks,http://purl.obolibrary.org/obo/NCIT_C70713",
+Spectramax_M_Series,,,,ValidValues
+spectrometerFrequency,The frequency at which a spectrometer causes hydrogen atoms to resonate (in MHz),number,Sage Bionetworks,Metadata
 Spleen,,,,SampleType
 SPLITseq,,,,ValidValues
 Sputum,,,,SampleType
 SRA,,,,ValidValues
 STARRSeq,,,,ValidValues
-statistical network reconstruction,Learning network relationships between genes based on their coexpression patterns.,string,http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Signaling_Network_Reconstruction,Analysis
+statistical_network_reconstruction,Learning network relationships between genes based on their coexpression patterns.,string,http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Signaling_Network_Reconstruction,Analysis
 Stomach,,,,SampleType
 stool,,,,ValidValues
 Stranded,,,,ValidValues
-structural variation detection,Detection of large regions in a genome subject to copy-number variation or other structural variations.,string,http://edamontology.org/operation_3228,Analysis
-Study of Osteoporotic Fractures (SOF),,,,ValidValues
-study pool,,,,ValidValues
-studyCode,"Unique identifier for the study, assigned by the DCC",,Sage Bionetworks,Metadata
-studyName,Name of studies found in project,,,ValidValues
-Supervised Machine Learning,A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.,string,http://purl.bioontology.org/ontology/MESH/D000069553,Analysis
+structural_variation_detection,Detection of large regions in a genome subject to copy-number variation or other structural variations.,string,http://edamontology.org/operation_3228,Analysis
+Study_of_Osteoporotic_Fractures_(SOF),,,,ValidValues
+study_pool,,,,ValidValues
+studyKey,Short name of studies found in project,,,ValidValues
+summary,Description of the tool. ,str,,Tool
+Supervised_Machine_Learning,A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.,string,http://purl.bioontology.org/ontology/MESH/D000069553,Analysis
 SureCell,,,,ValidValues
 swabs,,,,ValidValues
-Synovial fluid,,,,SampleType
-Synovial tissue,,,,SampleType
-T cell,,,,SampleType
-Targeted Absolute Quantitation,,,,ValidValues
+Synovial_fluid,,,,SampleType
+Synovial_tissue,,,,SampleType
+T_cell,,,,SampleType
+Targeted_Absolute_Quantitation,,,,ValidValues
 TargetedMsTarget,the type of biospecimen subjected to analysis,,http://purl.obolibrary.org/obo/NCIT_C156434,ValidValues
 taxon,"Taxonomic identifier. The National Center for Biotechnology Information taxon ID (formatted as, ex. ""txid9989"")",,"http://edamontology.org/data_1179,http://purl.obolibrary.org/obo/TAXRANK_0000010,https://www.ncbi.nlm.nih.gov/taxonomy",Metadata
 TCID50,,,,ValidValues
-technologyPlatformVersion,"The specific version (application, manufacturer, model, lab, etc.) of a technology that is used to carry out a laboratory or computational experiment.",,Sage Bionetworks,Assay
-The Health,,,,ValidValues
-The Osteoporotic Fractures in Men (MrOS) Study,,,,ValidValues
+technologyPlatformVersion,"The specific version (application, manufacturer, model, lab, etc.) of a technology that is used to carry out a laboratory or computational experiment. ,Provide a value OR provide one of these values:,Unknown,Not collected,Not applicable,Not specified",string,Sage Bionetworks,"Assay,Metadata"
+The_Osteoporotic_Fractures_in_Men_(MrOS)_Study,,,,ValidValues
 Thymus,,,,SampleType
 time-of-flight,,,,ValidValues
 tissue,Indicate the tissue the specimen is from,,http://purl.obolibrary.org/obo/NCIT_C12801,Metadata
-tissueVolume,The volume of the tissue sample. Measured in microliters.,,Sage Bionetworks,Unspecified
-tissueWeight,The mass of the tissue specimen. Measured in mg.,,Sage Bionetworks,Unspecified
+tissueVolume,The volume of the tissue sample. Measured in microliters.,,Sage Bionetworks,
+tissueWeight,The mass of the tissue specimen. Measured in mg.,,Sage Bionetworks,
 TMT,,,,ValidValues
 Tonsil,,,,SampleType
 totalReads,Total number of sequencing reads from a library.,,Sage Bionetworks,Assay
 totalRNA,,,,ValidValues
 TPM,,,,ValidValues
 Trachea,,,,SampleType
-transcript quantification,Quantification of the abundunce of specific gene expression transcript isoforms.,string,https://www.nature.com/articles/nbt.3519,Analysis
-transcriptType,The type of transcript reported,,ImmPort,Unspecified
-treatmentAmountUnit,Unit of treatment amount,,"ImmPort,Sage Bionetworks",Unspecified
-treatmentAmountValue,"The Amount Value indicates how much (concentration, mass, volume) of a treatment agent was applied to a sample.",,"ImmPort,Sage Bionetworks",Unspecified
-treatmentDurationUnit,Unit of treatment duration,,"ImmPort,Sage Bionetworks",Unspecified
-treatmentDurationValue,Duration of treatment,,,Unspecified
-treatmentID(s),"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"ImmPort,Sage Bionetworks",Unspecified
-treatmentName,"Treatments refer to in vitro modifications of samples. Three treatment types are supported: agent amount, duration, and temperature.  Treatment name is an alternate identifier to the Treatment ID ",,"ImmPort,Sage Bionetworks",Unspecified
-treatmentTemperatureUnit,Unit of treatment temperature,,"ImmPort,Sage Bionetworks",Unspecified
-treatmentTemperatureValue,Value of treatment temperature,,"ImmPort,Sage Bionetworks",Unspecified
-triple quadrupole,,,,ValidValues
+transcript_quantification,Quantification of the abundunce of specific gene expression transcript isoforms.,string,https://www.nature.com/articles/nbt.3519,Analysis
+transcriptType,The type of transcript reported,,ImmPort,
+treatmentAmountUnit,Unit of treatment amount,,"ImmPort,Sage Bionetworks",
+treatmentAmountValue,"The Amount Value indicates how much (concentration, mass, volume) of a treatment agent was applied to a sample.",,"ImmPort,Sage Bionetworks",
+treatmentDurationUnit,Unit of treatment duration,,"ImmPort,Sage Bionetworks",
+treatmentDurationValue,Duration of treatment,,,
+treatmentID(s),"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"ImmPort,Sage Bionetworks",
+treatmentName,"Treatments refer to in vitro modifications of samples. Three treatment types are supported: agent amount, duration, and temperature.  Treatment name is an alternate identifier to the Treatment ID ",,"ImmPort,Sage Bionetworks",
+treatmentTemperatureUnit,Unit of treatment temperature,,"ImmPort,Sage Bionetworks",
+treatmentTemperatureValue,Value of treatment temperature,,"ImmPort,Sage Bionetworks",
+triple_quadrupole,,,,ValidValues
 TRUE,Indicate the disease or condition.,,LLFS data dictionary,ValidValues
 TruSeq,,,,ValidValues
 TruSeqOtherLibraryPreparationMethod,,,,ValidValues
-Tumor Tissue,,,,SampleType
+Tumor_Tissue,,,,SampleType
 ug,,,,ValidValues
-ug/dl,,,,ValidValues
-ug/l,,,,ValidValues
-ug/ml,,,,ValidValues
-ug/ul,,,,ValidValues
-uiu/ml,,,,ValidValues
+ug_dl,,,,ValidValues
+ug_l,,,,ValidValues
+ug_ml,,,,ValidValues
+ug_ul,,,,ValidValues
+uiu_ml,,,,ValidValues
 ul,,,,ValidValues
-Ultralow Methyl-Seq,,,,ValidValues
+Ultralow_Methyl-Seq,,,,ValidValues
 uM,,,,ValidValues
-Umbilical cord blood,,,,SampleType
-umol/l,,,,ValidValues
+Umbilical_cord_blood,,,,SampleType
+umol_l,Micromoles per liter,,,ValidValues
 UniProt,,,,ValidValues
-units/ml,,,,ValidValues
+units_ml,,,,ValidValues
 Unknown,,,,Other
 UnTargetedMsTarget,,,,ValidValues
 UnTargetedMsTargetUnknown,,,,ValidValues
 UPLC-ESI-QTOF-MS,,,,ValidValues
 UPLC-MSMS,,,,ValidValues
-Urinary bladder,,,,SampleType
+Urinary_bladder,,,,SampleType
 Urine,,,,SampleType
-US Family,Name of the cohort,,,ValidValues
-useReagent,Was a reagent applied to the sample,,"ImmPort,Sage Bionetworks",Unspecified
-useTreatment,Was a treatment applied to the sample,,"ImmPort,Sage Bionetworks",Unspecified
-vacuumPressure,The recorded vacuum pressure value,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
-vacuumPressureUnit,Unit of vacuum pressure value,,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Unspecified
+url,hyperlink to the tool,str,,Tool
+US_Family,Name of the cohort,,,ValidValues
+useReagent,Was a reagent applied to the sample,,"ImmPort,Sage Bionetworks",
+useTreatment,Was a treatment applied to the sample,,"ImmPort,Sage Bionetworks",
+vacuumPressure,The recorded vacuum pressure value,number,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
+vacuumPressureUnit,Unit of vacuum pressure value,string,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",Metadata
 Vagina,,,,SampleType
-valueReported,The count or gene count for the transcript,,Sage Bionetworks,Unspecified
+valueReported,The count or gene count for the transcript,,Sage Bionetworks,
 variancePartition,Identification of percentage variance explained of a dependent variable by multiple classes of independent variables.,string,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123296/,Analysis
-Variant calling,"Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",string,http://edamontology.org/operation_3227,Analysis
-Vectra H1 3D Imaging System,,,,ValidValues
-Vevo 3100 Imaging System,,,,ValidValues
+Variant_calling,"Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",string,http://edamontology.org/operation_3227,Analysis
+Vectra_H1_3D_Imaging_System,,,,ValidValues
+Vevo_3100_Imaging_System,,,,ValidValues
 visitCode,"Indicate which longitudinal visit for the individual the data comes from, provided by the data contributor's data dictionary",,Sage Bionetworks,Metadata
 visualization,"Resource that provides access to tools for graphical, interactive, multimodal and multidimensional data and result visualization.",string,http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization,Analysis
-water plus Baker ISTD,,,,ValidValues
+water_plus_Baker_ISTD,,,,ValidValues
 Weeks,,,,ValidValues
 White,Related to demographics,,,Metadata
-Whole blood,,,,SampleType
-Whole Genome Sequencing,Template used for contributing metadata to the ELITE portal,,,Template
+Whole_blood,,,,SampleType
+Whole_Genome_Sequencing,Template used for contributing metadata to the ELITE portal,,,Template
 Wild,,,,ValidValues
-World Bank country codes,External ontology used for populating values,,,Ontology
-Xevo G2 QTOF,,,,ValidValues
-Xevo TQ-S,,,,ValidValues
+World_Bank_country_codes,External ontology used for populating values,,https://wits.worldbank.org/countryprofile/metadata/en/country/all,Ontology
+Xevo_G2_QTOF,,,,ValidValues
+Xevo_TQ-S,,,,ValidValues
 Years,,,,ValidValues
 YesHasAssayControl,Control samples suitable for normalization and batch correction,,https://doi.org/10.1101/2020.05.19.105197https://doi.org/10.1038/sdata.2017.140https://www-s.nist.gov/srmors/view_detail.cfmsrm=1950Sage BionetworksDSLWG,ValidValues
-YesHasIonizationSource,Ion charge state (positive or negative-ion analysis),,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",ValidValues
+YesHasIonizationSource,"When ionProperty = `other`, add your custom value to the cell,Ion charge state (positive or negative-ion analysis)",,"Proposed minimum metadata relative to mass spectrometry ,Sage Bionetworks",ValidValues
+YesHasIonizationSource?,"When ionProperty = `other`, add your custom value to the cell,",string,,Other
 YesUseReagent,"One or more identifiers, separated by a semicolon (;). The reagent identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"ImmPort,Sage Bionetworks",ValidValues
 YesUseTreatment,"One or more identifiers, separated by a semicolon (;). The treatment identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",,"ImmPort,Sage Bionetworks",ValidValues
-Zeiss LSM 980,,,,ValidValues
+Zeiss_LSM_980,,,,ValidValues

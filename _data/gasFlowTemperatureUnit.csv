@@ -1,5 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-C,,,,ManifestColumn
- F,,,,ManifestColumn
- K,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+F,,string,,ManifestColumn
+ K,,string,,ManifestColumn
+ Not Specified,,string,,ManifestColumn
+C,,string,,ManifestColumn

@@ -1,5 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-FPKM,,,,ManifestColumn
+Not Specified,,,,ManifestColumn
  RPKM,,,,ManifestColumn
  TPM,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+FPKM,,,,ManifestColumn

@@ -1,7 +1,9 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
-Not applicable,,,,ValidValue,Other
-Not collected,,,,ValidValue,Other
-Not Specified,,,,ValidValue,Other
+Label_freeLabelQuantiation,"When labelFreeQuantitation = `other`, add your custom value to the cell",,string,labelQuantiation,Other
+Not_applicable,When the attribute does not apply to the observation,,,ValidValue,Other
+Not_available,When the value is not available,,,ValidValue,Other
+Not_collected,Variable was purposely not collected,,,ValidValue,Other
+Not_Specified,,,,ValidValue,Other
 Other,,,,ValidValue,Other
 OtherAcquisitionBatchSizeUnit,"If ""other"" list units of measure",,,ValidValue,Other
 OtherBatchSizeUnit,"If ""other"" list the unit of measure",,,ValidValue,Other
@@ -10,17 +12,20 @@ OtherControlType,"If ""other"" specify the control type",,,ValidValue,Other
 OtherConversionRatioUnits,,,,ValidValue,Other
 OtherDatabaseName,"If ""other"" list the name of the search database",,,ValidValue,Other
 OtherDatabaseSource,"If ""other"" list the name of the database source",,,ValidValue,Other
+OtherDataFile,"When DataFile = `other`, add your custom value to the cell",,string,dataFile,Other
 OtherDigestionMethod,"If ""other"" list the type of digestion",,,ValidValue,Other
 OtherDnaBatchSizeUnit,"If ""other"" list unit of measure",,,ValidValue,Other
 OtherExperiementalBatchSizeUnit,,,,ValidValue,Other
 OtherExperimentalBatchSizeUnit,"If ""other"" list units of measure",,,ValidValue,Other
 OtherExtractionMethod,"If ""other"" list the name of the extraction method",,,ValidValue,Other
+OtherLabelFreeQuantitation,"When LabelFreeQuantitation = `other`, add your custom value to the cell",,string,labelFreeQuantitation,Other
 OtherLensVoltagesUnit,,,,ValidValue,Other
 OtherLensVoltageUnits,"If ""other"" provide the unit of measure",,,ValidValue,Other
 OtherLibraryPrep,"If ""other"" list the name of the general strategy used to prepare the library",,,ValidValue,Other
 OtherLibraryPreparationMethod,"If ""other"" list the name of the library preparation methods",,,ValidValue,Other
 OtherLibraryVersion,"If ""other"" list the name of the library version",,,ValidValue,Other
-OtherMetabolomics HumanmeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,,ValidValue,Other
+OtherMeasurementTechnique,"When MeasurementTechnique = `other`, add your custom value to the cell",,string,measurementTechnique,Other
+OtherMetabolomics_HumanmeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,,ValidValue,Other
 OtherModificationParameters,"If ""other"" is selected, list the custom modification name. We recommend using an intuitive name",,,ValidValue,Other
 OtherMsAnalyteType,"If ""other"" list the type of analyte ",,,ValidValue,Other
 OtherMsAnalyzerTypeMS1,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,,ValidValue,Other
@@ -29,6 +34,7 @@ OtherMsAssayTechnique,"If ""other"" is selected list the name of the mass spectr
 OtherMsInstrumentModel,"If ""other"" is selected list the name of the instrument model",,,ValidValue,Other
 OtherPlatformLocation,"If ""other"" list the name of the platform location",,,ValidValue,Other
 OtherProcessingBatchSizeUnit,"If ""other"" list units of measure",,,ValidValue,Other
+OtherProteomics_digestionReagent,"When DigestionReagent = `other`, add your custom value to the cell",,string,proteomics digestionReagent,Other
 OtherProteomicsAssayType,"If ""other"" is selected list the name of the type of peptide quantification used",,,ValidValue,Other
 OtherReadLengthUnits,"If ""other"" provide the unit of measure",,,ValidValue,Other
 OtherRepositoryName,"If ""other"" list the name of the repository",,,ValidValue,Other
@@ -41,40 +47,45 @@ OtherTranscriptType,"If ""other"" list the transcript type",,,ValidValue,Other
 OtherVaccumPressureUnits,"If ""other"" provide the unit of measure",,,ValidValue,Other
 OtherVacuumPressureUnit,,,,ValidValue,Other
 OtherYesHasIonizationSource,,,,ValidValue,Other
-specifyAcquisitionBatchSizeUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyBatchSizeUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyControlType,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyAcquisitionBatchSizeUnits,"If ""other"" list units of measure",,String,ManifestColumn,Other
+specifyBatchSizeUnits,"If ""other"" list the unit of measure",,"String,string",ManifestColumn,Other
+specifyControlType,"If ""other"" specify the control type",,"String,string",ManifestColumn,Other
 specifyConversionRatioUnit,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyDatabaseName,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyDatabaseSource,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyDatabaseName,"If ""other"" list the name of the search database",,"String,string",ManifestColumn,Other
+specifyDatabaseSource,"If ""other"" list the name of the database source",,"String,string",ManifestColumn,Other
 specifyDigestionMethod,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyDigestionReagent,"If ""other"" is selected specify the name of the enzyme",,string,,Other
 specifyDNABatchSizeUnit,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyEnrichmentMethod,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyExperimentalBatchSizeUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyEnrichmentStrategy,"If ""other"" is selected specify the name",,string,,Other
+specifyExperimentalBatchSizeUnits,"If ""other"" list units of measure",,String,ManifestColumn,Other
 specifyExtractionMethod,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyLensVoltageUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyLabelFreeQuantitation,"If ""other"" is selected please specify",,string,,Other
+specifyLensVoltageUnits,"If ""other"" provide the unit of measure",,"String,string",ManifestColumn,Other
 specifyLibraryPrep,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyLibraryPreparationMethod,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyLibraryVersion,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMeasurementTechnique,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMSAnalyteType,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMSAnalyzerTypeMS1,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMSAnalyzerTypeMS2,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMSAssayTechnique,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyMSInstrumentModel,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyMeasurementTechnique,"If ""other"" is selected list the name of the measurement technique used",,"String,string",ManifestColumn,Other
+specifyMSAnalyteType,"If ""other"" list the type of analyte ",,"String,string",ManifestColumn,Other
+specifyMSAnalyzerTypeMS1,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,"String,string",ManifestColumn,Other
+specifyMSAnalyzerTypeMS2,"If ""other"" is selected list the name of the mass spectrometer analyzer used",,"String,string",ManifestColumn,Other
+specifyMSAssayTechnique,"If ""other"" is selected list the name of the mass spectrometer technique used or the name of the proteomics assay used",,"String,string",ManifestColumn,Other
+specifyMSInstrumentModel,"If ""other"" is selected list the name of the instrument model",,"String,string",ManifestColumn,Other
 specifyOtherCleavageAgent,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyOtherDataFile,"If ""other"" is selected, list the name of the data file. ",,string,,Other
 specifyOtherModificationParameters,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyPlatformLocation,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyPlatformVersion,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyProcessingBatchSizeUnit,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyPlatformLocation,"If ""other"" list the name of the platform location",,"String,string",ManifestColumn,Other
+specifyPlatformVersion,"If ""other"" list the name of the platform version",,"String,string",ManifestColumn,Other
+specifyProcessingBatchSizeUnit,"If ""other"" list units of measure",,"String,string",ManifestColumn,Other
 specifyProteomicsAssayType,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyReadLengthUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyRepositoryName,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyRNABatchSizeUnit,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifySampleBatchSizeUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifySampleIntroduction,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifySampleType,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifySampleBatchSizeUnits,"If ""other"" list the unit of measure",,"String,string",ManifestColumn,Other
+specifySampleIntroduction,"If ""other"" list the name of the sample introduction",,"String,string",ManifestColumn,Other
+specifySampleType,"If ""other"" is selected list the type of sample",,"String,string",ManifestColumn,Other
 specifySequencingBatchSizeUnit,Value is determined by the data contributor,,String,ManifestColumn,Other
 specifyTranscriptType,Value is determined by the data contributor,,String,ManifestColumn,Other
-specifyVacuumPressueUnits,Value is determined by the data contributor,,String,ManifestColumn,Other
+specifyVacuumPressueUnits,"If ""other"" provide the unit of measure",,"String,string",ManifestColumn,Other
 Unknown,,,,ValidValue,Other
+YesHasIonizationSource?,"When ionProperty = `other`, add your custom value to the cell,",,string,hasIonizationSource?,Other

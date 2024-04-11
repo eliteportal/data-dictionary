@@ -1,0 +1,4 @@
+Key,Key Description,columnType,Source,Parent
+No,,boolean,,
+Yes,,boolean,,
+YesHasIonizationSource?,,boolean,,

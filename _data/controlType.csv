@@ -1,14 +1,14 @@
 Key,Key Description,columnType,Source,Parent
-GIS,,,,ManifestColumn
- GoldenWest,,,,ManifestColumn
- NIST SRM 1950,,,,ManifestColumn
- AIBL pool,,,,ManifestColumn
- Baker pool,,,,ManifestColumn
- water plus Baker ISTD,,,,ManifestColumn
- study pool,,,,ManifestColumn
- internal standards,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+AIBL pool,,string,,ManifestColumn
+ Baker pool,,string,,ManifestColumn
+ GoldenWest,,string,,ManifestColumn
+ NIST SRM 1950,,string,,ManifestColumn
+ Not Specified,,string,,ManifestColumn
+ Not applicable,,string,,ManifestColumn
+ Not collected,,string,,ManifestColumn
+ Other,,string,,ManifestColumn
+ Unknown,,string,,ManifestColumn
+ internal standards,,string,,ManifestColumn
+ study pool,,string,,ManifestColumn
+ water plus Baker ISTD,,string,,ManifestColumn
+GIS,,string,,ManifestColumn

@@ -1,3 +1,4 @@
 Key,Key Description,columnType,Source,Parent
-YesHasAssayControl,,,,ManifestColumn
- No,,,,ManifestColumn
+No,,boolean,,ManifestColumn
+Yes,,boolean,,ManifestColumn
+YesHasAssayControl,,boolean,,ManifestColumn

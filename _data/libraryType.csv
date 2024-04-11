@@ -1,7 +1,7 @@
 Key,Key Description,columnType,Source,Parent
-ADT,,,,BaseAnnotation
- cDNA,,,,BaseAnnotation
- CMO,,,,BaseAnnotation
+CMO,,,,BaseAnnotation
  HTO,,,,BaseAnnotation
  LMO,,,,BaseAnnotation
+ cDNA,,,,BaseAnnotation
  plasmid DNA,,,,BaseAnnotation
+ADT,,,,BaseAnnotation

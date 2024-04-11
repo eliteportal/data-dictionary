@@ -1,74 +1,90 @@
 Key,Key Description,columnType,Source,Parent
-10x multiome,,,,ManifestColumn
- 16SrRNAseq,,,,ManifestColumn
- active avoidance learning behavior,,,,ManifestColumn
- anxiety-related behavior,,,,ManifestColumn
+16SrRNAseq,,,,ManifestColumn
  ATACSeq,,,,ManifestColumn
- atomicForceMicroscopy,,,,ManifestColumn
- autoradiography,,,,ManifestColumn
  Baker Lipidomics,,,,ManifestColumn
  Biocrates Bile Acids,,,,ManifestColumn
- Biocrates p180,,,,ManifestColumn
  Biocrates Q500,,,,ManifestColumn
- bisulfiteSeq,,,,ManifestColumn
+ Biocrates p180,,,,ManifestColumn
  Blood Chemistry Measurement,,,,ManifestColumn
- brightfieldMicroscopy,,,,ManifestColumn
- cellViabilityAssay,,,,ManifestColumn
- ChIPSeq,,,,ManifestColumn
  CITESeq,,,,ManifestColumn
- contextual conditioning behavior,,,,ManifestColumn
  CUT&Tag,,,,ManifestColumn
+ ChIPSeq,,,,ManifestColumn
  DIA,,,,ManifestColumn
  DNA optical mapping,,,,ManifestColumn
- electrochemiluminescence,,,,ManifestColumn
- elevated plus maze test,,,,ManifestColumn
- elevated T maze apparatus method,,,,ManifestColumn
  ELISA,,,,ManifestColumn
- errBisulfiteSeq,,,,ManifestColumn
- exomeSeq,,,,ManifestColumn
  FIA-MSMS,,,,ManifestColumn
  FitBark,,,,ManifestColumn
- frailty assessment,,,,ManifestColumn
  Genotyping,,,,ManifestColumn
  HI-C,,,,ManifestColumn
- HiChIPseq,,,,ManifestColumn
- high content screen,,,,ManifestColumn
  HPLC,,,,ManifestColumn
  HPLC-MSMS,,,,ManifestColumn
- Immunocytochemistry,,,,ManifestColumn
- immunofluorescence,,,,ManifestColumn
- immunohistochemistry,,,,ManifestColumn
- in vivo bioluminescence,,,,ManifestColumn
+ HiChIPseq,,,,ManifestColumn
  ISOSeq,,,,ManifestColumn
- jumpingLibrary,,,,ManifestColumn
- kinesthetic behavior,,,,ManifestColumn
- label free mass spectrometry,,,,ManifestColumn
- Laser Speckle Imaging,,,,ManifestColumn
+ Immunocytochemistry,,,,ManifestColumn
  LC-MS,,,,ManifestColumn
  LC-MSMS,,,,ManifestColumn
  LC-SRM,,,,ManifestColumn
- lentiMPRA,,,,ManifestColumn
  LFP,,,,ManifestColumn
+ LTP,,,,ManifestColumn
+ Laser Speckle Imaging,,,,ManifestColumn
+ MDMS-SL,,,,ManifestColumn
+ MIB/MS,,,,ManifestColumn
+ MRI,,,,ManifestColumn
+ Metabolon,,,,ManifestColumn
+ MudPIT,,,,ManifestColumn
+ NOMe-Seq,,,,ManifestColumn
+ Nightingale NMR,,,,ManifestColumn
+ Positron Emission Tomography,,,,ManifestColumn
+ RPPA,,,,ManifestColumn
+ Rader Lipidomics,,,,ManifestColumn
+ Real Time PCR,,,,ManifestColumn
+ Ribo-Seq,,,,ManifestColumn
+ STARRSeq,,,,ManifestColumn
+ Sanger sequencing,,,,ManifestColumn
+ SiMoA,,,,ManifestColumn
+ TMT quantitation,,,,ManifestColumn
+ UC Davis GCTOF,,,,ManifestColumn
+ UCSD Untargeted Metabolomics,,,,ManifestColumn
+ UPLC-ESI-QTOF-MS,,,,ManifestColumn
+ UPLC-MSMS,,,,ManifestColumn
+ Vernier Caliper,,,,ManifestColumn
+ Wishart Catecholamines,,,,ManifestColumn
+ Wishart High Value Metabolites,,,,ManifestColumn
+ Zeno Electronic Walkway,,,,ManifestColumn
+ active avoidance learning behavior,,,,ManifestColumn
+ anxiety-related behavior,,,,ManifestColumn
+ atomicForceMicroscopy,,,,ManifestColumn
+ autoradiography,,,,ManifestColumn
+ bisulfiteSeq,,,,ManifestColumn
+ brightfieldMicroscopy,,,,ManifestColumn
+ cellViabilityAssay,,,,ManifestColumn
+ contextual conditioning behavior,,,,ManifestColumn
+ electrochemiluminescence,,,,ManifestColumn
+ elevated T maze apparatus method,,,,ManifestColumn
+ elevated plus maze test,,,,ManifestColumn
+ errBisulfiteSeq,,,,ManifestColumn
+ exomeSeq,,,,ManifestColumn
+ frailty assessment,,,,ManifestColumn
+ high content screen,,,,ManifestColumn
+ immunofluorescence,,,,ManifestColumn
+ immunohistochemistry,,,,ManifestColumn
+ in vivo bioluminescence,,,,ManifestColumn
+ jumpingLibrary,,,,ManifestColumn
+ kinesthetic behavior,,,,ManifestColumn
+ label free mass spectrometry,,,,ManifestColumn
+ lentiMPRA,,,,ManifestColumn
  liquid chromatography-electrochemical detection,,,,ManifestColumn
  lncrnaSeq,,,,ManifestColumn
  locomotor activation behavior,,,,ManifestColumn
  long-read rnaSeq,,,,ManifestColumn
- LTP,,,,ManifestColumn
- MDMS-SL,,,,ManifestColumn
+ m6A-rnaSeq,,,,ManifestColumn
+ mRNAcounts,,,,ManifestColumn
  memory behavior,,,,ManifestColumn
- Metabolon,,,,ManifestColumn
  methylationArray,,,,ManifestColumn
- MIB/MS,,,,ManifestColumn
  microRNAcounts,,,,ManifestColumn
  mirnaArray,,,,ManifestColumn
  mirnaSeq,,,,ManifestColumn
- MRI,,,,ManifestColumn
- mRNAcounts,,,,ManifestColumn
- MudPIT,,,,ManifestColumn
- m6A-rnaSeq,,,,ManifestColumn
  nextGenerationTargetedSequencing,,,,ManifestColumn
- Nightingale NMR,,,,ManifestColumn
- NOMe-Seq,,,,ManifestColumn
  novelty response behavior,,,,ManifestColumn
  open field test,,,,ManifestColumn
  oxBS-Seq,,,,ManifestColumn
@@ -76,42 +92,26 @@ Key,Key Description,columnType,Source,Parent
  pharmacokinetics,,,,ManifestColumn
  photograph,,,,ManifestColumn
  polymeraseChainReaction,,,,ManifestColumn
- Positron Emission Tomography,,,,ManifestColumn
  proximity extension assay,,,,ManifestColumn
  questionnaire,,,,ManifestColumn
- Rader Lipidomics,,,,ManifestColumn
- Real Time PCR,,,,ManifestColumn
- Ribo-Seq,,,,ManifestColumn
- rotarod performance test,,,,ManifestColumn
  rnaArray,,,,ManifestColumn
  rnaSeq,,,,ManifestColumn
- RPPA,,,,ManifestColumn
+ rotarod performance test,,,,ManifestColumn
  sandwich ELISA,,,,ManifestColumn
- Sanger sequencing,,,,ManifestColumn
- scale,,,,ManifestColumn
  scATACSeq,,,,ManifestColumn
  scCGIseq,,,,ManifestColumn
+ scale,,,,ManifestColumn
  scirnaSeq,,,,ManifestColumn
  scrnaSeq,,,,ManifestColumn
  scwholeGenomeSeq,,,,ManifestColumn
- SiMoA,,,,ManifestColumn
- snpArray,,,,ManifestColumn
  snATACSeq,,,,ManifestColumn
+ snpArray,,,,ManifestColumn
  snrnaSeq,,,,ManifestColumn
  spontaneous alternation,,,,ManifestColumn
- STARRSeq,,,,ManifestColumn
- TMT quantitation,,,,ManifestColumn
  tractionForceMicroscopy,,,,ManifestColumn
- UPLC-MSMS,,,,ManifestColumn
- UPLC-ESI-QTOF-MS,,,,ManifestColumn
- UC Davis GCTOF,,,,ManifestColumn
- UCSD Untargeted Metabolomics,,,,ManifestColumn
- Vernier Caliper,,,,ManifestColumn
  von Frey test,,,,ManifestColumn
  westernBlot,,,,ManifestColumn
  wheel running,,,,ManifestColumn
  whole-cell patch clamp,,,,ManifestColumn
  wholeGenomeSeq,,,,ManifestColumn
- Wishart Catecholamines,,,,ManifestColumn
- Wishart High Value Metabolites,,,,ManifestColumn
- Zeno Electronic Walkway,,,,ManifestColumn
+10x multiome,,,,ManifestColumn

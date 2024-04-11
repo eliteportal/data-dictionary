@@ -1,6 +1,6 @@
 Key,Key Description,columnType,Source,Parent
-OtherLibraryVersion,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+Not Specified,,,,ManifestColumn
  Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+OtherLibraryVersion,,,,ManifestColumn

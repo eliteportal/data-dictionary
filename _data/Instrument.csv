@@ -1,30 +1,30 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
-10x Visium Spatial Gene Expression,Instrument Model Name,,,ValidValue,Instrument
-EnVision 2103 Multiplate Reader,Instrument Model Name,,,ValidValue,Instrument
-Exploris 240Exploris 480quadrupole time-of-flight,Instrument Model Name,,,ValidValue,Instrument
+10x_Visium_Spatial_Gene_Expression,Instrument Model Name,,,ValidValue,Instrument
+EnVision_2103_Multiplate_Reader,Instrument Model Name,,,ValidValue,Instrument
+Exploris_240Exploris_480quadrupole_time-of-flight,Instrument Model Name,,,ValidValue,Instrument
 FIA-MSMS,Instrument Model Name,,,ValidValue,Instrument
-Illumina 1M,Instrument Model Name,,,ValidValue,Instrument
-Illumina Genome Analyzer IIx,Instrument Model Name,,,ValidValue,Instrument
-Illumina h650,Instrument Model Name,,,ValidValue,Instrument
-Illumina HiSeq 2000,Instrument Model Name,,,ValidValue,Instrument
-Illumina HiSeq 2500,Instrument Model Name,,,ValidValue,Instrument
-Illumina HiSeq 3000,Instrument Model Name,,,ValidValue,Instrument
-Illumina HiSeq 4000,Instrument Model Name,,,ValidValue,Instrument
-Illumina HiSeq X,Instrument Model Name,,,ValidValue,Instrument
-Illumina Human660W-Quad v1.0 BeadChip,Instrument Model Name,,,ValidValue,Instrument
-Illumina HumanHap300,Instrument Model Name,,,ValidValue,Instrument
-Illumina HumanMethylation450,Instrument Model Name,,,ValidValue,Instrument
-Illumina HumanOmni1-Quadv1.0,Instrument Model Name,,,ValidValue,Instrument
-Illumina HumanOmniExpress-24 v1.0 BeadChip,Instrument Model Name,,,ValidValue,Instrument
-Illumina HumanOmniExpress-24 v1.2 BeadChip,Instrument Model Name,,,ValidValue,Instrument
-Illumina Infinium MethylationEPIC BeadChip v1.0 (850k),Instrument Model Name,,,ValidValue,Instrument
-Illumina Infinium MethylationEPIC BeadChip v2.0 (935k)Illumina MiSeq,Instrument Model Name,,,ValidValue,Instrument
-Illumina MouseWG-6 v2.0 expression BeadChip,Instrument Model Name,,,ValidValue,Instrument
-Illumina NextSeq 1000,Instrument Model Name,,,ValidValue,Instrument
-Illumina NextSeq 2000,Instrument Model Name,,,ValidValue,Instrument
-Illumina NextSeq 500,Instrument Model Name,,,ValidValue,Instrument
-Illumina NextSeq 550,Instrument Model Name,,,ValidValue,Instrument
-Illumina NovaSeq 6000,Instrument Model Name,,,ValidValue,Instrument
-Illumina Omni2pt5M,Instrument Model Name,,,ValidValue,Instrument
-Illumina Omni5M,Instrument Model Name,,,ValidValue,Instrument
-Illumina WholeGenome DASL,Instrument Model Name,,,ValidValue,Instrument
+Illumina_1M,Instrument Model Name,,,ValidValue,Instrument
+Illumina_Genome_Analyzer_IIx,Instrument Model Name,,,ValidValue,Instrument
+Illumina_h650,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HiSeq_2000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HiSeq_2500,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HiSeq_3000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HiSeq_4000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HiSeq_X,Instrument Model Name,,,ValidValue,Instrument
+Illumina_Human660W-Quad_v1.0_BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HumanHap300,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HumanMethylation450,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HumanOmni1-Quadv1.0,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HumanOmniExpress-24_v1.0_BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina_HumanOmniExpress-24_v1.2_BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina_Infinium_MethylationEPIC_BeadChip_v1.0_(850k),Instrument Model Name,,,ValidValue,Instrument
+Illumina_Infinium_MethylationEPIC_BeadChip_v2.0_(935k)Illumina_MiSeq,Instrument Model Name,,,ValidValue,Instrument
+Illumina_MouseWG-6_v2.0_expression_BeadChip,Instrument Model Name,,,ValidValue,Instrument
+Illumina_NextSeq_1000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_NextSeq_2000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_NextSeq_500,Instrument Model Name,,,ValidValue,Instrument
+Illumina_NextSeq_550,Instrument Model Name,,,ValidValue,Instrument
+Illumina_NovaSeq_6000,Instrument Model Name,,,ValidValue,Instrument
+Illumina_Omni2pt5M,Instrument Model Name,,,ValidValue,Instrument
+Illumina_Omni5M,Instrument Model Name,,,ValidValue,Instrument
+Illumina_WholeGenome_DASL,Instrument Model Name,,,ValidValue,Instrument

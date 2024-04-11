@@ -1,2 +1,6 @@
 Key,Key Description,columnType,Source,Parent
-ELITE,,,,BaseAnnotation
+ILO,,,,ManifestColumn
+ LC,,,,ManifestColumn
+ NECS,,,,ManifestColumn
+ Other,,,,ManifestColumn
+LLFS,,,,ManifestColumn

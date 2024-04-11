@@ -1,9 +1,9 @@
 Key,Key Description,columnType,Source,Parent
-lincRNA,,,,ManifestColumn
- mRNA,,,,ManifestColumn
- snRNA,,,,ManifestColumn
+Not Specified,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
  OtherTranscriptType,,,,ManifestColumn
  Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
+ mRNA,,,,ManifestColumn
+ snRNA,,,,ManifestColumn
+lincRNA,,,,ManifestColumn

@@ -1,12 +1,12 @@
 Key,Key Description,columnType,Source,Parent
-Asian,,,,ManifestColumn
- American Indian or Alaska Native,,,,ManifestColumn
+American Indian or Alaska Native,,,,ManifestColumn
  Black or African American,,,,ManifestColumn
  Multiracial,,,,ManifestColumn
  Native Hawaiian or Other Pacific Islander,,,,ManifestColumn
- White,,,,ManifestColumn
+ Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
  Other,,,,ManifestColumn
  Prefer not to answer,,,,ManifestColumn
  Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
+ White,,,,ManifestColumn
+Asian,,,,ManifestColumn

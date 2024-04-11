@@ -287,6 +287,7 @@ def delete_page(term: str) -> list[str]:
 
     # This function currently performs actual deletion (use with caution!)
     for file in deleted_files:
+        logger.warning(f"Deleting: {file}")
         os.remove(file)
 
     return deleted_files
@@ -301,17 +302,18 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # Fill missing values with empty strings efficiently
-    data_model.fillna("", inplace=True)
+    # data_model.fillna("", inplace=True)
 
     # Generate documentation pages
     create_full_table(data_model)
-    for module in data_model["Module"].unique():
+    for module in data_model["Module"].dropna().unique():
         create_module_page(module)
 
     templates = data_model[data_model["Parent"] == "Template"]["Attribute"].unique()
     for template in templates:
         term_attr = re.sub("_", " ", template)
-        term_info = get_info(data_model, term_attr, column="Attribute")[0]
+        term_info = get_info(data_model, term_attr, column="Attribute")
         create_template_page(template, term_dict=term_info)
 
+    logger.info("Documentation generation completed!")
     print("Documentation generation completed!")

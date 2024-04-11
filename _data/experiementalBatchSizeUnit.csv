@@ -1,56 +1,56 @@
 Key,Key Description,columnType,Source,Parent
-AFU,,,,ManifestColumn
- AI,,,,ManifestColumn
- AU/ml,,,,ManifestColumn
- DK units/ml,,,,ManifestColumn
- bpg/dl,,,,ManifestColumn
- g/l,,,,ManifestColumn
- gm,,,,ManifestColumn
- HAU,,,,ManifestColumn
- IU,,,,ManifestColumn
- iu/l,,,,ManifestColumn
- IU/ml,,,,ManifestColumn
- Kallikrein Inactivator Unit per Milliliter,,,,ManifestColumn
- kg,,,,ManifestColumn
- l,,,,ManifestColumn
- M,,,,ManifestColumn
- mg,,,,ManifestColumn
- mg/dl,,,,ManifestColumn
- mg/l,,,,ManifestColumn
- mg/ml,,,,ManifestColumn
- miu/ml,,,,ManifestColumn
- ml,,,,ManifestColumn
- mM,,,,ManifestColumn
- MOI,,,,ManifestColumn
- ng,,,,ManifestColumn
- ng/dl,,,,ManifestColumn
- ng/ml,,,,ManifestColumn
- ng/nl,,,,ManifestColumn
- ng/ul,,,,ManifestColumn
- nl,,,,ManifestColumn
- nM,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
- NPX,,,,ManifestColumn
- optical density,,,,ManifestColumn
- PFU,,,,ManifestColumn
- PFUe,,,,ManifestColumn
- pg,,,,ManifestColumn
- pg/mg creatinine,,,,ManifestColumn
- pg/ml,,,,ManifestColumn
- pg/nl,,,,ManifestColumn
- pg/ul,,,,ManifestColumn
- pl,,,,ManifestColumn
- pM,,,,ManifestColumn
- Pound,,,,ManifestColumn
- TCID50,,,,ManifestColumn
- ug,,,,ManifestColumn
- ug/dl,,,,ManifestColumn
- ug/l,,,,ManifestColumn
- ug/ml,,,,ManifestColumn
- ug/ul,,,,ManifestColumn
- uiu/ml,,,,ManifestColumn
- ul,,,,ManifestColumn
- uM,,,,ManifestColumn
- umol/l,,,,ManifestColumn
- units/ml,,,,ManifestColumn
- OtherExperiementalBatchSizeUnit,,,,ManifestColumn
+AI,,string,,ManifestColumn
+ AU/ml,,string,,ManifestColumn
+ DK units/ml,,string,,ManifestColumn
+ HAU,,string,,ManifestColumn
+ IU,,string,,ManifestColumn
+ IU/ml,,string,,ManifestColumn
+ Kallikrein Inactivator Unit per Milliliter,,string,,ManifestColumn
+ M,,string,,ManifestColumn
+ MOI,,string,,ManifestColumn
+ NPX,,string,,ManifestColumn
+ Not Specified,,string,,ManifestColumn
+ OtherExperiementalBatchSizeUnit,,string,,ManifestColumn
+ PFU,,string,,ManifestColumn
+ PFUe,,string,,ManifestColumn
+ Pound,,string,,ManifestColumn
+ TCID50,,string,,ManifestColumn
+ bpg/dl,,string,,ManifestColumn
+ g/l,,string,,ManifestColumn
+ gm,,string,,ManifestColumn
+ iu/l,,string,,ManifestColumn
+ kg,,string,,ManifestColumn
+ l,,string,,ManifestColumn
+ mM,,string,,ManifestColumn
+ mg,,string,,ManifestColumn
+ mg/dl,,string,,ManifestColumn
+ mg/l,,string,,ManifestColumn
+ mg/ml,,string,,ManifestColumn
+ miu/ml,,string,,ManifestColumn
+ ml,,string,,ManifestColumn
+ nM,,string,,ManifestColumn
+ ng,,string,,ManifestColumn
+ ng/dl,,string,,ManifestColumn
+ ng/ml,,string,,ManifestColumn
+ ng/nl,,string,,ManifestColumn
+ ng/ul,,string,,ManifestColumn
+ nl,,string,,ManifestColumn
+ optical density,,string,,ManifestColumn
+ pM,,string,,ManifestColumn
+ pg,,string,,ManifestColumn
+ pg/mg creatinine,,string,,ManifestColumn
+ pg/ml,,string,,ManifestColumn
+ pg/nl,,string,,ManifestColumn
+ pg/ul,,string,,ManifestColumn
+ pl,,string,,ManifestColumn
+ uM,,string,,ManifestColumn
+ ug,,string,,ManifestColumn
+ ug/dl,,string,,ManifestColumn
+ ug/l,,string,,ManifestColumn
+ ug/ml,,string,,ManifestColumn
+ ug/ul,,string,,ManifestColumn
+ uiu/ml,,string,,ManifestColumn
+ ul,,string,,ManifestColumn
+ umol/l,,string,,ManifestColumn
+ units/ml,,string,,ManifestColumn
+AFU,,string,,ManifestColumn

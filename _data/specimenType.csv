@@ -1,16 +1,16 @@
 Key,Key Description,columnType,Source,Parent
-blood,,,,ManifestColumn
- Plasma,,,,ManifestColumn
- Urine,,,,ManifestColumn
- Saliva,,,,ManifestColumn
- stool,,,,ManifestColumn
- Serum,,,,ManifestColumn
- tissue,,,,ManifestColumn
- swabs,,,,ManifestColumn
- Sputum,,,,ManifestColumn
- Cerebrospinal Fluid (CSF),,,,ManifestColumn
- organoid,,,,ManifestColumn
- Other,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Not collected,,,,ManifestColumn
+Cerebrospinal Fluid (CSF),,,,ManifestColumn
  Not applicable,,,,ManifestColumn
+ Not collected,,,,ManifestColumn
+ Other,,,,ManifestColumn
+ Plasma,,,,ManifestColumn
+ Saliva,,,,ManifestColumn
+ Serum,,,,ManifestColumn
+ Sputum,,,,ManifestColumn
+ Unknown,,,,ManifestColumn
+ Urine,,,,ManifestColumn
+ organoid,,,,ManifestColumn
+ stool,,,,ManifestColumn
+ swabs,,,,ManifestColumn
+ tissue,,,,ManifestColumn
+blood,,,,ManifestColumn

@@ -1,0 +1,12 @@
+Key,Key Description,columnType,Source,Parent
+Algorithm,,str,,
+ Python package,,str,,
+ R object,,str,,
+ R package,,str,,
+AnalysisFile,,str,,
+Bioconductor package,,str,,
+Genomics Workflow,,str,,
+OtherSoftwareType,,str,,
+R script,,str,,
+Resource,,str,,
+Web Application,,str,,

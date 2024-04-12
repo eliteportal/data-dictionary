@@ -1,7 +1,7 @@
 Key,Key Description,columnType,Source,Parent
-Label-free gene level quantitation,,string,,
-Label-free peptide level quantitation,,string,,
-Label-free protein group level quantitation,,string,,
-Label-free protein level quantitation,,string,,
-Label-free raw feature quantitation,,string,,
-OtherLabelFreeQuantitation,,string,,
+Label-free gene level quantitation,,STRING,,
+Label-free peptide level quantitation,,STRING,,
+Label-free protein group level quantitation,,STRING,,
+Label-free protein level quantitation,,STRING,,
+Label-free raw feature quantitation,,STRING,,
+OtherLabelFreeQuantitation,,STRING,,

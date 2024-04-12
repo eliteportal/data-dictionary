@@ -1,7 +1,7 @@
 Key,Key Description,columnType,Source,Parent
-Not applicable,,string,,ManifestColumn
- Not collected,,string,,ManifestColumn
- OtherDigestionMethod,,string,,ManifestColumn
- Unknown,,string,,ManifestColumn
- in-gel,,string,,ManifestColumn
-in-solution,,string,,ManifestColumn
+Not applicable,,STRING,,ManifestColumn
+ Not collected,,STRING,,ManifestColumn
+ OtherDigestionMethod,,STRING,,ManifestColumn
+ Unknown,,STRING,,ManifestColumn
+ in-gel,,STRING,,ManifestColumn
+in-solution,,STRING,,ManifestColumn

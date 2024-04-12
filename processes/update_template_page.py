@@ -1,13 +1,21 @@
 """
 Name: update_template_page.py
 definition: a script to update template page when new term page is created
-Contributors: Dan Lu
+Contributors: Dan Lu, Nicholas Lee
 """
 
 # load modules
 import os
 import pdb
+from pathlib import Path
 import pandas as pd
+from toolbox import utils
+
+root_dir_name = "data-dictionary"
+
+ROOT_DIR = utils.get_root_dir(root_dir_name)
+
+logger = utils.add_logger(ROOT_DIR, "update_template_pages.log")
 
 
 def get_terms():
@@ -30,7 +38,9 @@ def get_terms():
 
 def update_markdown(file_name, terms):
     # Load the file into file_content
-    file_content = [line for line in open(f"docs/Metadata_Template/{file_name}")]
+    file_content = [
+        line for line in open(Path(ROOT_DIR, f"_layouts/Metadata_Template/{file_name}"))
+    ]
     with open(f"docs/Metadata_Template/{file_name}", "w") as writer:
         for line in file_content:
             # We search for the correct section
@@ -45,11 +55,12 @@ def main():
     # get the template pages
     templates = [
         file
-        for file in os.listdir("docs/Metadata/")
+        for file in os.listdir(str(ROOT_DIR) + "/_layouts/")
         if (file.endswith(".md")) & (file != "Metadata Template.md")
     ]
     # get the terms with markdown page
     terms = get_terms()
+
     [update_markdown(template, terms) for template in templates]
 
 

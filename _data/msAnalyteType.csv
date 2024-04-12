@@ -1,9 +1,9 @@
 Key,Key Description,columnType,Source,Parent
-Lipid,,string,,ManifestColumn
- Not Specified,,string,,ManifestColumn
- Not applicable,,string,,ManifestColumn
- Not collected,,string,,ManifestColumn
- Other,,string,,ManifestColumn
- Unknown,,string,,ManifestColumn
- metabolite,,string,,ManifestColumn
-Protein,,string,,ManifestColumn
+Lipid,,STRING,,ManifestColumn
+ Not Specified,,STRING,,ManifestColumn
+ Not applicable,,STRING,,ManifestColumn
+ Not collected,,STRING,,ManifestColumn
+ Other,,STRING,,ManifestColumn
+ Unknown,,STRING,,ManifestColumn
+ metabolite,,STRING,,ManifestColumn
+Protein,,STRING,,ManifestColumn

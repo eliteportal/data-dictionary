@@ -18,32 +18,24 @@ Authors:
 # load Parents
 import argparse
 import re
-from functools import partial
 from pathlib import Path
 import logging
-from datetime import datetime
 import pandas as pd
 from dotenv import dotenv_values
+
+from toolbox import utils
 
 
 # Get the current date object. Format the date as YYYY-MM-DD
 
-config = dotenv_values(".env")
 
 root_dir_name = "data-dictionary"
 
-for p in Path(__file__).parents:
-    if bool(re.search(root_dir_name + "$", str(p))):
-        ROOT_DIR = p
+ROOT_DIR = utils.get_root_dir(root_dir_name)
 
-today = datetime.today().strftime("%Y-%m-%d")
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    filename=Path(ROOT_DIR, "_logs", f"{today}_data_generation.log"),
-    encoding="utf-8",
-    level=logging.DEBUG,
-    filemode="w",
-)
+logger = utils.add_logger(ROOT_DIR, "data_manager.log")
+
+config = dotenv_values(Path(str(Path(__file__).parent), ".env"))
 
 
 def get_template_keys(data_model: pd.DataFrame, template: str) -> list[str]:
@@ -83,6 +75,8 @@ def get_template_keys(data_model: pd.DataFrame, template: str) -> list[str]:
     # Combine initial dependencies with dependencies from valid values (remove duplicates)
     depends_on.extend(set(valid_value_deps))
 
+    depends_on = [d.strip() for d in depends_on[0].split(",")]
+
     return depends_on
 
 
@@ -96,7 +90,7 @@ def create_module_csv(data_model: pd.DataFrame, module: str) -> None:
     """
 
     # Filter data for the specified module and fill missing values
-    df = data_model.fillna("")
+    df = data_model.fillna("").copy(deep=True)
     df = df.loc[
         data_model["Module"] == module,
         ["Attribute", "Description", "Valid Values", "columnType", "Parent", "Module"],
@@ -109,6 +103,7 @@ def create_module_csv(data_model: pd.DataFrame, module: str) -> None:
 
     # Generate CSV filename with consistent formatting
     module_csv_name = re.sub(r"\s|/", "_", module)
+
     df.to_csv(Path(ROOT_DIR, "_data", module_csv_name + ".csv"), index=False)
 
     logging.info(f"Added {module_csv_name}.csv")
@@ -131,9 +126,9 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
         "Template" in data_model.query("`Attribute` == @term")["Module"].values
         and term != "countryCode"
     ):
-        # Generate CSV for template
+        logging.info("Generate CSV for template: %s", term)
         depends_on = get_template_keys(data_model, term)
-        df = data_model[data_model["Attribute"].isin(depends_on)]
+        df = data_model[data_model["Attribute"].isin(depends_on)].copy(deep=True)
         df = df[
             [
                 "Attribute",
@@ -191,87 +186,13 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
         df = df[["Key", "Key Description", "columnType", "Source", "Parent"]]
 
     # Remove duplicates and format output
-    df = df.drop_duplicates()
+    # df = df.drop_duplicates()
     term_csv_name = re.sub(r"\s|/", "_", term)
     df.to_csv(Path(ROOT_DIR, "_data", term_csv_name + ".csv"), index=False)
     logging.info(f"Added {term_csv_name}.csv")
     print(f"Added {term_csv_name}.csv")
 
     return df
-
-
-# def update_csv(data_model, term):
-#     """If current CSV does not match the new data model, update the attribute CSV
-
-#     :param data_model: DCC data model
-#     :type data_model: dataframe
-#     :param term: Attribute to create CSV for
-#     :type term: str
-#     """
-
-#     term_csv_name = re.sub("\s|/", "_", term)
-
-#     if "Template" in data_model.query("Attribute == @term")["Parent"].values:
-#         depends_on = get_template_keys(data_model, term)
-#         new = data_model.loc[data_model["Attribute"].isin(depends_on),]
-#         new = new[
-#             [
-#                 "Attribute",
-#                 "Description",
-#                 "Type",
-#                 "Valid Values",
-#                 "DependsOn",
-#                 "Required",
-#                 "Source",
-#                 "Parent",
-#             ]
-#         ].reset_index(drop=True)
-#         new.rename(
-#             columns={"Attribute": "Key", "Description": "Key Description"}, inplace=True
-#         )
-
-#         new["Key"] = new["Key"].str.strip()
-
-#         # update template file
-#         new.to_csv(os.path.join("./_data", term_csv_name + ".csv"), index=False)
-#         print("\033[92m {} \033[00m".format(f"Updated {term}.csv"))
-
-#     else:
-#         # Create new data frame
-#         new = data_model.loc[data_model["Attribute"] == term,][
-#             ["Attribute", "Valid Values", "DependsOn", "Type", "Parent"]
-#         ]
-
-#         new = (
-#             new.drop(columns=["Attribute", "DependsOn"])
-#             .set_index(["Type", "Parent"])
-#             .apply(lambda x: x.str.split(",").explode())
-#             .reset_index()
-#         )
-#         # add columns
-#         new.rename(columns={"Valid Values": "Key"}, inplace=True)
-#         new["Key"] = new["Key"].str.strip()
-
-#         # load existing csv
-#         old = pd.read_csv(f"./_data/{term_csv_name}.csv")
-
-#         # upload existing csv if Key, Type or Parent column is changed
-#         if not (
-#             new["Key"].equals(old["Key"])
-#             and new["Type"].equals(old["Type"])
-#             and new["Parent"].equals(old["Parent"])
-#         ):
-#             updated = new.astype(str).merge(
-#                 old.astype(str), how="left", on=["Key", "Type", "Parent"]
-#             )
-#             updated["Type"] = new["Type"]
-#             updated["Parent"] = new["Parent"]
-#             updated = updated[["Key", "Key Description", "Type", "Source", "Parent"]]
-#             updated.to_csv(
-#                 os.path.join("./_data", term_csv_name + ".csv"),
-#                 index=False,
-#             )
-#             print("\033[92m {} \033[00m".format(f"Updated {term_csv_name}.csv"))
 
 
 def manage_files(term: str = None) -> None:
@@ -306,6 +227,7 @@ def manage_files(term: str = None) -> None:
 
     # Generate module CSVs
     modules = data_model["Module"].unique().tolist()
+
     for module in modules:
         try:
             create_module_csv(data_model, module)
@@ -319,7 +241,7 @@ def manage_files(term: str = None) -> None:
     ]
 
     def generate_csv_temp(attr):
-        create_term_df(relevant_data, attr)
+        create_term_df(data_model, attr)
 
     list(map(generate_csv_temp, relevant_data["Attribute"].unique()))
 

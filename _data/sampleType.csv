@@ -1,89 +1,89 @@
 Key,Key Description,columnType,Source,Parent
-Appendix,,string,,ManifestColumn
- B cell,,string,,ManifestColumn
- Basophils,,string,,ManifestColumn
- Bone,,string,,ManifestColumn
- Bone Marrow,,string,,ManifestColumn
- Brachial lymph node,,string,,ManifestColumn
- Breast Milk,,string,,ManifestColumn
- Bronchoalveolar Lavage Fluid,,string,,ManifestColumn
- Carbohydrate,,string,,ManifestColumn
- Cell culture supernatant,,string,,ManifestColumn
- Cerebrospinal Fluid,,string,,ManifestColumn
- Cervical lymph nodes,,string,,ManifestColumn
- Colon,,string,,ManifestColumn
- Colonic Lamina Propria,,string,,ManifestColumn
- Convalescent Plasma,,string,,ManifestColumn
- Cord blood,,string,,ManifestColumn
- DNA,,string,,ManifestColumn
- Dendritic cell,,string,,ManifestColumn
- Dermis,,string,,ManifestColumn
- Dried Blood Spot,,string,,ManifestColumn
- Endotracheal aspirate,,string,,ManifestColumn
- Epithelium,,string,,ManifestColumn
- Feces,,string,,ManifestColumn
- Fibroblast,,string,,ManifestColumn
- Gastric lamina propria,,string,,ManifestColumn
- Ileum,,string,,ManifestColumn
- Inguinal lymph node,,string,,ManifestColumn
- Jejunum,,string,,ManifestColumn
- Kidney,,string,,ManifestColumn
- Leukocytes,,string,,ManifestColumn
- Lipid,,string,,ManifestColumn
- Liver,,string,,ManifestColumn
- Lung,,string,,ManifestColumn
- Lung lymph node,,string,,ManifestColumn
- Lymph node,,string,,ManifestColumn
- Lymphocyte,,string,,ManifestColumn
- Macrophage,,string,,ManifestColumn
- Mesenteric lymph node,,string,,ManifestColumn
- Monocyte,,string,,ManifestColumn
- Mouse Ear,,string,,ManifestColumn
- NK cell,,string,,ManifestColumn
- Nasal Swab,,string,,ManifestColumn
- Nasal Swab or Nose Specimen,,string,,ManifestColumn
- Nasal lavage fluid,,string,,ManifestColumn
- Nasopharyngeal Swab Specimen,,string,,ManifestColumn
- Negative Control,,string,,ManifestColumn
- Neutrophil,,string,,ManifestColumn
- Not Specified,,string,,ManifestColumn
- Optic Nerve,,string,,ManifestColumn
- Organoids,,string,,ManifestColumn
- Oropharyngeal Swab Specimen,,string,,ManifestColumn
- Osteoblasts,,string,,ManifestColumn
- OtherSampleType,,string,,ManifestColumn
- PBL,,string,,ManifestColumn
- PBMC,,string,,ManifestColumn
- Pancreas,,string,,ManifestColumn
- Pancreatic Stellate Cells,,string,,ManifestColumn
- Placenta,,string,,ManifestColumn
- Plasma,,string,,ManifestColumn
- Pooled Sample,,string,,ManifestColumn
- Popliteal lymph node,,string,,ManifestColumn
- Positive Control,,string,,ManifestColumn
- Protein,,string,,ManifestColumn
- Rectal Swab Specimen,,string,,ManifestColumn
- Red Blood Cell,,string,,ManifestColumn
- Saliva,,string,,ManifestColumn
- Salivary Glands,,string,,ManifestColumn
- Serum,,string,,ManifestColumn
- Skin of body,,string,,ManifestColumn
- Small intestine,,string,,ManifestColumn
- Spleen,,string,,ManifestColumn
- Sputum,,string,,ManifestColumn
- Stomach,,string,,ManifestColumn
- Synovial fluid,,string,,ManifestColumn
- Synovial tissue,,string,,ManifestColumn
- T cell,,string,,ManifestColumn
- Thymus,,string,,ManifestColumn
- Tonsil,,string,,ManifestColumn
- Trachea,,string,,ManifestColumn
- Tumor Tissue,,string,,ManifestColumn
- Umbilical cord blood,,string,,ManifestColumn
- Urinary bladder,,string,,ManifestColumn
- Urine,,string,,ManifestColumn
- Vagina,,string,,ManifestColumn
- Whole blood,,string,,ManifestColumn
- brain,,string,,ManifestColumn
- cell line,,string,,ManifestColumn
-Amniotic Fluid,,string,,ManifestColumn
+Amniotic Fluid,,STRING,,ManifestColumn
+Appendix,,STRING,,ManifestColumn
+B cell,,STRING,,ManifestColumn
+Basophils,,STRING,,ManifestColumn
+Bone,,STRING,,ManifestColumn
+Bone Marrow,,STRING,,ManifestColumn
+Brachial lymph node,,STRING,,ManifestColumn
+Breast Milk,,STRING,,ManifestColumn
+Bronchoalveolar Lavage Fluid,,STRING,,ManifestColumn
+Carbohydrate,,STRING,,ManifestColumn
+Cell culture supernatant,,STRING,,ManifestColumn
+Cerebrospinal Fluid,,STRING,,ManifestColumn
+Cervical lymph nodes,,STRING,,ManifestColumn
+Colon,,STRING,,ManifestColumn
+Colonic Lamina Propria,,STRING,,ManifestColumn
+Convalescent Plasma,,STRING,,ManifestColumn
+Cord blood,,STRING,,ManifestColumn
+DNA,,STRING,,ManifestColumn
+Dendritic cell,,STRING,,ManifestColumn
+Dermis,,STRING,,ManifestColumn
+Dried Blood Spot,,STRING,,ManifestColumn
+Endotracheal aspirate,,STRING,,ManifestColumn
+Epithelium,,STRING,,ManifestColumn
+Feces,,STRING,,ManifestColumn
+Fibroblast,,STRING,,ManifestColumn
+Gastric lamina propria,,STRING,,ManifestColumn
+Ileum,,STRING,,ManifestColumn
+Inguinal lymph node,,STRING,,ManifestColumn
+Jejunum,,STRING,,ManifestColumn
+Kidney,,STRING,,ManifestColumn
+Leukocytes,,STRING,,ManifestColumn
+Lipid,,STRING,,ManifestColumn
+Liver,,STRING,,ManifestColumn
+Lung,,STRING,,ManifestColumn
+Lung lymph node,,STRING,,ManifestColumn
+Lymph node,,STRING,,ManifestColumn
+Lymphocyte,,STRING,,ManifestColumn
+Macrophage,,STRING,,ManifestColumn
+Mesenteric lymph node,,STRING,,ManifestColumn
+Monocyte,,STRING,,ManifestColumn
+Mouse Ear,,STRING,,ManifestColumn
+NK cell,,STRING,,ManifestColumn
+Nasal Swab,,STRING,,ManifestColumn
+Nasal Swab or Nose Specimen,,STRING,,ManifestColumn
+Nasal lavage fluid,,STRING,,ManifestColumn
+Nasopharyngeal Swab Specimen,,STRING,,ManifestColumn
+Negative Control,,STRING,,ManifestColumn
+Neutrophil,,STRING,,ManifestColumn
+Not Specified,,STRING,,ManifestColumn
+Optic Nerve,,STRING,,ManifestColumn
+Organoids,,STRING,,ManifestColumn
+Oropharyngeal Swab Specimen,,STRING,,ManifestColumn
+Osteoblasts,,STRING,,ManifestColumn
+OtherSampleType,,STRING,,ManifestColumn
+PBL,,STRING,,ManifestColumn
+PBMC,,STRING,,ManifestColumn
+Pancreas,,STRING,,ManifestColumn
+Pancreatic Stellate Cells,,STRING,,ManifestColumn
+Placenta,,STRING,,ManifestColumn
+Plasma,,STRING,,ManifestColumn
+Pooled Sample,,STRING,,ManifestColumn
+Popliteal lymph node,,STRING,,ManifestColumn
+Positive Control,,STRING,,ManifestColumn
+Protein,,STRING,,ManifestColumn
+Rectal Swab Specimen,,STRING,,ManifestColumn
+Red Blood Cell,,STRING,,ManifestColumn
+Saliva,,STRING,,ManifestColumn
+Salivary Glands,,STRING,,ManifestColumn
+Serum,,STRING,,ManifestColumn
+Skin of body,,STRING,,ManifestColumn
+Small intestine,,STRING,,ManifestColumn
+Spleen,,STRING,,ManifestColumn
+Sputum,,STRING,,ManifestColumn
+Stomach,,STRING,,ManifestColumn
+Synovial fluid,,STRING,,ManifestColumn
+Synovial tissue,,STRING,,ManifestColumn
+T cell,,STRING,,ManifestColumn
+Thymus,,STRING,,ManifestColumn
+Tonsil,,STRING,,ManifestColumn
+Trachea,,STRING,,ManifestColumn
+Tumor Tissue,,STRING,,ManifestColumn
+Umbilical cord blood,,STRING,,ManifestColumn
+Urinary bladder,,STRING,,ManifestColumn
+Urine,,STRING,,ManifestColumn
+Vagina,,STRING,,ManifestColumn
+Whole blood,,STRING,,ManifestColumn
+brain,,STRING,,ManifestColumn
+cell line,,STRING,,ManifestColumn

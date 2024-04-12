@@ -22,28 +22,20 @@ import os
 import re
 import sys
 from pathlib import Path
-from datetime import datetime
-import logging
 import frontmatter
 import pandas as pd
 from mdutils import fileutils
 from dotenv import dotenv_values
 
-config = dotenv_values(".env")
+from toolbox import utils
 
 root_dir_name = "data-dictionary"
-for p in Path(__file__).parents:
-    if bool(re.search(root_dir_name + "$", str(p))):
-        ROOT_DIR = p
 
-today = datetime.today().strftime("%Y-%m-%d")
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    filename=Path(ROOT_DIR, "_logs", f"{today}_page_generation.log"),
-    encoding="utf-8",
-    level=logging.DEBUG,
-    filemode="w",
-)
+ROOT_DIR = utils.get_root_dir(root_dir_name)
+
+logger = utils.add_logger(ROOT_DIR, "page_manager.log")
+
+config = dotenv_values(Path(str(Path(__file__).parent), ".env"))
 
 
 def get_info(data_model: pd.DataFrame, term: str, column: str = "Attribute") -> dict:
@@ -237,7 +229,8 @@ def create_full_table(data_model: pd.DataFrame) -> None:
     # Create directory for the data model if it doesn't exist
     data_model_dir = Path(ROOT_DIR, f"docs/{module_name}")
     if not data_model_dir.exists():
-        data_model_dir.mkdir(parents=True)  # Create parent directories if needed
+        # Create parent directories if needed
+        data_model_dir.mkdir(parents=True)
 
     # Create the module page file
     module_page = fileutils.MarkDownFile(str(data_model_dir / module_name))
@@ -316,4 +309,3 @@ if __name__ == "__main__":
         create_template_page(template, term_dict=term_info)
 
     logger.info("Documentation generation completed!")
-    print("Documentation generation completed!")

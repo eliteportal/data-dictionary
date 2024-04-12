@@ -1,5 +1,5 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
 Days,,,NUMERIC,MeasurementUnit,Unit
-g_dl,,,NUMERIC,ValidValue,Unit
 Hours,,,NUMERIC,MeasurementUnit,Unit
 Months,,,NUMERIC,ValidValue,Unit
+g_dl,,,NUMERIC,ValidValue,Unit

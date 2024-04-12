@@ -1,15 +1,15 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
 Biospecimen_human,Metadata template used for contributing metadata to the ELITE portal,,,Component,Template
 Biospecimen_nonHuman,Metadata template used for contributing metadata to the ELITE portal,,,Component,Template
-bsSeq,Template used for contributing metadata to the ELITE portal for bisulfite-seq WGBS methylseq methylomics,,,Component,Template
-ComputationalTools,Template used to curate computational tools used by researchers,,,Template,Template
-file_annotation_template,AD file annotation template schema,,,Component,Template
-genotyping,Template used for contributing metadata to the ELITE portal,,,Component,Template
+ComputationalTools,Template used to curate computational tools used by researchers,,,Component,Template
 Individual_Human,Template used for contributing metadata to the ELITE portal,,,Component,Template
 Individual_nonHuman,Template used for contributing metadata to the ELITE portal,,,Component,Template
 Metabolomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
 Microbiome,Template used for contributing metadata to the ELITE portal,,,Component,Template
-proteomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
 RNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Whole_Genome_Sequencing,Template used for contributing WGS metadata to the ELITE portal,,,Component,Template
+bsSeq,Template used for contributing metadata to the ELITE portal for bisulfite-seq WGBS methylseq methylomics,,,Component,Template
+file_annotation_template,AD file annotation template schema,,,Component,Template
+genotyping_assay,Template used for contributing metadata to the ELITE portal,,,Component,Template
+proteomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
 scRNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
-Whole_Genome_Sequencing,Template used for contributing metadata to the ELITE portal,,,Component,Template

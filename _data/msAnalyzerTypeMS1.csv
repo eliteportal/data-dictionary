@@ -1,34 +1,34 @@
 Key,Key Description,columnType,Source,Parent
-Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,string,,ManifestColumn
- Exploris 240Exploris 480quadrupole time-of-flight,,string,,ManifestColumn
- Not Specified,,string,,ManifestColumn
- Not applicable,,string,,ManifestColumn
- Not collected,,string,,ManifestColumn
- Orbitrap Fusion,,string,,ManifestColumn
- Orbitrap Fusion Lumos,,string,,ManifestColumn
- Q Exactive,,string,,ManifestColumn
- Q Exactive HF,,string,,ManifestColumn
- Q Exactive HF-X,,string,,ManifestColumn
- Q Exactive Plus,,string,,ManifestColumn
- Unknown,,string,,ManifestColumn
- Xevo G2 QTOF,,string,,ManifestColumn
- Xevo TQ-S,,string,,ManifestColumn
- time-of-flight,,string,,ManifestColumn
- triple quadrupole,,string,,ManifestColumn
-Bruker Avance III,,string,,ManifestColumn
-Exploris 240,,string,,ManifestColumn
-Exploris 480,,string,,ManifestColumn
-LTQ Orbitrap XL,,string,,ManifestColumn
-Orbitrap Fusion,,string,,ManifestColumn
-Orbitrap Fusion Lumos,,string,,ManifestColumn
-OtherMsAnalyzerTypeMS1 ,,string,,ManifestColumn
-Q Exactive,,string,,ManifestColumn
-Q Exactive HF,,string,,ManifestColumn
-Q Exactive HF-X,,string,,ManifestColumn
-Q Exactive Plus,,string,,ManifestColumn
-TimsTOF Pro,,string,,ManifestColumn
-Xevo G2 QTOF,,string,,ManifestColumn
-Xevo TQ-S,,string,,ManifestColumn
-quadrupole time-of-flight,,string,,ManifestColumn
-time-of-flight,,string,,ManifestColumn
-triple quadrupole,,string,,ManifestColumn
+Bruker Avance IIITimsTOF ProOtherMsAnalyzerTypeMS1,,STRING,,ManifestColumn
+ Exploris 240Exploris 480quadrupole time-of-flight,,STRING,,ManifestColumn
+ Not Specified,,STRING,,ManifestColumn
+ Not applicable,,STRING,,ManifestColumn
+ Not collected,,STRING,,ManifestColumn
+ Orbitrap Fusion,,STRING,,ManifestColumn
+ Orbitrap Fusion Lumos,,STRING,,ManifestColumn
+ Q Exactive,,STRING,,ManifestColumn
+ Q Exactive HF,,STRING,,ManifestColumn
+ Q Exactive HF-X,,STRING,,ManifestColumn
+ Q Exactive Plus,,STRING,,ManifestColumn
+ Unknown,,STRING,,ManifestColumn
+ Xevo G2 QTOF,,STRING,,ManifestColumn
+ Xevo TQ-S,,STRING,,ManifestColumn
+ time-of-flight,,STRING,,ManifestColumn
+ triple quadrupole,,STRING,,ManifestColumn
+Bruker Avance III,,STRING,,ManifestColumn
+Exploris 240,,STRING,,ManifestColumn
+Exploris 480,,STRING,,ManifestColumn
+LTQ Orbitrap XL,,STRING,,ManifestColumn
+Orbitrap Fusion,,STRING,,ManifestColumn
+Orbitrap Fusion Lumos,,STRING,,ManifestColumn
+OtherMsAnalyzerTypeMS1 ,,STRING,,ManifestColumn
+Q Exactive,,STRING,,ManifestColumn
+Q Exactive HF,,STRING,,ManifestColumn
+Q Exactive HF-X,,STRING,,ManifestColumn
+Q Exactive Plus,,STRING,,ManifestColumn
+TimsTOF Pro,,STRING,,ManifestColumn
+Xevo G2 QTOF,,STRING,,ManifestColumn
+Xevo TQ-S,,STRING,,ManifestColumn
+quadrupole time-of-flight,,STRING,,ManifestColumn
+time-of-flight,,STRING,,ManifestColumn
+triple quadrupole,,STRING,,ManifestColumn

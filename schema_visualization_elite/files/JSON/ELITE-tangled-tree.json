@@ -1,0 +1,134 @@
+[
+    [
+        {
+            "id": "IndividualHuman",
+            "parents": [],
+            "direct_children": [
+                "Biospecimenhuman"
+            ],
+            "children": [
+                "Biospecimenhuman",
+                "Genotyping",
+                "WholeGenomeSequencing",
+                "MetabolomicsHuman",
+                "Microbiome",
+                "RNAseq",
+                "ScRNAseq",
+                "BsSeq",
+                "Proteomics"
+            ]
+        }
+    ],
+    [
+        {
+            "id": "Biospecimenhuman",
+            "parents": [
+                "IndividualHuman"
+            ],
+            "direct_children": [
+                "Proteomics",
+                "Genotyping",
+                "MetabolomicsHuman",
+                "Microbiome",
+                "RNAseq",
+                "WholeGenomeSequencing",
+                "BsSeq",
+                "ScRNAseq"
+            ],
+            "children": [
+                "Genotyping",
+                "WholeGenomeSequencing",
+                "MetabolomicsHuman",
+                "Microbiome",
+                "RNAseq",
+                "ScRNAseq",
+                "BsSeq",
+                "Proteomics"
+            ]
+        },
+        {
+            "id": "IndividualnonHuman",
+            "parents": [],
+            "direct_children": [
+                "BiospecimennonHuman"
+            ],
+            "children": [
+                "BiospecimennonHuman"
+            ]
+        }
+    ],
+    [
+        {
+            "id": "Proteomics",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "Genotyping",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "BiospecimennonHuman",
+            "parents": [
+                "IndividualnonHuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "MetabolomicsHuman",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "Microbiome",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "RNAseq",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "WholeGenomeSequencing",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "BsSeq",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        },
+        {
+            "id": "ScRNAseq",
+            "parents": [
+                "Biospecimenhuman"
+            ],
+            "direct_children": [],
+            "children": []
+        }
+    ]
+]

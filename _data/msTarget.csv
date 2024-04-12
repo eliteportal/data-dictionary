@@ -1,10 +1,10 @@
 Key,Key Description,columnType,Source,Parent
-Not Specified,,string,,ManifestColumn
- Not applicable,,string,,ManifestColumn
- Not collected,,string,,ManifestColumn
- UnTargetedMsTarget,,string,,ManifestColumn
- Unknown,,string,,ManifestColumn
-Targeted,,string,,ManifestColumn
-TargetedMsTarget,,string,,ManifestColumn
-TargetedMsTarget ,,string,,ManifestColumn
-Untargeted,,string,,ManifestColumn
+Not Specified,,STRING,,ManifestColumn
+ Not applicable,,STRING,,ManifestColumn
+ Not collected,,STRING,,ManifestColumn
+ UnTargetedMsTarget,,STRING,,ManifestColumn
+ Unknown,,STRING,,ManifestColumn
+Targeted,,STRING,,ManifestColumn
+TargetedMsTarget,,STRING,,ManifestColumn
+TargetedMsTarget ,,STRING,,ManifestColumn
+Untargeted,,STRING,,ManifestColumn

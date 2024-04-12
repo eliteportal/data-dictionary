@@ -1,1 +1,11 @@
 Attribute,Description,Required,columnType,DependsOn,Source,Parent,Valid Values
+grant,"Grant number including activity code, institute code, and serial number (e.g. U01MH103392)",False,,,sage.annotations-neuro.grant-0.0.2,BaseAnnotation,
+DCC,Name of the Data Coordination Center,True,STR,,,,"ADKP,ELITE"
+contributor,"Name of the contributor(s) associated with the software tool. If there are multiple people, separate them with a comma. ",True,STR,,,,
+displayName,Name to be displayed on the portal,True,STR,,,,
+documentation,Supporting documents related to the tool,True,STR,,,,
+name,Name of the tool,True,STR,,,,
+softwareType,Type of application ,True,STR,,,,"Algorithm, Python package, R object, R package,AnalysisFile,Bioconductor package,Genomics Workflow,OtherSoftwareType,R script,Resource,Web Application"
+specifySoftwareType,"If ""OtherSoftwareType"" is selected under software type. Freeform text that can be added by the contributor",False,STR,,,,
+summary,Description of the tool. ,True,STR,,,,
+url,hyperlink to the tool,True,STR,,,,

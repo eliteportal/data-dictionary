@@ -1,7 +1,7 @@
 Key,Key Description,columnType,Source,Parent
-TRUE,,str,,ManifestColumn
- FALSE,,str,,ManifestColumn
- Not applicable,,str,,ManifestColumn
- Not collected,,str,,ManifestColumn
- Other,,str,,ManifestColumn
- Uknown,,str,,ManifestColumn
+TRUE,,STR,,ManifestColumn
+ FALSE,,STR,,ManifestColumn
+ Not applicable,,STR,,ManifestColumn
+ Not collected,,STR,,ManifestColumn
+ Other,,STR,,ManifestColumn
+ Uknown,,STR,,ManifestColumn

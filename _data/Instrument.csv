@@ -5,7 +5,6 @@ Exploris_240Exploris_480quadrupole_time-of-flight,Instrument Model Name,,,ValidV
 FIA-MSMS,Instrument Model Name,,,ValidValue,Instrument
 Illumina_1M,Instrument Model Name,,,ValidValue,Instrument
 Illumina_Genome_Analyzer_IIx,Instrument Model Name,,,ValidValue,Instrument
-Illumina_h650,Instrument Model Name,,,ValidValue,Instrument
 Illumina_HiSeq_2000,Instrument Model Name,,,ValidValue,Instrument
 Illumina_HiSeq_2500,Instrument Model Name,,,ValidValue,Instrument
 Illumina_HiSeq_3000,Instrument Model Name,,,ValidValue,Instrument
@@ -28,3 +27,4 @@ Illumina_NovaSeq_6000,Instrument Model Name,,,ValidValue,Instrument
 Illumina_Omni2pt5M,Instrument Model Name,,,ValidValue,Instrument
 Illumina_Omni5M,Instrument Model Name,,,ValidValue,Instrument
 Illumina_WholeGenome_DASL,Instrument Model Name,,,ValidValue,Instrument
+Illumina_h650,Instrument Model Name,,,ValidValue,Instrument

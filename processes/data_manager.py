@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 This script generates or updates term CSVs.
 

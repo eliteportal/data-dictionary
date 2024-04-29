@@ -5,8 +5,8 @@ parent: Template
 title: bsSeq
 ---
 
-{% assign mydata=site.data.bsSeq %}
-{: .note-title }
+{% assign mydata=site.data.bsSeq %} 
+{: .note-title } 
 >bsSeq
 >
 >Template for bsSeq [[Source]](nan)

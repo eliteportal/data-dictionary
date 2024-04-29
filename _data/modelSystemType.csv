@@ -1,7 +1,0 @@
-Key,Key Description,columnType,Source,Parent
-cerebral organoid,,,,BaseAnnotation
- iPSC,,,,BaseAnnotation
- immortalized cell line,,,,BaseAnnotation
- organoid,,,,BaseAnnotation
- primary cell culture,,,,BaseAnnotation
-animal,,,,BaseAnnotation

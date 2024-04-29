@@ -1,10 +1,6 @@
 Key,Key Description,columnType,Source,Parent
-Bird,,,,ManifestColumn
- Mammal,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Other,,,,ManifestColumn
- Primate,,,,ManifestColumn
- Rodent,,,,ManifestColumn
- Unknown,,,,ManifestColumn
-Human,,,,ManifestColumn
+Human,,STRING,,ManifestColumn
+Rodent,,STRING,,ManifestColumn
+Bird,,STRING,,ManifestColumn
+Mammal,,STRING,,ManifestColumn
+Primate,,STRING,,ManifestColumn

@@ -1,3 +1,4 @@
 Key,Key Description,columnType,Source,Parent
-pairedEnd,,,,ManifestColumn
-singleEnd,,,,ManifestColumn
+pairedEnd,,STRING,,ManifestColumn
+singleEnd,,STRING,,ManifestColumn
+singleEnd pairedEnd,,STRING,,ManifestColumn

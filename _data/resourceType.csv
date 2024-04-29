@@ -1,7 +1,0 @@
-Key,Key Description,columnType,Source,Parent
-curatedData,,,,ManifestColumn
- experimentalData,,,,ManifestColumn
- metadata,,,,ManifestColumn
- report,,,,ManifestColumn
- softwareTool,,,,ManifestColumn
-analysis,,,,ManifestColumn

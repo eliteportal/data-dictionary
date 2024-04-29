@@ -1,0 +1,3 @@
+Key,Key Description,columnType,Source,Parent
+Discovery,,STRING,,ManifestColumn
+Replication,,STRING,,ManifestColumn

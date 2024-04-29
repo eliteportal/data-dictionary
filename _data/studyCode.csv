@@ -1,5 +1,5 @@
 Key,Key Description,columnType,Source,Parent
-LC,,,,ManifestColumn
- LG,,,,ManifestColumn
- ILO,,,,ManifestColumn
- LLFS,,,,ManifestColumn
+LC,,STRING,,ManifestColumn
+LG,,STRING,,ManifestColumn
+ILO,,STRING,,ManifestColumn
+LLFS,,STRING,,ManifestColumn

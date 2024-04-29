@@ -1,0 +1,12 @@
+Key,Key Description,columnType,Source,Parent
+AminoxyTMT,,STRING,,ManifestColumn
+DiART,,STRING,,ManifestColumn
+DiLeu,,STRING,,ManifestColumn
+Glyco-TMT,,STRING,,ManifestColumn
+Hydrazide TMT,,STRING,,ManifestColumn
+IodoTMT,,STRING,,ManifestColumn
+IPTL,,STRING,,ManifestColumn
+iTRAQ,,STRING,,ManifestColumn
+iTRAQH,,STRING,,ManifestColumn
+Label Free,,STRING,,ManifestColumn
+TMT,,STRING,,ManifestColumn

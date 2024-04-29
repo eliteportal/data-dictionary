@@ -3,6 +3,9 @@ import json
 import pandas as pd
 import plotly.graph_objects as go
 import urllib
+from dotenv import dotenv_values
+from pathlib import Path
+import os
 
 import networkx as nx
 from pyvis.network import Network
@@ -205,7 +208,9 @@ class data_model_json_ld:
         nt.repulsion(central_gravity=0.035)
 
         if output_path is None:
-            output_path = self.name + "_network_graph.html"
+            output_path = (
+                "../_includes/" + self.name + "_network_graph.html"
+            )  # needs to be in the includes dir
 
         nt.save_graph(output_path)  # open html in browser
         print(f"Graph created at {output_path}")
@@ -226,14 +231,19 @@ class data_model_json_ld:
 
     def full_workflow(self):
         self.get_data_model()
-        self.write_out_model()
+        # self.write_out_model()
         self.create_network_graph()
         self.create_graph_viz()
 
 
 if __name__ == "__main__":
     # network_graph
-    el_jsonld_url = "https://raw.githubusercontent.com/eliteportal/data-models/main/EL.data.model.jsonld"
+    cwd = Path(__file__).parent
+
+    os.chdir(cwd)
+
+    config = dotenv_values(".env")
+    el_jsonld_url = config["json_model"]
     project_name = "EL"
 
     network_graph = data_model_json_ld(
@@ -246,6 +256,6 @@ if __name__ == "__main__":
         print("Successfully created network graph")
 
     except Exception as e:
-        print(f'Could not create graph for {v["project_name"]}')
+        print(f"Could not create graph for {project_name}")
         print(e)
         print("-" * 20)

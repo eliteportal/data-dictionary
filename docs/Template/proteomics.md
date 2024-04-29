@@ -2,14 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-title: proteomics
+title: Proteomics
 ---
 
-{% assign mydata=site.data.proteomics %} 
+{% assign mydata=site.data.Proteomics %} 
 {: .note-title } 
->proteomics
+>Proteomics
 >
->Template used for contributing metadata to the ELITE portal [[Source]]()
+>Template for Proteomics [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

@@ -9,7 +9,7 @@ title: RNAseq
 {: .note-title } 
 >RNAseq
 >
->Template used for contributing metadata to the ELITE portal [[Source]]()
+>Template for RNAseq [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

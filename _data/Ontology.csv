@@ -1,9 +1,0 @@
-Key,Key Description,Valid Values,columnType,Parent,Module
-CCF-BSO,The Common Coordinate Framework Biological Structure Ontology,,,Ontology,Ontology
-Genbank,External ontology used for populating values,,,Ontology,Ontology
-HPO,Human phenotype ontology,,,ValidValue,Ontology
-Human_Reference_Atlas_values,External ontology used for populating values,,,Ontology,Ontology
-MAXO,Medical Action Ontology,,,Ontology,Ontology
-NCBI_taxonomy_values,External ontology used for populating values,,,Ontology,Ontology
-NCI_values,External ontology used for populating values,,,Ontology,Ontology
-World_Bank_country_codes,External ontology used for populating values,,,Ontology,Ontology

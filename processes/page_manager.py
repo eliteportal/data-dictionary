@@ -17,7 +17,6 @@ This Python script provides functions to generate documentation pages for a data
 """
 
 # load modules
-import glob
 import os
 import re
 import sys
@@ -26,6 +25,7 @@ import frontmatter
 import pandas as pd
 from mdutils import fileutils
 from dotenv import dotenv_values
+from glob import glob
 
 from toolbox import utils
 
@@ -103,7 +103,7 @@ def create_template_page(term: str, term_dict: dict) -> frontmatter.Post:
     post = frontmatter.load(Path(ROOT_DIR, "_layouts/template_page_template.md"))
 
     # Update metadata for the new page
-    post.metadata["title"] = re.sub("([A-Z]+)|_", r" \1", term).strip()
+    post.metadata["title"] = re.sub("_", r" ", term).strip()
     post.metadata["parent"] = term_dict["Module"]
 
     # Inject term information into template content
@@ -117,9 +117,13 @@ def create_template_page(term: str, term_dict: dict) -> frontmatter.Post:
     )
     post.content = content_prefix + post.content
 
-    # Notice the return type is changed to `frontmatter.Post`
-    # as this function doesn't create a file, it populates the post object.
-    return post
+    # Create and populate the module page file
+    logger.info("Creating Page for: %s", str(Path(ROOT_DIR, f"docs/Template/{term}")))
+
+    template_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/Template/{term}")))
+    template_page.append_end(frontmatter.dumps(post))
+
+    # return post
 
 
 def create_table_page(term: str, term_dict: dict) -> fileutils.MarkDownFile:
@@ -276,7 +280,7 @@ def delete_page(term: str) -> list[str]:
     file_pattern = f"{ROOT_DIR}/docs/**/*.{term}.md"
 
     # Simulate finding matching files
-    deleted_files = [f for f in glob.glob(file_pattern, recursive=True)]
+    deleted_files = [f for f in glob(file_pattern, recursive=True)]
 
     # This function currently performs actual deletion (use with caution!)
     for file in deleted_files:
@@ -294,18 +298,32 @@ if __name__ == "__main__":
         print("Error: CSV file not found! Please check the config file.")
         sys.exit(1)
 
-    # Fill missing values with empty strings efficiently
-    # data_model.fillna("", inplace=True)
-
     # Generate documentation pages
     create_full_table(data_model)
-    for module in data_model["Module"].dropna().unique():
+    modules = list(data_model["Module"].dropna().unique())
+    for module in modules:
         create_module_page(module)
 
-    templates = data_model[data_model["Parent"] == "Template"]["Attribute"].unique()
+    # Creating template pages
+    templates = list(
+        data_model[data_model["Parent"] == "Component"]["Attribute"].unique()
+    )
     for template in templates:
-        term_attr = re.sub("_", " ", template)
-        term_info = get_info(data_model, term_attr, column="Attribute")
+        # term_attr = re.sub("_", " ", template)
+        term_info = get_info(data_model, template, column="Attribute")
         create_template_page(template, term_dict=term_info)
+
+    # Delete pages with no data
+    md_files = glob(f"{ROOT_DIR}/docs/**/*.md", recursive=True)
+    csv_files = glob(f"{ROOT_DIR}/_data/*.csv", recursive=True)
+    file_exceptions = ["DataModel", "Network_Graph"]
+    keepers = templates + modules + file_exceptions
+    # keepers = [re.sub("_", " ", r) for r in keepers]
+
+    for m in md_files:
+        attr = Path(m).stem
+        if attr not in keepers:
+            logger.warning(f"Deleting markdown file: {attr}")
+            os.remove(Path(m))
 
     logger.info("Documentation generation completed!")

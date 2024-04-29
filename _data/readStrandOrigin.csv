@@ -1,3 +1,3 @@
 Key,Key Description,columnType,Source,Parent
-reverse,,,,ManifestColumn
-forward,,,,ManifestColumn
+Forward Reverse,,STRING,,ManifestColumn
+forward reverse,,STRING,,ManifestColumn

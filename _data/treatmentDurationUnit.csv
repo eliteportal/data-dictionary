@@ -1,10 +1,10 @@
 Key,Key Description,columnType,Source,Parent
-Days,,,,ManifestColumn
- Hours,,,,ManifestColumn
- Minutes,,,,ManifestColumn
- Months,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
- Seconds,,,,ManifestColumn
- Weeks,,,,ManifestColumn
- Years,,,,ManifestColumn
-d.p.c.,,,,ManifestColumn
+d.p.c.,,STRING,,ManifestColumn
+Days,,STRING,,ManifestColumn
+Hours,,STRING,,ManifestColumn
+Minutes,,STRING,,ManifestColumn
+Months,,STRING,,ManifestColumn
+Not Specified,,STRING,,ManifestColumn
+Seconds,,STRING,,ManifestColumn
+Weeks,,STRING,,ManifestColumn
+Years,,STRING,,ManifestColumn

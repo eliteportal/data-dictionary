@@ -2,14 +2,14 @@
 datatable: true
 layout: page
 parent: Template
-title: bs Seq
+title: bsSeq
 ---
 
-{% assign mydata=site.data.bsSeq %} 
-{: .note-title } 
->bs Seq
+{% assign mydata=site.data.bsSeq %}
+{: .note-title }
+>bsSeq
 >
->bisulfite-seq WGBS methylseq methylomics [[Source]]()
+>Template for bsSeq [[Source]](nan)
 <table id="myTable" class="display" style="width:100%">
     <thead>
     {% for column in mydata[0] %}

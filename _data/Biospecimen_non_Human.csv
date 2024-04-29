@@ -1,0 +1,16 @@
+Attribute,Description,Required,columnType,DependsOn,Source,Parent,Valid Values
+assay,The analysis or technology used to generate the data in this file,True,STRING,,,ManifestColumn,
+cellType,Indicate the cell type.,True,STRING,,,ManifestColumn,
+fastingState,Was individual fasting when the sample was taken (true/false)?,True,STRING,,,ManifestColumn,"True,False,,Uknown"
+individualID,"Identifying string linked to the individual or animal being studied, provided by the data contributor",True,STRING,,,ManifestColumn,
+isPostMortem,Was the sample taken after death (true/false)?,True,STRING,,,ManifestColumn,
+nucleicAcidSource,"Specifies the type of nucleic acid (DNA, RNA, Pooled, etc.) found in a sample.",True,STRING,,,ManifestColumn,"bulk cell,single cell,bulk nuclei,single nucleus,mitochondria,sorted cells,sorted nuclei"
+organ,Indicate the organ the specimen is from,True,STRING,,,ManifestColumn,
+samplingAge,"The calculated age of the sample, measurement is determined or coded by the data contributor.Other,Unknown, Not collected, Not applicable",True,STRING,,,ManifestColumn,
+specimenAge,"The subject's age at the time of specimen extraction is the individual's age (since birth) at the time a given specimen was extracted. Measured as age in years. Other, Unknown, Not collected, Not applicable",True,STRING,,,ManifestColumn,
+specimenID,"Identifying string linked to a particular sample or specimen, provide by the data contributor",True,STRING,,,ManifestColumn,
+specimenSource,Indicate the biological area of the specimen,True,STRING,,,ManifestColumn,
+specimenType,Type of biological material comprising the Specimen,True,STRING,,,ManifestColumn,"blood,plasma,urine,saliva,stool,serum,tissue,swabs,sputum,Cerebrospinal Fluid (CSF),organoid"
+tissue,Indicate the tissue the specimen is from,True,STRING,,,ManifestColumn,
+tissueVolume,The volume of the tissue sample. Measured in microliters.,True,STRING,,,ManifestColumn,
+tissueWeight,The mass of the tissue specimen. Measured in mg.,True,STRING,,,ManifestColumn,

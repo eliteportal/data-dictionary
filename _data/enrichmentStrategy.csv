@@ -1,0 +1,7 @@
+Key,Key Description,columnType,Source,Parent
+Acetylome Proteome,,STRING,,ManifestColumn
+Phosphoproteome,,STRING,,ManifestColumn
+Glycoproteome,,STRING,,ManifestColumn
+Ubiquitylome,,STRING,,ManifestColumn
+Metabolome,,STRING,,ManifestColumn
+Lipidome,,STRING,,ManifestColumn

@@ -16,17 +16,16 @@ Authors:
 """
 
 # load Parents
+import os
 import argparse
 import re
+from glob import glob
 from pathlib import Path
 import logging
 import pandas as pd
 from dotenv import dotenv_values
 
 from toolbox import utils
-
-
-# Get the current date object. Format the date as YYYY-MM-DD
 
 
 root_dir_name = "data-dictionary"
@@ -259,6 +258,20 @@ def manage_files(term: str = None) -> None:
     data_model.to_csv(Path(ROOT_DIR, "_data/DataModel.csv"), index=False)
 
     logging.info("Successfully created term files for data model")
+
+    logging.info("Deleting files corresponding to terms not found in the data model")
+
+    rm_files = glob(str(Path(ROOT_DIR, "_data")) + "/*.csv")
+
+    keep_terms = ["DataModel"] + modules + list(data_model["Key"].unique())
+
+    for r in rm_files:
+        attr_name = Path(r).stem
+        if attr_name not in keep_terms:
+            logging.warning(
+                f"Deleting file: {attr_name}",
+            )
+            os.remove(Path(r))
 
 
 if __name__ == "__main__":

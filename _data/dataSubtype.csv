@@ -1,8 +1,0 @@
-Key,Key Description,columnType,Source,Parent
-analysis,,,,ManifestColumn
- metadata,,,,ManifestColumn
- normalized,,,,ManifestColumn
- processed,,,,ManifestColumn
- raw,,,,ManifestColumn
- residualized,,,,ManifestColumn
-dataMatrix,,,,ManifestColumn

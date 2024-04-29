@@ -1,25 +1,20 @@
 Key,Key Description,columnType,Source,Parent
-Broad Single Cell Portal,,,,ManifestColumn
- ENA,,,,ManifestColumn
- Ensembl,,,,ManifestColumn
- FlowRepository,,,,ManifestColumn
- GEO,,,,ManifestColumn
- GISAID,,,,ManifestColumn
- GenBank,,,,ManifestColumn
- IEDB,,,,ManifestColumn
- ImmPort,,,,ManifestColumn
- MGnify,,,,ManifestColumn
- MassIVE,,,,ManifestColumn
- MetaboLights,,,,ManifestColumn
- Metabolomics Workbench,,,,ManifestColumn
- NCBI Gene,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- OtherRepositoryName,,,,ManifestColumn
- PRIDE,,,,ManifestColumn
- SRA,,,,ManifestColumn
- UniProt,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- dbGAP,,,,ManifestColumn
-ArrayExpress,,,,ManifestColumn
+ArrayExpress,,STRING,,ManifestColumn
+Broad Single Cell Portal,,STRING,,ManifestColumn
+dbGAP,,STRING,,ManifestColumn
+ENA,,STRING,,ManifestColumn
+Ensembl,,STRING,,ManifestColumn
+FlowRepository,,STRING,,ManifestColumn
+GenBank,,STRING,,ManifestColumn
+GEO,,STRING,,ManifestColumn
+GISAID,,STRING,,ManifestColumn
+IEDB,,STRING,,ManifestColumn
+ImmPort,,STRING,,ManifestColumn
+MassIVE,,STRING,,ManifestColumn
+MetaboLights,,STRING,,ManifestColumn
+Metabolomics Workbench,,STRING,,ManifestColumn
+MGnify,,STRING,,ManifestColumn
+NCBI Gene,,STRING,,ManifestColumn
+PRIDE,,STRING,,ManifestColumn
+SRA,,STRING,,ManifestColumn
+UniProt,,STRING,,ManifestColumn

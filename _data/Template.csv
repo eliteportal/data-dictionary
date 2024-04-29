@@ -1,15 +1,15 @@
 Key,Key Description,Valid Values,columnType,Parent,Module
-Biospecimen_human,Metadata template used for contributing metadata to the ELITE portal,,,Component,Template
-Biospecimen_nonHuman,Metadata template used for contributing metadata to the ELITE portal,,,Component,Template
-ComputationalTools,Template used to curate computational tools used by researchers,,,Component,Template
-Individual_Human,Template used for contributing metadata to the ELITE portal,,,Component,Template
-Individual_nonHuman,Template used for contributing metadata to the ELITE portal,,,Component,Template
-Metabolomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
-Microbiome,Template used for contributing metadata to the ELITE portal,,,Component,Template
-RNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
-Whole_Genome_Sequencing,Template used for contributing WGS metadata to the ELITE portal,,,Component,Template
-bsSeq,Template used for contributing metadata to the ELITE portal for bisulfite-seq WGBS methylseq methylomics,,,Component,Template
-file_annotation_template,AD file annotation template schema,,,Component,Template
-genotyping_assay,Template used for contributing metadata to the ELITE portal,,,Component,Template
-proteomics,Template used for contributing metadata to the ELITE portal,,,Component,Template
-scRNAseq,Template used for contributing metadata to the ELITE portal,,,Component,Template
+Biospecimen_human,Template for Biospecimen_human,,,Component,Template
+Biospecimen_non_Human,Template for Biospecimen_non_Human,,,Component,Template
+bsSeq,Template for bsSeq,,,Component,Template
+Genotyping_Human,Template for Genotyping_Human,,,Component,Template
+Individual_Human,Template for Individual_Human,,,Component,Template
+Individual_non_Human,Template for Individual_non_Human,,,Component,Template
+Metabolomics,Template for Metabolomics,,,Component,Template
+Metagenomics,Template for Metagenomics,,,Component,Template
+Microbiome,Template for Microbiome,,,Component,Template
+Phenotype_human,Template for Phenotype_human,,,Component,Template
+Proteomics,Template for Proteomics,,,Component,Template
+RNAseq,Template for RNAseq,,,Component,Template
+Whole_Genome_Sequencing,Template for Whole_Genome_Sequencing,,,Component,Template
+scRNAseq,Template for scRNAseq,,,Component,Template

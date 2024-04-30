@@ -2,10 +2,10 @@ Attribute,Description,Required,columnType,DependsOn,Source,Parent,Valid Values
 age,"Age of the individual (age in years of the individual at first recorded study event (enrollment, visit, observation, sample collection, survey completion, etc.)",True,STRING,,,ManifestColumn,
 cohort,Name of the cohort the individual belongs to,True,STRING,,,ManifestColumn,
 diagnosis,Indicate the disease or condition.,False,STRING,,,ManifestColumn,
-diagnosisStatus,"Whether the individual has been diagnosed with a condition or disease (physical and/or cognitive), \True"" indicates the individual has been diagnosed""",True,STRING,,,ManifestColumn,"True,False"
+diagnosisStatus,"Whether the individual has been diagnosed with a condition or disease (physical and/or cognitive), \True"" indicates the individual has been diagnosed""",True,STRING,,,ManifestColumn,"FALSE,TRUE"
 ethnicGroupCode,"A coded value specifying the self-declared ethnic origination independent of racial origination, provided by the data contributor's data dictionary",False,STRING,,,ManifestColumn,
-ethnicity,Ethnicity of individual,True,STRING,,,ManifestColumn,"Not Hispanic or Latino,Hispanic or Latino,Prefer not to answer"
+ethnicity,Ethnicity of individual,True,STRING,,,ManifestColumn,"Hispanic or Latino,Not Hispanic or Latino,Prefer not to answer"
 individualID,"Identifying string linked to the individual or animal being studied, provided by the data contributor",True,STRING,,,ManifestColumn,
-race,Race of individual,True,STRING,,,ManifestColumn,"White,Black or African American,Asian,American Indian or Alaska Native,Native Hawaiian or  Pacific Islander,Multiracial, race,Prefer not to answer"
-sex,The biological sex of the individual,True,STRING,,,ManifestColumn,"Male,Female, Other, Not Available, Not Applicable, Unknown"
-speciesGroup,The taxonomic ranking including both species and subspecies the individual belongs to.,True,STRING,,,ManifestColumn,"Human,Rodent,Bird,Mammal,Primate"
+race,Race of individual,True,STRING,,,ManifestColumn,"American Indian or Alaska Native,Asian,Black or African American,Multiracial,Native Hawaiian or Pacific Islander,Prefer not to answer,White"
+sex,The biological sex of the individual,True,STRING,,,ManifestColumn,"Female,Male,Not applicable,Not collected,Not specified,Other,Unknown"
+speciesGroup,The taxonomic ranking including both species and subspecies the individual belongs to.,True,STRING,,,ManifestColumn,"Bird,Human,Mammal,Not applicable,Not collected,Not specified,Other,Primate,Rodent,Unknown"

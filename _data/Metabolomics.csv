@@ -20,13 +20,13 @@ extractionMethod,"The name of the process used to separate a desired component o
 gasFlowTemperature,"e.g., nebulization gas, cone gas, etc.Unit of measure-C, F, K, Not specified",False,NUMBER,,,ManifestColumn,
 gasFlowTemperatureUnit,Unit of gas flow temperature,False,STRING,,,ManifestColumn,"C,F,K"
 hasAssayControl,"Boolean flag indicating whether or not a specimen is a technical or assay control. Examples include study pools or reference pools, blanks, or internal standards.",False,BOOLEAN,,,ManifestColumn,
-hasIonizationSource?,Were the ionization conditions recorded to enable reproduction of the experiment?,False,BOOLEAN,,,ManifestColumn,"Yes,No"
+hasIonizationSource?,Were the ionization conditions recorded to enable reproduction of the experiment?,False,BOOLEAN,,,ManifestColumn,"No,Yes"
 instrumentModel,"The model of the instrument used. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
-ionProperty,Ion charge state (positive or negative-ion analysis),False,STRING,,,ManifestColumn,"Positive,Negative"
+ionProperty,Ion charge state (positive or negative-ion analysis),False,STRING,,,ManifestColumn,"Negative,Positive"
 measurementTechnique,"The name of the measurement technique describing the assay method. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 msAnalyteType,"The type of biospecimen subjected to analysis (ex., peptide, protein, metabolite, lipid)Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 msAssayTechnique,"Specified the mass spectrometer technique used or the name of the proteomics assay used (ex. DDA)Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
-msTarget,Specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay,True,STRING,,,ManifestColumn,"Targeted,Untargeted"
+msTarget,Specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay,True,STRING,,,ManifestColumn,"Not applicable,Not available,Not collected,Not specified,Targeted,Unknown,Untargeted"
 platformLocation,"The name of the laboratory, facility, vendor, company, or location where the data generation platform was located, provided by the data contributor. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 processingBatchID,"Processing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse",False,STRING,,,ManifestColumn,
 processingBatchSize,The number of samples,False,STRING,,,ManifestColumn,
@@ -41,4 +41,4 @@ specimenID,"Identifying string linked to a particular sample or specimen, provid
 spectrometerFrequency,The frequency at which a spectrometer causes hydrogen atoms to resonate (in MHz),False,NUMBER,,,ManifestColumn,
 technologyPlatformVersion,"The specific version (application, manufacturer, model, lab, etc.) of a technology that is used to carry out a laboratory or computational experiment. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 vacuumPressure,The recorded vacuum pressure value,False,NUMBER,,,ManifestColumn,
-vacuumPressureUnit,Unit of vacuum pressure value,False,STRING,,,ManifestColumn,"AFU,AI,AU/ml,DK units/ml,bp g/dl,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not Specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml"
+vacuumPressureUnit,Unit of vacuum pressure value,False,STRING,,,ManifestColumn,"AFU,AI,AU/ml,bp g/dl,DK units/ml,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml"

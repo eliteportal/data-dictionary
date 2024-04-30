@@ -1,9 +1,9 @@
 Attribute,Description,Required,columnType,DependsOn,Source,Parent,Valid Values
 dnaBatchID,"DNA isolation batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 dnaBatchSize,The number of samples,True,NUMBER,,,ManifestColumn,
-dnaBatchSizeUnit,The unit of measurement for number of samples in a batch,True,STRING,,,ManifestColumn,"AFU,AI,AU/ml,DK units/ml,bp g/dl,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not Specified,NPX,optical density,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml,other"
+dnaBatchSizeUnit,The unit of measurement for number of samples in a batch,True,STRING,,,ManifestColumn,"AFU,AI,AU/ml,bp g/dl,DK units/ml,g/l,gm,HAU,IU,iu/l,IU/ml,Kallikrein Inactivator Unit per Milliliter,kg,l,M,mg,mg/dl,mg/l,mg/ml,miu/ml,ml,mM,MOI,ng,ng/dl,ng/ml,ng/nl,ng/ul,nl,nM,Not specified,NPX,optical density,other,PFU,PFUe,pg,pg/mg creatinine,pg/ml,pg/nl,pg/ul,pl,pM,Pound,TCID50,ug,ug/dl,ug/l,ug/ml,ug/ul,uiu/ml,ul,uM,umol/l,units/ml"
 extractionMethod,"The name of the process used to separate a desired component of an input material from the remainder. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
-isStranded,Whether or not the library is stranded.,True,BOOLEAN,,,ManifestColumn,"False,True"
+isStranded,Whether or not the library is stranded.,True,BOOLEAN,,,ManifestColumn,"FALSE,TRUE"
 libraryBatchID,"Library batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 libraryPrep,"The general strategy by which the library was prepared. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 libraryPreparationMethod,"Method by which library was prepared. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
@@ -13,7 +13,7 @@ platformLocation,"The name of the laboratory, facility, vendor, company, or loca
 readLength,The length of the read.,True,NUMBER,,,ManifestColumn,
 readLengthUnits,The units of measurement.,True,STRING,,,ManifestColumn,
 readStrandOrigin,The strand from which the read originates in a strand-specific protocol.,True,STRING,,,ManifestColumn,"Forward Reverse,forward reverse"
-runType,The type of run,True,STRING,,,ManifestColumn,"pairedEnd,singleEnd,singleEnd pairedEnd"
+runType,The type of run,True,STRING,,,ManifestColumn,"Not applicable,Not collected,Not specified,pairedEnd,singleEnd,singleEnd pairedEnd,Unknown"
 sampleType,"The type of sample collected or the term used to describe the source of a biospecimen used for a laboratory test. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 sequencingBatchID,"Sequencing batch identifier, provided by the data contributor to Sage Bionetworks. The batch identifier(s) must be stored in a data dictionary .csv file uploaded to Synapse. Provide a value OR provide one of these values - Unknown Not collected, Not applicable, Not specified",True,STRING,,,ManifestColumn,
 sequencingBatchSize,The number of samples,True,NUMBER,,,ManifestColumn,

@@ -9,4 +9,8 @@ IPTL,,STRING,,ManifestColumn
 iTRAQ,,STRING,,ManifestColumn
 iTRAQH,,STRING,,ManifestColumn
 Label Free,,STRING,,ManifestColumn
+Not available,,STRING,,ManifestColumn
+Not collected,,STRING,,ManifestColumn
+Not specified,,STRING,,ManifestColumn
 TMT,,STRING,,ManifestColumn
+Unknown,,STRING,,ManifestColumn

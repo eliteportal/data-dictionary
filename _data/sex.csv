@@ -1,7 +1,8 @@
 Key,Key Description,columnType,Source,Parent
-Male,,STRING,,ManifestColumn
 Female,,STRING,,ManifestColumn
- Other,,STRING,,ManifestColumn
- Not Available,,STRING,,ManifestColumn
- Not Applicable,,STRING,,ManifestColumn
- Unknown,,STRING,,ManifestColumn
+Male,,STRING,,ManifestColumn
+Not applicable,,STRING,,ManifestColumn
+Not collected,,STRING,,ManifestColumn
+Not specified,,STRING,,ManifestColumn
+Other,,STRING,,ManifestColumn
+Unknown,,STRING,,ManifestColumn

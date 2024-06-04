@@ -1,21 +1,17 @@
 Key,Key Description,columnType,Source,Parent
-Accel-NGS 2S Plus,,,,ManifestColumn
- Accel-NGS Methyl-Seq,,,,ManifestColumn
- CEL-seq,,,,ManifestColumn
- Drop-Seq,,,,ManifestColumn
- NEBNext,,,,ManifestColumn
- NexteraXT,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Omni-ATAC,,,,ManifestColumn
- OtherLibraryPreparationMethod,,,,ManifestColumn
- SMRTbell,,,,ManifestColumn
- Smart-seq1,,,,ManifestColumn
- Smart-seq2,,,,ManifestColumn
- Smart-seq4,,,,ManifestColumn
- TruSeq,,,,ManifestColumn
- Ultralow Methyl-Seq,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- sac-seq,,,,ManifestColumn
-10x,,,,ManifestColumn
+10x,,STRING,,ManifestColumn
+ Accel-NGS 2S Plus,,STRING,,ManifestColumn
+ Accel-NGS Methyl-Seq,,STRING,,ManifestColumn
+ CEL-seq,,STRING,,ManifestColumn
+ Drop-Seq,,STRING,,ManifestColumn
+ NEBNext,,STRING,,ManifestColumn
+ NexteraXT,,STRING,,ManifestColumn
+ Omni-ATAC,,STRING,,ManifestColumn
+ sac-seq,,STRING,,ManifestColumn
+ Smart-seq1,,STRING,,ManifestColumn
+ Smart-seq2,,STRING,,ManifestColumn
+ Smart-seq4,,STRING,,ManifestColumn
+ SMRTbell,,STRING,,ManifestColumn
+ TruSeq,,STRING,,ManifestColumn
+ Ultralow Methyl-Seq,,STRING,,ManifestColumn
+ Illumina DNA PCR-Free Prep Kit,,STRING,,ManifestColumn

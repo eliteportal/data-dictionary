@@ -93,8 +93,8 @@ def create_module_csv(data_model: pd.DataFrame, module: str) -> None:
     # Filter data for the specified module and fill missing values
     df = data_model.fillna("").copy(deep=True)
     df = df.loc[
-        data_model["Module"] == module,
-        ["Attribute", "Description", "Valid Values", "columnType", "Parent", "Module"],
+        data_model["module"] == module,
+        ["Attribute", "Description", "Valid Values", "columnType", "Parent", "module"],
     ]
 
     # Prepare output format (consistent with create_term_df)
@@ -124,7 +124,7 @@ def create_term_df(data_model: pd.DataFrame, term: str) -> pd.DataFrame:
     """
 
     if (
-        "Template" in data_model.query("`Attribute` == @term")["Module"].values
+        bool(re.search('template', ','.join(data_model.query("`Attribute` == @term")["module"].values)))
         and term != "countryCode"
     ):
         logging.info("Generate CSV for template: %s", term)
@@ -227,7 +227,7 @@ def manage_files(term: str = None) -> None:
     )
 
     # Generate module CSVs
-    modules = data_model["Module"].unique().tolist()
+    modules = data_model["module"].unique().tolist()
 
     for module in modules:
         try:
@@ -253,7 +253,7 @@ def manage_files(term: str = None) -> None:
     )
 
     data_model = data_model[
-        ["Key", "Key Description", "columnType", "Source", "Module"]
+        ["Key", "Key Description", "columnType", "Source", "module"]
     ]
 
     # Update data model CSV

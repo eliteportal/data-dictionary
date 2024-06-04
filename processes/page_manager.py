@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-**Module Name:** page_manager.py
+**module Name:** page_manager.py
 
 **Description:**
 
@@ -54,7 +54,7 @@ def get_info(data_model: pd.DataFrame, term: str, column: str = "Attribute") -> 
         A dictionary containing information about the term, including:
             'Description' (str): The description of the term (if found).
             'Source' (str, optional): The source of the term information (if available in the data model).
-            'Module' (str, optional): The module the term belongs to (if available in the data model).
+            'module' (str, optional): The module the term belongs to (if available in the data model).
 
     Raises:
         ValueError: If the provided term is not found in the data model.
@@ -62,7 +62,7 @@ def get_info(data_model: pd.DataFrame, term: str, column: str = "Attribute") -> 
 
     # Filter data by term in the specified column
     results = data_model.loc[
-        data_model[column] == term, ["Description", "Source", "Module"]
+        data_model[column] == term, ["Description", "Source", "module"]
     ].to_dict("records")
 
     # Check if any results were found
@@ -106,7 +106,7 @@ def create_template_page(term: str, term_dict: dict) -> frontmatter.Post:
 
     # Update metadata for the new page
     post.metadata["title"] = re.sub("_", r" ", term).strip()
-    post.metadata["parent"] = term_dict["Module"]
+    post.metadata["parent"] = term_dict["module"]
 
     # Inject term information into template content
     content_prefix = (
@@ -120,9 +120,9 @@ def create_template_page(term: str, term_dict: dict) -> frontmatter.Post:
     post.content = content_prefix + post.content
 
     # Create and populate the module page file
-    logger.info("Creating Page for: %s", str(Path(ROOT_DIR, f"docs/Template/{term}")))
+    logger.info("Creating Page for: %s", str(Path(ROOT_DIR, f"docs/template/{term}")))
 
-    template_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/Template/{term}")))
+    template_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/template/{term}")))
     template_page.append_end(frontmatter.dumps(post))
 
     # return post
@@ -152,12 +152,14 @@ def create_table_page(term: str, term_dict: dict) -> fileutils.MarkDownFile:
     if not all(key in term_dict for key in ["Description", "Source"]):
         raise ValueError("term_dict must contain keys 'Description' and 'Source'")
 
+    term = term.strip()
+
     # Load markdown template
     post = frontmatter.load(Path(ROOT_DIR, "_layouts/term_page_template.md"))
 
     # Update metadata for the new page
     post.metadata["title"] = term
-    post.metadata["parent"] = term_dict["Module"]
+    post.metadata["parent"] = term_dict["module"]
 
     # Inject term information into template content
     content_prefix = (
@@ -171,7 +173,9 @@ def create_table_page(term: str, term_dict: dict) -> fileutils.MarkDownFile:
     post.content = content_prefix + post.content
 
     # Create and populate the term page file
-    term_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/{term}.html")))
+    term_page = fileutils.MarkDownFile(
+        str(Path(ROOT_DIR, f"""docs/modules/{term_dict["module"]}/{term}"""))
+    )
     term_page.append_end(frontmatter.dumps(post))
 
     return term_page
@@ -192,7 +196,14 @@ def create_module_page(module: str) -> fileutils.MarkDownFile:
     """
 
     if not module:
-        raise ValueError("Module name cannot be empty")
+        raise ValueError("module name cannot be empty")
+
+    mod_page_path = Path(ROOT_DIR, f"docs/modules/{module}/{module}.md")
+
+    if not mod_page_path.parent.exists():
+        mod_page_path.parent.mkdir(parents=True, exist_ok=True)
+
+    module_page = fileutils.MarkDownFile(str(mod_page_path).strip('.md'))
 
     # Load markdown template
     post = frontmatter.load(Path(ROOT_DIR, "_layouts/term_page_template.md"))
@@ -200,8 +211,9 @@ def create_module_page(module: str) -> fileutils.MarkDownFile:
     # Update metadata for the new page
     post.metadata["title"] = module
     post.metadata["nav_order"] = 5
-    post.metadata["permalink"] = f"docs/Modules/{module}.html"
-    post.metadata["parent"] = "Modules"
+    # post.metadata["permalink"] = f"docs/{module}.html"
+    post.metadata["has_children"] = True
+    post.metadata["parent"] = 'modules'
 
     # Inject module name into template content
     content_prefix = (
@@ -210,12 +222,12 @@ def create_module_page(module: str) -> fileutils.MarkDownFile:
         + " %} \n{: .note-title } \n"
         + f">{module}\n"
         + ">\n"
-        + ">Module in the data model\n"
+        + ">module in the data model\n"
     )
     post.content = content_prefix + post.content
 
     # Create and populate the module page file
-    module_page = fileutils.MarkDownFile(str(Path(ROOT_DIR, f"docs/Modules/{module}")))
+    print("Creating module page: ", str(mod_page_path))
     module_page.append_end(frontmatter.dumps(post))
 
     return module_page
@@ -229,7 +241,7 @@ def create_full_table(data_model: pd.DataFrame) -> None:
         data_model: A pandas DataFrame representing the data model (pd.DataFrame).
     """
 
-    # Module name for the full data model page
+    # module name for the full data model page
     module_name = "DataModel"
 
     # Create directory for the data model if it doesn't exist
@@ -302,11 +314,13 @@ if __name__ == "__main__":
 
     # Generate documentation pages
     create_full_table(data_model)
-    modules = list(data_model["Module"].dropna().unique())
+
+    modules = list(data_model["module"].dropna().unique())
     for module in modules:
         create_module_page(module)
 
     # Creating template pages
+    print('---- Creating Template pages ----')
     templates = list(
         data_model[data_model["Parent"] == "Component"]["Attribute"].unique()
     )
@@ -315,17 +329,26 @@ if __name__ == "__main__":
         term_info = get_info(data_model, template, column="Attribute")
         create_template_page(template, term_dict=term_info)
 
+    # create attribute pages
+    print("---- Creating attribute pages ----")
+    for a in data_model.loc[~data_model['Parent'].str.contains('Component', na=False), "Attribute"]:
+        term_info = get_info(data_model, a, column="Attribute")
+        create_table_page(a, term_info)
+
     # Delete pages with no data
     md_files = glob(f"{ROOT_DIR}/docs/**/*.md", recursive=True)
     csv_files = glob(f"{ROOT_DIR}/_data/*.csv", recursive=True)
-    file_exceptions = ["DataModel", "Network_Graph"]
-    keepers = templates + modules + file_exceptions
-    # keepers = [re.sub("_", " ", r) for r in keepers]
+    file_exceptions = ["DataModel", "Network_Graph", "ChangeLog"]
 
-    for m in md_files:
-        attr = Path(m).stem
-        if attr not in keepers:
-            logger.warning(f"Deleting markdown file: {attr}")
-            os.remove(Path(m))
+    # keepers = templates + modules + file_exceptions
+    # # keepers = [re.sub("_", " ", r) for r in keepers]
+
+    # for m in md_files:
+    #     attr = Path(m).stem
+    #     if attr not in keepers:
+    #         logger.warning(f"Deleting markdown file: {attr}")
+    #         os.remove(Path(m))
+
+    # create sub heading pages
 
     logger.info("Documentation generation completed!")

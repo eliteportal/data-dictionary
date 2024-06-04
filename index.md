@@ -16,29 +16,3 @@ To see a full list of terms found in the data model see the [Full Table](docs/Fu
 ## Issues and Request new term or value
 
 Please create a ticket using the service desk linked above.
-
-## Change Log
-
-### April 23, 2024
-
-BUG: FileAnnotationTemplate
-
-- Templates with datatypes would include metabolomics template columns due to metabolomics being a valid value for dataType
-
-FIX:
-
-- Changed template names and added suffixes to templates to avoid overlapping with valid values.
-
-### September 26, 2023
-
-- Term Changes
-  - Changed all Yes/No valid values to TRUE/FALSE
-
-### September 15, 2023
-
-- New Terms Added
-  - `studyName`
-    - Name of the studies found within ELITE
-- Term Changes
-  - `studyCode` -> `project`
-    - To distinguish between available studies and projects found within ELITE.

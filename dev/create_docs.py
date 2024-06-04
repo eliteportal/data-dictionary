@@ -10,7 +10,11 @@ import os
 import pandas as pd
 import shutil
 from dotenv import dotenv_values
+from pathlib import Path
+
 config = dotenv_values(".env")
+
+os.chdir(Path(__file__).parent.parent)
 
 
 def get_subdirectories(directory):
@@ -22,13 +26,13 @@ def get_subdirectories(directory):
 
 def create_module_folders(data_model):
     """Creates the subdirectories for the documents that are the pages within the website. If the page folder
-        if the page does not exist in the "Module" column in the data model, it is removed.
+        if the page does not exist in the "module" column in the data model, it is removed.
 
     Args:
         data_model (data.frame): the data model for the project
     """
 
-    BASE_PATH = "./docs"
+    BASE_PATH = "docs"
 
     # get current subdirectories
     subdirectories = [f for f in os.listdir(BASE_PATH) if not f.startswith(".")]
@@ -38,7 +42,10 @@ def create_module_folders(data_model):
     # delete old directories
     for s in subdirectories:
         if s not in module_list:
-            shutil.rmtree(f"{BASE_PATH}/{s}")
+            try: 
+                shutil.rmtree(f"{BASE_PATH}/{s}")
+            except: 
+                pass
 
     # create new folders
     for m in module_list:
@@ -77,7 +84,7 @@ def create_module_page(subdirectories):
         subdirectories (list): list of the subdirectories in docs to create markdown pages for
     """
     # render the template page
-    with open("term_doc_template.md", "r") as file:
+    with open("_layouts/template_page_template.md", "r") as file:
         template = Template(file.read(), trim_blocks=True)
 
     for m in subdirectories:
@@ -95,9 +102,9 @@ def create_module_page(subdirectories):
 
 
 def main():
-    data_model = pd.read_csv(config["data_model"])
+    data_model = pd.read_csv(config["csv_model_link"])
 
-    data_model = data_model[["Attribute", "Description", "Type", "Source", "Module"]]
+    data_model = data_model[["Attribute", "Description", "columnType", "Source", "Module"]]
 
     # rename columns
     data_model = data_model.rename(

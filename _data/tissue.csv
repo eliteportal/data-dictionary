@@ -1,513 +1,90 @@
 Key,Key Description,columnType,Source,Parent
-Accessory Tissue,,,,ManifestColumn
- Acinar Salivary Gland System,,,,ManifestColumn
- Adipose Tissue,,,,ManifestColumn
- Adrenal Cortex,,,,ManifestColumn
- Adrenal Gland Tissue,,,,ManifestColumn
- Adrenal Medulla,,,,ManifestColumn
- Alveolar Duct,,,,ManifestColumn
- Alveolar Epithelium,,,,ManifestColumn
- Alveolar Sac,,,,ManifestColumn
- Alveolar Septum,,,,ManifestColumn
- Anal Mucosa,,,,ManifestColumn
- Aorta Endothelium,,,,ManifestColumn
- Aorta Smooth Muscle Tissue,,,,ManifestColumn
- Arachnoid Membrane,,,,ManifestColumn
- Arterial System Endothelium,,,,ManifestColumn
- Arterial System Smooth Muscle Tissue,,,,ManifestColumn
- Arteriole Endothelium,,,,ManifestColumn
- Arteriole Smooth Muscle Tissue,,,,ManifestColumn
- Artery Endothelium,,,,ManifestColumn
- Artery Smooth Muscle Tissue,,,,ManifestColumn
- Basement Membrane,,,,ManifestColumn
- Basilar Membrane,,,,ManifestColumn
- Basilar Membrane of the Membranous Canal of the Cochlea,,,,ManifestColumn
- Bile Duct Epithelium,,,,ManifestColumn
- Bile Duct Tissue,,,,ManifestColumn
- Bladder Lamina Propria,,,,ManifestColumn
- Bladder Mucosa,,,,ManifestColumn
- Bladder Muscular Coat,,,,ManifestColumn
- Bladder Muscularis Mucosa,,,,ManifestColumn
- Bladder Serosal Surface,,,,ManifestColumn
- Bladder Tissue,,,,ManifestColumn
- Bladder Urothelium,,,,ManifestColumn
- Blood Vessel Endothelium,,,,ManifestColumn
- Blood Vessel Tissue,,,,ManifestColumn
- Bone Matrix,,,,ManifestColumn
- Bone Tissue,,,,ManifestColumn
- Bone Trabeculae,,,,ManifestColumn
- Bowman's Membrane,,,,ManifestColumn
- Brain Arachnoid Membrane,,,,ManifestColumn
- Brain Dura Mater,,,,ManifestColumn
- Brain Gray Matter,,,,ManifestColumn
- Brain Pia Mater,,,,ManifestColumn
- Brain White Matter,,,,ManifestColumn
- Breast Fibroglandular Tissue,,,,ManifestColumn
- Bronchial Epithelium,,,,ManifestColumn
- Bronchiole Epithelium,,,,ManifestColumn
- Bronchus Basement Membrane,,,,ManifestColumn
- Bronchus Connective Tissue,,,,ManifestColumn
- Bronchus Elastic Tissue,,,,ManifestColumn
- Bronchus Lamina Propria,,,,ManifestColumn
- Bronchus Smooth Muscle Tissue,,,,ManifestColumn
- Bronchus Submucosa,,,,ManifestColumn
- Bronchus-Associated Lymphoid Tissue,,,,ManifestColumn
- Brown Adipose Tissue,,,,ManifestColumn
- Buccal Mucosa,,,,ManifestColumn
- Bulbar Conjunctiva,,,,ManifestColumn
- Canalis Radicis Dentis,,,,ManifestColumn
- Capillary Endothelium,,,,ManifestColumn
- Cardiac Tissue,,,,ManifestColumn
- Cartilage Matrix,,,,ManifestColumn
- Cartilaginous Tissue,,,,ManifestColumn
- Cementum,,,,ManifestColumn
- Central Zone of the Prostatic Parenchyma,,,,ManifestColumn
- Cerebellum White Matter,,,,ManifestColumn
- Cerebral Meninges,,,,ManifestColumn
- Cerebral White Matter,,,,ManifestColumn
- Cervix Epithelium,,,,ManifestColumn
- Cervix Glandular Epithelium,,,,ManifestColumn
- Cervix Squamous Epithelium,,,,ManifestColumn
- Choristoma,,,,ManifestColumn
- Choroid,,,,ManifestColumn
- Choroid Plexus Epithelium,,,,ManifestColumn
- Choroid Plexus Epithelium of the Fourth Ventricle,,,,ManifestColumn
- Choroid Plexus Epithelium of the Lateral Ventricle,,,,ManifestColumn
- Ciliary Epithelium,,,,ManifestColumn
- Ciliated Respiratory Mucosa,,,,ManifestColumn
- Classic Lobule,,,,ManifestColumn
- Colonic Mucosa,,,,ManifestColumn
- Columnar Epithelium,,,,ManifestColumn
- Conjunctiva,,,,ManifestColumn
- Conjunctival Epithelium,,,,ManifestColumn
- Connective Tissue,,,,ManifestColumn
- Connective Tissue Component of the Peripheral Nerve,,,,ManifestColumn
- Connective Tissue Proper,,,,ManifestColumn
- Connective and Soft Tissue,,,,ManifestColumn
- Corneal Endothelium,,,,ManifestColumn
- Corneal Epithelium,,,,ManifestColumn
- Corpus Callosum,,,,ManifestColumn
- Cortical Bone,,,,ManifestColumn
- Cortical Cell Layer,,,,ManifestColumn
- Cortical Cell Layer of the Cerebellum,,,,ManifestColumn
- Cortical Cell Layer of the Cerebral Cortex,,,,ManifestColumn
- Crypt Epithelium,,,,ManifestColumn
- Cuboidal Epithelium,,,,ManifestColumn
- Deep Gray Matter,,,,ManifestColumn
- Demineralized Bone Tissue,,,,ManifestColumn
- Dense Connective Tissue,,,,ManifestColumn
- Dental Pulp,,,,ManifestColumn
- Dentin,,,,ManifestColumn
- Dermal Papilla,,,,ManifestColumn
- Dermis,,,,ManifestColumn
- Dermo-Epidermal Junction,,,,ManifestColumn
- Descemet's Membrane,,,,ManifestColumn
- Digestive System Lamina Propria,,,,ManifestColumn
- Duct Salivary Gland System,,,,ManifestColumn
- Ductal Epithelium,,,,ManifestColumn
- Duodenal Mucosa,,,,ManifestColumn
- Dura Mater,,,,ManifestColumn
- Ectocervical Mucosa,,,,ManifestColumn
- Ectoderm,,,,ManifestColumn
- Efferent Ductule Epithelium,,,,ManifestColumn
- Elastic Cartilage,,,,ManifestColumn
- Embryonic Connective Tissue,,,,ManifestColumn
- Embryonic Tissue,,,,ManifestColumn
- Enamel,,,,ManifestColumn
- Endocervical Glandular Epithelium,,,,ManifestColumn
- Endocervical Mucosa,,,,ManifestColumn
- Endocrine Reproductive Tissue,,,,ManifestColumn
- Endoderm,,,,ManifestColumn
- Endometrial Tissue,,,,ManifestColumn
- Endometrium,,,,ManifestColumn
- Endoneurium,,,,ManifestColumn
- Endosteum,,,,ManifestColumn
- Endothelium,,,,ManifestColumn
- Endothelium of the Glomerular Capillary,,,,ManifestColumn
- Ependyma,,,,ManifestColumn
- Ependyma and Remnants of the Central Canal of the Spinal Cord,,,,ManifestColumn
- Epidermis,,,,ManifestColumn
- Epineurium,,,,ManifestColumn
- Episclera,,,,ManifestColumn
- Epithelial Tissue,,,,ManifestColumn
- Epithelium,,,,ManifestColumn
- Esophageal Epithelium,,,,ManifestColumn
- Esophageal Lamina Propria,,,,ManifestColumn
- Esophageal Mucosa,,,,ManifestColumn
- Esophageal Muscular Coat,,,,ManifestColumn
- Esophageal Muscularis Mucosa,,,,ManifestColumn
- Esophageal Serosal Surface,,,,ManifestColumn
- Esophageal Squamous Epithelium,,,,ManifestColumn
- Esophageal Tissue,,,,ManifestColumn
- External Elastic Membrane,,,,ManifestColumn
- External Granular Layer of the Cerebral Cortex,,,,ManifestColumn
- External Pyramidal Cell Layer of the Cerebral Cortex,,,,ManifestColumn
- Extracapsular Tissue,,,,ManifestColumn
- Extracellular Matrix,,,,ManifestColumn
- Extrahepatic Bile Duct Epithelium,,,,ManifestColumn
- Eyelid Connective Tissue,,,,ManifestColumn
- Eyelid Subcutaneous Connective Tissue,,,,ManifestColumn
- Fascicle,,,,ManifestColumn
- Fat Pad,,,,ManifestColumn
- Fibroadipose Tissue,,,,ManifestColumn
- Fibrocartilage,,,,ManifestColumn
- Fibrous Tissue,,,,ManifestColumn
- Foramen Apicis Dentis,,,,ManifestColumn
- Fourth Ventricle Ependyma,,,,ManifestColumn
- Gallbladder Epithelium,,,,ManifestColumn
- Gallbladder Lamina Propria,,,,ManifestColumn
- Gallbladder Serosal Surface,,,,ManifestColumn
- Gallbladder Smooth Muscle Tissue,,,,ManifestColumn
- Ganglion Cell Layer,,,,ManifestColumn
- Ganglionic Layer of the Cerebral Cortex,,,,ManifestColumn
- Gastric Mucosa,,,,ManifestColumn
- Gastric Muscular Coat,,,,ManifestColumn
- Gastric Muscularis Mucosa,,,,ManifestColumn
- Gastric Serosal Surface,,,,ManifestColumn
- Gastric Submucosa,,,,ManifestColumn
- Gastric Tissue,,,,ManifestColumn
- Genital Tubercle,,,,ManifestColumn
- Germinal Center,,,,ManifestColumn
- Germinal Epithelium,,,,ManifestColumn
- Germinal Layer,,,,ManifestColumn
- Germinative Follicular Epithelium,,,,ManifestColumn
- Gingiva,,,,ManifestColumn
- Gingival Epithelium,,,,ManifestColumn
- Gingival Mucosa,,,,ManifestColumn
- Glandular Epithelial Tissue,,,,ManifestColumn
- Glandular Epithelium,,,,ManifestColumn
- Glomerular Basement Membrane,,,,ManifestColumn
- Granular Layer of the Cerebellum,,,,ManifestColumn
- Gray Matter,,,,ManifestColumn
- Gray Matter of the Spinal Cord,,,,ManifestColumn
- Gubernaculum Testis,,,,ManifestColumn
- Gut Epithelium,,,,ManifestColumn
- Gut-Associated Lymphoid Tissue,,,,ManifestColumn
- Hassall's Corpuscle,,,,ManifestColumn
- Haversian Canal,,,,ManifestColumn
- Haversian System,,,,ManifestColumn
- Heart Valve Tissue,,,,ManifestColumn
- Hematopoietic Tissue,,,,ManifestColumn
- Hematopoietic and Lymphoid Tissue,,,,ManifestColumn
- Hepatic Lobule,,,,ManifestColumn
- Hepatic Sinusoid,,,,ManifestColumn
- Hepatic Tissue,,,,ManifestColumn
- Hepatobiliary Tissue,,,,ManifestColumn
- Hyaline Cartilage,,,,ManifestColumn
- Iliotibial Band,,,,ManifestColumn
- Immature Bone,,,,ManifestColumn
- Inner Enamel Epithelium,,,,ManifestColumn
- Inner Limiting Membrane,,,,ManifestColumn
- Inner Membrane Amniotic Membrane Tissue,,,,ManifestColumn
- Inner Nuclear Layer,,,,ManifestColumn
- Inner Plexiform Layer,,,,ManifestColumn
- Interfollicular Area of the Lymph Node,,,,ManifestColumn
- Intermediate Mesoderm,,,,ManifestColumn
- Internal Elastic Membrane,,,,ManifestColumn
- Internal Granular Layer of the Cerebellum,,,,ManifestColumn
- Internal Granular Layer of the Cerebral Cortex,,,,ManifestColumn
- Intestinal Epithelium,,,,ManifestColumn
- Intestinal Mucosa,,,,ManifestColumn
- Intestinal Serosal Surface,,,,ManifestColumn
- Intestinal Smooth Muscle Tissue,,,,ManifestColumn
- Intestinal Wall Tissue,,,,ManifestColumn
- Intrahepatic Bile Duct Epithelium,,,,ManifestColumn
- Intraparenchymal,,,,ManifestColumn
- Irregular Dense Connective Tissue,,,,ManifestColumn
- Islet of Langerhans,,,,ManifestColumn
- Joint Capsule,,,,ManifestColumn
- Juxtaglomerular Apparatus,,,,ManifestColumn
- Lactiferous Duct,,,,ManifestColumn
- Lamella of Harvesian System,,,,ManifestColumn
- Lamina Propria,,,,ManifestColumn
- Large Intestinal Lamina Propria,,,,ManifestColumn
- Large Intestinal Mucosa,,,,ManifestColumn
- Large Intestinal Muscular Coat,,,,ManifestColumn
- Large Intestinal Muscularis Mucosa,,,,ManifestColumn
- Large Intestinal Serosal Surface,,,,ManifestColumn
- Large Intestinal Submucosa,,,,ManifestColumn
- Large Intestinal Wall Tissue,,,,ManifestColumn
- Laryngeal Connective Tissue,,,,ManifestColumn
- Laryngeal Epithelium,,,,ManifestColumn
- Laryngeal Mucosa,,,,ManifestColumn
- Lateral Mesoderm,,,,ManifestColumn
- Lateral Ventricle Ependyma,,,,ManifestColumn
- Layer of the Ophthalmic Nerve Fibers,,,,ManifestColumn
- Layer of the Rods and Cones,,,,ManifestColumn
- Left Lung Alveolar Duct,,,,ManifestColumn
- Leptomeninges,,,,ManifestColumn
- Liver Acinus,,,,ManifestColumn
- Loose Connective Tissue,,,,ManifestColumn
- Lower Gingiva,,,,ManifestColumn
- Lung Tissue,,,,ManifestColumn
- Lymph Node Cortex,,,,ManifestColumn
- Lymph Node Germinal Center,,,,ManifestColumn
- Lymph Node Lymphoid Follicle,,,,ManifestColumn
- Lymph Node Medullary Portion,,,,ManifestColumn
- Lymph Node Sinus,,,,ManifestColumn
- Lymph Node Subcapsular Sinus,,,,ManifestColumn
- Lymph Node Tissue,,,,ManifestColumn
- Lymph Node Trabecula,,,,ManifestColumn
- Lymphatic Vessel Endothelium,,,,ManifestColumn
- Lymphatic Vessel Smooth Muscle Tissue,,,,ManifestColumn
- Lymphoid Follicle,,,,ManifestColumn
- Lymphoid Tissue,,,,ManifestColumn
- Mammary Epithelium,,,,ManifestColumn
- Mammary Gland Tissue,,,,ManifestColumn
- Mantle Zone,,,,ManifestColumn
- Marginal Zone,,,,ManifestColumn
- Marginal Zone of the Lymph Node,,,,ManifestColumn
- Mature Bone,,,,ManifestColumn
- Mediastinal Pleura,,,,ManifestColumn
- Mediastinal Soft Tissue,,,,ManifestColumn
- Medullary Bone,,,,ManifestColumn
- Membrane,,,,ManifestColumn
- Membrane of Reissner,,,,ManifestColumn
- Membrane of the Brain or Spinal Cord,,,,ManifestColumn
- Meningeal Layer of the Dura Mater,,,,ManifestColumn
- Meninges,,,,ManifestColumn
- Mesangium,,,,ManifestColumn
- Mesenchyme,,,,ManifestColumn
- Mesoderm,,,,ManifestColumn
- Mesonephric Remnants,,,,ManifestColumn
- Mesothelium,,,,ManifestColumn
- Molecular Layer of the Cerebellum,,,,ManifestColumn
- Molecular Layer of the Cerebral Cortex,,,,ManifestColumn
- Mucosa,,,,ManifestColumn
- Mucosa of the Lip,,,,ManifestColumn
- Mucosa of the Lower Lip,,,,ManifestColumn
- Mucosa of the Upper Lip,,,,ManifestColumn
- Mucosa-Associated Lymphoid Tissue,,,,ManifestColumn
- Mucous Connective Tissue,,,,ManifestColumn
- Multiform Cell Layer of the Cerebral Cortex,,,,ManifestColumn
- Muscle Layer,,,,ManifestColumn
- Muscle Tissue,,,,ManifestColumn
- Muscularis Mucosa,,,,ManifestColumn
- Myelin Sheath,,,,ManifestColumn
- Myocardium,,,,ManifestColumn
- Myometrium,,,,ManifestColumn
- Nasal Cavity Epithelium,,,,ManifestColumn
- Nasal Cavity Respiratory Epithelium,,,,ManifestColumn
- Nasal Mucosa,,,,ManifestColumn
- Nasal Soft Tissue,,,,ManifestColumn
- Nasopharynx Epithelium,,,,ManifestColumn
- Nephron,,,,ManifestColumn
- Nerve Sheath,,,,ManifestColumn
- Nerve Tissue,,,,ManifestColumn
- Nerve Tissue and Nerve Sheaths,,,,ManifestColumn
- Neural Retina,,,,ManifestColumn
- Neuroectoderm,,,,ManifestColumn
- Neuroendocrine Tissue,,,,ManifestColumn
- Neuroepithelial Tissue,,,,ManifestColumn
- Neuropil,,,,ManifestColumn
- Nodular Parenchymal Tissue,,,,ManifestColumn
- Non-Cellular Component,,,,ManifestColumn
- Non-Valve Cardiac Conduit Tissue,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- Ocular Tissue,,,,ManifestColumn
- Odontogenic Ectomesenchyme,,,,ManifestColumn
- Odontogenic Epithelium,,,,ManifestColumn
- Odontogenic Tissue,,,,ManifestColumn
- Olfactory Epithelium,,,,ManifestColumn
- Olfactory Mucosa,,,,ManifestColumn
- Oral Cavity Epithelium,,,,ManifestColumn
- Oral Mucosa,,,,ManifestColumn
- Oropharyngeal Lymphoid Tissue,,,,ManifestColumn
- Oropharyngeal Soft Tissue,,,,ManifestColumn
- Oropharyngeal Tissue,,,,ManifestColumn
- Oropharynx Epithelium,,,,ManifestColumn
- Osteoid,,,,ManifestColumn
- Other,,,,ManifestColumn
- Outer Enamel Epithelium,,,,ManifestColumn
- Outer Limiting Membrane,,,,ManifestColumn
- Outer Nuclear Layer,,,,ManifestColumn
- Outer Plexiform Layer,,,,ManifestColumn
- Ovarian Cortex,,,,ManifestColumn
- Ovarian Medulla,,,,ManifestColumn
- Ovarian Surface Epithelium,,,,ManifestColumn
- Ovarian Tissue,,,,ManifestColumn
- Palpebral Conjunctiva,,,,ManifestColumn
- Pancreatic Acinus,,,,ManifestColumn
- Papillary Dermis,,,,ManifestColumn
- Papillary-Reticular Dermal Interface,,,,ManifestColumn
- Parametrium,,,,ManifestColumn
- Paranasal Sinus Epithelium,,,,ManifestColumn
- Paratesticular Soft Tissue,,,,ManifestColumn
- Parathyroid Gland Epithelial Tissue,,,,ManifestColumn
- Parathyroid Gland Follicle,,,,ManifestColumn
- Parathyroid Gland Tissue,,,,ManifestColumn
- Paraxial Mesoderm,,,,ManifestColumn
- Parenchyma,,,,ManifestColumn
- Parietal Pleura,,,,ManifestColumn
- Pelvic Peritoneum,,,,ManifestColumn
- Penis Erectile Tissue,,,,ManifestColumn
- Perforating Canal,,,,ManifestColumn
- Periarteriolar Lymphoid Sheath,,,,ManifestColumn
- Pericardium,,,,ManifestColumn
- Perineural Tissue,,,,ManifestColumn
- Perineurium,,,,ManifestColumn
- Periodontium,,,,ManifestColumn
- Periorbital Soft Tissue,,,,ManifestColumn
- Periosteum,,,,ManifestColumn
- Peripheral Nerve Sheath,,,,ManifestColumn
- Peripheral Zone of the Prostatic Parenchyma,,,,ManifestColumn
- Perisinusoidal Space,,,,ManifestColumn
- Peritoneum,,,,ManifestColumn
- Periurethral Zone of the Prostatic Parenchyma,,,,ManifestColumn
- Peyer Patch,,,,ManifestColumn
- Peyer Patch Germinal Center,,,,ManifestColumn
- Peyer Patch Lymphoid Follicle,,,,ManifestColumn
- Pia Mater,,,,ManifestColumn
- Pigment Epithelium,,,,ManifestColumn
- Pineal Parenchyma,,,,ManifestColumn
- Placenta Tissue without Amniotic Elements,,,,ManifestColumn
- Pleura,,,,ManifestColumn
- Portal Lobule,,,,ManifestColumn
- Portal Triad,,,,ManifestColumn
- Posterior Pigment Epithelium,,,,ManifestColumn
- Prefrontal Cortex,,,,ManifestColumn
- Prepuce Epithelium,,,,ManifestColumn
- Prostatic Duct Tissue,,,,ManifestColumn
- Prostatic Epithelium,,,,ManifestColumn
- Prostatic Muscular Tissue,,,,ManifestColumn
- Prostatic Stroma,,,,ManifestColumn
- Prostatic Tissue,,,,ManifestColumn
- Pseudostratified Columnar Ciliated Epithelium,,,,ManifestColumn
- Pseudostratified Columnar Epithelium,,,,ManifestColumn
- Pseudostratified Epithelium,,,,ManifestColumn
- Pulmonary Lobule,,,,ManifestColumn
- Purkinje Cell Layer of the Cerebellum,,,,ManifestColumn
- Pyramid of Ferrein,,,,ManifestColumn
- Pyramid of Malpighi,,,,ManifestColumn
- Rathke Pouch Epithelium,,,,ManifestColumn
- Regular Dense Connective Tissue,,,,ManifestColumn
- Remnants of the Central Canal of the Spinal Cord,,,,ManifestColumn
- Remnants of the Notochord,,,,ManifestColumn
- Renal Cortex,,,,ManifestColumn
- Renal Interstitial Tissue,,,,ManifestColumn
- Renal Medulla,,,,ManifestColumn
- Renal Pelvis Urothelium,,,,ManifestColumn
- Renal Pyramid,,,,ManifestColumn
- Renal Tissue,,,,ManifestColumn
- Renal Tubule Basement Membrane,,,,ManifestColumn
- Renal Tubule Epithelium,,,,ManifestColumn
- Reproductive Tissue,,,,ManifestColumn
- Respiratory Bronchiole Epithelium,,,,ManifestColumn
- Reticular Dermis,,,,ManifestColumn
- Retina Layer,,,,ManifestColumn
- Retinal Pigment Epithelium,,,,ManifestColumn
- Right Lung Alveolar Duct,,,,ManifestColumn
- Salivary Gland Tissue,,,,ManifestColumn
- Secondary Tympanic Membrane,,,,ManifestColumn
- Seminal Vesicle Epithelium,,,,ManifestColumn
- Seminiferous Epithelium,,,,ManifestColumn
- Seminiferous Tubule,,,,ManifestColumn
- Serosa,,,,ManifestColumn
- Serosal Surface of the Liver,,,,ManifestColumn
- Sheath of Schwann,,,,ManifestColumn
- Simple Columnar Epithelium,,,,ManifestColumn
- Simple Cuboidal Epithelium,,,,ManifestColumn
- Simple Epithelium,,,,ManifestColumn
- Simple Squamous Epithelium,,,,ManifestColumn
- Skeletal Muscle Tissue,,,,ManifestColumn
- Skin Tissue,,,,ManifestColumn
- Small Intestinal Lamina Propria,,,,ManifestColumn
- Small Intestinal Mucosa,,,,ManifestColumn
- Small Intestinal Muscular Coat,,,,ManifestColumn
- Small Intestinal Muscularis Mucosa,,,,ManifestColumn
- Small Intestinal Serosal Surface,,,,ManifestColumn
- Small Intestinal Submucosa,,,,ManifestColumn
- Small Intestinal Wall Tissue,,,,ManifestColumn
- Smooth Muscle Tissue,,,,ManifestColumn
- Soft Tissue,,,,ManifestColumn
- Spinal Cord Arachnoid Membrane,,,,ManifestColumn
- Spinal Cord Dura Mater,,,,ManifestColumn
- Spinal Cord Pia Mater,,,,ManifestColumn
- Spinal Meninges,,,,ManifestColumn
- Splenic Cord,,,,ManifestColumn
- Splenic Germinal Center,,,,ManifestColumn
- Splenic Lymphoid Follicle,,,,ManifestColumn
- Splenic Marginal Sinus,,,,ManifestColumn
- Splenic Marginal Zone,,,,ManifestColumn
- Splenic Pulp,,,,ManifestColumn
- Splenic Red Pulp,,,,ManifestColumn
- Splenic Sinus,,,,ManifestColumn
- Splenic Tissue,,,,ManifestColumn
- Splenic Trabecula,,,,ManifestColumn
- Splenic White Pulp,,,,ManifestColumn
- Squamous Epithelium,,,,ManifestColumn
- Stratified Columnar Epithelium,,,,ManifestColumn
- Stratified Cuboidal Epithelium,,,,ManifestColumn
- Stratified Epithelium,,,,ManifestColumn
- Stratified Squamous Epithelium,,,,ManifestColumn
- Striated Muscle Tissue,,,,ManifestColumn
- Stroma,,,,ManifestColumn
- Subcapsular Epithelium of the Lens,,,,ManifestColumn
- Subcutis,,,,ManifestColumn
- Subependymal Tissue,,,,ManifestColumn
- Submucosa,,,,ManifestColumn
- Subserosa,,,,ManifestColumn
- Substantia Nigra,,,,ManifestColumn
- Superficial Myometrium,,,,ManifestColumn
- Suprachorioid Lamina,,,,ManifestColumn
- Surface Ectoderm,,,,ManifestColumn
- Synovial Membrane,,,,ManifestColumn
- Tectorial Membrane,,,,ManifestColumn
- Terminal Bronchiole Epithelium,,,,ManifestColumn
- Terminal Ductal Lobular Unit,,,,ManifestColumn
- Testicular Tissue,,,,ManifestColumn
- Thymic Epithelial Tissue,,,,ManifestColumn
- Thymic Lobule,,,,ManifestColumn
- Thymic Lymphoid Tissue,,,,ManifestColumn
- Thymic Tissue,,,,ManifestColumn
- Thymic Trabecula,,,,ManifestColumn
- Thymus Cortex,,,,ManifestColumn
- Thymus Medulla,,,,ManifestColumn
- Thyroid Gland Epithelial Tissue,,,,ManifestColumn
- Thyroid Gland Follicle,,,,ManifestColumn
- Thyroid Gland Tissue,,,,ManifestColumn
- Tongue Epithelium,,,,ManifestColumn
- Tongue Skeletal Muscle Tissue,,,,ManifestColumn
- Tonsillar Lymphoid Tissue,,,,ManifestColumn
- Tonsillar Tissue,,,,ManifestColumn
- Trachea Basement Membrane,,,,ManifestColumn
- Trachea Lamina Propria,,,,ManifestColumn
- Trachea Smooth Muscle Tissue,,,,ManifestColumn
- Trachea Submucosa,,,,ManifestColumn
- Tracheal Epithelium,,,,ManifestColumn
- Transitional Epithelium,,,,ManifestColumn
- Transitional Zone of the Prostatic Parenchyma,,,,ManifestColumn
- Tunica Adventitia,,,,ManifestColumn
- Tunica Intima,,,,ManifestColumn
- Tunica Media,,,,ManifestColumn
- Tympanic Epithelium,,,,ManifestColumn
- Tympanic Membrane,,,,ManifestColumn
- Umbilical Cord Tissue,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- Upper Gingiva,,,,ManifestColumn
- Urachal Epithelium,,,,ManifestColumn
- Urethra Epithelium,,,,ManifestColumn
- Urethra Urothelium,,,,ManifestColumn
- Urothelium,,,,ManifestColumn
- Uterus Serosal Surface,,,,ManifestColumn
- Vaginal Epithelium,,,,ManifestColumn
- Vaginal Squamous Epithelium,,,,ManifestColumn
- Vas Deferens Epithelium,,,,ManifestColumn
- Vascular Endothelium,,,,ManifestColumn
- Vascular Smooth Muscle Tissue,,,,ManifestColumn
- Vein Endothelium,,,,ManifestColumn
- Vena Cava Endothelium,,,,ManifestColumn
- Venous System Endothelium,,,,ManifestColumn
- Venous System Smooth Muscle Tissue,,,,ManifestColumn
- Ventricular Wall of the Heart,,,,ManifestColumn
- Venule Endothelium,,,,ManifestColumn
- Visceral Pleura,,,,ManifestColumn
- Visceral Striated Muscle Tissue,,,,ManifestColumn
- Waldeyer Ring,,,,ManifestColumn
- White Adipose Tissue,,,,ManifestColumn
- White Matter,,,,ManifestColumn
- White Matter of the Spinal Cord,,,,ManifestColumn
- and Nerve Sheaths,,,,ManifestColumn
- blood,,,,ManifestColumn
-Abdominal Peritoneum,,,,ManifestColumn
+amygdala,,STRING,,ManifestColumn
+ amygdaloid complex,,STRING,,ManifestColumn
+ anterior cingulate cortex,,STRING,,ManifestColumn
+ angular gyrus,,STRING,,ManifestColumn
+ blood,,STRING,,ManifestColumn
+ bone marrow,,STRING,,ManifestColumn
+ Buccal Mucosa,,STRING,,ManifestColumn
+ Buffy Coat,,STRING,,ManifestColumn
+ caudate nucleus,,STRING,,ManifestColumn
+ cecum derived fecal material,,STRING,,ManifestColumn
+ cerebellar cortex,,STRING,,ManifestColumn
+ cerebellum,,STRING,,ManifestColumn
+ cerebral cortex,,STRING,,ManifestColumn
+ cortical plate,,STRING,,ManifestColumn
+ dorsal anterior cingulate cortex,,STRING,,ManifestColumn
+ dorsal pallium,,STRING,,ManifestColumn
+ Dorsal Root Ganglion,,STRING,,ManifestColumn
+ dorsolateral prefrontal cortex,,STRING,,ManifestColumn
+ dorsomedial prefrontal cortex,,STRING,,ManifestColumn
+ embryonic tissue,,STRING,,ManifestColumn
+ entorhinal cortex,,STRING,,ManifestColumn
+ fecal material,,STRING,,ManifestColumn
+ forebrain,,STRING,,ManifestColumn
+ frontal cortex,,STRING,,ManifestColumn
+ frontal lobe,,STRING,,ManifestColumn
+ frontal pole,,STRING,,ManifestColumn
+ fusiform gyrus,,STRING,,ManifestColumn
+ hippocampus,,STRING,,ManifestColumn
+ head of caudate nucleus,,STRING,,ManifestColumn
+ inferior frontal gyrus,,STRING,,ManifestColumn
+ inferior temporal cortex,,STRING,,ManifestColumn
+ inferior temporal gyrus,,STRING,,ManifestColumn
+ inferolateral temporal cortex,,STRING,,ManifestColumn
+ insula,,STRING,,ManifestColumn
+ insular cortex,,STRING,,ManifestColumn
+ lateral entorhinal cortex,,STRING,,ManifestColumn
+ left cerebral hemisphere,,STRING,,ManifestColumn
+ liver,,STRING,,ManifestColumn
+ mammillary body,,STRING,,ManifestColumn
+ medial dorsal nucleus of thalamus,,STRING,,ManifestColumn
+ medial entorhinal cortex,,STRING,,ManifestColumn
+ medial frontal cortex,,STRING,,ManifestColumn
+ medial ganglionic eminence,,STRING,,ManifestColumn
+ medial orbital frontal cortex,,STRING,,ManifestColumn
+ medial prefrontal cortex,,STRING,,ManifestColumn
+ meninges,,STRING,,ManifestColumn
+ midbrain,,STRING,,ManifestColumn
+ middle frontal gyrus,,STRING,,ManifestColumn
+ middle temporal gyrus,,STRING,,ManifestColumn
+ nerve tissue,,STRING,,ManifestColumn
+ Not Applicable,,STRING,,ManifestColumn
+ nucleus accumbens,,STRING,,ManifestColumn
+ occipital lobe,,STRING,,ManifestColumn
+ occipital visual cortex,,STRING,,ManifestColumn
+ olfactory neuroepithelium,,STRING,,ManifestColumn
+ orbitofrontal cortex,,STRING,,ManifestColumn
+ parahippocampal gyrus,,STRING,,ManifestColumn
+ parietal cortex,,STRING,,ManifestColumn
+ parietal lobe,,STRING,,ManifestColumn
+ plasma,,STRING,,ManifestColumn
+ posterior cingulate cortex,,STRING,,ManifestColumn
+ posteroinferior parietal cortex,,STRING,,ManifestColumn
+ posterior inferior parietal cortex,,STRING,,ManifestColumn
+ posterior superior temporal cortex,,STRING,,ManifestColumn
+ precentral gyrus,,STRING,,ManifestColumn
+ prefrontal cortex,,STRING,,ManifestColumn
+ primary auditory cortex,,STRING,,ManifestColumn
+ primary motor cortex,,STRING,,ManifestColumn
+ primary somatosensory cortex,,STRING,,ManifestColumn
+ primary tumor,,STRING,,ManifestColumn
+ primary visual cortex,,STRING,,ManifestColumn
+ putamen,,STRING,,ManifestColumn
+ right cerebral hemisphere,,STRING,,ManifestColumn
+ serum,,STRING,,ManifestColumn
+ splenocyte,,STRING,,ManifestColumn
+ striatum,,STRING,,ManifestColumn
+ subgenual anterior cingulate cortex,,STRING,,ManifestColumn
+ subgenual cingulate cortex,,STRING,,ManifestColumn
+ superior parietal lobe,,STRING,,ManifestColumn
+ superior temporal gyrus,,STRING,,ManifestColumn
+ temporal cortex,,STRING,,ManifestColumn
+ temporal lobe,,STRING,,ManifestColumn
+ temporal pole,,STRING,,ManifestColumn
+ thalamus,,STRING,,ManifestColumn
+ unspecified,,STRING,,ManifestColumn
+ ventricular zone,,STRING,,ManifestColumn
+ ventrolateral prefrontal cortex,,STRING,,ManifestColumn
+ VZ/SVZ,,STRING,,ManifestColumn
+ whole brain,,STRING,,ManifestColumn

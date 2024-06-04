@@ -1,15 +1,17 @@
-Key,Key Description,Valid Values,columnType,Parent,Module
-Biospecimen_human,Template for Biospecimen_human,,,Component,Template
-Biospecimen_non_Human,Template for Biospecimen_non_Human,,,Component,Template
-bsSeq,Template for bsSeq,,,Component,Template
-Genotyping_Human,Template for Genotyping_Human,,,Component,Template
-Individual_Human,Template for Individual_Human,,,Component,Template
-Individual_non_Human,Template for Individual_non_Human,,,Component,Template
-Metabolomics,Template for Metabolomics,,,Component,Template
-Metagenomics,Template for Metagenomics,,,Component,Template
-Microbiome,Template for Microbiome,,,Component,Template
-Phenotype_human,Template for Phenotype_human,,,Component,Template
-Proteomics,Template for Proteomics,,,Component,Template
-RNAseq,Template for RNAseq,,,Component,Template
-Whole_Genome_Sequencing,Template for Whole_Genome_Sequencing,,,Component,Template
-scRNAseq,Template for scRNAseq,,,Component,Template
+Key,Key Description,Valid Values,columnType,Parent,module
+assay_RNAseq_template,Template for RNAseq,,,Component,template
+assay_bsSeq_template,Template for bsSeq,,,Component,template
+assay_metabolomics_template,Template for Metabolomics,,,Component,template
+assay_metagenomics_template,Template for Metagenomics,,,Component,template
+assay_microbiome_template,Template for Microbiome,,,Component,template
+assay_phenotype_human_template,Template for Phenotype_human,,,Component,template
+assay_proteomics_template,Template for Proteomics,,,Component,template
+assay_scRNAseq_template,Template for scRNAseq,,,Component,template
+assay_whole_genome_sequencing_template,Template for Whole_Genome_Sequencing,,,Component,template
+biospecimen_human_template,Template for Biospecimen_human,,,Component,template
+biospecimen_non_human_template,Template for Biospecimen_non_Human,,,Component,template
+file_annotation_template,Base annotations for files in synapse,,,Component,template
+genotyping_human_template,Template for Genotyping_Human,,,Component,template
+individual_human_template,Template for Individual_Human,,,Component,template
+individual_non_human_template,Template for Individual_non_Human,,,Component,template
+study_folder_template,Annotations for study folders,,,Component,template

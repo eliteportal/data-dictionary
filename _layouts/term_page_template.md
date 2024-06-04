@@ -39,7 +39,7 @@ title: term
    "deferRender": true,
    "columnDefs": [
       {
-         targets: [3],
+         targets: [4],
          render : function(data, type, row, meta){
             if(type === 'display' & data != 'Sage Bionetworks'){
                return $('<a>')

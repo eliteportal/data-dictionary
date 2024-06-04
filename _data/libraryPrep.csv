@@ -1,25 +1,21 @@
 Key,Key Description,columnType,Source,Parent
-Chromium Single Cell 3',,,,ManifestColumn
- DNALibraryConstruction,,,,ManifestColumn
- EndItDNAEndRepairKit,,,,ManifestColumn
- KapaHyperPrep,,,,ManifestColumn
- MULTIseq,,,,ManifestColumn
- Not Specified,,,,ManifestColumn
- Not applicable,,,,ManifestColumn
- Not collected,,,,ManifestColumn
- OtherLibraryPrep,,,,ManifestColumn
- PCRfree,,,,ManifestColumn
- SPLITseq,,,,ManifestColumn
- STARRSeq,,,,ManifestColumn
- SureCell,,,,ManifestColumn
- Unknown,,,,ManifestColumn
- cellHashing,,,,ManifestColumn
- lncRNAenrichment,,,,ManifestColumn
- methylSeq,,,,ManifestColumn
- miRNAenrichment,,,,ManifestColumn
- multiome,,,,ManifestColumn
- polyAselection,,,,ManifestColumn
- proximity ligation,,,,ManifestColumn
- rRNAdepletion,,,,ManifestColumn
- totalRNA,,,,ManifestColumn
-amplicon,,,,ManifestColumn
+amplicon,,STRING,,ManifestColumn
+ cellHashing,,STRING,,ManifestColumn
+ Chromium Single Cell 3',,STRING,,ManifestColumn
+ DNALibraryConstruction,,STRING,,ManifestColumn
+ EndItDNAEndRepairKit,,STRING,,ManifestColumn
+ KapaHyperPrep,,STRING,,ManifestColumn
+ lncRNAenrichment,,STRING,,ManifestColumn
+ methylSeq,,STRING,,ManifestColumn
+ miRNAenrichment,,STRING,,ManifestColumn
+ multiome,,STRING,,ManifestColumn
+ MULTIseq,,STRING,,ManifestColumn
+ PCRfree,,STRING,,ManifestColumn
+ polyAselection,,STRING,,ManifestColumn
+ proximity ligation,,STRING,,ManifestColumn
+ rRNAdepletion,,STRING,,ManifestColumn
+ snIsoSeq,,STRING,,ManifestColumn
+ SPLITseq,,STRING,,ManifestColumn
+ STARRSeq,,STRING,,ManifestColumn
+ SureCell,,STRING,,ManifestColumn
+ totalRNA,,STRING,,ManifestColumn

@@ -1,3 +1,5 @@
+❗ As of 2024-07-17 the code that updates the EL metadata dictionary and publishes the GH pages website has been movved to https://github.com/eliteportal/data-models to simplify the maintanence. This repository may be revived and used again later but for now is not the source of the EL metadata dictionary.
+
 # EL Data Model
 
 This is the repository hosting [ELITE data model](https://github.com/Sage-Bionetworks/ELITE-data-models/blob/main/models/EL_data_model_v3.csv) and a set of [standardized metadata terms](https://github.com/nlee-sage/data_models_elite/tree/main/_data) that can be used to describe attributes in the data model. The data model defines attributes that are associated with a dataset type (e.g. clinical metadata) and their interdependencies. [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/) pulls the data model when generating metadata template and validates manifests against it. This repository also houses the pipelines and workflows to streamline data model update and metadata dictonary management.

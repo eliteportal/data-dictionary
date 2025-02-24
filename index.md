@@ -1,6 +1,11 @@
----
-redirect_to: "https://eliteportal.github.io/data-models/"
----
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=https://eliteportal.github.io/data-models/">
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://eliteportal.github.io/data-models/">click here</a>.</p>
+</body>
+</html>
 ---
 title: Home
 layout: home

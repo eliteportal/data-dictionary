@@ -1,4 +1,7 @@
 ---
+redirect_to: "https://eliteportal.github.io/data-models/"
+---
+---
 title: Home
 layout: home
 nav_order: 1
